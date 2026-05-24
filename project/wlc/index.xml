@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright C.V.Kimball 2013 -->
+<tei:TEI xmlns:j="http://jewishliturgy.org/ns/jlptei/2"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xml:lang="he">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title type="alt" xml:lang="en">Tanach</tei:title>
+            <tei:title type="alt" xml:lang="he">תנ״ך</tei:title>
+            <tei:title type="main" xml:lang="en">Unicode/XML Leningrad Codex</tei:title>
+      
+      
+      
+      
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <tei:distributor>
+               <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+            </tei:distributor>
+            <tei:idno type="urn">urn:x-opensiddur:text:bible:tanakh@wlc</tei:idno>
+            <tei:availability status="free">
+               <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+            </tei:availability>
+         </tei:publicationStmt>
+         <tei:sourceDesc>
+            <tei:bibl>
+               <tei:title>Unicode/XML Leningrad Codex</tei:title>
+               <tei:editor>Christopher V. Kimball</tei:editor>
+               <tei:edition>Version: UXLC 2.3</tei:edition>
+               <tei:publisher>Christopher V. Kimball</tei:publisher>
+               <tei:pubPlace>
+                  <tei:ref target="http://tanach.us">tanach.us</tei:ref>
+               </tei:pubPlace>
+            </tei:bibl>
+            <tei:bibl>
+               <tei:title>Hebrew Bible</tei:title>
+               <tei:title>Leningrad Codex</tei:title>
+               <tei:editor>Shemu'el ben Ya'akov</tei:editor>
+               <tei:editor>Aharon ben-Mosheh ben-Asher</tei:editor>
+               <tei:edition>Original document</tei:edition>
+        
+               <tei:publisher>Russian National Library (Saltykov-Shchedrin)</tei:publisher>
+               <tei:pubPlace>St. Petersburg (Leningrad)</tei:pubPlace>
+               <tei:date>1008</tei:date>
+        
+               <tei:idno type="Accession">Firkovich B 19 A</tei:idno>
+            </tei:bibl>
+            <tei:bibl>
+               <tei:title>The Leningrad Codex - A Facsimile Edition</tei:title>
+               <tei:editor>Freedman, David Noel</tei:editor>
+               <tei:editor>Beck, Astrid B.</tei:editor>
+               <tei:edition>First</tei:edition>
+        
+               <tei:publisher>Wm. B. Eerdmans Publishing Co.</tei:publisher>
+               <tei:pubPlace>Grand Rapids, MI</tei:pubPlace>
+               <tei:date>1998</tei:date>
+        
+               <tei:idno type="IBSN">0-8028-3786-7</tei:idno>
+            </tei:bibl>
+            <tei:bibl>
+               <tei:title>The Westminster Leningrad Codex</tei:title>
+               <tei:editor>Salisbury, Stephen K.</tei:editor>
+               <tei:edition>WLC 4.20</tei:edition>
+        
+               <tei:publisher>The J. Alan Groves Center for Advanced Biblical Research ("Groves Center").</tei:publisher>
+               <tei:pubPlace>2960 Church Rd.</tei:pubPlace>
+               <tei:pubPlace>Glenside, PA 19038</tei:pubPlace>
+               <tei:date>25 January 2016</tei:date>
+        
+               <tei:idno type="Unknown"/>
+            </tei:bibl>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+  
+  
+   </tei:teiHeader>
+   <tei:text>
+      <tei:body>
+         <tei:div corresp="urn:x-opensiddur:text:bible:tanakh">
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:judges"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:1_samuel"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:2_samuel"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:1_kings"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:2_kings"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:hosea"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:joel"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:amos"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:obadiah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jonah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:micah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:nahum"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:habakkuk"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:zephaniah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:haggai"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:zechariah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:malachi"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:1_chronicles"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:2_chronicles"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:job"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:proverbs"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:ruth"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:song_of_songs"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:ecclesiastes"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:lamentations"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:esther"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:daniel"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezra"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:nehemiah"/>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

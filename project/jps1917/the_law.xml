@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Law</tei:title>
+        <tei:title type="alt" xml:lang="he">תורה</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:tanakh@jps1917</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Public Domain Dedication 1.0</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:title>Bible (Jewish Publication Society 1917)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://en.wikisource.org">Wikisource</tei:ref>
+          </tei:distributor>
+          <tei:idno type="url">https://en.wikisource.org/wiki/Bible_(Jewish_Publication_Society_1917)</tei:idno>
+          <tei:date>2025-07-27</tei:date>
+        </tei:bibl>
+        <tei:bibl>
+          <tei:title type="main">The Holy Scriptures</tei:title>
+          <tei:title type="sub">According to the Masoretic Text: A New Translation With The Aid of Previous Versions And With Constant Consultation of Jewish Authorities</tei:title>
+          <tei:title xml:lang="he" type="alt">תורה נביאים וכתובים</tei:title>
+          <tei:edition>Third Impression, August 1919</tei:edition>
+          <tei:publisher>Jewish Publication Society of America</tei:publisher>
+          <tei:pubPlace>Philadelphia</tei:pubPlace>
+          <tei:date>1917</tei:date>
+          <tei:note>Lakeside Press, Chicago</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:the_law">
+        <tei:head>The Law</tei:head>
+        <j:transclude target="urn:x-opensiddur:text:bible:genesis"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:exodus"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:leviticus"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:numbers"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:deuteronomy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

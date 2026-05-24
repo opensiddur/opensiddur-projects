@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:j="http://jewishliturgy.org/ns/jlptei/2"
+         xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Verses of Song</tei:title>
+        <tei:title type="alt" xml:lang="he">פְּסוּקֵי דְּזִמְרָה</tei:title>
+        <tei:title type="sub" xml:lang="en">Pesukei Dezimra — English Translation</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translator</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/example-translator">Example Translator</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="mrk">Markup editor</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/example-editor">Example Editor</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:pesukei_dezimra@translation-example</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="translation_example_source_bibl">
+          <tei:title>Example Siddur in English</tei:title>
+          <tei:publisher>Open Siddur Project</tei:publisher>
+          <tei:pubPlace>Internet</tei:pubPlace>
+          <tei:date>2026</tei:date>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="en">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:pesukei_dezimra" n="pesukei_dezimra">
+        <tei:head>Verses of Song</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:pesukei_dezimra/barukh_sheamar" n="barukh_sheamar">
+          <tei:head>Blessed Is He Who Spoke</tei:head>
+          <tei:p>
+            Blessed is He who spoke, and the world came into being — blessed is He.
+            Blessed is He who maintains creation.
+            Blessed is He who says and does.
+            Blessed is He who decrees and fulfills.
+            Blessed is He who has mercy on the earth.
+            Blessed is He who has mercy on His creatures.
+            Blessed is He who pays good reward to those who fear Him.
+            Blessed is He who lives forever and endures to eternity.
+            Blessed is He who redeems and rescues — blessed is His name.
+          </tei:p>
+          <tei:p>
+            Blessed are You, <tei:hi rend="small-caps">Lord</tei:hi> our God, King of the universe —
+            the God, the merciful Father, praised by the mouth of His people,
+            lauded and glorified by the tongue of His devoted ones and servants.
+            Through the songs of David Your servant
+            we will praise You, <tei:hi rend="small-caps">Lord</tei:hi> our God, with praises and psalms;
+            we will exalt, laud, glorify, and proclaim Your name as King;
+            we will mention Your name and make You King,
+            our King, our God,
+            the Unique One, the Life of all worlds —
+            King, praised and glorified forever is His great name.
+            Blessed are You, <tei:hi rend="small-caps">Lord</tei:hi>, King exalted in praises.
+          </tei:p>
+        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei@translation-example"/>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:pesukei_dezimra/yishtabach" n="yishtabach">
+          <tei:head>Yishtabach</tei:head>
+          <tei:p>
+            May Your name be praised forever, our King —
+            the great and holy God and King in heaven and on earth.
+            For to You it is fitting, <tei:hi rend="small-caps">Lord</tei:hi> our God and God of our ancestors,
+            song and praise, hymn and psalm,
+            power and dominion, eternity, greatness and might,
+            praise and glory, holiness and kingship,
+            blessings and thanks from now until forever.
+            Blessed are You, <tei:hi rend="small-caps">Lord</tei:hi>, God and King,
+            great in praises, God of thanksgivings,
+            Master of wonders, who delights in songs of praise —
+            King, God, Life of the worlds.
+          </tei:p>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
