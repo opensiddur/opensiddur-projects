@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Writings</tei:title>
+        <tei:title type="alt" xml:lang="he">כתובים</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:tanakh:the_writings@miqra_al_pi_hamasorah</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:title xml:lang="he">מקרא על פי המסורה</tei:title>
+          <tei:editor>Avi Kadish</tei:editor>
+          <tei:distributor>
+            <tei:ref target="https://he.wikisource.org/wiki/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94#%D7%A8%D7%90%D7%A9">Hebrew Wikisource</tei:ref>
+          </tei:distributor>
+          <tei:idno type="url">https://he.wikisource.org/wiki/%D7%9E%D7%A7%D7%A8%D7%90_%D7%A2%D7%9C_%D7%A4%D7%99_%D7%94%D7%9E%D7%A1%D7%95%D7%A8%D7%94#%D7%A8%D7%90%D7%A9</tei:idno>
+          <tei:note xml:lang="en">Prepared by Avi Kadish, based on Hebrew Wikisource material; distributed via a public Google Sheet.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2">
+      <tei:div corresp="urn:x-opensiddur:text:bible:the_writings">
+        <tei:head xml:lang="en">The Writings</tei:head>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:proverbs"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:job"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:song_of_songs"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:ruth"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:lamentations"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:ecclesiastes"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:esther"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:daniel"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:ezra"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:nehemiah"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:chronicles_1"/>
+        <j:transclude target="urn:x-opensiddur:text:bible:chronicles_2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
