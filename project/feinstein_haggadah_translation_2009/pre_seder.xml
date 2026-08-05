@@ -1,0 +1,38 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Pre-Seder</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:pre_seder@feinstein_haggadah_translation_2009</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@feinstein_haggadah_translation_2009"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:pre_seder">
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:bedikat_chametz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:biur_chametz"/>
+        <j:conditional xml:id="cond_pre_seder_eruv_tavshilin">
+          <tei:note type="instruction">Prepared before a festival that runs into Shabbat — that is, when the festival falls on Friday.</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="eruv-tavshilin">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:eruv_tavshilin"/>
+        <j:endConditional target="#cond_pre_seder_eruv_tavshilin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

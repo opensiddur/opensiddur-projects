@@ -1,0 +1,135 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Haggadah for the Passover Seder</tei:title>
+        <tei:title type="sub" xml:lang="en">English translation</tei:title>
+        <tei:title type="alt" xml:lang="he">הגדה לסדר פסח</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:opensiddur.org/eve-feinstein">Dr. Eve Levavi Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Original English translation for the Open Siddur Project (2009)</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:haggadah@feinstein_haggadah_translation_2009</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:title>Original work</tei:title>
+          <tei:author ref="urn:x-opensiddur:opensiddur.org/eve-feinstein">Dr. Eve Levavi Feinstein</tei:author>
+          <tei:date when="2009">2009</tei:date>
+          <tei:note xml:lang="en">This English text is an original work composed for the Open Siddur Project. It is not a translation of Wolf Heidenheim's German translation from the 1822 haggadah. The Hebrew source text is published separately as heidenheim_haggadah_1822.</tei:note>
+        </tei:bibl>
+        <tei:bibl>
+          <tei:title>Publication source</tei:title>
+          <tei:ref target="https://opensiddur.org/compilations/table-guides-and-haggadot/passover-seder/haggadah-for-pesah-an-english-translation/">Haggadah for Pesah, English translation by Dr. Eve Feinstein (2009)</tei:ref>
+          <tei:date when="2013-03-17">Shared on Open Siddur 2013-03-17</tei:date>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:kadesh">
+        <tei:head>Sanctification of the Day</tei:head>
+        <j:conditional xml:id="cond_kadesh_vayechulu">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:milestone unit="paragraph" n="1" corresp="urn:x-opensiddur:text:haggadah:kadesh/1"/>
+        <tei:note type="instruction">On Shabbat begin here.</tei:note>
+        <tei:note type="instruction">Recite quietly:</tei:note>
+        <tei:p>And there was evening and there was morning,</tei:p>
+        <tei:note type="instruction">recite aloud:</tei:note>
+        <tei:p>the sixth day. The heavens and the earth and all their array were completed. On the seventh day, God completed the work that He had done, and God rested on the seventh day from all His labor that He had done. And God blessed the seventh day and sanctified it, for on it He rested from all the labor of creation that God had done.[1] Genesis 1:31-2:3</tei:p>
+        <j:endConditional target="#cond_kadesh_vayechulu"/>
+        <tei:milestone unit="paragraph" n="2" corresp="urn:x-opensiddur:text:haggadah:kadesh/2"/>
+        <tei:note type="instruction">On Yom Tov begin here:</tei:note>
+        <tei:p>Attention, everyone! Blessed are You, Adonai, our God, Sovereign of the universe, creator of the fruit of the vine.</tei:p>
+        <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:kadesh/3"/>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, who chose us from among all the nations, exalted us above people of every tongue, and sanctified us with His commandments. You have given us, Lord our God, with love</tei:p>
+        <j:conditional xml:id="cond_kadesh_shabbatot_limnuha">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">on Shabbat say:</tei:note>
+        <tei:p>Sabbaths for rest and</tei:p>
+        <j:endConditional target="#cond_kadesh_shabbatot_limnuha"/>
+        <tei:p>holidays for rejoicing, festivals and seasons for celebration, this</tei:p>
+        <j:conditional xml:id="cond_kadesh_yom_hashabbat">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">on Shabbat say:</tei:note>
+        <tei:p>Sabbath day and this</tei:p>
+        <j:endConditional target="#cond_kadesh_yom_hashabbat"/>
+        <tei:p>Festival of Matzot, season of our liberation <j:conditional xml:id="cond_kadesh_beahava"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>with love <j:endConditional target="#cond_kadesh_beahava"/>a holy convocation in remembrance of the exodus from Egypt. For you have chosen us and sanctified us from among all the nations,</tei:p>
+        <j:conditional xml:id="cond_kadesh_veshabbat">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">on Shabbat say:</tei:note>
+        <tei:p>and the Sabbath</tei:p>
+        <j:endConditional target="#cond_kadesh_veshabbat"/>
+        <tei:p>and Your holy days</tei:p>
+        <j:conditional xml:id="cond_kadesh_beahava_uvratzon">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">on Shabbat say:</tei:note>
+        <tei:p>with love and favor,</tei:p>
+        <j:endConditional target="#cond_kadesh_beahava_uvratzon"/>
+        <tei:p>joy and gladness you have bequeathed to us. Blessed are You, Adonai, who sanctifies</tei:p>
+        <j:conditional xml:id="cond_kadesh_mekadesh_hashabbat">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">on Shabbat say:</tei:note>
+        <tei:p>the Sabbath and</tei:p>
+        <j:endConditional target="#cond_kadesh_mekadesh_hashabbat"/>
+        <tei:p>Israel and the seasons.</tei:p>
+        <j:conditional xml:id="cond_kadesh_havdalah">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="motzaei-shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:milestone unit="paragraph" n="4" corresp="urn:x-opensiddur:text:haggadah:kadesh/4"/>
+        <tei:note type="instruction">Recite on Saturday night:</tei:note>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, creator of the light of fire. Blessed are You, Adonai, our God, Sovereign of the universe, who separates sacred from profane, light from darkness, Israel from the nations, and the seventh day from the six days of work. You have separated the sanctity of the Sabbath from the sanctity of festivals, and You have sanctified the seventh day from the six days of work. You have separated and sanctified Your people, Israel, with Your sanctity. Blessed are You, Adonai, who separates one sanctum from another.</tei:p>
+        <j:endConditional target="#cond_kadesh_havdalah"/>
+        <tei:milestone unit="paragraph" n="5" corresp="urn:x-opensiddur:text:haggadah:kadesh/5"/>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, who has kept us alive, sustained us, and brought us to this season.</tei:p>
+        <tei:note type="instruction">Drink the first cup of wine while leaning to the left.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

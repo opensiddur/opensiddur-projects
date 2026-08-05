@@ -1,0 +1,42 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Seder</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:seder@heidenheim_haggadah_1822</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@heidenheim_haggadah_1822#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="3r" to="40v"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:seder">
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:siman_maaseh_sedurim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:kadesh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:urechatz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:karpas"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:yachatz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:magid"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:rachtzah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:motzi_matzah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:maror"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:korech"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:shulchan_orech"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:tzafun"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:barech"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:hallel"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Pre-Seder</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:pre_seder@heidenheim_haggadah_1822</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@heidenheim_haggadah_1822#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="2r" to="3r"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:pre_seder">
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:bedikat_chametz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:biur_chametz"/>
+        <j:conditional xml:id="cond_pre_seder_eruv_tavshilin">
+          <tei:note type="instruction">כשחל יום טוב ביום שישי, מערבין ערב יום טוב</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="eruv-tavshilin">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:eruv_tavshilin"/>
+        <j:endConditional target="#cond_pre_seder_eruv_tavshilin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

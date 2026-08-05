@@ -1,0 +1,131 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Barech</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:barech@heidenheim_haggadah_1822</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@heidenheim_haggadah_1822#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="27r" to="30v"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:barech">
+        <tei:pb n="27v" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=54"/>
+        <tei:head>בָּרֵךְ</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:barech/psalm_126"/>
+        <j:conditional xml:id="cond_barech_zimmun">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="zimmun">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בזימון</tei:note>
+        <tei:milestone unit="paragraph" n="1" corresp="urn:x-opensiddur:text:haggadah:barech/1"/>
+        <tei:p>
+          <tei:choice>
+            <j:option xml:lang="he">הב לן ונברך</j:option>
+            <j:option xml:lang="yi">רבותי וויר וואָללן בענטשן</j:option>
+          </tei:choice>
+        </tei:p>
+        <tei:milestone unit="paragraph" n="2" corresp="urn:x-opensiddur:text:haggadah:barech/2"/>
+        <tei:p>יְהִי שֵׁם יְיָ מְבוֹרָךְ מֵעַתָּה וְעַד עוֹלָם׃</tei:p>
+        <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:barech/3"/>
+        <tei:p>בִּרְשׁוּת… נְבָרֵךְ <j:conditional xml:id="cond_barech_minyan_nevarech"><tei:fs type="opensiddur:quorum"><tei:f name="minyan"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>אֱלֹהֵֽינוּ<j:endConditional target="#cond_barech_minyan_nevarech"/> שֶׁאָכַֽלְנוּ מִשֶּׁלּוֹ</tei:p>
+        <tei:milestone unit="paragraph" n="4" corresp="urn:x-opensiddur:text:haggadah:barech/4"/>
+        <tei:p>בָּרוּךְ <j:conditional xml:id="cond_barech_minyan_baruch"><tei:fs type="opensiddur:quorum"><tei:f name="minyan"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>אֱלֹהֵֽינוּ<j:endConditional target="#cond_barech_minyan_baruch"/> שֶׁאָכַֽלְנוּ מִשֶּׁלּוֹ וּבְטוּבוֹ חָיִֽינוּ.</tei:p>
+        <j:conditional xml:id="cond_barech_not_eaten">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="present-not-eaten">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">מי שלא אכל אומר</tei:note>
+        <tei:milestone unit="paragraph" n="5" corresp="urn:x-opensiddur:text:haggadah:barech/5"/>
+        <tei:p>ברוך ומבורך שמו תמיד לעולם ועד</tei:p>
+        <j:endConditional target="#cond_barech_not_eaten"/>
+        <tei:milestone unit="paragraph" n="6" corresp="urn:x-opensiddur:text:haggadah:barech/6"/>
+        <tei:p>בָּרוּךְ הוּא וּבָרוּךְ שְׁמוֹ׃</tei:p>
+        <j:endConditional target="#cond_barech_zimmun"/>
+        <tei:milestone unit="paragraph" n="7" corresp="urn:x-opensiddur:text:haggadah:barech/7"/>
+        <tei:p>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם הַזָּן אֶת־הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ בְּחֵן בְּחֶֽסֶד וּבְרַחֲמִים הוּא־נוֹתֵן לֶֽחֶם לְכָׇל־בָּשָׂר כִּי לְעוֹלָם חַסְדּוֹ׃ וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא־חָֽסַר לָֽנוּ וְאַל יֶחְסַר־לָֽנוּ מָזוֹן <tei:pb n="28r" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=55"/>לְעוֹלָם וָעֶד׃ בַּעֲבוּר שְׁמוֹ הַגָּדוֹל כִּי הוּא זָן וּמְפַרְנֵס לַכֹּל וּמֵטִיב לַכֹּל וּמֵכִין מָזוֹן לְכָׇל־בְּרִיּוֹתָיו אֲשֶׁר בָּרָא בָּרוּךְ אַתָּה יְיָ הַזָּן אֶת־הַכֹּל׃</tei:p>
+        <tei:milestone unit="paragraph" n="8" corresp="urn:x-opensiddur:text:haggadah:barech/8"/>
+        <tei:p>נֽוֹדֶה לְּךָ יְיָ אֱלֹהֵֽינוּ עַל שֶׁהִנְחַֽלְתָּ לַאֲבוֹתֵֽינוּ אֶֽרֶץ חֶמְדָּה טוֹבָה וּרְחָבָה וְעַל שֶׁהוֹצֵאתָֽנוּ יְיָ אֱלֹהֵֽינוּ מֵאֶֽרֶץ מִצְרַֽיִם וּפְדִיתָֽנוּ מִבֵּית עֲבָדִים וְעַל בְּרִיתְךָ שֶׁחָתַֽמְתָּ בִּבְשָׂרֵֽינוּ וְעַל תּוֹרָתְךָ שֶׁלִּמַדְתָּנוּ וְעַל חֻקֶּֽךָ שֶׁהוֹדַעְתָּֽנוּ וְעַל חַיִּים חֵן וָחֶֽסֶד שֶׁחוֹנַנְתָּֽנוּ וְעַל אֲכִילַת מָזוֹן שָׁאַתָּה זָן וּמְפַרְנֵס אוֹתָֽנוּ תָּמִיד בְּכָׇל־יוֹם וּבְכָׇל־עֵת וּבְכָׇל שָׁעָה׃</tei:p>
+        <tei:milestone unit="paragraph" n="9" corresp="urn:x-opensiddur:text:haggadah:barech/9"/>
+        <tei:p>וְעַל הַכֹּל יְיָ אֱלֹהֵֽינוּ אֲנַֽחְנוּ מוֹדִים לָךְ וּמְבָרְכִים אוֹתָךְ יִתְבָּרַךְ שִׁמְךָ בְּפִי כָׇּל־חַי תָּמִיד לְעוֹלָם וָעֶד׃ כַּכָּתוּב וְאָכַלְתָּ֖ וְשָׂבָ֑עְתָּ וּבֵֽרַכְתָּ֙ אֶת־יְהוָ֣ה אֱלֹהֶ֔יךָ עַל־הָאָ֥רֶץ הַטֹּבָ֖ה אֲשֶׁ֥ר נָֽתַן־לָֽךְ בָּרוּךְ אַתָּה יְיָ עַל־הָאָֽרֶץ וְעַל־הַמָּזוֹן׃</tei:p>
+        <tei:milestone unit="paragraph" n="10" corresp="urn:x-opensiddur:text:haggadah:barech/10"/>
+        <tei:p>רַחֵם יְיָ אֱלֹהֵֽינוּ עַל־יִשְׂרָאֵל עַמֶּֽךָ וְעַל יְרוּשָׁלַֽ͏ִם עִירֶֽךָ וְעַל צִיּוֹן מִשְׁכַּן כְּבוֹדֶֽךָ וְעַל מַלְכוּת בֵּית דָּוִד <tei:pb n="28v" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=56"/>מְשִׁיחֶֽךָ וְעַל־הָבַּֽיִת הַגָּדוֹל וְהַקָּדוֹשׁ שֶׁנִּקְרָא שִׁמְךָ עָלָיו׃</tei:p>
+        <tei:milestone unit="paragraph" n="11" corresp="urn:x-opensiddur:text:haggadah:barech/11"/>
+        <tei:p>אֱלֹהֵֽינוּ אָבִֽינוּ רְעֵֽנוּ זוּנֵֽנוּ פַרְנְסֵֽנוּ וְכַלְכְּלֵֽנוּ וְהַרְוִיחֵֽנוּ וְהַרְוַח־לָנוּ יְיָ אֱלֹהֵֽינוּ מְהֵרָה מִכָׇּל־צָרוֹתֵֽינוּ וְנָא אַל־תַּצְרִיכֵֽנוּ יְיָ אֱלֹהֵֽינוּ לֹא לִידֵי מַתְּנַת בָּשָׂר וָדָם וְלֹא לִידֵי הַלְוָאָתָם כִּי אִם לְיָדְךָ הַמְּלֵאָה הַפְּתוּחָה הַקְּדוֹשָׁה וְהָרְחָבָה שֶׁלֹּא נֵבוֹשׁ וְלֹא נִכָּלֵם לְעוֹלָם וָעֶד׃</tei:p>
+        <j:conditional xml:id="cond_barech_retzeh">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בשבת מוסיפין</tei:note>
+        <tei:milestone unit="paragraph" n="12" corresp="urn:x-opensiddur:text:haggadah:barech/12"/>
+        <tei:p>רְצֵה וְהַחֲלִצֵֽנוּ יְיָ אֱלֹהֵֽינוּ בְּמִצְווֹתֶֽיךָ וּבְמִצְוַת יוֹם הַשְּׁבִיעִי הַשַּׁבָּת הַגָּדוֹל וְהַקָּדוֹשׁ הַזֶּה כִּי יוֹם זֶה גָּדוֹל וְקָדוֹשׁ הוּא לְפָנֶֽיךָ לִשְׁבָּת־בּוֹ וְלָנֽוּחַ בּוֹ בְּאַהֲבָה כְּמִצְוַת רְצוֹנֶֽךָ בִּרְצוֹנְךָ הָנִֽיחַ לָֽנוּ יְיָ אֱלֹהֵֽינוּ שֶׁלֹּא תְהִי צָרָה וְיָגוֹן וַאֲנָחָה בְּיוֹם מְנוּחָתֵֽנוּ וְהַרְאֵֽנוּ יְיָ אֱלֹהֵֽינוּ בְּנֶחָמַת צִיּוֹן עִירֶֽךָ וּבְבִנְיַן יְרוּשָׁלַֽ͏ִם עִיר קָׇדְשֶֽׁךָ כִּי אַתָּה הוּא בַּֽעַל הַיְשׁוּעוֹת וּבַֽעַל הַנֶּחָמוֹת׃</tei:p>
+        <j:endConditional target="#cond_barech_retzeh"/>
+        <tei:milestone unit="paragraph" n="13" corresp="urn:x-opensiddur:text:haggadah:barech/13"/>
+        <tei:p>אֶלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ. יַעֲלֶה וְיָבֹא וְיַגִּֽיעַ וְיֵרָאֶה וְיֵרָצֶה וְיִשָּׁמַע וְיִפָּקֵד וְיִזָּכֵר זִכְרוֹנֵֽנוּ וּפִקְדּוֹנֵֽנוּ וְזִכְרוֹן אֲבוֹתֵֽינוּ. וְזִכְרוֹן מָשִֽׁיחַ בֶּן דָּוִד עַבְדֶּֽךָ. וְזִכְרוֹן יְרוּשָׁלַֽיִם עִיר קָׇדְשֶֽׁךָ. וְזִכְרוֹן כָׇּל־עַמְּךָ בֵּית יִשְׂרָאֵל לְפָנֶֽיךָ. לִפְלֵיטָה לְטוֹבָה לְחֵן וּלְחֶֽסֶד וּלְרַחֲמִים לְחַיִּים וּלְשָׁלוֹם בְּיוֹם <tei:pb n="29r" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=57"/>חַג הַמַּצּוֹת הַזֶּה. זׇָכְרֵֽנוּ יְיָ אֱלֹהֵֽינוּ בּוֹ לְטוֹבָה. וּפָׇקְדֵֽנוּ בוֹ לִבְרָכָה. וְהוֹשִׁיעֵֽנוּ בוֹ לְחַיִּים׃ וּבִדְבַר יְשׁוּעָה וְרַחֲמִים חוּס וְחָׇנֵּֽנוּ וְרַחֵם עָלֵֽינוּ וְהוֹשִׁיעֵֽנוּ כִּי אֵלֶֽיךָ עֵינֵֽינוּ כִּי אֵל מֶֽלֶךְ חַנּוּן וְרַחוּם אָֽתָּה׃</tei:p>
+        <tei:milestone unit="paragraph" n="14" corresp="urn:x-opensiddur:text:haggadah:barech/14"/>
+        <tei:p>וּבְנֵה יְרוּשָׁלַֽיִם עִיר הַקֹּֽדֶשׁ בִּמְהֵרָה בְּיָמֵֽינוּ בָּרוּךְ אַתָּה יְיָ בֹּנֵה בְרַחֲמָיו יְרוּשָׁלָֽיִם אָמֵן׃</tei:p>
+        <tei:milestone unit="paragraph" n="15" corresp="urn:x-opensiddur:text:haggadah:barech/15"/>
+        <tei:p>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם הָאֵל אָבִֽינוּ מַלְכֵּֽנוּ אַדִּירֵֽנוּ בּוֹרְאֵֽנוּ גֹאֲלֵֽנוּ יוֹצְרֵֽנוּ קְדוֹשֵֽׁנוּ קְדוֹשׁ יַעֲקֹב רוֹעֵֽנוּ רוֹעֵה יִשְׂרָאֵל הַמֶּֽלֶךְ הַטוֹב וְהַמֵּטִיב לַכֹּל שֶׁבְּכָׇל יוֹם וָיוֹם הוּא הֵטִיב הוּא מֵטִיב הוּא יֵטִיב לָֽנוּ׃ הוּא גְמָלָֽנוּ הוּא גּוֹמְלֵֽנוּ הוּא יִגְמְלֵֽנוּ לָעַד לְחֵן לְחֶֽסֶד וּלְרַחֲמִים וּלְרֶֽוַח הַצָּלָה וְהַצְלָחָה בְּרָכָה וִישׁוּעָה נֶחָמָה פַּרְנָסָה וְכַלְכָּלָה וְרַחֲמִים וְחַיִּים וְשָׁלוֹם וְכָׇל־טוֹב וּמִכָׇּל־טוֹב אַל יְחַסְּרֵֽנוּ׃</tei:p>
+        <tei:milestone unit="paragraph" n="16" corresp="urn:x-opensiddur:text:haggadah:barech/16"/>
+        <tei:p>הָרַחֲמָן. הוּא יִמְלוֹךְ עָלֵֽינוּ לְעוֹלָם וָעֶד׃</tei:p>
+        <tei:milestone unit="paragraph" n="17" corresp="urn:x-opensiddur:text:haggadah:barech/17"/>
+        <tei:p>הָרַחֲמָן. הוּא יִתְבָּרַךְ בַּשָּׁמַֽיִם וּבָאָֽרֶץ׃</tei:p>
+        <tei:milestone unit="paragraph" n="18" corresp="urn:x-opensiddur:text:haggadah:barech/18"/>
+        <tei:p>הָרַחֲמָן הוּא יִשְׁתַּבַּח לְדוֹר דּוֹרִים וְיִתְפָּאַר <tei:pb n="29v" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=58"/>בָּֽנוּ לְנֵֽצַח נְצָחִים וְיִתְהַדַּר בָּֽנוּ לָעַד וּלְעוֹלְמֵי עוֹלָמִים׃</tei:p>
+        <tei:milestone unit="paragraph" n="19" corresp="urn:x-opensiddur:text:haggadah:barech/19"/>
+        <tei:p>הָרַחֲמָן הוּא יְפַרְנְסֵֽנוּ בְּכָבוֹד׃</tei:p>
+        <tei:milestone unit="paragraph" n="20" corresp="urn:x-opensiddur:text:haggadah:barech/20"/>
+        <tei:p>הָרַחֲמָן הוּא יִשְׁבּוֹר עֻלֵּֽנוּ מֵעַל צַוָּארֵֽנוּ וְהוּא יוֹלִיכֵֽנוּ קוֹמְמִיּוּת לְאַרְצֵֽנוּ׃</tei:p>
+        <tei:milestone unit="paragraph" n="21" corresp="urn:x-opensiddur:text:haggadah:barech/21"/>
+        <tei:p>הָרַחֲמָן הוּא יִשְׁלַח בְּרָכָה מְרֻבָּה בַּבַּֽיְת הַזֶּה וְעַל שֻׁלְחָן זֶה שֶׁאָכַֽלְנוּ עָלָיו׃</tei:p>
+        <tei:milestone unit="paragraph" n="22" corresp="urn:x-opensiddur:text:haggadah:barech/22"/>
+        <tei:p>הָרַחֲמָן הוּא יִשְׁלַח לָֽנוּ אֶת אֵלִיָּֽהוּ הַנָּבִיא זָכוּר לַטּוֹב וִיבַשֶּׂר־לָֽנוּ בְּשׂוֹרוֹת טוֹבוֹת יְשׁוּעוֹת וְנֶחָמוֹת׃</tei:p>
+        <tei:milestone unit="paragraph" n="23" corresp="urn:x-opensiddur:text:haggadah:barech/23"/>
+        <tei:p>הָרַחֲמָן הוּא יְבָרֵךְ אֶת <j:conditional xml:id="cond_barech_avi"><tei:fs type="opensiddur:household"><tei:f name="at-fathers-home"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>אָבִי<j:endConditional target="#cond_barech_avi"/> מוֹרִי בַּֽעַל הַבַּֽיִת הַזֶּה וְאֶת <j:conditional xml:id="cond_barech_imi"><tei:fs type="opensiddur:household"><tei:f name="at-mothers-home"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>אִמִּי<j:endConditional target="#cond_barech_imi"/> מוֹרָתִי בַּעְלַת הַבַּֽיִת הַזֶּה אוֹתָם וְאֶת בֵּיתָם וְאֶת זַרְעָם וְאֶת כָׇּל אֲשֶׁר לָהֶם אוֹתָֽנוּ וְאֶת כָׇּל אֲשֶׁר לָֽנוּ כְּמוֹ שֶׁנִּתְבָּרְכוּ אֲבוֹתֵֽינוּ אַבְרָהָם יִצְחָק וְיַעֲקוֹב בַּכֹּל מִכֹּל כֹּל כֵּן יְבָרֵךְ אוֹתָֽנוּ כֻּלָּֽנוּ יַֽחַד בִּבְרָכָה שְׁלֵמָה וְנֹאמַר אָמֵן׃</tei:p>
+        <tei:milestone unit="paragraph" n="24" corresp="urn:x-opensiddur:text:haggadah:barech/24"/>
+        <tei:p>בַּמָּרוֹם יְלַמְּדוּ עֲלֵיהֶם וְעָלֵֽינוּ זְכוּת שֶׁתְּהִי לְמִשְׁמֶֽרֶת שָׁלוֹם וְנִשָּׂא בְרָכָה מֵאֵת יְיָ וּצְדָקָה מֵאֶלֹהֵי יִשְׁעֵֽנוּ׃ וְנִמְצָא־חֵן וְשֵֽׂכֶל טוֹב בְּעֵינֵי אֱלֹהִים וְאָדָם׃</tei:p>
+        <j:conditional xml:id="cond_barech_harachaman_shabbat">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בשבת מוסיפין</tei:note>
+        <tei:milestone unit="paragraph" n="25" corresp="urn:x-opensiddur:text:haggadah:barech/25"/>
+        <tei:p>הָרַחֲמָן הוּא יַנְחִילֵֽנוּ יוֹם שֶׁכֻּלּוֹ שַׁבָּת וּמְנוּחָה לְחַיֵּי הָעוֹלָמִים׃</tei:p>
+        <j:endConditional target="#cond_barech_harachaman_shabbat"/>
+        <tei:milestone unit="paragraph" n="26" corresp="urn:x-opensiddur:text:haggadah:barech/26"/>
+        <tei:p><tei:pb n="30r" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=59"/>הָרַחֲמָן הוּא יַנְחִילֵֽנוּ יוֹם שֶׁכֻּלּוֹ טוֹב׃</tei:p>
+        <tei:milestone unit="paragraph" n="27" corresp="urn:x-opensiddur:text:haggadah:barech/27"/>
+        <tei:p>הָרַחֲמָן הוּא יְזַכֵּֽנוּ לִיְמוֹת הַמָּשִֽׁיחַ וּלְחַיֵּי הָעוֹלָם הַבָּא׃ מִגְדֹּל יְשׁוּעוֹת מַלְכּוֹ וְעֹשֶׂה חֶֽסֶד לִמְשִׁיחוֹ לְדָוִד וּלְזַרְעוֹ עַד עוֹלָם׃ עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָׁלוֹם עָלֵֽינוּ וְעַל כָׇּל־יִשְׂרָאֵל וְאִמְרוּ אָמֵן׃</tei:p>
+        <tei:milestone unit="paragraph" n="28" corresp="urn:x-opensiddur:text:haggadah:barech/28"/>
+        <tei:p>יְר֣אוּ אֶת־יְהוָ֣ה קְדֹשָׁ֑יו כִּי־אֵ֥ין מַ֝חְס֗וֹר לִירֵאָֽיו׃ כְּ֭פִירִים רָשׁ֣וּ וְרָעֵ֑בוּ וְדֹרְשֵׁ֥י יְ֝הוָ֗ה לֹא־יַחְסְר֥וּ כׇל־טֽוֹב׃ הוֹד֣וּ לַיהוָ֣ה כִּי־ט֑וֹב כִּ֖י לְעוֹלָ֣ם חַסְדּֽוֹ׃ פּוֹתֵ֥חַ אֶת־יָדֶ֑ךָ וּמַשְׂבִּ֖יעַ לְכׇל־חַ֣י רָצֽוֹן׃ בָּרוּךְ הַגֶּבֶר אֲשֶׁר יִבְטַח בַּיהוָה וְהָיָה יְהוָה מִבְטַחוֹ׃ נַ֤עַר׀ הָיִ֗יתִי גַּם־זָ֫קַ֥נְתִּי וְֽלֹא־רָ֭אִיתִי צַדִּ֣יק נֶעֱזָ֑ב וְ֝זַרְע֗וֹ מְבַקֶּשׁ־לָֽחֶם׃ יְֽהוָ֗ה עֹ֖ז לְעַמּ֣וֹ יִתֵּ֑ן יְהוָ֓ה׀ יְבָרֵ֖ךְ אֶת־עַמּ֣וֹ בַשָּׁלֽוֹם׃</tei:p>
+        <tei:milestone unit="paragraph" n="29" corresp="urn:x-opensiddur:text:haggadah:barech/29"/>
+        <tei:p>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּֽפֶן׃</tei:p>
+        <tei:milestone unit="paragraph" n="30" corresp="urn:x-opensiddur:text:haggadah:barech/30"/>
+        <tei:p>שְׁפֹ֤ךְ חֲמָתְךָ֨ אֶֽל־הַגּוֹיִם֮ אֲשֶׁ֪ר לֹא־יְדָ֫ע֥וּךָ <tei:pb n="30v" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=60"/>וְעַ֥ל מַמְלָכ֑וֹת אֲשֶׁ֥ר בְּ֝שִׁמְךָ֗ לֹ֣א קָרָֽאוּ כִּ֭י אָכַ֣ל אֶֽת־יַעֲקֹ֑ב וְֽאֶת־נָוֵ֥הוּ הֵשַֽׁמּוּ שְׁפׇךְ־עֲלֵיהֶ֥ם זַעְמֶ֑ךָ וַחֲר֥וֹן אַ֝פְּךָ֗ יַשִּׂיגֵֽם תִּרְדֹּ֤ף בְּאַף֙ וְתַשְׁמִידֵ֔ם מִתַּ֖חַת שְׁמֵ֥י יְהוָֽה</tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Nirtzah</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:nirtzah@heidenheim_haggadah_1822</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@heidenheim_haggadah_1822#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="35v" to="40v"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:nirtzah">
+        <tei:head>נִרְצָה</tei:head>
+        <j:conditional xml:id="cond_nirtzah_first_night">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בליל ראשון</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/it_happened_at_midnight"/>
+        <j:endConditional target="#cond_nirtzah_first_night"/>
+        <j:conditional xml:id="cond_nirtzah_second_night">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בליל שני</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/you_shall_say_pesach"/>
+        <j:endConditional target="#cond_nirtzah_second_night"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/ki_lo_na_eh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/lshana_haba_ah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/hagafen_fourth_cup"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/al_hagefen"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/chasal_siddur_pesach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/adir_hu"/>
+        <j:conditional xml:id="cond_nirtzah_sefirat_haomer">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בליל שני סופרים העומר</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/sefirat_haomer"/>
+        <j:endConditional target="#cond_nirtzah_sefirat_haomer"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/echad_mi_yodea"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:nirtzah/chad_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

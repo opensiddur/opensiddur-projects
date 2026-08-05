@@ -1,0 +1,175 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Barech</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:barech@feinstein_haggadah_translation_2009</tei:idno>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="urn:x-opensiddur:text:haggadah:haggadah@feinstein_haggadah_translation_2009"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:barech">
+        <tei:head>Blessing After Meals</tei:head>
+        <tei:note type="instruction">After eating the afikoman, fill the third cup and use it to recite the blessing after meals.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:barech/psalm_126"/>
+        <j:conditional xml:id="cond_barech_zimmun">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="zimmun">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:milestone unit="paragraph" n="1" corresp="urn:x-opensiddur:text:haggadah:barech/1"/>
+        <tei:note type="instruction">If three or more have eaten together, a zimun is recited, as follows:</tei:note>
+        <tei:note type="instruction">The leader says:</tei:note>
+        <tei:p>Let us recite the blessing.</tei:p>
+        <tei:milestone unit="paragraph" n="2" corresp="urn:x-opensiddur:text:haggadah:barech/2"/>
+        <tei:note type="instruction">Others respond:</tei:note>
+        <tei:p>May the name of Adonai be blessed forever and ever!</tei:p>
+        <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:barech/3"/>
+        <tei:note type="instruction">The leader says:</tei:note>
+        <tei:p>With the permission of … let us bless</tei:p>
+        <j:conditional xml:id="cond_barech_minyan_nevarech">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">if ten are present, add:</tei:note>
+        <tei:p>our God,</tei:p>
+        <j:endConditional target="#cond_barech_minyan_nevarech"/>
+        <tei:p>the One of whose [bounty] we have eaten.</tei:p>
+        <tei:milestone unit="paragraph" n="4" corresp="urn:x-opensiddur:text:haggadah:barech/4"/>
+        <tei:note type="instruction">The leader repeats:</tei:note>
+        <tei:p>Blessed is the One</tei:p>
+        <j:conditional xml:id="cond_barech_minyan_baruch">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">if ten are present, add:</tei:note>
+        <tei:p>our God,</tei:p>
+        <j:endConditional target="#cond_barech_minyan_baruch"/>
+        <tei:p>of whose [bounty] we have eaten, and by whose goodness we live.</tei:p>
+        <tei:milestone unit="paragraph" n="5" corresp="urn:x-opensiddur:text:haggadah:barech/5"/>
+        <j:conditional xml:id="cond_barech_not_eaten">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="present-not-eaten">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">Alternately, if people are present who did not eat (?!) they respond:</tei:note>
+        <tei:p>May His name be greatly blessed always, forever and ever.</tei:p>
+        <j:endConditional target="#cond_barech_not_eaten"/>
+        <tei:milestone unit="paragraph" n="6" corresp="urn:x-opensiddur:text:haggadah:barech/6"/>
+        <tei:note type="instruction">Everyone together:</tei:note>
+        <tei:p>Blessed be He and blessed be His name.</tei:p>
+        <j:endConditional target="#cond_barech_zimmun"/>
+        <tei:milestone unit="paragraph" n="7" corresp="urn:x-opensiddur:text:haggadah:barech/7"/>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, Who feeds the whole world in His goodness, in graciousness and kindness and mercy. He gives food to all flesh, for his kindness is everlasting. Because of His abundant goodness we have never lacked. May we never lack food in the future, for the sake of His great Name. For He is God who feeds and provides for everyone, brings goodness to everyone, and prepares food for all His creations that He created. Blessed are You, Adonai, who gives food to everyone.</tei:p>
+        <tei:milestone unit="paragraph" n="8" corresp="urn:x-opensiddur:text:haggadah:barech/8"/>
+        <tei:p>We thank You, Adonai, our God, for granting to our ancestors a good and bounteous land; and because You brought us, Adonai, our God, out of Egypt and rescued us from the house of slavery; and for Your covenant, which you sealed in our flesh; and for Your Torah, which You taught us; and for Your laws, which You made known to us; and for life, graciousness, and kindness, which You granted to us; and for food, with which You sustain us and provide for us always, and every day and every time and at every hour.</tei:p>
+        <tei:milestone unit="paragraph" n="9" corresp="urn:x-opensiddur:text:haggadah:barech/9"/>
+        <tei:p>For everything, Adonai, our God, we thank You and bless You. May Your name be blessed in the mouth of every living being always, forever and ever! As scripture says: “You will eat and be satisfied, and you will bless Adonai your God for the good land that He gave you.”[46] Deut. 8:10 Blessed are You, Adonai, for the land and for the food.</tei:p>
+        <tei:milestone unit="paragraph" n="10" corresp="urn:x-opensiddur:text:haggadah:barech/10"/>
+        <tei:p>Have mercy, Adonai, our God, on Israel Your people; on Jerusalem Your city; on Ẓíōn , the dwelling place of Your Glory; on the kingdom of the family of David, Your anointed one; and on the great and holy temple over which Your Name is proclaimed.</tei:p>
+        <tei:milestone unit="paragraph" n="11" corresp="urn:x-opensiddur:text:haggadah:barech/11"/>
+        <tei:p>Our God, our Father, our Shepherd, our Feeder, our Provider, our Sustainer, and our Deliverer: Deliver us, Adonai, our God, speedily from all our distresses. Please, do not make us dependent Adonai, our God, on the charity of flesh and blood or on their loans. For it is in Your power of holiness and generosity to see that we are never shamed or humiliated for ever and always.</tei:p>
+        <j:conditional xml:id="cond_barech_retzeh">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:milestone unit="paragraph" n="12" corresp="urn:x-opensiddur:text:haggadah:barech/12"/>
+        <tei:note type="instruction">On Shabbat add:</tei:note>
+        <tei:p>Take favor in Your commandments, Adonai, our God, and help us fulfill them, particularly the commandment of the seventh day, this great and holy Sabbath. For it is a great and holy day before You for ceasing all labor and resting, with love, in accordance with the commandments in which you take favor. May it be Your will, Adonai, our God, that we be spared from distress, suffering, and hardship on our day of rest. Allow us to see, Adonai, our God, the comforting of Ẓíōn , Your city, and the rebuilding of Jerusalem, Your holy city. For You are Master of Salvation and Master of Comfort.</tei:p>
+        <j:endConditional target="#cond_barech_retzeh"/>
+        <tei:milestone unit="paragraph" n="13" corresp="urn:x-opensiddur:text:haggadah:barech/13"/>
+        <tei:p>Our God and God of our ancestors: May our memory rise up and come before You, and may it be regarded favorably by You, along with the memory of our ancestors, the memory of the anointed one, descendent of Your servant David, the memory of Jerusalem Your holy city, and the memory of all Your people, the family of Israel. May we be remembered for salvation, goodness, graciousness, mercy, and life on this festival of Matsot. Remember us for good and for blessing on this day, and grant us the salvation of life. With regard to salvation and mercy, act graciously toward us, have mercy on us, and save us, for we look to You, because You are a gracious and merciful God.</tei:p>
+        <tei:milestone unit="paragraph" n="14" corresp="urn:x-opensiddur:text:haggadah:barech/14"/>
+        <tei:p>May the holy city of Jerusalem be rebuilt speedily in our day. Blessed are You, Adonai, Merciful Rebuilder of Jerusalem. Amen.</tei:p>
+        <tei:milestone unit="paragraph" n="15" corresp="urn:x-opensiddur:text:haggadah:barech/15"/>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, God, our Father, our Sovereign, our Mighty One, our Creator, our Redeemer, our Fashioner, our Holy One, the Holy One of Jacob, our Shepherd, Shepherd of Israel, the good Sovereign who bestows goodness on everyone. For every day He bestowed goodness, He bestows goodness, and He will bestow goodness on us; He granted us favor, He grants us favor, and He will grant us favor forever. For graciousness, kindness, and mercy; for rescuing, saving, bestowing blessing, salvation, comfort, provision, sustenance, mercy, life, peace, and everything good, [we bless Him.] May He never cause us to lack anything good!</tei:p>
+        <tei:milestone unit="paragraph" n="16" corresp="urn:x-opensiddur:text:haggadah:barech/16"/>
+        <tei:p>May the Merciful One reign over us forever and ever.</tei:p>
+        <tei:milestone unit="paragraph" n="17" corresp="urn:x-opensiddur:text:haggadah:barech/17"/>
+        <tei:p>May the Merciful One be blessed in heaven and on earth.</tei:p>
+        <tei:milestone unit="paragraph" n="18" corresp="urn:x-opensiddur:text:haggadah:barech/18"/>
+        <tei:p>May the Merciful One be praised from generation to generation and be glorified among us in perpetuity.</tei:p>
+        <tei:milestone unit="paragraph" n="19" corresp="urn:x-opensiddur:text:haggadah:barech/19"/>
+        <tei:p>May the Merciful One provide for us with dignity.</tei:p>
+        <tei:milestone unit="paragraph" n="20" corresp="urn:x-opensiddur:text:haggadah:barech/20"/>
+        <tei:p>May the Merciful One break the yoke on our necks and lead us to our land in pride.</tei:p>
+        <tei:milestone unit="paragraph" n="21" corresp="urn:x-opensiddur:text:haggadah:barech/21"/>
+        <tei:p>May the Merciful One send abundant blessing to this house and this table upon which we have eaten.</tei:p>
+        <tei:milestone unit="paragraph" n="22" corresp="urn:x-opensiddur:text:haggadah:barech/22"/>
+        <tei:p>May the Merciful One send us Elijah the prophet, of blessed memory, and may he bring us good tidings of salvation and consolation.</tei:p>
+        <tei:milestone unit="paragraph" n="23" corresp="urn:x-opensiddur:text:haggadah:barech/23"/>
+        <tei:p>May the Merciful One bless</tei:p>
+        <j:conditional xml:id="cond_barech_avi">
+          <tei:fs type="opensiddur:household">
+            <tei:f name="at-fathers-home">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">at one’s father’s home, add:</tei:note>
+        <tei:p>my father,</tei:p>
+        <j:endConditional target="#cond_barech_avi"/>
+        <tei:p>my teacher, the master of this house,</tei:p>
+        <j:conditional xml:id="cond_barech_imi">
+          <tei:fs type="opensiddur:household">
+            <tei:f name="at-mothers-home">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">at one’s mother’s home, add:</tei:note>
+        <tei:p>and my mother,</tei:p>
+        <j:endConditional target="#cond_barech_imi"/>
+        <tei:p>my teacher, the mistress of this house, along with their household and all that is theirs. And [may He bless] us and all that is ours. As He blessed our ancestors, Abraham, Isaac, and Jacob with everything, so may He bless us, all of us together, with a complete blessing. And let us say Amen.</tei:p>
+        <tei:milestone unit="paragraph" n="24" corresp="urn:x-opensiddur:text:haggadah:barech/24"/>
+        <tei:p>May merit be invoked upon high, on their behalf and on ours, leading to enduring peace. May we receive blessing from Adonai and beneficence from the God of our salvation. And may we find grace and good favor in the eyes of God and mortals.</tei:p>
+        <j:conditional xml:id="cond_barech_harachaman_shabbat">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:milestone unit="paragraph" n="25" corresp="urn:x-opensiddur:text:haggadah:barech/25"/>
+        <tei:note type="instruction">On Shabbat add:</tei:note>
+        <tei:p>May the Merciful One grant us a day that is fully Shabbat and the rest of eternal life.</tei:p>
+        <j:endConditional target="#cond_barech_harachaman_shabbat"/>
+        <tei:milestone unit="paragraph" n="26" corresp="urn:x-opensiddur:text:haggadah:barech/26"/>
+        <tei:p>May the Merciful One grant us a day that is fully good.</tei:p>
+        <tei:milestone unit="paragraph" n="27" corresp="urn:x-opensiddur:text:haggadah:barech/27"/>
+        <tei:p>May the Merciful One find us worthy of the coming of the messiah and life in the World to Come. He brings salvation to his king and acts kindly to his anointed one, to David and to his descendants forever. May the One who creates peace in His heavens create peace among us and all Israel. And let us say Amen.</tei:p>
+        <tei:milestone unit="paragraph" n="28" corresp="urn:x-opensiddur:text:haggadah:barech/28"/>
+        <tei:p>Fear Adonai, His holy ones, for those who fear Him lack nothing. Lions roar and yet go hungry, but those who seek Adonai lack nothing good.[47] Psalms 34:10-11 Praise Adonai, for He is good, for His kindness endures forever.[48] Psalms 118:1 Open Your hand to every living thing in favor.[49] Psalms 145:16 Blessed is the one that trusts in Adonai and in whose trust is Adonai.[50] Jeremiah 17:7 I was young and now I am old, yet I have not seen a righteous person abandoned and his children in need of food.[51] Psalms 37:25 May Adonai give strength to His people. May Adonai bless His people forever.[52] Psalms 29:11</tei:p>
+        <tei:milestone unit="paragraph" n="29" corresp="urn:x-opensiddur:text:haggadah:barech/29"/>
+        <tei:note type="instruction">Drink the third cup while leaning to the left.</tei:note>
+        <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, creator of the fruit of the vine.</tei:p>
+        <tei:milestone unit="paragraph" n="30" corresp="urn:x-opensiddur:text:haggadah:barech/30"/>
+        <tei:p>Pour out Your wrath upon the nations who do not know you and upon the kingdoms that have not called Your name, for they have devoured Jacob and laid waste his habitations.[53] Psalms 79:6-7 Pour out your rage upon them, and let your anger overtake them.[54] Psalms 69:25 Pursue them in anger and destroy them from under the heavens of Adonai.[55] Lamentations 3:66</tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
