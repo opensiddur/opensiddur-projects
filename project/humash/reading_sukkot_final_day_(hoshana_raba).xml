@@ -1,0 +1,42 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">יוֹם אַחֲרוֹן שֶׁל סֻכּוֹת (הוֹשַׁעְנָא רַבָּה)</tei:title>
+        <tei:title type="alt" xml:lang="en">Sukkot Final Day (Hoshana Raba)</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)" n="reading_sukkot_final_day_(hoshana_raba)">
+        <tei:head>יוֹם אַחֲרוֹן שֶׁל סֻכּוֹת (הוֹשַׁעְנָא רַבָּה)</tei:head>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)/aliyah_annual/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/26-29/28"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)/aliyah_annual/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/29-29/31"/>
+        <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)/aliyah_annual/4"/>
+        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/29-29/34"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)/aliyah_annual/3"/>
+        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/32-29/34"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מַסְעֵי (בְּשַׁבָּת רֹאשׁ חֹדֶשׁ)</tei:title>
+        <tei:title type="alt" xml:lang="en">Masei on Shabbat Rosh Chodesh</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh" n="reading_masei_on_shabbat_rosh_chodesh">
+        <tei:head>מַסְעֵי (בְּשַׁבָּת רֹאשׁ חֹדֶשׁ)</tei:head>
+        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/maftir_annual/maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/9-28/15"/>
+        <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/haftarah" n="haftarah">
+          <tei:head>הַפְטָרָה</tei:head>
+          <j:conditional xml:id="rite_1453">
+            <tei:fs type="opensiddur:rite">
+              <tei:f name="ashkenaz">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/ashkenaz" n="ashkenaz">
+            <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/2/4-2/28"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/3/4-3/4"/>
+          </tei:div>
+          <j:endConditional target="#rite_1453"/>
+          <j:conditional xml:id="rite_1454">
+            <tei:fs type="opensiddur:rite">
+              <tei:f name="sepharad">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/sepharad" n="sepharad">
+            <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/2/4-2/28"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/4/1-4/2"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/66/1-66/1"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/66/23-66/23"/>
+          </tei:div>
+          <j:endConditional target="#rite_1454"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

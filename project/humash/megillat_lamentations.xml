@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">אֵיכָה</tei:title>
+        <tei:title type="alt" xml:lang="en">Lamentations</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:megillah/lamentations@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <j:conditional xml:id="megillah_1448">
+        <tei:fs type="opensiddur:holiday">
+          <tei:f name="tisha-bav">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div corresp="urn:x-opensiddur:text:bible:megillah/lamentations" n="megillah_lamentations">
+        <tei:head>אֵיכָה</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:lamentations/1/1-5/22"/>
+        <tei:note type="instruction" xml:lang="he">חוזרים ואומרים את הפסוק הקודם</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:lamentations/5/21-5/21"/>
+      </tei:div>
+      <j:endConditional target="#megillah_1448"/>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
