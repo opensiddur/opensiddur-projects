@@ -26,11 +26,11 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim" n="achrei_mot_kedoshim">
         <tei:head>אַחֲרֵי מוֹת–קְדֹשִׁים</tei:head>
-        <tei:milestone unit="parsha.combined" n="אַחֲרֵי מוֹת–קְדֹשִׁים" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim"/>
+        <tei:milestone unit="parsha.combined" n="אַחֲרֵי מוֹת–קְדֹשִׁים"/>
         <tei:milestone unit="parsha.annual" n="אַחֲרֵי מוֹת" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/1"/>
         <tei:milestone unit="aliyah.weekday" n="כֹּהֵן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_weekday/1"/>
-        <j:conditional xml:id="triennial_282">
+        <j:conditional xml:id="triennial_273">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -40,6 +40,122 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.1"/>
+        <j:endConditional target="#triennial_273"/>
+        <j:conditional xml:id="triennial_274">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.1"/>
+        <j:endConditional target="#triennial_274"/>
+        <tei:milestone unit="aliyah.combined" n="רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/1"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="כֹּהֵן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/1"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/1-16/3"/>
+        <j:conditional xml:id="triennial_275">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.2"/>
+        <j:endConditional target="#triennial_275"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/4-16/6"/>
+        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_weekday/2"/>
+        <j:conditional xml:id="triennial_276">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.3"/>
+        <j:endConditional target="#triennial_276"/>
+        <j:conditional xml:id="triennial_277">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.2"/>
+        <j:endConditional target="#triennial_277"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="לֵוִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/2"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/7-16/11"/>
+        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_weekday/3"/>
+        <j:conditional xml:id="triennial_278">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.4"/>
+        <j:endConditional target="#triennial_278"/>
+        <j:conditional xml:id="triennial_279">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.3"/>
+        <j:endConditional target="#triennial_279"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="יִשְׂרָאֵל (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/12-16/17"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/2"/>
+        <j:conditional xml:id="triennial_280">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.5"/>
+        <j:endConditional target="#triennial_280"/>
+        <j:conditional xml:id="triennial_281">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.4"/>
+        <j:endConditional target="#triennial_281"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/18-16/24"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/3"/>
+        <j:conditional xml:id="triennial_282">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.6"/>
         <j:endConditional target="#triennial_282"/>
         <j:conditional xml:id="triennial_283">
           <j:any>
@@ -50,12 +166,11 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.1"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.5"/>
         <j:endConditional target="#triennial_283"/>
-        <tei:milestone unit="aliyah.combined" n="רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/1"/>
-        <tei:milestone unit="aliyah.weekday.combined" n="כֹּהֵן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/1"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/1-16/3"/>
+        <tei:milestone unit="aliyah.combined" n="שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/2"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/25-16/30"/>
         <j:conditional xml:id="triennial_284">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -65,10 +180,8 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.2"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.7"/>
         <j:endConditional target="#triennial_284"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/4-16/6"/>
-        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_weekday/2"/>
         <j:conditional xml:id="triennial_285">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -78,7 +191,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.3"/>
+        <tei:milestone unit="maftir.triennial.achrei_mot.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_D_1/d.1.maftir"/>
         <j:endConditional target="#triennial_285"/>
         <j:conditional xml:id="triennial_286">
           <j:any>
@@ -89,98 +202,92 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.2"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.6"/>
         <j:endConditional target="#triennial_286"/>
-        <tei:milestone unit="aliyah.weekday.combined" n="לֵוִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/2"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.2"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/7-16/11"/>
-        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_weekday/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/31-16/34"/>
+        <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/4"/>
         <j:conditional xml:id="triennial_287">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
+                <tei:string>TST</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.4"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.1"/>
         <j:endConditional target="#triennial_287"/>
         <j:conditional xml:id="triennial_288">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.1"/>
+        <j:endConditional target="#triennial_288"/>
+        <j:conditional xml:id="triennial_289">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
                 <tei:string>STT</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.3"/>
-        <j:endConditional target="#triennial_288"/>
-        <tei:milestone unit="aliyah.weekday.combined" n="יִשְׂרָאֵל (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_weekday_combined/3"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.3"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/12-16/17"/>
-        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/2"/>
-        <j:conditional xml:id="triennial_289">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.5"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.7"/>
         <j:endConditional target="#triennial_289"/>
         <j:conditional xml:id="triennial_290">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
+                <tei:string>STS</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.4"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.1"/>
         <j:endConditional target="#triennial_290"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.4"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/18-16/24"/>
-        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/1-17/4"/>
         <j:conditional xml:id="triennial_291">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.6"/>
-        <j:endConditional target="#triennial_291"/>
-        <j:conditional xml:id="triennial_292">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
                 <tei:string>STT</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.5"/>
-        <j:endConditional target="#triennial_292"/>
-        <tei:milestone unit="aliyah.combined" n="שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/2"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.5"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/25-16/30"/>
-        <j:conditional xml:id="triennial_293">
+        <tei:milestone unit="maftir.triennial.achrei_mot.C.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_C_1/c.1.maftir"/>
+        <j:endConditional target="#triennial_291"/>
+        <tei:milestone unit="maftir.triennial.combined.1" n="א׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/maftir_triennial_combined_1/combined.1.maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/5-17/7"/>
+        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/5"/>
+        <j:conditional xml:id="triennial_292">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
+                <tei:string>TST</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_1/d.1.7"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.2"/>
+        <j:endConditional target="#triennial_292"/>
+        <j:conditional xml:id="triennial_293">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.2"/>
         <j:endConditional target="#triennial_293"/>
         <j:conditional xml:id="triennial_294">
           <j:any>
@@ -191,23 +298,12 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="maftir.triennial.achrei_mot.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_D_1/d.1.maftir"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.2"/>
         <j:endConditional target="#triennial_294"/>
+        <tei:milestone unit="aliyah.combined" n="שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/8-17/12"/>
         <j:conditional xml:id="triennial_295">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.6"/>
-        <j:endConditional target="#triennial_295"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.6"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/16/31-16/34"/>
-        <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/4"/>
-        <j:conditional xml:id="triennial_296">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -216,9 +312,9 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.1"/>
-        <j:endConditional target="#triennial_296"/>
-        <j:conditional xml:id="triennial_297">
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.3"/>
+        <j:endConditional target="#triennial_295"/>
+        <j:conditional xml:id="triennial_296">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -227,20 +323,9 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.1"/>
-        <j:endConditional target="#triennial_297"/>
-        <j:conditional xml:id="triennial_298">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.C.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_C_1/c.1.7"/>
-        <j:endConditional target="#triennial_298"/>
-        <j:conditional xml:id="triennial_299">
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.3"/>
+        <j:endConditional target="#triennial_296"/>
+        <j:conditional xml:id="triennial_297">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -249,24 +334,46 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.1"/>
-        <j:endConditional target="#triennial_299"/>
-        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_1/combined.1.7"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/1-17/4"/>
-        <j:conditional xml:id="triennial_300">
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.3"/>
+        <j:endConditional target="#triennial_297"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/13-17/16"/>
+        <j:conditional xml:id="triennial_298">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
+                <tei:string>TST</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="maftir.triennial.achrei_mot.C.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_C_1/c.1.maftir"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.4"/>
+        <j:endConditional target="#triennial_298"/>
+        <j:conditional xml:id="triennial_299">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.4"/>
+        <j:endConditional target="#triennial_299"/>
+        <j:conditional xml:id="triennial_300">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.4"/>
         <j:endConditional target="#triennial_300"/>
-        <tei:milestone unit="maftir.triennial.combined.1" n="א׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/maftir_triennial_combined_1/combined.1.maftir"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/5-17/7"/>
-        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/5"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/1-18/5"/>
+        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/6"/>
         <j:conditional xml:id="triennial_301">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -276,7 +383,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.2"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.5"/>
         <j:endConditional target="#triennial_301"/>
         <j:conditional xml:id="triennial_302">
           <j:any>
@@ -287,7 +394,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.2"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.5"/>
         <j:endConditional target="#triennial_302"/>
         <j:conditional xml:id="triennial_303">
           <j:any>
@@ -298,11 +405,11 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.2"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.5"/>
         <j:endConditional target="#triennial_303"/>
-        <tei:milestone unit="aliyah.combined" n="שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/3"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/8-17/12"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/6-18/21"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/7"/>
         <j:conditional xml:id="triennial_304">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -312,7 +419,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.3"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.6"/>
         <j:endConditional target="#triennial_304"/>
         <j:conditional xml:id="triennial_305">
           <j:any>
@@ -323,7 +430,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.3"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.6"/>
         <j:endConditional target="#triennial_305"/>
         <j:conditional xml:id="triennial_306">
           <j:any>
@@ -334,10 +441,11 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.3"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.6"/>
         <j:endConditional target="#triennial_306"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.2"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/17/13-17/16"/>
+        <tei:milestone unit="aliyah.combined" n="רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/4"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/22-18/25"/>
         <j:conditional xml:id="triennial_307">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -347,34 +455,9 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.4"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.7"/>
         <j:endConditional target="#triennial_307"/>
         <j:conditional xml:id="triennial_308">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.4"/>
-        <j:endConditional target="#triennial_308"/>
-        <j:conditional xml:id="triennial_309">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.4"/>
-        <j:endConditional target="#triennial_309"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.3"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/1-18/5"/>
-        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/6"/>
-        <j:conditional xml:id="triennial_310">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -383,9 +466,9 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.5"/>
-        <j:endConditional target="#triennial_310"/>
-        <j:conditional xml:id="triennial_311">
+        <tei:milestone unit="maftir.triennial.achrei_mot.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_B_2/b.2.maftir"/>
+        <j:endConditional target="#triennial_308"/>
+        <j:conditional xml:id="triennial_309">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -394,7 +477,29 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.5"/>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.7"/>
+        <j:endConditional target="#triennial_309"/>
+        <j:conditional xml:id="triennial_310">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.achrei_mot.A.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_A_3/a.3.maftir"/>
+        <j:endConditional target="#triennial_310"/>
+        <j:conditional xml:id="triennial_311">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.7"/>
         <j:endConditional target="#triennial_311"/>
         <j:conditional xml:id="triennial_312">
           <j:any>
@@ -405,11 +510,14 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.5"/>
+        <tei:milestone unit="maftir.triennial.achrei_mot.D.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_D_3/d.3.maftir"/>
         <j:endConditional target="#triennial_312"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.4"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/6-18/21"/>
-        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_annual/7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/26-18/27"/>
+        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_annual/מפטיר"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/28-18/30"/>
+        <tei:milestone unit="parsha.annual" n="קְדֹשִׁים" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim"/>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/1"/>
+        <tei:milestone unit="aliyah.weekday" n="כֹּהֵן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/1"/>
         <j:conditional xml:id="triennial_313">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -419,18 +527,18 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.6"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.1"/>
         <j:endConditional target="#triennial_313"/>
         <j:conditional xml:id="triennial_314">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
+                <tei:string>STT</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.6"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.1"/>
         <j:endConditional target="#triennial_314"/>
         <j:conditional xml:id="triennial_315">
           <j:any>
@@ -441,11 +549,11 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.6"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.1"/>
         <j:endConditional target="#triennial_315"/>
-        <tei:milestone unit="aliyah.combined" n="רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/4"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.5"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/22-18/25"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/1-19/4"/>
+        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/2"/>
         <j:conditional xml:id="triennial_316">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
@@ -455,42 +563,20 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.B.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_B_2/b.2.7"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.2"/>
         <j:endConditional target="#triennial_316"/>
         <j:conditional xml:id="triennial_317">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
+                <tei:string>STT</tei:string>
               </tei:f>
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="maftir.triennial.achrei_mot.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_B_2/b.2.maftir"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.2"/>
         <j:endConditional target="#triennial_317"/>
         <j:conditional xml:id="triennial_318">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_A_3/a.3.7"/>
-        <j:endConditional target="#triennial_318"/>
-        <j:conditional xml:id="triennial_319">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="maftir.triennial.achrei_mot.A.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_A_3/a.3.maftir"/>
-        <j:endConditional target="#triennial_319"/>
-        <j:conditional xml:id="triennial_320">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -499,7 +585,32 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.achrei_mot.D.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/aliyah_triennial_achrei_mot_D_3/d.3.7"/>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.2"/>
+        <j:endConditional target="#triennial_318"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/5-19/10"/>
+        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/3"/>
+        <j:conditional xml:id="triennial_319">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.3"/>
+        <j:endConditional target="#triennial_319"/>
+        <j:conditional xml:id="triennial_320">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.3"/>
         <j:endConditional target="#triennial_320"/>
         <j:conditional xml:id="triennial_321">
           <j:any>
@@ -510,123 +621,12 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="maftir.triennial.achrei_mot.D.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_triennial_achrei_mot_D_3/d.3.maftir"/>
-        <j:endConditional target="#triennial_321"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/26-18/27"/>
-        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot/maftir_annual/מפטיר"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/18/28-18/30"/>
-        <tei:milestone unit="parsha.annual" n="קְדֹשִׁים" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim"/>
-        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/1"/>
-        <tei:milestone unit="aliyah.weekday" n="כֹּהֵן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/1"/>
-        <j:conditional xml:id="triennial_322">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.1"/>
-        <j:endConditional target="#triennial_322"/>
-        <j:conditional xml:id="triennial_323">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.1"/>
-        <j:endConditional target="#triennial_323"/>
-        <j:conditional xml:id="triennial_324">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.1"/>
-        <j:endConditional target="#triennial_324"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.6"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/1-19/4"/>
-        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/2"/>
-        <j:conditional xml:id="triennial_325">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.2"/>
-        <j:endConditional target="#triennial_325"/>
-        <j:conditional xml:id="triennial_326">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.2"/>
-        <j:endConditional target="#triennial_326"/>
-        <j:conditional xml:id="triennial_327">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.2"/>
-        <j:endConditional target="#triennial_327"/>
-        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_2/combined.2.7"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/5-19/10"/>
-        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_weekday/3"/>
-        <j:conditional xml:id="triennial_328">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.3"/>
-        <j:endConditional target="#triennial_328"/>
-        <j:conditional xml:id="triennial_329">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.3"/>
-        <j:endConditional target="#triennial_329"/>
-        <j:conditional xml:id="triennial_330">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.3"/>
-        <j:endConditional target="#triennial_330"/>
+        <j:endConditional target="#triennial_321"/>
         <tei:milestone unit="maftir.triennial.combined.2" n="ב׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/maftir_triennial_combined_2/combined.2.maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/11-19/14"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/2"/>
-        <j:conditional xml:id="triennial_331">
+        <j:conditional xml:id="triennial_322">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -636,8 +636,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.1"/>
-        <j:endConditional target="#triennial_331"/>
-        <j:conditional xml:id="triennial_332">
+        <j:endConditional target="#triennial_322"/>
+        <j:conditional xml:id="triennial_323">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -647,8 +647,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.4"/>
-        <j:endConditional target="#triennial_332"/>
-        <j:conditional xml:id="triennial_333">
+        <j:endConditional target="#triennial_323"/>
+        <j:conditional xml:id="triennial_324">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -658,6 +658,111 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.4"/>
+        <j:endConditional target="#triennial_324"/>
+        <j:conditional xml:id="triennial_325">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.4"/>
+        <j:endConditional target="#triennial_325"/>
+        <tei:milestone unit="aliyah.combined" n="חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/5"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/15-19/18"/>
+        <j:conditional xml:id="triennial_326">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.2"/>
+        <j:endConditional target="#triennial_326"/>
+        <j:conditional xml:id="triennial_327">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.5"/>
+        <j:endConditional target="#triennial_327"/>
+        <j:conditional xml:id="triennial_328">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.5"/>
+        <j:endConditional target="#triennial_328"/>
+        <j:conditional xml:id="triennial_329">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.5"/>
+        <j:endConditional target="#triennial_329"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/19-19/22"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/3"/>
+        <j:conditional xml:id="triennial_330">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.3"/>
+        <j:endConditional target="#triennial_330"/>
+        <j:conditional xml:id="triennial_331">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.6"/>
+        <j:endConditional target="#triennial_331"/>
+        <j:conditional xml:id="triennial_332">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.6"/>
+        <j:endConditional target="#triennial_332"/>
+        <j:conditional xml:id="triennial_333">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.6"/>
         <j:endConditional target="#triennial_333"/>
         <j:conditional xml:id="triennial_334">
           <j:any>
@@ -668,116 +773,11 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.4"/>
-        <j:endConditional target="#triennial_334"/>
-        <tei:milestone unit="aliyah.combined" n="חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/5"/>
-        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/15-19/18"/>
-        <j:conditional xml:id="triennial_335">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.2"/>
-        <j:endConditional target="#triennial_335"/>
-        <j:conditional xml:id="triennial_336">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.5"/>
-        <j:endConditional target="#triennial_336"/>
-        <j:conditional xml:id="triennial_337">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.5"/>
-        <j:endConditional target="#triennial_337"/>
-        <j:conditional xml:id="triennial_338">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.5"/>
-        <j:endConditional target="#triennial_338"/>
-        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.2"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/19-19/22"/>
-        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/3"/>
-        <j:conditional xml:id="triennial_339">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.3"/>
-        <j:endConditional target="#triennial_339"/>
-        <j:conditional xml:id="triennial_340">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.6"/>
-        <j:endConditional target="#triennial_340"/>
-        <j:conditional xml:id="triennial_341">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.6"/>
-        <j:endConditional target="#triennial_341"/>
-        <j:conditional xml:id="triennial_342">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.6"/>
-        <j:endConditional target="#triennial_342"/>
-        <j:conditional xml:id="triennial_343">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.1"/>
-        <j:endConditional target="#triennial_343"/>
+        <j:endConditional target="#triennial_334"/>
         <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/23-19/25"/>
-        <j:conditional xml:id="triennial_344">
+        <j:conditional xml:id="triennial_335">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -787,9 +787,9 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.2"/>
-        <j:endConditional target="#triennial_344"/>
+        <j:endConditional target="#triennial_335"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/26-19/28"/>
-        <j:conditional xml:id="triennial_345">
+        <j:conditional xml:id="triennial_336">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -799,10 +799,10 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.3"/>
-        <j:endConditional target="#triennial_345"/>
+        <j:endConditional target="#triennial_336"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/29-19/32"/>
         <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/4"/>
-        <j:conditional xml:id="triennial_346">
+        <j:conditional xml:id="triennial_337">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -812,8 +812,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.4"/>
-        <j:endConditional target="#triennial_346"/>
-        <j:conditional xml:id="triennial_347">
+        <j:endConditional target="#triennial_337"/>
+        <j:conditional xml:id="triennial_338">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -823,8 +823,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.B.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_B_2/b.2.7"/>
-        <j:endConditional target="#triennial_347"/>
-        <j:conditional xml:id="triennial_348">
+        <j:endConditional target="#triennial_338"/>
+        <j:conditional xml:id="triennial_339">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -834,8 +834,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.C.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_C_1/c.1.7"/>
-        <j:endConditional target="#triennial_348"/>
-        <j:conditional xml:id="triennial_349">
+        <j:endConditional target="#triennial_339"/>
+        <j:conditional xml:id="triennial_340">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -845,6 +845,117 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_1/d.1.7"/>
+        <j:endConditional target="#triennial_340"/>
+        <j:conditional xml:id="triennial_341">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.4"/>
+        <j:endConditional target="#triennial_341"/>
+        <tei:milestone unit="aliyah.combined" n="שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/6"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/33-19/34"/>
+        <j:conditional xml:id="triennial_342">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.kedoshim.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_B_2/b.2.maftir"/>
+        <j:endConditional target="#triennial_342"/>
+        <j:conditional xml:id="triennial_343">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.kedoshim.C.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_C_1/c.1.maftir"/>
+        <j:endConditional target="#triennial_343"/>
+        <j:conditional xml:id="triennial_344">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.kedoshim.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_D_1/d.1.maftir"/>
+        <j:endConditional target="#triennial_344"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/35-19/37"/>
+        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/5"/>
+        <j:conditional xml:id="triennial_345">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.5"/>
+        <j:endConditional target="#triennial_345"/>
+        <j:conditional xml:id="triennial_346">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.5"/>
+        <j:endConditional target="#triennial_346"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/1-20/7"/>
+        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/6"/>
+        <j:conditional xml:id="triennial_347">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.6"/>
+        <j:endConditional target="#triennial_347"/>
+        <j:conditional xml:id="triennial_348">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.6"/>
+        <j:endConditional target="#triennial_348"/>
+        <tei:milestone unit="aliyah.combined" n="שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/7"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/8-20/22"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/7"/>
+        <j:conditional xml:id="triennial_349">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.7"/>
         <j:endConditional target="#triennial_349"/>
         <j:conditional xml:id="triennial_350">
           <j:any>
@@ -855,123 +966,12 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.4"/>
-        <j:endConditional target="#triennial_350"/>
-        <tei:milestone unit="aliyah.combined" n="שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/6"/>
-        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.4"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/33-19/34"/>
-        <j:conditional xml:id="triennial_351">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TST</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="maftir.triennial.kedoshim.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_B_2/b.2.maftir"/>
-        <j:endConditional target="#triennial_351"/>
-        <j:conditional xml:id="triennial_352">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STT</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="maftir.triennial.kedoshim.C.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_C_1/c.1.maftir"/>
-        <j:endConditional target="#triennial_352"/>
-        <j:conditional xml:id="triennial_353">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="maftir.triennial.kedoshim.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_D_1/d.1.maftir"/>
-        <j:endConditional target="#triennial_353"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/35-19/37"/>
-        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/5"/>
-        <j:conditional xml:id="triennial_354">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.5"/>
-        <j:endConditional target="#triennial_354"/>
-        <j:conditional xml:id="triennial_355">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.5"/>
-        <j:endConditional target="#triennial_355"/>
-        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.5"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/1-20/7"/>
-        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/6"/>
-        <j:conditional xml:id="triennial_356">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.6"/>
-        <j:endConditional target="#triennial_356"/>
-        <j:conditional xml:id="triennial_357">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.6"/>
-        <j:endConditional target="#triennial_357"/>
-        <tei:milestone unit="aliyah.combined" n="שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_combined/7"/>
-        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.6"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/8-20/22"/>
-        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_annual/7"/>
-        <j:conditional xml:id="triennial_358">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>TTS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <tei:milestone unit="aliyah.triennial.kedoshim.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_A_3/a.3.7"/>
-        <j:endConditional target="#triennial_358"/>
-        <j:conditional xml:id="triennial_359">
-          <j:any>
-            <tei:fs type="opensiddur:torah-reading">
-              <tei:f name="triennial-pattern-achrei-mot-kedoshim">
-                <tei:string>STS</tei:string>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
         <tei:milestone unit="aliyah.triennial.kedoshim.D.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/aliyah_triennial_kedoshim_D_3/d.3.7"/>
-        <j:endConditional target="#triennial_359"/>
+        <j:endConditional target="#triennial_350"/>
         <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/aliyah_triennial_combined_3/combined.3.7"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/23-20/24"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_annual/מפטיר"/>
-        <j:conditional xml:id="triennial_360">
+        <j:conditional xml:id="triennial_351">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -981,8 +981,8 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="maftir.triennial.kedoshim.A.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_A_3/a.3.maftir"/>
-        <j:endConditional target="#triennial_360"/>
-        <j:conditional xml:id="triennial_361">
+        <j:endConditional target="#triennial_351"/>
+        <j:conditional xml:id="triennial_352">
           <j:any>
             <tei:fs type="opensiddur:torah-reading">
               <tei:f name="triennial-pattern-achrei-mot-kedoshim">
@@ -992,7 +992,7 @@
           </j:any>
         </j:conditional>
         <tei:milestone unit="maftir.triennial.kedoshim.D.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/kedoshim/maftir_triennial_kedoshim_D_3/d.3.maftir"/>
-        <j:endConditional target="#triennial_361"/>
+        <j:endConditional target="#triennial_352"/>
         <tei:milestone unit="maftir.combined" n="מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/maftir_combined/מפטיר"/>
         <tei:milestone unit="maftir.triennial.combined.3" n="ג׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/achrei_mot_kedoshim/maftir_triennial_combined_3/combined.3.maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/20/25-20/27"/>

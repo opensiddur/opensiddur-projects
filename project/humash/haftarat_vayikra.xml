@@ -26,7 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/vayikra" n="haftarah_vayikra">
         <tei:head>הַפְטָרַת וַיִּקְרָא</tei:head>
-        <j:conditional xml:id="annual_haftarah_1325">
+        <j:conditional xml:id="annual_haftarah_929">
           <j:any>
             <tei:fs type="opensiddur:reading-cycle">
               <tei:f name="annual">
@@ -36,8 +36,8 @@
           </j:any>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/43/21-44/23"/>
-        <j:endConditional target="#annual_haftarah_1325"/>
-        <j:conditional xml:id="triennial_haftarah_1326">
+        <j:endConditional target="#annual_haftarah_929"/>
+        <j:conditional xml:id="triennial_haftarah_930">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-1">
               <tei:binary value="true"/>
@@ -48,8 +48,8 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה א׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/43/21-44/8"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1326"/>
-        <j:conditional xml:id="triennial_haftarah_1327">
+        <j:endConditional target="#triennial_haftarah_930"/>
+        <j:conditional xml:id="triennial_haftarah_931">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-2">
               <tei:binary value="true"/>
@@ -60,8 +60,8 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ב׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/2/13-2/26"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1327"/>
-        <j:conditional xml:id="triennial_haftarah_1328">
+        <j:endConditional target="#triennial_haftarah_931"/>
+        <j:conditional xml:id="triennial_haftarah_932">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-3">
               <tei:binary value="true"/>
@@ -72,7 +72,7 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ג׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:malachi/2/13-3/4"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1328"/>
+        <j:endConditional target="#triennial_haftarah_932"/>
       </tei:div>
     </tei:body>
   </tei:text>

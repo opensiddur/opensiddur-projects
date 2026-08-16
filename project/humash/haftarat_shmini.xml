@@ -26,7 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/shmini" n="haftarah_shmini">
         <tei:head>הַפְטָרַת שְׁמִינִי</tei:head>
-        <j:conditional xml:id="annual_haftarah_1335">
+        <j:conditional xml:id="annual_haftarah_939">
           <j:any>
             <tei:fs type="opensiddur:reading-cycle">
               <tei:f name="annual">
@@ -35,7 +35,7 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <j:conditional xml:id="rite_1333">
+        <j:conditional xml:id="rite_937">
           <tei:fs type="opensiddur:rite">
             <tei:f name="ashkenaz">
               <tei:binary value="true"/>
@@ -46,8 +46,8 @@
           <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_2/6/1-7/17"/>
         </tei:div>
-        <j:endConditional target="#rite_1333"/>
-        <j:conditional xml:id="rite_1334">
+        <j:endConditional target="#rite_937"/>
+        <j:conditional xml:id="rite_938">
           <tei:fs type="opensiddur:rite">
             <tei:f name="sepharad">
               <tei:binary value="true"/>
@@ -58,9 +58,9 @@
           <tei:head>מִנְהַג סְפָרַד</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_2/6/1-6/19"/>
         </tei:div>
-        <j:endConditional target="#rite_1334"/>
-        <j:endConditional target="#annual_haftarah_1335"/>
-        <j:conditional xml:id="triennial_haftarah_1336">
+        <j:endConditional target="#rite_938"/>
+        <j:endConditional target="#annual_haftarah_939"/>
+        <j:conditional xml:id="triennial_haftarah_940">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-1">
               <tei:binary value="true"/>
@@ -71,8 +71,8 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה א׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_2/6/1-6/15"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1336"/>
-        <j:conditional xml:id="triennial_haftarah_1337">
+        <j:endConditional target="#triennial_haftarah_940"/>
+        <j:conditional xml:id="triennial_haftarah_941">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-2">
               <tei:binary value="true"/>
@@ -83,8 +83,8 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ב׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/43/18-43/27"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1337"/>
-        <j:conditional xml:id="triennial_haftarah_1338">
+        <j:endConditional target="#triennial_haftarah_941"/>
+        <j:conditional xml:id="triennial_haftarah_942">
           <tei:fs type="opensiddur:reading-cycle">
             <tei:f name="triennial-year-3">
               <tei:binary value="true"/>
@@ -95,7 +95,7 @@
           <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ג׳</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:hosea/9/1-9/9"/>
         </tei:div>
-        <j:endConditional target="#triennial_haftarah_1338"/>
+        <j:endConditional target="#triennial_haftarah_942"/>
       </tei:div>
     </tei:body>
   </tei:text>

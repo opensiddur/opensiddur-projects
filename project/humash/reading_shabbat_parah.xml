@@ -30,7 +30,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/19/1-19/22"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_parah/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
-          <j:conditional xml:id="rite_1463">
+          <j:conditional xml:id="rite_1067">
             <tei:fs type="opensiddur:rite">
               <tei:f name="ashkenaz">
                 <tei:binary value="true"/>
@@ -41,8 +41,8 @@
             <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/36/16-36/38"/>
           </tei:div>
-          <j:endConditional target="#rite_1463"/>
-          <j:conditional xml:id="rite_1464">
+          <j:endConditional target="#rite_1067"/>
+          <j:conditional xml:id="rite_1068">
             <tei:fs type="opensiddur:rite">
               <tei:f name="sepharad">
                 <tei:binary value="true"/>
@@ -53,7 +53,7 @@
             <tei:head>מִנְהַג סְפָרַד</tei:head>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/36/16-36/36"/>
           </tei:div>
-          <j:endConditional target="#rite_1464"/>
+          <j:endConditional target="#rite_1068"/>
         </tei:div>
       </tei:div>
     </tei:body>
