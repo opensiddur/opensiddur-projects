@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_i" n="reading_shavuot_i">
         <tei:head>שָׁבוּעוֹת א׳</tei:head>
+        <tei:milestone unit="citation" n="שמות 19:1–20:26"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/shavuot_i/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/19/1-19/6"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/shavuot_i/aliyah_annual/2"/>
@@ -36,11 +37,14 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/19/20-20/17"/>
         <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/shavuot_i/aliyah_annual/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/20/18-20/26"/>
+        <tei:milestone unit="citation" n="במדבר 28:26–28:31"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/shavuot_i/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/26-28/31"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_i/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
+          <tei:milestone unit="citation" n="יחזקאל 1:1–1:28; 3:12"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/1/1-1/28"/>
+          <tei:milestone unit="citation" n="יחזקאל 3:12"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/3/12-3/12"/>
         </tei:div>
       </tei:div>

@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i" n="reading_rosh_hashana_i">
         <tei:head>רֹאשׁ הַשָּׁנָה א׳</tei:head>
+        <tei:milestone unit="citation" n="בראשית 21:1–21:34"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/1-21/4"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i/aliyah_annual/2"/>
@@ -36,10 +37,12 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/22-21/27"/>
         <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i/aliyah_annual/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/28-21/34"/>
+        <tei:milestone unit="citation" n="במדבר 29:1–29:6"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1-29/6"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/rosh_hashana_i/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
+          <tei:milestone unit="citation" n="שמואל א 1:1–2:10"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/1/1-2/10"/>
         </tei:div>
       </tei:div>

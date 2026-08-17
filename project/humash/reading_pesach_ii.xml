@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_ii" n="reading_pesach_ii">
         <tei:head>פֶּסַח ב׳</tei:head>
+        <tei:milestone unit="citation" n="ויקרא 22:26–23:44"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/pesach_ii/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/22/26-23/3"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/pesach_ii/aliyah_annual/2"/>
@@ -36,11 +37,14 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/23/23-23/32"/>
         <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/pesach_ii/aliyah_annual/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/23/33-23/44"/>
+        <tei:milestone unit="citation" n="במדבר 28:16–28:25"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/pesach_ii/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/16-28/25"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_ii/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
+          <tei:milestone unit="citation" n="מלכים ב 23:1–23:9; 23:21–23:25"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:kings_2/23/1-23/9"/>
+          <tei:milestone unit="citation" n="מלכים ב 23:21–23:25"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:kings_2/23/21-23/25"/>
         </tei:div>
       </tei:div>

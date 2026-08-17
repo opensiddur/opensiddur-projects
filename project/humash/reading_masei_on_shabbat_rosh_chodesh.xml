@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh" n="reading_masei_on_shabbat_rosh_chodesh">
         <tei:head>מַסְעֵי (בְּשַׁבָּת רֹאשׁ חֹדֶשׁ)</tei:head>
+        <tei:milestone unit="citation" n="במדבר 28:9–28:15"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/9-28/15"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/haftarah" n="haftarah">
@@ -39,7 +40,9 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/ashkenaz" n="ashkenaz">
             <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <tei:milestone unit="citation" n="ירמיהו 2:4–2:28; 3:4"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/2/4-2/28"/>
+            <tei:milestone unit="citation" n="ירמיהו 3:4"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/3/4-3/4"/>
           </tei:div>
           <j:endConditional target="#rite_1057"/>
@@ -52,9 +55,13 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh/sepharad" n="sepharad">
             <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <tei:milestone unit="citation" n="ירמיהו 2:4–2:28; 4:1–4:2; ישעיהו 66:1; 66:23"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/2/4-2/28"/>
+            <tei:milestone unit="citation" n="ירמיהו 4:1–4:2"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:jeremiah/4/1-4/2"/>
+            <tei:milestone unit="citation" n="ישעיהו 66:1"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/66/1-66/1"/>
+            <tei:milestone unit="citation" n="ישעיהו 66:23"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/66/23-66/23"/>
           </tei:div>
           <j:endConditional target="#rite_1058"/>

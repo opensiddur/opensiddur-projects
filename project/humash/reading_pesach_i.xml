@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_i" n="reading_pesach_i">
         <tei:head>פֶּסַח א׳</tei:head>
+        <tei:milestone unit="citation" n="שמות 12:21–12:51"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/pesach_i/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/12/21-12/24"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/pesach_i/aliyah_annual/2"/>
@@ -36,6 +37,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/12/37-12/42"/>
         <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/pesach_i/aliyah_annual/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/12/43-12/51"/>
+        <tei:milestone unit="citation" n="במדבר 28:16–28:25"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/pesach_i/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/16-28/25"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_i/haftarah" n="haftarah">
@@ -49,8 +51,11 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_i/ashkenaz" n="ashkenaz">
             <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <tei:milestone unit="citation" n="יהושע 3:5–3:7; 5:2–6:1; 6:27"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/3/5-3/7"/>
+            <tei:milestone unit="citation" n="יהושע 5:2–6:1"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/5/2-6/1"/>
+            <tei:milestone unit="citation" n="יהושע 6:27"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/6/27-6/27"/>
           </tei:div>
           <j:endConditional target="#rite_1059"/>
@@ -63,7 +68,9 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/pesach_i/sepharad" n="sepharad">
             <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <tei:milestone unit="citation" n="יהושע 5:2–6:1; 6:27"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/5/2-6/1"/>
+            <tei:milestone unit="citation" n="יהושע 6:27"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/6/27-6/27"/>
           </tei:div>
           <j:endConditional target="#rite_1060"/>

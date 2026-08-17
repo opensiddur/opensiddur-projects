@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_alternate)" n="reading_yom_kippur_(mincha,_alternate)">
         <tei:head>יוֹם הַכִּפּוּרִים (מִנְחָה, נֻסָּח אַחֵר)</tei:head>
+        <tei:milestone unit="citation" n="ויקרא 19:1–19:18"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_alternate)/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/1-19/4"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_alternate)/aliyah_annual/2"/>
@@ -34,7 +35,9 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/19/11-19/18"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_alternate)/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
+          <tei:milestone unit="citation" n="יונה 1:1–4:11; מיכה 7:18–7:20"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:jonah/1/1-4/11"/>
+          <tei:milestone unit="citation" n="מיכה 7:18–7:20"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:micah/7/18-7/20"/>
         </tei:div>
       </tei:div>

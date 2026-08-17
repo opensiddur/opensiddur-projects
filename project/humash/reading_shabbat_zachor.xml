@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor" n="reading_shabbat_zachor">
         <tei:head>שַׁבָּת זָכוֹר</tei:head>
+        <tei:milestone unit="citation" n="דברים 25:17–25:19"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/25/17-25/19"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/haftarah" n="haftarah">
@@ -39,6 +40,7 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/ashkenaz" n="ashkenaz">
             <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <tei:milestone unit="citation" n="שמואל א 15:2–15:34"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/15/2-15/34"/>
           </tei:div>
           <j:endConditional target="#rite_1075"/>
@@ -51,6 +53,7 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/sepharad" n="sepharad">
             <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <tei:milestone unit="citation" n="שמואל א 15:1–15:34"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/15/1-15/34"/>
           </tei:div>
           <j:endConditional target="#rite_1076"/>

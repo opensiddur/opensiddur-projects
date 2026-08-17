@@ -26,6 +26,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii" n="reading_shavuot_ii">
         <tei:head>שָׁבוּעוֹת ב׳</tei:head>
+        <tei:milestone unit="citation" n="דברים 15:19–16:17"/>
         <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/15/19-15/23"/>
         <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/aliyah_annual/2"/>
@@ -36,6 +37,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/16/9-16/12"/>
         <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/aliyah_annual/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/16/13-16/17"/>
+        <tei:milestone unit="citation" n="במדבר 28:26–28:31"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/maftir_annual/maftir"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28/26-28/31"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/haftarah" n="haftarah">
@@ -49,6 +51,7 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/ashkenaz" n="ashkenaz">
             <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <tei:milestone unit="citation" n="חבקוק 3:1–3:19"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:habakkuk/3/1-3/19"/>
           </tei:div>
           <j:endConditional target="#rite_1077"/>
@@ -61,6 +64,7 @@
           </j:conditional>
           <tei:div corresp="urn:x-opensiddur:text:bible:reading/shavuot_ii/sepharad" n="sepharad">
             <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <tei:milestone unit="citation" n="חבקוק 2:20–3:19"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:habakkuk/2/20-3/19"/>
           </tei:div>
           <j:endConditional target="#rite_1078"/>
