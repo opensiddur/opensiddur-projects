@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">שַׁבָּת זָכוֹר</tei:title>
+        <tei:title type="alt" xml:lang="en">Shabbat Zachor</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/shabbat_zachor@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor" n="reading_shabbat_zachor">
+        <tei:head>שַׁבָּת זָכוֹר</tei:head>
+        <tei:milestone unit="citation" n="דברים 25:17–25:19"/>
+        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/maftir_annual/maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/25/17-25/19"/>
+        <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/haftarah" n="haftarah">
+          <tei:head>הַפְטָרָה</tei:head>
+          <j:conditional xml:id="rite_1075">
+            <tei:fs type="opensiddur:rite">
+              <tei:f name="ashkenaz">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/ashkenaz" n="ashkenaz">
+            <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+            <tei:milestone unit="citation" n="שמואל א 15:2–15:34"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/15/2-15/34"/>
+          </tei:div>
+          <j:endConditional target="#rite_1075"/>
+          <j:conditional xml:id="rite_1076">
+            <tei:fs type="opensiddur:rite">
+              <tei:f name="sepharad">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:bible:reading/shabbat_zachor/sepharad" n="sepharad">
+            <tei:head>מִנְהַג סְפָרַד</tei:head>
+            <tei:milestone unit="citation" n="שמואל א 15:1–15:34"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/15/1-15/34"/>
+          </tei:div>
+          <j:endConditional target="#rite_1076"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

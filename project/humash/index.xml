@@ -1,0 +1,211 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">חֻמָּשׁ</tei:title>
+        <tei:title type="alt" xml:lang="en">Humash</tei:title>
+        <tei:respStmt>
+          <tei:resp key="mrk">Markup</tei:resp>
+          <tei:name ref="urn:x-opensiddur:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>The Torah arranged by liturgical reading. This project holds no text of its own:
+        every reading is transcluded by URN from a Tanakh project, and only the headings and
+        instructions originate here.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:humash@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="source_mam">
+          <tei:title>Miqra al pi ha-Masorah</tei:title>
+          <tei:ptr target="urn:x-opensiddur:text:bible:index@miqra_al_pi_hamasorah"/>
+          <tei:note>Source of the weekly parshah, aliyah and maftir divisions.</tei:note>
+        </tei:bibl>
+        <tei:bibl xml:id="source_hebcal">
+          <tei:title>hebcal leyning</tei:title>
+          <tei:ptr target="https://github.com/hebcal/hebcal-leyning"/>
+          <tei:note>Source of the haftarot, the festival readings and the triennial cycle.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:front>
+      <tei:titlePage>
+        <tei:docTitle>
+          <tei:titlePart type="main" xml:lang="he">חֻמָּשׁ</tei:titlePart>
+          <tei:titlePart type="alt" xml:lang="en">Humash</tei:titlePart>
+        </tei:docTitle>
+      </tei:titlePage>
+    </tei:front>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:humash" n="humash">
+        <tei:head>חֻמָּשׁ</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/genesis"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/exodus"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/leviticus"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/numbers"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/deuteronomy"/>
+        <tei:div corresp="urn:x-opensiddur:text:bible:humash/haftarot" n="haftarot">
+          <tei:head>הַפְטָרוֹת</tei:head>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/bereshit"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/noach"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/lech_lecha"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayera"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/chayei_sara"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/toldot"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayetzei"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayishlach"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayeshev"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/miketz"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayigash"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayechi"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/shemot"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vaera"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/bo"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/beshalach"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/yitro"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/mishpatim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/terumah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/tetzaveh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/ki_tisa"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayakhel"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/pekudei"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayikra"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/tzav"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/shmini"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/tazria"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/metzora"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/achrei_mot"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/kedoshim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/achrei_mot_kedoshim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/emor"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/behar"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/bechukotai"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/bamidbar"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/nasso"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/behaalotcha"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/shlach"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/korach"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/chukat"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/balak"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/pinchas"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/matot"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/masei"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/devarim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vaetchanan"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/eikev"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/reeh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/shoftim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/ki_teitzei"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/ki_tavo"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/nitzavim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vayeilech"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/haazinu"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vezot_haberakhah"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:bible:humash/megillot" n="megillot">
+          <tei:head>מְגִלּוֹת</tei:head>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/song_of_songs"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/ruth"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/lamentations"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/ecclesiastes"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/esther"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:bible:humash/readings" n="readings">
+          <tei:head>קְרִיאֵי מוֹעֵד</tei:head>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_1"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_1_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_2"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_2_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_3"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_3_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_4"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_4_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_5"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_5_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_6"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_7"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_7_(on_rosh_chodesh)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_7_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_8"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_8_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/erev_purim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/erev_simchat_torah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/erev_tisha_bav"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/fast_day_(morning)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/kedoshim_following_special_shabbat"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/ki_teitzei_with_3rd_haftarah_of_consolation"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/masei_on_shabbat_rosh_chodesh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_chol_ha_moed_day_1"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_chol_ha_moed_day_2"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_chol_ha_moed_day_3"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_chol_ha_moed_day_4"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_i"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_i_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_ii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_ii_(chm)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_shabbat_chol_ha_moed"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_vii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_vii_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_viii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pesach_viii_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pinchas_occurring_after_17_tammuz"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/purim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_chodesh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_i"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_i_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_ii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hachodesh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hachodesh_(on_rosh_chodesh)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hagadol"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_machar_chodesh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_parah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_rosh_chodesh"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_rosh_chodesh_chanukah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shekalim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shekalim_(on_rosh_chodesh)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva_(with_haazinu)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva_(with_vayeilech)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_zachor"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot_i"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot_ii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot_ii_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shmini_atzeret"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shmini_atzeret_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shushan_purim"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shushan_purim_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/simchat_torah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/simchat_torah_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_chol_ha_moed_day_1"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_chol_ha_moed_day_2"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_chol_ha_moed_day_3"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_chol_ha_moed_day_4"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_chol_ha_moed_day_5"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_final_day_(hoshana_raba)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_i"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_i_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_ii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_ha_moed"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/tisha_bav"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/yom_haatzmaut"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/yom_kippur"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_alternate)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/yom_kippur_(mincha,_traditional)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/yom_kippur_(on_shabbat)"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

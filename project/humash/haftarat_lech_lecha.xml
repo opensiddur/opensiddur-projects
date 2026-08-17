@@ -1,0 +1,83 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַפְטָרַת לֶךְ־לְךָ</tei:title>
+        <tei:title type="alt" xml:lang="en">Haftarah for Lech Lecha</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:haftarah/lech_lecha@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/lech_lecha" n="haftarah_lech_lecha">
+        <tei:head>הַפְטָרַת לֶךְ־לְךָ</tei:head>
+        <j:conditional xml:id="annual_haftarah_829">
+          <j:any>
+            <tei:fs type="opensiddur:reading-cycle">
+              <tei:f name="annual">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="ישעיהו 40:27–41:16"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/40/27-41/16"/>
+        <j:endConditional target="#annual_haftarah_829"/>
+        <j:conditional xml:id="triennial_haftarah_830">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-1">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/lech_lecha/triennial/1" n="triennial_1">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה א׳</tei:head>
+          <tei:milestone unit="citation" n="שופטים 6:24–6:32"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:judges/6/24-6/32"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_830"/>
+        <j:conditional xml:id="triennial_haftarah_831">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-2">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/lech_lecha/triennial/2" n="triennial_2">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ב׳</tei:head>
+          <tei:milestone unit="citation" n="יהושע 10:1–10:14"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/10/1-10/14"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_831"/>
+        <j:conditional xml:id="triennial_haftarah_832">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-3">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/lech_lecha/triennial/3" n="triennial_3">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ג׳</tei:head>
+          <tei:milestone unit="citation" n="ישעיהו 41:8–41:16"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/41/8-41/16"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_832"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

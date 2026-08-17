@@ -1,0 +1,2252 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">וַיַּקְהֵל–פְקוּדֵי</tei:title>
+        <tei:title type="alt" xml:lang="en">Vayakhel Pekudei</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei" n="vayakhel_pekudei">
+        <tei:head>וַיַּקְהֵל–פְקוּדֵי</tei:head>
+        <tei:milestone unit="parsha.combined" n="וַיַּקְהֵל–פְקוּדֵי"/>
+        <tei:milestone unit="parsha.annual" n="וַיַּקְהֵל" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel"/>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/1"/>
+        <tei:milestone unit="aliyah.weekday" n="כֹּהֵן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_weekday/1"/>
+        <j:conditional xml:id="triennial_1">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.1"/>
+        <j:endConditional target="#triennial_1"/>
+        <j:conditional xml:id="triennial_2">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.1"/>
+        <j:endConditional target="#triennial_2"/>
+        <j:conditional xml:id="triennial_3">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.1"/>
+        <j:endConditional target="#triennial_3"/>
+        <j:conditional xml:id="triennial_4">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.1"/>
+        <j:endConditional target="#triennial_4"/>
+        <j:conditional xml:id="triennial_5">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.1"/>
+        <j:endConditional target="#triennial_5"/>
+        <tei:milestone unit="aliyah.combined" n="רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/1"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="כֹּהֵן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_weekday_combined/1"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/1-35/3"/>
+        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_weekday/2"/>
+        <j:conditional xml:id="triennial_6">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.2"/>
+        <j:endConditional target="#triennial_6"/>
+        <j:conditional xml:id="triennial_7">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.2"/>
+        <j:endConditional target="#triennial_7"/>
+        <j:conditional xml:id="triennial_8">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.2"/>
+        <j:endConditional target="#triennial_8"/>
+        <j:conditional xml:id="triennial_9">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.2"/>
+        <j:endConditional target="#triennial_9"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="לֵוִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_weekday_combined/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/4-35/10"/>
+        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_weekday/3"/>
+        <j:conditional xml:id="triennial_10">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.3"/>
+        <j:endConditional target="#triennial_10"/>
+        <j:conditional xml:id="triennial_11">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.3"/>
+        <j:endConditional target="#triennial_11"/>
+        <j:conditional xml:id="triennial_12">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.3"/>
+        <j:endConditional target="#triennial_12"/>
+        <j:conditional xml:id="triennial_13">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.2"/>
+        <j:endConditional target="#triennial_13"/>
+        <j:conditional xml:id="triennial_14">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.3"/>
+        <j:endConditional target="#triennial_14"/>
+        <tei:milestone unit="aliyah.weekday.combined" n="יִשְׂרָאֵל (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_weekday_combined/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/11-35/20"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/2"/>
+        <j:conditional xml:id="triennial_15">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.4"/>
+        <j:endConditional target="#triennial_15"/>
+        <j:conditional xml:id="triennial_16">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.4"/>
+        <j:endConditional target="#triennial_16"/>
+        <j:conditional xml:id="triennial_17">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.4"/>
+        <j:endConditional target="#triennial_17"/>
+        <j:conditional xml:id="triennial_18">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.3"/>
+        <j:endConditional target="#triennial_18"/>
+        <j:conditional xml:id="triennial_19">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.4"/>
+        <j:endConditional target="#triennial_19"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/21-35/23"/>
+        <j:conditional xml:id="triennial_20">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.5"/>
+        <j:endConditional target="#triennial_20"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/24-35/26"/>
+        <j:conditional xml:id="triennial_21">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.6"/>
+        <j:endConditional target="#triennial_21"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/27-35/29"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/3"/>
+        <j:conditional xml:id="triennial_22">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.5"/>
+        <j:endConditional target="#triennial_22"/>
+        <j:conditional xml:id="triennial_23">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.5"/>
+        <j:endConditional target="#triennial_23"/>
+        <j:conditional xml:id="triennial_24">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.5"/>
+        <j:endConditional target="#triennial_24"/>
+        <j:conditional xml:id="triennial_25">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.4"/>
+        <j:endConditional target="#triennial_25"/>
+        <j:conditional xml:id="triennial_26">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_1/g.1.7"/>
+        <j:endConditional target="#triennial_26"/>
+        <j:conditional xml:id="triennial_27">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.G.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_G_1/g.1.maftir"/>
+        <j:endConditional target="#triennial_27"/>
+        <tei:milestone unit="aliyah.combined" n="שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/2"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/35/30-35/35"/>
+        <j:conditional xml:id="triennial_28">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.6"/>
+        <j:endConditional target="#triennial_28"/>
+        <j:conditional xml:id="triennial_29">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.6"/>
+        <j:endConditional target="#triennial_29"/>
+        <j:conditional xml:id="triennial_30">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.6"/>
+        <j:endConditional target="#triennial_30"/>
+        <j:conditional xml:id="triennial_31">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.1"/>
+        <j:endConditional target="#triennial_31"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/1-36/7"/>
+        <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/4"/>
+        <j:conditional xml:id="triennial_32">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_2/c.2.7"/>
+        <j:endConditional target="#triennial_32"/>
+        <j:conditional xml:id="triennial_33">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_1/d.1.7"/>
+        <j:endConditional target="#triennial_33"/>
+        <j:conditional xml:id="triennial_34">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_1/e.1.7"/>
+        <j:endConditional target="#triennial_34"/>
+        <j:conditional xml:id="triennial_35">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.5"/>
+        <j:endConditional target="#triennial_35"/>
+        <j:conditional xml:id="triennial_36">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.2"/>
+        <j:endConditional target="#triennial_36"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/8-36/13"/>
+        <j:conditional xml:id="triennial_37">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.3"/>
+        <j:endConditional target="#triennial_37"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/14-36/16"/>
+        <j:conditional xml:id="triennial_38">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.C.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_C_2/c.2.maftir"/>
+        <j:endConditional target="#triennial_38"/>
+        <j:conditional xml:id="triennial_39">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_D_1/d.1.maftir"/>
+        <j:endConditional target="#triennial_39"/>
+        <j:conditional xml:id="triennial_40">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.E.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_E_1/e.1.maftir"/>
+        <j:endConditional target="#triennial_40"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/17-36/19"/>
+        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/5"/>
+        <j:conditional xml:id="triennial_41">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.1"/>
+        <j:endConditional target="#triennial_41"/>
+        <j:conditional xml:id="triennial_42">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.1"/>
+        <j:endConditional target="#triennial_42"/>
+        <j:conditional xml:id="triennial_43">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.1"/>
+        <j:endConditional target="#triennial_43"/>
+        <j:conditional xml:id="triennial_44">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.1"/>
+        <j:endConditional target="#triennial_44"/>
+        <j:conditional xml:id="triennial_45">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.6"/>
+        <j:endConditional target="#triennial_45"/>
+        <j:conditional xml:id="triennial_46">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.4"/>
+        <j:endConditional target="#triennial_46"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/20-36/30"/>
+        <j:conditional xml:id="triennial_47">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.2"/>
+        <j:endConditional target="#triennial_47"/>
+        <j:conditional xml:id="triennial_48">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.2"/>
+        <j:endConditional target="#triennial_48"/>
+        <j:conditional xml:id="triennial_49">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.2"/>
+        <j:endConditional target="#triennial_49"/>
+        <j:conditional xml:id="triennial_50">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.2"/>
+        <j:endConditional target="#triennial_50"/>
+        <j:conditional xml:id="triennial_51">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.5"/>
+        <j:endConditional target="#triennial_51"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/36/31-36/38"/>
+        <j:conditional xml:id="triennial_52">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.3"/>
+        <j:endConditional target="#triennial_52"/>
+        <j:conditional xml:id="triennial_53">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.3"/>
+        <j:endConditional target="#triennial_53"/>
+        <j:conditional xml:id="triennial_54">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.3"/>
+        <j:endConditional target="#triennial_54"/>
+        <j:conditional xml:id="triennial_55">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.3"/>
+        <j:endConditional target="#triennial_55"/>
+        <j:conditional xml:id="triennial_56">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.F.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_F_1/f.1.7"/>
+        <j:endConditional target="#triennial_56"/>
+        <j:conditional xml:id="triennial_57">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.6"/>
+        <j:endConditional target="#triennial_57"/>
+        <tei:milestone unit="aliyah.triennial.combined.1" n="א׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_1/combined.1.7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/1-37/9"/>
+        <j:conditional xml:id="triennial_58">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.F.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_F_1/f.1.maftir"/>
+        <j:endConditional target="#triennial_58"/>
+        <j:conditional xml:id="triennial_59">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_2/g.2.7"/>
+        <j:endConditional target="#triennial_59"/>
+        <tei:milestone unit="maftir.triennial.combined.1" n="א׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/maftir_triennial_combined_1/combined.1.maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/10-37/12"/>
+        <j:conditional xml:id="triennial_60">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.G.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_G_2/g.2.maftir"/>
+        <j:endConditional target="#triennial_60"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/13-37/16"/>
+        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/6"/>
+        <j:conditional xml:id="triennial_61">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.1"/>
+        <j:endConditional target="#triennial_61"/>
+        <j:conditional xml:id="triennial_62">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.4"/>
+        <j:endConditional target="#triennial_62"/>
+        <j:conditional xml:id="triennial_63">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.4"/>
+        <j:endConditional target="#triennial_63"/>
+        <j:conditional xml:id="triennial_64">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.4"/>
+        <j:endConditional target="#triennial_64"/>
+        <j:conditional xml:id="triennial_65">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.4"/>
+        <j:endConditional target="#triennial_65"/>
+        <j:conditional xml:id="triennial_66">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.1"/>
+        <j:endConditional target="#triennial_66"/>
+        <tei:milestone unit="aliyah.combined" n="שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/3"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/17-37/19"/>
+        <j:conditional xml:id="triennial_67">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.2"/>
+        <j:endConditional target="#triennial_67"/>
+        <j:conditional xml:id="triennial_68">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.2"/>
+        <j:endConditional target="#triennial_68"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/20-37/24"/>
+        <j:conditional xml:id="triennial_69">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.3"/>
+        <j:endConditional target="#triennial_69"/>
+        <j:conditional xml:id="triennial_70">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.5"/>
+        <j:endConditional target="#triennial_70"/>
+        <j:conditional xml:id="triennial_71">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.5"/>
+        <j:endConditional target="#triennial_71"/>
+        <j:conditional xml:id="triennial_72">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.5"/>
+        <j:endConditional target="#triennial_72"/>
+        <j:conditional xml:id="triennial_73">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.5"/>
+        <j:endConditional target="#triennial_73"/>
+        <j:conditional xml:id="triennial_74">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.3"/>
+        <j:endConditional target="#triennial_74"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/37/25-37/29"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_annual/7"/>
+        <j:conditional xml:id="triennial_75">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.4"/>
+        <j:endConditional target="#triennial_75"/>
+        <j:conditional xml:id="triennial_76">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.6"/>
+        <j:endConditional target="#triennial_76"/>
+        <j:conditional xml:id="triennial_77">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.6"/>
+        <j:endConditional target="#triennial_77"/>
+        <j:conditional xml:id="triennial_78">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.6"/>
+        <j:endConditional target="#triennial_78"/>
+        <j:conditional xml:id="triennial_79">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.6"/>
+        <j:endConditional target="#triennial_79"/>
+        <j:conditional xml:id="triennial_80">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.4"/>
+        <j:endConditional target="#triennial_80"/>
+        <tei:milestone unit="aliyah.combined" n="רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/4"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/1-38/3"/>
+        <j:conditional xml:id="triennial_81">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.5"/>
+        <j:endConditional target="#triennial_81"/>
+        <j:conditional xml:id="triennial_82">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.5"/>
+        <j:endConditional target="#triennial_82"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/4-38/8"/>
+        <j:conditional xml:id="triennial_83">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.6"/>
+        <j:endConditional target="#triennial_83"/>
+        <j:conditional xml:id="triennial_84">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.C.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_C_3/c.3.7"/>
+        <j:endConditional target="#triennial_84"/>
+        <j:conditional xml:id="triennial_85">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_A_3/a.3.7"/>
+        <j:endConditional target="#triennial_85"/>
+        <j:conditional xml:id="triennial_86">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.D.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_D_2/d.2.7"/>
+        <j:endConditional target="#triennial_86"/>
+        <j:conditional xml:id="triennial_87">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.E.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_E_3/e.3.7"/>
+        <j:endConditional target="#triennial_87"/>
+        <j:conditional xml:id="triennial_88">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.6"/>
+        <j:endConditional target="#triennial_88"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/9-38/15"/>
+        <j:conditional xml:id="triennial_89">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.B.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_B_2/b.2.7"/>
+        <j:endConditional target="#triennial_89"/>
+        <j:conditional xml:id="triennial_90">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.vayakhel.G.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/aliyah_triennial_vayakhel_G_3/g.3.7"/>
+        <j:endConditional target="#triennial_90"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/16-38/17"/>
+        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_annual/מפטיר"/>
+        <j:conditional xml:id="triennial_91">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_B_2/b.2.maftir"/>
+        <j:endConditional target="#triennial_91"/>
+        <j:conditional xml:id="triennial_92">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.C.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_C_3/c.3.maftir"/>
+        <j:endConditional target="#triennial_92"/>
+        <j:conditional xml:id="triennial_93">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.A.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_A_3/a.3.maftir"/>
+        <j:endConditional target="#triennial_93"/>
+        <j:conditional xml:id="triennial_94">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.D.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_D_2/d.2.maftir"/>
+        <j:endConditional target="#triennial_94"/>
+        <j:conditional xml:id="triennial_95">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.E.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_E_3/e.3.maftir"/>
+        <j:endConditional target="#triennial_95"/>
+        <j:conditional xml:id="triennial_96">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.vayakhel.G.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel/maftir_triennial_vayakhel_G_3/g.3.maftir"/>
+        <j:endConditional target="#triennial_96"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/18-38/20"/>
+        <tei:milestone unit="parsha.annual" n="פְקוּדֵי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei"/>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/1"/>
+        <tei:milestone unit="aliyah.weekday" n="כֹּהֵן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_weekday/1"/>
+        <j:conditional xml:id="triennial_97">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.1"/>
+        <j:endConditional target="#triennial_97"/>
+        <j:conditional xml:id="triennial_98">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.1"/>
+        <j:endConditional target="#triennial_98"/>
+        <j:conditional xml:id="triennial_99">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.1"/>
+        <j:endConditional target="#triennial_99"/>
+        <j:conditional xml:id="triennial_100">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.1"/>
+        <j:endConditional target="#triennial_100"/>
+        <j:conditional xml:id="triennial_101">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.1"/>
+        <j:endConditional target="#triennial_101"/>
+        <j:conditional xml:id="triennial_102">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.1"/>
+        <j:endConditional target="#triennial_102"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/21-38/23"/>
+        <tei:milestone unit="aliyah.weekday" n="לֵוִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_weekday/2"/>
+        <j:conditional xml:id="triennial_103">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.2"/>
+        <j:endConditional target="#triennial_103"/>
+        <j:conditional xml:id="triennial_104">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.2"/>
+        <j:endConditional target="#triennial_104"/>
+        <j:conditional xml:id="triennial_105">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.2"/>
+        <j:endConditional target="#triennial_105"/>
+        <j:conditional xml:id="triennial_106">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.2"/>
+        <j:endConditional target="#triennial_106"/>
+        <j:conditional xml:id="triennial_107">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.2"/>
+        <j:endConditional target="#triennial_107"/>
+        <j:conditional xml:id="triennial_108">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.2"/>
+        <j:endConditional target="#triennial_108"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/24-38/27"/>
+        <tei:milestone unit="aliyah.weekday" n="יִשְׂרָאֵל" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_weekday/3"/>
+        <j:conditional xml:id="triennial_109">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.3"/>
+        <j:endConditional target="#triennial_109"/>
+        <j:conditional xml:id="triennial_110">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.3"/>
+        <j:endConditional target="#triennial_110"/>
+        <j:conditional xml:id="triennial_111">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.3"/>
+        <j:endConditional target="#triennial_111"/>
+        <j:conditional xml:id="triennial_112">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.3"/>
+        <j:endConditional target="#triennial_112"/>
+        <j:conditional xml:id="triennial_113">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.3"/>
+        <j:endConditional target="#triennial_113"/>
+        <j:conditional xml:id="triennial_114">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.3"/>
+        <j:endConditional target="#triennial_114"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/38/28-39/1"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/2"/>
+        <j:conditional xml:id="triennial_115">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.4"/>
+        <j:endConditional target="#triennial_115"/>
+        <j:conditional xml:id="triennial_116">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.4"/>
+        <j:endConditional target="#triennial_116"/>
+        <j:conditional xml:id="triennial_117">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.4"/>
+        <j:endConditional target="#triennial_117"/>
+        <j:conditional xml:id="triennial_118">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.4"/>
+        <j:endConditional target="#triennial_118"/>
+        <j:conditional xml:id="triennial_119">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.4"/>
+        <j:endConditional target="#triennial_119"/>
+        <j:conditional xml:id="triennial_120">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.4"/>
+        <j:endConditional target="#triennial_120"/>
+        <tei:milestone unit="aliyah.combined" n="חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/5"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/2-39/7"/>
+        <j:conditional xml:id="triennial_121">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.5"/>
+        <j:endConditional target="#triennial_121"/>
+        <j:conditional xml:id="triennial_122">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.5"/>
+        <j:endConditional target="#triennial_122"/>
+        <j:conditional xml:id="triennial_123">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.5"/>
+        <j:endConditional target="#triennial_123"/>
+        <j:conditional xml:id="triennial_124">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.5"/>
+        <j:endConditional target="#triennial_124"/>
+        <j:conditional xml:id="triennial_125">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.5"/>
+        <j:endConditional target="#triennial_125"/>
+        <j:conditional xml:id="triennial_126">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.5"/>
+        <j:endConditional target="#triennial_126"/>
+        <tei:milestone unit="aliyah.triennial.combined.2" n="ב׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_2/combined.2.7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/8-39/14"/>
+        <j:conditional xml:id="triennial_127">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.6"/>
+        <j:endConditional target="#triennial_127"/>
+        <j:conditional xml:id="triennial_128">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.6"/>
+        <j:endConditional target="#triennial_128"/>
+        <j:conditional xml:id="triennial_129">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.6"/>
+        <j:endConditional target="#triennial_129"/>
+        <j:conditional xml:id="triennial_130">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.6"/>
+        <j:endConditional target="#triennial_130"/>
+        <j:conditional xml:id="triennial_131">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.6"/>
+        <j:endConditional target="#triennial_131"/>
+        <j:conditional xml:id="triennial_132">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.6"/>
+        <j:endConditional target="#triennial_132"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/15-39/18"/>
+        <j:conditional xml:id="triennial_133">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.B.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_B_2/b.2.7"/>
+        <j:endConditional target="#triennial_133"/>
+        <j:conditional xml:id="triennial_134">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.B.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_B_2/b.2.maftir"/>
+        <j:endConditional target="#triennial_134"/>
+        <j:conditional xml:id="triennial_135">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_2/c.2.7"/>
+        <j:endConditional target="#triennial_135"/>
+        <j:conditional xml:id="triennial_136">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.C.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_C_2/c.2.maftir"/>
+        <j:endConditional target="#triennial_136"/>
+        <j:conditional xml:id="triennial_137">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_1/d.1.7"/>
+        <j:endConditional target="#triennial_137"/>
+        <j:conditional xml:id="triennial_138">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.D.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_D_1/d.1.maftir"/>
+        <j:endConditional target="#triennial_138"/>
+        <j:conditional xml:id="triennial_139">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_1/e.1.7"/>
+        <j:endConditional target="#triennial_139"/>
+        <j:conditional xml:id="triennial_140">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.E.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_E_1/e.1.maftir"/>
+        <j:endConditional target="#triennial_140"/>
+        <j:conditional xml:id="triennial_141">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.F.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_F_1/f.1.7"/>
+        <j:endConditional target="#triennial_141"/>
+        <j:conditional xml:id="triennial_142">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STT</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.F.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_F_1/f.1.maftir"/>
+        <j:endConditional target="#triennial_142"/>
+        <j:conditional xml:id="triennial_143">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.1" n="א׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_1/g.1.7"/>
+        <j:endConditional target="#triennial_143"/>
+        <j:conditional xml:id="triennial_144">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.G.1" n="א׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_G_1/g.1.maftir"/>
+        <j:endConditional target="#triennial_144"/>
+        <tei:milestone unit="maftir.triennial.combined.2" n="ב׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/maftir_triennial_combined_2/combined.2.maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/19-39/21"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/3"/>
+        <j:conditional xml:id="triennial_145">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.1"/>
+        <j:endConditional target="#triennial_145"/>
+        <j:conditional xml:id="triennial_146">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.1"/>
+        <j:endConditional target="#triennial_146"/>
+        <j:conditional xml:id="triennial_147">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.1"/>
+        <j:endConditional target="#triennial_147"/>
+        <j:conditional xml:id="triennial_148">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.1"/>
+        <j:endConditional target="#triennial_148"/>
+        <j:conditional xml:id="triennial_149">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.1"/>
+        <j:endConditional target="#triennial_149"/>
+        <tei:milestone unit="aliyah.combined" n="שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/6"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רִאשׁוֹן (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/22-39/26"/>
+        <j:conditional xml:id="triennial_150">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.2"/>
+        <j:endConditional target="#triennial_150"/>
+        <j:conditional xml:id="triennial_151">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.2"/>
+        <j:endConditional target="#triennial_151"/>
+        <j:conditional xml:id="triennial_152">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.2"/>
+        <j:endConditional target="#triennial_152"/>
+        <j:conditional xml:id="triennial_153">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.2"/>
+        <j:endConditional target="#triennial_153"/>
+        <j:conditional xml:id="triennial_154">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.2"/>
+        <j:endConditional target="#triennial_154"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שֵׁנִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/27-39/29"/>
+        <j:conditional xml:id="triennial_155">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.3"/>
+        <j:endConditional target="#triennial_155"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/30-39/32"/>
+        <tei:milestone unit="aliyah.annual" n="רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/4"/>
+        <j:conditional xml:id="triennial_156">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.3"/>
+        <j:endConditional target="#triennial_156"/>
+        <j:conditional xml:id="triennial_157">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.3"/>
+        <j:endConditional target="#triennial_157"/>
+        <j:conditional xml:id="triennial_158">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.3"/>
+        <j:endConditional target="#triennial_158"/>
+        <j:conditional xml:id="triennial_159">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.3"/>
+        <j:endConditional target="#triennial_159"/>
+        <j:conditional xml:id="triennial_160">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.4"/>
+        <j:endConditional target="#triennial_160"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שְׁלִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/39/33-39/43"/>
+        <tei:milestone unit="aliyah.annual" n="חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/5"/>
+        <j:conditional xml:id="triennial_161">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.4"/>
+        <j:endConditional target="#triennial_161"/>
+        <j:conditional xml:id="triennial_162">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.4"/>
+        <j:endConditional target="#triennial_162"/>
+        <j:conditional xml:id="triennial_163">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.4"/>
+        <j:endConditional target="#triennial_163"/>
+        <j:conditional xml:id="triennial_164">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.4"/>
+        <j:endConditional target="#triennial_164"/>
+        <j:conditional xml:id="triennial_165">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.5"/>
+        <j:endConditional target="#triennial_165"/>
+        <tei:milestone unit="aliyah.combined" n="שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_combined/7"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ רְבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/1-40/3"/>
+        <j:conditional xml:id="triennial_166">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.6"/>
+        <j:endConditional target="#triennial_166"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/4-40/6"/>
+        <j:conditional xml:id="triennial_167">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_2/g.2.7"/>
+        <j:endConditional target="#triennial_167"/>
+        <j:conditional xml:id="triennial_168">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.G.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_G_2/g.2.maftir"/>
+        <j:endConditional target="#triennial_168"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/7-40/8"/>
+        <j:conditional xml:id="triennial_169">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.5"/>
+        <j:endConditional target="#triennial_169"/>
+        <j:conditional xml:id="triennial_170">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.5"/>
+        <j:endConditional target="#triennial_170"/>
+        <j:conditional xml:id="triennial_171">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.5"/>
+        <j:endConditional target="#triennial_171"/>
+        <j:conditional xml:id="triennial_172">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.5"/>
+        <j:endConditional target="#triennial_172"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ חֲמִישִׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/9-40/9"/>
+        <j:conditional xml:id="triennial_173">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.1"/>
+        <j:endConditional target="#triennial_173"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/10-40/12"/>
+        <j:conditional xml:id="triennial_174">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ שֵׁנִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.2"/>
+        <j:endConditional target="#triennial_174"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/13-40/16"/>
+        <tei:milestone unit="aliyah.annual" n="שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/6"/>
+        <j:conditional xml:id="triennial_175">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.6"/>
+        <j:endConditional target="#triennial_175"/>
+        <j:conditional xml:id="triennial_176">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.6"/>
+        <j:endConditional target="#triennial_176"/>
+        <j:conditional xml:id="triennial_177">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.6"/>
+        <j:endConditional target="#triennial_177"/>
+        <j:conditional xml:id="triennial_178">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.6"/>
+        <j:endConditional target="#triennial_178"/>
+        <j:conditional xml:id="triennial_179">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.3"/>
+        <j:endConditional target="#triennial_179"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שִׁשִּׁי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/17-40/19"/>
+        <j:conditional xml:id="triennial_180">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ רְבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.4"/>
+        <j:endConditional target="#triennial_180"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/20-40/25"/>
+        <j:conditional xml:id="triennial_181">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ חֲמִישִׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.5"/>
+        <j:endConditional target="#triennial_181"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/26-40/27"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_annual/7"/>
+        <j:conditional xml:id="triennial_182">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.A.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_A_3/a.3.7"/>
+        <j:endConditional target="#triennial_182"/>
+        <j:conditional xml:id="triennial_183">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.C.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_C_3/c.3.7"/>
+        <j:endConditional target="#triennial_183"/>
+        <j:conditional xml:id="triennial_184">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.D.2" n="ב׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_D_2/d.2.7"/>
+        <j:endConditional target="#triennial_184"/>
+        <j:conditional xml:id="triennial_185">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.E.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_E_3/e.3.7"/>
+        <j:endConditional target="#triennial_185"/>
+        <tei:milestone unit="aliyah.triennial.combined.3" n="ג׳ שְׁבִיעִי (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/aliyah_triennial_combined_3/combined.3.7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/28-40/29"/>
+        <j:conditional xml:id="triennial_186">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ שִׁשִּׁי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.6"/>
+        <j:endConditional target="#triennial_186"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/30-40/33"/>
+        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_annual/מפטיר"/>
+        <j:conditional xml:id="triennial_187">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TTS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.A.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_A_3/a.3.maftir"/>
+        <j:endConditional target="#triennial_187"/>
+        <j:conditional xml:id="triennial_188">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>TSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.C.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_C_3/c.3.maftir"/>
+        <j:endConditional target="#triennial_188"/>
+        <j:conditional xml:id="triennial_189">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SST</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.D.2" n="ב׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_D_2/d.2.maftir"/>
+        <j:endConditional target="#triennial_189"/>
+        <j:conditional xml:id="triennial_190">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>STS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.E.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_E_3/e.3.maftir"/>
+        <j:endConditional target="#triennial_190"/>
+        <j:conditional xml:id="triennial_191">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="aliyah.triennial.pekudei.G.3" n="ג׳ שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/aliyah_triennial_pekudei_G_3/g.3.7"/>
+        <j:endConditional target="#triennial_191"/>
+        <tei:milestone unit="maftir.combined" n="מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/maftir_combined/מפטיר"/>
+        <tei:milestone unit="maftir.triennial.combined.3" n="ג׳ מַפְטִיר (מְחֻבָּרוֹת)" corresp="urn:x-opensiddur:text:bible:parsha/vayakhel_pekudei/maftir_triennial_combined_3/combined.3.maftir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/34-40/35"/>
+        <j:conditional xml:id="triennial_192">
+          <j:any>
+            <tei:fs type="opensiddur:torah-reading">
+              <tei:f name="triennial-pattern-vayakhel-pekudei">
+                <tei:string>SSS</tei:string>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="maftir.triennial.pekudei.G.3" n="ג׳ מַפְטִיר" corresp="urn:x-opensiddur:text:bible:parsha/pekudei/maftir_triennial_pekudei_G_3/g.3.maftir"/>
+        <j:endConditional target="#triennial_192"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/40/36-40/38"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

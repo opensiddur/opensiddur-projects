@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">חֲנֻכָּה יוֹם ז׳</tei:title>
+        <tei:title type="alt" xml:lang="en">Chanukah Day 7</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/chanukah_day_7@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:reading/chanukah_day_7" n="reading_chanukah_day_7">
+        <tei:head>חֲנֻכָּה יוֹם ז׳</tei:head>
+        <tei:milestone unit="citation" n="במדבר 7:48–7:59"/>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/chanukah_day_7/aliyah_annual/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/7/48-7/50"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/chanukah_day_7/aliyah_annual/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/7/51-7/53"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/chanukah_day_7/aliyah_annual/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/7/54-7/59"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

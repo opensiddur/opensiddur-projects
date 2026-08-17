@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַפְטָרַת אַחֲרֵי מוֹת–קְדֹשִׁים</tei:title>
+        <tei:title type="alt" xml:lang="en">Haftarah for Achrei Mot Kedoshim</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:haftarah/achrei_mot_kedoshim@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/achrei_mot_kedoshim" n="haftarah_achrei_mot_kedoshim">
+        <tei:head>הַפְטָרַת אַחֲרֵי מוֹת–קְדֹשִׁים</tei:head>
+        <j:conditional xml:id="rite_961">
+          <tei:fs type="opensiddur:rite">
+            <tei:f name="ashkenaz">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/achrei_mot_kedoshim/ashkenaz" n="ashkenaz">
+          <tei:head>מִנְהַג אַשְׁכְּנַז</tei:head>
+          <tei:milestone unit="citation" n="עמוס 9:7–9:15"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:amos/9/7-9/15"/>
+        </tei:div>
+        <j:endConditional target="#rite_961"/>
+        <j:conditional xml:id="rite_962">
+          <tei:fs type="opensiddur:rite">
+            <tei:f name="sepharad">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/achrei_mot_kedoshim/sepharad" n="sepharad">
+          <tei:head>מִנְהַג סְפָרַד</tei:head>
+          <tei:milestone unit="citation" n="יחזקאל 20:2–20:20"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:ezekiel/20/2-20/20"/>
+        </tei:div>
+        <j:endConditional target="#rite_962"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

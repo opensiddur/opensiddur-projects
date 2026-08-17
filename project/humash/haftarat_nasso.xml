@@ -1,0 +1,87 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַפְטָרַת נָשֹׂא</tei:title>
+        <tei:title type="alt" xml:lang="en">Haftarah for Nasso</tei:title>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for version information</tei:ref>.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:haftarah/nasso@humash</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:humash@humash">the humash project header for source information</tei:ref>.</tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text xml:lang="he">
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/nasso" n="haftarah_nasso">
+        <tei:head>הַפְטָרַת נָשֹׂא</tei:head>
+        <j:conditional xml:id="annual_haftarah_978">
+          <j:any>
+            <tei:fs type="opensiddur:reading-cycle">
+              <tei:f name="annual">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="שופטים 13:2–13:25"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:judges/13/2-13/25"/>
+        <j:endConditional target="#annual_haftarah_978"/>
+        <j:conditional xml:id="triennial_haftarah_979">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-1">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/nasso/triennial/1" n="triennial_1">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה א׳</tei:head>
+          <tei:milestone unit="citation" n="יהושע 6:5–6:14"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:joshua/6/5-6/14"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_979"/>
+        <j:conditional xml:id="triennial_haftarah_980">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-2">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/nasso/triennial/2" n="triennial_2">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ב׳</tei:head>
+          <tei:milestone unit="citation" n="שופטים 13:2–13:14; 13:24–13:25"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:judges/13/2-13/14"/>
+          <tei:milestone unit="citation" n="שופטים 13:24–13:25"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:judges/13/24-13/25"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_980"/>
+        <j:conditional xml:id="triennial_haftarah_981">
+          <tei:fs type="opensiddur:reading-cycle">
+            <tei:f name="triennial-year-3">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div corresp="urn:x-opensiddur:text:bible:haftarah/nasso/triennial/3" n="triennial_3">
+          <tei:head>מַחֲזוֹר תְּלַת־שְׁנָתִי, שָׁנָה ג׳</tei:head>
+          <tei:milestone unit="citation" n="יואל 1:8–1:13; 2:12–2:14"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:joel/1/8-1/13"/>
+          <tei:milestone unit="citation" n="יואל 2:12–2:14"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:joel/2/12-2/14"/>
+        </tei:div>
+        <j:endConditional target="#triennial_haftarah_981"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
