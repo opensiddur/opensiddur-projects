@@ -1,0 +1,30 @@
+name: Validate projects
+
+# Thin caller for opensiddur-ai#94: the actual schema and referential-integrity checks live
+# in opensiddur-ai, which has the validators, the schema, and the tests for both. See
+# opensiddur-ai/.github/workflows/validate-projects.yml.
+#
+# `pull_request` (not `pull_request_target`) and no secrets, so this also runs for PRs from
+# forks. To make this check required: Settings -> Branches -> main -> require the status
+# context this job reports (expected "Validate projects / validate") before merging.
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      opensiddur_ai_ref:
+        description: opensiddur-ai ref whose validators to run (branch, tag, or SHA)
+        default: main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    uses: opensiddur/opensiddur-ai/.github/workflows/validate-projects.yml@main
+    with:
+      opensiddur_ai_ref: ${{ inputs.opensiddur_ai_ref || 'main' }}
