@@ -1,0 +1,96 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kedushah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/qedushah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="84" to="86"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah">
+        <j:conditional xml:id="cond_qedushah_repetition">
+          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Shemoneh Esreh, the following Kedushah is said:</tei:note>
+          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh">
+            <tei:p>We sanctify thy name in this world even as they sanctify it in the highest heavens, as it is written by thy prophet: “They keep calling to one another:</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh">
+            <tei:p>Holy, holy, holy is the Lord of hosts;</tei:p>
+            <tei:p>The whole earth is full of his glory.”</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/leumatam">
+            <tei:p>Those opposite them say: Blessed—</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod">
+            <tei:p>Blessed be the glory of the Lord from his abode.</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/uvdivrey">
+            <tei:p>And in thy holy Scriptures it is written:</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh">
+            <tei:p>The Lord shall reign forever,</tei:p>
+            <tei:p>Your God, O Zion, for all generations.</tei:p>
+            <tei:p>Praise the Lord!</tei:p>
+          </tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador">
+            <tei:note type="instruction" xml:lang="en" corresp="urn:x-opensiddur:instruction:role/reader">Reader:</tei:note>
+            <tei:p><tei:pb n="86" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n110_medium.jpg"/>Through all generations we will declare thy greatness; to all eternity we will proclaim thy holiness; thy praise, our God, shall never depart from our mouth, for thou art a great and holy God and King.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_qedushah_seal_ordinary">
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/haeil_haqadosh">
+            <tei:p>Blessed art thou, O Lord, holy God.</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_qedushah_seal_ordinary"/>
+        <j:conditional xml:id="cond_qedushah_seal_aseret">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur substitute:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/hamelekh_haqadosh">
+            <tei:p>(Blessed art thou, O Lord, holy King.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_qedushah_seal_aseret"/>
+        <j:endConditional target="#cond_qedushah_repetition"/>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

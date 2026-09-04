@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַסִּדּוּר הַשָּׁלֵם</tei:title>
+        <tei:title type="alt" xml:lang="en">ha-Siddur ha-Shalem (The Daily Prayer Book)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/philip-birnbaum">Philip Birnbaum</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Birnbaum’s own English, read from the facing pages of the scanned 1949 printing</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:siddur@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title>ha-Siddur ha-Shalem: The Daily Prayer Book</tei:title>
+          <tei:author>Philip Birnbaum</tei:author>
+          <tei:publisher>Hebrew Publishing Company</tei:publisher>
+          <tei:pubPlace>New York</tei:pubPlace>
+          <tei:date>1949</tei:date>
+        </tei:bibl>
+        <tei:bibl xml:id="scan_bibl">
+          <tei:title xml:lang="en">Scan of the 1949 printing</tei:title>
+          <tei:ref target="https://archive.org/details/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949">Internet Archive</tei:ref>
+          <tei:idno type="url">https://archive.org/details/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
+          <tei:idno type="archive.org">PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
+          <tei:note xml:lang="en">The source of the text, not merely a reference for it: every word here was read off this scan, page by page, and every tei:pb/@facs deep-links into the leaf it falls on. The scan is 1541x2291 per leaf, which is the scan itself and not a derivative.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:chol">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit">
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/amidah"/>
+          </tei:div>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

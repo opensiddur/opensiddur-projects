@@ -1,0 +1,90 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הוֹדָאָה</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/hodaah@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="91" to="93"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah">
+          <tei:div>
+            <tei:p>מוֹדִים אֲנַֽחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ לְעוֹלָם וָעֶד. צוּר חַיֵּֽינוּ, מָגֵן יִשְׁעֵֽנוּ אַתָּה הוּא. לְדוֹר וָדוֹר נֽוֹדֶה לְּךָ, וּנְסַפֵּר תְּהִלָּתֶֽךָ, עַל חַיֵּֽינוּ הַמְּסוּרִים בְּיָדֶֽךָ, וְעַל נִשְׁמוֹתֵֽינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּֽיךָ שֶׁבְּכָל יוֹם עִמָּֽנוּ, וְעַל נִפְלְאוֹתֶֽיךָ וְטוֹבוֹתֶֽיךָ שֶׁבְּכָל עֵת, עֶֽרֶב וָבֹֽקֶר וְצָהֳרָֽיִם. הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶֽיךָ, וְהַמְרַחֵם כִּי לֹא תַֽמּוּ חֲסָדֶֽיךָ, מֵעוֹלָם קִוִּֽינוּ לָךְ.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_modim_derabbanan">
+          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Shemoneh Esreh, the Congregation responds here by saying:</tei:note>
+          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan">
+            <tei:p>(מוֹדִים אֲנַֽחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ. אֱלֹהֵי כָל בָּשָׂר, יוֹצְרֵֽנוּ, יוֹצֵר בְּרֵאשִׁית. בְּרָכוֹת וְהוֹדָאוֹת לְשִׁמְךָ הַגָּדוֹל וְהַקָּדוֹשׁ עַל שֶׁהֶחֱיִיתָֽנוּ וְקִיַּמְתָּֽנוּ. כֵּן תְּחַיֵּֽנוּ וּתְקַיְּמֵֽנוּ, וְתֶאֱסוֹף גָּלֻיּוֹתֵֽינוּ לְחַצְרוֹת קָדְשֶֽׁךָ לִשְׁמֹר חֻקֶּֽיךָ וְלַעֲשׂוֹת רְצוֹנֶֽךָ, וּלְעָבְדְּךָ בְּלֵבָב שָׁלֵם, עַל שֶׁאֲנַֽחְנוּ מוֹדִים לָךְ. בָּרוּךְ אֵל הַהוֹדָאוֹת.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_modim_derabbanan"/>
+        <j:conditional xml:id="cond_hodaah_chanukah">
+          <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah"/>
+        <j:endConditional target="#cond_hodaah_chanukah"/>
+        <j:conditional xml:id="cond_hodaah_purim">
+          <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim"/>
+        <j:endConditional target="#cond_hodaah_purim"/>
+          <tei:div>
+            <tei:p>וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ, מַלְכֵּֽנוּ, תָּמִיד לְעוֹלָם וָעֶד.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_hodaah_aseret">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov">
+            <tei:p>(וּכְתוֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶֽךָ.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_hodaah_aseret"/>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha">
+            <tei:p>וְכֹל הַחַיִּים יוֹדֽוּךָ סֶּֽלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל, יְשׁוּעָתֵֽנוּ וְעֶזְרָתֵֽנוּ סֶֽלָה. בָּרוּךְ אַתָּה, יְיָ, הַטּוֹב שִׁמְךָ, וּלְךָ נָאֶה לְהוֹדוֹת.</tei:p>
+          </tei:div>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

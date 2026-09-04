@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessing for peace</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/shalom@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="96" to="96"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom/sim_shalom">
+            <tei:p>O grant peace, happiness, blessing, grace, kindness and mercy to us and to all Israel thy people. Bless us all alike, our Father, with the light of thy countenance; indeed, by the light of thy countenance thou hast given us, Lord our God, a Torah of life, lovingkindness, charity, blessing, mercy, life and peace. May it please thee to bless thy people Israel with peace at all times and hours.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_shalom_seal_ordinary">
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh">
+            <tei:p>Blessed art thou, O Lord, who blessest thy people Israel with peace.</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shalom_seal_ordinary"/>
+        <j:conditional xml:id="cond_shalom_seal_aseret">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim">
+            <tei:p>(May we and all Israel thy people be remembered and inscribed before thee in the book of life and blessing, peace and prosperity, for a happy life and for peace. Blessed art thou, O Lord, Author of peace.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shalom_seal_aseret"/>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

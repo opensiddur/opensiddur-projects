@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">בִּרְכַּת הַשָּׁנִים</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/shanim@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="87" to="87"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim">
+          <tei:div>
+            <tei:p>בָּרֵךְ עָלֵֽינוּ, יְיָ אֱלֹהֵֽינוּ, אֶת הַשָּׁנָה הַזֹּאת וְאֶת כָּל מִינֵי תְבוּאָתָהּ לְטוֹבָה,</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_shanim_tal_umatar">
+          <tei:note type="instruction" xml:lang="en">From December 4th till Pesaḥ say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="tal-umatar">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_tal_umatar">
+            <tei:p>וְתֵן טַל וּמָטָר לִבְרָכָה</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shanim_tal_umatar"/>
+        <j:conditional xml:id="cond_shanim_berakhah">
+          <tei:note type="instruction" xml:lang="en">From Pesaḥ till December 4th say:</tei:note>
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="tal-umatar">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_berakhah">
+            <tei:p>וְתֵן בְּרָכָה</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shanim_berakhah"/>
+          <tei:div>
+            <tei:p>עַל פְּנֵי הָאֲדָמָה, וְשַׂבְּעֵֽנוּ מִטּוּבֶֽךָ, וּבָרֵךְ שְׁנָתֵֽנוּ כַּשָּׁנִים הַטּוֹבוֹת. בָּרוּךְ אַתָּה, יְיָ, מְבָרֵךְ הַשָּׁנִים.</tei:p>
+          </tei:div>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
