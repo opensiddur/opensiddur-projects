@@ -34,18 +34,6 @@
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/barekh_aleinu">
             <tei:p>Bless for us, Lord our God, this year and all kinds of its produce for the best.</tei:p>
           </tei:div>
-        <j:conditional xml:id="cond_shanim_tal_umatar">
-          <tei:note type="instruction" xml:lang="en">From December 4th till Pesaḥ say:</tei:note>
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="tal-umatar">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_tal_umatar">
-            <tei:p>Bestow dew and rain for a blessing</tei:p>
-          </tei:div>
-        <j:endConditional target="#cond_shanim_tal_umatar"/>
         <j:conditional xml:id="cond_shanim_berakhah">
           <tei:note type="instruction" xml:lang="en">From Pesaḥ till December 4th say:</tei:note>
           <j:none>
@@ -60,6 +48,18 @@
             <tei:p>Bestow a blessing</tei:p>
           </tei:div>
         <j:endConditional target="#cond_shanim_berakhah"/>
+        <j:conditional xml:id="cond_shanim_tal_umatar">
+          <tei:note type="instruction" xml:lang="en">From December 4th till Pesaḥ say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="tal-umatar">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_tal_umatar">
+            <tei:p>Bestow dew and rain for a blessing</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shanim_tal_umatar"/>
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/al_penei_haadamah">
             <tei:p>upon the face of the earth. Satisfy us with thy goodness, and bless our year like other good years. Blessed art thou, O Lord, who blessest the years.</tei:p>
           </tei:div>

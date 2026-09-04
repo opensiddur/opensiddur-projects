@@ -34,18 +34,6 @@
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/barekh_aleinu">
             <tei:p>בָּרֵךְ עָלֵֽינוּ, יְיָ אֱלֹהֵֽינוּ, אֶת הַשָּׁנָה הַזֹּאת וְאֶת כָּל מִינֵי תְבוּאָתָהּ לְטוֹבָה,</tei:p>
           </tei:div>
-        <j:conditional xml:id="cond_shanim_tal_umatar">
-          <tei:note type="instruction" xml:lang="en">From December 4th till Pesaḥ say:</tei:note>
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="tal-umatar">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_tal_umatar">
-            <tei:p>וְתֵן טַל וּמָטָר לִבְרָכָה</tei:p>
-          </tei:div>
-        <j:endConditional target="#cond_shanim_tal_umatar"/>
         <j:conditional xml:id="cond_shanim_berakhah">
           <tei:note type="instruction" xml:lang="en">From Pesaḥ till December 4th say:</tei:note>
           <j:none>
@@ -60,6 +48,18 @@
             <tei:p>וְתֵן בְּרָכָה</tei:p>
           </tei:div>
         <j:endConditional target="#cond_shanim_berakhah"/>
+        <j:conditional xml:id="cond_shanim_tal_umatar">
+          <tei:note type="instruction" xml:lang="en">From December 4th till Pesaḥ say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="tal-umatar">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/vetein_tal_umatar">
+            <tei:p>וְתֵן טַל וּמָטָר לִבְרָכָה</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_shanim_tal_umatar"/>
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shanim/al_penei_haadamah">
             <tei:p>עַל פְּנֵי הָאֲדָמָה, וְשַׂבְּעֵֽנוּ מִטּוּבֶֽךָ, וּבָרֵךְ שְׁנָתֵֽנוּ כַּשָּׁנִים הַטּוֹבוֹת. בָּרוּךְ אַתָּה, יְיָ, מְבָרֵךְ הַשָּׁנִים.</tei:p>
           </tei:div>
