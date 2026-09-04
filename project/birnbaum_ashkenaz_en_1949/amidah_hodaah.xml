@@ -31,7 +31,7 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah">
-          <tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/modim">
             <tei:p><tei:pb n="92" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n116_medium.jpg"/>We ever thank thee, who art the Lord our God and the God of our fathers. Thou art the strength of our life and our saving shield. In every generation we will thank thee and recount thy praise—for our lives which are in thy charge, for our souls which are in thy care, for thy miracles which are daily with us, and for thy continual wonders and favors—evening, morning and noon. Beneficent One, whose mercies never fail, Merciful One, whose kindnesses never cease, thou hast always been our hope.</tei:p>
           </tei:div>
         <j:conditional xml:id="cond_modim_derabbanan">
@@ -66,7 +66,7 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim"/>
         <j:endConditional target="#cond_hodaah_purim"/>
-          <tei:div>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam">
             <tei:p>For all these acts may thy name, our King, be blessed and exalted forever and ever.</tei:p>
           </tei:div>
         <j:conditional xml:id="cond_hodaah_aseret">
