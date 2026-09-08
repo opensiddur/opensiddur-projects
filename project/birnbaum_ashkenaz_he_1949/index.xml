@@ -27,14 +27,12 @@
           <tei:author>Philip Birnbaum</tei:author>
           <tei:publisher>Hebrew Publishing Company</tei:publisher>
           <tei:pubPlace>New York</tei:pubPlace>
-          <tei:date>1949</tei:date>
-        </tei:bibl>
-        <tei:bibl xml:id="scan_bibl">
-          <tei:title xml:lang="en">Scan of the 1949 printing</tei:title>
-          <tei:ref target="https://archive.org/details/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949">Internet Archive</tei:ref>
+          <tei:date when="1949">1949</tei:date>
+          <tei:date type="accessed" when="2026-09-08">2026-09-08</tei:date>
           <tei:idno type="url">https://archive.org/details/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
           <tei:idno type="archive.org">PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
-          <tei:note xml:lang="en">The source of the text, not merely a reference for it: every word here was read off this scan, page by page, and every tei:pb/@facs deep-links into the leaf it falls on. The scan is 1541x2291 per leaf, which is the scan itself and not a derivative.</tei:note>
+          <tei:note xml:lang="en">The scan cited here is the source of the text, not merely a reference for it: every word was read off it, page by page.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Every tei:pb/@facs in this project deep-links into the leaf its page break falls on. The scan is 1541x2291 pixels per leaf, which is the scan itself and not a derivative.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
