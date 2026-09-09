@@ -34,11 +34,40 @@
           <tei:note xml:lang="en">The English of this project is Birnbaum’s own translation, printed on the pages facing the Hebrew.</tei:note>
           <tei:note xml:lang="en">The scan cited here is the source of the text, not merely a reference for it: every word was read off it, page by page.</tei:note>
           <tei:note type="encoding" xml:lang="en">Every tei:pb/@facs in this project deep-links into the leaf its page break falls on. The scan is 1541x2291 pixels per leaf, which is the scan itself and not a derivative.</tei:note>
+          <tei:note type="encoding" xml:lang="en">In the front matter, tei:pb/@n in square brackets is a designation the book implies rather than prints. The printed Roman sequence runs IX to XXIII on scan leaves 11 to 25, which fixes leaf 3 as I; leaves 1 and 2 precede that sequence and are numbered from the scan.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
+    <tei:front>
+      <tei:pb n="[1]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n0_medium.jpg"/>
+      <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" corresp="urn:x-opensiddur:text:front:title_page" xml:lang="en">
+        <tei:pb n="[I]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n2_medium.jpg"/>
+        <tei:docTitle>
+          <tei:titlePart type="main">DAILY PRAYER BOOK</tei:titlePart>
+          <tei:titlePart type="sub">HA-SIDDUR HA-SHALEM</tei:titlePart>
+        </tei:docTitle>
+        <tei:byline><tei:hi rend="italic">Translated and Annotated</tei:hi><tei:lb/><tei:hi rend="italic">with an Introduction</tei:hi><tei:lb/><tei:hi rend="italic">by</tei:hi><tei:lb/><tei:docAuthor>PHILIP BIRNBAUM</tei:docAuthor></tei:byline>
+        <tei:docImprint>
+          <tei:publisher>HEBREW PUBLISHING COMPANY</tei:publisher><tei:lb/>
+          <tei:pubPlace>NEW YORK</tei:pubPlace>
+        </tei:docImprint>
+      </tei:titlePage>
+      <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" type="copyright" corresp="urn:x-opensiddur:text:front:copyright" xml:lang="en">
+        <tei:pb n="[II]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n3_medium.jpg"/>
+        <tei:docImprint><tei:hi rend="small-caps">Ha-Siddur Ha-Shalem</tei:hi><tei:lb/><tei:hi rend="italic">Copyright 1949</tei:hi><tei:lb/><tei:hi rend="italic">by Hebrew Publishing Company New York</tei:hi></tei:docImprint>
+        <tei:imprimatur><tei:hi rend="italic">All rights reserved. This text including the new translation and notes has been edited and revised as to the order of prayers, content, form and style. No part of this book may be reproduced in any form without permission in writing from the publisher, except by a reviewer who wishes to quote brief passages in connection with a review written for inclusion in magazines or newspapers. The rights of the publisher will be strictly enforced.</tei:hi></tei:imprimatur>
+        <tei:docImprint xml:lang="he">סֻדַּר בַּמִּסְדָּרָה שֶׁל<tei:lb/>הִיבְּרוּ פּוּבְּלִישִׁינְג קוֹמְפּ., נְיוּ־יוֹרְק</tei:docImprint>
+        <tei:docImprint><tei:hi rend="italic">Typography by Hebrew Publishing Co., New York</tei:hi><tei:lb/><tei:hi rend="italic">Printed and bound in the United States of America,</tei:hi><tei:lb/><tei:hi rend="italic">by Montauk Book Mfg. Co., Inc., New York</tei:hi></tei:docImprint>
+      </tei:titlePage>
+      <j:transclude type="external" target="urn:x-opensiddur:text:front:dedication"/>
+      <tei:pb n="[V]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n6_medium.jpg"/>
+      <tei:pb n="[VI]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n7_medium.jpg"/>
+      <j:transclude type="external" target="urn:x-opensiddur:text:front:acknowledgements"/>
+      <tei:pb n="[VIII]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n9_medium.jpg"/>
+      <j:transclude type="external" target="urn:x-opensiddur:text:front:introduction"/>
+    </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
         <tei:div corresp="urn:x-opensiddur:text:siddur:chol">
