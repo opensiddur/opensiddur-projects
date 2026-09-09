@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessing for the Temple service</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/avodah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="90" to="92"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh">
+            <tei:p>Be pleased, Lord our God, with thy people Israel and with their prayer; restore the worship to thy most holy sanctuary; accept Israel’s offerings and prayer with gracious love. May the worship of thy people Israel be ever pleasing to thee.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_avodah_yaaleh">
+          <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh and Ḥol ha-Mo‘ed add:</tei:note>
+          <j:any>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
+        <j:endConditional target="#cond_avodah_yaaleh"/>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah">
+            <tei:p>May our eyes behold thy return in mercy to Zion. Blessed art thou, O Lord, who restorest thy divine presence to Zion.</tei:p>
+          </tei:div>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

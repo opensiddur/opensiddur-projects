@@ -1,0 +1,123 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תְּפִלַּת הָעֲמִידָה לְשַׁחֲרִית בְּחוֹל</tei:title>
+        <tei:title type="alt" xml:lang="en">The weekday morning Amidah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/shacharit/amidah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="82" to="98"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/amidah">
+        <j:declare xml:id="unit_service">
+          <tei:fs type="opensiddur:service-time">
+          <tei:f name="shaharit">
+            <tei:binary value="true"/>
+          </tei:f>
+          <tei:f name="minha">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="maariv">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="musaf">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="neila">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="slihot">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday-aggregate">
+          <tei:f name="shabbat">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="yom-tov">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:head xml:lang="en">SHEMONEH ESREH</tei:head>
+        <tei:note type="instruction" xml:lang="en">The Shemoneh Esreh is recited in silent devotion while standing, facing east.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The Reader repeats the Shemoneh Esreh aloud when a minyan holds service.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
+        <tei:head xml:lang="en">KEDUSHAH</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geulah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/refuah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shanim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzadiqim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
+        <j:conditional xml:id="cond_unit_hallel">
+          <tei:note type="instruction" xml:lang="en">Hallel (page 566) is recited here on Rosh Ḥodesh, Ḥol ha-Mo‘ed and Ḥanukkah.</tei:note>
+          <j:any>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:endConditional target="#cond_unit_hallel"/>
+        <tei:div>
+          <tei:head xml:lang="en">ABRIDGED SHEMONEH ESREH</tei:head>
+          <tei:note type="instruction" xml:lang="en">Used when one is unable to recite the complete Amidah</tei:note>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/havinenu"/>
+        </tei:div>
+        <j:endDeclare target="#unit_service"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

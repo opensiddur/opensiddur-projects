@@ -1,0 +1,79 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ya‘aleh v’yavo</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:yaaleh_veyavo@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="90" to="92"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/elohenu_velohei">
+            <tei:p>(Our God and God of our fathers, may the remembrance of us, of our fathers, of Messiah the son of David thy servant, of Jerusalem thy holy city, and of all thy people the house of Israel, ascend and come and be accepted before thee for deliverance and happiness, for grace, kindness and mercy, for life and peace, on this day of</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_yvy_rosh_hodesh">
+          <tei:note type="instruction" xml:lang="en">Rosh Ḥodesh</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/rosh_hodesh">
+            <tei:p>the New Moon.</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_yvy_rosh_hodesh"/>
+        <j:conditional xml:id="cond_yvy_pesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/pesach">
+            <tei:p>the Feast of Unleavened Bread.</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_yvy_pesach"/>
+        <j:conditional xml:id="cond_yvy_sukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/sukkot">
+            <tei:p>the Feast of Tabernacles.</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_yvy_sukkot"/>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/zokhrenu">
+            <tei:p>Remember us this day, Lord our God, for happiness; be mindful<tei:pb n="92" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n116_medium.jpg"/> of us for blessing; save us to enjoy life. With a promise of salvation and mercy spare us and be gracious to us; have pity on us and save us, for we look to thee, for thou art a gracious and merciful God and King.)</tei:p>
+          </tei:div>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

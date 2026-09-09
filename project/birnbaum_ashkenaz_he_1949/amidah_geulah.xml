@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">גְּאוּלָּה</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/geulah@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="85" to="85"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/geulah">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/geulah/reeh_na">
+            <tei:p>רְאֵה נָא בְעָנְיֵֽנוּ וְרִיבָה רִיבֵֽנוּ, וּגְאָלֵֽנוּ מְהֵרָה לְמַֽעַן שְׁמֶֽךָ, כִּי גוֹאֵל חָזָק אָֽתָּה. בָּרוּךְ אַתָּה, יְיָ, גּוֹאֵל יִשְׂרָאֵל.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_geulah_aneinu">
+          <tei:note type="instruction" xml:lang="en">On fast days (except Tish‘ah b’Av) the Reader adds:</tei:note>
+          <j:all>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:all>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/aneinu">
+            <tei:p>(עֲנֵֽנוּ, יְיָ, עֲנֵֽנוּ בְּיוֹם צוֹם תַּעֲנִיתֵֽנוּ, כִּי בְצָרָה גְדוֹלָה אֲנָֽחְנוּ. אַל תֵּֽפֶן אֶל רִשְׁעֵֽנוּ, וְאַל תַּסְתֵּר פָּנֶֽיךָ מִמֶּֽנּוּ, וְאַל תִּתְעַלַּם מִתְּחִנָּתֵֽנוּ. הֱיֵה נָא קָרוֹב לְשַׁוְעָתֵֽנוּ, יְהִי נָא חַסְדְּךָ לְנַחֲמֵֽנוּ; טֶֽרֶם נִקְרָא אֵלֶֽיךָ עֲנֵֽנוּ, כַּדָּבָר שֶׁנֶּאֱמַר: וְהָיָה טֶֽרֶם יִקְרָֽאוּ, וַאֲנִי אֶעֱנֶה; עוֹד הֵם מְדַבְּרִים, וַאֲנִי אֶשְׁמָע. כִּי אַתָּה, יְיָ, הָעוֹנֶה בְּעֵת צָרָה, פּוֹדֶה וּמַצִּיל בְּכָל עֵת צָרָה וְצוּקָה. בָּרוּךְ אַתָּה, יְיָ, הָעוֹנֶה בְּעֵת צָרָה.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_geulah_aneinu"/>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

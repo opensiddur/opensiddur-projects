@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessing of the Patriarchs</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/avot@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="82" to="84"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/barukh_atah">
+            <tei:p>Blessed art thou, Lord our God and God of our fathers, God of Abraham, God of Isaac and God of Jacob; great, mighty and revered God, sublime God, who bestowest lovingkindness, and art Master of all things; who rememberest the good deeds of our fathers, and who wilt graciously bring a redeemer to their children’s children for the sake of thy name.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_avot_aseret">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/zokhrenu">
+            <tei:p>(<tei:pb n="84" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n108_medium.jpg"/>Remember us to life, O King who delightest in life; inscribe us in the book of life for thy sake, O living God.)</tei:p>
+          </tei:div>
+        <j:endConditional target="#cond_avot_aseret"/>
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/magen_avraham">
+            <tei:p>O King, Supporter, Savior and Shield! Blessed art thou, O Lord, Shield of Abraham.</tei:p>
+          </tei:div>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
