@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">שַׁחֲרִית לִילָדִים</tei:title>
+        <tei:title type="alt" xml:lang="en">Morning prayer for children</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:all/shacharit/yeladim@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="1" to="1"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:all/shacharit/yeladim">
+        <j:declare xml:id="unit_service">
+          <tei:fs type="opensiddur:service-time">
+          <tei:f name="shaharit">
+            <tei:binary value="true"/>
+          </tei:f>
+          <tei:f name="minha">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="maariv">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="musaf">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="neila">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="slihot">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:head xml:lang="he">שַׁחֲרִית לִילָדִים</tei:head>
+        <tei:note type="instruction" xml:lang="en">Upon awakening in the morning:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:modeh_ani"/>
+        <tei:note type="instruction" xml:lang="en">When washing the hands:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_yadayim"/>
+        <tei:note type="instruction" xml:lang="en">When putting on the <tei:foreign xml:lang="he-Latn">arba kanfoth</tei:foreign>:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_mitzvat_tzitzit"/>
+        <tei:note type="instruction" xml:lang="en">When dressed:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:torah_tziva"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yeladim/elohai_netzor"/>
+        <j:endDeclare target="#unit_service"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -62,6 +62,11 @@
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:all">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:all/shacharit">
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:all/shacharit/yeladim"/>
+          </tei:div>
+        </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:chol">
           <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit">
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/amidah"/>
