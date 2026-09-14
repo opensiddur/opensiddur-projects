@@ -24,7 +24,7 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="3" to="11"/>
+          <tei:biblScope unit="pages" from="3" to="13"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -74,6 +74,20 @@
         <tei:head xml:lang="he">תהלים לו, ח–יא</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/mah_yakar"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>
+        <tei:head xml:lang="he">סֵֽדֶר הַנָּחַת תְּפִלִּין</tei:head>
+        <tei:note type="instruction" xml:lang="en">Meditation before putting on the tefillin</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/hineni_mekhaven"/>
+        <tei:note type="instruction" xml:lang="en">When placing the tefillin on the left arm:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/lehaniach"/>
+        <tei:note type="instruction" xml:lang="en">When placing the tefillin on the forehead:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/al_mitzvat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/umechokhmatkha"/>
+        <tei:note type="instruction" xml:lang="en">When winding the retsuah three times round the middle finger:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/verastikh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/yehi_ratzon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/parashiyot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
         <j:endDeclare target="#unit_service"/>
       </tei:div>
     </tei:body>
