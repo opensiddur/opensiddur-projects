@@ -16,7 +16,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/shacharit/birchot_hashachar@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:all/shacharit/birchot_hashachar@birnbaum_ashkenaz_he_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -24,14 +24,14 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="3" to="19"/>
+          <tei:biblScope unit="pages" from="3" to="47"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/birchot_hashachar">
+      <tei:div corresp="urn:x-opensiddur:text:siddur:all/shacharit/birchot_hashachar">
         <j:declare xml:id="unit_service">
           <tei:fs type="opensiddur:service-time">
           <tei:f name="shaharit">
@@ -50,14 +50,6 @@
             <tei:binary value="false"/>
           </tei:f>
           <tei:f name="slihot">
-            <tei:binary value="false"/>
-          </tei:f>
-          </tei:fs>
-          <tei:fs type="opensiddur:holiday-aggregate">
-          <tei:f name="shabbat">
-            <tei:binary value="false"/>
-          </tei:f>
-          <tei:f name="yom-tov">
             <tei:binary value="false"/>
           </tei:f>
           </tei:fs>
@@ -81,6 +73,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/lehaniach"/>
         <tei:note type="instruction" xml:lang="en">When placing the tefillin on the forehead:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/al_mitzvat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/umechokhmatkha"/>
         <tei:note type="instruction" xml:lang="en">When winding the retsuah three times round the middle finger:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/verastikh"/>
@@ -134,6 +127,102 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/gomel_chasadim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shetatzileni"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/zochreinu"/>
+        <tei:head xml:lang="he">בראשית כב, א–יט</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:akedah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:akedah/ribbono_shel_olam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leolam_yehe_adam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh"/>
+        <tei:note type="instruction" xml:lang="en">Reader</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh/ashrenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/shema_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:atah_hu/ad_shelo"/>
+        <tei:note type="instruction" xml:lang="en">Reader</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:atah_hu/uvishuatkha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:atah_hu/bashamayim"/>
+        <tei:head xml:lang="he">שמות ל, יז–כא</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/kiyor"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/yehi_ratzon_miqdash"/>
+        <tei:head xml:lang="he">במדבר כח, א–ח</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/tamid"/>
+        <tei:head xml:lang="he">ויקרא א, יא</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/ushchat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/yehi_ratzon_amirah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/atah_hu"/>
+        <tei:head xml:lang="he">שמות ל, לד–לו; ל ז–ח</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/ketoret"/>
+        <tei:head xml:lang="he">תלמוד בבלי, כריתות ו, א; תלמוד ירושלמי, יומא ד, ה</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/pittum_haketoret"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/pittum_haketoret/rashbag"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/pittum_haketoret/rabbi_natan"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/pittum_haketoret/bar_kappara"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/pesukim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/atah_seter"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/vearvah"/>
+        <tei:head xml:lang="he">מסכת יומא לג, א</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/seder_hamaarakhah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ana_bekhoach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/ribbon_haolamim"/>
+        <j:conditional xml:id="cond_musaf_shabbat">
+          <tei:note type="instruction" xml:lang="en">On Sabbath say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:head xml:lang="he">במדבר כח, ט–י</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/musaf/shabbat"/>
+        <j:endConditional target="#cond_musaf_shabbat"/>
+        <j:conditional xml:id="cond_musaf_rosh_chodesh">
+          <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh say:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:head xml:lang="he">במדבר כח, יא–טו</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:korbanot/musaf/rosh_chodesh"/>
+        <j:endConditional target="#cond_musaf_rosh_chodesh"/>
+        <tei:head xml:lang="he">משנה זבחים, פרק ה</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_mekoman/8"/>
+        <tei:head xml:lang="he">ספרא, פתיחה</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/lead"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/8"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/9"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/10"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/11"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/12"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/13"/>
+        <tei:head xml:lang="he">אבות ה, כג; מלאכי ג, ד</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/yehi_ratzon"/>
+        <tei:head xml:lang="he">קַדִּישׁ דְּרַבָּנָן</tei:head>
+        <tei:note type="instruction" xml:lang="en">Mourners:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitgadal"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shmeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/al_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shlama"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
+        <tei:note type="instruction" xml:lang="en">On Sabbaths and on major festivals the service is continued on page 299.</tei:note>
         <j:endDeclare target="#unit_service"/>
       </tei:div>
     </tei:body>
