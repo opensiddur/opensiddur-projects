@@ -24,7 +24,7 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="4" to="14"/>
+          <tei:biblScope unit="pages" from="4" to="20"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -90,6 +90,52 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
         <tei:head xml:lang="en">YIGDAL</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_yadayim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_yatzar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasok"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elu_devarim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elohai_neshamah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/lasekhvi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shelo_asani_goy"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shelo_asani_aved"/>
+        <j:conditional xml:id="cond_blessing_men">
+          <tei:note type="instruction" xml:lang="en">Men say:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="gender">
+              <tei:symbol value="male"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shelo_asani_ishah"/>
+        <j:endConditional target="#cond_blessing_men"/>
+        <j:conditional xml:id="cond_blessing_women">
+          <tei:note type="instruction" xml:lang="en">Women say:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="gender">
+              <tei:symbol value="female"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/sheasani_kirtzono"/>
+        <j:endConditional target="#cond_blessing_women"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/pokeach_ivrim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/malbish_arumim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/matir_asurim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/zokef_kefufim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/roka_haaretz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/sheasah_li"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/hamekhin"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/ozer_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/oter_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/hanoten_layaef"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/hamaavir_shenah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shetargilenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/gomel_chasadim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/shetatzileni"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birchot_hashachar/zochreinu"/>
         <j:endDeclare target="#unit_service"/>
       </tei:div>
     </tei:body>
