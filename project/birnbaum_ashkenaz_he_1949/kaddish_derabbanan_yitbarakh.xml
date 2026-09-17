@@ -31,7 +31,14 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh">
-          <tei:p><tei:pb n="47" ed="1949 all/shacharit/birchot_hashachar" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n71_medium.jpg"/>יִתְבָּרַךְ וְיִשְׁתַּבַּח, וְיִתְפָּאַר וְיִתְרוֹמָם, וְיִתְנַשֵּׂא וְיִתְהַדָּר, וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא, בְּרִיךְ הוּא, לְעֵֽלָּא (לְעֵֽלָּא) מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן.</tei:p>
+          <tei:p><tei:pb n="47" ed="1949 all/shacharit/birchot_hashachar" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n71_medium.jpg"/><tei:seg corresp="urn:x-opensiddur:text:prayer:kaddish/yitbarakh">יִתְבָּרַךְ וְיִשְׁתַּבַּח, וְיִתְפָּאַר וְיִתְרוֹמָם, וְיִתְנַשֵּׂא וְיִתְהַדָּר, וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא, בְּרִיךְ הוּא, לְעֵֽלָּא         <j:conditional xml:id="cond_kaddish_aseret">
+          <tei:note type="instruction" xml:lang="en" corresp="urn:x-opensiddur:instruction:aseret_yemei_teshuvah/add" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">During the Ten Days of Repentance, add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>לְעֵֽלָּא        <j:endConditional target="#cond_kaddish_aseret"/> מִן כָּל בִּרְכָתָא וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן.</tei:seg></tei:p>
         </tei:div>
     </tei:body>
   </tei:text>

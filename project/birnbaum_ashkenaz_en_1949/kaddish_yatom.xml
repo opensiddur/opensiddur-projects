@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="en">Blessed and praised</tei:title>
+        <tei:title type="main" xml:lang="en">Mourners’ Kaddish</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +15,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:kaddish/yatom@birnbaum_ashkenaz_en_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,16 +23,24 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="48" to="48"/>
+          <tei:biblScope unit="pages" from="50" to="52"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh">
-          <tei:p><tei:seg corresp="urn:x-opensiddur:text:prayer:kaddish/yitbarakh">Blessed and praised, glorified and exalted, extolled and honored, adored and lauded be the name of the Holy One, blessed be he, beyond all the blessings and hymns, praises and consolations that are ever spoken in the world; and say, Amen.</tei:seg></tei:p>
+<tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/yatom">
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama">
+          <tei:p><tei:pb n="52" ed="1949 chol/shacharit/pesukei_dezimra" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n76_medium.jpg"/>May there be abundant peace from heaven, and life, for us and for all Israel; and say, Amen.</tei:p>
         </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom">
+          <tei:p>He who creates peace in his celestial heights, may he create peace for us and for all Israel; and say, Amen.</tei:p>
+        </tei:div>
+</tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
