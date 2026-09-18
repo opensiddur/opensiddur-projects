@@ -2,8 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">תְּפִלַּת שַׁחֲרִית</tei:title>
-        <tei:title type="alt" xml:lang="en">Morning service (through Barukh sheamar)</tei:title>
+        <tei:title type="main" xml:lang="he">פְּסוּקֵי דְזִמְרָה</tei:title>
+        <tei:title type="alt" xml:lang="en">Verses of praise (before Ashrei)</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -24,7 +24,7 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="49" to="51"/>
+          <tei:biblScope unit="pages" from="51" to="57"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -62,12 +62,29 @@
           </tei:f>
           </tei:fs>
         </j:declare>
-<tei:head xml:lang="he">תְּפִלַּת שַׁחֲרִית</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mizmor_shir_chanukat_habayit"/>
-<tei:head xml:lang="en">MOURNERS’ KADDISH</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hareni_mezamen"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesukei_dezimra/barukh_sheamar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra/hodu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra/romemu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra/vehu_rahum"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra/hoshia_et_amekha"/>
+        <j:conditional xml:id="cond_mizmor_letodah">
+          <tei:note type="instruction" xml:lang="en">The following psalm is omitted on <tei:foreign xml:lang="he-Latn">Erev Yom Kippur</tei:foreign>, <tei:foreign xml:lang="he-Latn">Erev Pesaḥ</tei:foreign> and <tei:foreign xml:lang="he-Latn">Ḥol ha-Mo‘ed Pesaḥ</tei:foreign>.</tei:note>
+          <j:none>
+<tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="14"/></tei:f></tei:fs><j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/100"/>
+        <j:endConditional target="#cond_mizmor_letodah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra/yehi_khevod"/>
 <j:endDeclare target="#unit_service"/>
 </tei:div>
     </tei:body>
