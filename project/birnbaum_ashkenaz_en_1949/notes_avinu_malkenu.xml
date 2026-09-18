@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Notes on Avinu Malkenu</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:notes:birnbaum_1949/avinu_malkenu@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="98" to="100"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chatanu">
+      <tei:p><tei:label xml:lang="he">אבינו מלכנו</tei:label> is mentioned in the Talmud (Ta‘anith 25b) as the prayer of Rabbi Akiba on a fast day. There is a close resemblance between some of its phrases and the <tei:hi rend="italic">Shemoneh Esreh</tei:hi>. In the ninth century <tei:hi rend="italic">Siddur</tei:hi> of Amram Gaon there are only twenty-five verses of <tei:hi rend="italic">Avinu Malkenu</tei:hi>. In the course of time the number has been increased on account of disaster and persecution.</tei:p>
+    </tei:note>
+    <tei:note type="instruction" n="*" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu">
+      <tei:p rend="italic">On fast days, instead of “inscribe us” the phrase “remember us” is used.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>
