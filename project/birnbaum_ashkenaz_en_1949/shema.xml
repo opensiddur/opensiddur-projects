@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Shema</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:shema@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="76" to="78"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:shema"><tei:head xml:lang="en">SHEMA</tei:head><tei:div corresp="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"><tei:p>        <j:conditional xml:id="cond_shema_private">
+          <tei:note type="instruction" xml:lang="en">When praying in private, add:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>God is a faithful King.        <j:endConditional target="#cond_shema_private"/></tei:p></tei:div><tei:div><tei:head xml:lang="en">Deuteronomy 6:4–9</tei:head><tei:p><tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/4">Hear, O Israel, the Lord is our God, the Lord is One.</tei:seg> </tei:p></tei:div><tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shema/barukh_shem"><j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/></tei:div><tei:div><tei:p><tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/5">You shall love the Lord your God with all your heart, and with all your soul, and with all your might.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/6">And these words which I command you today shall be in your heart.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/7">You shall teach them diligently to your children, and you shall speak of them when you are sitting at home and when you go on a journey, when you lie down and when you rise up.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/8">You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/6/9">You shall inscribe them on the doorposts of your house and on your gates.</tei:seg> </tei:p></tei:div><tei:div><tei:head xml:lang="en">Deuteronomy 11:13–21</tei:head><tei:p><tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/13"><tei:pb n="78" ed="1949 chol/shacharit/shema" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n102_medium.jpg"/>And if you will carefully obey my commands which I give you today, to love the Lord your God and to serve him with all your heart and with all your soul,</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/14">I will give rain for your land at the right season, the autumn rains and the spring rains, that you may gather in your grain, your wine and your oil.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/15">And I will produce grass in your fields for your cattle, and you will eat and be satisfied.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/16">Beware lest your heart be deceived, and you turn and serve other gods and worship them;</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/17">for then the Lord’s anger will blaze against you, and he will shut up the skies so that there will be no rain, and the land will yield no produce, and you will quickly perish from the good land which the Lord gives you.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/18">So you shall place these words of mine in your heart and in your soul, and you shall bind them for a sign on your hand, and they shall be for frontlets between your eyes.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/19">You shall teach them to your children, speaking of them when you are sitting at home and when you go on a journey, when you lie down and when you rise up.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/20">You shall inscribe them on the doorposts of your house and on your gates—</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:deuteronomy/11/21">that your life and the life of your children may be prolonged in the land, which the Lord promised he would give to your fathers, for as long as the sky remains over the earth.</tei:seg> </tei:p></tei:div><tei:div><tei:head xml:lang="en">Numbers 15:37–41</tei:head><tei:p><tei:seg corresp="urn:x-opensiddur:text:bible:numbers/15/37">The Lord spoke to Moses, saying:</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:numbers/15/38">Speak to the children of Israel and tell them to make for themselves fringes on the corners of their garments throughout their generations, and to put on the fringe of each corner a blue thread.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:numbers/15/39">You shall have it as a fringe, so that when you look upon it you will remember to do all the commands of the Lord, and you will not follow the desires of your heart and your eyes which lead you astray.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:numbers/15/40">It is for you to remember and do all my commands and be holy for your God.</tei:seg> <tei:seg corresp="urn:x-opensiddur:text:bible:numbers/15/41">I am the Lord your God who brought you out of the land of Egypt to be your God; I am the Lord your God.</tei:seg> </tei:p></tei:div></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
