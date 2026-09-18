@@ -90,27 +90,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
-        <j:conditional xml:id="cond_unit_hallel">
-          <tei:note type="instruction" xml:lang="en">Hallel (page 566) is recited here on Rosh Ḥodesh, Ḥol ha-Mo‘ed and Ḥanukkah.</tei:note>
-          <j:any>
-          <tei:fs type="opensiddur:holiday">
-            <tei:f name="rosh-hodesh">
-              <tei:numeric value="1" max="2"/>
-            </tei:f>
-          </tei:fs>
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="chol-hamoed">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-          <tei:fs type="opensiddur:holiday">
-            <tei:f name="hanukkah">
-              <tei:numeric value="1" max="8"/>
-            </tei:f>
-          </tei:fs>
-          </j:any>
-        </j:conditional>
-        <j:endConditional target="#cond_unit_hallel"/>
+        <tei:note type="instruction" xml:lang="en">Hallel (page 566) is recited here on Rosh Ḥodesh, Ḥol ha-Mo‘ed and Ḥanukkah.</tei:note>
         <tei:div>
           <tei:head xml:lang="en">ABRIDGED SHEMONEH ESREH</tei:head>
           <tei:note type="instruction" xml:lang="en">Used when one is unable to recite the complete Amidah</tei:note>
