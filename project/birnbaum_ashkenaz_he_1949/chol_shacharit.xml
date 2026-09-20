@@ -2,8 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">קְרִיאַת שְׁמַע וּבִרְכוֹתֶיהָ</tei:title>
-        <tei:title type="alt" xml:lang="en">Shema and its blessings</tei:title>
+        <tei:title type="main" xml:lang="he">תפילת שחרית ליום חול</tei:title>
+        <tei:title type="alt" xml:lang="en">Weekday Shacharit</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -16,7 +16,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/shacharit/shema@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/shacharit@birnbaum_ashkenaz_he_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -24,16 +24,16 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="71" to="81"/>
+          <tei:biblScope unit="pages" from="3" to="155"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shema">
-<tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קְרִיאַת שְׁמַע וּבִרְכוֹתֶיהָ</tei:head>
-        <j:declare xml:id="unit_service">
+<tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit">
+<tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">תְּפִלַּת שַׁחֲרִית לְיוֹם חוֹל</tei:head>
+        <j:declare xml:id="weekday_service">
           <tei:fs type="opensiddur:service-time">
           <tei:f name="shaharit">
             <tei:binary value="true"/>
@@ -63,12 +63,20 @@
           </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavah_rabbah"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv"/>
-<j:endDeclare target="#unit_service"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:all/shacharit/birchot_hashachar"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/opening"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesukei_dezimra"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shema"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/amidah"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/avinu_malkenu"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/kaddish_after_tachanun"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah_intro"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/psalms"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/final_readings"/>
+<j:endDeclare target="#weekday_service"/>
 </tei:div>
     </tei:body>
   </tei:text>
