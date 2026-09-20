@@ -1,0 +1,204 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קְרִיאַת הַתּוֹרָה</tei:title>
+        <tei:title type="alt" xml:lang="en">Reading of the Torah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/shacharit/torah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="120" to="128"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/torah">
+        <j:declare xml:id="unit_service">
+          <tei:fs type="opensiddur:service-time">
+          <tei:f name="shaharit">
+            <tei:binary value="true"/>
+          </tei:f>
+          <tei:f name="minha">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="maariv">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="musaf">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="neila">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="slihot">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday-aggregate">
+          <tei:f name="shabbat">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="yom-tov">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:conditional xml:id="torah_reading_day">
+          <tei:note type="instruction" xml:lang="en">The Torah is read on Mondays and Thursdays, Rosh Ḥodesh, Ḥol ha-Mo‘ed, Ḥanukkah, Purim, and on fast days.</tei:note>
+<j:none>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs><j:none><j:any><j:any>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="5"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shushan-purim">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tzom-tammuz">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs></j:any></j:any></j:none></j:none>
+        </j:conditional>
+<tei:pb n="120" ed="1949 chol/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n144_medium.jpg"/>
+<tei:head xml:lang="en">READING OF THE TORAH</tei:head>
+<tei:note type="instruction" xml:lang="en">The ark is opened.</tei:note>
+<tei:note type="instruction" xml:lang="en">Reader and Congregation:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vayehi_binsoa"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:berikh_shemeh"/>
+<tei:note type="instruction" xml:lang="en">The Reader takes the Torah and says:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/34/4"/>
+<tei:note type="instruction" xml:lang="en">Congregation:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/lekha_adonai"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/hu_yerachem"/>
+<tei:note type="instruction" xml:lang="en">The Torah is placed on the desk. The Reader unrolls it and says:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vetiggaleh"/>
+<tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/4/4"/>
+<tei:pb n="124" ed="1949 chol/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n148_medium.jpg"/>
+<tei:note type="instruction" xml:lang="en">The person called to the Torah recites:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu"/>
+<tei:note type="instruction" xml:lang="en">He repeats the response and continues:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/asher_bachar"/>
+<tei:note type="instruction" xml:lang="en">The Torah is read. Then he recites:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_natan"/>
+        <j:conditional xml:id="torah_hagomel">
+          <tei:note type="instruction" xml:lang="en">One who has come safely through a dangerous experience recites:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="birkat-hagomel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+<tei:head xml:lang="en">THANKSGIVING</tei:head>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hagomel"/>
+        <j:endConditional target="#torah_hagomel"/>
+<tei:note type="instruction" xml:lang="en">When the reading of the Torah is concluded, the Reader recites:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+<tei:pb n="126" ed="1949 chol/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n150_medium.jpg"/>
+<tei:note type="instruction" xml:lang="en">When the Torah is raised, the Congregation recites:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah"/>
+        <j:conditional xml:id="torah_supplications">
+          <tei:note type="instruction" xml:lang="en">On Mondays and Thursdays (if Taḥanun has been said), before returning the Torah to the ark, the Reader recites:</tei:note>
+<j:none><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="12"/></tei:f><tei:f name="day"><tei:numeric value="14" max="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="13"/></tei:f><tei:f name="day"><tei:numeric value="14" max="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="lag-baomer">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="1" max="8"/></tei:f></tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="5"/></tei:f><tei:f name="day"><tei:numeric value="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="6"/></tei:f><tei:f name="day"><tei:numeric value="29"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9" max="23"/></tei:f></tei:fs><j:none><j:none><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="24"/></tei:f></tei:fs></j:none>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="11"/></tei:f><tei:f name="day"><tei:numeric value="15"/></tei:f></tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="omit-tahanun">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="house-of-mourning">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="brit-milah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any><j:none><j:any>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="5"/>
+            </tei:f>
+          </tei:fs></j:any></j:none></j:none>
+        </j:conditional>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milifnei_avinu"/>
+        <j:endConditional target="#torah_supplications"/>
+<tei:note type="instruction" xml:lang="en">The Reader takes the Torah and says:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/yehalelu"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+<tei:note type="instruction" xml:lang="en">While the Torah is being placed in the ark:</tei:note>
+<j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/uvnucho"/>
+<tei:note type="instruction" xml:lang="en">The ark is closed. The morning service continues.</tei:note>
+        <j:endConditional target="#torah_reading_day"/>
+<j:endDeclare target="#unit_service"/>
+</tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
