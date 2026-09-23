@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">בִּרְכַּת כֹּהֲנִים</tei:title>
+        <tei:title type="main" xml:lang="he">הַדְלָקַת נֵר שֶׁל שַׁבָּת</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +15,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_kohanim@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:hadlakat_ner_shabbat@birnbaum_ashkenaz_he_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,7 +23,6 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="15" to="15"/>
           <tei:biblScope unit="pages" from="221" to="221"/>
         </tei:bibl>
       </tei:sourceDesc>
@@ -31,9 +30,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:birkat_kohanim">
-          <tei:p><tei:pb n="15" ed="1949 all/shacharit/birchot_hashachar" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n39_medium.jpg"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/24"/>יְבָרֶכְךָ יְיָ וְיִשְׁמְרֶֽךָ. <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/25"/>יָאֵר יְיָ פָּנָיו אֵלֶֽיךָ וִיחֻנֶּֽךָּ. <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/26"/>יִשָּׂא יְיָ פָּנָיו אֵלֶֽיךָ, וְיָשֵׂם לְךָ שָׁלוֹם.<tei:milestone unit="verse"/></tei:p>
-        </tei:div>
+<tei:div corresp="urn:x-opensiddur:text:prayer:hadlakat_ner_shabbat"><tei:head xml:lang="he">הַדְלָקַת נֵר שֶׁל שַׁבָּת</tei:head><tei:pb n="221" ed="1949 shabbat/preparations" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n245_medium.jpg"/><tei:note type="instruction" xml:lang="en">Upon lighting the Sabbath lights:</tei:note><tei:p>בָּרוּךְ אַתָּה, יְיָ אֱלֹהֵֽינוּ, מֶֽלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָֽׁנוּ בְּמִצְוֹתָיו וְצִוָּֽנוּ לְהַדְלִיק נֵר שֶׁל שַׁבָּת.</tei:p></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
