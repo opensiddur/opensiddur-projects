@@ -25,6 +25,7 @@
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
           <tei:biblScope unit="pages" from="85" to="85"/>
           <tei:biblScope unit="pages" from="163" to="163"/>
+          <tei:biblScope unit="pages" from="201" to="201"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -32,7 +33,27 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/binah">
-          <tei:p>אַתָּה חוֹנֵן לְאָדָם דַּֽעַת, וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה. חָנֵּֽנוּ מֵאִתְּךָ דֵּעָה, בִּינָה וְהַשְׂכֵּל. בָּרוּךְ אַתָּה, יְיָ, חוֹנֵן הַדָּֽעַת.</tei:p>
+          <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/binah/opening"/>אַתָּה חוֹנֵן לְאָדָם דַּֽעַת, וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה. <tei:milestone unit="prayer-part"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/binah/conclusion"/>        <j:conditional xml:id="arvit_vechanenu">
+<j:all>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="3"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="11"/></tei:f></tei:fs><j:all><j:none>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs></j:none><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="16"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="7"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="16"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs></j:any></j:all><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="17"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="8"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="17"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="24"/></tei:f></tei:fs></j:any></j:all></j:any></j:any></j:all>
+        </j:conditional>
+וְ
+        <j:endConditional target="#arvit_vechanenu"/>חָנֵּֽנוּ מֵאִתְּךָ דֵּעָה, בִּינָה וְהַשְׂכֵּל. בָּרוּךְ אַתָּה, יְיָ, חוֹנֵן הַדָּֽעַת.<tei:milestone unit="prayer-part"/></tei:p>
         </tei:div>
     </tei:body>
   </tei:text>

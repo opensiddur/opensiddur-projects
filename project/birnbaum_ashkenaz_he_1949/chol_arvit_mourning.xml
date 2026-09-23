@@ -1,0 +1,88 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מזמור בבית האבל</tei:title>
+        <tei:title type="alt" xml:lang="en">Psalm in the house of mourning</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:chol/arvit/mourning@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="217" to="219"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/mourning"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">מזמור בבית האבל</tei:head>        <j:declare xml:id="unit_service">
+          <tei:fs type="opensiddur:service-time">
+          <tei:f name="shaharit">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="minha">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="maariv">
+            <tei:binary value="true"/>
+          </tei:f>
+          <tei:f name="musaf">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="neila">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="slihot">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:holiday-aggregate">
+          <tei:f name="shabbat">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="yom-tov">
+            <tei:binary value="false"/>
+          </tei:f>
+          </tei:fs>
+        <tei:fs type="opensiddur:recitation"><tei:f name="repetition"><tei:binary value="false"/></tei:f><tei:f name="silent"><tei:binary value="true"/></tei:f></tei:fs></j:declare><tei:pb n="217" ed="1949 chol/arvit/mourning" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n241_medium.jpg"/>        <j:conditional xml:id="arvit_mourning">
+          <tei:note type="instruction" xml:lang="en">The following is recited in the house of a mourner during the week of mourning.</tei:note>
+          <tei:fs type="opensiddur:override">
+            <tei:f name="house-of-mourning">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+<j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/49"/>        <j:conditional xml:id="arvit_after_psalm49">
+          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+        <j:endConditional target="#arvit_after_psalm49"/>
+        <j:endConditional target="#arvit_mourning"/><j:endDeclare target="#unit_service"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
