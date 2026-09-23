@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="en">Birkat Kohanim</tei:title>
+        <tei:title type="main" xml:lang="en">For sons</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +15,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_kohanim@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_horim/sons@birnbaum_ashkenaz_en_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,7 +23,6 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="16" to="16"/>
           <tei:biblScope unit="pages" from="222" to="222"/>
         </tei:bibl>
       </tei:sourceDesc>
@@ -31,9 +30,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:birkat_kohanim">
-          <tei:p><tei:pb n="16" ed="1949 all/shacharit/birchot_hashachar" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n40_medium.jpg"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/24"/>May the Lord bless you and protect you; <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/25"/>may the Lord countenance you and be gracious to you; <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/6/26"/>may the Lord favor you and grant you peace.<tei:milestone unit="verse"/></tei:p>
-        </tei:div>
+<tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:birkat_horim/sons"/><tei:seg source="urn:x-opensiddur:text:bible:genesis/48/20">May God make you like Ephraim and like Manasseh.</tei:seg><tei:milestone unit="prayer-part"/></tei:p>
     </tei:body>
   </tei:text>
 </tei:TEI>
