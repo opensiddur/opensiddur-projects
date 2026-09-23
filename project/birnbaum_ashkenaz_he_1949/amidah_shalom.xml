@@ -43,9 +43,7 @@
           </tei:fs>
           </j:none>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh">
-            <tei:p>בָּרוּךְ אַתָּה, יְיָ, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>
         <j:endConditional target="#cond_shalom_seal_ordinary"/>
         <j:conditional xml:id="cond_shalom_seal_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur say:</tei:note>
@@ -55,9 +53,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim">
-            <tei:p>(בְּסֵֽפֶר חַיִּים, בְּרָכָה וְשָׁלוֹם וּפַרְנָסָה טוֹבָה, נִזָּכֵר וְנִכָּתֵב לְפָנֶֽיךָ, אֲנַֽחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, לְחַיִּים טוֹבִים וּלְשָׁלוֹם. בָּרוּךְ אַתָּה, יְיָ, עוֹשֵׂה הַשָּׁלוֹם.)</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim"/>
         <j:endConditional target="#cond_shalom_seal_aseret"/>
         </tei:div>
     </tei:body>
