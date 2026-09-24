@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קַבָּלַת שַׁבָּת</tei:title>
+        <tei:title type="alt" xml:lang="en">WELCOMING THE SABBATH</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="237" to="249"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קַבָּלַת שַׁבָּת</tei:head>        <j:conditional xml:id="kabbalat_friday_festival">
+          <tei:note type="instruction" xml:lang="en">When Friday is not a festival:</tei:note>
+<j:none><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="3"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="11"/></tei:f></tei:fs><j:all><j:none>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs></j:none><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="16"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="7"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="16"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs></j:any></j:all><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="17"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="8"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="17"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="24"/></tei:f></tei:fs></j:any></j:all></j:any></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/95"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/96"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/97"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/98"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/99"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/29"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat/ana_bekhoach"/><j:transclude type="external" target="urn:x-opensiddur:text:poem:lecha_dodi"/>        <j:conditional xml:id="kabbalat_mourners">
+          <tei:note type="instruction" xml:lang="en">There is a custom that mourners, in the first week of their mourning, remain at the entrance of the synagogue until one of the congregation says to them:</tei:note>
+          <tei:fs type="opensiddur:service-context">
+            <tei:f name="mourners-present">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:nichum_avelim/hamakom_yenachem"/>        <j:endConditional target="#kabbalat_mourners"/>        <j:endConditional target="#kabbalat_friday_festival"/><tei:note type="instruction" xml:lang="en">If a festival occurs on Friday, the evening service begins here.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat/psalm_93"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat/kaddish"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
