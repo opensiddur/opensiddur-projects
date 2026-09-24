@@ -2,7 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">יִתְגַּדַּל וְיִתְקַדַּשׁ</tei:title>
+        <tei:title type="main" xml:lang="he">תהלים צג</tei:title>
+        <tei:title type="alt" xml:lang="en">Psalm 93</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +16,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitgadal@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat/psalm_93@birnbaum_ashkenaz_he_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,12 +24,6 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="45" to="45"/>
-          <tei:biblScope unit="pages" from="189" to="189"/>
-          <tei:biblScope unit="pages" from="199" to="199"/>
-          <tei:biblScope unit="pages" from="211" to="211"/>
-          <tei:biblScope unit="pages" from="215" to="215"/>
-          <tei:biblScope unit="pages" from="219" to="219"/>
           <tei:biblScope unit="pages" from="249" to="249"/>
         </tei:bibl>
       </tei:sourceDesc>
@@ -36,9 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitgadal">
-          <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/>יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ; וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן, וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן.<tei:milestone unit="prayer-part"/></tei:p>
-        </tei:div>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/kabbalat_shabbat/psalm_93"><tei:pb n="249" ed="1949 shabbat/kabbalat_shabbat" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n273_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
