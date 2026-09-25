@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessing embodying the seven blessings</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:me_ein_sheva@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="274" to="276"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:me_ein_sheva"><tei:note type="instruction" xml:lang="en">Reader:</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemayayn_sheva"/>Blessed art thou, Lord our God and God of our fathers, God of Abraham, God of Isaac and God of Jacob; great, mighty and revered God, supreme God, Master of heaven and earth.<tei:milestone unit="prayer-part"/></tei:p><tei:note type="instruction" xml:lang="en">Congregation: Between Rosh Hashanah and Yom Kippur substitute “holy King” for “holy God”.</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/magayn_avot"/>He with his word was a shield to our fathers, and by his bidding he will revive the dead. He is the holy         <j:conditional xml:id="shabbat_arvit_magen_el">
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional>God        <j:endConditional target="#shabbat_arvit_magen_el"/>        <j:conditional xml:id="shabbat_arvit_magen_melekh">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>King        <j:endConditional target="#shabbat_arvit_magen_melekh"/>, like whom there is none. He gives rest to his people on his holy Sabbath day, for he is pleased to grant them rest. Him we will serve with reverence and <tei:pb n="276" ed="1949 shabbat/arvit" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n300_medium.jpg"/>awe, and to his name we will give thanks every day, constantly, in the fitting form of blessings. He is the God to whom thanks are due, the Lord of peace, who hallows the Sabbath and blesses the seventh day, who gives sanctified rest to a joyful people—in remembrance of the creation.<tei:milestone unit="prayer-part"/></tei:p><tei:note type="instruction" xml:lang="en">Reader:</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:me_ein_sheva/retzeh"/>Our God and God of our fathers, be pleased with our rest. Sanctify us with thy commandments and grant us a share in thy Torah; satisfy us with thy goodness and gladden us with thy deliverance; purify our heart to serve thee in truth; and, in thy gracious love, Lord our God, grant that we keep thy holy Sabbath as a heritage, and that Israel, who hallow thy name, may rest on it. Blessed art thou, O Lord, who hallowest the Sabbath.<tei:milestone unit="prayer-part"/></tei:p></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

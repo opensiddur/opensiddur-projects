@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכה מעין שבע</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:me_ein_sheva@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="273" to="275"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:me_ein_sheva"><tei:note type="instruction" xml:lang="en">Reader:</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemayayn_sheva"/>בָּרוּךְ אַתָּה, יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ, אֱלֹהֵי אַבְרָהָם, אֱלֹהֵי יִצְחָק, וֵאלֹהֵי יַעֲקֹב, הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, קוֹנֵה שָׁמַֽיִם וָאָֽרֶץ.<tei:milestone unit="prayer-part"/></tei:p><tei:note type="instruction" xml:lang="en">Congregation: Between Rosh Hashanah and Yom Kippur substitute <tei:foreign xml:lang="he">הַמֶּֽלֶךְ</tei:foreign> for <tei:foreign xml:lang="he">הָאֵל</tei:foreign>.</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/magayn_avot"/>מָגֵן אָבוֹת בִּדְבָרוֹ, מְחַיֵּה מֵתִים בְּמַאֲמָרוֹ,         <j:conditional xml:id="shabbat_arvit_magen_el">
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional>הָאֵל        <j:endConditional target="#shabbat_arvit_magen_el"/>        <j:conditional xml:id="shabbat_arvit_magen_melekh">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>הַמֶּֽלֶךְ        <j:endConditional target="#shabbat_arvit_magen_melekh"/> הַקָּדוֹשׁ שֶׁאֵין כָּמֽוֹהוּ, הַמֵּנִֽיחַ לְעַמּוֹ בְּיוֹם שַׁבַּת קָדְשׁוֹ, כִּי בָם רָצָה לְהָנִֽיחַ לָהֶם; לְפָנָיו נַעֲבֹד בְּיִרְאָה וָפַֽחַד, וְנוֹדֶה לִשְׁמוֹ <tei:pb n="275" ed="1949 shabbat/arvit" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n299_medium.jpg"/>בְּכָל יוֹם תָּמִיד מֵעֵין הַבְּרָכוֹת. <tei:note type="instruction" xml:lang="en">Reader</tei:note>אֵל הַהוֹדָאוֹת, אֲדוֹן הַשָּׁלוֹם, מְקַדֵּשׁ הַשַּׁבָּת וּמְבָרֵךְ שְׁבִיעִי, וּמֵנִֽיחַ בִּקְדֻשָּׁה לְעַם מְדֻשְּׁנֵי עֹֽנֶג, זֵֽכֶר לְמַעֲשֵׂה בְרֵאשִׁית.<tei:milestone unit="prayer-part"/></tei:p><tei:note type="instruction" xml:lang="en">Reader:</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:me_ein_sheva/retzeh"/>אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ, רְצֵה בִמְנוּחָתֵֽנוּ. קַדְּשֵֽׁנוּ בְּמִצְוֹתֶֽיךָ, וְתֵן חֶלְקֵֽנוּ בְּתוֹרָתֶֽךָ; שַׂבְּעֵֽנוּ מִטּוּבֶֽךָ, וְשַׂמְּחֵֽנוּ בִּישׁוּעָתֶֽךָ; וְטַהֵר לִבֵּֽנוּ לְעָבְדְּךָ בֶּאֱמֶת; וְהַנְחִילֵֽנוּ, יְיָ אֱלֹהֵֽינוּ, בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶֽׁךָ, וְיָנֽוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶֽךָ. בָּרוּךְ אַתָּה, יְיָ, מְקַדֵּשׁ הַשַּׁבָּת.<tei:milestone unit="prayer-part"/></tei:p></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תפילת העמידה לשבת</tei:title>
+        <tei:title type="alt" xml:lang="en">Amidah for the Sabbath</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/arvit/amidah@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="265" to="273"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/amidah"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">תפילת העמידה לשבת</tei:head><j:declare xml:id="shabbat_arvit_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="false"/></tei:f><tei:f name="maariv"><tei:binary value="true"/></tei:f><tei:f name="musaf"><tei:binary value="false"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:recitation"><tei:f name="silent"><tei:binary value="true"/></tei:f><tei:f name="repetition"><tei:binary value="false"/></tei:f></tei:fs></j:declare><tei:pb n="265" ed="1949 shabbat/arvit" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n289_medium.jpg"/><tei:note type="instruction" xml:lang="en">The Amidah is recited in silent devotion while standing, facing east.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/atah_qidashta_et"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/vaykhulu"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/retzay_vimnuchataynu"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>        <j:conditional xml:id="shabbat_arvit_hanukkah">
+          <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah"/>        <j:endConditional target="#shabbat_arvit_hanukkah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/>        <j:conditional xml:id="shabbat_arvit_ukhtov">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>        <j:endConditional target="#shabbat_arvit_ukhtov"/><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/amidah/hatov_shimkha"/><tei:seg source="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha">וְכֹל הַחַיִּים יוֹדֽוּךָ סֶּֽלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל, יְשׁוּעָתֵֽנוּ וְעֶזְרָתֵֽנוּ סֶֽלָה. בָּרוּךְ אַתָּה, יְיָ, הַטּוֹב שִׁמְךָ, וּלְךָ נָאֶה לְהוֹדוֹת.</tei:seg><tei:milestone unit="prayer-part"/></tei:p><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>        <j:conditional xml:id="shabbat_arvit_peace_seal">
+          <tei:note type="instruction" xml:lang="en">Except during the Ten Days of Repentance:</tei:note>
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>        <j:endConditional target="#shabbat_arvit_peace_seal"/>        <j:conditional xml:id="shabbat_arvit_peace_ten_days">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur say:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim"/>        <j:endConditional target="#shabbat_arvit_peace_ten_days"/><tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/amidah/meditation"><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor/text"/></tei:div><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/><j:endDeclare target="#shabbat_arvit_service"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
