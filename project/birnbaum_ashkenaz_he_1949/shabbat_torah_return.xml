@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הכנסת ספר תורה</tei:title>
+        <tei:title type="alt" xml:lang="en">Returning the Torah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/return@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="387" to="389"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/return"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">הכנסת ספר תורה</tei:head><tei:pb n="387" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n411_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_public_return">
+          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:note type="instruction" xml:lang="en">The Reader takes the Torah and recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/yehalelu"/>        <j:conditional xml:id="shabbat_torah_psalm29">
+          <tei:note type="instruction" xml:lang="en">On Sabbaths:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/29"/>        <j:endConditional target="#shabbat_torah_psalm29"/>        <j:conditional xml:id="shabbat_torah_psalm24">
+          <tei:note type="instruction" xml:lang="en">On festivals occurring on weekdays:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/return/psalm24"><j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/></tei:div>        <j:endConditional target="#shabbat_torah_psalm24"/><tei:note type="instruction" xml:lang="en">While the Torah is being placed in the ark:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/return/uvnucho"><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/uvnucho"/></tei:div>        <j:endConditional target="#shabbat_torah_public_return"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
