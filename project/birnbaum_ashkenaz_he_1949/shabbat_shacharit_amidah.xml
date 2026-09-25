@@ -1,0 +1,110 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תפילת העמידה לשבת</tei:title>
+        <tei:title type="alt" xml:lang="en">AMIDAH</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/shacharit/amidah@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="349" to="359"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/amidah"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">תפילת העמידה לשבת</tei:head><tei:pb n="349" ed="1949 shabbat/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n373_medium.jpg"/><tei:note type="instruction" xml:lang="en">The Amidah is recited in silent devotion while standing, facing east.</tei:note><tei:note type="instruction" xml:lang="en">The Reader repeats the Amidah aloud when a minyan holds service.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>        <j:conditional xml:id="shabbat_amidah_kedushah">
+          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Amidah, the following Kedushah is said:</tei:note>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/amidah/kedushah"/>        <j:endConditional target="#shabbat_amidah_kedushah"/>        <j:conditional xml:id="shabbat_amidah_atah_qadosh">
+          <tei:note type="instruction" xml:lang="en">In silent devotion:</tei:note>
+          <j:none>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>        <j:endConditional target="#shabbat_amidah_atah_qadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yismach_mosheh_bematenat"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/verses/veshamru"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/velo_netato_hashem"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/retzay_vimnuchataynu"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>        <j:conditional xml:id="shabbat_amidah_modim">
+          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Amidah, the Congregation responds here by saying:</tei:note>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>        <j:endConditional target="#shabbat_amidah_modim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>        <j:conditional xml:id="shabbat_amidah_hanukkah">
+          <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah"/>        <j:endConditional target="#shabbat_amidah_hanukkah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/>        <j:conditional xml:id="shabbat_amidah_ukhtov">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>        <j:endConditional target="#shabbat_amidah_ukhtov"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>        <j:conditional xml:id="shabbat_amidah_kohanim">
+          <tei:note type="instruction" xml:lang="en">During the Reader’s repetition:</tei:note>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>        <j:endConditional target="#shabbat_amidah_kohanim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>        <j:conditional xml:id="shabbat_amidah_meditation">
+          <tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note>
+          <j:none>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/amidah/meditation"><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor/text"/></tei:div><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>        <j:endConditional target="#shabbat_amidah_meditation"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

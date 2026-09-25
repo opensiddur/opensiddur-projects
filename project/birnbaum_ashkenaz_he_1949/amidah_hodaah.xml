@@ -27,6 +27,7 @@
           <tei:biblScope unit="pages" from="171" to="173"/>
           <tei:biblScope unit="pages" from="207" to="209"/>
           <tei:biblScope unit="pages" from="269" to="271"/>
+          <tei:biblScope unit="pages" from="355" to="357"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -42,9 +43,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan">
-            <tei:p>(מוֹדִים אֲנַֽחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ. אֱלֹהֵי כָל בָּשָׂר, יוֹצְרֵֽנוּ, יוֹצֵר בְּרֵאשִׁית. בְּרָכוֹת וְהוֹדָאוֹת לְשִׁמְךָ הַגָּדוֹל וְהַקָּדוֹשׁ עַל שֶׁהֶחֱיִיתָֽנוּ וְקִיַּמְתָּֽנוּ. כֵּן תְּחַיֵּֽנוּ וּתְקַיְּמֵֽנוּ, וְתֶאֱסוֹף גָּלֻיּוֹתֵֽינוּ לְחַצְרוֹת קָדְשֶֽׁךָ לִשְׁמֹר חֻקֶּֽיךָ וְלַעֲשׂוֹת רְצוֹנֶֽךָ, וּלְעָבְדְּךָ בְּלֵבָב שָׁלֵם, עַל שֶׁאֲנַֽחְנוּ מוֹדִים לָךְ. בָּרוּךְ אֵל הַהוֹדָאוֹת.)</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
         <j:endConditional target="#cond_modim_derabbanan"/>
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/modim">
             <tei:p>מוֹדִים אֲנַֽחְנוּ לָךְ, שָׁאַתָּה הוּא יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ לְעוֹלָם וָעֶד. צוּר חַיֵּֽינוּ, מָגֵן יִשְׁעֵֽנוּ אַתָּה הוּא. לְדוֹר וָדוֹר נֽוֹדֶה לְּךָ, וּנְסַפֵּר תְּהִלָּתֶֽךָ, עַל חַיֵּֽינוּ הַמְּסוּרִים בְּיָדֶֽךָ, וְעַל נִשְׁמוֹתֵֽינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּֽיךָ שֶׁבְּכָל יוֹם עִמָּֽנוּ, וְעַל נִפְלְאוֹתֶֽיךָ וְטוֹבוֹתֶֽיךָ שֶׁבְּכָל עֵת, עֶֽרֶב וָבֹֽקֶר וְצָהֳרָֽיִם. הַטּוֹב כִּי לֹא כָלוּ רַחֲמֶֽיךָ, וְהַמְרַחֵם כִּי לֹא תַֽמּוּ חֲסָדֶֽיךָ, מֵעוֹלָם קִוִּֽינוּ לָךְ.</tei:p>
@@ -80,9 +79,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov">
-            <tei:p>(וּכְתוֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶֽךָ.)</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>
         <j:endConditional target="#cond_hodaah_aseret"/>
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha">
             <tei:p>וְכֹל הַחַיִּים יוֹדֽוּךָ סֶּֽלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל, יְשׁוּעָתֵֽנוּ וְעֶזְרָתֵֽנוּ סֶֽלָה. בָּרוּךְ אַתָּה, יְיָ, הַטּוֹב שִׁמְךָ, וּלְךָ נָאֶה לְהוֹדוֹת.</tei:p>
