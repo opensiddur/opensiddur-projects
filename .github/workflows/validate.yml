@@ -7,8 +7,14 @@ name: Validate projects
 # `pull_request` (not `pull_request_target`) and no secrets, so this also runs for PRs from
 # forks. To make this check required: Settings -> Branches -> main -> require the status
 # context this job reports (expected "Validate projects / validate") before merging.
+#
+# `push` to main validates every project and, more to the point, saves the cached reference
+# database that PR runs restore from (opensiddur-ai#165): a PR can read caches saved on its
+# base branch but not those saved by other PRs.
 
 on:
+  push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
     inputs:
