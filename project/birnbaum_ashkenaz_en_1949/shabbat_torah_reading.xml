@@ -1,0 +1,79 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קריאת התורה וברכותיה</tei:title>
+        <tei:title type="alt" xml:lang="en">Torah reading and blessings</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="370" to="374"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Torah reading and blessings</tei:head><tei:pb n="370" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n394_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_public_reading">
+          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading/veatem"><j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/4/4"/></tei:div><tei:note type="instruction" xml:lang="en">The person called to the Torah recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu"/><tei:note type="instruction" xml:lang="en">He repeats the response and continues:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading/blessings"><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/asher_bachar"/></tei:div><tei:note type="instruction" xml:lang="en">The Torah is read. Then he recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_natan"/>        <j:conditional xml:id="shabbat_torah_hagomel">
+          <tei:note type="instruction" xml:lang="en">One who has come safely through a dangerous experience recites:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="birkat-hagomel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:div><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">THANKSGIVING</tei:head><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading/hagomel"><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hagomel"/></tei:div></tei:div>        <j:endConditional target="#shabbat_torah_hagomel"/>        <j:conditional xml:id="shabbat_torah_bar_mitzvah">
+          <tei:note type="instruction" xml:lang="en">The father of a Bar-Mitzvah pronounces the following blessing:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="bar-mitzvah-father">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shepetrani"/>        <j:endConditional target="#shabbat_torah_bar_mitzvah"/><tei:note type="instruction" xml:lang="en">On behalf of each person called to the Torah:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh/oleh_latorah"/>        <j:conditional xml:id="shabbat_torah_mi_daughter">
+          <tei:note type="instruction" xml:lang="en">On the occasion of naming a new-born daughter:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="naming-daughter">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh/yoledet_ubat"/>        <j:endConditional target="#shabbat_torah_mi_daughter"/>        <j:conditional xml:id="shabbat_torah_mi_sick_man">
+          <tei:note type="instruction" xml:lang="en">On behalf of a sick man:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="prayer-for-sick-man">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh/choleh"/>        <j:endConditional target="#shabbat_torah_mi_sick_man"/>        <j:conditional xml:id="shabbat_torah_mi_sick_woman">
+          <tei:note type="instruction" xml:lang="en">On behalf of a sick woman:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="prayer-for-sick-woman">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh/cholah"/>        <j:endConditional target="#shabbat_torah_mi_sick_woman"/><tei:note type="instruction" xml:lang="en">After the reading of the Torah, the Reader recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/><tei:note type="instruction" xml:lang="en">The Torah is raised, and the Congregation recites:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/reading/vezot"><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah"/></tei:div>        <j:endConditional target="#shabbat_torah_public_reading"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
