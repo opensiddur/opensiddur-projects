@@ -41,17 +41,11 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh">
-            <tei:p>We sanctify thy name in this world even as they sanctify it in the highest heavens, as it is written by thy prophet: “They keep calling to one another:</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/leumatam">
-            <tei:p>Those opposite them say: Blessed—</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/leumatam"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/uvdivrey">
-            <tei:p>And in thy holy Scriptures it is written:</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvdivrey"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
         <j:conditional xml:id="cond_qedushah_seal_ordinary">

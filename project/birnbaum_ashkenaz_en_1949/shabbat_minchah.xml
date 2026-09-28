@@ -1,0 +1,116 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מִנְחָה לְשַׁבָּת וְיוֹם טוֹב</tei:title>
+        <tei:title type="alt" xml:lang="en">AFTERNOON SERVICE FOR SABBATHS AND FESTIVALS</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/minchah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="438" to="476"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah"><tei:head xml:lang="en">AFTERNOON SERVICE FOR SABBATHS AND FESTIVALS</tei:head><tei:pb n="438" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n462_medium.jpg"/><j:declare xml:id="shabbat_minchah_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="true"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="false"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening_kaddish"/><tei:note type="instruction" xml:lang="en">On festivals the Minḥah service is continued on page 586.</tei:note>        <j:conditional xml:id="shabbat_minchah_sabbath_torah">
+          <tei:note type="instruction" xml:lang="en">On Sabbaths:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/vaani_tefilati"/>        <j:conditional xml:id="shabbat_minchah_torah_minyan">
+          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/torah"/>        <j:endConditional target="#shabbat_minchah_torah_minyan"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/torah_kaddish"/>        <j:endConditional target="#shabbat_minchah_sabbath_torah"/>        <j:conditional xml:id="shabbat_minchah_sabbath_amidah">
+          <tei:note type="instruction" xml:lang="en">On the Sabbath, including Ḥol ha-Mo‘ed, but not Yom Tov:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/amidah"/>        <j:endConditional target="#shabbat_minchah_sabbath_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidkatkha">
+          <tei:note type="instruction" xml:lang="en">The following paragraph is omitted on occasions when the Taḥanun (page 104) is omitted on weekdays.</tei:note>
+<j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="12"/></tei:f><tei:f name="day"><tei:numeric value="14" max="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="13"/></tei:f><tei:f name="day"><tei:numeric value="14" max="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="lag-baomer">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="3"/></tei:f><tei:f name="day"><tei:numeric value="1" max="8"/></tei:f></tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="5"/></tei:f><tei:f name="day"><tei:numeric value="15"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="6"/></tei:f><tei:f name="day"><tei:numeric value="29"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9" max="23"/></tei:f></tei:fs><j:none><j:none><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="24"/></tei:f></tei:fs></j:none>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="11"/></tei:f><tei:f name="day"><tei:numeric value="15"/></tei:f></tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="omit-tahanun">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="house-of-mourning">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:override">
+            <tei:f name="brit-milah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/tzidkatkha"/>        <j:endConditional target="#shabbat_minchah_tzidkatkha"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/aleinu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/mourners_kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/al_tira"/>        <j:conditional xml:id="shabbat_minchah_winter_psalms">
+          <tei:note type="instruction" xml:lang="en">The following psalms are recited on the Sabbaths between Sukkoth and Pesaḥ.</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="24" max="30"/></tei:f></tei:fs><j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="8"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="9"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="10"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="11"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="12"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="13"/></tei:f><tei:f name="day"><tei:numeric value="1" max="30"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="1"/></tei:f><tei:f name="day"><tei:numeric value="1" max="14"/></tei:f></tei:fs></j:any></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/psalms"/>        <j:endConditional target="#shabbat_minchah_winter_psalms"/><j:endDeclare target="#shabbat_minchah_service"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
