@@ -30,6 +30,18 @@
   </tei:teiHeader>
   <tei:standOff type="notes">
     <tei:note type="commentary" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai">
+      <!-- Birnbaum sets this essay on the weekday Amidah and its nineteen benedictions once,
+           at weekday Shaharith; the Sabbath and festival Amidah transclude the same opening. -->
+      <j:condition>
+        <tei:fs type="opensiddur:holiday-aggregate">
+          <tei:f name="shabbat">
+            <tei:binary value="false"/>
+          </tei:f>
+          <tei:f name="yom-tov">
+            <tei:binary value="false"/>
+          </tei:f>
+        </tei:fs>
+      </j:condition>
       <tei:p><tei:label xml:lang="he">שמונה עשרה</tei:label> is spoken of in the Talmud as <tei:hi rend="italic">Tefillah</tei:hi>, the prayer par excellence, on account of its importance and its antiquity. According to tradition, it was drawn up by the men of the Great Assembly. Originally, the <tei:hi rend="italic">Shemoneh Esreh</tei:hi> consisted of eighteen blessings; in its present form, however, there are nineteen. The addition of the paragraph concerning the slanderers was made toward the end of the first century at the direction of Rabban Gamaliel II, head of the Sanhedrin of Yabneh. The Talmud offers a variety of reasons for the number eighteen. It corresponds to the eighteen times God is mentioned in Psalm 29 as well as in the <tei:hi rend="italic">Shema</tei:hi>. The three patriarchs, Abraham, Isaac and Jacob are mentioned eighteen times in the Bible. This number also corresponds to the eighteen vertebrae of the spinal column (Berakhoth 28b).</tei:p>
       <tei:p>Because it is recited in a standing posture, the <tei:hi rend="italic">Shemoneh Esreh</tei:hi> is now generally known as the <tei:hi rend="italic">Amidah</tei:hi>, a name which accurately describes this prayer for Sabbaths and festivals, when it includes only seven blessings. The Reader repeats this principal prayer aloud for the benefit of those who cannot read it for themselves.</tei:p>
       <tei:p>The nineteen benedictions of the <tei:hi rend="italic">Amidah</tei:hi> are designated in the Talmud as follows: 1) <tei:foreign xml:lang="he">אבות</tei:foreign>; 2) <tei:foreign xml:lang="he">גבורות</tei:foreign>; 3) <tei:foreign xml:lang="he">קדושת השם</tei:foreign>; 4) <tei:foreign xml:lang="he">בינה</tei:foreign>; 5) <tei:foreign xml:lang="he">תשובה</tei:foreign>; 6) <tei:foreign xml:lang="he">סליחה</tei:foreign>; 7) <tei:foreign xml:lang="he">גאולה</tei:foreign>; 8) <tei:foreign xml:lang="he">רפואה</tei:foreign>; 9) <tei:foreign xml:lang="he">ברכת השנים</tei:foreign>; 10) <tei:foreign xml:lang="he">קבוץ גליות</tei:foreign>; 11) <tei:foreign xml:lang="he">ברכת משפט</tei:foreign>; 12) <tei:foreign xml:lang="he">ברכת המינים</tei:foreign>; 13) <tei:foreign xml:lang="he">ברכת צדיקים</tei:foreign>; 14) <tei:foreign xml:lang="he">ברכת ירושלים</tei:foreign>; 15) <tei:foreign xml:lang="he">ברכת דוד</tei:foreign>; 16) <tei:foreign xml:lang="he">תפלה</tei:foreign>; 17) <tei:foreign xml:lang="he">עבודה</tei:foreign>; 18) <tei:foreign xml:lang="he">הודאה</tei:foreign>; 19) <tei:foreign xml:lang="he">ברכת כהנים</tei:foreign>.</tei:p>
