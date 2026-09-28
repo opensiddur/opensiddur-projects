@@ -2,7 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="en">The children of Israel shall keep the Sabbath</tei:title>
+        <tei:title type="main" xml:lang="he">סעודת יום השבת</tei:title>
+        <tei:title type="alt" xml:lang="en">Sabbath daytime meal</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +16,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/arvit/verses/veshamru@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/day_meal@birnbaum_ashkenaz_en_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,16 +24,14 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="264" to="264"/>
-          <tei:biblScope unit="pages" from="354" to="354"/>
-          <tei:biblScope unit="pages" from="424" to="424"/>
+          <tei:biblScope unit="pages" from="424" to="436"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/verses/veshamru"><tei:p><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:exodus/31/16"/>The children of Israel shall keep the Sabbath, observing the Sabbath throughout their generations as an everlasting covenant.<tei:milestone unit="verse"/> <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:exodus/31/17"/>It is a sign between me and the children of Israel forever, that in six days the Lord made the heavens and the earth, and on the seventh day he ceased from work and rested.<tei:milestone unit="verse"/></tei:p></tei:div>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/day_meal"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Sabbath daytime meal</tei:head><tei:pb n="424" ed="1949 shabbat/day_meal" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n448_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/zemirot"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
