@@ -41,19 +41,11 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh">
-            <tei:p>נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם, כַּכָּתוּב עַל יַד נְבִיאֶֽךָ: וְקָרָא זֶה אֶל זֶה וְאָמַר:</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/leumatam">
-          <tei:note type="instruction" xml:lang="en" corresp="urn:x-opensiddur:instruction:role/reader">Reader</tei:note>
-          <tei:p>לְעֻמָּתָם בָּרוּךְ יֹאמֵֽרוּ—</tei:p>
-        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/leumatam"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
-        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/uvdivrey">
-          <tei:note type="instruction" xml:lang="en" corresp="urn:x-opensiddur:instruction:role/reader">Reader</tei:note>
-          <tei:p>וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:</tei:p>
-        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvdivrey"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
         <j:conditional xml:id="cond_qedushah_seal_ordinary">
