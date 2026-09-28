@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">rosh chodesh end</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/retzeh_vechadesh@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="400" to="400"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:amidah/retzeh_vechadesh"><tei:pb n="400" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n424_medium.jpg"/><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/retzeh_vechadesh/elohenu"/>Our God and God of our fathers, be pleased with our rest. On this Sabbath day give us this new month for happiness and blessing, joy and gladness, deliverance and consolation, maintenance and sustenance, life and peace, pardon of sin and forgiveness of iniquity         <j:conditional xml:id="shabbat_musaf_leap">
+          <tei:note type="instruction" xml:lang="en">During leap year:</tei:note>
+          <tei:fs type="opensiddur:hebrew-date">
+            <tei:f name="leap-year">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>and atonement of transgression        <j:endConditional target="#shabbat_musaf_leap"/>.<tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/retzeh_vechadesh/ki"/>Truly thou hast chosen thy people Israel from all nations; thou hast made the holy Sabbath known to them, and hast instituted for them the rules relating to the new moon festivals. Blessed art thou, O Lord, who sanctifiest the Sabbath, Israel and the new moon festivals.<tei:milestone unit="prayer-part"/></tei:p></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
