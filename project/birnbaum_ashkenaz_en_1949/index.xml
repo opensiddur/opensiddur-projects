@@ -89,6 +89,45 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/musaf"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah"/>
+                  <j:conditional xml:id="avot_season">
+<j:all>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="season">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-1">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-2">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-3">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-4">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-5">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-6">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional>        <j:conditional xml:id="avot_season_instruction">
+          <j:none>
+          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="complete">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional><tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>        <j:endConditional target="#avot_season_instruction"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/>
         </tei:div>
       </tei:div>
     </tei:body>
