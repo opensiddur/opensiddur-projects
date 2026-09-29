@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">chadesh</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/chadesh_aleinu@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="579" to="579"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:amidah/chadesh_aleinu"><tei:pb n="579" ed="1949 rosh_chodesh/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n603_medium.jpg"/><tei:p>אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ, חַדֵּשׁ עָלֵֽינוּ אֶת הַחֹֽדֶשׁ הַזֶּה לְטוֹבָה וְלִבְרָכָה, לְשָׂשׂוֹן וּלְשִׂמְחָה, לִישׁוּעָה וּלְנֶחָמָה, לְפַרְנָסָה וּלְכַלְכָּלָה, לְחַיִּים וּלְשָׁלוֹם, לִמְחִילַת חֵטְא וְלִסְלִיחַת עָוֹן         <j:conditional xml:id="rosh_hodesh_musaf_leap">
+          <tei:note type="instruction" xml:lang="en">during leap year:</tei:note>
+          <tei:fs type="opensiddur:hebrew-date">
+            <tei:f name="leap-year">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>וּלְכַפָּרַת פָּֽשַׁע        <j:endConditional target="#rosh_hodesh_musaf_leap"/>. כִּי בְעַמְּךָ יִשְׂרָאֵל בָּחַֽרְתָּ מִכָּל הָאֻמּוֹת, וְחֻקֵּי רָאשֵׁי חֳדָשִׁים לָהֶם קָבָֽעְתָּ. בָּרוּךְ אַתָּה, יְיָ, מְקַדֵּשׁ יִשְׂרָאֵל וְרָאשֵׁי חֳדָשִׁים.</tei:p></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

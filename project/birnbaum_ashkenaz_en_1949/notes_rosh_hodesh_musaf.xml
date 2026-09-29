@@ -1,0 +1,48 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Notes on Musaf for Rosh Hodesh</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:notes:birnbaum_1949/rosh_chodesh_musaf@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="575" to="584"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="urn:x-opensiddur:text:prayer:amidah/roshei_chodashim">
+      <tei:p><tei:foreign xml:lang="he">ראשי חדשים</tei:foreign> is based on the tradition that the Rosh Ḥodesh offering atoned for the sins committed during the previous month. The concluding paragraph of the prayer for Rosh Ḥodesh contains twelve pleas for comfort and forgiveness, corresponding to the twelve months of the year. The thirteenth plea, <tei:foreign xml:lang="he">ולכפרת פשע</tei:foreign>, is inserted during the leap year which is composed of thirteen months.</tei:p>
+    </tei:note>
+    <tei:note type="source" n="2" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/yimlokh">
+      <tei:p>Psalm 146:10.</tei:p>
+    </tei:note>
+    <tei:note type="source" n="1" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/offerings">
+      <tei:p>Numbers 28:11.</tei:p>
+    </tei:note>
+    <tei:note type="source" n="1" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/kohanim">
+      <tei:p>Numbers 6:24-26.</tei:p>
+    </tei:note>
+    <tei:note type="source" n="2" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/elohai">
+      <tei:p>Psalms 60:7; 19:15.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>
