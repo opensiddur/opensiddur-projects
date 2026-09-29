@@ -120,7 +120,9 @@
           </tei:fs>
           </j:none>
         </j:conditional><tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>        <j:endConditional target="#avot_season_instruction"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/conclusion"/>
         </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkat_halevanah"/>
       </tei:div>
     </tei:body>
   </tei:text>

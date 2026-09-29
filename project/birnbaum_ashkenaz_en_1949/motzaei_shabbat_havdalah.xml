@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַבְדָּלָה</tei:title>
+        <tei:title type="alt" xml:lang="en">HAVDALAH</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:shabbat/conclusion/havdalah@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="552" to="552"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/conclusion/havdalah"><tei:head xml:lang="en">HAVDALAH</tei:head><tei:pb n="552" ed="1949 shabbat/conclusion" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n576_medium.jpg"/><tei:note type="instruction" xml:lang="en">Recited over a cup of wine and fragrant spices</tei:note>        <j:conditional xml:id="shabbat_minchah_havdalah_private">
+          <tei:note type="instruction" xml:lang="en">Outside the synagogue:</tei:note>
+          <j:none>
+          <tei:fs type="opensiddur:observance">
+            <tei:f name="synagogue-havdalah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/conclusion/havdalah_intro"/>        <j:endConditional target="#shabbat_minchah_havdalah_private"/><tei:note type="instruction" xml:lang="en">In the synagogue, the Reader begins here:</tei:note><tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:shabbat/conclusion/havdalah/wine"/><tei:seg source="urn:x-opensiddur:text:prayer:borei_pri_hagafen">Blessed art thou, Lord our God, King of the universe, who createst the fruit of the vine.</tei:seg><tei:milestone unit="prayer-part"/></tei:p>        <j:conditional xml:id="shabbat_minchah_havdalah_spices">
+          <tei:note type="instruction" xml:lang="en">Except when a festival immediately follows the Sabbath:</tei:note>
+          <j:none>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_minei_vesamim"/>        <j:endConditional target="#shabbat_minchah_havdalah_spices"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_meorei_haesh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamavdil_bein_kodesh_lechol"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
