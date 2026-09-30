@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קִדּוּשָׁא רַבָּה לְשָׁלֹשׁ רְגָלִים</tei:title>
+        <tei:title type="alt" xml:lang="en">MORNING KIDDUSH FOR FESTIVALS</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:regalim/kiddush_morning@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="631" to="631"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/kiddush_morning"><tei:head>קִדּוּשָׁא רַבָּה לְשָׁלֹשׁ רְגָלִים</tei:head><j:conditional xml:id="festival_musaf_morning_shabbat">
+          <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kiddush_shabbat"/><j:endConditional target="#festival_musaf_morning_shabbat"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/eleh_moadei"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/vayedaber"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/savri"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_pri_hagafen"/><j:conditional xml:id="festival_musaf_morning_sukkah">
+          <tei:note type="instruction" xml:lang="en">In the Sukkah:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:practice">
+            <tei:f name="in-sukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkah"/><j:endConditional target="#festival_musaf_morning_sukkah"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

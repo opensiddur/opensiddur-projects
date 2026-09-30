@@ -1,0 +1,259 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קרבנות המועדים</tei:title>
+        <tei:title type="alt" xml:lang="en">Festival offerings</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:regalim/musaf/amidah/offerings@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="615" to="619"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/offerings"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קרבנות המועדים</tei:head><j:conditional xml:id="festival_musaf_shabbat_offering">
+          <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/shabbat_offering"/><j:endConditional target="#festival_musaf_shabbat_offering"/><j:conditional xml:id="festival_musaf_pesach_open">
+          <tei:note type="instruction" xml:lang="en">On the first two days of Pesaḥ (first day in Israel):</tei:note>
+<j:any><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:all><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:all></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/pesach_opening"/><j:endConditional target="#festival_musaf_pesach_open"/><j:conditional xml:id="festival_musaf_pesach_all">
+          <tei:note type="instruction" xml:lang="en">On all the eight days of Pesaḥ (seven in Israel):</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/pesach_offering"/><j:endConditional target="#festival_musaf_pesach_all"/><j:conditional xml:id="festival_musaf_shavuot_offer">
+          <tei:note type="instruction" xml:lang="en">On Shavuoth:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/shavuot_offering"/><j:endConditional target="#festival_musaf_shavuot_offer"/><j:conditional xml:id="festival_musaf_sukkot_open">
+          <tei:note type="instruction" xml:lang="en">On the first two days of Sukkoth (first day in Israel):</tei:note>
+<j:any><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:all><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:all></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_opening"/><j:endConditional target="#festival_musaf_sukkot_open"/><j:conditional xml:id="festival_musaf_israel_sukkot_2">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 2 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day2"/><j:endConditional target="#festival_musaf_israel_sukkot_2"/><j:conditional xml:id="festival_musaf_israel_sukkot_3">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 3 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="3"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day3"/><j:endConditional target="#festival_musaf_israel_sukkot_3"/><j:conditional xml:id="festival_musaf_diaspora_sukkot_3">
+          <tei:note type="instruction" xml:lang="en">In the diaspora, day 1 of Ḥol ha-Mo‘ed Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="3"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day2"/><j:conditional xml:id="festival_musaf_repeat_3">
+          <tei:note type="instruction" xml:lang="en">Some recite this after each day’s offering:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="uminchatam-after-each-day">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/><j:endConditional target="#festival_musaf_repeat_3"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day3"/><j:endConditional target="#festival_musaf_diaspora_sukkot_3"/><j:conditional xml:id="festival_musaf_israel_sukkot_4">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 4 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="4"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day4"/><j:endConditional target="#festival_musaf_israel_sukkot_4"/><j:conditional xml:id="festival_musaf_diaspora_sukkot_4">
+          <tei:note type="instruction" xml:lang="en">In the diaspora, day 2 of Ḥol ha-Mo‘ed Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="4"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day3_repeat"/><j:conditional xml:id="festival_musaf_repeat_4">
+          <tei:note type="instruction" xml:lang="en">Some recite this after each day’s offering:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="uminchatam-after-each-day">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/><j:endConditional target="#festival_musaf_repeat_4"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day4"/><j:endConditional target="#festival_musaf_diaspora_sukkot_4"/><j:conditional xml:id="festival_musaf_israel_sukkot_5">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 5 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="5"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day5"/><j:endConditional target="#festival_musaf_israel_sukkot_5"/><j:conditional xml:id="festival_musaf_diaspora_sukkot_5">
+          <tei:note type="instruction" xml:lang="en">In the diaspora, day 3 of Ḥol ha-Mo‘ed Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="5"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day4_repeat"/><j:conditional xml:id="festival_musaf_repeat_5">
+          <tei:note type="instruction" xml:lang="en">Some recite this after each day’s offering:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="uminchatam-after-each-day">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/><j:endConditional target="#festival_musaf_repeat_5"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day5"/><j:endConditional target="#festival_musaf_diaspora_sukkot_5"/><j:conditional xml:id="festival_musaf_israel_sukkot_6">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 6 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="6"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day6"/><j:endConditional target="#festival_musaf_israel_sukkot_6"/><j:conditional xml:id="festival_musaf_diaspora_sukkot_6">
+          <tei:note type="instruction" xml:lang="en">In the diaspora, day 4 of Ḥol ha-Mo‘ed Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="6"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day5_repeat"/><j:conditional xml:id="festival_musaf_repeat_6">
+          <tei:note type="instruction" xml:lang="en">Some recite this after each day’s offering:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="uminchatam-after-each-day">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/><j:endConditional target="#festival_musaf_repeat_6"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day6"/><j:endConditional target="#festival_musaf_diaspora_sukkot_6"/><j:conditional xml:id="festival_musaf_israel_sukkot_7">
+          <tei:note type="instruction" xml:lang="en">In Israel, day 7 of Sukkoth:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day7"/><j:endConditional target="#festival_musaf_israel_sukkot_7"/><j:conditional xml:id="festival_musaf_diaspora_sukkot_7">
+          <tei:note type="instruction" xml:lang="en">In the diaspora, Hoshana Rabbah:</tei:note>
+<j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day6_repeat"/><j:conditional xml:id="festival_musaf_repeat_7">
+          <tei:note type="instruction" xml:lang="en">Some recite this after each day’s offering:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="uminchatam-after-each-day">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/><j:endConditional target="#festival_musaf_repeat_7"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sukkot_day7"/><j:endConditional target="#festival_musaf_diaspora_sukkot_7"/><j:conditional xml:id="festival_musaf_shemini_offer">
+          <tei:note type="instruction" xml:lang="en">On Shemini Atsereth and Simḥath Torah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/shemini_offering"/><j:endConditional target="#festival_musaf_shemini_offer"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/uminchatam"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
