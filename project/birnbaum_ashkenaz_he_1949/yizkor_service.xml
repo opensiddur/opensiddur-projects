@@ -1,0 +1,79 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַזְכָּרַת נְשָׁמוֹת</tei:title>
+        <tei:title type="alt" xml:lang="en">MEMORIAL SERVICE</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:yizkor@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="601" to="607"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:yizkor"><tei:head>הַזְכָּרַת נְשָׁמוֹת</tei:head><tei:note type="instruction" xml:lang="en">Conducted on Yom Kippur and Shemini Atsereth, on the last day of Pesaḥ and the second day of Shavuoth</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yizkor/opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yizkor/psalm91"/><j:conditional xml:id="festival_yizkor_father">
+          <tei:note type="instruction" xml:lang="en">In memory of a father:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="father">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yizkor/father"/><j:endConditional target="#festival_yizkor_father"/><j:conditional xml:id="festival_yizkor_mother">
+          <tei:note type="instruction" xml:lang="en">In memory of a mother:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="mother">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yizkor/mother"/><j:endConditional target="#festival_yizkor_mother"/><j:conditional xml:id="festival_yizkor_husband">
+          <tei:note type="instruction" xml:lang="en">In memory of a husband:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="husband">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yizkor/husband"/><j:endConditional target="#festival_yizkor_husband"/><j:conditional xml:id="festival_yizkor_wife">
+          <tei:note type="instruction" xml:lang="en">In memory of a wife:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="wife">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yizkor/wife"/><j:endConditional target="#festival_yizkor_wife"/><tei:note type="instruction" xml:lang="en">In memory of Jewish martyrs:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yizkor/martyrs"/><j:conditional xml:id="festival_yizkor_el_male_man">
+          <tei:note type="instruction" xml:lang="en">For a man:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="el-male-man">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_male_rachamim/man"/><j:endConditional target="#festival_yizkor_el_male_man"/><j:conditional xml:id="festival_yizkor_el_male_woman">
+          <tei:note type="instruction" xml:lang="en">For a woman:</tei:note>
+          <tei:fs type="opensiddur:yizkor">
+            <tei:f name="el-male-woman">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_male_rachamim/woman"/><j:endConditional target="#festival_yizkor_el_male_woman"/><tei:note type="instruction" xml:lang="en">Congregation:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yizkor/text/av_harachamim"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
