@@ -1,0 +1,100 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קדושת היום</tei:title>
+        <tei:title type="alt" xml:lang="en">Sanctification of the festival</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="613" to="621"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדושת היום</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/atah_vechartanu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/vatiten"/><j:conditional xml:id="festival_musaf_amidahpesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_pesach"/><j:endConditional target="#festival_musaf_amidahpesach"/><j:conditional xml:id="festival_musaf_amidahshavuot">
+          <tei:note type="instruction" xml:lang="en">Shavuoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_shavuot"/><j:endConditional target="#festival_musaf_amidahshavuot"/><j:conditional xml:id="festival_musaf_amidahsukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_sukkot"/><j:endConditional target="#festival_musaf_amidahsukkot"/><j:conditional xml:id="festival_musaf_amidahshemini">
+          <tei:note type="instruction" xml:lang="en">Shemini Atsereth and Simḥath Torah</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_shemini"/><j:endConditional target="#festival_musaf_amidahshemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/mikra"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/umipnei"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/avinu_malkenu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/musaf_intro"/><j:conditional xml:id="festival_musaf_musafpesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/musaf_pesach"/><j:endConditional target="#festival_musaf_musafpesach"/><j:conditional xml:id="festival_musaf_musafshavuot">
+          <tei:note type="instruction" xml:lang="en">Shavuoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/musaf_shavuot"/><j:endConditional target="#festival_musaf_musafshavuot"/><j:conditional xml:id="festival_musaf_musafsukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/musaf_sukkot"/><j:endConditional target="#festival_musaf_musafsukkot"/><j:conditional xml:id="festival_musaf_musafshemini">
+          <tei:note type="instruction" xml:lang="en">Shemini Atsereth and Simḥath Torah</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/musaf_shemini"/><j:endConditional target="#festival_musaf_musafshemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/naaseh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/offerings"/><j:conditional xml:id="festival_musaf_yismechu">
+          <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/yismechu"/><j:endConditional target="#festival_musaf_yismechu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/melech_rachaman"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/shalosh_peamim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/vehasi"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

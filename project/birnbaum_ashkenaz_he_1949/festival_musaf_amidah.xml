@@ -1,0 +1,229 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מוּסָף לְשָׁלֹשׁ רְגָלִים</tei:title>
+        <tei:title type="alt" xml:lang="en">MUSAF FOR FESTIVALS</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:regalim/musaf/amidah@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="609" to="635"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf/amidah"><tei:head>מוּסָף לְשָׁלֹשׁ רְגָלִים</tei:head><tei:note type="instruction" xml:lang="en">The Amidah is recited in silent devotion while standing, facing east.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/ki_shem"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sefatai"/><j:conditional xml:id="festival_musaf_tal">
+          <tei:note type="instruction" xml:lang="en">On the first day of Pesaḥ, during the Reader’s repetition:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_tal"/><j:endConditional target="#festival_musaf_tal"/><j:conditional xml:id="festival_musaf_ordinary_opening">
+          <tei:note type="instruction" xml:lang="en">Except during the prayer for dew:</tei:note>
+          <j:none>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/avot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/melekh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/gevurot"/><j:conditional xml:id="festival_musaf_rain">
+          <tei:note type="instruction" xml:lang="en">On Shemini Atsereth and Simḥath Torah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/rain"/><j:endConditional target="#festival_musaf_rain"/><j:endConditional target="#festival_musaf_ordinary_opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/mekhalkel"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim"/><j:conditional xml:id="festival_musaf_kedushah_major">
+          <tei:note type="instruction" xml:lang="en">During the Reader’s repetition on major festivals and Sabbaths:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><j:any><j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushah/major"/><j:endConditional target="#festival_musaf_kedushah_major"/><j:conditional xml:id="festival_musaf_kedushah_chol">
+          <tei:note type="instruction" xml:lang="en">During the Reader’s repetition on weekday Ḥol ha-Mo‘ed:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushah/chol_hamoed"/><j:endConditional target="#festival_musaf_kedushah_chol"/><j:conditional xml:id="festival_musaf_ledor">
+          <tei:note type="instruction" xml:lang="en">Reader:</tei:note>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_musaf_ledor"/><j:conditional xml:id="festival_musaf_atah_kadosh">
+          <tei:note type="instruction" xml:lang="en">In silent devotion:</tei:note>
+          <j:none>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_musaf_atah_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/retzeh"/><j:conditional xml:id="festival_musaf_duchen_retzeh">
+          <tei:note type="instruction" xml:lang="en">When the Kohanim bless the congregation:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:practice">
+            <tei:f name="birkat-kohanim">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/birkat_kohanim/avodah"/><j:endConditional target="#festival_musaf_duchen_retzeh"/><j:conditional xml:id="festival_musaf_ordinary_retzeh">
+          <tei:note type="instruction" xml:lang="en">When the Kohanim do not bless the congregation:</tei:note>
+          <j:none>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:practice">
+            <tei:f name="birkat-kohanim">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/><j:endConditional target="#festival_musaf_ordinary_retzeh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/hodaah"/><j:conditional xml:id="festival_musaf_duchen">
+          <tei:note type="instruction" xml:lang="en">When the Kohanim bless the congregation:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>          <tei:fs type="opensiddur:practice">
+            <tei:f name="birkat-kohanim">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/birkat_kohanim"/><j:endConditional target="#festival_musaf_duchen"/><j:conditional xml:id="festival_musaf_reader_blessing">
+          <tei:note type="instruction" xml:lang="en">Priestly blessing recited by the Reader:</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><j:none>          <tei:fs type="opensiddur:practice">
+            <tei:f name="birkat-kohanim">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_reader"/><j:endConditional target="#festival_musaf_reader_blessing"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sim_shalom"/><j:conditional xml:id="festival_musaf_meditation">
+          <tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note>
+          <j:none>
+<j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/elohai_netzor"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/yehi_ratzon"/><j:endConditional target="#festival_musaf_meditation"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
