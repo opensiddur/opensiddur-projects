@@ -31,6 +31,8 @@
           <tei:biblScope unit="pages" from="399" to="401"/>
           <tei:biblScope unit="pages" from="455" to="457"/>
           <tei:biblScope unit="pages" from="581" to="581"/>
+          <tei:biblScope unit="pages" from="593" to="593"/>
+          <tei:biblScope unit="pages" from="595" to="595"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -71,9 +73,7 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim"/>
         <j:endConditional target="#cond_hodaah_purim"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam">
-            <tei:p>וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ, מַלְכֵּֽנוּ, תָּמִיד לְעוֹלָם וָעֶד.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/>
         <j:conditional xml:id="cond_hodaah_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -84,9 +84,7 @@
         </j:conditional>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>
         <j:endConditional target="#cond_hodaah_aseret"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha">
-            <tei:p>וְכֹל הַחַיִּים יוֹדֽוּךָ סֶּֽלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל, יְשׁוּעָתֵֽנוּ וְעֶזְרָתֵֽנוּ סֶֽלָה. בָּרוּךְ אַתָּה, יְיָ, הַטּוֹב שִׁמְךָ, וּלְךָ נָאֶה לְהוֹדוֹת.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
         </tei:div>
     </tei:body>
   </tei:text>

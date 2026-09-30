@@ -31,6 +31,7 @@
           <tei:biblScope unit="pages" from="399" to="399"/>
           <tei:biblScope unit="pages" from="453" to="455"/>
           <tei:biblScope unit="pages" from="579" to="579"/>
+          <tei:biblScope unit="pages" from="593" to="593"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -58,9 +59,7 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endConditional target="#cond_avodah_yaaleh"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah">
-            <tei:p>וְתֶחֱזֶֽינָה עֵינֵֽינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים. בָּרוּךְ אַתָּה, יְיָ, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/>
         </tei:div>
     </tei:body>
   </tei:text>

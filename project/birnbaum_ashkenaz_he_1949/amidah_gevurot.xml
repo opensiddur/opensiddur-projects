@@ -31,6 +31,7 @@
           <tei:biblScope unit="pages" from="391" to="393"/>
           <tei:biblScope unit="pages" from="451" to="451"/>
           <tei:biblScope unit="pages" from="575" to="575"/>
+          <tei:biblScope unit="pages" from="587" to="587"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -38,9 +39,7 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/gevurot">
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/atah_gibor">
-            <tei:p>אַתָּה גִבּוֹר לְעוֹלָם, אֲדֹנָי; מְחַיֵּה מֵתִים אַתָּה, רַב לְהוֹשִֽׁיעַ.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/atah_gibor"/>
         <j:conditional xml:id="cond_gevurot_geshem">
           <tei:note type="instruction" xml:lang="en">Between Sukkoth and Pesaḥ add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -53,9 +52,7 @@
             <tei:p>(מַשִּׁיב הָרֽוּחַ וּמוֹרִיד הַגָּֽשֶׁם.)</tei:p>
           </tei:div>
         <j:endConditional target="#cond_gevurot_geshem"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayim">
-            <tei:p><tei:pb n="351" ed="1949 shabbat/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n375_medium.jpg"/>מְכַלְכֵּל חַיִּים בְּחֶֽסֶד, מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים, וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר. מִי כָמֽוֹךָ, בַּֽעַל גְּבוּרוֹת, וּמִי דּֽוֹמֶה לָּךְ, מֶֽלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִֽיחַ יְשׁוּעָה.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayim"/>
         <j:conditional xml:id="cond_gevurot_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -68,9 +65,7 @@
             <tei:p>(מִי כָמֽוֹךָ, אַב הָרַחֲמִים, זוֹכֵר יְצוּרָיו לְחַיִּים בְּרַחֲמִים.)</tei:p>
           </tei:div>
         <j:endConditional target="#cond_gevurot_aseret"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim">
-            <tei:p><tei:pb n="393" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n417_medium.jpg"/>וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים. בָּרוּךְ אַתָּה, יְיָ, מְחַיֵּה הַמֵּתִים.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim"/>
         </tei:div>
     </tei:body>
   </tei:text>

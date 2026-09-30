@@ -56,7 +56,30 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/amidah"/>        <j:endConditional target="#shabbat_minchah_sabbath_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidkatkha">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/amidah"/>        <j:endConditional target="#shabbat_minchah_sabbath_amidah"/><j:conditional xml:id="festival_service_amidah">
+          <tei:note type="instruction" xml:lang="en">On festivals:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:endConditional target="#festival_service_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidkatkha">
           <tei:note type="instruction" xml:lang="en">The following paragraph is omitted on occasions when the Taḥanun (page 104) is omitted on weekdays.</tei:note>
 <j:none>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">
