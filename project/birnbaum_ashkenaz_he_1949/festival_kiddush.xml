@@ -1,0 +1,99 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">קִדּוּשׁ לְשָׁלֹשׁ רְגָלִים</tei:title>
+        <tei:title type="alt" xml:lang="en">KIDDUSH FOR FESTIVALS</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:regalim/kiddush@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="597" to="599"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/kiddush"><tei:head xml:lang="he">קִדּוּשׁ לְשָׁלֹשׁ רְגָלִים</tei:head><tei:pb n="597" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n621_medium.jpg"/><j:conditional xml:id="festival_vaykhulu">
+          <tei:note type="instruction" xml:lang="en">On Sabbath Eve:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/vayehi"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/vaykhulu"/><j:endConditional target="#festival_vaykhulu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/savri"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_pri_hagafen"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_open"/><j:conditional xml:id="festival_kiddush_pesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_pesach"/><j:endConditional target="#festival_kiddush_pesach"/><j:conditional xml:id="festival_kiddush_shavuot">
+          <tei:note type="instruction" xml:lang="en">Shavuoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_shavuot"/><j:endConditional target="#festival_kiddush_shavuot"/><j:conditional xml:id="festival_kiddush_sukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_sukkot"/><j:endConditional target="#festival_kiddush_sukkot"/><j:conditional xml:id="festival_kiddush_shemini">
+          <tei:note type="instruction" xml:lang="en">Shemini Atsereth and Simḥath Torah</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_shemini"/><j:endConditional target="#festival_kiddush_shemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kiddush_close"/><j:conditional xml:id="festival_havdalah">
+          <tei:note type="instruction" xml:lang="en">On Saturday night add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="motzaei-shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/fire"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamavdil_bein_kodesh_lekodesh"/><j:endConditional target="#festival_havdalah"/><j:conditional xml:id="festival_kiddush_shehecheyanu">
+          <tei:note type="instruction" xml:lang="en">On the last two nights of Pesaḥ omit:</tei:note>
+          <j:none>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="7" max="8"/>
+            </tei:f>
+          </tei:fs>
+          </j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/><j:endConditional target="#festival_kiddush_shehecheyanu"/><j:conditional xml:id="festival_sukkah">
+          <tei:note type="instruction" xml:lang="en">In the Sukkah:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:practice">
+            <tei:f name="in-sukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshev_basukkah"/><j:endConditional target="#festival_sukkah"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

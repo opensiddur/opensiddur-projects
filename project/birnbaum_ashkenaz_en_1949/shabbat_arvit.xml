@@ -42,7 +42,30 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/amidah"/>        <j:endConditional target="#shabbat_arvit_sabbath_amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/after_amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/conclusion"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/psalm27"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/adon_olam"/><j:endDeclare target="#shabbat_arvit_service"/></tei:div>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/amidah"/>        <j:endConditional target="#shabbat_arvit_sabbath_amidah"/><j:conditional xml:id="festival_service_amidah">
+          <tei:note type="instruction" xml:lang="en">On festivals:</tei:note>
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:endConditional target="#festival_service_amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/after_amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/conclusion"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/psalm27"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/adon_olam"/><j:endDeclare target="#shabbat_arvit_service"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

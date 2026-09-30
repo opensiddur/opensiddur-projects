@@ -31,6 +31,8 @@
           <tei:biblScope unit="pages" from="391" to="391"/>
           <tei:biblScope unit="pages" from="449" to="451"/>
           <tei:biblScope unit="pages" from="575" to="575"/>
+          <tei:biblScope unit="pages" from="585" to="585"/>
+          <tei:biblScope unit="pages" from="587" to="587"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -38,9 +40,7 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot">
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/barukh_atah">
-            <tei:p>בָּרוּךְ אַתָּה, יְיָ אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ, אֱלֹהֵי אַבְרָהָם, <tei:pb n="161" ed="1949 chol/minchah/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n185_medium.jpg"/>אֱלֹהֵי יִצְחָק, וֵאלֹהֵי יַעֲקֹב, הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, גּוֹמֵל חֲסָדִים טוֹבִים, וְקוֹנֵה הַכֹּל, וְזוֹכֵר חַסְדֵי אָבוֹת, וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַֽעַן שְׁמוֹ בְּאַהֲבָה.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/barukh_atah"/>
         <j:conditional xml:id="cond_avot_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -53,9 +53,7 @@
             <tei:p>(<tei:pb n="83" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n107_medium.jpg"/><tei:pb n="451" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n475_medium.jpg"/>זָכְרֵֽנוּ לְחַיִּים, מֶֽלֶךְ חָפֵץ בַּחַיִּים, וְכָתְבֵֽנוּ בְּסֵֽפֶר הַחַיִּים, לְמַעַנְךָ אֱלֹהִים חַיִּים.)</tei:p>
           </tei:div>
         <j:endConditional target="#cond_avot_aseret"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/magen_avraham">
-            <tei:p><tei:pb n="201" ed="1949 chol/arvit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n225_medium.jpg"/>מֶֽלֶךְ עוֹזֵר וּמוֹשִֽׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה, יְיָ, מָגֵן אַבְרָהָם.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/magen_avraham"/>
         </tei:div>
     </tei:body>
   </tei:text>

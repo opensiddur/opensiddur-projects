@@ -31,6 +31,8 @@
           <tei:biblScope unit="pages" from="392" to="392"/>
           <tei:biblScope unit="pages" from="450" to="452"/>
           <tei:biblScope unit="pages" from="576" to="576"/>
+          <tei:biblScope unit="pages" from="586" to="586"/>
+          <tei:biblScope unit="pages" from="588" to="588"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -38,9 +40,7 @@
   <tei:text>
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot">
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/barukh_atah">
-            <tei:p>Blessed art thou, Lord our God and God of our fathers, God <tei:pb n="162" ed="1949 chol/minchah/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n186_medium.jpg"/>of Abraham, God of Isaac and God of Jacob; great, mighty and revered God, sublime God, who bestowest lovingkindness, and art Master of all things; who rememberest the good deeds of our fathers, and who wilt graciously bring a redeemer to their children’s children for the sake of thy name.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/barukh_atah"/>
         <j:conditional xml:id="cond_avot_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -53,9 +53,7 @@
             <tei:p>(<tei:pb n="84" ed="1949 chol/shacharit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n108_medium.jpg"/><tei:pb n="452" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n476_medium.jpg"/>Remember us to life, O King who delightest in life; inscribe us in the book of life for thy sake, O living God.)</tei:p>
           </tei:div>
         <j:endConditional target="#cond_avot_aseret"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avot/magen_avraham">
-            <tei:p><tei:pb n="202" ed="1949 chol/arvit/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n226_medium.jpg"/>O King, Supporter, Savior and Shield! Blessed art thou, O Lord, Shield of Abraham.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/magen_avraham"/>
         </tei:div>
     </tei:body>
   </tei:text>

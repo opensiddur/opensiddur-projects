@@ -31,6 +31,8 @@
           <tei:biblScope unit="pages" from="400" to="402"/>
           <tei:biblScope unit="pages" from="456" to="458"/>
           <tei:biblScope unit="pages" from="582" to="582"/>
+          <tei:biblScope unit="pages" from="594" to="594"/>
+          <tei:biblScope unit="pages" from="596" to="596"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -71,9 +73,7 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim"/>
         <j:endConditional target="#cond_hodaah_purim"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam">
-            <tei:p>For all these acts may thy name, our King, be blessed and exalted forever and ever.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/>
         <j:conditional xml:id="cond_hodaah_aseret">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -84,9 +84,7 @@
         </j:conditional>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>
         <j:endConditional target="#cond_hodaah_aseret"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha">
-            <tei:p>All the living shall ever thank thee and sincerely praise thy name, O God, who art always our salvation and help. Blessed art thou, O Lord, Beneficent One, to whom it is fitting to give thanks.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
         </tei:div>
     </tei:body>
   </tei:text>

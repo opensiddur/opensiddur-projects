@@ -31,6 +31,7 @@
           <tei:biblScope unit="pages" from="400" to="400"/>
           <tei:biblScope unit="pages" from="454" to="456"/>
           <tei:biblScope unit="pages" from="580" to="580"/>
+          <tei:biblScope unit="pages" from="594" to="594"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -58,9 +59,7 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endConditional target="#cond_avodah_yaaleh"/>
-          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah">
-            <tei:p>May our eyes behold thy return in mercy to Zion. Blessed art thou, O Lord, who restorest thy divine presence to Zion.</tei:p>
-          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/>
         </tei:div>
     </tei:body>
   </tei:text>
