@@ -46,10 +46,21 @@
               <tei:numeric value="1" max="1"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_tal"/><j:endConditional target="#festival_musaf_tal"/><j:conditional xml:id="festival_musaf_ordinary_opening">
-          <tei:note type="instruction" xml:lang="en">Except during the prayer for dew:</tei:note>
-          <j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_tal"/><j:endConditional target="#festival_musaf_tal"/><j:conditional xml:id="festival_musaf_geshem">
+          <tei:note type="instruction" xml:lang="en">On Shemini Atsereth, during the Reader’s repetition:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_geshem"/><j:endConditional target="#festival_musaf_geshem"/><j:conditional xml:id="festival_musaf_ordinary_opening">
+          <tei:note type="instruction" xml:lang="en">Except during the prayers for dew and rain:</tei:note>
+          <j:none>
+<j:any><j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
@@ -61,7 +72,15 @@
             <tei:f name="pesah">
               <tei:numeric value="1" max="1"/>
             </tei:f>
-          </tei:fs></j:all>
+          </tei:fs></j:all><j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs></j:all></j:any>
           </j:none>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/avot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/melekh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/gevurot"/><j:conditional xml:id="festival_musaf_rain">
           <tei:note type="instruction" xml:lang="en">On Shemini Atsereth and Simḥath Torah add:</tei:note>

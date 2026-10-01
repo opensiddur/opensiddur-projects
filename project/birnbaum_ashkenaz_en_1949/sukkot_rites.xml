@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">סוכות ושמיני עצרת</tei:title>
+        <tei:title type="alt" xml:lang="en">Sukkot and Shemini Atzeret</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:sukkot/rites@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="676" to="708"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:sukkot/rites"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Sukkot and Shemini Atzeret</tei:head><j:conditional xml:id="festival_sukkot_ushpizin_occasion">
+          <tei:note type="instruction" xml:lang="en">During Sukkoth:</tei:note>
+<tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ushpizin"/><j:endConditional target="#festival_sukkot_ushpizin_occasion"/><j:conditional xml:id="festival_sukkot_lulav_occasion">
+          <tei:note type="instruction" xml:lang="en">During Sukkoth (except Sabbath) the following is recited as the lulav (in the right hand) and the ethrog (in the left hand) are held together.</tei:note>
+<j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:netilat_lulav"/><j:endConditional target="#festival_sukkot_lulav_occasion"/><j:conditional xml:id="festival_sukkot_hoshanot_occasion">
+<tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot"/><j:endConditional target="#festival_sukkot_hoshanot_occasion"/><j:conditional xml:id="festival_sukkot_geshem_occasion">
+          <tei:note type="instruction" xml:lang="en">Chanted on the eighth day of Sukkoth during Musaf</tei:note>
+<j:all><j:all>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_geshem"/><j:endConditional target="#festival_sukkot_geshem_occasion"/><j:conditional xml:id="festival_sukkot_hakafot_occasion">
+          <tei:note type="instruction" xml:lang="en">On Simḥath Torah:</tei:note>
+<j:any><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="22"/></tei:f></tei:fs></j:all><j:all>          <tei:fs type="opensiddur:israel">
+            <tei:f name="is-israel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="23"/></tei:f></tei:fs></j:all></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hakafot_simchat_torah"/><j:endConditional target="#festival_sukkot_hakafot_occasion"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
