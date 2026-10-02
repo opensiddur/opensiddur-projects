@@ -2,7 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">shehecheyanu</tei:title>
+        <tei:title type="main" xml:lang="he">הַדְלָקַת נֵר שֶׁל חֲנֻכָּה</tei:title>
+        <tei:title type="alt" xml:lang="en">LIGHTING THE ḤANUKKAH LIGHTS</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
@@ -15,7 +16,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:shehecheyanu@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:hadlakat_ner_chanukah@birnbaum_ashkenaz_he_1949</tei:idno>
         <tei:availability status="free">
           <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
         </tei:availability>
@@ -23,17 +24,21 @@
       <tei:sourceDesc>
         <tei:bibl>
           <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
-          <tei:biblScope unit="pages" from="585" to="585"/>
-          <tei:biblScope unit="pages" from="599" to="599"/>
           <tei:biblScope unit="pages" from="709" to="709"/>
-          <tei:biblScope unit="pages" from="725" to="725"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:prayer:shehecheyanu"><tei:pb n="585" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n609_medium.jpg"/><tei:p>בָּרוּךְ אַתָּה, יְיָ אֱלֹהֵֽינוּ, מֶֽלֶךְ הָעוֹלָם, שֶׁהֶחֱיָֽנוּ וְקִיְּמָֽנוּ וְהִגִּיעָֽנוּ לַזְּמַן הַזֶּה.</tei:p></tei:div>
+<tei:div corresp="urn:x-opensiddur:text:prayer:hadlakat_ner_chanukah"><tei:head>הַדְלָקַת נֵר שֶׁל חֲנֻכָּה</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlakat_ner_chanukah/blessing"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheasah_nissim"/><j:conditional xml:id="festival_hanukkah_first_night">
+          <tei:note type="instruction" xml:lang="en">On the first night of Ḥanukkah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/><j:endConditional target="#festival_hanukkah_first_night"/><tei:note type="instruction" xml:lang="en">While kindling the lights from left to right:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hanerot_halalu"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
