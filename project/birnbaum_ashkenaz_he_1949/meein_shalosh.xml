@@ -1,0 +1,161 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכה מעין שלוש</tei:title>
+        <tei:title type="alt" xml:lang="en">ABRIDGED GRACE</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:meein_shalosh@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="771" to="772"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:meein_shalosh"><tei:head>ברכה מעין שלוש</tei:head><tei:note type="instruction" xml:lang="en">After cake or Palestinian fruits (grapes, figs, pomegranates, olives and dates)</tei:note><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/open"/>בָּרוּךְ אַתָּה, יְיָ אֱלֹהֵֽינוּ, מֶֽלֶךְ הָעוֹלָם,<tei:milestone unit="prayer-part"/></tei:p><j:conditional xml:id="festival_concluding_meein_begin_wine">
+          <tei:note type="instruction" xml:lang="en">Wine:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/>עַל הַגֶּֽפֶן וְעַל פְּרִי הַגֶּֽפֶן,<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_begin_wine"/><j:conditional xml:id="festival_concluding_meein_begin_fruit">
+          <tei:note type="instruction" xml:lang="en">Fruit:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="fruit"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/>עַל הָעֵץ וְעַל פְּרִי הָעֵץ,<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_begin_fruit"/><j:conditional xml:id="festival_concluding_meein_begin_cake">
+          <tei:note type="instruction" xml:lang="en">Cake:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>עַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה,<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_begin_cake"/><j:conditional xml:id="festival_concluding_meein_begin_cake_wine">
+          <tei:note type="instruction" xml:lang="en">Cake and wine:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake_wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake_wine"/>עַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה וְעַל הַגֶּֽפֶן וְעַל פְּרִי הַגֶּֽפֶן,<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_begin_cake_wine"/><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/body"/>וְעַל תְּנוּבַת הַשָּׂדֶה, וְעַל אֶֽרֶץ חֶמְדָּה טוֹבָה וּרְחָבָה שֶׁרָצִֽיתָ וְהִנְחַֽלְתָּ לַאֲבוֹתֵֽינוּ לֶאֱכֹל מִפִּרְיָהּ וְלִשְׂבֹּֽעַ מִטּוּבָהּ. רַחֶם־נָא, יְיָ אֱלֹהֵֽינוּ, עַל יִשְׂרָאֵל עַמֶּֽךָ, וְעַל יְרוּשָׁלַֽיִם עִירֶֽךָ, וְעַל צִיּוֹן מִשְׁכַּן כְּבוֹדֶֽךָ, וְעַל מִזְבַּחֲךָ וְעַל הֵיכָלֶֽךָ. וּבְנֵה יְרוּשָׁלַֽיִם עִיר הַקֹּֽדֶשׁ בִּמְהֵרָה בְיָמֵֽינוּ, וְהַעֲלֵֽנוּ לְתוֹכָהּ וְשַׂמְּחֵֽנוּ בְּבִנְיָנָהּ, וְנֹאכַל מִפִּרְיָהּ וְנִשְׂבַּע מִטּוּבָהּ, וּנְבָרֶכְךָ עָלֶֽיהָ בִּקְדֻשָּׁה וּבְטָהֳרָה.<tei:milestone unit="prayer-part"/></tei:p><j:conditional xml:id="festival_concluding_meein_shabbat">
+          <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shabbat"/>רְצֵה וְהַחֲלִיצֵֽנוּ בְּיוֹם הַשַּׁבָּת הַזֶּה.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_shabbat"/><j:conditional xml:id="festival_concluding_meein_rc">
+          <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/rc"/>זָכְרֵֽנוּ לְטוֹבָה בְּיוֹם רֹאשׁ הַחֹֽדֶשׁ הַזֶּה.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_rc"/><j:conditional xml:id="festival_concluding_meein_rh">
+          <tei:note type="instruction" xml:lang="en">On Rosh Hashanah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/rh"/>זָכְרֵֽנוּ לְטוֹבָה בְּיוֹם הַזִּכָּרוֹן הַזֶּה.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_rh"/><j:conditional xml:id="festival_concluding_meein_festival">
+          <tei:note type="instruction" xml:lang="en">On festivals:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/festival"/>שַׂמְּחֵֽנוּ בְּיוֹם חַג<tei:milestone unit="prayer-part"/> <j:conditional xml:id="festival_concluding_meein_day_pesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/pesach"/>הַמַּצּוֹת<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_pesach"/> <j:conditional xml:id="festival_concluding_meein_day_shavuot">
+          <tei:note type="instruction" xml:lang="en">Shavuoth:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shavuot"/>הַשָּׁבֻעוֹת<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_shavuot"/> <j:conditional xml:id="festival_concluding_meein_day_sukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/sukkot"/>הַסֻּכּוֹת<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_sukkot"/> <j:conditional xml:id="festival_concluding_meein_day_shemini">
+          <tei:note type="instruction" xml:lang="en">Shemini Atzereth / Simḥath Torah:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shemini"/>הַשְּׁמִינִי, חַג הָעֲצֶֽרֶת<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_shemini"/> <tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/festival_end"/>הַזֶּה.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_festival"/><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end"/>כִּי אַתָּה, יְיָ, טוֹב וּמֵטִיב לַכֹּל, וְנוֹדֶה לְךָ עַל הָאָֽרֶץ<tei:milestone unit="prayer-part"/></tei:p><j:conditional xml:id="festival_concluding_meein_end_wine">
+          <tei:note type="instruction" xml:lang="en">Wine:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>וְעַל פְּרִי הַגֶּֽפֶן. בָּרוּךְ אַתָּה, יְיָ, עַל הָאָֽרֶץ וְעַל פְּרִי הַגֶּֽפֶן.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_end_wine"/><j:conditional xml:id="festival_concluding_meein_end_fruit">
+          <tei:note type="instruction" xml:lang="en">Fruit:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="fruit"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="771" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n795_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_fruit"/>וְעַל הַפֵּרוֹת. בָּרוּךְ אַתָּה, יְיָ, עַל הָאָֽרֶץ וְעַל הַפֵּרוֹת.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_end_fruit"/><j:conditional xml:id="festival_concluding_meein_end_cake">
+          <tei:note type="instruction" xml:lang="en">Cake:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake"/>וְעַל הַמִּחְיָה. בָּרוּךְ אַתָּה, יְיָ, עַל הָאָֽרֶץ וְעַל הַמִּחְיָה.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_end_cake"/><j:conditional xml:id="festival_concluding_meein_end_cake_wine">
+          <tei:note type="instruction" xml:lang="en">Cake and wine:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake_wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake_wine"/>וְעַל הַמִּחְיָה וְעַל פְּרִי הַגֶּֽפֶן. בָּרוּךְ אַתָּה, יְיָ, עַל הָאָֽרֶץ וְעַל הַמִּחְיָה וְעַל פְּרִי הַגֶּֽפֶן.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_end_cake_wine"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

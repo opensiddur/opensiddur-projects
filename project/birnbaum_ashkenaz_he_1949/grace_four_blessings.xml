@@ -1,0 +1,89 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכות המזון</tei:title>
+        <tei:title type="alt" xml:lang="en">The four blessings</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_hamazon/four_blessings@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="759" to="765"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:birkat_hamazon/four_blessings"><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/><j:conditional xml:id="festival_concluding_grace_hanukkah">
+          <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_hanukkah"/><j:endConditional target="#festival_concluding_grace_hanukkah"/><j:conditional xml:id="festival_concluding_grace_purim">
+          <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shushan-purim">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_purim"/><j:endConditional target="#festival_concluding_grace_purim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/><j:conditional xml:id="festival_concluding_retze">
+          <tei:note type="instruction" xml:lang="en">On Sabbath add:</tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/><j:endConditional target="#festival_concluding_retze"/><j:conditional xml:id="festival_concluding_yaaleh">
+          <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh and festivals add:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yaaleh_veyavo"/><j:endConditional target="#festival_concluding_yaaleh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uvneh_yerushalayim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
