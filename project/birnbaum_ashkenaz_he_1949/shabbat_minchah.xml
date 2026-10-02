@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah"><tei:head xml:lang="he">מִנְחָה לְשַׁבָּת וְיוֹם טוֹב</tei:head><tei:pb n="437" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n461_medium.jpg"/><j:declare xml:id="shabbat_minchah_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="true"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="false"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening_kaddish"/><tei:note type="instruction" xml:lang="en">On festivals the Minḥah service is continued on page 585.</tei:note>        <j:conditional xml:id="shabbat_minchah_sabbath_torah">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah"><tei:head xml:lang="he">מִנְחָה לְשַׁבָּת וְיוֹם טוֹב</tei:head><tei:pb n="437" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n461_medium.jpg"/><j:declare xml:id="shabbat_minchah_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="true"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="false"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/opening_kaddish"/><tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">On festivals the Minḥah service is continued on page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:regalim/amidah@birnbaum_ashkenaz_he_1949"/>.</tei:seg></tei:note>        <j:conditional xml:id="shabbat_minchah_sabbath_torah">
           <tei:note type="instruction" xml:lang="en">On Sabbaths:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
@@ -80,7 +80,7 @@
             </tei:f>
           </tei:fs></j:any></j:all>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:endConditional target="#festival_service_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidkatkha">
-          <tei:note type="instruction" xml:lang="en">The following paragraph is omitted on occasions when the Taḥanun (page 103) is omitted on weekdays.</tei:note>
+          <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">The following paragraph is omitted on occasions when the Taḥanun (page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun@birnbaum_ashkenaz_he_1949"/>) is omitted on weekdays.</tei:seg></tei:note>
 <j:none>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">
               <tei:binary value="true"/>

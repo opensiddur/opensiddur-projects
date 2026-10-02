@@ -85,7 +85,7 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/20"/>
         <j:endConditional target="#psalm20"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/uva_letzion"/>
-<tei:note type="instruction" xml:lang="en">Musaf for Rosh Ḥodesh, page 575; for Ḥol ha-Mo‘ed, page 609.</tei:note>
+<tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">Musaf for Rosh Ḥodesh, page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf@birnbaum_ashkenaz_he_1949"/>.</tei:seg> <tei:seg type="optional-page-reference">Musaf for Ḥol ha-Mo‘ed, page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:regalim/musaf@birnbaum_ashkenaz_he_1949"/>.</tei:seg></tei:note>
         <j:conditional xml:id="full_kaddish">
           <tei:note type="instruction" xml:lang="en">Reader:</tei:note>
           <tei:fs type="opensiddur:quorum">

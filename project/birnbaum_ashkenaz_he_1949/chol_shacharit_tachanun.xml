@@ -65,7 +65,7 @@
 <tei:head xml:lang="he">תַּחֲנוּן</tei:head>
 <tei:pb n="103" ed="1949 chol/shacharit/tachanun" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n127_medium.jpg"/>
         <j:conditional xml:id="tachanun_short">
-          <tei:note type="instruction" xml:lang="en">Except Mondays and Thursdays, the following Taḥanun is recited daily. On Mondays and Thursdays, the long Taḥanun is said (pages 105–117). Taḥanun is omitted on the following occasions: Rosh Ḥodesh, the entire month of Nisan, Lag b’Omer, the first eight days of Sivan, the 9th and 15th of Av, Erev Rosh Hashanah, from Erev Yom Kippur until the second day after Sukkoth, Ḥanukkah, the 15th of Shevat, the 14th and 15th of Adar and Adar Sheni. Taḥanun is also omitted in the house of a mourner during the week of mourning, and on the occasion of a Brith Milah.</tei:note>
+          <tei:note type="instruction" xml:lang="en">Except Mondays and Thursdays, the following Taḥanun is recited daily. <tei:seg type="optional-page-reference">On Mondays and Thursdays, the long Taḥanun is said (pages <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun/long/opening@birnbaum_ashkenaz_he_1949"/>–<tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun/long/closing@birnbaum_ashkenaz_he_1949"/>).</tei:seg> Taḥanun is omitted on the following occasions: Rosh Ḥodesh, the entire month of Nisan, Lag b’Omer, the first eight days of Sivan, the 9th and 15th of Av, Erev Rosh Hashanah, from Erev Yom Kippur until the second day after Sukkoth, Ḥanukkah, the 15th of Shevat, the 14th and 15th of Adar and Adar Sheni. Taḥanun is also omitted in the house of a mourner during the week of mourning, and on the occasion of a Brith Milah.</tei:note>
 <j:none><j:any>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
               <tei:numeric value="1" max="2"/>
@@ -118,10 +118,10 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/mitratzeh"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun/vaanachnu"/>
-<tei:note type="instruction" xml:lang="en">The service is continued with the Reader’s recital of the Kaddish on page 117.</tei:note>
+<tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">The service is continued with the Reader’s recital of the Kaddish on page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/kaddish_after_tachanun@birnbaum_ashkenaz_he_1949"/>.</tei:seg></tei:note>
         <j:endConditional target="#tachanun_short"/>
         <j:conditional xml:id="tachanun_long">
-          <tei:note type="instruction" xml:lang="en">The following is omitted during the occasions enumerated on page 103.</tei:note>
+          <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">The following is omitted during the occasions enumerated on page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun@birnbaum_ashkenaz_he_1949"/>.</tei:seg></tei:note>
 <j:none><j:any>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
               <tei:numeric value="1" max="2"/>
