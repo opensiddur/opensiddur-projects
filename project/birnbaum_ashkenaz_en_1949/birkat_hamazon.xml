@@ -1,0 +1,44 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">בִּרְכַּת הַמָּזוֹן</tei:title>
+        <tei:title type="alt" xml:lang="en">GRACE AFTER MEALS</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_hamazon@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="760" to="770"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:birkat_hamazon"><tei:head>GRACE AFTER MEALS</tei:head><j:conditional xml:id="festival_concluding_zimmun">
+          <tei:note type="instruction" xml:lang="en">When three men or more have eaten together, the following is used as an introduction to the grace. The addition is included when a minyan is present.</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="zimmun">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/><j:endConditional target="#festival_concluding_zimmun"/><tei:note type="instruction" xml:lang="en">All:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/core"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

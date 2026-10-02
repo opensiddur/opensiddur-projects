@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">harachaman hosts</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/hosts@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="768" to="768"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:p><tei:pb n="768" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n792_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/hosts"/>May the Merciful One bless <j:conditional xml:id="festival_concluding_harachaman_hosts_father-is-host">
+          <tei:note type="instruction" xml:lang="en">When the host is your father:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="father-is-host">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>my dear father<j:endConditional target="#festival_concluding_harachaman_hosts_father-is-host"/> the master of this house and <j:conditional xml:id="festival_concluding_harachaman_hosts_mother-is-host">
+          <tei:note type="instruction" xml:lang="en">When the hostess is your mother:</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="mother-is-host">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>my dear mother<j:endConditional target="#festival_concluding_harachaman_hosts_mother-is-host"/> the mistress of this house, their entire family and all that is theirs.<tei:milestone unit="prayer-part"/></tei:p>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

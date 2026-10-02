@@ -1,0 +1,106 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">magdil</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:concluding_prayers/text/magdil@birnbaum_ashkenaz_he_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_he_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="769" to="769"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:p><tei:pb n="769" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n793_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:concluding_prayers/text/magdil"/><j:conditional xml:id="festival_concluding_magdil">
+          <tei:note type="instruction" xml:lang="en">On days without Musaf:</tei:note>
+<j:none><j:any>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="yom-kippur">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any></j:none>
+        </j:conditional>מַגְדִּיל<j:endConditional target="#festival_concluding_magdil"/> <j:conditional xml:id="festival_concluding_migdol">
+          <tei:note type="instruction" xml:lang="en">On the days when Musaf is recited:</tei:note>
+<j:any>          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="yom-kippur">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional>מִגְדּוֹל<j:endConditional target="#festival_concluding_migdol"/> יְשׁוּעוֹת מַלְכּוֹ וְעֹֽשֶׂה חֶֽסֶד לִמְשִׁיחוֹ, לְדָוִד וּלְזַרְעוֹ עַד עוֹלָם.<tei:milestone unit="prayer-part"/></tei:p>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

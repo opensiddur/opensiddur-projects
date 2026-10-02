@@ -1,0 +1,105 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכה מעין שלוש</tei:title>
+        <tei:title type="alt" xml:lang="en">ABRIDGED GRACE</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:meein_shalosh@birnbaum_ashkenaz_en_1949</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/birnbaum_ashkenaz_en_1949/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="772" to="772"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:prayer:meein_shalosh"><tei:head>ABRIDGED GRACE</tei:head><tei:note type="instruction" xml:lang="en">After cake or Palestinian fruits (grapes, figs, pomegranates, olives and dates)</tei:note><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/open"/>Blessed art thou, Lord our God, King of the universe, for all the nourishment<tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake_wine"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/body"/>and produce of the field, for the lovely and spacious land which thou didst grant to our fathers as a heritage to eat of its fruit and enjoy its good gifts. Have mercy, Lord our God, on Israel thy people, on Jerusalem thy city, on Zion the abode of thy majesty, on thy altar and thy shrine. Rebuild the holy city of Jerusalem speedily in our days. Bring us there and gladden us with the restoration of our land; may we eat of its fruit and enjoy its good gifts; may we bless thee for it in holiness and purity.<tei:milestone unit="prayer-part"/></tei:p><j:conditional xml:id="festival_concluding_meein_shabbat">
+          <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shabbat"/>Be pleased to strengthen us on this Sabbath day.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_shabbat"/><j:conditional xml:id="festival_concluding_meein_rc">
+          <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/rc"/>Be mindful of us on this New Moon festival.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_rc"/><j:conditional xml:id="festival_concluding_meein_rh">
+          <tei:note type="instruction" xml:lang="en">On Rosh Hashanah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/rh"/>Be mindful of us on this Day of Remembrance.<tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_rh"/><j:conditional xml:id="festival_concluding_meein_festival">
+          <tei:note type="instruction" xml:lang="en">On festivals:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/festival"/>Grant us joy on this Festival of<tei:milestone unit="prayer-part"/> <j:conditional xml:id="festival_concluding_meein_day_pesach">
+          <tei:note type="instruction" xml:lang="en">Pesaḥ:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="pesah">
+              <tei:numeric value="1" max="8"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/pesach"/>Unleavened Bread.<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_pesach"/> <j:conditional xml:id="festival_concluding_meein_day_shavuot">
+          <tei:note type="instruction" xml:lang="en">Shavuoth:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shavuot">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shavuot"/>Weeks.<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_shavuot"/> <j:conditional xml:id="festival_concluding_meein_day_sukkot">
+          <tei:note type="instruction" xml:lang="en">Sukkoth:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="sukkot">
+              <tei:numeric value="1" max="7"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/sukkot"/>Tabernacles.<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_sukkot"/> <j:conditional xml:id="festival_concluding_meein_day_shemini">
+          <tei:note type="instruction" xml:lang="en">Shemini Atzereth / Simḥath Torah:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="shmini-atzeret">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/shemini"/>Eighth Day Feast.<tei:milestone unit="prayer-part"/><j:endConditional target="#festival_concluding_meein_day_shemini"/> <tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/festival_end"/><tei:milestone unit="prayer-part"/></tei:p><j:endConditional target="#festival_concluding_meein_festival"/><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end"/>For thou, O Lord, art good and beneficent to all; we thank thee for our land and all the nourishment. Blessed art thou, O Lord, for the land and all the sustenance.<tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_fruit"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake"/><tei:milestone unit="prayer-part"/></tei:p><tei:p><tei:pb n="772" ed="1949 concluding_prayers" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n796_medium.jpg"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake_wine"/><tei:milestone unit="prayer-part"/></tei:p></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
