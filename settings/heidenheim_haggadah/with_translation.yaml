@@ -1,0 +1,41 @@
+# The Heidenheim Haggadah (1822) with the Feinstein English translation and notes, filling any
+# biblical text missing from the Haggadah itself from Miqra al pi ha-Masorah.
+
+description: >
+  The Heidenheim Haggadah (1822) facing the Feinstein English translation (2009), with
+  Feinstein's notes as numbered footnotes and a table of contents.
+
+book:
+  project: heidenheim_haggadah_1822
+  file_name: index.xml
+  title: Heidenheim Haggadah with English translation
+
+priority:
+  transclusion:
+    - heidenheim_haggadah_1822
+    - miqra_al_pi_hamasorah
+  instructions:
+    - heidenheim_haggadah_1822
+    - feinstein_haggadah_translation_2009
+
+annotations:
+  - feinstein_haggadah_translation_2009
+
+parallel:
+  projects:
+    - feinstein_haggadah_translation_2009
+  column_order: primary_first
+
+typography:
+  page:
+    paper: letterpaper
+    sides: two
+  parallel:
+    layout: pairs
+  notes:
+    placement: footnote
+    anchor: interlinear
+    mark: numeric
+  table_of_contents:
+    enabled: true
+    depth: 2

@@ -1,0 +1,60 @@
+# Birnbaum's Ha-Siddur ha-Shalem (1949), Hebrew facing English, as the book prints it.
+
+description: >
+  Birnbaum's siddur, Hebrew facing English, with no date or place declared. Every
+  day-dependent passage (the rain seasons, the Ten Days, Ya'aleh v'Yavo, Anenu) is kept
+  with its rubric, as in the printed book; a variant for a particular day would declare it.
+
+book:
+  project: birnbaum_ashkenaz_he_1949
+  file_name: index.xml
+  title: Ha-Siddur ha-Shalem (Birnbaum, 1949)
+
+# Service, recitation and chol declared; NOTHING about the date. The rain seasons, the
+# Ten Days, Ya'aleh v'Yavo and עננו stay open, with their rubrics, and the rules and
+# brackets in the PDF mark them. That is the compile having no date and place, not a
+# defect in the text.
+# Birnbaum sets his rubrics mid-passage, not at paragraph boundaries, so the two columns
+# are not aligned at a rubric's own position. Deduplicating them would leave the English
+# column with no rubric anywhere near the passage its rubric is about. See
+# doc/typography.md, `instructions`.
+# Hebrew names its own normal size. Frank Ruehl CLM draws small for its nominal size, so
+# Hebrew set at the same nominal size as the facing 11pt Latin came out visibly smaller than
+# the column beside it, which is not what the print does. Naming 12 here is what makes the
+# two columns match: it moves the body Hebrew to 10.0pt against Latin's 10.9, and the
+# apparatus to 8.2 against 9.0. Every face in the chain gets it -- the fallbacks are
+# substitutes for the same role, so they have to set at the same size as the face they
+# stand in for.
+typography:
+  fonts:
+    hebrew:
+      - {name: "Frank Ruehl CLM", normal_size: 12}
+      - {name: "Ezra SIL", normal_size: 12}
+      - {name: "SBL Hebrew", normal_size: 12}
+      - {name: "FreeSerif", normal_size: 12}
+  instructions:
+    from: both
+priority:
+# Ordered: the Hebrew wins wherever both projects realise a URN, which is
+# everywhere in the body. The English is the fallback for the front matter
+# Birnbaum wrote only in English -- his introduction has no Hebrew counterpart
+# to prefer, and without a fallback the transclusion would fail rather than
+# quietly resolve to the one project that carries it.
+  transclusion: [birnbaum_ashkenaz_he_1949, birnbaum_ashkenaz_en_1949]
+# Birnbaum's own footnotes. The apparatus is realised in the English project only -- the
+# commentary is English prose about Hebrew words, as his introduction is -- so this names
+# the one project that carries it. In a parallel compile each column narrows this to its
+# own project, which is what keeps a note attached to a text both sides realise from being
+# printed in both columns.
+annotations: [birnbaum_ashkenaz_en_1949]
+# The book sets each commentary once, where its text first appears, though the text
+# itself is printed again in every service that uses it.
+print_once:
+  commentary: true
+parallel:
+  projects: [birnbaum_ashkenaz_en_1949]
+# Keep the house-of-mourning text visible, with its conditional rubric, in this
+# edition with no occasion selected. The exporter's general override default is false.
+declarations:
+  opensiddur:override:
+    house-of-mourning: null
