@@ -1,0 +1,154 @@
+# The humash: Miqra al pi ha-Masorah facing the JPS 1917 translation, Ashkenazi haftarot.
+#
+# The humash holds no verse text of its own: every reading is transcluded by URN, and the
+# targets carry no project suffix, so these priorities decide which edition supplies the words.
+
+description: >
+  The whole humash for the annual cycle: Miqra al pi ha-Masorah facing the JPS 1917
+  translation, with the annual haftarah of each parsha (Ashkenazi rite). No date is declared,
+  so every festival reading and megillah is kept, and the triennial Torah divisions appear as
+  markers in the margin.
+
+book:
+  project: humash
+  file_name: index.xml
+  title: Humash (annual cycle)
+
+priority:
+  # The humash itself must be listed, even though it supplies no words. It is the project that
+  # mints the structural URNs the volume is built out of — index.xml transcludes
+  # humash/<book>, each of which transcludes parsha/<name> — and a URN no listed project mints
+  # cannot be resolved at all, so leaving it out fails at the first parsha.
+  #
+  # Then Miqra al pi ha-Masorah, since the aliyah and maftir divisions were taken from MAM.
+  # The order decides only which edition's words are set: every project mints URNs in the one
+  # canonical verse division, so any order resolves the same verses.
+  transclusion:
+    - humash
+    - miqra_al_pi_hamasorah
+    - wlc
+    - jps1917
+  instructions:
+    - humash
+    - miqra_al_pi_hamasorah
+
+annotations:
+  - miqra_al_pi_hamasorah
+
+# Hebrew against the JPS 1917 English. Drop this block for a Hebrew-only volume.
+parallel:
+  projects:
+    - miqra_al_pi_hamasorah
+    - jps1917
+  column_order: primary_first
+
+declarations:
+  # Which rite's haftarot to print. Leaving the group out entirely keeps *every* variant,
+  # each under a heading naming whose custom it is, which is usually what a printed volume
+  # wants. Several may be true at once.
+  opensiddur:rite:
+    ashkenaz: true
+
+  # The megillot and the festival readings are conditioned on the occasion. Declaring a date
+  # derives opensiddur:holiday and opensiddur:torah-reading from it, so a volume compiled for
+  # one day carries only that day's readings. Omit the date to keep them all.
+  #
+  # A date also settles the triennial division of the twelve parshiyot that are sometimes read
+  # together with their partner, which divide differently depending on how the pair fell in
+  # that three-year cycle: opensiddur:torah-reading gets a triennial-pattern- feature per pair,
+  # and each file keeps only the division that pattern calls for. Without a date every division
+  # is kept, each marked with its cycle year, the way leaving opensiddur:rite out keeps every
+  # rite's haftarah. The reading of the weeks the pair is read together is always kept, marked
+  # מחוברות in the margin.
+  #
+  # Each pattern selects exactly one variation, so declaring a date narrows a pair to a single
+  # division. Leaving it out keeps every variation — which is what a printed volume serving a
+  # whole cycle wants — and then the same division name falls at two different verses of a pair,
+  # once per shape the cycle can take. The marker says which shape it is for, by naming the years
+  # that read the pair apart: in Behar–Bechukotai the year-א׳ fourth aliyah is
+  # [א׳ רביעי (נפרדות א׳ וג׳)] at 25:11 and [א׳ רביעי (נפרדות א׳)] at 25:14.
+  #
+  # An unsuffixed marker beside its מחוברות counterpart is a different thing and is left alone:
+  # there the separate and the combined readings simply begin at the same verse. See
+  # importer/humash/build.py for every conditional the humash emits and how each behaves.
+  #
+  # opensiddur:gregorian-date:
+  #   year: 2025
+  #   month: 3
+  #   day: 1
+
+  # Which haftarot this volume carries. Leaving the group out reads annually, which is the one
+  # place the humash decides rather than keeping every variant: 51 parshiyot have a haftarah of
+  # their own for each year of the triennial cycle, and those are alternatives to the annual
+  # haftarah of the same Shabbat rather than additions to it, so a volume that kept them all
+  # would print four haftarot for one week.
+  #
+  # For one Shabbat, set triennial true and declare a date above — that settles which of the
+  # three years is read, and drops the annual haftarah:
+  #
+  # opensiddur:reading-cycle:
+  #   triennial: true
+  #
+  # For a volume covering a whole three-year cycle, name the years instead. Each is its own
+  # setting, so any combination is possible; keep annual as well to print all four.
+  #
+  # opensiddur:reading-cycle:
+  #   annual: false
+  #   triennial-year-1: true
+  #   triennial-year-2: true
+  #   triennial-year-3: true
+  #
+  # Either way the parshiyot with no triennial haftarah keep their annual one — Devarim,
+  # Vaetchanan and Vezot Haberakhah, which never have one; the pairs, which have none of their
+  # own; and Tazria, Achrei Mot and Behar in year 3, when they are read with their partner. So
+  # no week is ever left without a haftarah, whichever years are chosen.
+  #
+  # The triennial *Torah* divisions do not go through this: they are markers over the annual
+  # text rather than a separate reading, so every year's are always present, marked with the
+  # cycle year in the margin.
+
+typography:
+  fonts:
+    hebrew: ["Frank Ruehl CLM", "Ezra SIL", "SBL Hebrew", "FreeSerif"]
+    latin: ["Linux Libertine O", "TeX Gyre Pagella", "FreeSerif"]
+  page:
+    paper: letterpaper
+    base_font_size: "11pt"
+  parallel:
+    layout: pairs
+
+  # Running heads and feet. `all` puts the same content on every page; use `odd`
+  # and `even` instead to differentiate them. `left`, `center` and `right` are
+  # *physical* page positions, so they do not swap with the text direction.
+  #
+  # The left slot names the reading, the center the division it sits in.
+  #
+  #   {head2}  the five books, then הפטרות / מגילות / קריאי מועד
+  #   {head3}  the reading itself — the parsha, or the individual haftarah,
+  #            megillah or festival reading
+  #
+  # {book-title} is deliberately *not* used for the division. It reads
+  # div[@type='book'], which only the five books are, so it names the last book
+  # seen and stays stuck on דברים through the whole back half of the volume.
+  # {head2} moves on to הפטרות at the start of the haftarot. {section-title} is
+  # likewise wrong for the reading: it takes the innermost heading, which drops
+  # to the *rite* (מנהג אשכנז / מנהג ספרד) on any haftarah page carrying one.
+  #
+  # Being levels, these depend on the entry point — compiling a single book file
+  # on its own puts that book's head at level 1 and the parsha at level 2 — so
+  # they are right for index.xml specifically.
+  #
+  # There is deliberately no {chapter-number}. It is the chapter of whatever book
+  # the page is drawn from, which does not pair with either slot: beside the
+  # parsha it names the book's chapter rather than the parsha's, and beside the
+  # division it reads "הפטרות 5", the chapter of a prophetic book the division
+  # does not name. The body prints \chno at the head of each chapter, so the
+  # number is on the page already.
+  page_header:
+    all:
+      left: {text: "{head3}", language: he}
+      center: {text: "{head2}", language: he}
+      right: {text: "{page-hebrew}", language: he}
+  page_footer:
+    all:
+      center: {text: "{page}", language: en}
