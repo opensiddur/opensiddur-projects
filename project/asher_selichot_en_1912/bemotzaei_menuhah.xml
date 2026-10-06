@@ -33,7 +33,15 @@
         <tei:pb n="15" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n32_medium.jpg"/>
         <tei:head>PROPITIATORY PRAYERS FOR THE FIRST DAY.</tei:head>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/rubric"/>
+        <j:conditional xml:id="refrain_instruction">
+          <tei:fs type="asher:expansions">
+            <tei:f name="refrains_present">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">Wherever the words (to hearken, &amp;c.) occur at the end of the verses, repeat from “to hearken,” till “and unto our supplication.”</tei:note>
+        <j:endConditional target="#refrain_instruction"/>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/1"/>
         <tei:p>On the outgoing of the Sabbath, we first approach thee, incline thine ear, O thou! who dwellest in praises on high, to hearken unto our hymns of praise, and unto our supplication.</tei:p>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/2"/>
@@ -51,7 +59,15 @@
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/8"/>
         <tei:p>Be pleased graciously to accept their early morning orisons, as if they were burnt offerings, show them thy miracles, O thou, who doest great things, and hearken unto our hymns of praise and unto our supplication. <tei:choice><tei:abbr>(On the outgoing, &amp;c.)</tei:abbr><tei:expan>On the outgoing of the Sabbath, we first approach thee, incline thine ear, O thou! who dwellest in praises on high, to hearken unto our hymns of praise, and unto our supplication.</tei:expan></tei:choice></tei:p>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/conclusion"/>
+        <j:conditional xml:id="prayer_instruction">
+          <tei:fs type="asher:expansions">
+            <tei:f name="prayers_present">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12.</tei:note>
+        <j:endConditional target="#prayer_instruction"/>
       </tei:div>
     </tei:body>
   </tei:text>
