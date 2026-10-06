@@ -33,7 +33,15 @@
         <tei:pb n="15" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n31_medium.jpg"/>
         <tei:head>פזמון</tei:head>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/rubric"/>
+        <j:conditional xml:id="refrain_instruction">
+          <tei:fs type="asher:expansions">
+            <tei:f name="refrains_present">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">Wherever the word <tei:foreign xml:lang="he">לשמוע</tei:foreign> occurs at the end of the verse, repeat from <tei:foreign xml:lang="he">לִשְׁמֹעַ</tei:foreign> till <tei:foreign xml:lang="he">וְאֶל־הַתְּפִלָּה</tei:foreign>.</tei:note>
+        <j:endConditional target="#refrain_instruction"/>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/1"/>
         <tei:lg>
           <tei:l>בְּמוֹצָאֵי מְנוּחָה קִדַּמְנוּךָ תְּחִלָּה ·</tei:l>
@@ -126,7 +134,15 @@
           </tei:l>
         </tei:lg>
         <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:bemotzaei_menuhah/conclusion"/>
+        <j:conditional xml:id="prayer_instruction">
+          <tei:fs type="asher:expansions">
+            <tei:f name="prayers_present">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign></tei:note>
+        <j:endConditional target="#prayer_instruction"/>
       </tei:div>
     </tei:body>
   </tei:text>
