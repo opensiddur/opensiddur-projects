@@ -194,7 +194,20 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
+          <j:declare xml:id="first_day_selichot_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
           <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#first_day_selichot_kaddish"/>
           <j:endConditional target="#reader_kaddish_expanded"/>
         </tei:div>
       </tei:div>
