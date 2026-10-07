@@ -68,6 +68,16 @@
         </j:conditional>
         <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12.</tei:note>
         <j:endConditional target="#prayer_instruction"/>
+        <j:conditional xml:id="prayer_instruction_expanded">
+          <tei:fs type="asher:expansions">
+            <tei:f name="prayers_present">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:endConditional target="#prayer_instruction_expanded"/>
       </tei:div>
     </tei:body>
   </tei:text>
