@@ -1,0 +1,87 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Asher Selichoth — expanded first day (work in progress)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Complete first-day coverage through Archive leaves n51–52, ending before the second-day heading. Hebrew pointing awaits independent proofreading; the remainder of the book is outside this edition. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/first_day/expanded@asher_selichot_he_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:title>Selichoth for the Propitiatory and Penitential Days, and for the Minor Fasts</tei:title>
+          <tei:editor role="translator">David Asher</tei:editor>
+          <tei:publisher>Vallentine &amp; Sons</tei:publisher>
+          <tei:pubPlace>London</tei:pubPlace>
+          <tei:date when="1912">1912–5672</tei:date>
+          <tei:idno type="url">https://archive.org/details/selichothdavidasher1912</tei:idno>
+          <tei:note>The scan is the source. First publication was 1866; this pilot encodes the 1912 reprint. Asher-specific expansions and reference ranges are documented in sources/asher_selichot/README.md.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n1_medium.jpg"/>
+      <tei:titlePage xml:lang="he">
+        <tei:docTitle>
+          <tei:titlePart type="main">סדר סליחות</tei:titlePart>
+          <tei:titlePart type="sub">מכל השנה</tei:titlePart>
+          <tei:titlePart type="sub">ונוסף עליהם יום כפור קטן</tei:titlePart>
+        </tei:docTitle>
+        <tei:docEdition>עם העתקה חדשה בלשון אינגליש</tei:docEdition>
+        <tei:docImprint>
+          <tei:pubPlace>לונדון :</tei:pubPlace>
+          <tei:publisher>בהוצאת ממלא מקום וואללענטיין,</tei:publisher>
+          <tei:pubPlace>רחוב דיוק, 31, אלדגייט</tei:pubPlace>
+          <tei:docDate>שנת תרע״ב</tei:docDate>
+        </tei:docImprint>
+      </tei:titlePage>
+      <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n2_medium.jpg"/>
+      <tei:titlePage xml:lang="en">
+        <tei:docTitle>
+          <tei:titlePart type="main">SELICHOTH</tei:titlePart>
+          <tei:titlePart type="sub">FOR THE</tei:titlePart>
+          <tei:titlePart type="sub">PROPITIATORY AND PENITENTIAL DAYS,</tei:titlePart>
+          <tei:titlePart type="sub">AND FOR THE MINOR FASTS.</tei:titlePart>
+          <tei:titlePart type="sub">TO WHICH ARE ADDED</tei:titlePart>
+          <tei:titlePart type="sub">THE SELICHOTH FOR THE MINOR DAY OF ATONEMENT</tei:titlePart>
+        </tei:docTitle>
+        <tei:docEdition>With a New English Translation</tei:docEdition>
+        <tei:byline>By DAVID ASHER, Ph. Dr. Author of "Outlines of the Jewish Religion" and Translator of Dr. Budinger's "Way of Faith.</tei:byline>
+        <tei:docImprint>
+          <tei:pubPlace>LONDON:</tei:pubPlace>
+          <tei:publisher>Published by VALLENTINE &amp; SONS (Succrs.)</tei:publisher>
+          <tei:pubPlace>31, Duke Street, Aldgate, E.C.</tei:pubPlace>
+          <tei:docDate>1912-5672.</tei:docDate>
+        </tei:docImprint>
+      </tei:titlePage>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/opening"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/preface"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/before_piyyut"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:bemotzaei_menuhah"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/closing"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

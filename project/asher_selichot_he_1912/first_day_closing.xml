@@ -60,7 +60,24 @@
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/ashamnu_repeat">
           <tei:pb n="19" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n39_medium.jpg"/>
+          <j:conditional xml:id="ashamnu_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> till <tei:foreign xml:lang="he">וַאֲנַחְנוּ הִרְשָׁעְנוּ</tei:foreign> </tei:note>
+          <j:endConditional target="#ashamnu_repeat_printed"/>
+          <j:conditional xml:id="ashamnu_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/ashamnu"/>
+          <j:endConditional target="#ashamnu_repeat_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/leenenu">
           <tei:pb n="19" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n39_medium.jpg"/>
@@ -68,7 +85,24 @@
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/ashamnu_repeat_2">
           <tei:pb n="19" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n39_medium.jpg"/>
+          <j:conditional xml:id="ashamnu_repeat_2_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> till <tei:foreign xml:lang="he">וַאֲנַחְנוּ הִרְשָׁעְנוּ</tei:foreign> </tei:note>
+          <j:endConditional target="#ashamnu_repeat_2_printed"/>
+          <j:conditional xml:id="ashamnu_repeat_2_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/ashamnu"/>
+          <j:endConditional target="#ashamnu_repeat_2_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/meshihe_tsidqekha">
           <tei:pb n="19" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n39_medium.jpg"/>
@@ -144,7 +178,24 @@
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/reader_kaddish">
           <tei:pb n="25" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n51_medium.jpg"/>
+          <j:conditional xml:id="reader_kaddish_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">The Reader says <tei:foreign xml:lang="he">קדיש תתקבל</tei:foreign>. </tei:note>
+          <j:endConditional target="#reader_kaddish_printed"/>
+          <j:conditional xml:id="reader_kaddish_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endConditional target="#reader_kaddish_expanded"/>
         </tei:div>
       </tei:div>
     </tei:body>
