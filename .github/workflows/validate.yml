@@ -19,8 +19,10 @@ on:
   workflow_dispatch:
     inputs:
       opensiddur_ai_ref:
-        description: opensiddur-ai ref whose validators to run (branch, tag, or SHA)
-        default: main
+        description: >
+          opensiddur-ai ref whose validators to run (branch, tag, or SHA). Empty: this PR's
+          branch name if opensiddur-ai has a branch of that name (a companion PR), else main
+        default: ''
 
 permissions:
   contents: read
@@ -33,4 +35,4 @@ jobs:
   validate:
     uses: opensiddur/opensiddur-ai/.github/workflows/validate-projects.yml@main
     with:
-      opensiddur_ai_ref: ${{ inputs.opensiddur_ai_ref || 'main' }}
+      opensiddur_ai_ref: ${{ inputs.opensiddur_ai_ref }}
