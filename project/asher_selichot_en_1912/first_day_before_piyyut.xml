@@ -36,7 +36,25 @@
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_first_selihah_rubric">
           <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
+          <j:conditional xml:id="after_first_selihah_rubric_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord hear,” pp. 9, 10. </tei:note>
+          <j:endConditional target="#after_first_selihah_rubric_printed"/>
+          <j:conditional xml:id="after_first_selihah_rubric_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/morning_scriptural_petitions/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/daniel_petition/repeat"/>
+          <j:endConditional target="#after_first_selihah_rubric_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/im_avoneinu">
           <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
@@ -45,7 +63,25 @@ If the multitude and greatness of our sins witness against us, and raise a thick
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_prayers">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
+          <j:conditional xml:id="after_second_selihah_prayers_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          <j:endConditional target="#after_second_selihah_prayers_printed"/>
+          <j:conditional xml:id="after_second_selihah_prayers_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#after_second_selihah_prayers_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/tavo_lefanekha_prayer">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
@@ -53,7 +89,25 @@ If the multitude and greatness of our sins witness against us, and raise a thick
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_verses">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
+          <j:conditional xml:id="after_second_selihah_verses_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord hear,” pp. 9, 10. </tei:note>
+          <j:endConditional target="#after_second_selihah_verses_printed"/>
+          <j:conditional xml:id="after_second_selihah_verses_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/morning_scriptural_petitions/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/daniel_petition/repeat"/>
+          <j:endConditional target="#after_second_selihah_verses_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/tavo_lefanekha_selihah">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
@@ -62,7 +116,25 @@ May our fervent prayer come before thee, and may thine ear be attentive to our s
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_third_selihah_prayers">
           <tei:pb n="14" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n30_medium.jpg"/>
+          <j:conditional xml:id="after_third_selihah_prayers_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          <j:endConditional target="#after_third_selihah_prayers_printed"/>
+          <j:conditional xml:id="after_third_selihah_prayers_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#after_third_selihah_prayers_expanded"/>
         </tei:div>
       </tei:div>
     </tei:body>
