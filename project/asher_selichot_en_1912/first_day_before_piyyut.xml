@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Pilot read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -30,10 +30,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/before_piyyut">
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/miqveh_yisrael">
-          <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
-          <tei:p>The hope of Israel is the Eternal, the Saviour thereof in time of trouble. Why shouldst thou be as a man astonished, as a mighty man that cannot save? Arise for our help, and redeem us for thy mercy’s sake. </tei:p>
-        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:miqveh_yisrael"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_first_selihah_rubric">
           <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
           <j:conditional xml:id="after_first_selihah_rubric_printed">
@@ -52,15 +49,11 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/morning_scriptural_petitions/repeat"/>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/daniel_petition/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat"/>
           <j:endConditional target="#after_first_selihah_rubric_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/im_avoneinu">
-          <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
-          <tei:p>Our God and the God of our fathers!
-If the multitude and greatness of our sins witness against us, and raise a thick partition wall between thee and us; O let not thy compassion cease, but deal with us according to the mercy thou hast promised. O thou who dost not change, remember thy congregation which thou hast purchased, and favour the remnants of thy appointed firstborn. Once thou didst grant us to dwell on happy heights, among mighty cliffs and rocks was our seat, when suddenly thou didst break us in the place of dragons, and now how do we yearn to be brought out into a wealthy place! Alarmed by the many visitations and terrors, my soul, bowed to the dust, desponds, my body is lax and decayed. Awake, O hope, wherefore, dost thou sleep? Be pleased to command the prison to be opened, for thy bound ones, abridge the time we have been doomed to suffer, gather the scattered flock, that iniquity may behold it and shut its mouth. Keep thy mercy, as promised by oath, to our three patriarchs. <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>Bid peace, bless those who are not disgraced, and convert thine anger into favour. Though Jacob be small and feeble, acquainted with disease, despised and rejected, grant thou unto him life and mercy, be his shelter and tower of strength, and display now thy wonted power. </tei:p>
-        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:im_avoneinu_rabu_lehagdil"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_prayers">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
           <j:conditional xml:id="after_second_selihah_prayers_printed">
@@ -83,10 +76,7 @@ If the multitude and greatness of our sins witness against us, and raise a thick
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
           <j:endConditional target="#after_second_selihah_prayers_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/tavo_lefanekha_prayer">
-          <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
-          <tei:p>May our prayer come before thee, and hide not thyself from our supplication. May our prayer come before thee unto thy holy temple. Let the sighing of the prisoner coming before thee, according to the greatness of thy power, preserve thou those that are appointed to die. Our Lord, we are ashamed of our deeds, and confounded by our iniquities. </tei:p>
-        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:tavo_lefanekha_tefillatenu"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_verses">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
           <j:conditional xml:id="after_second_selihah_verses_printed">
@@ -105,15 +95,11 @@ If the multitude and greatness of our sins witness against us, and raise a thick
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/morning_scriptural_petitions/repeat"/>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day/daniel_petition/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat"/>
           <j:endConditional target="#after_second_selihah_verses_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/tavo_lefanekha_selihah">
-          <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
-          <tei:p>Our God, and the God of our fathers.
-May our fervent prayer come before thee, and may thine ear be attentive to our supplication; hear, O Lord, our pious effusion, attend to our hymns of praise, thou who lookest on virtuous deeds, and overlookest what is blamable. We are confounded, and ashamed to raise our heads, for we have lost our good name; we have infringed thy righteous laws, have misinterpreted Holy Writ, and therefore we bend our faces to the ground. On all sides we see trouble and distress, and are like sheep cast adrift without shelter; if we turn to the right, the axe descends on us, and if to the left, we are a prey to the hunter. May thy Allseeing eye be opened to behold our distress and the sufferings inflicted on us, may our lamentation be changed into exultation, and our punishment lead us back to thy straight paths. For our sins we have been given up to captivity and pillage, we, and our kings and our priests to scorn. And the sublime and magnificent sanctuary, once favoured by <tei:pb n="14" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n30_medium.jpg"/>thy mighty love is now razed to the ground, desolate, and profaned. We did not implore thee in time for mercy, did not consider thy truth nor remove the pollution. Therefore, like Sodom, we had well nigh been consumed, in our enervation, had not thy grace prevailed. Thou didst spare the remnant, didst give us a firm support and didst fence us in, yet we were speedily cast adrift again for the three sins, which thou hatest,<tei:note type="commentary">Idolatry, fornication and murder.</tei:note> and thou didst trample under foot the splendid temple. For our corrupt dealings against thee, for our treacherousness yoke after yoke wounded us; O be mindful of thy assurance, never to abhor us utterly, to gather the scattered, and unite under thy sway. After all that has befallen us, thou remainest just, and we alone are to blame, for even this day we stand before thee, as of old, unreformed, and full of sin. Grant, in thy mercy, pardon and relief to thy poor people, who are covered with disgrace and infamy, rejected, dispersed, given up to scorn, and sorely tried by captivity and servitude. In thy compassion let us, at length, after our long suffering, find our salvation in thee, even as thou hast promised, saying: “I will save them, let them come in droves from afar, those from the north, and those from the south.” They are thine, thy servants and thy people; O love thy beloved as in the days of old; draw us nigh to thee, set us down in thy list, all yearn to worship thy name in awe. Let the small increase unto a thousand, and the least grow to a mighty nation within our borders, in all thy righteousness have pity on all of us together, avert thy wrath and comfort us. </tei:p>
-        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:tavo_lefanekha_shavat_hinnun"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_third_selihah_prayers">
           <tei:pb n="14" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n30_medium.jpg"/>
           <j:conditional xml:id="after_third_selihah_prayers_printed">
