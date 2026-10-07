@@ -33,6 +33,6 @@ concurrency:
 
 jobs:
   validate:
-    uses: opensiddur/opensiddur-ai/.github/workflows/validate-projects.yml@main
+    uses: opensiddur/opensiddur-ai/.github/workflows/validate-projects.yml@fix/validate-companion-ref
     with:
       opensiddur_ai_ref: ${{ inputs.opensiddur_ai_ref }}
