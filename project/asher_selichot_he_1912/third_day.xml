@@ -1,0 +1,265 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">סליחות ליום שלישי</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/third_day@asher_selichot_he_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day">
+        <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+        <tei:head>סליחות ליום שלישי</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/opening_instruction">
+          <j:conditional xml:id="third_opening_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/opening_instruction/printed">
+            <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from <tei:foreign xml:lang="he">אַשְׁרֵי</tei:foreign> page 1, till <tei:foreign xml:lang="he">כִּי רַבּוּ עֲוֹנֵינוּ</tei:foreign> page 7, after which say <tei:foreign xml:lang="he">אֵל אֶרֶךְ אַפַּיִם</tei:foreign> page 8, till <tei:foreign xml:lang="he">וְרַב־חֶסֶד לְכָל־קֹרְאֶיךָ</tei:foreign> page 9, and continue with the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_opening_instruction_printed"/>
+          <j:conditional xml:id="third_opening_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/selichot_preface"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:lekha_adonai_hatsedaqah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:selah_lanu_avinu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_erekh_apayim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor/selichot_preliminary"/>
+          <j:endConditional target="#third_opening_instruction_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/eqra_beshimkha_beemet">
+          <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+          <tei:p>אֶקְרָא בְשִׁמְךָ בֶאֱמֶת אֶתְעוֹרֵר לְהַחֲזִיק בָּךְ וַאֲנַחְנוּ עֲנִיִּים וְכוֹאֲבִים · יְשׁוּעָתְךָ אֱלֹהִים תְּשַׂגְּבֵנוּ׃ אוֹדֶה יְיָ בְּכָל־לִבִּי · אֲסַפְּרָה כָּל־נִפְלְאוֹתֶיךָ׃ בַּצַּר־לִי אֶקְרָא יְיָ וְאֶל־אֱלֹהַי אֲשַׁוֵּעַ׃ קָרוֹב יְיָ לְכָל־קֹרְאָיו · לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/keraham_av">
+          <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+          <tei:p>כְּרַחֵם אָב עַל־בָּנִים כֵּן תְּרַחֵם יְיָ עָלֵינוּ׃ לַייָ הַיְשׁוּעָה עַל־עַמְּךָ בִרְכָתֶךָ סֶּלָה׃ יְיָ צְבָאוֹת עִמָּנוּ מִשְׂגָּב־לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה׃ יְיָ צְבָאוֹת אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ׃ יְיָ הוֹשִׁיעָה הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם־קָרְאֵנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/selah_na">
+          <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+          <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה׃ וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/hateh_elohai">
+          <tei:pb n="29" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n59_medium.jpg"/>
+          <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמָע פְּקַח עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר־נִקְרָא שִׁמְךָ עָלֶיהָ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים <tei:pb n="30" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n61_medium.jpg"/>תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעֲנָךְ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:eqra_beshimkha_lehahaziq_bekha"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/first_prayer_cue">
+          <j:conditional xml:id="third_first_prayer_cue_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/first_prayer_cue/printed">
+            <tei:pb n="30" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n61_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבוֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_first_prayer_cue_printed"/>
+          <j:conditional xml:id="third_first_prayer_cue_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#third_first_prayer_cue_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/keayal_taarog">
+          <tei:pb n="31" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n65_medium.jpg"/>
+          <tei:p>כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי מָיִם · כֵּן נַפְשִׁי תַעֲרֹג אֵלֶיךָ אֱלֹהִים׃ כִּי־שָׁחָה לֶעָפָר נַפְשֵׁנוּ · דָּבְקָה לָאָרֶץ בִּטְנֵנוּ׃ שְׁפֹךְ חֲמָתְךָ אֶל־הַגּוֹיִם אֲשֶׁר לֹא־יְדָעוּךָ · וְעַל־מַמְלָכוֹת אֲשֶׁר בְּשִׁמְךָ לֹא־קָרָאוּ׃ כִּי־אָכַל אֶת־יַעֲקֹב · וְאֶת־נָוֵהוּ הֵשַׁמּוּ׃ קוּמָה עֶזְרָתָה לָנוּ · וּפְדֵנוּ לְמַעַן חַסְדֶּךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/verses_instruction">
+          <j:conditional xml:id="third_verses_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/verses_instruction/printed">
+            <tei:pb n="31" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n65_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_verses_instruction_printed"/>
+          <j:conditional xml:id="third_verses_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat"/>
+          <j:endConditional target="#third_verses_instruction_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:taarog_eilekha_kaayal"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/second_prayer_cue">
+          <j:conditional xml:id="third_second_prayer_cue_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/second_prayer_cue/printed">
+            <tei:pb n="32" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n63_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבוֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_second_prayer_cue_printed"/>
+          <j:conditional xml:id="third_second_prayer_cue_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#third_second_prayer_cue_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/refrain_instruction">
+          <j:conditional xml:id="third_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/refrain_instruction/printed">
+            <tei:pb n="32" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n63_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the word <tei:foreign xml:lang="he">נפשי</tei:foreign> occurs at the end of the verse, repeat from <tei:foreign xml:lang="he">נַפְשִׁי</tei:foreign> till <tei:foreign xml:lang="he">בְּבַקָּשָׁתִי</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shahar_qamti"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/final_prayer_cue">
+          <j:conditional xml:id="third_final_prayer_cue_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/final_prayer_cue/printed">
+            <tei:pb n="33" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n67_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבוֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_final_prayer_cue_printed"/>
+          <j:conditional xml:id="third_final_prayer_cue_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#third_final_prayer_cue_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/conclusion_instruction">
+          <j:conditional xml:id="third_conclusion_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/third_day/conclusion_instruction/printed">
+            <tei:pb n="33" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n67_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Conclude the Service as on the first day, commencing from <tei:foreign xml:lang="he">זְכֹר רַחֲמֶיךָ</tei:foreign> page 16. The Reader says <tei:foreign xml:lang="he">קדיש תתקבל</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#third_conclusion_instruction_printed"/>
+          <j:conditional xml:id="third_conclusion_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:amarenu_haazinah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:viduy/introduction"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:ashamnu_mikol_am"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:leenenu_ashuqu_amalenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:meshiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:anenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahmana"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayomer_david"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahum_vehanun"/>
+          <j:transclude target="urn:x-opensiddur:text:bible:psalms/6"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mahi_umasi"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mitratseh_berahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vaanahnu_lo_neda"/>
+          <j:declare xml:id="third_day_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#third_day_kaddish"/>
+          <j:endConditional target="#third_conclusion_instruction_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
