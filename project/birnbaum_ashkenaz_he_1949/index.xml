@@ -68,20 +68,39 @@
           </tei:div>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:chol">
+          <j:conditional xml:id="occasion_chol_shacharit"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_shacharit_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit"/>
+          <j:endDeclare target="#occasion_chol_shacharit_declare"/><j:endConditional target="#occasion_chol_shacharit"/>
+          <j:conditional xml:id="occasion_chol_minchah"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_minchah_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah"/>
-      <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/arvit"/>
+          <j:endDeclare target="#occasion_chol_minchah_declare"/><j:endConditional target="#occasion_chol_minchah"/>
+          <j:conditional xml:id="occasion_chol_arvit"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_arvit_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/arvit"/>
+          <j:endDeclare target="#occasion_chol_arvit_declare"/><j:endConditional target="#occasion_chol_arvit"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat">
+          <j:conditional xml:id="occasion_shabbat_preparations"><j:any><tei:fs type="opensiddur:day-of-week"><tei:f name="hebrew-day"><tei:numeric value="6"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/preparations"/>
+          <j:endConditional target="#occasion_shabbat_preparations"/>
+          <j:conditional xml:id="occasion_shabbat_kabbalat_service"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_shabbat_kabbalat_service_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/kabbalat_service"/>
+          <j:endDeclare target="#occasion_shabbat_kabbalat_service_declare"/><j:endConditional target="#occasion_shabbat_kabbalat_service"/>
+          <j:conditional xml:id="occasion_shabbat_arvit"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_arvit_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit"/>
+          <j:endDeclare target="#occasion_shabbat_arvit_declare"/><j:endConditional target="#occasion_shabbat_arvit"/>
+          <j:conditional xml:id="occasion_shabbat_leil_shabbat"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_shabbat_leil_shabbat_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat"/>
+          <j:endDeclare target="#occasion_shabbat_leil_shabbat_declare"/><j:endConditional target="#occasion_shabbat_leil_shabbat"/>
+          <j:conditional xml:id="occasion_shabbat_shacharit"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_shacharit_declare"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit"/>
+          <j:endDeclare target="#occasion_shabbat_shacharit_declare"/><j:endConditional target="#occasion_shabbat_shacharit"/>
+          <j:conditional xml:id="occasion_shabbat_musaf"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_shabbat_musaf_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/musaf"/>
+          <j:endDeclare target="#occasion_shabbat_musaf_declare"/><j:endConditional target="#occasion_shabbat_musaf"/>
+          <j:conditional xml:id="occasion_shabbat_day_meal"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_shabbat_day_meal_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah"/>
-                  <j:conditional xml:id="avot_season">
+          <j:endDeclare target="#occasion_shabbat_day_meal_declare"/><j:endConditional target="#occasion_shabbat_day_meal"/>
+          <j:conditional xml:id="occasion_shabbat_minchah"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_minchah_declare"><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah"/>        <j:conditional xml:id="avot_season">
 <j:all>          <tei:fs type="opensiddur:pirkei-avot">
             <tei:f name="season">
               <tei:binary value="true"/>
@@ -119,22 +138,50 @@
             </tei:f>
           </tei:fs>
           </j:none>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>        <j:endConditional target="#avot_season_instruction"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/>
+        </j:conditional><tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>        <j:endConditional target="#avot_season_instruction"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/><j:endDeclare target="#occasion_shabbat_minchah_declare"/><j:endConditional target="#occasion_shabbat_minchah"/>
+          <j:conditional xml:id="occasion_shabbat_conclusion"><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="motzaei-shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/conclusion"/>
+          <j:endConditional target="#occasion_shabbat_conclusion"/>
         </tei:div>
+        <j:conditional xml:id="occasion_berakhot_birkat_halevanah"><tei:fs type="opensiddur:hebrew-date"><tei:f name="day"><tei:numeric value="3" max="15"/></tei:f></tei:fs></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkat_halevanah"/>
+        <j:endConditional target="#occasion_berakhot_birkat_halevanah"/>
+        <j:conditional xml:id="occasion_hallel"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="hanukkah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:hallel"/>
+        <j:endConditional target="#occasion_hallel"/>
+        <j:conditional xml:id="occasion_rosh_chodesh_musaf"><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf"/>
+        <j:endConditional target="#occasion_rosh_chodesh_musaf"/>
+        <j:conditional xml:id="occasion_regalim"><j:any><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="eruv-tavshilin"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim"/>
+        <j:endConditional target="#occasion_regalim"/>
+        <j:conditional xml:id="occasion_yizkor"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="yom-kippur"><tei:numeric value="1"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1"/></tei:f></tei:fs><j:all><tei:fs type="opensiddur:israel"><tei:f name="is-israel"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:any></j:all><j:all><tei:fs type="opensiddur:israel"><tei:f name="is-israel"><tei:binary value="false"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="2"/></tei:f></tei:fs></j:any></j:all></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:yizkor"/>
+        <j:endConditional target="#occasion_yizkor"/>
+        <j:conditional xml:id="occasion_regalim_musaf"><j:any><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="chol-hamoed"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf"/>
+        <j:endConditional target="#occasion_regalim_musaf"/>
+        <j:conditional xml:id="occasion_regalim_morning_meal"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all></j:conditional><j:declare xml:id="occasion_regalim_morning_meal_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/morning_meal"/>
+        <j:endDeclare target="#occasion_regalim_morning_meal_declare"/><j:endConditional target="#occasion_regalim_morning_meal"/>
+        <j:conditional xml:id="occasion_sefirat_haomer"><tei:fs type="opensiddur:holiday"><tei:f name="omer"><tei:numeric value="1" max="49"/></tei:f></tei:fs></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sefirat_haomer"/>
+        <j:endConditional target="#occasion_sefirat_haomer"/>
+        <j:conditional xml:id="occasion_regalim_akdamut"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_regalim_akdamut_declare"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/akdamut"/>
+        <j:endDeclare target="#occasion_regalim_akdamut_declare"/><j:endConditional target="#occasion_regalim_akdamut"/>
+        <j:conditional xml:id="occasion_rosh_hashanah_minchah_maariv_and_rites"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_rosh_hashanah_minchah_maariv_and_rites_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv_and_rites"/>
+        <j:endDeclare target="#occasion_rosh_hashanah_minchah_maariv_and_rites_declare"/><j:endConditional target="#occasion_rosh_hashanah_minchah_maariv_and_rites"/>
+        <j:conditional xml:id="occasion_sukkot_rites"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sukkot/rites"/>
+        <j:endConditional target="#occasion_sukkot_rites"/>
+        <j:conditional xml:id="occasion_chanukah"><tei:fs type="opensiddur:holiday"><tei:f name="hanukkah"><tei:numeric value="1" max="8"/></tei:f></tei:fs></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chanukah"/>
+        <j:endConditional target="#occasion_chanukah"/>
+        <j:conditional xml:id="occasion_purim"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="purim"><tei:numeric value="1"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shushan-purim"><tei:numeric value="1"/></tei:f></tei:fs></j:any></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:purim"/>
+        <j:endConditional target="#occasion_purim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers"/>
       </tei:div>

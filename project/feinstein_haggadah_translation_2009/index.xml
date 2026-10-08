@@ -41,7 +41,29 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:haggadah:haggadah">
         <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:pre_seder"/>
+        <j:conditional xml:id="cond_index_seder">
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="pesah">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+            <j:all>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="pesah">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:seder"/>
+        <j:endConditional target="#cond_index_seder"/>
       </tei:div>
     </tei:body>
   </tei:text>

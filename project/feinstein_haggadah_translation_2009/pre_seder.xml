@@ -20,8 +20,84 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:haggadah:pre_seder">
+        <j:conditional xml:id="cond_pre_seder_bedikat_chametz">
+          <j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="14"/>
+                  </tei:f>
+                </tei:fs>
+                <j:none>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="7"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:none>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="13"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:bedikat_chametz"/>
+        <j:endConditional target="#cond_pre_seder_bedikat_chametz"/>
+        <j:conditional xml:id="cond_pre_seder_biur_chametz">
+          <j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="14"/>
+                  </tei:f>
+                </tei:fs>
+                <j:none>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="7"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:none>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="13"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:biur_chametz"/>
+        <j:endConditional target="#cond_pre_seder_biur_chametz"/>
         <j:conditional xml:id="cond_pre_seder_eruv_tavshilin">
           <tei:note type="instruction">Prepared before a festival that runs into Shabbat — that is, when the festival falls on Friday.</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
