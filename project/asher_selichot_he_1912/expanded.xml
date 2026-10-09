@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>First seven services and Erev Rosh Hashanah through Archive n183/n184, ending before the Fast of Gedaliah. Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
+        <tei:edition>Complete services through Tzom Gedaliah, Archive n207/n208 (printed 103). Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -80,6 +80,23 @@
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/sixth_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/seventh_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah"/>
+        <j:conditional xml:id="tzom_gedaliah_occasion">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tzom-gedalia">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="tzom_gedaliah_occasion_declare">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tzom-gedalia">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah"/>
+        <j:endDeclare target="#tzom_gedaliah_occasion_declare"/>
+        <j:endConditional target="#tzom_gedaliah_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
