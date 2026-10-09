@@ -52,7 +52,7 @@
         <tei:p>Attention, everyone! Blessed are You, Adonai, our God, Sovereign of the universe, creator of the fruit of the vine.</tei:p>
         <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:kadesh/3"/>
         <tei:p>Blessed are You, Adonai, our God, Sovereign of the universe, who chose us from among all the nations, exalted us above people of every tongue, and sanctified us with His commandments. You have given us, Lord our God, with love</tei:p>
-        <j:conditional xml:id="cond_kadesh_shabbatot_limnuha">
+        <j:conditional xml:id="cond_kadesh_shabbatot_limnuha" type="marked">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
@@ -63,7 +63,7 @@
         <tei:p>Sabbaths for rest and</tei:p>
         <j:endConditional target="#cond_kadesh_shabbatot_limnuha"/>
         <tei:p>holidays for rejoicing, festivals and seasons for celebration, this</tei:p>
-        <j:conditional xml:id="cond_kadesh_yom_hashabbat">
+        <j:conditional xml:id="cond_kadesh_yom_hashabbat" type="marked">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
@@ -73,8 +73,8 @@
         <tei:note type="instruction">on Shabbat say:</tei:note>
         <tei:p>Sabbath day and this</tei:p>
         <j:endConditional target="#cond_kadesh_yom_hashabbat"/>
-        <tei:p>Festival of Matzot, season of our liberation <j:conditional xml:id="cond_kadesh_beahava"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>with love <j:endConditional target="#cond_kadesh_beahava"/>a holy convocation in remembrance of the exodus from Egypt. For you have chosen us and sanctified us from among all the nations,</tei:p>
-        <j:conditional xml:id="cond_kadesh_veshabbat">
+        <tei:p>Festival of Matzot, season of our liberation <j:conditional xml:id="cond_kadesh_beahava" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:note type="instruction">on Shabbat say:</tei:note>with love<j:endConditional target="#cond_kadesh_beahava"/> a holy convocation in remembrance of the exodus from Egypt. For you have chosen us and sanctified us from among all the nations,</tei:p>
+        <j:conditional xml:id="cond_kadesh_veshabbat" type="marked">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
@@ -85,7 +85,7 @@
         <tei:p>and the Sabbath</tei:p>
         <j:endConditional target="#cond_kadesh_veshabbat"/>
         <tei:p>and Your holy days</tei:p>
-        <j:conditional xml:id="cond_kadesh_beahava_uvratzon">
+        <j:conditional xml:id="cond_kadesh_beahava_uvratzon" type="marked">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
@@ -96,7 +96,7 @@
         <tei:p>with love and favor,</tei:p>
         <j:endConditional target="#cond_kadesh_beahava_uvratzon"/>
         <tei:p>joy and gladness you have bequeathed to us. Blessed are You, Adonai, who sanctifies</tei:p>
-        <j:conditional xml:id="cond_kadesh_mekadesh_hashabbat">
+        <j:conditional xml:id="cond_kadesh_mekadesh_hashabbat" type="marked">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
