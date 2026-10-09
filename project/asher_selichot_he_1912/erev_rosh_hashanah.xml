@@ -202,20 +202,20 @@
           <j:endConditional target="#erev_verses_after_lo_kahataenu_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:poem:el_eloah_dalefah_eini"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloha">
-          <j:conditional xml:id="erev_after_el_eloha_printed">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah">
+          <j:conditional xml:id="erev_after_el_eloah_printed">
             <tei:fs type="asher:expansions">
               <tei:f name="prayers_present">
                 <tei:binary value="false"/>
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloha/printed">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah/printed">
             <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n115_medium.jpg"/>
             <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
           </tei:div>
-          <j:endConditional target="#erev_after_el_eloha_printed"/>
-          <j:conditional xml:id="erev_after_el_eloha_expanded">
+          <j:endConditional target="#erev_after_el_eloah_printed"/>
+          <j:conditional xml:id="erev_after_el_eloah_expanded">
             <tei:fs type="asher:expansions">
               <tei:f name="prayers_present">
                 <tei:binary value="true"/>
@@ -224,7 +224,7 @@
           </j:conditional>
           <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
-          <j:endConditional target="#erev_after_el_eloha_expanded"/>
+          <j:endConditional target="#erev_after_el_eloah_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/al_tashhet_amkha">
           <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n115_medium.jpg"/>
@@ -562,7 +562,7 @@
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
           <j:endConditional target="#erev_after_adam_eikh_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/haenosh_meeloha">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/haenosh_meeloah">
           <tei:pb n="62" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n125_medium.jpg"/>
           <tei:p>הַאֱנוֹשׁ מֵאֱלוֹהַּ יִצְדָּק · אִם מֵעֹשֵׂהוּ יִטְהַר גָּבֶר׃ טוֹב יְיָ לַכֹּל וְרַחֲמָיו עַל־כָּל־מַעֲשָׂיו׃ חַנּוּן יְיָ וְצַדִּיק וֵאלֹהֵינוּ מְרַחֵם׃ הֵן בַּעֲבָדָיו לֹא־יַאֲמִין וּבְמַלְאָכָיו יָשִׂים תָּהֳלָה׃ יָדַעְנוּ כִּי חָטָאנוּ וְאֵין מִי יַעֲמֹד בַּעֲדֵנוּ שִׁמְךָ הַגָּדוֹל יַעֲמָד־לָנוּ בְּעֵת צָרָה׃ </tei:p>
         </tei:div>
@@ -1009,7 +1009,7 @@
           <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n167_medium.jpg"/>
           <tei:p>עֶזְרָא הַסּוֹפֵר אָמַר לְפָנֶיךָ אֱלֹהַי בֹּשְׁתִּי וְנִכְלַמְתִּי לְהָרִים אֱלֹהַי פָּנַי אֵלֶיךָ כִּי עֲוֹנוֹתֵינוּ רָבוּ לְמַעְלָה רֹאשׁ וְאַשְׁמָתֵנוּ גָדְלָה עַד־לַשָּׁמָיִם׃ <tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n169_medium.jpg"/> </tei:p>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_eloha_selihot">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_eloah_selihot">
           <tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n169_medium.jpg"/>
           <tei:p>וְאַתָּה אֱלוֹהַ סְלִיחוֹת חַנּוּן וְרַחוּם אֶרֶךְ־אַפַּיִם וְרַב־חֶסֶד וְלֹא עֲזַבְתָּנוּ׃ אַל־תַּעַזְבֵנוּ אָבִינוּ וְאַל־תִּטְּשֵׁנוּ בּוֹרְאֵנוּ וְאַל־תְּכַלֵּנוּ יוֹצְרֵנוּ וְאַל־תַּעַשׂ עִמָּנוּ כָּלָה כְּחַטֹּאתֵינוּ · וְקַיֵּם־לָנוּ אֶת־הַדָּבָר שֶׁהִבְטַחְתָּנוּ בְּקַבָּלָה עַל יְדֵי יִרְמְיָהוּ חוֹזֶה כָּאָמוּר בַּיָּמִים הָהֵם וּבָעֵת הַהִיא נְאֻם־יי יְבֻקַּשׁ אֶת־עֲוֹן־יִשְׂרָאֵל וְאֵינֶנּוּ וְאֶת־חַטֹּאת יְהוּדָה וְלֹא תִמָּצֶאינָה כִּי אֶסְלַח לַאֲשֶׁר אַשְׁאִיר · עַמְּךָ וְנַחֲלָתְךָ רָעֲבֵי טוּבְךָ · צְמֵאֵי חַסְדֶּךָ · תְּאֵבֵי יִשְׁעֶךָ · יָכִירוּ וְיֵדְעוּ כִּי לַיי אֱלֹהֵינוּ הָרַחֲמִים וְהַסְּלִיחוֹת׃ </tei:p>
         </tei:div>
