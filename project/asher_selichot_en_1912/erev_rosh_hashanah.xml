@@ -202,20 +202,20 @@
           <j:endConditional target="#erev_verses_after_lo_kahataenu_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:poem:el_eloah_dalefah_eini"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloha">
-          <j:conditional xml:id="erev_after_el_eloha_printed">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah">
+          <j:conditional xml:id="erev_after_el_eloah_printed">
             <tei:fs type="asher:expansions">
               <tei:f name="prayers_present">
                 <tei:binary value="false"/>
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloha/printed">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah/printed">
             <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n116_medium.jpg"/>
             <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
           </tei:div>
-          <j:endConditional target="#erev_after_el_eloha_printed"/>
-          <j:conditional xml:id="erev_after_el_eloha_expanded">
+          <j:endConditional target="#erev_after_el_eloah_printed"/>
+          <j:conditional xml:id="erev_after_el_eloah_expanded">
             <tei:fs type="asher:expansions">
               <tei:f name="prayers_present">
                 <tei:binary value="true"/>
@@ -224,7 +224,7 @@
           </j:conditional>
           <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
-          <j:endConditional target="#erev_after_el_eloha_expanded"/>
+          <j:endConditional target="#erev_after_el_eloah_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/al_tashhet_amkha">
           <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n116_medium.jpg"/>
@@ -562,7 +562,7 @@
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
           <j:endConditional target="#erev_after_adam_eikh_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/haenosh_meeloha">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/haenosh_meeloah">
           <tei:pb n="62" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n126_medium.jpg"/>
           <tei:p>Shall mortal man be more just than God? Shall a man be more pure than his Maker? The Lord is good to all, and his tender mercies are over all his works. The Lord is gracious and righteous, our God is merciful. Behold he putteth no trust in his servants, and his angels are charged with folly. We are conscious that we have sinned, and that no one can defend us: O let thy great name support us in time of trouble. </tei:p>
         </tei:div>
@@ -1007,7 +1007,7 @@
           <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n168_medium.jpg"/>
           <tei:p>Ezra, the scribe, addressed thee thus<tei:note type="commentary">Ezra ix. 6.</tei:note>, “O my God! I am ashamed and confounded, to lift up my face unto thee, my God; for our iniquities are in<tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n170_medium.jpg"/>creased above our head, and our trespasses are grown up unto heaven.” </tei:p>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_eloha_selihot">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_eloah_selihot">
           <tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n170_medium.jpg"/>
           <tei:p>“But thou who art a God ready to forgive, most gracious and merciful, long-suffering, and of abundant kindness; therefore, thou didst not forsake them<tei:note type="commentary">Neh. ix. 17.</tei:note>.” Forsake us not, O our Father! Cast us not off, O our King! Abandon us not, O our Creator! nor make an end of us, as our sins deserve: but confirm unto us the word which thou hast assured us of in the doctrine delivered by the hands of thy prophet Jeremiah<tei:note type="commentary">Jer. i. 20.</tei:note>, as it is said, “In those days, and at that time, saith the Lord, shall the iniquity of Israel be sought for, but there shall be none; and the sins of Judah, but they shall not be found; for I will pardon those whom I will leave remaining.” Thy people and thy heritage are languishing for thy goodness, panting for thy grace, and longing for thy help; O let them know and understand that to the Eternal, our God, appertaineth mercy and pardon. </tei:p>
         </tei:div>
