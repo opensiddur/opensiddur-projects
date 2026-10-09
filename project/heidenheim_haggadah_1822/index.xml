@@ -86,6 +86,18 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:pre_seder"/>
         <j:conditional xml:id="cond_index_seder">
           <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="day">
+                  <tei:numeric value="14"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
             <tei:fs type="opensiddur:holiday">
               <tei:f name="pesah">
                 <tei:numeric value="1"/>
