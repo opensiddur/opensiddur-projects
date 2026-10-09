@@ -41,24 +41,32 @@
   <tei:text>
     <tei:front>
       <tei:pb n="[1]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n0_medium.jpg"/>
-      <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" corresp="urn:x-opensiddur:text:front:title_page" xml:lang="he">
-        <tei:pb n="[2]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n1_medium.jpg"/>
-        <tei:docTitle>
-          <tei:titlePart type="main">הַסִּדּוּר הַשָּׁלֵם</tei:titlePart>
-        </tei:docTitle>
-        <tei:docEdition>מְתֻרְגָּם וּמְפֹרָשׁ<tei:lb/>בְּתוֹסֶפֶת מָבוֹא</tei:docEdition>
-        <tei:byline>מֵאֵת<tei:lb/><tei:docAuthor>פַּלְטִיאֵל בִּירֶנְבּוֹים</tei:docAuthor></tei:byline>
-        <tei:docImprint>
-          <tei:publisher>הִיבְּרוּ פּוּבְּלִישִׁינְג קוֹמְפַּנִי</tei:publisher><tei:lb/>
-          <tei:pubPlace>נְיוּ־יוֹרְק</tei:pubPlace>
-        </tei:docImprint>
-      </tei:titlePage>
-      <j:transclude type="external" target="urn:x-opensiddur:text:front:dedication"/>
+      <tei:pb n="[2]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n1_medium.jpg"/>
+      <j:conditional xml:id="title_page_2"><tei:fs type="opensiddur:paratext"><tei:f name="title-page"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" corresp="urn:x-opensiddur:text:front:title_page" xml:lang="he">
+          <tei:docTitle>
+            <tei:titlePart type="main">הַסִּדּוּר הַשָּׁלֵם</tei:titlePart>
+          </tei:docTitle>
+          <tei:docEdition>מְתֻרְגָּם וּמְפֹרָשׁ<tei:lb/>בְּתוֹסֶפֶת מָבוֹא</tei:docEdition>
+          <tei:byline>מֵאֵת<tei:lb/><tei:docAuthor>פַּלְטִיאֵל בִּירֶנְבּוֹים</tei:docAuthor></tei:byline>
+          <tei:docImprint>
+            <tei:publisher>הִיבְּרוּ פּוּבְּלִישִׁינְג קוֹמְפַּנִי</tei:publisher><tei:lb/>
+            <tei:pubPlace>נְיוּ־יוֹרְק</tei:pubPlace>
+          </tei:docImprint>
+        </tei:titlePage>
+      <j:endConditional target="#title_page_2"/>
+      <j:conditional xml:id="paratext_dedication"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:dedication"/>
+      <j:endConditional target="#paratext_dedication"/>
       <tei:pb n="[IV]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n5_medium.jpg"/>
       <tei:pb n="[VI]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n7_medium.jpg"/>
-      <j:transclude type="external" target="urn:x-opensiddur:text:front:acknowledgements"/>
+      <j:conditional xml:id="paratext_acknowledgements"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:acknowledgements"/>
+      <j:endConditional target="#paratext_acknowledgements"/>
       <tei:pb n="[VIII]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n9_medium.jpg"/>
-      <j:transclude type="external" target="urn:x-opensiddur:text:front:introduction"/>
+      <j:conditional xml:id="paratext_introduction"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:introduction"/>
+      <j:endConditional target="#paratext_introduction"/>
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
