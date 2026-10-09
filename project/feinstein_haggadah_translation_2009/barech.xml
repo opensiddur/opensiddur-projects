@@ -40,7 +40,7 @@
         <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:barech/3"/>
         <tei:note type="instruction">The leader says:</tei:note>
         <tei:p>With the permission of … let us bless</tei:p>
-        <j:conditional xml:id="cond_barech_minyan_nevarech">
+        <j:conditional xml:id="cond_barech_minyan_nevarech" type="marked">
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -54,7 +54,7 @@
         <tei:milestone unit="paragraph" n="4" corresp="urn:x-opensiddur:text:haggadah:barech/4"/>
         <tei:note type="instruction">The leader repeats:</tei:note>
         <tei:p>Blessed is the One</tei:p>
-        <j:conditional xml:id="cond_barech_minyan_baruch">
+        <j:conditional xml:id="cond_barech_minyan_baruch" type="marked">
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -66,7 +66,7 @@
         <j:endConditional target="#cond_barech_minyan_baruch"/>
         <tei:p>of whose [bounty] we have eaten, and by whose goodness we live.</tei:p>
         <tei:milestone unit="paragraph" n="5" corresp="urn:x-opensiddur:text:haggadah:barech/5"/>
-        <j:conditional xml:id="cond_barech_not_eaten">
+        <j:conditional xml:id="cond_barech_not_eaten" type="marked">
           <tei:fs type="opensiddur:quorum">
             <tei:f name="present-not-eaten">
               <tei:binary value="true"/>
@@ -123,7 +123,7 @@
         <tei:p>May the Merciful One send us Elijah the prophet, of blessed memory, and may he bring us good tidings of salvation and consolation.</tei:p>
         <tei:milestone unit="paragraph" n="23" corresp="urn:x-opensiddur:text:haggadah:barech/23"/>
         <tei:p>May the Merciful One bless</tei:p>
-        <j:conditional xml:id="cond_barech_avi">
+        <j:conditional xml:id="cond_barech_avi" type="marked">
           <tei:fs type="opensiddur:household">
             <tei:f name="at-fathers-home">
               <tei:binary value="true"/>
@@ -134,7 +134,7 @@
         <tei:p>my father,</tei:p>
         <j:endConditional target="#cond_barech_avi"/>
         <tei:p>my teacher, the master of this house,</tei:p>
-        <j:conditional xml:id="cond_barech_imi">
+        <j:conditional xml:id="cond_barech_imi" type="marked">
           <tei:fs type="opensiddur:household">
             <tei:f name="at-mothers-home">
               <tei:binary value="true"/>
