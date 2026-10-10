@@ -1,0 +1,128 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Asher Selichoth</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Complete services through the second penitential day, Archive n231/n232 (printed 115). Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot@asher_selichot_en_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:title>Selichoth for the Propitiatory and Penitential Days, and for the Minor Fasts</tei:title>
+          <tei:editor role="translator">David Asher</tei:editor>
+          <tei:publisher>Vallentine &amp; Sons</tei:publisher>
+          <tei:pubPlace>London</tei:pubPlace>
+          <tei:date when="1912">1912–5672</tei:date>
+          <tei:idno type="url">https://archive.org/details/selichothdavidasher1912</tei:idno>
+          <tei:note>The scan is the source. First publication was 1866; this encoding follows the 1912 reprint. Asher-specific expansions and reference ranges are documented in sources/asher_selichot/README.md.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n1_medium.jpg"/>
+      <tei:titlePage xml:lang="he">
+        <tei:docTitle>
+          <tei:titlePart type="main">סדר סליחות</tei:titlePart>
+          <tei:titlePart type="sub">מכל השנה</tei:titlePart>
+          <tei:titlePart type="sub">ונוסף עליהם יום כפור קטן</tei:titlePart>
+        </tei:docTitle>
+        <tei:docEdition>עם העתקה חדשה בלשון אינגליש</tei:docEdition>
+        <tei:docImprint>
+          <tei:pubPlace>לונדון :</tei:pubPlace>
+          <tei:publisher>בהוצאת ממלא מקום וואללענטיין,</tei:publisher>
+          <tei:pubPlace>רחוב דיוק, 31, אלדגייט</tei:pubPlace>
+          <tei:docDate>שנת תרע״ב</tei:docDate>
+        </tei:docImprint>
+      </tei:titlePage>
+      <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n2_medium.jpg"/>
+      <tei:titlePage xml:lang="en">
+        <tei:docTitle>
+          <tei:titlePart type="main">SELICHOTH</tei:titlePart>
+          <tei:titlePart type="sub">FOR THE</tei:titlePart>
+          <tei:titlePart type="sub">PROPITIATORY AND PENITENTIAL DAYS,</tei:titlePart>
+          <tei:titlePart type="sub">AND FOR THE MINOR FASTS.</tei:titlePart>
+          <tei:titlePart type="sub">TO WHICH ARE ADDED</tei:titlePart>
+          <tei:titlePart type="sub">THE SELICHOTH FOR THE MINOR DAY OF ATONEMENT</tei:titlePart>
+        </tei:docTitle>
+        <tei:docEdition>With a New English Translation</tei:docEdition>
+        <tei:byline>By DAVID ASHER, Ph. Dr. Author of "Outlines of the Jewish Religion" and Translator of Dr. Budinger's "Way of Faith.</tei:byline>
+        <tei:docImprint>
+          <tei:pubPlace>LONDON:</tei:pubPlace>
+          <tei:publisher>Published by VALLENTINE &amp; SONS (Succrs.)</tei:publisher>
+          <tei:pubPlace>31, Duke Street, Aldgate, E.C.</tei:pubPlace>
+          <tei:docDate>1912-5672.</tei:docDate>
+        </tei:docImprint>
+      </tei:titlePage>
+    </tei:front>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot">
+        <j:declare xml:id="asher_pre_rosh_hashanah_services">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/second_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/third_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fourth_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fifth_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/sixth_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/seventh_day"/>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah"/>
+        <j:endDeclare target="#asher_pre_rosh_hashanah_services"/>
+        <j:conditional xml:id="tzom_gedaliah_occasion">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tzom-gedalia">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="tzom_gedaliah_occasion_declare">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tzom-gedalia">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah"/>
+        <j:endDeclare target="#tzom_gedaliah_occasion_declare"/>
+        <j:endConditional target="#tzom_gedaliah_occasion"/>
+        <j:conditional xml:id="penitential_second_occasion">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="penitential_second_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/penitential_second_day"/>
+        <j:endDeclare target="#penitential_second_occasion_declare"/>
+        <j:endConditional target="#penitential_second_occasion"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

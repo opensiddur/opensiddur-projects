@@ -1,0 +1,526 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">PROPITIATORY PRAYERS FOR THE FAST OF GEDALIAH.</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah@asher_selichot_en_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah">
+        <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n184_medium.jpg"/>
+        <tei:head>PROPITIATORY PRAYERS FOR THE FAST OF GEDALIAH.</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/opening_instruction">
+          <j:conditional xml:id="gedaliah_opening_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/opening_instruction/printed">
+            <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n184_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Happy are they,” page 2, till “for it is great,” page 7, after which say the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_opening_instruction_printed"/>
+          <j:conditional xml:id="gedaliah_opening_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:declare xml:id="tzom_gedaliah_opening_ten_days">
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/selichot_preface"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:lekha_adonai_hatsedaqah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+          <j:endDeclare target="#tzom_gedaliah_opening_ten_days"/>
+          <j:endConditional target="#gedaliah_opening_instruction_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/selah_lanu_avinu">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n184_medium.jpg"/>
+          <tei:p>Pardon us, our Father! for in the greatness of our folly we have gone astray. Forgive us, O our King! for our iniquities are numerous. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:az_terem_nimtehu_nivlei_shehaqim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_az">
+          <j:conditional xml:id="gedaliah_after_az_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_az/printed">
+            <tei:pb n="92" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n186_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “For we confide in thee,” “O Omnipotent!” “And the Eternal passed,” pp. 8, 9. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_az_printed"/>
+          <j:conditional xml:id="gedaliah_after_az_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_erekh_apayim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor/selichot_preliminary"/>
+          <j:endConditional target="#gedaliah_after_az_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:dirshu_adonai_behimamtseo"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/keraham_av">
+          <tei:pb n="93" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n188_medium.jpg"/>
+          <tei:p>Like a father hath compassion on his children, so have thou compassion on us, O Lord! Salvation belongeth unto the Eternal! thy blessing be upon thy people. Selah! The Lord of Hosts is with us, the God of Jacob is our refuge. Selah! O Lord of Hosts! Happy is the man that trusteth in thee. Save us, O Eternal! Let the King hear us when we call. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/selah_na">
+          <tei:pb n="93" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n188_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said), And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/hateh_elohai">
+          <tei:pb n="93" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n188_medium.jpg"/>
+          <tei:p>O my God! incline thine ear and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:et_adonai_behimamtseo_ledorsho_qidamti"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_et_adonai">
+          <j:conditional xml:id="gedaliah_after_et_adonai_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_et_adonai/printed">
+            <tei:pb n="94" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n190_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_et_adonai_printed"/>
+          <j:conditional xml:id="gedaliah_after_et_adonai_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_et_adonai_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:beit_qodshenu_vetifartenu"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_beit">
+          <j:conditional xml:id="gedaliah_verses_after_beit_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_beit/printed">
+            <tei:pb n="94" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n190_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord, hear,” pp. 9, 10. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_beit_printed"/>
+          <j:conditional xml:id="gedaliah_verses_after_beit_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_beit/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_beit_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:avelah_nafshi_vehashakh_toari"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_avelah">
+          <j:conditional xml:id="gedaliah_after_avelah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_avelah/printed">
+            <tei:pb n="95" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n192_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_avelah_printed"/>
+          <j:conditional xml:id="gedaliah_after_avelah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_avelah_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:shuvah_yisrael_ad_adonai"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_shuvah_yisrael">
+          <j:conditional xml:id="gedaliah_verses_after_shuvah_yisrael_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_shuvah_yisrael/printed">
+            <tei:pb n="95" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n192_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” until “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord, hear,” pp. 9, 10. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_shuvah_yisrael_printed"/>
+          <j:conditional xml:id="gedaliah_verses_after_shuvah_yisrael_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_shuvah_yisrael/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_shuvah_yisrael_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:amanta_meaz_areshet_sefatayim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_amanta">
+          <j:conditional xml:id="gedaliah_after_amanta_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_amanta/printed">
+            <tei:pb n="96" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n194_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_amanta_printed"/>
+          <j:conditional xml:id="gedaliah_after_amanta_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_amanta_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:elohim_lanu_mahaseh_vaoz"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_elohim_lanu">
+          <j:conditional xml:id="gedaliah_verses_after_elohim_lanu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_elohim_lanu/printed">
+            <tei:pb n="96" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n194_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord, hear,” pp. 9, 10. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_elohim_lanu_printed"/>
+          <j:conditional xml:id="gedaliah_verses_after_elohim_lanu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_elohim_lanu/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_elohim_lanu_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:elohim_ein_biltekha"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_elohim_ein">
+          <j:conditional xml:id="gedaliah_after_elohim_ein_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_elohim_ein/printed">
+            <tei:pb n="98" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n198_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_elohim_ein_printed"/>
+          <j:conditional xml:id="gedaliah_after_elohim_ein_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_elohim_ein_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:tashuv_terahamenu_vetikhbosh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_tashuv">
+          <j:conditional xml:id="gedaliah_verses_after_tashuv_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_tashuv/printed">
+            <tei:pb n="98" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n198_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord, hear,” pp. 9, 10. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_tashuv_printed"/>
+          <j:conditional xml:id="gedaliah_verses_after_tashuv_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/verses_after_tashuv/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#gedaliah_verses_after_tashuv_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:tashuv_terahamenu_shuv_shevitenu"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_tashuv_shuv">
+          <j:conditional xml:id="gedaliah_after_tashuv_shuv_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_tashuv_shuv/printed">
+            <tei:pb n="99" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n200_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_tashuv_shuv_printed"/>
+          <j:conditional xml:id="gedaliah_after_tashuv_shuv_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_tashuv_shuv_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/refrain_instruction">
+          <j:conditional xml:id="gedaliah_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/refrain_instruction/printed">
+            <tei:pb n="99" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n200_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words (Thou didst teach, &amp;c.) occur at the end of the verses repeat from “Thou didst teach” till “and we shall be turned.” </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:horita_derekh_teshuvah"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_horita">
+          <j:conditional xml:id="gedaliah_after_horita_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_horita/printed">
+            <tei:pb n="100" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n202_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_horita_printed"/>
+          <j:conditional xml:id="gedaliah_after_horita_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_horita_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:hetivah_virtsonkha_et_tsiyon"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/keraham_av_final">
+          <tei:pb n="100" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n202_medium.jpg"/>
+          <tei:p>Thy mercy is great, O Lord, quicken me according to thy judgment. Enter not into judgment with us, for in thy sight shall no man living be justified. Like a father hath compassion on his children, so have thou compassion on us, O Lord! Salvation belongeth unto the Eternal! thy blessing be upon thy people. Selah! The Lord of Hosts is with us, the God of Jacob is our refuge. Selah! O Lord of Hosts! happy is the man that trusteth in thee. Save us, O Eternal! Let the King hear us when we call. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/selah_na_final">
+          <tei:pb n="100" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n202_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said), And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/hateh_elohai_final">
+          <tei:pb n="100" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n202_medium.jpg"/>
+          <tei:p>O my God! incline thine ear and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not <tei:pb n="101" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n204_medium.jpg"/>presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:im_afes_rova_haqen"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_im_afes">
+          <j:conditional xml:id="gedaliah_after_im_afes_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/after_im_afes/printed">
+            <tei:pb n="102" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n206_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_after_im_afes_printed"/>
+          <j:conditional xml:id="gedaliah_after_im_afes_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#gedaliah_after_im_afes_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/closing_repetition">
+          <j:conditional xml:id="gedaliah_closing_repetition_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/closing_repetition/printed">
+            <tei:pb n="102" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n206_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “O Lord, remember thy mercy,” page 16, till “lest we perish wholly in exile,” and continue with the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_closing_repetition_printed"/>
+          <j:conditional xml:id="gedaliah_closing_repetition_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:amarenu_haazinah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:viduy/introduction"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:ashamnu_mikol_am"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:leenenu_ashuqu_amalenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:meshiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:anenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahmana"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayomer_david"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahum_vehanun"/>
+          <j:transclude target="urn:x-opensiddur:text:bible:psalms/6"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mahi_umasi"/>
+          <j:endConditional target="#gedaliah_closing_repetition_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:torah_haqedoshah_hithaneni"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/conclusion">
+          <j:conditional xml:id="gedaliah_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/conclusion/printed">
+            <tei:pb n="103" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n208_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Conclude the Service from “Angels of mercy” &amp;c., page 23.<tei:note type="commentary" xml:lang="en"><tei:foreign xml:lang="he">עשרה הרוגי מלכות</tei:foreign></tei:note> </tei:note>
+          </tei:div>
+          <j:endConditional target="#gedaliah_conclusion_printed"/>
+          <j:conditional xml:id="gedaliah_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mitratseh_berahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vaanahnu_lo_neda"/>
+          <j:declare xml:id="gedaliah_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#gedaliah_kaddish"/>
+          <tei:div>
+            <tei:p>
+              <tei:note type="commentary" xml:lang="he">עשרה הרוגי מלכות</tei:note>
+            </tei:p>
+          </tei:div>
+          <j:endConditional target="#gedaliah_conclusion_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <!--Editorial empty instruction override for the supplied Kaddish reading.-->
+    <tei:note type="instruction" corresp="urn:x-opensiddur:instruction:aseret_yemei_teshuvah/add" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex"/>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,1121 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">סליחות לערב ראש השנה</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah@asher_selichot_he_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah">
+        <tei:pb n="49" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n99_medium.jpg"/>
+        <tei:head>סליחות לערב ראש השנה</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/opening_instruction">
+          <j:conditional xml:id="erev_opening_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/opening_instruction/printed">
+            <tei:pb n="49" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n99_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from <tei:foreign xml:lang="he">אַשְׁרֵי</tei:foreign> page 1, till <tei:foreign xml:lang="he">כִּי רַבּוּ עֲוֹנֵינוּ</tei:foreign> page 7, after which say the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_opening_instruction_printed"/>
+          <j:conditional xml:id="erev_opening_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/selichot_preface"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:lekha_adonai_hatsedaqah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:selah_lanu_avinu"/>
+          <j:endConditional target="#erev_opening_instruction_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adonai_elohei_tsevaot_nora_baelyonim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ki_al_rahamekha">
+          <tei:pb n="51" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n103_medium.jpg"/>
+          <tei:p>כִּי עַל רַחֲמֶיךָ הָרַבִּים אָנוּ בְטוּחִים · וְעַל צִדְקוֹתֶיךָ אָנוּ נִשְׁעָנִים · וְלִסְלִיחוֹתֶיךָ אָנוּ מְצַפִּים · וְלִישׁוּעָתְךָ אָנוּ מְקַוִּים׃ אַתָּה הוּא מֶלֶךְ אוֹהֵב צְדָקוֹת מִקֶּדֶם · מַעֲבִיר עֲוֹנוֹת עַמּוֹ וּמֵסִיר חַטֹּאת יְרֵאָיו׃ כָּרַת בְּרִית לָרִאשׁוֹנִים · וּמֵקִים שְׁבוּעָה לָאַחֲרוֹנִים׃ אַתָּה הוּא שֶׁיָּרַדְתָּ בֶּעָנָן כְּבוֹדֶךָ עַל הַר סִינַי וְהֶרְאֵיתָ דַּרְכֵי טוּבְךָ לְמֹשֶׁה עַבְדֶּךָ׃ אָרְחוֹת חֲסָדֶיךָ גִּלִּיתָ לוֹ · וְהוֹדַעְתּוֹ כִּי אַתָּה אֵל רַחוּם וְחַנּוּן · אֶרֶךְ אַפַּיִם וְרַב חֶסֶד וּמַרְבֶּה לְהֵיטִיב · וּמַנְהִיג אֶת־כָּל־הָעוֹלָם כֻּלּוֹ בְּמִדַּת הָרַחֲמִים׃ וְכֵן כָּתוּב וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל־טוּבִי עַל־פָּנֶיךָ וְקָרָאתִי בְשֵׁם יְיָ לְפָנֶיךָ · וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן · וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/el_erekh_apayim">
+          <tei:pb n="51" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n103_medium.jpg"/>
+          <tei:p>אֵל אֶרֶךְ־אַפַּיִם אַתָּה · וּבַעַל־הָרַחֲמִים נִקְרָאתָ · וְדֶרֶךְ תְּשׁוּבָה הוֹרֵיתָ · גְּדֻלַּת רַחֲמֶיךָ וַחֲסָדֶיךָ תִּזְכֹּר הַיּוֹם וּבְכָל־יוֹם לְזֶרַע יְדִידֶיךָ׃ תֵּפֶן אֵלֵינוּ בְּרַחֲמִים · כִּי אַתָּה הוּא בַּעַל־הָרַחֲמִים׃ בְּתַחֲנוּן וּבִתְפִלָּה פָּנֶיךָ נְקַדֵּם כְּהוֹדַעְתָּ לֶעָנָיו מִקֶּדֶם׃ מֵחֲרוֹן אַפְּךָ שׁוּב · כְּמוֹ בְתוֹרָתְךָ כָּתוּב׃ וּבְצֵל כְּנָפֶיךָ נֶחְסֶה וְנִתְלוֹנָן · כְּיוֹם וַיֵּרֶד יְיָ בֶּעָנָן׃ תַּעֲבוֹר עַל־פֶּשַׁע וְתִמְחֶה אָשָׁם · כְּיוֹם וַיִּתְיַצֵּב עִמּוֹ שָׁם׃ תַּאֲזִין שַׁוְעָתֵנוּ וְתַקְשִׁיב מֶנּוּ מַאֲמָר · כְּיוֹם וַיִּקְרָא בְשֵׁם יְיָ וְשָׁם נֶאֱמַר׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/vayaavor_preliminary">
+          <tei:pb n="51" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n103_medium.jpg"/>
+          <tei:p>וַיַּעֲבוֹר יְיָ עַל־פָּנָיו וַיִּקְרָא׃ יְיָ יְיָ · אֵל · רַחוּם · וְחַנּוּן · אֶרֶךְ־אַפַּיִם · וְרַב־חֶסֶד · וֶאֱמֶת׃ נֹצֵר חֶסֶד לָאֲלָפִים · נֹשֵׂא עָוֹן וָפֶשַׁע · וְחַטָּאָה · וְנַקֵּה׃ וְסָלַחְתָּ לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ  <tei:pb n="52" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n105_medium.jpg"/>וּנְחַלְתָּנוּ׃ סְלַח־לָנוּ אָבִינוּ כִּי־חָטָאנוּ מְחַל־לָנוּ מַלְכֵּנוּ כִּי־פָשָׁעְנוּ׃ כִּי־אַתָּה יְיָ טוֹב וְסַלָּח וְרַב־חֶסֶד לְכָל־קֹרְאֶיךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/adonai_boqer_tishma_qoli">
+          <tei:pb n="52" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n105_medium.jpg"/>
+          <tei:p>יְיָ בֹּקֶר תִּשְׁמַע קוֹלֵנוּ · בֹּקֶר נַעֲרָךְ־לְךָ וּנְצַפֶּה׃ וְאַתָּה יְיָ מָגֵן בַּעֲדֵנוּ · כְּבוֹדֵנוּ וּמֵרִים רֹאשֵׁנוּ׃ אַתָּה יְיָ לְעוֹלָם תֵּשֵׁב · כִּסְאֲךָ לְדוֹר וָדוֹר׃ אוֹהֵב צְדָקָה וּמִשְׁפָּט · חֶסֶד־יְיָ מָלְאָה הָאָרֶץ׃ <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim"/>רַחֲמֶיךָ רַבִּים יְיָ · כְּמִשְׁפָּטֶיךָ חַיֵּנוּ׃ אַל תָּבוֹא בְמִשְׁפָּט עִמָּנוּ · כִּי לֹא־יִצְדַּק לְפָנֶיךָ כָל־חָי׃<tei:milestone unit="prayer"/> </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/keraham_av">
+          <tei:pb n="52" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n105_medium.jpg"/>
+          <tei:p><tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:keraham_av"/>כְּרַחֵם אָב עַל־בָּנִים כֵּן תְּרַחֵם יְיָ עָלֵינוּ׃ לַיְיָ הַיְשׁוּעָה עַל־עַמְּךָ בִרְכָתֶךָ סֶּלָה׃ יְיָ צְבָאוֹת עִמָּנוּ מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה׃ יְיָ צְבָאוֹת אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ׃ יְיָ הוֹשִׁיעָה הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ׃<tei:milestone unit="prayer"/> </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/selah_na">
+          <tei:pb n="52" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n105_medium.jpg"/>
+          <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה׃ וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/hateh_elohai">
+          <tei:pb n="52" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n105_medium.jpg"/>
+          <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמָע פְּקַח עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר־נִקְרָא שִׁמְךָ עָלֶיהָ <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu"/>כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעֲנָךְ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃<tei:milestone unit="prayer"/> </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_bemoed"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_bemoed">
+          <j:conditional xml:id="erev_after_adon_bemoed_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_bemoed/printed">
+            <tei:pb n="53" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n107_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_adon_bemoed_printed"/>
+          <j:conditional xml:id="erev_after_adon_bemoed_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_adon_bemoed_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shuvah_adonai">
+          <tei:pb n="53" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n107_medium.jpg"/>
+          <tei:p>שׁוּבָה יְיָ אֶת־שְׁבוּתֵנוּ כַּאֲפִיקִים בַּנֶּגֶב׃ שׁוּבָה יְיָ חַלְּצָה נַפְשֵׁנוּ הוֹשִׁיעֵנוּ לְמַעַן חַסְדֶּךָ׃ דִּרְשׁוּ יְיָ בְּהִמָּצְאוֹ קְרָאֻהוּ בִּהְיוֹתוֹ קָרוֹב׃ יַעֲזֹב רָשָׁע דַּרְכּוֹ וְאִישׁ אָוֶן מַחְשְׁבֹתָיו וְיָשֹׁב אֶל־יְיָ וִירַחֲמֵהוּ וְאֶל־אֱלֹהֵינוּ כִּי־יַרְבֶּה לִסְלוֹחַ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_shuvah">
+          <j:conditional xml:id="erev_verses_after_shuvah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_shuvah/printed">
+            <tei:pb n="53" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n107_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_shuvah_printed"/>
+          <j:conditional xml:id="erev_verses_after_shuvah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_shuvah/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_shuvah_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:ana_orerah_ahavatkha_hayeshanah"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_ana_orerah">
+          <j:conditional xml:id="erev_after_ana_orerah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_ana_orerah/printed">
+            <tei:pb n="54" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n109_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_ana_orerah_printed"/>
+          <j:conditional xml:id="erev_after_ana_orerah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_ana_orerah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/lo_kahataenu">
+          <tei:pb n="54" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n109_medium.jpg"/>
+          <tei:p>לֹא כַחֲטָאֵינוּ תַּעֲשֶׂה לָּנוּ וְלֹא כַעֲוֹנוֹתֵינוּ תִּגְמוֹל עָלֵינוּ · כִּי רַבּוּ <tei:pb n="55" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n111_medium.jpg"/>מְשׁוּבֹתֵינוּ לָךְ חָטָאנוּ׃ תְּחַטְּאֵנוּ בְאֵזוֹב וְנִטְהָר תְּכַבְּסֵנוּ וּמִשֶּׁלֶג נַלְבִּין׃ אַל תִּקְצֹף יְיָ עַד מְאֹד וְאַל לָעַד תִּזְכֹּר עָוֹן · הֵן הַבֶּט־נָא עַמְּךָ כֻלָּנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_lo_kahataenu">
+          <j:conditional xml:id="erev_verses_after_lo_kahataenu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_lo_kahataenu/printed">
+            <tei:pb n="55" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n111_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_lo_kahataenu_printed"/>
+          <j:conditional xml:id="erev_verses_after_lo_kahataenu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_lo_kahataenu/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_lo_kahataenu_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:el_eloah_dalefah_eini"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah">
+          <j:conditional xml:id="erev_after_el_eloah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_el_eloah/printed">
+            <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n115_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_el_eloah_printed"/>
+          <j:conditional xml:id="erev_after_el_eloah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_el_eloah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/al_tashhet_amkha">
+          <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n115_medium.jpg"/>
+          <tei:p>יְיָ אֱלֹהִים אַל תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר־פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרַיִם בְּיָד חֲזָקָה׃ מַה־יִּצְדַּק אֱנוֹשׁ עִם־אֵל וּמַה־יִּזְכֶּה יְלוּד אִשָּׁה׃ הַאֱנוֹשׁ מֵאֱלוֹהַּ יִצְדָּק אִם־מֵעֹשֵׂהוּ יִטְהַר גָּבֶר׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tashhet">
+          <j:conditional xml:id="erev_verses_after_al_tashhet_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tashhet/printed">
+            <tei:pb n="57" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n115_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_al_tashhet_printed"/>
+          <j:conditional xml:id="erev_verses_after_al_tashhet_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tashhet/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_al_tashhet_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_beshoftekha_enosh_rimmah"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_beshoftekha">
+          <j:conditional xml:id="erev_after_adon_beshoftekha_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_beshoftekha/printed">
+            <tei:pb n="58" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n117_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_adon_beshoftekha_printed"/>
+          <j:conditional xml:id="erev_after_adon_beshoftekha_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_adon_beshoftekha_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mah_enosh_ki_yizkeh">
+          <tei:pb n="58" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n117_medium.jpg"/>
+          <tei:p>מָה־אֱנוֹשׁ כִּי־יִזְכֶּה וְכִי־יִצְדַּק יְלוּד אִשָּׁה׃ מָה־אֱנוֹשׁ כִּי־תִפְקְדֶנּוּ לִבְקָרִים וְלִרְגָעִים תִּבְחָנֶנּוּ׃ יְיָ אַל־בְּאַפְּךָ תוֹכִיחֵנוּ וְאַל־בַּחֲמָתְךָ תְיַסְּרֵנוּ׃ אַף־עַל־זֶה־פָּקַחְתָּ עֵינֶךָ וְאוֹתָנוּ תָבִיא בְמִשְׁפָּט עִמָּךְ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_enosh">
+          <j:conditional xml:id="erev_verses_after_mah_enosh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_enosh/printed">
+            <tei:pb n="58" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n117_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_mah_enosh_printed"/>
+          <j:conditional xml:id="erev_verses_after_mah_enosh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_enosh/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_mah_enosh_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_befaqdekha_enosh_livqarim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_befaqdekha">
+          <j:conditional xml:id="erev_after_adon_befaqdekha_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_befaqdekha/printed">
+            <tei:pb n="59" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n119_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_adon_befaqdekha_printed"/>
+          <j:conditional xml:id="erev_after_adon_befaqdekha_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_adon_befaqdekha_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mah_nomar_lefanekha">
+          <tei:pb n="59" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n119_medium.jpg"/>
+          <tei:p>מַה־נֹּאמַר לְפָנֶיךָ יוֹשֵׁב מָרוֹם וּמַה־נְּסַפֵּר לְפָנֶיךָ שׁוֹכֵן שְׁחָקִים׃ מַה־נֹּאמַר מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק · הֵן בַּעֲבָדָיו לֹא יַאֲמִין וּבְמַלְאָכָיו יָשִׂים תָּהֳלָה׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_nomar">
+          <j:conditional xml:id="erev_verses_after_mah_nomar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_nomar/printed">
+            <tei:pb n="59" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n119_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_mah_nomar_printed"/>
+          <j:conditional xml:id="erev_verses_after_mah_nomar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_mah_nomar/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_mah_nomar_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:af_bemathah_din"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_af_bemathah_din">
+          <j:conditional xml:id="erev_after_af_bemathah_din_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_af_bemathah_din/printed">
+            <tei:pb n="59" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n119_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_af_bemathah_din_printed"/>
+          <j:conditional xml:id="erev_after_af_bemathah_din_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_af_bemathah_din_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/zekhor_na_ki_kahomer">
+          <tei:pb n="60" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n121_medium.jpg"/>
+          <tei:p>זְכֹר נָא כִּי כַחֹמֶר עֲשִׂיתָנוּ וְאֶל עָפָר תְּשִׁיבֵנוּ׃ יָדַעְנוּ כִּי אֵין בָּנוּ מַעֲשִׂים צְדָקָה עֲשֵׂה עִמָּנוּ לְמַעַן שְׁמֶךָ׃ קוּמָה עֶזְרָתָה לָּנוּ וּפְדֵנוּ לְמַעַן חַסְדֶּךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_zekhor_na">
+          <j:conditional xml:id="erev_verses_after_zekhor_na_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_zekhor_na/printed">
+            <tei:pb n="60" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n121_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_zekhor_na_printed"/>
+          <j:conditional xml:id="erev_verses_after_zekhor_na_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_zekhor_na/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_zekhor_na_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:af_bekha_ledal_maoz"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_af_bekha">
+          <j:conditional xml:id="erev_after_af_bekha_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_af_bekha/printed">
+            <tei:pb n="60" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n121_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_af_bekha_printed"/>
+          <j:conditional xml:id="erev_after_af_bekha_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_af_bekha_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/al_tiqtsof_and_are_qodshekha">
+          <tei:pb n="60" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n121_medium.jpg"/>
+          <tei:p>אַל־תִּקְצֹף יְיָ עַד־מְאֹד וְאַל־לָעַד תִּזְכֹּר עָוֹן · הֵן הַבֶּט־נָא עַמְּךָ כֻלָּנוּ׃ עָרֵי קָדְשְׁךָ הָיוּ מִדְבָּר צִיּוֹן מִדְבָּר הָיָתָה יְרוּשָׁלַיִם שְׁמָמָה׃ כִּי שָׂבְעָה בְרָעוֹת נַפְשֵׁנוּ וְחַיֵּינוּ לִשְׁאוֹל הִגִּיעוּ׃ הֲיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ אֱמוּנָתְךָ בָּאֲבַדּוֹן׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tiqtsof">
+          <j:conditional xml:id="erev_verses_after_al_tiqtsof_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tiqtsof/printed">
+            <tei:pb n="60" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n121_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_al_tiqtsof_printed"/>
+          <j:conditional xml:id="erev_verses_after_al_tiqtsof_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_al_tiqtsof/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_al_tiqtsof_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:evil_hamatteh_margiz_umahati"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_evil_hamatteh">
+          <j:conditional xml:id="erev_after_evil_hamatteh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_evil_hamatteh/printed">
+            <tei:pb n="61" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n123_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_evil_hamatteh_printed"/>
+          <j:conditional xml:id="erev_after_evil_hamatteh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_evil_hamatteh_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ki_adam_ein_tsadiq">
+          <tei:pb n="61" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n123_medium.jpg"/>
+          <tei:p>כִּי אָדָם אֵין־צַדִּיק בָּאָרֶץ אֲשֶׁר־יַעֲשֶׂה טּוֹב וְלֹא־יֶחֱטָא׃ אָדָם יְלוּד אִשָּׁה קְצַר־יָמִים וּשְׂבַע־רֹגֶז׃ אַף־עַל־זֶה פָּקַחְתָּ עֵינֶךָ וְאוֹתָנוּ תָבִיא בְמִשְׁפָּט עִמָּךְ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_ki_adam">
+          <j:conditional xml:id="erev_verses_after_ki_adam_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_ki_adam/printed">
+            <tei:pb n="61" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n123_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_ki_adam_printed"/>
+          <j:conditional xml:id="erev_verses_after_ki_adam_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_ki_adam/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_ki_adam_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adam_eikh_yizkeh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adam_eikh">
+          <j:conditional xml:id="erev_after_adam_eikh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adam_eikh/printed">
+            <tei:pb n="62" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n125_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_adam_eikh_printed"/>
+          <j:conditional xml:id="erev_after_adam_eikh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_adam_eikh_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/haenosh_meeloah">
+          <tei:pb n="62" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n125_medium.jpg"/>
+          <tei:p>הַאֱנוֹשׁ מֵאֱלוֹהַּ יִצְדָּק · אִם מֵעֹשֵׂהוּ יִטְהַר גָּבֶר׃ טוֹב יְיָ לַכֹּל וְרַחֲמָיו עַל־כָּל־מַעֲשָׂיו׃ חַנּוּן יְיָ וְצַדִּיק וֵאלֹהֵינוּ מְרַחֵם׃ הֵן בַּעֲבָדָיו לֹא־יַאֲמִין וּבְמַלְאָכָיו יָשִׂים תָּהֳלָה׃ יָדַעְנוּ כִּי חָטָאנוּ וְאֵין מִי יַעֲמֹד בַּעֲדֵנוּ שִׁמְךָ הַגָּדוֹל יַעֲמָד־לָנוּ בְּעֵת צָרָה׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_haenosh">
+          <j:conditional xml:id="erev_verses_after_haenosh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_haenosh/printed">
+            <tei:pb n="62" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n125_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_haenosh_printed"/>
+          <j:conditional xml:id="erev_verses_after_haenosh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_haenosh/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_haenosh_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_din_im_yiddeqen"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_din">
+          <j:conditional xml:id="erev_after_adon_din_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_adon_din/printed">
+            <tei:pb n="63" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n127_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_adon_din_printed"/>
+          <j:conditional xml:id="erev_after_adon_din_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_adon_din_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/im_avoneinu_anu">
+          <tei:pb n="63" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n127_medium.jpg"/>
+          <tei:p>אִם־עֲוֹנֵינוּ עָנוּ בָנוּ יְיָ עֲשֵׂה לְמַעַן שְׁמֶךָ׃ אִם־עֲוֹנוֹת תִּשְׁמָר־יָהּ אֲדֹנָי מִי־יַעֲמֹד׃ כִּי עִם יְיָ הַחֶסֶד וְהַרְבֵּה עִמּוֹ פְדוּת׃ כִּי־עִמְּךָ הַסְּלִיחָה לְמַעַן תִּוָּרֵא׃ רְאֵה עָנְיֵנוּ וַעֲמָלֵנוּ וְשָׂא לְכָל־חַטֹּאותֵינוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_im_avoneinu">
+          <j:conditional xml:id="erev_verses_after_im_avoneinu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_im_avoneinu/printed">
+            <tei:pb n="63" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n127_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_im_avoneinu_printed"/>
+          <j:conditional xml:id="erev_verses_after_im_avoneinu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_im_avoneinu/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_im_avoneinu_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shomamti_berov_yegoni"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shomamti">
+          <j:conditional xml:id="erev_after_shomamti_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shomamti/printed">
+            <tei:pb n="64" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n129_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_shomamti_printed"/>
+          <j:conditional xml:id="erev_after_shomamti_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_shomamti_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/adonai_melekh">
+          <tei:pb n="65" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n131_medium.jpg"/>
+          <tei:p>יְיָ מֶלֶךְ יְיָ מָלָךְ יְיָ יִמְלֹךְ לְעֹלָם וָעֶד׃ יְיָ מֶלֶךְ עוֹלָם וָעֶד אָבְדוּ גוֹיִם מֵאַרְצוֹ׃ שְׂאוּ שְׁעָרִים רָאשֵׁיכֶם וְהִנָּשְׂאוּ פִּתְחֵי־עוֹלָם וְיָבֹא מֶלֶךְ־הַכָּבוֹד׃ כִּי לַיְיָ הַמְּלוּכָה וּמֹשֵׁל בַּגּוֹיִם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_adonai_melekh">
+          <j:conditional xml:id="erev_verses_after_adonai_melekh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_adonai_melekh/printed">
+            <tei:pb n="65" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n131_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_adonai_melekh_printed"/>
+          <j:conditional xml:id="erev_verses_after_adonai_melekh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_adonai_melekh/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_adonai_melekh_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:melekh_ehad_yihyeh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_melekh_ehad">
+          <j:conditional xml:id="erev_after_melekh_ehad_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_melekh_ehad/printed">
+            <tei:pb n="67" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n135_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_melekh_ehad_printed"/>
+          <j:conditional xml:id="erev_after_melekh_ehad_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_melekh_ehad_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/lemishpatekha_amdu_hayom">
+          <tei:pb n="67" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n135_medium.jpg"/>
+          <tei:p>לְמִשְׁפָּטֶיךָ עָמְדוּ הַיּוֹם כִּי הַכֹּל עֲבָדֶיךָ׃ וְהוּא יִשְׁפֹּט תֵּבֵל בְּצֶדֶק · יָדִין לְאֻמִּים בְּמֵישָׁרִים׃ מִלְּפָנֶיךָ מִשְׁפָּטֵנוּ יֵצֵא · עֵינֶיךָ תֶחֱזֶינָה מֵישָׁרִים׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/thirteen_attributes_instruction">
+          <tei:pb n="68" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n137_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The verses within brackets are repeated by the Reader and the Congregation. </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shelosh_esreh_middot"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shelosh_esreh">
+          <j:conditional xml:id="erev_after_shelosh_esreh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shelosh_esreh/printed">
+            <tei:pb n="69" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n139_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign>. The Ark is opened, after which say <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_shelosh_esreh_printed"/>
+          <j:conditional xml:id="erev_after_shelosh_esreh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <tei:note type="instruction" xml:lang="en">The Ark is opened.</tei:note>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_shelosh_esreh_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/al_tavo_bemishpat">
+          <tei:pb n="69" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n139_medium.jpg"/>
+          <tei:p>אַל־תָּבוֹא בְמִשְׁפָּט עִמָּנוּ כִּי לֹא־יִצְדַּק לְפָנֶיךָ כָל־חָי׃ צֶדֶק וּמִשְׁפָּט מְכוֹן כִּסְאֶךָ חֶסֶד וֶאֱמֶת יְקַדְּמוּ פָנֶיךָ׃ מִלְּפָנֶיךָ מִשְׁפָּטֵנוּ יֵצֵא עֵינֶיךָ תֶחֱזֶינָה מֵישָׁרִים׃ וְהוּא־יִשְׁפֹּט תֵּבֵל בְּצֶדֶק יָדִין לְאֻמִּים בְּמֵישָׁרִים׃ רַחֲמֶיךָ רַבִּים יי כְּמִשְׁפָּטֶיךָ חַיֵּינוּ׃ הִנָּשֵׂא שֹׁפֵט הָאָרֶץ הָשֵׁב גְּמוּל עַל־גֵּאִים׃ כִּי־יי שֹׁפְטֵנוּ יי מְחֹקְקֵנוּ יי מַלְכֵּנוּ הוּא יוֹשִׁיעֵנוּ׃ חָלִלָה לְּךָ מֵעֲשֹׂת כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע <tei:pb n="70" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n141_medium.jpg"/>וְהָיָה כַצַּדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כָּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּט׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/burnt_offering_refrain_instruction">
+          <tei:head>פזמון</tei:head>
+          <j:conditional xml:id="erev_burnt_offering_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/burnt_offering_refrain_instruction/printed">
+            <tei:pb n="70" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n141_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the word <tei:foreign xml:lang="he">כעולת</tei:foreign> occurs at the end of the verse, repeat from <tei:foreign xml:lang="he">כְּעֹלַת</tei:foreign> till <tei:foreign xml:lang="he">כְּעֹלַת הַתָּמִיד</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_burnt_offering_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shofet_kol_haarets"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shofet">
+          <j:conditional xml:id="erev_after_shofet_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_shofet/printed">
+            <tei:pb n="70" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n141_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">The Ark is closed. Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_shofet_printed"/>
+          <j:conditional xml:id="erev_after_shofet_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:note type="instruction" xml:lang="en">The Ark is closed.</tei:note>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_shofet_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/hetivah_virtsonkha">
+          <tei:pb n="70" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n141_medium.jpg"/>
+          <tei:p>הֵיטִיבָה בִרְצוֹנְךָ אֶת־צִיּוֹן תִּבְנֶה חוֹמוֹת יְרוּשָׁלָיִם׃ אָז תַּחְפֹּץ זִבְחֵי־צֶדֶק עוֹלָה וְכָלִיל אָז יַעֲלוּ עַל־מִזְבַּחֲךָ פָרִים׃ זִבְחֵי־אֱלֹהִים רוּחַ־נִשְׁבָּרָה לֵב־נִשְׁבָּר וְנִדְכֶּה אֱלֹהִים לֹא־תִבְזֶה׃ וְהִתְבָּרְכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ עֵקֶב אֲשֶׁר שָׁמַעְתָּ בְּקֹלִי׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_hetivah">
+          <j:conditional xml:id="erev_verses_after_hetivah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_hetivah/printed">
+            <tei:pb n="70" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n141_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">רחמיך רבים · אל תבא · כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_hetivah_printed"/>
+          <j:conditional xml:id="erev_verses_after_hetivah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/verses_after_hetivah/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#erev_verses_after_hetivah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/selah_na_after_shofet">
+          <tei:pb n="71" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n143_medium.jpg"/>
+          <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יי סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/hateh_elohai_after_shofet">
+          <tei:pb n="71" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n143_medium.jpg"/>
+          <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשֲׁמָע פְּקַח־עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר־נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקֲשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:az_behar_mor"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_az_behar_mor">
+          <j:conditional xml:id="erev_after_az_behar_mor_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/after_az_behar_mor/printed">
+            <tei:pb n="72" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n145_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_after_az_behar_mor_printed"/>
+          <j:conditional xml:id="erev_after_az_behar_mor_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#erev_after_az_behar_mor_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/zekhor_rahamekha">
+          <tei:pb n="72" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n145_medium.jpg"/>
+          <tei:p>זְכֹר רַחֲמֶיךָ יי וַחֲסָדֶיךָ כִּי מֵעוֹלָם הֵמָּה׃ זָכְרֵנוּ יי בִּרְצוֹן עַמֶּךָ פָּקְדֵנוּ בִּישׁוּעָתֶךָ׃ זְכֹר עֲדָתְךָ קָנִיתָ קֶּדֶם גָּאַלְתָּ שֵׁבֶט נַחֲלָתֶךָ הַר־צִיּוֹן זֶה שָׁכַנְתָּ בּוֹ׃ זְכֹר יי חִבַּת יְרוּשָׁלָיִם אַהֲבַת צִיּוֹן אַל־תִּשְׁכַּח לָנֶצַח׃ אַתָּה תָקוּם תְּרַחֵם צִיּוֹן כִּי־עֵת לְחֶנְנָהּ כִּי־בָא מוֹעֵד׃ זְכֹר יי לִבְנֵי־אֱדוֹם אֵת יוֹם יְרוּשָׁלָיִם הָאֹמְרִים עָרוּ עָרוּ עַד־הַיְסוֹד בָּהּ׃ זְכֹר לְאַבְרָהָם לְיִצְחָק וּלְיִשְׂרָאֵל עֲבָדֶיךָ אֲשֶׁר־נִשְׁבַּעְתָּ לָהֶם בָּךְ וַתְּדַבֵּר אֲלֵהֶם אַרְבֶּה אֶת־זַרְעֲכֶם כְּכוֹכְבֵי הַשָּׁמָיִם וְכָל־הָאָרֶץ הַזֹּאת אֲשֶׁר אָמַרְתִּי אֶתֵּן לְזַרְעֲכֶם וְנָחֲלוּ לְעֹלָם׃ זְכֹר לַעֲבָדֶיךָ לְאַבְרָהָם לְיִצְחָק וּלְיַעֲקֹב אַל־תֵּפֶן אֶל־קְשִׁי הָעָם הַזֶּה וְאֶל־רִשְׁעוֹ וְאֶל־חַטָּאתוֹ׃ זְכֹר לָנוּ בְּרִית אָבוֹת כַּאֲשֶׁר אָמַרְתָּ וְזָכַרְתִּי אֶת־בְּרִיתִי יַעֲקוֹב וְאַף אֶת־בְּרִיתִי יִצְחָק וְאַף אֶת־בְּרִיתִי אַבְרָהָם אֶזְכֹּר וְהָאָרֶץ אֶזְכֹּר׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/open_ark_before_zekhor_berit">
+          <tei:pb n="73" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n147_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="he">פתיחת הארון </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/alternate_refrains_instruction">
+          <tei:head>פזמון</tei:head>
+          <j:conditional xml:id="erev_alternate_refrains_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/alternate_refrains_instruction/printed">
+            <tei:pb n="73" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n147_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words <tei:foreign xml:lang="he">והשב</tei:foreign> and <tei:foreign xml:lang="he">ושוב</tei:foreign> occur at the end of the verses, repeat the whole of each verse alternately. </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_alternate_refrains_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:zekhor_berit_avraham"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/close_ark_after_zekhor_berit">
+          <tei:pb n="73" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n147_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="he">סוגרין הארון </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/zekhor_lanu_berit_rishonim">
+          <tei:pb n="73" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n147_medium.jpg"/>
+          <tei:p>זְכֹר לָנוּ בְּרִית רִאשׁוֹנִים כַּאֲשֶׁר אָמַרְתָּ וְזָכַרְתִּי לָהֶם בְּרִית רִאשׁוֹנִים אֲשֶׁר הוֹצֵאתִי אֹתָם מֵאֶרֶץ מִצְרַיִם לְעֵינֵי הַגּוֹיִם לִהְיֹת לָהֶם לֵאלֹהִים אֲנִי יי׃ עֲשֵׂה עִמָּנוּ כְּמוֹ שֶׁהִבְטַחְתָּנוּ וְאַף גַּם זֹאת בִּהְיוֹתָם בְּאֶרֶץ אֹיְבֵיהֶם לֹא־ <tei:pb n="74" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n149_medium.jpg"/>מְאַסְתִּים וְלֹא־גְעַלְתִּים לְכַלֹּתָם לְהָפֵר בְּרִיתִי אִתָּם כִּי אֲנִי יי אֱלֹהֵיהֶם׃ הָשֵׁב שְׁבוּתֵנוּ וְרַחֲמֵנוּ כְּמָה־שֶׁכָּתוּב וְשָׁב יי אֱלֹהֶיךָ אֶת־שְׁבוּתְךָ וְרִחֲמֶךָ וְשָׁב וְקִבֶּצְךָ מִכָּל־הָעַמִּים אֲשֶׁר הֱפִיצְךָ יי אֱלֹהֶיךָ שָׁמָּה׃ קַבֵּץ נִדָּחֵינוּ כְּמָה־שֶׁכָּתוּב · אִם־יִהְיֶה נִדַּחֲךָ בִּקְצֵה הַשָּׁמָיִם מִשָּׁם יְקַבֶּצְךָ יי אֱלֹהֶיךָ וּמִשָּׁם יִקָּחֶךָ׃ מְחֵה פְשָׁעֵינוּ כָעָב וְכָעָנָן כְּמָה־שֶׁכָּתוּב · מָחִיתִי כָעָב פְּשָׁעֶיךָ וְכֶעָנָן חַטֹּאתֶיךָ שׁוּבָה אֵלַי כִּי גְאַלְתִּיךָ׃ מְחֵה פְשָׁעֵינוּ לְמַעַנְךָ כַּאֲשֶׁר אָמַרְתָּ אָנֹכִי אָנֹכִי הוּא מֹחֶה פְשָׁעֶיךָ לְמַעֲנִי וְחַטֹּאתֶיךָ לֹא אֶזְכֹּר׃ הַלְבֵּן חֲטָאֵינוּ כַּשֶּׁלֶג וְכַצֶּמֶר כְּמָה־שֶׁכָּתוּב לְכוּ־נָא וְנִוָּכְחָה יֹאמַר יי · אִם־יִהְיוּ חֲטָאֵיכֶם כַּשָּׁנִים כַּשֶּׁלֶג יַלְבִּינוּ אִם־יַאֲדִימוּ כַתּוֹלָע כַּצֶּמֶר יִהְיוּ׃ זְרֹק עָלֵינוּ מַיִם טְהוֹרִים וְטַהֲרֵנוּ כְּמָה־שֶׁכָּתוּב · וְזָרַקְתִּי עֲלֵיכֶם מַיִם טְהוֹרִים וּטְהַרְתֶּם · מִכֹּל טֻמְאוֹתֵיכֶם וּמִכָּל־גִּלּוּלֵיכֶם אֲטַהֵר אֶתְכֶם׃ רַחֵם עָלֵינוּ וְאַל־תַּשְׁחִיתֵנוּ כְּמָה־שֶׁכָּתוּב · כִּי אֵל רַחוּם יי אֱלֹהֶיךָ לֹא־יַרְפְּךָ וְלֹא־יַשְׁחִיתֶךָ וְלֹא־יִשְׁכַּח אֶת־בְּרִית אֲבֹתֶיךָ אֲשֶׁר־נִשְׁבַּע לָהֶם׃ וּמוּל אֶת־לְבָבֵנוּ לְאַהֲבָה אֶת־שְׁמֶךָ כְּמוֹ־שֶׁכָּתוּב · וּמָל יי אֱלֹהֶיךָ אֶת־לְבָבְךָ וְאֶת־לְבַב זַרְעֶךָ לְאַהֲבָה אֶת־יי אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ לְמַעַן חַיֶּיךָ׃ הִמָּצֵא לָנוּ בְּבַקָּשָׁתֵנוּ כְמוֹ־שֶׁכָּתוּב וּבִקַּשְׁתֶּם מִשָּׁם אֶת־יי אֱלֹהֶיךָ וּמָצָאתָ כִּי־תִדְרְשֶׁנּוּ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשֶׁךָ׃ תְּבִיאֵנוּ אֶל־הַר קָדְשְׁךָ וְשַׂמְּחֵנוּ בְּבֵית תְּפִלָּתֶךָ כְּמוֹ־שֶׁכָּתוּב · וַהֲבִיאוֹתִים אֶל־הַר קָדְשִׁי <tei:pb n="75" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n151_medium.jpg"/>וְשִׂמַּחְתִּים בְּבֵית תְּפִלָּתִי עוֹלֹתֵיהֶם וְזִבְחֵיהֶם לְרָצוֹן עַל־מִזְבְּחִי כִּי בֵיתִי בֵּית תְּפִלָּה יִקָּרֵא לְכָל־הָעַמִּים׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shema_qolenu">
+          <tei:pb n="75" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n151_medium.jpg"/>
+          <tei:p>שְׁמַע קוֹלֵנוּ יי אֱלֹהֵינוּ חוּס וְרַחֵם עָלֵינוּ וְקַבֵּל בְּרַחֲמִים וּבְרָצוֹן אֶת־תְּפִלָּתֵנוּ׃ הֲשִׁיבֵנוּ יי אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/amarenu_haazinah">
+          <tei:pb n="75" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n151_medium.jpg"/>
+          <tei:p>אֲמָרֵינוּ הַאֲזִינָה יי · בִּינָה הֲגִיגֵנוּ׃ יִהְיוּ לְרָצוֹן אִמְרֵי־פִינוּ וְהֶגְיוֹן לִבֵּנוּ לְפָנֶיךָ יי צוּרֵנוּ וְגוֹאֲלֵנוּ׃ אַל־תַּשְׁלִיכֵנוּ מִלְּפָנֶיךָ וְרוּחַ־קָדְשְׁךָ אַל־תִּקַּח מִמֶּנּוּ׃ אַל־תַּשְׁלִיכֵנוּ לְעֵת־זִקְנָה בִּכְלוֹת כֹּחֵנוּ אַל־תַּעַזְבֵנוּ׃ אַל־תַּעַזְבֵנוּ יי אֱלֹהֵינוּ אַל־תִּרְחַק מִמֶּנּוּ׃ עֲשֵׂה עִמָּנוּ אוֹת לְטוֹבָה וְיִרְאוּ שֹׂנְאֵינוּ וְיֵבֹשׁוּ כִּי־אַתָּה יי עֲזַרְתָּנוּ וְנִחַמְתָּנוּ׃ כִּי־לְךָ הוֹחַלְנוּ אַתָּה תַעֲנֶה אֲדֹנָי אֱלֹהֵינוּ׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:yehi_ratson_shetehe_hashanah"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/confession_introduction">
+          <tei:pb n="77" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n155_medium.jpg"/>
+          <tei:p>אָנָּא תָּבֹא לְפָנֶיךָ תְּפִלָּתֵנוּ · וְאַל־תִּתְעַלֵּם מִתְּחִנָּתֵנוּ · שֶׁאֵין אָנוּ עַזֵּי־פָנִים וּקְשֵׁי־עֹרֶף · לוֹמַר לְפָנֶיךָ יי אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ · צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ · אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu">
+          <tei:pb n="77" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n155_medium.jpg"/>
+          <tei:p>אָשַׁמְנוּ · בָּגַדְנוּ · גָּזַלְנוּ · דִּבַּרְנוּ דֹפִי · הֶעֱוִינוּ · וְהִרְשַׁעְנוּ׃ זַדְנוּ · חָמַסְנוּ · טָפַלְנוּ שֶׁקֶר · יָעַצְנוּ רָע · כִּזַּבְנוּ · לַצְנוּ · מָרַדְנוּ · נִאַצְנוּ · סָרַרְנוּ · עָוִינוּ · פָּשַׁעְנוּ · צָרַרְנוּ · קִשִּׁינוּ עֹרֶף · רָשַׁעְנוּ׃ שִׁחַתְנוּ · תִּעַבְנוּ · תָּעִינוּ · תִּעְתָּעְנוּ׃ סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים · וְלֹא שָׁוָה לָנוּ׃  <tei:pb n="78" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n157_medium.jpg"/>וְאַתָּה צַדִּיק עַל כָּל הַבָּא עָלֵינוּ · כִּי אֱמֶת עָשִׂיתָ וַאֲנַחְנוּ הִרְשָׁעְנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shakhahnu_et_tovotekha">
+          <tei:pb n="78" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n157_medium.jpg"/>
+          <tei:p>שָׁכַחְנוּ אֶת־טוֹבוֹתֶיךָ וְנָשִׁינוּ אֶת־רוֹב חֲסָדֶיךָ וּמָרִינוּ אֶת־פִּיךָ וּמִמִּשְׁפָּטֶיךָ סָרְנוּ · וּבְהַבְלֵי הָעוֹלָם־הַזֶּה נֶהְבַּלְנוּ · וְאֶל־רְהָבִים וְשָׁטֵי־כָזָב פָּנִינוּ · וְהִסְכַּלְנוּ הַרְבֵּה מְאֹד · וְאָהַבְנוּ רַע מִטּוֹב · שֶׁקֶר מִדַּבֵּר צֶדֶק סֶלָה · וּטְמֵאָה תַּחַת טְהוֹרָה · וְשִׁקּוּץ תַּחַת זַכּוּת · וְהֶחֱלַפְנוּ עוֹלָם עוֹמֵד בְּעוֹלָם־עוֹבֵר · מִדֵּי יוֹם יוֹם הַשְׁכֵּם וְחַטֹּא עַד אֲשֶׁר־עֲוֹנוֹתֵינוּ עָבְרוּ רֹאשֵׁנוּ · וְרַבּוּ מִשַּׂעֲרוֹתֵינוּ · וְעָצְמוּ מִדִּבְרֵי־פִינוּ · וְגָדְלוּ מִצַּעֲדֵי־רַגְלֵינוּ · וְגָבְהוּ מִנִּשְׁמַת רוּחַ אַפֵּינוּ · טָבַעְנוּ בִּיוֵן מְצוּלָה וְאֵין־מוֹעֲמָד · בָּאנוּ בְמַעֲמַקֵּי־מַיִם וְשִׁבֹּלֶת שְׁטָפָתְנוּ · וְלֹא־לְךָ יי אֱלֹהֵינוּ הֲרֵעוֹנוּ כִּי־אִם לְנַפְשֵׁנוּ · וְלֹא אוֹתְךָ הִכְעַסְנוּ כִּי־אִם אֹתָנוּ · כִּי אֱנוֹשׁ אִם־חָטָא מַה־יִּפְעַל לָךְ · וְאִם־רַבּוּ פְשָׁעָיו מַה־יַּעֲשֶׂה־לָּךְ׃ אֲבָל אוֹי לִבְנֵי־אָדָם אֲשֶׁר־חָטְאוּ לָךְ · וְאוֹי לְנַפְשָׁם כִּי גָמְלוּ לָהֶם רָעָה · אֱלֹהֵינוּ בּוֹשְׁנוּ וְנִכְלַמְנוּ לְהָרִים אֱלֹהֵינוּ פָּנֵינוּ אֵלֶיךָ · כִּי אָנוּ כִּכְלִי נִמְאָס בְּעֵינֵי נַפְשֵׁנוּ · כְּגֶבֶר אֲשֶׁר הֻטְבַּל בְּשַׁחַת וְתִעֲבוּהוּ שַׂלְמוֹתָיו · וּכְמוֹ בְעָוֹן חוֹלָלְנוּ כֵּן בֹּשֶׁת פָּנֵינוּ כִּסָּתְנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu_mikol">
+          <tei:pb n="78" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n157_medium.jpg"/>
+          <tei:lg><tei:l>אָשַׁמְנוּ מִכָּל־עָם ·</tei:l> <tei:l>בֹּשְׁנוּ מִכָּל־דּוֹר ·</tei:l> <tei:l>גָּלָה מִמֶּנּוּ מָשׂוֹשׂ ·</tei:l> <tei:l>דָּוֶה לִבֵּנוּ בַּחֲטָאֵינוּ ·</tei:l> <tei:l>הֻחַבַּל אַוּיֵנוּ ·</tei:l> <tei:l>וְנִפְרַע פְּאֵרֵנוּ ·</tei:l> <tei:l>זְבוּל בֵּית־מִקְדָּשֵׁנוּ ·</tei:l> <tei:l>חָרַב בַּעֲוֹנֵינוּ ·</tei:l> <tei:l>טִירָתֵנוּ הָיְתָה לְשַׁמָּה ·</tei:l> <tei:l>יֹפִי אַדְמָתֵנוּ לְזָרִים ·</tei:l> <tei:l>כֹּחֵנוּ לְנָכְרִים ·</tei:l> <tei:l>וַעֲדַיִן לֹא שַׁבְנוּ <tei:pb n="79" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n159_medium.jpg"/>מִתָּעוּתֵינוּ ·</tei:l> <tei:l>וְהֵיךְ נָעִיז פָּנֵינוּ וְנַקְשֶׁה עָרְפֵּנוּ ·</tei:l> <tei:l>לוֹמַר לְפָנֶיךָ ·</tei:l> <tei:l>יי אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ ·</tei:l> <tei:l>אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu_repeat">
+          <j:conditional xml:id="erev_ashamnu_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu_repeat/printed">
+            <tei:pb n="79" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n159_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> till <tei:foreign xml:lang="he">וַאֲנַחְנוּ הִרְשָׁעְנוּ</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_ashamnu_repeat_printed"/>
+          <j:conditional xml:id="erev_ashamnu_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:endConditional target="#erev_ashamnu_repeat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_aharei_shavnu">
+          <tei:pb n="79" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n159_medium.jpg"/>
+          <tei:p>וְעַתָּה יי אֱלֹהֵינוּ אַחֲרֵי שׁוּבֵנוּ נִחַמְנוּ · וְאַחֲרֵי הוּדְעֵנוּ סָפַקְנוּ עַל־יָרֵךְ · בּוֹשְׁנוּ וְגַם נִכְלַמְנוּ וְגַם נָשָׂאנוּ · חֶרְפַּת נְעוּרֵינוּ · עַל־זֹאת נִשָּׂא בְשָׂרֵנוּ בְּשִׁנֵּנוּ וְנַפְשֵׁנוּ נָשִׂים בְּכַפֵּנוּ · וּבַמֶּה נְקַדְּמָה פָנֶיךָ יי אֱלֹהֵינוּ וּבַמֶּה נִכַּף לְךָ אֱלֹהֵי מָרוֹם וּבַמֶּה תִּתְרַצֶּה וּתְכַפֶּר לָנוּ עַל־כָּל־חַטֹּאתֵינוּ אֲשֶׁר חָלְפוּ וְעָבְרוּ כַמַּיִם הַנִּגָּרִים אַרְצָה אֲשֶׁר לֹא יֵאָסֵפוּ · אִם בִּתְשׁוּבָה וּוִדּוּי תִּתְרַצֶּה הִנְנוּ שָׁבִים וּמִתְוַדִּים לְפָנֶיךָ יי אֱלֹהֵינוּ חָטָאנוּ וּפָשַׁעְנוּ וְיֹשֶׁר הֶעֱוִינוּ וְלֹא־שָׁוָה לָנוּ · וְאִם בִּתְפִלָּה וּבְתַחֲנוּנִים תִּמְחוֹל · הִנְנוּ מַפִּילִים תַּחֲנוּנֵנוּ לְפָנֶיךָ · כְּעֵינֵי עֲבָדִים אֶל־יַד אֲדוֹנֵיהֶם וּכְעֵינֵי שִׁפְחָה אֶל־יַד גְּבִרְתָּהּ כֵּן עֵינֵינוּ נְשׂוּאוֹת אֵלֶיךָ · וְאִם בִּבְכִי וּזְעָקָה תִּמְחוֹל · הִנְנוּ בַּמִּסְתָּרִים תִּבְכֶּה נַפְשֵׁנוּ מִפְּנֵי חַטֹּאתֵינוּ · וּבַחֲדָרִים תֵּאָנַח רוּחֵנוּ עַל רוֹב פְּשָׁעֵינוּ · וְאִם בִּשְׁבָר־רוּחַ תְּכַפֵּר · הִנֵּה נִשְׁבַּר לִבֵּנוּ בְקִרְבֵּנוּ וְנִדְכֵּאת רוּחֵנוּ מִן הַצָּרוֹת וּמִן הַתְּלָאוֹת אֲשֶׁר־עָבְרוּ עָלֵינוּ · עַד אֲשֶׁר לֹא־נוֹתַר מְתוֹם בִּבְשָׂרֵנוּ לוּלֵי רַחֲמֶיךָ אָז אָבַדְנוּ בַּעֲוֹנֵינוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/leenenu_ashqu">
+          <tei:pb n="79" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n159_medium.jpg"/>
+          <tei:lg><tei:l>לְעֵינֵינוּ עָשְׁקוּ עֲמָלֵנוּ ·</tei:l> <tei:l>מָשַׁךְ וּמֹרַט מִמֶּנּוּ ·</tei:l> <tei:l>נָתְנוּ עֻלָּם <tei:pb n="80" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n161_medium.jpg"/>עָלֵינוּ ·</tei:l> <tei:l>סָבְלוּ עַל־שִׁכְמֵנוּ ·</tei:l> <tei:l>עֲבָדִים מָשְׁלוּ בָנוּ ·</tei:l> <tei:l>פּוֹרֵק אֵין מִיָּדָם ·</tei:l> <tei:l>צָרוֹת רַבּוֹת סְבָבוּנוּ ·</tei:l> <tei:l>קְרָאנוּךָ יי אֱלֹהֵינוּ ·</tei:l> <tei:l>רָחַקְתָּ מִמֶּנּוּ בַּעֲוֹנֵינוּ ·</tei:l> <tei:l>שַׁבְנוּ מֵאַחֲרֶיךָ ·</tei:l> <tei:l>תָּעִינוּ וְאָבַדְנוּ ·</tei:l> <tei:l>וַעֲדַיִן לֹא שַׁבְנוּ מִתָּעוּתֵינוּ ·</tei:l> <tei:l>וְהֵיךְ נָעִיז פָּנֵינוּ וְנַקְשֶׁה עָרְפֵּנוּ ·</tei:l> <tei:l>לוֹמַר לְפָנֶיךָ יי אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ ·</tei:l> <tei:l>צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ ·</tei:l> <tei:l>אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu_repeat_2">
+          <j:conditional xml:id="erev_ashamnu_repeat_2_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ashamnu_repeat_2/printed">
+            <tei:pb n="80" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n161_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> till <tei:foreign xml:lang="he">וַאֲנַחְנוּ הִרְשָׁעְנוּ</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_ashamnu_repeat_2_printed"/>
+          <j:conditional xml:id="erev_ashamnu_repeat_2_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:endConditional target="#erev_ashamnu_repeat_2_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ana_adonai_hael_hagadol">
+          <tei:pb n="80" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n161_medium.jpg"/>
+          <tei:p>אָנָּא יי הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא שׁוֹמֵר הַבְּרִית וְהַחֶסֶד אַל־יִמְעֲטוּ לְפָנֶיךָ כָּל־הַצָּרוֹת וְכָל־הַתְּלָאוֹת אֲשֶׁר־מְצָאוּ אֶת־עֲבָדֶיךָ מִיּוֹם הֱיוֹתָם עַל־הָאֲדָמָה עַד הַיּוֹם הַזֶּה · הַבֵּט בַּעֲמָלֵנוּ וְאַל־תַּבִּיט בְּמַעֲלָלֵנוּ · שׁוּר־נָא בְעָנְיֵנוּ וְאַל־תָּשׁוּר אֶל־עֲוֹנֵנוּ · וּפְנֵה אֶל־עָשְׁקֵנוּ וְאַל־תֵּפֶן אֶל־קִשְׁיֵנוּ וּמְצוּקוֹתֵינוּ תַּחַת אַשְׁמוֹתֵינוּ · וְעֶלְבּוֹן נֶפֶשׁ תַּחַת עֲוֹן נֶפֶשׁ׃ וְעַתָּה יי אִם עָשִׂינוּ כְּאִוַּלְתֵּנוּ · עֲשֵׂה אַתָּה כְּאֶמְתֻּנֶךָ וּסְלַח כִּי תְמִים־דֵּעִים אָתָּה · אִם־שִׁלַּמְנוּ רָעָה תַחַת טוֹבָה · גְּמָלֵנוּ טוֹב וְלֹא רָע כִּי יֶתֶר מֵרֵעֵהוּ צַדִּיק וְכָל שֶׁכֵּן הַבּוֹרֵא · וְאִם הִרְבִּינוּ לִפְשֹׁעַ אַתָּה רַב חֶסֶד וּמַרְבֶּה לִסְלֹחַ אֲשֶׁר צִדְקוֹתֶיךָ רַבּוּ מֵהַרְרֵי־אֵל וְעָמְקוּ מִתְּהוֹם־רַבָּה · כִּסָּה שָׁמַיִם הוֹדֶךָ וּתְהִלָּתֶךָ מָלְאָה הָאָרֶץ · יי שָׁמַעְנוּ שִׁמְעֶךָ כִּי בְּאַחַת הַמִּדּוֹת תִּסְלַח לַאֲשֶׁר חָטָא־לָךְ · וְאַף כִּי בְכֻלָּם סְלַח־נָא לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ וּלְכָל־חַטֹּאת וַעֲוֹנוֹת עַמְּךָ יִשְׂרָאֵל <tei:pb n="81" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n163_medium.jpg"/>וְכַבְּסֵנוּ מֵעֲוֹנֵנוּ וּמֵחַטֹּאתֵנוּ טַהֲרֵנוּ · וְאַל־תִּקְצֹף עָלֵינוּ עַד מְאֹד וְאַל לָעַד תִּזְכֹּר עָוֹן כִּי מַה־בֶצַע בְּדָמֵנוּ אִם־תַּשְׁחִיתֵנוּ וּמַה־כִּשְׁרוֹן אִם תּוֹרִידֵנוּ לִבְאֵר שַׁחַת בְּחַטֹּאתֵינוּ · וּמַה־יִּתְרוֹן אִם תִּפְקֹד עָלֵינוּ כִדְרָכֵינוּ · לֹא בְאֵלֶּה שְׁבָחֲךָ וְלֹא בְאֵלֶּה תְהִלָּתֶךָ אֲבָל הַדָּבָר שֶׁהִיא לְךָ לְשֵׁם וְלִתְהִלָּה לְהִתְנַהֵג עִם בָּנֶיךָ בְּמִדַּת רַחֲמִים וּלְגַלְגֵּל עֲלֵיהֶם מִדַּת חֲסָדֶיךָ כַּאֲשֶׁר אָמַרְתָּ לְמַעַן שְׁמִי אַאֲרִיךְ אַפִּי וּתְהִלָּתִי אֶחֱטָם לָךְ לְבִלְתִּי הַכְרִיתֶךָ · וְגַם הַמִּדָּה אֲשֶׁר הִיא לְךָ לְשֵׁם וּלְתִפְאֶרֶת הַסְּלִיחָה וַעֲבוֹר עַל־פֶּשַׁע כַּאֲשֶׁר אָמַרְתָּ עַל־בְּרִיּוֹתֶיךָ שֵׂכֶל אָדָם הֶאֱרִיךְ אַפּוֹ וְתִפְאַרְתּוֹ עֲבוֹר עַל־פָּשַׁע · וּלְמַעְלָה מִזֹּאת עֲשֵׂה עִמָּנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ana_habet_betsidqat_avdekha">
+          <tei:pb n="81" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n163_medium.jpg"/>
+          <tei:p>אָנָּא הַבֵּט בְּצִדְקַת עֲבָדֶיךָ חֲסִידֶיךָ אֲשֶׁר הֶעֱרוּ נַפְשָׁם לָמוּת עָלֶיךָ וְלֹא־חָסוּ עַל־נַפְשָׁם וְעַל זַרְעָם וְקָצוּ וּמָאֲסוּ בְּחַיֵּי הָעוֹלָם־הַזֶּה וּבִטְּלוּ רְצוֹנָם מִפְּנֵי רְצוֹנְךָ · וְקִדְּשׁוּ שִׁמְךָ הַגָּדוֹל וְלֹא חִלְּלוּהוּ וְרָצוּ לִזְבֹּחַ וּפָשְׁטוּ צַוָּאר וְעָמְדוּ בְּנִסָּיוֹן וְנֶאֱמָנוּ וְנִבְחֲנוּ בְּצֵרוּף וְנִמְצְאוּ תְמִימִים · וְגָעֲעוּ דְּמֵי אָבוֹת וּבָנִים · וּדְמֵי רַחֲמָנִיּוֹת וְיַלְדֵיהֶן וְנִתְעָרְבוּ דְמֵי אַחִים וַאֲחָיוֹת וּדְמֵי חֲתָנִים וְכַלּוֹת · וּדְמֵי חֲכָמִים וַחֲכָמוֹת וּדְמֵי הֲגוּנִים וַהֲגוּנוֹת · וּדְמֵי חֲסִידִים וַחֲסִידוֹת · וּדְמֵי זְקֵנִים וּזְקֵנוֹת · וּדְמֵי בַחוּרִים וּבַחוּרוֹת · וּדְמֵי פַרְנָסִים וְחַזָּנִים · וּדְמֵי דַיָּנִים וְסוֹפְרֵיהֶם · וּדְמֵי מְלַמְּדִים וְתַלְמִידִים · וּדְמֵי אֲנָשִׁים וּנְשׁוֹתֵיהֶם · נֶהֶרְגוּ כֻלָּם יַחַד עַל־קִדּוּשׁ שִׁמְךָ הַמְּיֻחָד · אֶרֶץ אַל־תְּכַסִּי דָמָם · <tei:pb n="82" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n165_medium.jpg"/>וְאַל־יְהִי מָקוֹם לְזַעֲקָתָם עַד־יַשְׁקִיף וְיֵרֶא יי מִשָּׁמָיִם · וְיִנְקֹם נִקְמָתוֹ וְנִקְמַת עַמּוֹ וְנִקְמַת תּוֹרָתוֹ וְנִקְמַת דַּם עֲבָדָיו אֲשֶׁר־שֻׁפַּךְ דָּמָם כַּמָּיִם כְּהַבְטָחָתְךָ בְּיַד אֲבִי־חוֹזֶה הַרְנִינוּ גוֹיִם עַמּוֹ כִּי דַם־עֲבָדָיו יִקּוֹם וְנָקָם יָשִׁיב לְצָרָיו וְכִפֶּר אַדְמָתוֹ עַמּוֹ׃ אֶת־אֵלֶּה מִזְבְּחוֹת זְכוֹר וְאֵלֶּה עֲקוּדוֹת תִּרְאֶה וְתִנָּחֵם וְיִשְׁכַּךְ אַף וְכַלֵּה חֵמָה וְהַשְׁבֵּת שֹׁד וָשֶׁבֶר מֵעַמֶּךָ · חוּס וְרַחֵם אֶת־יֶתֶר־הַפְּלֵיטָה וְתוֹצִיאָנָה מֵאֲפֵלָה לְאוֹרָה וְחַדֵּשׁ עָלֵינוּ שָׁנָה־טוֹבָה שְׁנַת־רָצוֹן וְעֵת־גְּאֻלָּה · שַׁדַּי תִּזְכָּר־לָנוּ בְּרִית־אוֹרָח · וְתַעֲמֹד לָנוּ זְכוּת הַנֶּעֱקַד · וּתְרַחֲמֵנוּ בְּצִדְקַת אִישׁ־תָּם׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:ish_anav_hillah_fanekha"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/meshiah_tsidqekha">
+          <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n167_medium.jpg"/>
+          <tei:p>מְשִׁיחַ צִדְקֶךָ אָמַר לְפָנֶיךָ שְׁגִיאוֹת מִי יָבִין מִנִּסְתָּרוֹת נַקֵּנִי׃ נַקֵּנוּ יי אֱלֹהֵינוּ מִכָּל־פְּשָׁעֵינוּ וְטַהֲרֵנוּ מִכָּל־טֻמְאוֹתֵינוּ · וּזְרֹק עָלֵינוּ מַיִם טְהוֹרִים וְטַהֲרֵנוּ · כַּכָּתוּב עַל־יַד נְבִיאֶךָ וְזָרַקְתִּי עֲלֵיכֶם מַיִם טְהוֹרִים וּטְהַרְתֶּם מִכֹּל טֻמְאוֹתֵיכֶם וּמִכָּל־גִּלּוּלֵיכֶם אֲטַהֵר אֶתְכֶם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mikhah_avdekha">
+          <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n167_medium.jpg"/>
+          <tei:p>מִיכָה עַבְדֶּךָ אָמַר לְפָנֶיךָ מִי אֵל כָּמוֹךָ נֹשֵׂא־עָוֹן וְעֹבֵר עַל־פֶּשַׁע לִשְׁאֵרִית נַחֲלָתוֹ לֹא הֶחֱזִיק לָעַד אַפּוֹ כִּי חָפֵץ־חֶסֶד הוּא׃ יָשׁוּב יְרַחֲמֵנוּ יִכְבֹּשׁ עֲוֹנוֹתֵינוּ · וְתַשְׁלִיךְ בִּמְצֻלוֹת־יָם כָּל־חַטֹּאתָם׃ וְכָל־חַטֹּאות עַמְּךָ בֵית יִשְׂרָאֵל בִּמְקוֹם אֲשֶׁר לֹא יִזָּכְרוּ וְלֹא־יִפָּקֵדוּ וְלֹא יַעֲלוּ עַל־לֵב לְעֹלָם׃ תִּתֵּן אֱמֶת לְיַעֲקֹב חֶסֶד לְאַבְרָהָם אֲשֶׁר־נִשְׁבַּעְתָּ לַאֲבוֹתֵינוּ מִימֵי קֶדֶם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/daniel_ish_hamudot">
+          <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n167_medium.jpg"/>
+          <tei:p>דָּנִיאֵל אִישׁ חֲמוּדוֹת שִׁוַּע לְפָנֶיךָ הַטֵּה אֱלֹהַי אָזְנְךָ וּשֲׁמָע פְּקַחָה עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר־נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקֲשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/ezra_hasofer">
+          <tei:pb n="83" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n167_medium.jpg"/>
+          <tei:p>עֶזְרָא הַסּוֹפֵר אָמַר לְפָנֶיךָ אֱלֹהַי בֹּשְׁתִּי וְנִכְלַמְתִּי לְהָרִים אֱלֹהַי פָּנַי אֵלֶיךָ כִּי עֲוֹנוֹתֵינוּ רָבוּ לְמַעְלָה רֹאשׁ וְאַשְׁמָתֵנוּ גָדְלָה עַד־לַשָּׁמָיִם׃ <tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n169_medium.jpg"/> </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/veatah_eloah_selihot">
+          <tei:pb n="84" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n169_medium.jpg"/>
+          <tei:p>וְאַתָּה אֱלוֹהַ סְלִיחוֹת חַנּוּן וְרַחוּם אֶרֶךְ־אַפַּיִם וְרַב־חֶסֶד וְלֹא עֲזַבְתָּנוּ׃ אַל־תַּעַזְבֵנוּ אָבִינוּ וְאַל־תִּטְּשֵׁנוּ בּוֹרְאֵנוּ וְאַל־תְּכַלֵּנוּ יוֹצְרֵנוּ וְאַל־תַּעַשׂ עִמָּנוּ כָּלָה כְּחַטֹּאתֵינוּ · וְקַיֵּם־לָנוּ אֶת־הַדָּבָר שֶׁהִבְטַחְתָּנוּ בְּקַבָּלָה עַל יְדֵי יִרְמְיָהוּ חוֹזֶה כָּאָמוּר בַּיָּמִים הָהֵם וּבָעֵת הַהִיא נְאֻם־יי יְבֻקַּשׁ אֶת־עֲוֹן־יִשְׂרָאֵל וְאֵינֶנּוּ וְאֶת־חַטֹּאת יְהוּדָה וְלֹא תִמָּצֶאינָה כִּי אֶסְלַח לַאֲשֶׁר אַשְׁאִיר · עַמְּךָ וְנַחֲלָתְךָ רָעֲבֵי טוּבְךָ · צְמֵאֵי חַסְדֶּךָ · תְּאֵבֵי יִשְׁעֶךָ · יָכִירוּ וְיֵדְעוּ כִּי לַיי אֱלֹהֵינוּ הָרַחֲמִים וְהַסְּלִיחוֹת׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha/extended"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/anenu">
+          <tei:pb n="85" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n171_medium.jpg"/>
+          <tei:lg><tei:l>עֲנֵנוּ יי <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֱלֹהֵינוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אָבִינוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ בּוֹרְאֵנוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ גוֹאֲלֵנוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ דוֹרְשֵׁנוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ הָאֵל הַנֶּאֱמָן <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ וָתִיק וְחָסִיד <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ זַךְ וְיָשָׁר <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ חַי וְקַיָּם <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ טוֹב וּמֵטִיב <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ יוֹדֵעַ יִצְרֵי <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ כוֹבֵשׁ כְּעָסִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ לוֹבֵשׁ צְדָקוֹת <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ מֶלֶךְ מַלְכֵי הַמְּלָכִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ נוֹרָא וְנִשְׂגָּב <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ סוֹלֵחַ וּמוֹחֵל <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ עוֹנֶה בְעֵת רָצוֹן <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ פּוֹדֶה וּמַצִּיל <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ צַדִּיק וְיָשָׁר <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ קָשֶׁה לִכְעוֹס <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ רַחוּם וְחַנּוּן <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ שׁוֹמֵעַ אֶל־אֶבְיוֹנִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ תוֹמֵךְ תְּמִימִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֱלֹהֵי אֲבוֹתֵינוּ <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֱלֹהֵי אַבְרָהָם <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ פַּחַד יִצְחָק <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֲבִיר יַעֲקֹב <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ עֶזְרַת הַשְּׁבָטִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ מִשְׂגַּב אִמָּהוֹת <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ קָרוֹב לְקוֹרְאָיו <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ רַךְ לִרְצוֹת <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ עוֹנֶה בְּעֵת צָרָה <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֲבִי יְתוֹמִים <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ דַּיַּן אַלְמָנוֹת <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mi_sheanah">
+          <tei:pb n="86" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n173_medium.jpg"/>
+          <tei:lg><tei:l>מִי שֶׁעָנָה לְאַבְרָהָם אָבִינוּ בְּהַר־הַמּוֹרִיָּה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְיִצְחָק בְּנוֹ כְּשֶׁנֶּעֱקַד עַל־גַּבֵּי הַמִּזְבֵּחַ <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְיַעֲקֹב בְּבֵית־אֵל <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְיוֹסֵף בְּבֵית־הָאֲסוּרִים <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לַאֲבוֹתֵינוּ עַל־יַם סוּף <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְמֹשֶׁה בְחֹרֵב <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְאַהֲרֹן בַּמַּחְתָּה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְפִינְחָס בְּקוּמוֹ מִתּוֹךְ הָעֵדָה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לִיהוֹשֻׁעַ בַּגִּלְגָּל <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לִשְׁמוּאֵל בַּמִּצְפָּה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְדָוִד וְשְׁלֹמֹה־בְנוֹ בִּירוּשָׁלַיִם <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְאֵלִיָּהוּ בְּהַר־הַכַּרְמֶל <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לֶאֱלִישָׁע בִּירִיחוֹ <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְיוֹנָה בִּמְעֵי הַדָּגָה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְחִזְקִיָּהוּ בְּחָלְיוֹ <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לַחֲנַנְיָה מִישָׁאֵל וַעֲזַרְיָה בְּתוֹךְ כִּבְשַׁן הָאֵשׁ <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְדָנִיֵּאל בְּגוֹב־הָאֲרָיוֹת <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְמָרְדֳּכַי וְאֶסְתֵּר בְּשׁוּשַׁן־הַבִּירָה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְעֶזְרָא בַּגּוֹלָה <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> <tei:l>מִי שֶׁעָנָה לְכָל־הַצַּדִּיקִים וְהַחֲסִידִים וְהַתְּמִימִים וְהַיְשָׁרִים <tei:seg type="refrain">הוּא יַעֲנֵנוּ׃</tei:seg></tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/rahmana">
+          <tei:pb n="86" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n173_medium.jpg"/>
+          <tei:lg><tei:l>רַחֲמָנָא דְּעָנֵי לַעֲנִיֵּי <tei:seg type="refrain">עֲנֵינָא ·</tei:seg></tei:l> <tei:l>רַחֲמָנָא דְּעָנֵי לִתְבִירֵי לִבָּא <tei:seg type="refrain">עֲנֵינָא ·</tei:seg></tei:l> <tei:l>רַחֲמָנָא דְּעָנֵי לִמְכִיכֵי רוּחָא <tei:seg type="refrain">עֲנֵינָא ·</tei:seg></tei:l> <tei:l>רַחֲמָנָא <tei:seg type="refrain">עֲנֵינָא ·</tei:seg></tei:l> <tei:l>רַחֲמָנָא חוּס ·</tei:l> <tei:l>רַחֲמָנָא פְּרוֹק ·</tei:l> <tei:l>רַחֲמָנָא שְׁזִיב ·</tei:l> <tei:l>רַחֲמָנָא רַחֵם עֲלָן ·</tei:l> <tei:l>הַשְׁתָּא בַּעֲגָלָא וּבִזְמַן קָרִיב׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/vayomer_david">
+          <tei:pb n="86" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n173_medium.jpg"/>
+          <tei:p>וַיֹּאמֶר דָּוִד אֶל־גָּד צַר־לִי מְאֹד נִפְּלָה־נָּא בְיַד־יְיָ כִּי רַבִּים רַחֲמָיו וּבְיַד אָדָם אַל־אֶפֹּלָה׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/rahum_vehanun">
+          <tei:pb n="87" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n175_medium.jpg"/>
+          <tei:p>רַחוּם וְחַנּוּן חָטָאתִי לְפָנֶיךָ יְיָ מָלֵא רַחֲמִים רַחֵם עָלַי וְקַבֵּל תַּחֲנוּנָי׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/psalm_6">
+          <tei:pb n="87" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n175_medium.jpg"/>
+          <tei:p>יְיָ אַל־בְּאַפְּךָ תוֹכִיחֵנִי וְאַל־בַּחֲמָתְךָ תְיַסְּרֵנִי׃ חָנֵּנִי יְיָ כִּי אֻמְלַל אָנִי רְפָאֵנִי יְיָ כִּי נִבְהֲלוּ עֲצָמָי׃ וְנַפְשִׁי נִבְהֲלָה מְאֹד וְאַתָּה יְיָ עַד־מָתָי׃ שׁוּבָה יְיָ חַלְּצָה נַפְשִׁי הוֹשִׁיעֵנִי לְמַעַן חַסְדֶּךָ׃ כִּי אֵין בַּמָּוֶת זִכְרֶךָ בִּשְׁאוֹל מִי יוֹדֶה־לָּךְ׃ יָגַעְתִּי בְּאַנְחָתִי אַשְׂחֶה בְכָל־לַיְלָה מִטָּתִי בְּדִמְעָתִי עַרְשִׂי אַמְסֶה׃ עָשְׁשָׁה מִכַּעַס עֵינִי עָתְקָה בְּכָל־צוֹרְרָי׃ סוּרוּ מִמֶּנִּי כָּל־פֹּעֲלֵי אָוֶן כִּי־שָׁמַע יְיָ קוֹל בִּכְיִי׃ שָׁמַע יְיָ תְּחִנָּתִי יְיָ תְּפִלָּתִי יִקָּח׃ יֵבֹשׁוּ וְיִבָּהֲלוּ מְאֹד כָּל־אֹיְבָי יָשֻׁבוּ יֵבֹשׁוּ רָגַע׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mahi_umasi">
+          <tei:pb n="87" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n175_medium.jpg"/>
+          <tei:lg><tei:l>מָחֵי וּמַסֵּי מֵמִית וּמְחַיֵּה ·</tei:l> <tei:l>מַפִּיק מִשְּׁאוֹל לְחַיֵּי־עָלְמָא ·</tei:l> <tei:l>בְּרָא כְדִי־חָטִי אֲבוּהִי לַקְיֵיהּ ·</tei:l> <tei:l>אֲבוּהִי דְּחָיִם מְסֵי לִכְאֵבֵיהּ ·</tei:l> <tei:l>עַבְדָּא דְּמָרִיד נָפִיק בְּקוֹלָר ·</tei:l> <tei:l>מָרֵיהּ תָּאִיב וְתָבַר קוֹלָרֵיהּ ·</tei:l> <tei:l>בְּרָךְ בּוּכְרָךְ אֲנַן וְחַטְשִׁינַן קֳדָמָךְ ·</tei:l> <tei:l>אוֹי נַפְשִׁין בְּגִירִין מָרִין ·</tei:l> <tei:l>עַבְדָּךְ אֲנַן וּמָרוּדְתָּן בָּמָךְ ·</tei:l> <tei:l>הָא בְּבִיזְתָא הָא בְּשִׁבְיְתָא הָא בְּמַלְקִיּוּתָא ·</tei:l> <tei:l>בְּמָטוּ מִנָּךְ בְּרַחֲמָךְ נַפִּישִׁין ·</tei:l> <tei:l>אַסֵּי לִכְאֵבִין וּתְקוֹף עֲלָן עַד דְּלָא נְהֵוִי גְמִירָא בְּשִׁבְיָא׃</tei:l> </tei:lg>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:tefillah_teqah_tahanun_tivhar"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/makhnise_rahamim">
+          <tei:pb n="90" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n181_medium.jpg"/>
+          <tei:lg><tei:l>מַכְנִיסֵי רַחֲמִים הַכְנִיסוּ רַחֲמֵינוּ ·</tei:l> <tei:l>לִפְנֵי בַּעַל־הָרַחֲמִים׃</tei:l> <tei:l>מַשְׁמִיעֵי תְפִלָּה ·</tei:l> <tei:l>הַשְׁמִיעוּ תְפִלָּתֵנוּ ·</tei:l> <tei:l>לִפְנֵי שׁוֹמֵעַ תְּפִלָּה׃</tei:l> <tei:l>מַשְׁמִיעֵי צְעָקָה ·</tei:l> <tei:l>הַשְׁמִיעוּ צַעֲקָתֵנוּ ·</tei:l> <tei:l>לִפְנֵי שׁוֹמֵעַ צְעָקָה׃</tei:l> <tei:l>מַכְנִיסֵי דִמְעָה ·</tei:l> <tei:l>הַכְנִיסוּ דִמְעוֹתֵינוּ ·</tei:l> <tei:l>לִפְנֵי מֶלֶךְ מִתְרַצֶּה בִּדְמָעוֹת׃</tei:l> <tei:l>הִשְׁתַּדְּלוּ וְהַרְבּוּ תְחִנָּה וּבַקָּשָׁה לִפְנֵי מֶלֶךְ אֵל רָם וְנִשָּׂא׃</tei:l> <tei:l>הַזְכִּירוּ לְפָנָיו הַשְׁמִיעוּ לְפָנָיו ·</tei:l> <tei:l>תּוֹרָה וּמַעֲשִׂים־טוֹבִים שֶׁל שׁוֹכְנֵי־עָפָר׃</tei:l> <tei:l>יִזְכֹּר אַהֲבָתָם ·</tei:l> <tei:l>וִיחַיֶּה זַרְעָם ·</tei:l> <tei:l>שֶׁלֹּא תֹאבֵד שְׁאֵרִית־יַעֲקֹב׃</tei:l> <tei:l>כִּי־צֹאן רוֹעֵה־נֶאֱמָן הָיָה לְחֶרְפָּה ·</tei:l> <tei:l>יִשְׂרָאֵל גּוֹי־אֶחָד לְמָשָׁל וְלִשְׁנִינָה׃</tei:l> <tei:l>מַהֵר עֲנֵנוּ יְיָ אֱלֹהֵינוּ ·</tei:l> <tei:l>וּפְדֵנוּ מִכָּל־גְּזֵרוֹת קָשׁוֹת וְהוֹשִׁיעָה בְּרַחֲמֶיךָ הָרַבִּים מְשִׁיחַ צִדְקֶךָ וְעַמֶּךָ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/maran_captive">
+          <tei:pb n="90" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n181_medium.jpg"/>
+          <tei:p>מָרָן דִּבְשְׁמַיָּא לָךְ מִתְחַנָּן · כִּבַר שִׁבְיָא דְּמִתְחַנַּן לְמָרֵיהּ׃ כָּלְּהוֹן בְּנֵי־שִׁבְיָא בְּכַסְפָּא מִתְפָּרְקִין · וְעַמָּךְ בֵּית־יִשְׂרָאֵל בְּרַחֲמֵי וּבְתַחֲנוּנֵי · הַב־לַן שַׁאֲלָתִין וּבָעוּתִין דְּלָא־נֶהֱדַר רֵיקָם מִן־קֳדָמָךְ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/maran_slave">
+          <tei:pb n="90" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n181_medium.jpg"/>
+          <tei:p>מָרָן דִּבְשְׁמַיָּא לָךְ מִתְחַנָּן כְּעַבְדָּא דְּמִתְחַנַּן לְמָרֵיהּ׃ עֲשִׁיקֵי אֲנַן וּבַחֲשׁוֹכָא שָׁרִינַן · מָרִירַן נַפְשַׁן מֵעָקְתִין דְּנָפִישִׁין׃ <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>חֵילָא לֵית־בַּן לְרַצּוּיָךְ מָרָן · עֲבִיד בְּדִיל קְיָמָא דְּגָזְרַת עִם־אֲבָהָתָנָא׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shomer_yisrael">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>שׁוֹמֵר יִשְׂרָאֵל שְׁמוֹר שְׁאֵרִית יִשְׂרָאֵל וְאַל־יֹאבַד יִשְׂרָאֵל הָאוֹמְרִים שְׁמַע יִשְׂרָאֵל׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shomer_ehad">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>שׁוֹמֵר גּוֹי אֶחָד שְׁמוֹר שְׁאֵרִית עַם אֶחָד וְאַל־יֹאבַד גּוֹי אֶחָד הַמְיַחֲדִים שִׁמְךָ יְיָ אֱלֹהֵינוּ יְיָ אֶחָד׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/shomer_qadosh">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>שׁוֹמֵר גּוֹי קָדוֹשׁ שְׁמוֹר שְׁאֵרִית עַם קָדוֹשׁ וְאַל־יֹאבַד גּוֹי קָדוֹשׁ הַמְשַׁלְּשִׁים בְּשָׁלֹשׁ קְדֻשּׁוֹת לְקָדוֹשׁ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/mitratseh">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>מִתְרַצֶּה בְּרַחֲמִים וּמִתְפַּיֵּס בְּתַחֲנוּנִים הִתְרַצֶּה וְהִתְפַּיֵּס לְדוֹר עָנִי כִּי־אֵין עוֹזֵר׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/avinu_malkenu">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>אָבִינוּ מַלְכֵּנוּ חָנֵּנוּ וַעֲנֵנוּ כִּי־אֵין בָּנוּ מַעֲשִׂים · עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/vaanahnu_lo_neda">
+          <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+          <tei:p>וַאֲנַחְנוּ לֹא נֵדַע מַה־נַּעֲשֶׂה כִּי עָלֶיךָ עֵינֵינוּ׃ זְכֹר־רַחֲמֶיךָ יְיָ וַחֲסָדֶיךָ כִּי מֵעוֹלָם הֵמָּה׃ יְהִי־חַסְדְּךָ יְיָ עָלֵינוּ כַּאֲשֶׁר יִחַלְנוּ לָךְ׃ אַל תִּזְכָּר־לָנוּ עֲוֹנֹת רִאשֹׁנִים מַהֵר יְקַדְּמוּנוּ רַחֲמֶיךָ כִּי דַלּוֹנוּ מְאֹד׃ חָנֵּנוּ יְיָ חָנֵּנוּ כִּי רַב שָׂבַעְנוּ בוּז׃ בְּרֹגֶז רַחֵם תִּזְכּוֹר׃ כִּי־הוּא יָדַע יִצְרֵנוּ זָכוּר כִּי־עָפָר אֲנָחְנוּ׃ עָזְרֵנוּ אֱלֹהֵי יִשְׁעֵנוּ עַל־דְּבַר כְּבוֹד שְׁמֶךָ וְהַצִּילֵנוּ וְכַפֵּר עַל־חַטֹּאתֵינוּ לְמַעַן שְׁמֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/reader_kaddish">
+          <j:conditional xml:id="erev_reader_kaddish_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah/reader_kaddish/printed">
+            <tei:pb n="91" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n183_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">The Reader says <tei:foreign xml:lang="he">קדיש תתקבל</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#erev_reader_kaddish_printed"/>
+          <j:conditional xml:id="erev_reader_kaddish_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:declare xml:id="erev_rosh_hashanah_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#erev_rosh_hashanah_kaddish"/>
+          <j:endConditional target="#erev_reader_kaddish_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
