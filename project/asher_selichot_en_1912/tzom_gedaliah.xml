@@ -52,11 +52,19 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
+          <j:declare xml:id="tzom_gedaliah_opening_ten_days">
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
           <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/selichot_preface"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:lekha_adonai_hatsedaqah"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+          <j:endDeclare target="#tzom_gedaliah_opening_ten_days"/>
           <j:endConditional target="#gedaliah_opening_instruction_expanded"/>
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/tzom_gedaliah/selah_lanu_avinu">

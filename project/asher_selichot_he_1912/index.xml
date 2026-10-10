@@ -72,6 +72,13 @@
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:selichot">
+        <j:declare xml:id="asher_pre_rosh_hashanah_services">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/second_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/third_day"/>
@@ -80,6 +87,7 @@
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/sixth_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/seventh_day"/>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah"/>
+        <j:endDeclare target="#asher_pre_rosh_hashanah_services"/>
         <j:conditional xml:id="tzom_gedaliah_occasion">
           <tei:fs type="opensiddur:holiday">
             <tei:f name="tzom-gedalia">
