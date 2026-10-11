@@ -1,0 +1,527 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">PROPITIATORY PRAYERS FOR THE 3rd OF THE PENITENTIAL DAYS.</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/penitential_third_day@asher_selichot_en_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day">
+        <tei:pb n="116" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n234_medium.jpg"/>
+        <tei:head>PROPITIATORY PRAYERS FOR THE 3rd OF THE PENITENTIAL DAYS.</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/opening_instruction">
+          <j:conditional xml:id="penitential_third_day_opening_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/opening_instruction/printed">
+            <tei:pb n="116" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n234_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Happy are they,” page 2, till “for it is great,” page 7, after which say the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_opening_instruction_printed"/>
+          <j:conditional xml:id="penitential_third_day_opening_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:declare xml:id="penitential_third_day_opening_ten_days">
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/selichot_preface"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:lekha_adonai_hatsedaqah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+          <j:endDeclare target="#penitential_third_day_opening_ten_days"/>
+          <j:endConditional target="#penitential_third_day_opening_instruction_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/selah_lanu_avinu">
+          <tei:pb n="116" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n234_medium.jpg"/>
+          <tei:p>Pardon us, our Father! for in the greatness of our folly we have gone astray. Forgive us, O our King! for our iniquities are numerous. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:eleikha_lev_venefesh_nishpokh_kamayim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_eleikha">
+          <j:conditional xml:id="penitential_third_day_pair_after_eleikha_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_eleikha/printed">
+            <tei:pb n="116" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n234_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “For we confide in thee,” “O Omnipotent!” “And the Eternal passed,” pp. 8, 9. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_eleikha_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_eleikha_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_erekh_apayim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor/selichot_preliminary"/>
+          <j:endConditional target="#penitential_third_day_pair_after_eleikha_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/tashev_enosh">
+          <tei:pb n="116" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n234_medium.jpg"/>
+          <tei:p>Thou turnest man to destruction; and sayest, Return, ye children of men. Return ye, return, thou hast said to us, and from the beginning thou hast assured us of the value of repentance. O Israel, return unto the Lord thy God; for thou hast fallen by thine iniquity. Seek ye the Lord while he may be found, call ye upon him while he is near. Thy mercy is great, O <tei:pb n="117" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n236_medium.jpg"/>Lord, quicken me according to thy judgment. Enter not into judgment with us, for in thy sight shall no man living be justified. Like a father hath compassion on his children, so have thou compassion on us, O Lord! Salvation belongeth unto the Eternal! thy blessing be upon thy people. Selah! The Lord of hosts is with us, the God of Jacob is our refuge. Selah! O Lord of hosts! happy is the man that trusteth in thee. Save us, O Eternal. Let the King hear us when we call. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/selah_na">
+          <tei:pb n="117" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n236_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said), And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/hateh_elohai">
+          <tei:pb n="117" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n236_medium.jpg"/>
+          <tei:p>O my God! incline thine ear and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:enosh_ad_dakka_tashev"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_enosh">
+          <j:conditional xml:id="penitential_third_day_pair_after_enosh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_enosh/printed">
+            <tei:pb n="119" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n240_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_enosh_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_enosh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_enosh_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/haenosh_meeloah">
+          <tei:pb n="119" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n240_medium.jpg"/>
+          <tei:p>Shall mortal man be more just than God? Shall a man be more pure than his Maker? Seek ye the Lord while he may be found, call ye upon him while he is near. O Israel, return unto the Lord thy God, for thou hast fallen by thine iniquity. Turn ye, turn ye, thou hast said unto us, and from the beginning thou hast assured us of the value of repentance. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_haenosh">
+          <j:conditional xml:id="penitential_third_day_verses_after_haenosh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_haenosh/printed">
+            <tei:pb n="119" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n240_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Thy mercy is great,” till “when we call,” page 52, then say the verses “For we do not presume,” and “O Lord, hear,” in the same page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_haenosh_printed"/>
+          <j:conditional xml:id="penitential_third_day_verses_after_haenosh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_haenosh/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_haenosh_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:enosh_bammeh_yitsdaq_beyom_din"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_enosh_bammeh">
+          <j:conditional xml:id="penitential_third_day_pair_after_enosh_bammeh_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_enosh_bammeh/printed">
+            <tei:pb n="120" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n242_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_enosh_bammeh_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_enosh_bammeh_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_enosh_bammeh_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/qoli_shamata">
+          <tei:pb n="120" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n242_medium.jpg"/>
+          <tei:p>Thou hast heard my voice; hide not thine ear at our breathing, at our cry. Do not abhor us, for thy name’s sake; do not disgrace the throne of thy glory: remember, break not thy covenant with us. Let not the waterflood overflow us, neither let the deep swallow us up, and let not the pit shut her mouth upon us. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_qoli">
+          <j:conditional xml:id="penitential_third_day_verses_after_qoli_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_qoli/printed">
+            <tei:pb n="120" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n242_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Thy mercy is great,” till “when we call,” page 52, then say the verses “For we do not presume,” and “O Lord, hear,” in the same page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_qoli_printed"/>
+          <j:conditional xml:id="penitential_third_day_verses_after_qoli_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_qoli/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_qoli_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:elekhah_veashuvah_el_ishi_harishon"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_elekhah">
+          <j:conditional xml:id="penitential_third_day_pair_after_elekhah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_elekhah/printed">
+            <tei:pb n="121" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n244_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_elekhah_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_elekhah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_elekhah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/adonai_boqer">
+          <tei:pb n="121" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n244_medium.jpg"/>
+          <tei:p>O Lord, in the morning thou hearest our voice; in the morning we will direct our prayers unto thee, and will look up. Do not abhor us for thy name’s sake; do not disgrace the throne of thy glory: remember, break not thy covenant with us. But as for me, my prayer is unto thee, O Lord, in an acceptable time: O God, in the multitude of thy mercy, hear me, in the truth of thy salvation. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_boqer">
+          <j:conditional xml:id="penitential_third_day_verses_after_boqer_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_boqer/printed">
+            <tei:pb n="121" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n244_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Thy mercy is great,” till “when we call,” page 52, then say the verses “For we do not presume,” and “O Lord, hear,” in the same page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_boqer_printed"/>
+          <j:conditional xml:id="penitential_third_day_verses_after_boqer_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_boqer/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_boqer_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:ezaaq_el_elohim_qoli"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_ezaaq">
+          <j:conditional xml:id="penitential_third_day_pair_after_ezaaq_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_ezaaq/printed">
+            <tei:pb n="122" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n246_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_ezaaq_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_ezaaq_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_ezaaq_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/shuvah_adonai">
+          <tei:pb n="122" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n246_medium.jpg"/>
+          <tei:p>Turn again our captivity, O Lord, as the streams in the south. Return, O Lord, deliver my soul: O save me for thy mercies’ sake, and render unto our neighbours sevenfold into their bosom their reproach, wherewith they have reproached thee, O Lord. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_shuvah">
+          <j:conditional xml:id="penitential_third_day_verses_after_shuvah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_shuvah/printed">
+            <tei:pb n="122" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n246_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Thy mercy is great,” page 52, till “when we call,” then say the verses “For we do not presume,” and “O Lord, hear,” in the same page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_shuvah_printed"/>
+          <j:conditional xml:id="penitential_third_day_verses_after_shuvah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/verses_after_shuvah/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_verses_after_shuvah_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:taharot_rogez_taniah_vetizkor_rahem"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_taharot">
+          <j:conditional xml:id="penitential_third_day_pair_after_taharot_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_taharot/printed">
+            <tei:pb n="124" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n250_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_taharot_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_taharot_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_taharot_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/refrain_instruction">
+          <j:conditional xml:id="penitential_third_day_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/refrain_instruction/printed">
+            <tei:pb n="124" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n250_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words (O Lord, &amp;c.) occur at the end of the verses, repeat “O Lord, be thou our helper!” </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shemaenu_selihati_yoshev_beseter_elyon"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_shemaenu">
+          <j:conditional xml:id="penitential_third_day_pair_after_shemaenu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_shemaenu/printed">
+            <tei:pb n="125" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n252_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_shemaenu_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_shemaenu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_shemaenu_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/keayal_taarog">
+          <tei:pb n="125" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n252_medium.jpg"/>
+          <tei:p>As the hart panteth after the water brooks so panteth my soul after thee, O God. For our soul is bowed down to the dust, our belly cleaveth unto the earth. And he said, By myself have I sworn, saith the Lord, for because thou hast done this thing, and hast not withheld thy son, thine only son. Thy mercy is great, O Lord, quicken me according to thy judgment. Enter not into judgment with us, for in thy sight shall no man living be justified. Like a father hath compassion on his children, so have thou compassion on us, O Lord! Salvation belongeth unto the Eternal! thy blessing be upon thy people. Selah! The Lord of Hosts is with us, the God of Jacob is our refuge. Selah! O Lord of hosts! happy is the man that trusteth in thee. Save us, O Eternal! Let the King hear us when we call. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/selah_after_pizmon">
+          <tei:pb n="125" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n252_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according <tei:pb n="126" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n254_medium.jpg"/>to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said), And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/hateh_after_pizmon">
+          <tei:pb n="126" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n254_medium.jpg"/>
+          <tei:p>O my God! incline thine ear and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:eitan_limed_daat"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_eitan">
+          <j:conditional xml:id="penitential_third_day_pair_after_eitan_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/pair_after_eitan/printed">
+            <tei:pb n="127" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n256_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 12, 11. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_pair_after_eitan_printed"/>
+          <j:conditional xml:id="penitential_third_day_pair_after_eitan_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_third_day_pair_after_eitan_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/closing_repetition">
+          <j:conditional xml:id="penitential_third_day_closing_repetition_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/closing_repetition/printed">
+            <tei:pb n="127" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n256_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “O Lord, remember thy mercy,” page 16, till “lest we perish wholly in exile,” page 23, then continue with the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_closing_repetition_printed"/>
+          <j:conditional xml:id="penitential_third_day_closing_repetition_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:amarenu_haazinah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:viduy/introduction"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:ashamnu_mikol_am"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:leenenu_ashuqu_amalenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:meshiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:anenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahmana"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayomer_david"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rahum_vehanun"/>
+          <j:transclude target="urn:x-opensiddur:text:bible:psalms/6"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mahi_umasi"/>
+          <j:endConditional target="#penitential_third_day_closing_repetition_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:shevat_hakisse"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/conclusion">
+          <j:conditional xml:id="penitential_third_day_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_third_day/conclusion/printed">
+            <tei:pb n="128" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n258_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Conclude the Service from “Angels of mercy,” page 23. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_third_day_conclusion_printed"/>
+          <j:conditional xml:id="penitential_third_day_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mitratseh_berahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonenu"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vaanahnu_lo_neda"/>
+          <j:declare xml:id="penitential_third_day_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#penitential_third_day_kaddish"/>
+          <j:endConditional target="#penitential_third_day_conclusion_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
