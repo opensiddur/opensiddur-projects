@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Complete services through Erev Yom Kippur, Archive n319/n320 (printed 159), before the Second Fast. Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
+        <tei:edition>Complete services through monday fast. Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -36,6 +36,13 @@
   <tei:text>
     <tei:front>
       <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n1_medium.jpg"/>
+      <j:conditional xml:id="asher_title_page_he">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
       <tei:titlePage xml:lang="he">
         <tei:docTitle>
           <tei:titlePart type="main">סדר סליחות</tei:titlePart>
@@ -50,7 +57,15 @@
           <tei:docDate>שנת תרע״ב</tei:docDate>
         </tei:docImprint>
       </tei:titlePage>
+      <j:endConditional target="#asher_title_page_he"/>
       <tei:pb n="[unnumbered]" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n2_medium.jpg"/>
+      <j:conditional xml:id="asher_title_page_en">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
       <tei:titlePage xml:lang="en">
         <tei:docTitle>
           <tei:titlePart type="main">SELICHOTH</tei:titlePart>
@@ -69,6 +84,7 @@
           <tei:docDate>1912-5672.</tei:docDate>
         </tei:docImprint>
       </tei:titlePage>
+      <j:endConditional target="#asher_title_page_en"/>
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/expanded">
@@ -189,6 +205,22 @@
         </j:conditional>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur"/>
         <j:endConditional target="#erev_yom_kippur_occasion"/>
+        <j:conditional xml:id="monday_fast_occasion">
+          <j:all>
+            <tei:fs type="asher:occasion">
+              <tei:f name="monday_fast">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast"/>
+        <j:endConditional target="#monday_fast_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
