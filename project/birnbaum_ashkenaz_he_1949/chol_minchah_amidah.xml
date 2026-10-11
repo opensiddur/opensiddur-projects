@@ -78,11 +78,15 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geulah/reeh_na"/>
         <j:conditional xml:id="minchah_reader_aneinu">
           <tei:note type="instruction" xml:lang="en">On fast days the Reader adds here:</tei:note>
-<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+<j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>          <tei:fs type="opensiddur:recitation">
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
             </tei:f>
@@ -127,11 +131,15 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah/opening"/>
         <j:conditional xml:id="minchah_silent_aneinu">
           <tei:note type="instruction" xml:lang="en">On fast days, the Congregation recites here:</tei:note>
-<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+<j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>          <tei:fs type="opensiddur:recitation">
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="false"/>
             </tei:f>
@@ -145,11 +153,15 @@
 <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">On fast days, the Reader recites here the priestly blessing (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim@birnbaum_ashkenaz_he_1949"/>) and instead of the following paragraph, <tei:foreign xml:lang="he">שים שלום</tei:foreign> is said (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:amidah/shalom/sim_shalom@birnbaum_ashkenaz_he_1949"/>).</tei:seg></tei:note>
         <j:conditional xml:id="minchah_priestly_blessing">
           <tei:note type="instruction" xml:lang="en">On fast days, in the Reader’s repetition:</tei:note>
-<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+<j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>          <tei:fs type="opensiddur:recitation">
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
             </tei:f>
@@ -163,22 +175,30 @@
         <j:endConditional target="#minchah_priestly_blessing"/>
         <j:conditional xml:id="minchah_sim_shalom">
           <tei:note type="instruction" xml:lang="en">On fast days:</tei:note>
-          <tei:fs type="opensiddur:holiday-aggregate">
+<j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>
         </j:conditional>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/sim_shalom"/>
         <j:endConditional target="#minchah_sim_shalom"/>
         <j:conditional xml:id="minchah_shalom_rav">
           <tei:note type="instruction" xml:lang="en">Except on fast days:</tei:note>
           <j:none>
-          <tei:fs type="opensiddur:holiday-aggregate">
+<j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1" max="1"/>
+            </tei:f>
+          </tei:fs></j:any>
           </j:none>
         </j:conditional>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
