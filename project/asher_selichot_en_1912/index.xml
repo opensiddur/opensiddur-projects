@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Complete services through thursday fast. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
+        <tei:edition>Complete services through last monday fast. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -237,6 +237,22 @@
         </j:conditional>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/thursday_fast"/>
         <j:endConditional target="#thursday_fast_occasion"/>
+        <j:conditional xml:id="last_monday_fast_occasion">
+          <j:all>
+            <tei:fs type="asher:occasion">
+              <tei:f name="last_monday_fast">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/last_monday_fast"/>
+        <j:endConditional target="#last_monday_fast_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
