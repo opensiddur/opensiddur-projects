@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Complete services through last monday fast. Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
+        <tei:edition>Complete services through tenth tevet. Hebrew pointing awaits independent proofreading; later services await encoding. Repeated passages are supplied by transclusion; the unprinted Full Kaddish uses the secondary edition selected in export settings.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -253,6 +253,23 @@
         </j:conditional>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/last_monday_fast"/>
         <j:endConditional target="#last_monday_fast_occasion"/>
+        <j:conditional xml:id="tenth_tevet_occasion">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="asara-btevet">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="tenth_tevet_occasion_declare">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="asara-btevet">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/tenth_tevet"/>
+        <j:endDeclare target="#tenth_tevet_occasion_declare"/>
+        <j:endConditional target="#tenth_tevet_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
