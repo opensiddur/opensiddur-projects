@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Complete services through the fifth penitential day. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
+        <tei:edition>Complete services through Erev Yom Kippur, Archive n319/n320 (printed 159), before the Second Fast. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -173,6 +173,22 @@
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day"/>
         <j:endDeclare target="#penitential_fifth_occasion_declare"/>
         <j:endConditional target="#penitential_fifth_occasion"/>
+        <j:conditional xml:id="erev_yom_kippur_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="9"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur"/>
+        <j:endConditional target="#erev_yom_kippur_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
