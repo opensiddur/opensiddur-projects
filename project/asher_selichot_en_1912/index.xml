@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Complete services through the third penitential day. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
+        <tei:edition>Complete services through the fourth penitential day. Hebrew pointing awaits independent proofreading; later services await encoding.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -139,6 +139,23 @@
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/penitential_third_day"/>
         <j:endDeclare target="#penitential_third_occasion_declare"/>
         <j:endConditional target="#penitential_third_occasion"/>
+        <j:conditional xml:id="penitential_fourth_occasion">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="penitential_fourth_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/penitential_fourth_day"/>
+        <j:endDeclare target="#penitential_fourth_occasion_declare"/>
+        <j:endConditional target="#penitential_fourth_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
