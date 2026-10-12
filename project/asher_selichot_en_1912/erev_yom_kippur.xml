@@ -147,7 +147,7 @@
           </tei:div>
           <j:endConditional target="#penitential_erev-yom-kippur_day_verses_after_mah_enosh_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:adon_din_im_yeduqdaq"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_din_im_tedaqdeq"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur/pair_after_adon_din">
           <j:conditional xml:id="penitential_erev-yom-kippur_day_pair_after_adon_din_printed">
             <tei:fs type="asher:expansions">
@@ -244,7 +244,7 @@
           <tei:div>
             <tei:note type="instruction" xml:lang="en">The Reader</tei:note>
           </tei:div>
-          <j:declare xml:id="penitential_erev-yom-kippur_day_kaddish">
+          <j:declare xml:id="penitential_erev-yom-kippur_conclusion_kaddish">
             <tei:fs type="asher:selichot">
               <tei:f name="first_day">
                 <tei:binary value="false"/>
@@ -257,7 +257,7 @@
             </tei:fs>
           </j:declare>
           <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
-          <j:endDeclare target="#penitential_erev-yom-kippur_day_kaddish"/>
+          <j:endDeclare target="#penitential_erev-yom-kippur_conclusion_kaddish"/>
           <j:endConditional target="#penitential_erev-yom-kippur_day_conclusion_expanded"/>
         </tei:div>
       </tei:div>
