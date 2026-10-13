@@ -39,7 +39,6 @@
             </tei:f>
           </tei:fs>
         </j:conditional>        <j:conditional xml:id="hallel_full_kaddish">
-          <tei:note type="instruction" xml:lang="en">Full-Kaddish on Rosh Ḥodesh and festivals:</tei:note>
 <j:any>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
               <tei:numeric value="1" max="2"/>
@@ -53,8 +52,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:any>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titkabal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>        <j:endConditional target="#hallel_full_kaddish"/>        <j:conditional xml:id="hallel_half_kaddish">
-          <tei:note type="instruction" xml:lang="en">Half-Kaddish on Ḥanukkah:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">Full-Kaddish on Rosh Ḥodesh and festivals:</tei:note><tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titkabal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>        <j:endConditional target="#hallel_full_kaddish"/>        <j:conditional xml:id="hallel_half_kaddish">
 <j:all>          <tei:fs type="opensiddur:holiday">
             <tei:f name="hanukkah">
               <tei:numeric value="1" max="8"/>
@@ -72,7 +70,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:any></j:none></j:all>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>        <j:endConditional target="#hallel_half_kaddish"/>        <j:endConditional target="#hallel_minyan"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">Half-Kaddish on Ḥanukkah:</tei:note><tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>        <j:endConditional target="#hallel_half_kaddish"/>        <j:endConditional target="#hallel_minyan"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

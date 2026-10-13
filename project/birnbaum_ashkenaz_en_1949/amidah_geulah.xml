@@ -37,7 +37,6 @@
             <tei:p>Look upon our affliction and champion our cause; redeem us speedily for thy name’s sake, for thou art a mighty Redeemer. Blessed art thou, O Lord, Redeemer of Israel.</tei:p>
           </tei:div>
         <j:conditional xml:id="cond_geulah_aneinu">
-          <tei:note type="instruction" xml:lang="en">On fast days (except Tish‘ah b’Av) the Reader adds:</tei:note>
           <j:all>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
@@ -50,7 +49,7 @@
             </tei:f>
           </tei:fs>
           </j:all>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">On fast days (except Tish‘ah b’Av) the Reader adds:</tei:note>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu"/>
         <j:endConditional target="#cond_geulah_aneinu"/>
         </tei:div>

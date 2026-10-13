@@ -77,7 +77,6 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geulah/reeh_na"/>
         <j:conditional xml:id="minchah_reader_aneinu">
-          <tei:note type="instruction" xml:lang="en">On fast days the Reader adds here:</tei:note>
 <j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
@@ -95,7 +94,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">On fast days the Reader adds here:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu"/>
         <j:endConditional target="#minchah_reader_aneinu"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/refuah"/>
@@ -130,7 +129,6 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah/opening"/>
         <j:conditional xml:id="minchah_silent_aneinu">
-          <tei:note type="instruction" xml:lang="en">On fast days, the Congregation recites here:</tei:note>
 <j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
               <tei:binary value="true"/>
@@ -144,7 +142,7 @@
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">On fast days, the Congregation recites here:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu/opening"/>
         <j:endConditional target="#minchah_silent_aneinu"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah/seal"/>

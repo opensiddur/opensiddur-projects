@@ -32,7 +32,6 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:prayer:kapparot"><tei:head>KAPPAROTH</tei:head><tei:pb n="674" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n698_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/verses"/><j:conditional xml:id="festival_rh_fowl">
-          <tei:note type="instruction" xml:lang="en">Waving a fowl over the heads:</tei:note>
 <j:any>          <tei:fs type="opensiddur:practice">
             <tei:f name="kapparot-object">
               <tei:symbol value="rooster"/>
@@ -42,7 +41,7 @@
               <tei:symbol value="hen"/>
             </tei:f>
           </tei:fs></j:any>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/fowl"/><j:endConditional target="#festival_rh_fowl"/><j:conditional xml:id="festival_rh_money">
+        </j:conditional><tei:note type="description" xml:lang="en">Waving a fowl over the heads:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/fowl"/><j:endConditional target="#festival_rh_fowl"/><j:conditional xml:id="festival_rh_money">
           <tei:note type="instruction" xml:lang="en">When money is used in the Kapparoth ceremony:</tei:note>
           <tei:fs type="opensiddur:practice">
             <tei:f name="kapparot-object">

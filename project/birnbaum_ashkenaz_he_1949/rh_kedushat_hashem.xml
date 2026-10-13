@@ -32,7 +32,6 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/kedushat_hashem"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדושת השם</tei:head><tei:pb n="655" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n679_medium.jpg"/><j:conditional xml:id="festival_rh_kedushah">
-          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Amidah, the following Kedushah is said:</tei:note>
 <j:all>          <tei:fs type="opensiddur:service-time">
             <tei:f name="minha">
               <tei:binary value="true"/>
@@ -46,7 +45,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/kedushah"/><j:endConditional target="#festival_rh_kedushah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/ata_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_pachdekha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_kavod"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_tzaddikim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_atah_hashem"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/kadosh_atah_venora"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">When the Reader repeats the Amidah, the following Kedushah is said:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/kedushah"/><j:endConditional target="#festival_rh_kedushah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/ata_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_pachdekha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_kavod"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_tzaddikim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_atah_hashem"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/kadosh_atah_venora"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

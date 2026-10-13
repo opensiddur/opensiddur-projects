@@ -109,6 +109,7 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal"/>
           <j:endDeclare target="#occasion_shabbat_day_meal_declare"/><j:endConditional target="#occasion_shabbat_day_meal"/>
           <j:conditional xml:id="occasion_shabbat_minchah"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_minchah_declare"><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah"/>        <j:conditional xml:id="avot_season">
+          <tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>
 <j:all>          <tei:fs type="opensiddur:pirkei-avot">
             <tei:f name="season">
               <tei:binary value="true"/>
@@ -138,15 +139,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:any></j:all>
-        </j:conditional>        <j:conditional xml:id="avot_season_instruction">
-          <j:none>
-          <tei:fs type="opensiddur:pirkei-avot">
-            <tei:f name="complete">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-          </j:none>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>        <j:endConditional target="#avot_season_instruction"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/><j:endDeclare target="#occasion_shabbat_minchah_declare"/><j:endConditional target="#occasion_shabbat_minchah"/>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/><j:endDeclare target="#occasion_shabbat_minchah_declare"/><j:endConditional target="#occasion_shabbat_minchah"/>
           <j:conditional xml:id="occasion_shabbat_conclusion"><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="motzaei-shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/conclusion"/>
           <j:endConditional target="#occasion_shabbat_conclusion"/>

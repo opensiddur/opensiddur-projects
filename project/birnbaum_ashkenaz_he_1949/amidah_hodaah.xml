@@ -41,13 +41,12 @@
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah"><tei:pb n="171" ed="1949 chol/minchah/amidah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n195_medium.jpg"/>
         <j:conditional xml:id="cond_modim_derabbanan">
-          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Shemoneh Esreh, the Congregation responds here by saying:</tei:note>
           <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">When the Reader repeats the Shemoneh Esreh, the Congregation responds here by saying:</tei:note>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
         <j:endConditional target="#cond_modim_derabbanan"/>
           <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/hodaah/modim">
