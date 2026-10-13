@@ -39,7 +39,6 @@
             </tei:f>
           </tei:fs>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/ki_shem"/><j:endConditional target="#festival_rh_ki_shem"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/adonai_sefatai"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/gevurot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/kedushat_hashem"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/hodaah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/shalom"/><j:conditional xml:id="festival_rh_meditation">
-          <tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note>
           <j:none>
 <j:all>          <tei:fs type="opensiddur:service-time">
             <tei:f name="minha">
@@ -55,7 +54,7 @@
             </tei:f>
           </tei:fs></j:all></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/elohai_netzor"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/yehi_ratzon_temple"/><j:endConditional target="#festival_rh_meditation"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">After the Amidah add the following meditation:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/elohai_netzor"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/yehi_ratzon_temple"/><j:endConditional target="#festival_rh_meditation"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

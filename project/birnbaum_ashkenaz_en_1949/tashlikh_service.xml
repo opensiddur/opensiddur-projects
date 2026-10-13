@@ -32,7 +32,6 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/tashlikh"><tei:pb n="670" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n694_medium.jpg"/><j:conditional xml:id="festival_rh_tashlikh_day">
-          <tei:note type="instruction" xml:lang="en">Performed on the afternoon of the first day of Rosh Hashanah, or on the second, should Sabbath commence the festival. Processions are formed to the banks of a river, where the following is recited:</tei:note>
 <j:any><j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="1"/></tei:f></tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
@@ -42,7 +41,7 @@
               <tei:numeric value="1"/>
             </tei:f>
           </tei:fs></j:all></j:any>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tashlikh"/><j:endConditional target="#festival_rh_tashlikh_day"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">Performed on the afternoon of the first day of Rosh Hashanah, or on the second, should Sabbath commence the festival. Processions are formed to the banks of a river, where the following is recited:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tashlikh"/><j:endConditional target="#festival_rh_tashlikh_day"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

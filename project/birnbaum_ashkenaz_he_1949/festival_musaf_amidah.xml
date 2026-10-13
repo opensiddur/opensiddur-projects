@@ -144,7 +144,6 @@
             </tei:f>
           </tei:fs></j:none></j:all>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushah/chol_hamoed"/><j:endConditional target="#festival_musaf_kedushah_chol"/><j:conditional xml:id="festival_musaf_ledor">
-          <tei:note type="instruction" xml:lang="en">Reader:</tei:note>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -154,8 +153,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_musaf_ledor"/><j:conditional xml:id="festival_musaf_atah_kadosh">
-          <tei:note type="instruction" xml:lang="en">In silent devotion:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_musaf_ledor"/><j:conditional xml:id="festival_musaf_atah_kadosh">
           <j:none>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -167,7 +165,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_musaf_atah_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/retzeh"/><j:conditional xml:id="festival_musaf_duchen_retzeh">
+        </j:conditional><tei:note type="description" xml:lang="en">In silent devotion:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_musaf_atah_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/retzeh"/><j:conditional xml:id="festival_musaf_duchen_retzeh">
           <tei:note type="instruction" xml:lang="en">When the Kohanim bless the congregation:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -215,7 +213,6 @@
             </tei:f>
           </tei:fs></j:all>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/birkat_kohanim"/><j:endConditional target="#festival_musaf_duchen"/><j:conditional xml:id="festival_musaf_reader_blessing">
-          <tei:note type="instruction" xml:lang="en">Priestly blessing recited by the Reader:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -229,8 +226,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_reader"/><j:endConditional target="#festival_musaf_reader_blessing"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sim_shalom"/><j:conditional xml:id="festival_musaf_meditation">
-          <tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">Priestly blessing recited by the Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_reader"/><j:endConditional target="#festival_musaf_reader_blessing"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sim_shalom"/><j:conditional xml:id="festival_musaf_meditation">
           <j:none>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -242,7 +238,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/elohai_netzor"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/yehi_ratzon"/><j:endConditional target="#festival_musaf_meditation"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">After the Amidah add the following meditation:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/elohai_netzor"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/yehi_ratzon"/><j:endConditional target="#festival_musaf_meditation"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

@@ -35,13 +35,12 @@
           <tei:note type="instruction" xml:lang="en">During Sukkoth:</tei:note>
 <tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ushpizin"/><j:endConditional target="#festival_sukkot_ushpizin_occasion"/><j:conditional xml:id="festival_sukkot_lulav_occasion">
-          <tei:note type="instruction" xml:lang="en">During Sukkoth (except Sabbath) the following is recited as the lulav (in the right hand) and the ethrog (in the left hand) are held together.</tei:note>
 <j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:netilat_lulav"/><j:endConditional target="#festival_sukkot_lulav_occasion"/><j:conditional xml:id="festival_sukkot_hoshanot_occasion">
+        </j:conditional><tei:note type="description" xml:lang="en">During Sukkoth (except Sabbath) the following is recited as the lulav (in the right hand) and the ethrog (in the left hand) are held together.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:netilat_lulav"/><j:endConditional target="#festival_sukkot_lulav_occasion"/><j:conditional xml:id="festival_sukkot_hoshanot_occasion">
 <tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="15" max="21"/></tei:f></tei:fs>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot"/><j:endConditional target="#festival_sukkot_hoshanot_occasion"/><j:conditional xml:id="festival_sukkot_geshem_occasion">
           <tei:note type="instruction" xml:lang="en">Chanted on the eighth day of Sukkoth during Musaf</tei:note>

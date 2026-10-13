@@ -90,7 +90,6 @@
             </tei:f>
           </tei:fs></j:none></j:none></j:none>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/deitchadata"/><j:endConditional target="#festival_burial_expanded"/><j:conditional xml:id="festival_burial_regular">
-          <tei:note type="instruction" xml:lang="en">With a minyan, when Tzidduk Hadin is omitted, recite regular Mourner’s Kaddish:</tei:note>
 <j:none><j:none>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -120,7 +119,7 @@
               <tei:numeric value="7"/>
             </tei:f>
           </tei:fs></j:none></j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/><j:endConditional target="#festival_burial_regular"/><tei:note type="instruction" xml:lang="en">On leaving the burial ground all wash their hands and say:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/25/8"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:burial/chapel"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">With a minyan, when Tzidduk Hadin is omitted, recite regular Mourner’s Kaddish:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/><j:endConditional target="#festival_burial_regular"/><tei:note type="instruction" xml:lang="en">On leaving the burial ground all wash their hands and say:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/25/8"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:burial/chapel"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

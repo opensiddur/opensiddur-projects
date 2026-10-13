@@ -34,13 +34,12 @@
 <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/psalms/monday/intro"><tei:p>This is the second day of the week, on which the Levites in the Temple used to recite:</tei:p></tei:div>
 <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/48"/>
         <j:conditional xml:id="kaddish_monday">
-          <tei:note type="instruction" xml:lang="en">Mourners’ Kaddish.</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">Mourners’ Kaddish.</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
         <j:endConditional target="#kaddish_monday"/>
 </tei:div>

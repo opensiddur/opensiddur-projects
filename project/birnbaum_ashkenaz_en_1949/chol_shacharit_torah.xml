@@ -145,7 +145,6 @@
 <tei:note type="instruction" xml:lang="en">When the Torah is raised, the Congregation recites:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah"/>
         <j:conditional xml:id="torah_supplications">
-          <tei:note type="instruction" xml:lang="en">On Mondays and Thursdays (if Taḥanun has been said), before returning the Torah to the ark, the Reader recites:</tei:note>
 <j:none><j:any>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
               <tei:numeric value="1" max="2"/>
@@ -187,7 +186,7 @@
               <tei:numeric value="5"/>
             </tei:f>
           </tei:fs></j:any></j:none></j:none>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">On Mondays and Thursdays (if Taḥanun has been said), before returning the Torah to the ark, the Reader recites:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milifnei_avinu"/>
         <j:endConditional target="#torah_supplications"/>
 <tei:note type="instruction" xml:lang="en">The Reader takes the Torah and says:</tei:note>

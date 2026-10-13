@@ -32,7 +32,6 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/hodaah"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">הודאה</tei:head><j:conditional xml:id="festival_musaf_modim">
-          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Amidah, the Congregation responds here by saying:</tei:note>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -42,7 +41,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/modim_derabbanan"/><j:endConditional target="#festival_musaf_modim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/modim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">When the Reader repeats the Amidah, the Congregation responds here by saying:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/modim_derabbanan"/><j:endConditional target="#festival_musaf_modim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/modim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

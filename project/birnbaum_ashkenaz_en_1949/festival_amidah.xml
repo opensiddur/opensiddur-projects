@@ -80,7 +80,6 @@
             </tei:f>
           </tei:fs></j:all>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah/kedushah/minchah"/><j:endConditional target="#festival_kedushah_minchah"/><j:conditional xml:id="festival_ledor">
-          <tei:note type="instruction" xml:lang="en">Reader:</tei:note>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -90,8 +89,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_ledor"/><j:conditional xml:id="festival_silent">
-          <tei:note type="instruction" xml:lang="en">In silent devotion:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_ledor"/><j:conditional xml:id="festival_silent">
           <j:none>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -103,8 +101,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_silent"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/retzeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/><j:conditional xml:id="festival_modim">
-          <tei:note type="instruction" xml:lang="en">When the Reader repeats the Amidah, the Congregation responds here by saying:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">In silent devotion:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_silent"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/retzeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/><j:conditional xml:id="festival_modim">
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -114,8 +111,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/modim_derabbanan"/><j:endConditional target="#festival_modim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/modim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/><j:conditional xml:id="festival_kohanim">
-          <tei:note type="instruction" xml:lang="en">Priestly blessing recited by the Reader:</tei:note>
+        </j:conditional><tei:note type="description" xml:lang="en">When the Reader repeats the Amidah, the Congregation responds here by saying:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/modim_derabbanan"/><j:endConditional target="#festival_modim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/modim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kulam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/><j:conditional xml:id="festival_kohanim">
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -129,7 +125,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kohanim"/><j:endConditional target="#festival_kohanim"/><j:conditional xml:id="festival_sim_shalom">
+        </j:conditional><tei:note type="description" xml:lang="en">Priestly blessing recited by the Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/kohanim"/><j:endConditional target="#festival_kohanim"/><j:conditional xml:id="festival_sim_shalom">
           <tei:note type="instruction" xml:lang="en">For Shaḥarith:</tei:note>
           <tei:fs type="opensiddur:service-time">
             <tei:f name="shaharit">
@@ -148,7 +144,6 @@
             </tei:f>
           </tei:fs></j:any>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/shalom_rav"/><j:endConditional target="#festival_shalom_rav"/><j:conditional xml:id="festival_meditation">
-          <tei:note type="instruction" xml:lang="en">After the Amidah add the following meditation:</tei:note>
           <j:none>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -160,7 +155,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/elohai"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yehi"/><j:endConditional target="#festival_meditation"/><j:endDeclare target="#festival_amidah_context"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">After the Amidah add the following meditation:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/elohai"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yehi"/><j:endConditional target="#festival_meditation"/><j:endDeclare target="#festival_amidah_context"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

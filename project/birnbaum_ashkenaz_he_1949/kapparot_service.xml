@@ -32,9 +32,8 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:yom_kippur/kapparot"><tei:pb n="673" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n697_medium.jpg"/><j:conditional xml:id="festival_rh_kapparot_day">
-          <tei:note type="instruction" xml:lang="en">Consisting in waving a fowl three times around the head after the recitation of the following paragraph on the day previous to Yom Kippur</tei:note>
 <tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9"/></tei:f></tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot"/><j:endConditional target="#festival_rh_kapparot_day"/></tei:div>
+        </j:conditional><tei:note type="description" xml:lang="en">Consisting in waving a fowl three times around the head after the recitation of the following paragraph on the day previous to Yom Kippur</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot"/><j:endConditional target="#festival_rh_kapparot_day"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

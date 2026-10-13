@@ -74,13 +74,12 @@
         </j:conditional>
 <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/27"/>
         <j:conditional xml:id="kaddish_psalm_27">
-          <tei:note type="instruction" xml:lang="en">Mourners’ Kaddish.</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">Mourners’ Kaddish.</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
         <j:endConditional target="#kaddish_psalm_27"/>
         <j:endConditional target="#psalm_27_occasion"/>
@@ -94,13 +93,12 @@
         </j:conditional>
 <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/49"/>
         <j:conditional xml:id="kaddish_psalm_49">
-          <tei:note type="instruction" xml:lang="en">Mourners’ Kaddish.</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional>
+        </j:conditional><tei:note type="description" xml:lang="en">Mourners’ Kaddish.</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
         <j:endConditional target="#kaddish_psalm_49"/>
         <j:endConditional target="#psalm_49_occasion"/>
