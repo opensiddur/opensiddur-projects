@@ -1,0 +1,43 @@
+# David Asher's Selichoth (1912), Hebrew facing English, as the book prints it.
+
+description: >
+  Asher's Selichoth, Hebrew facing English, with no date declared, so every service is
+  kept. Abbreviated refrains, prayers and repetitions stay as printed, with the book's
+  instructions for completing them.
+
+book:
+  project: asher_selichot_he_1912
+  file_name: index.xml
+  title: Asher Selichoth — documentary
+priority:
+  transclusion:
+  - asher_selichot_he_1912
+  - asher_selichot_en_1912
+  instructions:
+  - asher_selichot_he_1912
+  - asher_selichot_en_1912
+parallel:
+  projects:
+  - asher_selichot_en_1912
+readings:
+  abbreviations: abbreviated
+annotations: []
+typography:
+  page_header:
+    all:
+      left: סליחות
+      right: '{page}'
+  instructions:
+    from: both
+  fonts:
+    hebrew:
+    - name: SBL Hebrew
+      normal_size: 12
+  table_of_contents:
+    enabled: true
+    depth: 2
+declarations:
+  asher:expansions:
+    refrains_present: false
+    prayers_present: false
+    repetitions_present: false
