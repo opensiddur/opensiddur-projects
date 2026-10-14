@@ -40,15 +40,11 @@
           </tei:fs>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_hanukkah"/><j:endConditional target="#festival_concluding_grace_hanukkah"/><j:conditional xml:id="festival_concluding_grace_purim">
           <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
-<j:any>          <tei:fs type="opensiddur:holiday">
-            <tei:f name="purim">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim-observed">
               <tei:numeric value="1" max="1"/>
             </tei:f>
-          </tei:fs>          <tei:fs type="opensiddur:holiday">
-            <tei:f name="shushan-purim">
-              <tei:numeric value="1" max="1"/>
-            </tei:f>
-          </tei:fs></j:any>
+          </tei:fs>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_purim"/><j:endConditional target="#festival_concluding_grace_purim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/><j:conditional xml:id="festival_concluding_retze">
           <tei:note type="instruction" xml:lang="en">On Sabbath add:</tei:note>
           <tei:fs type="opensiddur:day-of-week">

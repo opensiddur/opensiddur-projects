@@ -180,9 +180,9 @@
         <j:conditional xml:id="occasion_chanukah"><tei:fs type="opensiddur:holiday"><tei:f name="hanukkah"><tei:numeric value="1" max="8"/></tei:f></tei:fs></j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chanukah"/>
         <j:endConditional target="#occasion_chanukah"/>
-        <j:conditional xml:id="occasion_purim"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="purim"><tei:numeric value="1"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shushan-purim"><tei:numeric value="1"/></tei:f></tei:fs></j:any></j:conditional>
+        <j:conditional xml:id="occasion_purim"><tei:fs type="opensiddur:holiday"><tei:f name="purim-observed"><tei:numeric value="1"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_purim_declare"><tei:fs type="opensiddur:holiday"><tei:f name="purim-observed"><tei:numeric value="1"/></tei:f></tei:fs></j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:purim"/>
-        <j:endConditional target="#occasion_purim"/>
+        <j:endDeclare target="#occasion_purim_declare"/><j:endConditional target="#occasion_purim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers"/>
       </tei:div>
