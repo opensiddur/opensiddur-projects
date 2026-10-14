@@ -88,7 +88,31 @@
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:selichot">
-        <j:declare xml:id="asher_pre_rosh_hashanah_services">
+        <j:conditional xml:id="first_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="21" max="26"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="first_day_occasion_declare">
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="aseret-ymei-tshuva">
               <tei:binary value="false"/>
@@ -96,22 +120,261 @@
           </tei:fs>
         </j:declare>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/first_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/second_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/third_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fourth_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fifth_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/sixth_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/seventh_day"/>
-        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah"/>
-        <j:endDeclare target="#asher_pre_rosh_hashanah_services"/>
-        <j:conditional xml:id="tzom_gedaliah_occasion">
-          <tei:fs type="opensiddur:holiday">
-            <tei:f name="tzom-gedalia">
-              <tei:numeric value="1"/>
+        <j:endDeclare target="#first_day_occasion_declare"/>
+        <j:endConditional target="#first_day_occasion"/>
+        <j:conditional xml:id="second_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="22" max="27"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="second_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/second_day"/>
+        <j:endDeclare target="#second_day_occasion_declare"/>
+        <j:endConditional target="#second_day_occasion"/>
+        <j:conditional xml:id="third_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="3"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="23" max="28"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="third_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/third_day"/>
+        <j:endDeclare target="#third_day_occasion_declare"/>
+        <j:endConditional target="#third_day_occasion"/>
+        <j:conditional xml:id="fourth_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="4"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="24" max="27"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="fourth_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fourth_day"/>
+        <j:endDeclare target="#fourth_day_occasion_declare"/>
+        <j:endConditional target="#fourth_day_occasion"/>
+        <j:conditional xml:id="fifth_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="5"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="25" max="28"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="fifth_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/fifth_day"/>
+        <j:endDeclare target="#fifth_day_occasion_declare"/>
+        <j:endConditional target="#fifth_day_occasion"/>
+        <j:conditional xml:id="sixth_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="26" max="27"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="sixth_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/sixth_day"/>
+        <j:endDeclare target="#sixth_day_occasion_declare"/>
+        <j:endConditional target="#sixth_day_occasion"/>
+        <j:conditional xml:id="seventh_day_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="28"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="seventh_day_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/seventh_day"/>
+        <j:endDeclare target="#seventh_day_occasion_declare"/>
+        <j:endConditional target="#seventh_day_occasion"/>
+        <j:conditional xml:id="erev_rosh_hashanah_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="29"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:declare xml:id="erev_rosh_hashanah_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_rosh_hashanah"/>
+        <j:endDeclare target="#erev_rosh_hashanah_occasion_declare"/>
+        <j:endConditional target="#erev_rosh_hashanah_occasion"/>
+        <j:conditional xml:id="tzom_gedaliah_occasion">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="tzom-gedalia">
+                <tei:numeric value="1"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
         </j:conditional>
         <j:declare xml:id="tzom_gedaliah_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="tzom-gedalia">
               <tei:numeric value="1"/>
@@ -122,11 +385,68 @@
         <j:endDeclare target="#tzom_gedaliah_occasion_declare"/>
         <j:endConditional target="#tzom_gedaliah_occasion"/>
         <j:conditional xml:id="penitential_second_occasion">
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="4"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="3"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="4"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="4"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
         </j:conditional>
         <j:declare xml:id="penitential_second_occasion_declare">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -139,11 +459,68 @@
         <j:endDeclare target="#penitential_second_occasion_declare"/>
         <j:endConditional target="#penitential_second_occasion"/>
         <j:conditional xml:id="penitential_third_occasion">
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="4"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="3"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
         </j:conditional>
         <j:declare xml:id="penitential_third_occasion_declare">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -156,11 +533,68 @@
         <j:endDeclare target="#penitential_third_occasion_declare"/>
         <j:endConditional target="#penitential_third_occasion"/>
         <j:conditional xml:id="penitential_fourth_occasion">
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="4"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
         </j:conditional>
         <j:declare xml:id="penitential_fourth_occasion_declare">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -173,11 +607,68 @@
         <j:endDeclare target="#penitential_fourth_occasion_declare"/>
         <j:endConditional target="#penitential_fourth_occasion"/>
         <j:conditional xml:id="penitential_fifth_occasion">
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="8"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="8"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="3"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="8"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
         </j:conditional>
         <j:declare xml:id="penitential_fifth_occasion_declare">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -191,6 +682,11 @@
         <j:endConditional target="#penitential_fifth_occasion"/>
         <j:conditional xml:id="erev_yom_kippur_occasion">
           <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
             <tei:fs type="opensiddur:hebrew-date">
               <tei:f name="month">
                 <tei:numeric value="7"/>
@@ -203,18 +699,38 @@
             </tei:fs>
           </j:all>
         </j:conditional>
+        <j:declare xml:id="erev_yom_kippur_occasion_declare">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur"/>
+        <j:endDeclare target="#erev_yom_kippur_occasion_declare"/>
         <j:endConditional target="#erev_yom_kippur_occasion"/>
         <j:conditional xml:id="monday_fast_occasion">
           <j:all>
-            <tei:fs type="asher:occasion">
-              <tei:f name="monday_fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
+            <j:any>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="8"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
             <tei:fs type="opensiddur:day-of-week">
               <tei:f name="hebrew-day">
                 <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="3" max="9"/>
               </tei:f>
             </tei:fs>
           </j:all>
@@ -223,14 +739,26 @@
         <j:endConditional target="#monday_fast_occasion"/>
         <j:conditional xml:id="thursday_fast_occasion">
           <j:all>
-            <tei:fs type="asher:occasion">
-              <tei:f name="thursday_fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
+            <j:any>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="8"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
             <tei:fs type="opensiddur:day-of-week">
               <tei:f name="hebrew-day">
                 <tei:numeric value="5"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="6" max="12"/>
               </tei:f>
             </tei:fs>
           </j:all>
@@ -239,14 +767,26 @@
         <j:endConditional target="#thursday_fast_occasion"/>
         <j:conditional xml:id="last_monday_fast_occasion">
           <j:all>
-            <tei:fs type="asher:occasion">
-              <tei:f name="last_monday_fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
+            <j:any>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="8"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
             <tei:fs type="opensiddur:day-of-week">
               <tei:f name="hebrew-day">
                 <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="day">
+                <tei:numeric value="10" max="16"/>
               </tei:f>
             </tei:fs>
           </j:all>
@@ -305,23 +845,55 @@
         <j:endDeclare target="#tammuz_fast_occasion_declare"/>
         <j:endConditional target="#tammuz_fast_occasion"/>
         <j:conditional xml:id="yom_kippur_katan_occasion">
-          <tei:fs type="asher:occasion">
-            <tei:f name="yom_kippur_katan">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="2" max="5"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="8"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="10" max="13"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="29"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1" max="5"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="27" max="28"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
         </j:conditional>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan"/>
         <j:endConditional target="#yom_kippur_katan_occasion"/>
-        <j:conditional xml:id="circumcision_occasion">
-          <tei:fs type="asher:occasion">
-            <tei:f name="circumcision">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
         <j:transclude target="urn:x-opensiddur:text:siddur:selichot/circumcision"/>
-        <j:endConditional target="#circumcision_occasion"/>
       </tei:div>
     </tei:body>
   </tei:text>
