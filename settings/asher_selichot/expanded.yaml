@@ -32,9 +32,16 @@ typography:
       right: '{page}'
   instructions:
     from: both
+  # The release builders install Ezra SIL, not SBL Hebrew, so a release sets Ezra; SBL
+  # Hebrew, its descendant, stands in where Ezra is absent. Both carry the middle dot (U+00B7)
+  # that divides Asher's verses, which the Culmus faces (Frank Ruehl CLM) lack.
   fonts:
     hebrew:
+    - name: Ezra SIL
+      normal_size: 12
     - name: SBL Hebrew
+      normal_size: 12
+    - name: FreeSerif
       normal_size: 12
   table_of_contents:
     enabled: true
