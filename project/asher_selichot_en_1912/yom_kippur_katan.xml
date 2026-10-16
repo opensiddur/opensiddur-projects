@@ -515,7 +515,7 @@
         </tei:div>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/psalm_end_instruction">
           <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
-          <tei:note type="instruction" xml:lang="en">If the Eve of New Moon is on Sabbath or Sunday the Psalm, page 190, is said instead of the following— </tei:note>
+          <tei:note type="instruction" xml:lang="en">If the Eve of New Moon is on Sabbath or Sunday the Psalm, page 190, is said instead of the following—<tei:anchor xml:id="editorial_ykk_eve_rubric"/> </tei:note>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:bible:psalms/8"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/conclusion">
@@ -561,4 +561,7 @@
       </tei:div>
     </tei:body>
   </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="editorial" target="#editorial_ykk_eve_rubric" xml:lang="en">Editor: page 190 gives this exception as “when the New Moon is on Sabbath or Sunday”, the days on which the fast is held on Thursday; that is probably what is meant here.</tei:note>
+  </tei:standOff>
 </tei:TEI>
