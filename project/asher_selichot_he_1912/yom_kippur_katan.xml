@@ -1,0 +1,574 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">תפלת יום כפור קטן׃</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan@asher_selichot_he_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan">
+        <tei:pb n="188" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n377_medium.jpg"/>
+        <tei:head>תפלת יום כפור קטן׃</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/opening_instruction">
+          <tei:pb n="188" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n377_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">It is customary for the pious to fast on the day preceding the New Moon; if it falls on Saturday or Sunday the fast is held on the preceding Thursday. Those who fast put on the <tei:foreign xml:lang="he">טַלִּית</tei:foreign> and <tei:foreign xml:lang="he">תְּפִלִּין</tei:foreign>. The Reader commences the following— </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/102"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/refrain_instruction">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/refrain_instruction/printed">
+            <tei:pb n="189" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n379_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words <tei:foreign xml:lang="he">יום זה</tei:foreign> occur at the end of the verses, repeat from <tei:foreign xml:lang="he">יוֹם זֶה</tei:foreign> till <tei:foreign xml:lang="he">וִיהִי פוֹרֵהַ</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:yom_zeh_yehi_mishqal_kol_hattotai"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/psalm_order_instruction">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n381_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Some congregations say here Psalm viii., page 202, instead of the following Psalm, and say the following Psalm at the end of the Service. But when the New Moon is on Sabbath or Sunday, the order of Service is not altered. </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/20"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashrei_instruction">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashrei_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashrei_instruction/printed">
+            <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n381_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אַשְׁרֵי</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashrei_instruction_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashrei_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashrei_instruction_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish/printed">
+            <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n381_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">The Reader says Kaddish. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Reader.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_reader_kaddish_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_reader_kaddish_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/torah_amidah_instruction">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n381_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">[The following instructions are only to be observed if there are ten persons present who fast till night; should there not be, the Ameedah is said immediately after Kaddish. The <tei:foreign xml:lang="he">סֵפֶר תּוֹרָה</tei:foreign> is taken from the Ark, and the portion <tei:foreign xml:lang="he">וַיְחַל</tei:foreign> (see end of volume) is read to three persons; the third person called reads <tei:foreign xml:lang="he">הַפְטָרַת דִּרְשׁוּ</tei:foreign> (see end of volume.) After the <tei:foreign xml:lang="he">סֵפֶר תּוֹרָה</tei:foreign> is returned to the Ark, the congregation say the Ameedah, introducing <tei:foreign xml:lang="he">עֲנֵנוּ</tei:foreign> as on other fast days.] After the repetition thereof by the Reader the following is said— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/lekhu_venashuvah">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n381_medium.jpg"/>
+          <tei:p>לְכוּ וְנָשׁוּבָה אֶל יְיָ כִּי הוּא טָרָף וְיִרְפָּאֵנוּ יַךְ וְיַחְבְּשֵׁנוּ׃ יְחַיֵּנוּ מִיֹּמָיִם בַּיּוֹם הַשְּׁלִישִׁי יְקִמֵנוּ וְנִחְיֶה לְפָנָיו׃ כִּי <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים הַתַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hashivenu_instruction">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The following verse is said three times by the Minister and Congregation— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hashivenu">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:p>הֲשִׁיבֵנוּ יְיָ אֵלֶיךָ וְנָשׁוּבָה · חַדֵּשׁ יָמֵינוּ כְּקֶדֶם׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_hashivenu">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_hashivenu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_hashivenu/printed">
+            <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_hashivenu_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_hashivenu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_hashivenu_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ana_adonai_elohei_hashamayim">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:p>אָנָּא יְיָ אֱלֹהֵי הַשָּׁמַיִם תִּכּוֹן תְּפִלָּתֵנוּ קְטֹרֶת לְפָנֶיךָ׃ וְהוֹצִיא כָאוֹר צִדְקֵנוּ וּמִשְׁפָּטֵנוּ כַּצָּהֳרָיִם׃ אֲמָרֵינוּ הַאֲזִינָה יְיָ בִּינָה הֲגִיגֵנוּ׃ בְּקָרְאֵנוּ עֲנֵנוּ אֱלֹהֵי צִדְקֵנוּ׃ כְּרַחֵם אָב עַל־בָּנִים כֵּן תְּרַחֵם יְיָ עָלֵינוּ׃ לַיְיָ אֱלֹהֵינוּ הָרַחֲמִים וְהַסְּלִיחוֹת כִּי מָרַדְנוּ בוֹ׃ וְסָלַחְתָּ לְעַמְּךָ אֲשֶׁר חָטְאוּ לָךְ וּלְכָל פִּשְׁעֵיהֶם אֲשֶׁר פָּשְׁעוּ בָךְ וּנְתַתָּם לְרַחֲמִים לִפְנֵי שֹׁבֵיהֶם וְרִחֲמוּם׃ וְאַתָּה תִשְׁמַע מִמְּכוֹן שִׁבְתְּךָ הַשָּׁמַיִם וְשָׁמַעְתָּ וְסָלָחְתָּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/selah_na">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hateh_elohai">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמָע פְּקָחָה עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים הַתַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/bracket_instruction">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n383_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The verses within brackets are repeated by the Reader and the Congregation— </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:masat_kappai_minhat_erev"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_masat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_masat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_masat/printed">
+            <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n387_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_masat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_masat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_masat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/uneshalmah_farim">
+          <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n387_medium.jpg"/>
+          <tei:p>וּנְשַׁלְּמָה פָרִים שְׂפָתֵינוּ תִּכּוֹן תְּפִלָּתֵנוּ קְטֹרֶת לְפָנֶיךָ מַשְׂאַת כַּפֵּינוּ מִנְחַת עָרֶב׃ יִהְיוּ לְרָצוֹן אִמְרֵי פִינוּ וְהֶגְיוֹן לִבֵּנוּ לְפָנֶיךָ יְיָ צוּרֵנוּ וְגוֹאֲלֵנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_before_samar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar/printed">
+            <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n387_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה׃ </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_before_samar_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_before_samar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_before_samar_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_samar">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_samar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_samar/printed">
+            <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n389_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_samar_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_samar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_samar_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/tov_adonai_lakkol">
+          <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n389_medium.jpg"/>
+          <tei:p>טוֹב יְיָ לַכֹּל וְרַחֲמָיו עַל כָּל מַעֲשָׂיו׃ טוֹב יְיָ לְקֹוָיו לְנֶפֶשׁ תִּדְרְשֶׁנּוּ׃ טוֹב יְיָ לְמָעוֹז בְּיוֹם צָרָה וְיֹדֵעַ חֹסֵי בוֹ׃ כִּי טוֹב יְיָ לְעוֹלָם חַסְדּוֹ וְעַד דּוֹר וָדוֹר אֱמוּנָתוֹ׃ טוֹב לַחֲסוֹת בַּיְיָ מִבְּטֹחַ בָּאָדָם׃ טוֹב לַחֲסוֹת בַּיְיָ מִבְּטֹחַ בִּנְדִיבִים׃ טוֹב וְיָשָׁר יְיָ עַל כֵּן יוֹרֶה חַטָּאִים בַּדָּרֶךְ׃ טוֹב וְיָחִיל וְדוּמָם לִתְשׁוּעַת יְיָ׃ הוֹשִׁיעֵנוּ אֱלֹהִים כִּי בָאוּ מַיִם עַד נָפֶשׁ׃ הוֹשַׁע יְיָ אֶת עַמְּךָ אֶת שְׁאֵרִית יִשְׂרָאֵל׃ הוֹשִׁיעָה אֶת עַמֶּךָ וּבָרֵךְ אֶת נַחֲלָתֶךָ וּרְעֵם וְנַשְּׂאֵם עַד הָעוֹלָם׃ הוֹשִׁיעָה כִּי גָמַר חָסִיד כִּי פַסּוּ אֱמוּנִים מִבְּנֵי אָדָם׃ עָזְרֵנוּ אֱלֹהֵי יִשְׁעֵנוּ עַל דְּבַר כְּבוֹד שְׁמֶךָ׃ וְהַצִּילֵנוּ וְכַפֵּר עַל חַטֹּאתֵינוּ לְמַעַן שְׁמֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_after_tov_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov/printed">
+            <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n389_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה׃ </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_after_tov_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_after_tov_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_after_tov_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pizmon_instruction">
+          <tei:head>פזמון</tei:head>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pizmon_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pizmon_instruction/printed">
+            <tei:pb n="195" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n391_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the word <tei:foreign xml:lang="he">ליי</tei:foreign> occurs at the end of the verses, repeat from <tei:foreign xml:lang="he">לַיְיָ</tei:foreign> till <tei:foreign xml:lang="he">בִּצְדָקָה</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pizmon_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:bat_ammi_lo_tehesheh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_bat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_bat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_bat/printed">
+            <tei:pb n="195" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n391_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_bat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_bat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_bat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/rahmana_instruction">
+          <tei:pb n="196" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n393_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Reader says— The Congregation responds— </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:rahmana_adkar_lan"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_rahmana">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_rahmana_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_rahmana/printed">
+            <tei:pb n="196" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n393_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_rahmana_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_rahmana_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_rahmana_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:al_taas_immanu_khalah"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_olamim_qodem_kol_davar"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_im_amadti"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_lo_al_atsmi"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_minhag_bet_dinekha"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_lule_hataenu"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/tavo_tefillatenu">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n401_medium.jpg"/>
+          <tei:p>אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ תָּבֹא לְפָנֶיךָ תְּפִלָּתֵנוּ · וְאַל־תִּתְעַלֵּם מִתְּחִנָּתֵנוּ · שֶׁאֵין אָנוּ עַזֵּי־פָנִים וּקְשֵׁי־עֹרֶף · לוֹמַר לְפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ · אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_reprint">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n401_medium.jpg"/>
+          <tei:p>אָשַׁמְנוּ · בָּגַדְנוּ · גָּזַלְנוּ · דִּבַּרְנוּ דוֹפִי · הֶעֱוִינוּ · וְהִרְשַׁעְנוּ׃ זַדְנוּ · חָמַסְנוּ · טָפַלְנוּ שֶׁקֶר · יָעַצְנוּ רָע · כִּזַּבְנוּ · לַצְנוּ · מָרַדְנוּ · נִאַצְנוּ · סָרַרְנוּ · עָוִינוּ · פָּשַׁעְנוּ · צָרַרְנוּ · קִשִּׁינוּ עֹרֶף · רָשַׁעְנוּ · שִׁחַתְנוּ · תִּעַבְנוּ · תָּעִינוּ · תִּעְתָּעְנוּ׃ סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים · וְלֹא שָׁוָה לָנוּ׃ וְאַתָּה צַדִּיק עַל כָּל הַבָּא עָלֵינוּ · כִּי אֱמֶת עָשִׂיתָ וַאֲנַחְנוּ הִרְשָׁעְנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_mikkol_am">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n401_medium.jpg"/>
+          <tei:lg><tei:l>אָשַׁמְנוּ מִכָּל־עָם ·</tei:l> <tei:l>בּוֹשְׁנוּ מִכָּל־דּוֹר ·</tei:l> <tei:l>גָּלָה מִמֶּנּוּ מָשׂוֹשׂ ·</tei:l> <tei:l>דָּוֶה לִבֵּנוּ בְּחַטָּאֵנוּ ·</tei:l> <tei:l>הוּחְבַּל אִוּוּיֵנוּ ·</tei:l> <tei:l>וְנִפְרַע פְּאֵרֵנוּ ·</tei:l> <tei:l>זְבוּל בֵּית־מִקְדָּשֵׁנוּ ·</tei:l> <tei:l>חָרַב בַּעֲוֹנֵינוּ ·</tei:l> <tei:l>טִירָתֵנוּ הָיְתָה לְשַׁמָּה ·</tei:l> <tei:l>יֳפִי אַדְמָתֵנוּ לְזָרִים ·</tei:l> <tei:l>כֹּחֵנוּ לְנָכְרִים׃</tei:l> <tei:l>וַעֲדַיִן לֹא שַׁבְנוּ מִתְּעוּתֵנוּ ·</tei:l> <tei:l>וְאֵיךְ נָעִיז פָּנֵינוּ וְנַקְשֶׁה עָרְפֵּנוּ ·</tei:l> <tei:l>לוֹמַר לְפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ ·</tei:l> <tei:l>אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat/printed">
+            <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n401_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> as above. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_reprint" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/leeineinu_ashuq">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n403_medium.jpg"/>
+          <tei:lg><tei:l>לְעֵינֵינוּ עָשְׁקוּ עֲמָלֵנוּ ·</tei:l> <tei:l>מְמֻשָּׁךְ וּמוֹרָט מִמֶּנּוּ ·</tei:l> <tei:l>נָתְנוּ עֻלָּם עָלֵינוּ ·</tei:l> <tei:l>סָבַלְנוּ עַל־שִׁכְמֵנוּ ·</tei:l> <tei:l>עֲבָדִים מָשְׁלוּ בָנוּ ·</tei:l> <tei:l>פּוֹרֵק אֵין מִיָּדָם ·</tei:l> <tei:l>צָרוֹת רַבּוֹת סְבָבוּנוּ ·</tei:l> <tei:l>קְרָאנוּךָ יְיָ אֱלֹהֵינוּ ·</tei:l> <tei:l>רָחַקְתָּ מִמֶּנּוּ בַּעֲוֹנֵינוּ ·</tei:l> <tei:l>שַׁבְנוּ מֵאַחֲרֶיךָ ·</tei:l> <tei:l>תָּעִינוּ וְאָבַדְנוּ׃</tei:l> <tei:l>וַעֲדַיִן לֹא שַׁבְנוּ מִתְּעֵיתִינוּ ·</tei:l> <tei:l>וְאֵיךְ נָעִיז פָּנֵינוּ וְנַקְשֶׁה עָרְפֵּנוּ ·</tei:l> <tei:l>לוֹמַר לְפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ ·</tei:l> <tei:l>אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat_second">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_second_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat_second/printed">
+            <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n403_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אָשַׁמְנוּ</tei:foreign> as in the preceding page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_second_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_second_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_reprint"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_second_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/el_erekh_apayim">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n403_medium.jpg"/>
+          <tei:p>אֵל אֶרֶךְ־אַפַּיִם אַתָּה · וּבַעַל־הָרַחֲמִים נִקְרֵאתָ · וְדֶרֶךְ תְּשׁוּבָה הוֹרֵיתָ · גְּדֻלַּת רַחֲמֶיךָ וַחֲסָדֶיךָ תִּזְכּוֹר הַיּוֹם וּבְכָל־יוֹם לְזֶרַע יְדִידֶךָ׃ תֵּפֶן אֵלֵינוּ בְּרַחֲמִים · כִּי אַתָּה הוּא בַּעַל־הָרַחֲמִים׃ בְּתַחֲנוּן וּבִתְפִלָּה פָּנֶיךָ נְקַדֵּם · כְּהוֹדַעְתָּ לֶעָנָו מִקֶּדֶם׃ מֵחֲרוֹן אַפְּךָ שׁוּב · כְּמוֹ בְּתוֹרָתֶךָ כָּתוּב · וּבְצֵל כְּנָפֶיךָ נֶחְסֶה וְנִתְלוֹנָן · כְּיוֹם וַיֵּרֶד יְיָ בֶּעָנָן׃ תַּעֲבוֹר עַל־פֶּשַׁע וְתִמְחֶה אָשָׁם · כְּיוֹם וַיִּתְיַצֵּב עִמּוֹ שָׁם׃ תַּאֲזִין שַׁוְעָתֵנוּ וְתַקְשִׁיב מֶנּוּ מַאֲמָר · כְּיוֹם וַיִּקְרָא בְשֵׁם יְיָ וְשָׁם נֶאֱמַר׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/vayaavor_reprint">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n403_medium.jpg"/>
+          <tei:p>וַיַּעֲבוֹר יְיָ עַל־פָּנָיו וַיִּקְרָא׃ יְיָ · יְיָ · אֵל · רַחוּם · וְחַנּוּן · אֶרֶךְ־אַפַּיִם · וְרַב־חֶסֶד · וֶאֱמֶת · נֹצֵר חֶסֶד לָאֲלָפִים · נֹשֵׂא עָוֹן וָפֶשַׁע · וְחַטָּאָה · וְנַקֵּה · וְסָלַחְתָּ לַעֲוֹנֵנוּ <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ׃ סְלַח־לָנוּ אָבִינוּ כִּי־חָטָאנוּ מְחַל־לָנוּ מַלְכֵּנוּ כִּי־פָשַׁעְנוּ׃ כִּי־אַתָּה יְיָ טוֹב וְסַלָּח וְרַב־חֶסֶד לְכָל־קֹרְאֶיךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hatanu_tsurenu">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:p>חָטָאנוּ צוּרֵנוּ · סְלַח לָנוּ יוֹצְרֵנוּ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ark_open">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Ark is opened. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/shema_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say once </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/shema">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:p>שְׁמַע יִשְׂרָאֵל יְיָ אֱלֹהֵינוּ יְיָ אֶחָד׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/barukh_shem_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say twice </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/barukh_shem">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:p>בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_hu_haelohim_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say seven times </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_hu_haelohim">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:p>יְיָ הוּא הָאֱלֹהִים׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_melekh_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say once </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_melekh">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:p>יְיָ מֶלֶךְ יְיָ מָלָךְ יְיָ יִמְלֹךְ לְעוֹלָם וָעֶד׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ark_close">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Ark is closed. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/anenu">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:lg><tei:l>עֲנֵנוּ אֱלֹהֵי אַבְרָהָם <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ פַּחַד יִצְחָק <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֲבִיר יַעֲקֹב <tei:seg type="refrain">עֲנֵנוּ׃</tei:seg></tei:l> <tei:l>עֲנֵנוּ מָגֵן דָּוִד <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ אֱלֹהֵי הַמֶּרְכָּבָה <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ הָעוֹנֶה בְּעֵת רָצוֹן <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ הָעוֹנֶה בְּעֵת צָרָה <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ הָעוֹנֶה בְּעֵת רַחֲמִים <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>עֲנֵנוּ רַחוּם וְחַנּוּן <tei:seg type="refrain">עֲנֵנוּ ·</tei:seg></tei:l> <tei:l>רַחֲמָנָא עֲנַנָן ·</tei:l> <tei:l>רַחֲמָנָא פְרוֹק ·</tei:l> <tei:l>רַחֲמָנָא דְּיִתְמְלֵי רַחֲמִין עֲלָן וְעַל כָּל־אֲנָשֵׁי בֵיתָנָא וְעַל כָּל־אַחָנָא יִשְׂרָאֵל וּמֵחֲשׁוֹכָא לִנְהוֹרָא אַפְּקִינָן בְּדִיל שְׁמָךְ רַבָּא׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish_conclusion">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish_conclusion/printed">
+            <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">The Reader says Kaddish. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_conclusion_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Reader.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_reader_kaddish_conclusion_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_reader_kaddish_conclusion_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_conclusion_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/psalm_end_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n405_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">If the eve of the New Moon is on Sabbath or Sunday the Psalm in page 190 is said instead of the following— </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/8"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/conclusion">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/conclusion/printed">
+            <tei:pb n="203" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n407_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">עָלֵינוּ</tei:foreign>. A Mourner says Kaddish. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_conclusion_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/aleinu"/>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Mourner.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_conclusion_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_conclusion_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_conclusion_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">פזמון לברית מלה</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/circumcision@asher_selichot_he_1912</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/circumcision">
+        <tei:pb n="203" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n407_medium.jpg"/>
+        <tei:head>פזמון לברית מלה</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/circumcision/performance_instruction">
+          <tei:pb n="203" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n407_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">When a Circumcision takes place the following is said— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/circumcision/refrain_instruction">
+          <j:conditional xml:id="penitential_circumcision_day_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/circumcision/refrain_instruction/printed">
+            <tei:pb n="203" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n407_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words <tei:foreign xml:lang="he">והשב</tei:foreign> or <tei:foreign xml:lang="he">ושוב</tei:foreign> occur at the end of the verse repeat alternately the whole of the verses beginning <tei:foreign xml:lang="he">וְהָשֵׁב</tei:foreign> and <tei:foreign xml:lang="he">וְשׁוּב</tei:foreign>. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_circumcision_day_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:zekhor_berit_avraham/circumcision_recension"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
