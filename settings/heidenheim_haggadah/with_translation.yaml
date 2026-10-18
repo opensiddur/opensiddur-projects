@@ -26,6 +26,13 @@ parallel:
     - feinstein_haggadah_translation_2009
   column_order: primary_first
 
+# The electronic book: a haggadah is read ahead of the seder as well as at it, so it opens with
+# no particular day -- every passage shown, with its rubric -- rather than following the date,
+# on which, any night but the seder's, it would show almost nothing. A reader can still choose
+# the seder night, or now.
+electronic:
+  day: none
+
 typography:
   page:
     paper: letterpaper
