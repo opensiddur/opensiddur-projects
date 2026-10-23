@@ -34,11 +34,15 @@
     <tei:body>
         <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah">
         <j:conditional xml:id="cond_qedushah_repetition">
-          <tei:fs type="opensiddur:recitation">
+<j:all>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
         </j:conditional><tei:note type="description" xml:lang="en">When the Reader repeats the Shemoneh Esreh, the following Kedushah is said:</tei:note>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqadesh"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>

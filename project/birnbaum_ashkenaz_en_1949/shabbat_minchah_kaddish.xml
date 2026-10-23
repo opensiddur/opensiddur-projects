@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah/kaddish"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Full Kaddish</tei:head><tei:pb n="462" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n486_medium.jpg"/>        <j:conditional xml:id="shabbat_minchah_kaddish">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah/kaddish"><j:conditional xml:id="shabbat_minchah_kaddish">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titkabal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>        <j:endConditional target="#shabbat_minchah_kaddish"/></tei:div>
+        </j:conditional><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Full Kaddish</tei:head><tei:pb n="462" ed="1949 shabbat/minchah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n486_medium.jpg"/>        <tei:note type="instruction" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titkabal"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>        <j:endConditional target="#shabbat_minchah_kaddish"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

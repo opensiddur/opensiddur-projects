@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/opening"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">הוצאת ספר תורה</tei:head><tei:pb n="361" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n385_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_public_opening">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/opening"><j:conditional xml:id="shabbat_torah_public_opening">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/heytivah"/><tei:note type="instruction" xml:lang="en">The ark is opened. Reader and Congregation:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/opening/vayehi"><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vayehi_binsoa"/></tei:div>        <j:conditional xml:id="shabbat_torah_festival_opening">
+        </j:conditional><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">הוצאת ספר תורה</tei:head><tei:pb n="361" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n385_medium.jpg"/>        <tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/heytivah"/><tei:note type="instruction" xml:lang="en">The ark is opened. Reader and Congregation:</tei:note><tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/opening/vayehi"><j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vayehi_binsoa"/></tei:div>        <j:conditional xml:id="shabbat_torah_festival_opening">
           <tei:note type="instruction" xml:lang="en">On festivals occurring on weekdays add:</tei:note>
 <j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">

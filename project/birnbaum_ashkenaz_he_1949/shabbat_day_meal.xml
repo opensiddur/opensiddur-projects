@@ -31,7 +31,13 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/day_meal"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">סעודת יום השבת</tei:head><tei:pb n="423" ed="1949 shabbat/day_meal" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n447_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/zemirot"/></tei:div>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/day_meal"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">סעודת יום השבת</tei:head><tei:pb n="423" ed="1949 shabbat/day_meal" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n447_medium.jpg"/>        <j:conditional xml:id="day_meal_shabbat_kiddush">
+<j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/kiddush"/>        <j:endConditional target="#day_meal_shabbat_kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal/zemirot"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

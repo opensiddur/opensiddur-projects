@@ -60,7 +60,23 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs></j:any></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/candles"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/kiddush"/><j:endConditional target="#festival_festival_occasion"/></tei:div>
+        </j:conditional>        <j:conditional xml:id="festival_evening_candles">
+<j:any>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="minha">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/candles"/>        <j:endConditional target="#festival_evening_candles"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/>        <j:conditional xml:id="festival_evening_kiddush">
+          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/kiddush"/>        <j:endConditional target="#festival_evening_kiddush"/><j:endConditional target="#festival_festival_occasion"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

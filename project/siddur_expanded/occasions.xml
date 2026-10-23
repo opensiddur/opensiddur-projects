@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מועדים ומנהגים</tei:title>
+        <tei:title type="alt" xml:lang="en">Occasional rites</tei:title>
+        <tei:respStmt>
+          <tei:resp key="mrk">Arrangement and markup</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:p>Expanded Ashkenazi siddur: prayers in recitation order. Prayer words are transcluded from their source editions. Birnbaum supplies selected High Holiday services and rites, not a complete mahzor.</tei:p>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:expanded/occasions@siddur_expanded</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>This project arranges prayer text from Birnbaum 1949 and readings from the Humash and Tanakh editions. See <tei:ref target="urn:x-opensiddur:text:siddur:expanded@siddur_expanded">the project index</tei:ref> for the editorial arrangement.</tei:bibl>
+        <tei:bibl>
+          <tei:title>Birnbaum, ha-Siddur ha-Shalem (1949)</tei:title>
+          <tei:ptr target="urn:x-opensiddur:text:siddur:siddur@birnbaum_ashkenaz_he_1949"/>
+        </tei:bibl>
+        <tei:bibl>
+          <tei:title>Humash reading divisions</tei:title>
+          <tei:ptr target="urn:x-opensiddur:text:bible:humash@humash"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:expanded/occasions">
+        <j:conditional xml:id="expanded_condition_2614">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="eruv-tavshilin">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:div>
+          <tei:head xml:lang="he">עֵרוּב תַּבְשִׁילִין</tei:head>
+          <tei:head xml:lang="en">ERUV TAVSHILIN</tei:head>
+          <tei:pb n="585" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n609_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Recited over food on the eve of a festival that is followed by a Sabbath</tei:note>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eruv_tavshilin/blessing"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eruv_tavshilin/declaration"/>
+        </tei:div>
+        <j:endConditional target="#expanded_condition_2614"/>
+        <j:conditional xml:id="expanded_condition_2615">
+          <j:all>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="yom-tov">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <j:any>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="pesah">
+                    <tei:numeric value="1" max="8"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="shavuot">
+                    <tei:numeric value="1" max="2"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="sukkot">
+                    <tei:numeric value="1" max="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="shmini-atzeret">
+                    <tei:numeric value="1" max="2"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+            </j:all>
+            <tei:fs type="opensiddur:service-time">
+              <tei:f name="maariv">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:div>
+          <tei:head xml:lang="he">הַדְלָקַת נֵר שֶׁל יוֹם טוֹב</tei:head>
+          <tei:head xml:lang="en">LIGHTING THE FESTIVAL LIGHTS</tei:head>
+          <tei:pb n="585" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n609_medium.jpg"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlakat_ner_yom_tov"/>
+          <j:conditional xml:id="occurrence_395_festival_candles_shehecheyanu">
+            <tei:note type="instruction" xml:lang="en">On the first night add:</tei:note>
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:israel">
+                  <tei:f name="is-israel">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <j:any>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="pesah">
+                      <tei:numeric value="1" max="1"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="shavuot">
+                      <tei:numeric value="1" max="1"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="sukkot">
+                      <tei:numeric value="1" max="1"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="shmini-atzeret">
+                      <tei:numeric value="1" max="1"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:any>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:israel">
+                  <tei:f name="is-israel">
+                    <tei:binary value="false"/>
+                  </tei:f>
+                </tei:fs>
+                <j:any>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="pesah">
+                      <tei:numeric value="1" max="2"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="shavuot">
+                      <tei:numeric value="1" max="2"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="sukkot">
+                      <tei:numeric value="1" max="2"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="shmini-atzeret">
+                      <tei:numeric value="1" max="2"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:any>
+              </j:all>
+            </j:any>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+          <j:endConditional target="#occurrence_395_festival_candles_shehecheyanu"/>
+        </tei:div>
+        <j:endConditional target="#expanded_condition_2615"/>
+        <tei:div>
+          <tei:pb n="669" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n693_medium.jpg"/>
+          <j:conditional xml:id="occurrence_399_festival_rh_tashlikh_day">
+            <j:any>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+                <j:none>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:none>
+              </j:all>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:conditional>
+          <tei:note type="description" xml:lang="en">Performed on the afternoon of the first day of Rosh Hashanah, or on the second, should Sabbath commence the festival. Processions are formed to the banks of a river, where the following is recited:</tei:note>
+          <tei:div>
+            <tei:head>תַּשְׁלִיךְ</tei:head>
+            <tei:head>TASHLIKH</tei:head>
+            <tei:pb n="669" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n693_medium.jpg"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/micah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/min_hametzar"/>
+            <tei:div>
+              <tei:head>תהלים לג</tei:head>
+              <tei:head>Psalm 33</tei:head>
+              <tei:pb n="669" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n693_medium.jpg"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/psalm33"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/isaiah11_9"/>
+            <tei:div>
+              <tei:head>תהלים קל</tei:head>
+              <tei:head>Psalm 130</tei:head>
+              <tei:pb n="671" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n695_medium.jpg"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/psalm130"/>
+            </tei:div>
+          </tei:div>
+          <j:endConditional target="#occurrence_399_festival_rh_tashlikh_day"/>
+        </tei:div>
+        <tei:div>
+          <tei:pb n="673" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n697_medium.jpg"/>
+          <j:conditional xml:id="occurrence_401_festival_rh_kapparot_day">
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="9"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:note type="description" xml:lang="en">Consisting in waving a fowl three times around the head after the recitation of the following paragraph on the day previous to Yom Kippur</tei:note>
+          <tei:div>
+            <tei:head>כַּפָּרוֹת</tei:head>
+            <tei:head>KAPPAROTH</tei:head>
+            <tei:pb n="673" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n697_medium.jpg"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/verses"/>
+            <j:conditional xml:id="occurrence_401_occurrence_400_festival_rh_fowl">
+              <j:any>
+                <tei:fs type="opensiddur:practice">
+                  <tei:f name="kapparot-object">
+                    <tei:symbol value="rooster"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:practice">
+                  <tei:f name="kapparot-object">
+                    <tei:symbol value="hen"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+            </j:conditional>
+            <tei:note type="description" xml:lang="en">Waving a fowl over the heads:</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/fowl"/>
+            <j:endConditional target="#occurrence_401_occurrence_400_festival_rh_fowl"/>
+            <j:conditional xml:id="occurrence_401_occurrence_400_festival_rh_money">
+              <tei:note type="instruction" xml:lang="en">When money is used in the Kapparoth ceremony:</tei:note>
+              <tei:fs type="opensiddur:practice">
+                <tei:f name="kapparot-object">
+                  <tei:symbol value="money"/>
+                </tei:f>
+              </tei:fs>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kapparot/money"/>
+            <j:endConditional target="#occurrence_401_occurrence_400_festival_rh_money"/>
+          </tei:div>
+          <j:endConditional target="#occurrence_401_festival_rh_kapparot_day"/>
+        </tei:div>
+        <j:conditional xml:id="expanded_condition_2616">
+          <j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+            </tei:fs>
+            <j:any>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="day">
+                  <tei:numeric value="9"/>
+                </tei:f>
+              </tei:fs>
+              <j:all>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="yom-kippur">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:service-time">
+                  <tei:f name="maariv">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
+        </j:conditional>
+        <tei:div>
+          <tei:head>הַדְלָקַת נֵר שֶׁל יוֹם הַכִּפּוּרִים</tei:head>
+          <tei:head>BLESSING OVER THE YOM KIPPUR LIGHTS</tei:head>
+          <tei:pb n="673" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n697_medium.jpg"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlakat_ner_yom_kippur/blessing"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/yk_shehecheyanu"/>
+        </tei:div>
+        <j:endConditional target="#expanded_condition_2616"/>
+        <j:conditional xml:id="expanded_condition_2617">
+          <tei:fs type="opensiddur:hebrew-date">
+            <tei:f name="day">
+              <tei:numeric value="3" max="15"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkat_halevanah"/>
+        <j:endConditional target="#expanded_condition_2617"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

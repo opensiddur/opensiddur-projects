@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/yekum_purkan"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Yekum Purkan</tei:head><tei:pb n="378" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n402_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_yekum_shabbat">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/yekum_purkan"><j:conditional xml:id="shabbat_torah_yekum_shabbat">
           <tei:note type="instruction" xml:lang="en">The following three paragraphs are recited on Sabbaths only.</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yekum_purkan/scholars"/>        <j:conditional xml:id="shabbat_torah_yekum_public">
+        </j:conditional><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Yekum Purkan</tei:head><tei:pb n="378" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n402_medium.jpg"/>        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yekum_purkan/scholars"/>        <j:conditional xml:id="shabbat_torah_yekum_public">
           <tei:note type="instruction" xml:lang="en">When praying in private, omit the following two paragraphs:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">

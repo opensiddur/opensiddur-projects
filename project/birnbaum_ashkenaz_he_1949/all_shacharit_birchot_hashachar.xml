@@ -66,6 +66,30 @@
         <tei:head xml:lang="he">תהלים לו, ח–יא</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/mah_yakar"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>
+        <j:conditional xml:id="morning_tefillin">
+          <tei:note type="instruction" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">On weekdays, except Shabbat, Yom Tov and Tish‘ah b’Av morning; on Ḥol ha-Mo‘ed, according to the custom of wearing tefillin:</tei:note>
+<j:all><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday">
+            <tei:f name="tisha-bav">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs></j:none><j:any><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none>          <tei:fs type="opensiddur:practice">
+            <tei:f name="tefillin-on-chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional>
         <tei:head xml:lang="he">סֵֽדֶר הַנָּחַת תְּפִלִּין</tei:head>
         <tei:note type="instruction" xml:lang="en">Meditation before putting on the tefillin</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/hineni_mekhaven"/>
@@ -80,6 +104,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/yehi_ratzon"/>
         <tei:head xml:lang="he">שמות יג, א–טז</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/parashiyot"/>
+        <j:endConditional target="#morning_tefillin"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
         <tei:head xml:lang="he">מסכת ברכות יא, א; ס, ב</tei:head>
@@ -219,6 +244,14 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/13"/>
         <tei:head xml:lang="he">אבות ה, כג; מלאכי ג, ד</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/yehi_ratzon"/>
+                <j:conditional xml:id="morning_study_kaddish">
+          <tei:note type="instruction" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <tei:head xml:lang="he">קַדִּישׁ דְּרַבָּנָן</tei:head>
         <tei:note type="instruction" xml:lang="en">Mourners:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitgadal"/>
@@ -227,6 +260,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/al_yisrael"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shlama"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
+        <j:endConditional target="#morning_study_kaddish"/>
         <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">On Sabbaths and on major festivals the service is continued on page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/opening@birnbaum_ashkenaz_he_1949"/>.</tei:seg></tei:note>
         <j:endDeclare target="#unit_service"/>
       </tei:div>

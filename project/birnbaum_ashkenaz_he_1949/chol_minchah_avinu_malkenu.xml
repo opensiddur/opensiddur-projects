@@ -32,6 +32,18 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/avinu_malkenu">
+<j:conditional xml:id="minchah_avinu">
+          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur and on fast days:</tei:note>
+<j:any>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional>
 <tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">אָבִֽינוּ מַלְכֵּֽנוּ</tei:head>
         <j:declare xml:id="unit_service">
           <tei:fs type="opensiddur:service-time">
@@ -64,21 +76,9 @@
           </tei:fs>
         </j:declare>
 <tei:pb n="175" ed="1949 chol/minchah/avinu_malkenu" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n199_medium.jpg"/>
-        <j:conditional xml:id="minchah_avinu">
-          <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur and on fast days:</tei:note>
-<j:any>          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="minor-fast">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs></j:any>
-        </j:conditional>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu"/>
-        <j:endConditional target="#minchah_avinu"/>
-<j:endDeclare target="#unit_service"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu"/>
+        <j:endDeclare target="#unit_service"/>
+<j:endConditional target="#minchah_avinu"/>
 </tei:div>
     </tei:body>
   </tei:text>

@@ -1,0 +1,52 @@
+description: Expanded Ashkenazi siddur in recitation order, with silent and repeated
+  Amidah occurrences and actual Torah and haftarah readings. The reader selects date,
+  location and service; unresolved alternatives retain their rubrics.
+book:
+  project: siddur_expanded
+  file_name: index.xml
+  title: Expanded Ashkenazi Siddur
+typography:
+  fonts:
+    hebrew:
+    - name: Frank Ruehl CLM
+      normal_size: 12
+    - name: Ezra SIL
+      normal_size: 12
+    - name: SBL Hebrew
+      normal_size: 12
+    - name: FreeSerif
+      normal_size: 12
+  instructions:
+    from: both
+priority:
+  transclusion:
+  - siddur_expanded
+  - humash
+  - miqra_al_pi_hamasorah
+  - wlc
+  - birnbaum_ashkenaz_he_1949
+  - birnbaum_ashkenaz_en_1949
+  - jps1917
+  instructions:
+  - siddur_expanded
+  - humash
+  - birnbaum_ashkenaz_he_1949
+  - birnbaum_ashkenaz_en_1949
+annotations:
+- birnbaum_ashkenaz_en_1949
+- miqra_al_pi_hamasorah
+print_once:
+  commentary: true
+parallel:
+  projects:
+  - jps1917
+  - birnbaum_ashkenaz_en_1949
+declarations:
+  opensiddur:override:
+    house-of-mourning: null
+  opensiddur:rite:
+    ashkenaz: true
+    sepharad: false
+  opensiddur:reading-cycle:
+    annual: true
+    triennial: false

@@ -109,7 +109,7 @@
             <tei:f name="hebrew-day">
               <tei:numeric value="2"/>
             </tei:f>
-          </tei:fs></j:all></j:any>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="21"/></tei:f></tei:fs></j:any>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot/5"/><j:endConditional target="#festival_sukkot_hoshana_5"/><j:conditional xml:id="festival_sukkot_hoshana_6">
           <tei:note type="instruction" xml:lang="en">Hoshana 6 according to the printed daily order:</tei:note>
 <j:any><j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="19"/></tei:f></tei:fs>          <tei:fs type="opensiddur:day-of-week">
@@ -128,7 +128,7 @@
             <tei:f name="hebrew-day">
               <tei:numeric value="4"/>
             </tei:f>
-          </tei:fs></j:all></j:any>
+          </tei:fs></j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="21"/></tei:f></tei:fs></j:any>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot/6"/><j:endConditional target="#festival_sukkot_hoshana_6"/><j:conditional xml:id="festival_sukkot_hoshana7">
           <tei:note type="instruction" xml:lang="en">On days other than Sabbath add:</tei:note>
           <j:none>
@@ -140,11 +140,11 @@
           </j:none>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot/7"/><j:endConditional target="#festival_sukkot_hoshana7"/><j:conditional xml:id="festival_sukkot_hoshana8">
           <tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note>
-          <tei:fs type="opensiddur:holiday-aggregate">
+<j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
               <tei:binary value="true"/>
             </tei:f>
-          </tei:fs>
+          </tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="21"/></tei:f></tei:fs></j:any>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshanot/8"/><j:endConditional target="#festival_sukkot_hoshana8"/><j:conditional xml:id="festival_sukkot_rabbah">
           <tei:note type="instruction" xml:lang="en">On Hoshana Rabbah:</tei:note>
 <tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="21"/></tei:f></tei:fs>
