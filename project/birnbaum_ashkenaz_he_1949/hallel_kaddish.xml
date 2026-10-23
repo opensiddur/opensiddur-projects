@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:hallel/kaddish"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדיש לאחר הלל</tei:head>        <j:conditional xml:id="hallel_minyan">
+<tei:div corresp="urn:x-opensiddur:text:siddur:hallel/kaddish"><j:conditional xml:id="hallel_minyan">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional>        <j:conditional xml:id="hallel_full_kaddish">
+        </j:conditional>        <tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדיש לאחר הלל</tei:head>        <j:conditional xml:id="hallel_full_kaddish">
 <j:any>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
               <tei:numeric value="1" max="2"/>

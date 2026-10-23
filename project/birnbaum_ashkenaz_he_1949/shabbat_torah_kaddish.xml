@@ -31,13 +31,13 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/kaddish_before_musaf"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">חצי קדיש</tei:head><tei:pb n="389" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n413_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_final_kaddish">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/kaddish_before_musaf"><j:conditional xml:id="shabbat_torah_final_kaddish">
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><tei:note type="description" xml:lang="en">Reader, when a minyan holds service:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>        <j:endConditional target="#shabbat_torah_final_kaddish"/></tei:div>
+        </j:conditional><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">חצי קדיש</tei:head><tei:pb n="389" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n413_medium.jpg"/>        <tei:note type="description" xml:lang="en">Reader, when a minyan holds service:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>        <j:endConditional target="#shabbat_torah_final_kaddish"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

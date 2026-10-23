@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">מוסף לשלש רגלים</tei:head><j:declare xml:id="festival_musaf_context"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="false"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="true"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:conditional xml:id="festival_musaf_occasion">
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/musaf"><j:conditional xml:id="festival_musaf_occasion">
           <tei:note type="instruction" xml:lang="en">On festivals and Ḥol ha-Mo‘ed:</tei:note>
 <j:any><j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">
@@ -58,7 +58,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:any>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah"/><j:endConditional target="#festival_musaf_occasion"/><j:endDeclare target="#festival_musaf_context"/></tei:div>
+        </j:conditional><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">מוסף לשלש רגלים</tei:head><j:declare xml:id="festival_musaf_context"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="false"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="true"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah"/><j:endDeclare target="#festival_musaf_context"/><j:endConditional target="#festival_musaf_occasion"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

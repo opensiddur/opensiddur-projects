@@ -31,7 +31,23 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/pesukei_dezimra/nishmat"><tei:head xml:lang="en">NISHMATH</tei:head><tei:pb n="332" ed="1949 shabbat/shacharit/pesukei_dezimra" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n356_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:nishmat"/><tei:note type="instruction" xml:lang="en">On festivals the Reader begins here:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ha_el_btaatzumot"/><tei:note type="instruction" xml:lang="en">On Sabbaths the Reader begins here:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:shokhen_ad"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:bfi_yesharim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvmakhalot"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabach"/></tei:div>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/pesukei_dezimra/nishmat"><tei:head xml:lang="en">NISHMATH</tei:head><tei:pb n="332" ed="1949 shabbat/shacharit/pesukei_dezimra" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n356_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:nishmat"/>        <j:conditional xml:id="nishmat_reader_festival">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><tei:note type="instruction" xml:lang="en">On festivals the Reader begins here:</tei:note>        <j:endConditional target="#nishmat_reader_festival"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ha_el_btaatzumot"/>        <j:conditional xml:id="nishmat_reader_shabbat">
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><tei:note type="instruction" xml:lang="en">On Sabbaths the Reader begins here:</tei:note>        <j:endConditional target="#nishmat_reader_shabbat"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:shokhen_ad"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:bfi_yesharim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvmakhalot"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabach"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

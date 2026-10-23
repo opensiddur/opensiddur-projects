@@ -32,6 +32,14 @@
   <tei:text>
     <tei:body>
 <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/kaddish">
+<j:conditional xml:id="minchah_full_kaddish">
+          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
 <tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Full Kaddish</tei:head>
         <j:declare xml:id="unit_service">
           <tei:fs type="opensiddur:service-time">
@@ -64,23 +72,15 @@
           </tei:fs>
         </j:declare>
 <tei:pb n="184" ed="1949 chol/minchah/kaddish" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n208_medium.jpg"/>
-        <j:conditional xml:id="minchah_full_kaddish">
-          <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
-          <tei:fs type="opensiddur:quorum">
-            <tei:f name="minyan">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
-<tei:note type="instruction" xml:lang="en">Reader:</tei:note>
+        <tei:note type="instruction" xml:lang="en">Reader:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgadal"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titkabal"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shlama"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
-        <j:endConditional target="#minchah_full_kaddish"/>
-<j:endDeclare target="#unit_service"/>
+        <j:endDeclare target="#unit_service"/>
+<j:endConditional target="#minchah_full_kaddish"/>
 </tei:div>
     </tei:body>
   </tei:text>

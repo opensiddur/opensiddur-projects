@@ -70,8 +70,28 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
-<tei:div><tei:head xml:lang="en">KEDUSHAH</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/></tei:div>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
+        <j:conditional xml:id="weekday_kedushah">
+<j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><tei:div><tei:head xml:lang="en">KEDUSHAH</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/></tei:div>        <j:endConditional target="#weekday_kedushah"/>
+        <j:conditional xml:id="weekday_silent_kedushat_hashem">
+<j:none><j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>        <j:endConditional target="#weekday_silent_kedushat_hashem"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
@@ -223,7 +243,17 @@
         </j:conditional>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim"/>
         <j:endConditional target="#minchah_peace_ten_days"/>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
+        <j:conditional xml:id="weekday_silent_meditation">
+<j:none><j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>        <j:endConditional target="#weekday_silent_meditation"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
 <j:endDeclare target="#unit_service"/>
 </tei:div>

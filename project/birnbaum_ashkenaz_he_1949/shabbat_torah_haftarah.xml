@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/haftarah"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">ברכות ההפטרה</tei:head><tei:pb n="373" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n397_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_public_haftarah">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/haftarah"><j:conditional xml:id="shabbat_torah_public_haftarah">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><tei:note type="instruction" xml:lang="en">Before reading the Haftarah, the Maftir chants:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/asher_bachar"/><tei:note type="instruction" xml:lang="en">After reading the Haftarah:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/after"/>        <j:conditional xml:id="shabbat_torah_haftarah_shabbat">
+        </j:conditional><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">ברכות ההפטרה</tei:head><tei:pb n="373" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n397_medium.jpg"/>        <tei:note type="instruction" xml:lang="en">Before reading the Haftarah, the Maftir chants:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/asher_bachar"/><tei:note type="instruction" xml:lang="en">After reading the Haftarah:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/after"/>        <j:conditional xml:id="shabbat_torah_haftarah_shabbat">
           <tei:note type="instruction" xml:lang="en">On Sabbaths, including Ḥol ha-Mo‘ed Passover:</tei:note>
           <j:none>
 <j:any>          <tei:fs type="opensiddur:holiday-aggregate">

@@ -31,7 +31,13 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat"><tei:head xml:lang="en">FOR SABBATH EVE</tei:head><tei:pb n="284" ed="1949 shabbat/leil_shabbat" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n308_medium.jpg"/><tei:note type="instruction" xml:lang="en">Upon returning from synagogue:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:poem:shalom_aleichem"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/guarding_verses"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim_adon_kol_haneshamot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/eshet_chayil"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/zemirot"/></tei:div>
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat"><tei:head xml:lang="en">FOR SABBATH EVE</tei:head><tei:pb n="284" ed="1949 shabbat/leil_shabbat" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n308_medium.jpg"/><tei:note type="instruction" xml:lang="en">Upon returning from synagogue:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:poem:shalom_aleichem"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/guarding_verses"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim_adon_kol_haneshamot"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/eshet_chayil"/>        <j:conditional xml:id="night_meal_shabbat_kiddush">
+<j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/kiddush"/>        <j:endConditional target="#night_meal_shabbat_kiddush"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/zemirot"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

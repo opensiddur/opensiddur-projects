@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/conclusion/after_amidah"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">תוספות לאחר העמידה</tei:head><tei:pb n="537" ed="1949 shabbat/conclusion" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n561_medium.jpg"/>        <j:conditional xml:id="shabbat_minchah_motzaei_week">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/conclusion/after_amidah"><j:conditional xml:id="shabbat_minchah_motzaei_week">
           <tei:note type="instruction" xml:lang="en">Unless Yom Tov occurs Sunday–Friday of the coming week:</tei:note>
 <j:none>          <tei:fs type="opensiddur:motzaei-shabbat">
             <tei:f name="omit-vihi-noam">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none>
-        </j:conditional>        <j:conditional xml:id="shabbat_minchah_motzaei_vihi">
+        </j:conditional>        <tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">תוספות לאחר העמידה</tei:head><tei:pb n="537" ed="1949 shabbat/conclusion" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n561_medium.jpg"/>        <j:conditional xml:id="shabbat_minchah_motzaei_vihi">
           <tei:note type="instruction" xml:lang="en">Except on Tish‘ah b’Av:</tei:note>
           <j:none>
           <tei:fs type="opensiddur:holiday">

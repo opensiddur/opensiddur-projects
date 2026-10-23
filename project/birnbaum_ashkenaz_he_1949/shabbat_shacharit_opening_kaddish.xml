@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/opening/kaddish"><tei:head xml:lang="he">קדיש יתום</tei:head><tei:pb n="299" ed="1949 shabbat/shacharit/pesukei_dezimra" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n323_medium.jpg"/>        <j:conditional xml:id="shabbat_pesukei_yatom">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/opening/kaddish"><j:conditional xml:id="shabbat_pesukei_yatom">
           <tei:note type="instruction" xml:lang="en">With a minyan:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>        <j:endConditional target="#shabbat_pesukei_yatom"/></tei:div>
+        </j:conditional><tei:head xml:lang="he">קדיש יתום</tei:head><tei:pb n="299" ed="1949 shabbat/shacharit/pesukei_dezimra" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n323_medium.jpg"/>        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>        <j:endConditional target="#shabbat_pesukei_yatom"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

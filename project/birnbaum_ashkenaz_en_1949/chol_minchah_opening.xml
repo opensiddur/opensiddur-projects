@@ -78,7 +78,15 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shmeh"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
         <j:endConditional target="#minchah_half_kaddish"/>
+        <j:conditional xml:id="minchah_torah_rubric">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
 <tei:note type="instruction" xml:lang="en">On fast days (except Tish‘ah b’Av) the Torah is taken out before the Shemoneh Esreh is recited, and Exodus 32:11–14 and 34:1–10 is read (if ten people fasting are present). The Torah reading is followed by the Haftarah taken from Isaiah 55:6–56:8.</tei:note>
+        <j:endConditional target="#minchah_torah_rubric"/>
 <j:endDeclare target="#unit_service"/>
 </tei:div>
     </tei:body>

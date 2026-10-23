@@ -31,7 +31,21 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/musaf"><tei:head xml:lang="he">מוּסָף לְשַׁבָּת</tei:head><tei:pb n="391" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n415_medium.jpg"/><j:declare xml:id="shabbat_musaf_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="false"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="true"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare>        <j:conditional xml:id="shabbat_musaf_sabbath_amidah">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/musaf">        <j:conditional xml:id="shabbat_musaf_heading">
+<j:all>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:none>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="yom-tov">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="chol-hamoed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:none></j:all>
+        </j:conditional><tei:head xml:lang="he">מוּסָף לְשַׁבָּת</tei:head>        <j:endConditional target="#shabbat_musaf_heading"/><tei:pb n="391" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n415_medium.jpg"/><j:declare xml:id="shabbat_musaf_service"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="false"/></tei:f><tei:f name="minha"><tei:binary value="false"/></tei:f><tei:f name="maariv"><tei:binary value="false"/></tei:f><tei:f name="musaf"><tei:binary value="true"/></tei:f><tei:f name="neila"><tei:binary value="false"/></tei:f><tei:f name="slihot"><tei:binary value="false"/></tei:f></tei:fs></j:declare>        <j:conditional xml:id="shabbat_musaf_sabbath_amidah">
           <tei:note type="instruction" xml:lang="en">On Sabbaths, including Rosh Ḥodesh, except on festivals and Ḥol ha-Mo‘ed:</tei:note>
 <j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">

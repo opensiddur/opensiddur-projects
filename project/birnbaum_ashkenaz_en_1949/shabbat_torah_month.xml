@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/month"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Blessing of the New Month</tei:head><tei:pb n="382" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n406_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_month">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/month"><j:conditional xml:id="shabbat_torah_month">
           <tei:note type="instruction" xml:lang="en">Recited on the Sabbath preceding Rosh Ḥodesh:</tei:note>
 <j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
@@ -42,7 +42,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yehi_ratzon"/><tei:note type="instruction" xml:lang="en">The Reader takes the Torah and recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/mi_sheasah"/><tei:note type="instruction" xml:lang="en">Announcing the day of Rosh Ḥodesh:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/rosh_chodesh"/><tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yechadshehu"/>        <j:endConditional target="#shabbat_torah_month"/></tei:div>
+        </j:conditional><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Blessing of the New Month</tei:head><tei:pb n="382" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n406_medium.jpg"/>        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yehi_ratzon"/><tei:note type="instruction" xml:lang="en">The Reader takes the Torah and recites:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/mi_sheasah"/><tei:note type="instruction" xml:lang="en">Announcing the day of Rosh Ḥodesh:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/rosh_chodesh"/><tei:note type="instruction" xml:lang="en">Congregation and Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yechadshehu"/>        <j:endConditional target="#shabbat_torah_month"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

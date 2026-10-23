@@ -68,9 +68,33 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
+        <j:conditional xml:id="weekday_kedushah">
+<j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional>
         <tei:head xml:lang="en">KEDUSHAH</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/>
+        <j:endConditional target="#weekday_kedushah"/>
+        <j:conditional xml:id="weekday_silent_kedushat_hashem">
+<j:none><j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all></j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
+        <j:endConditional target="#weekday_silent_kedushat_hashem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
@@ -86,9 +110,33 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
+        <j:conditional xml:id="weekday_reader_birkat_kohanim">
+<j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
+        <j:endConditional target="#weekday_reader_birkat_kohanim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
+        <j:conditional xml:id="weekday_silent_meditation">
+<j:none><j:all>          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all></j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
+        <j:endConditional target="#weekday_silent_meditation"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
         <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">Hallel (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:hallel/blessing@birnbaum_ashkenaz_he_1949"/>) is recited here on Rosh Ḥodesh, Ḥol ha-Mo‘ed and Ḥanukkah.</tei:seg></tei:note>
         <tei:div>

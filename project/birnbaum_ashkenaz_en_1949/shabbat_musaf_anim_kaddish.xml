@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/musaf/anim_kaddish"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Mourners’ Kaddish</tei:head><tei:pb n="420" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n444_medium.jpg"/>        <j:conditional xml:id="shabbat_musaf_anim_kaddish">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/musaf/anim_kaddish"><j:conditional xml:id="shabbat_musaf_anim_kaddish">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>        <j:endConditional target="#shabbat_musaf_anim_kaddish"/></tei:div>
+        </j:conditional><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Mourners’ Kaddish</tei:head><tei:pb n="420" ed="1949 shabbat/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n444_medium.jpg"/>        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>        <j:endConditional target="#shabbat_musaf_anim_kaddish"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

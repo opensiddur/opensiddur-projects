@@ -38,13 +38,35 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/greeting"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush"/><j:endConditional target="#festival_rh_rh_occasion"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/tashlikh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yom_kippur/kapparot"/><j:conditional xml:id="festival_rh_yk_candles">
-          <tei:note type="instruction" xml:lang="en">Before Yom Kippur begins:</tei:note>
-          <tei:fs type="opensiddur:holiday">
-            <tei:f name="yom-kippur">
-              <tei:numeric value="1" max="1"/>
+        </j:conditional>        <j:conditional xml:id="rh_amidah_service">
+<j:any>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="minha">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah"/>        <j:endConditional target="#rh_amidah_service"/>        <j:conditional xml:id="rh_evening_greeting">
+          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/greeting"/>        <j:endConditional target="#rh_evening_greeting"/>        <j:conditional xml:id="rh_evening_kiddush">
+          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush"/>        <j:endConditional target="#rh_evening_kiddush"/><j:endConditional target="#festival_rh_rh_occasion"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/tashlikh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yom_kippur/kapparot"/><j:conditional xml:id="festival_rh_yk_candles">
+          <tei:note type="instruction" xml:lang="en">Before Yom Kippur begins:</tei:note>
+<j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9"/></tei:f></tei:fs>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="minha">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
         </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlakat_ner_yom_kippur"/><j:endConditional target="#festival_rh_yk_candles"/></tei:div>
     </tei:body>
   </tei:text>

@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/memorial"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Commemoration of Martyrs</tei:head><tei:pb n="384" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n408_medium.jpg"/>        <j:conditional xml:id="shabbat_torah_memorial">
+<tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/memorial"><j:conditional xml:id="shabbat_torah_memorial">
           <tei:note type="instruction" xml:lang="en">Omitted on festivals, on Sabbaths occurring on Rosh Ḥodesh, and on all distinguished Sabbaths such as Parashath Shekalim.</tei:note>
 <j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
@@ -82,7 +82,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/shokhen_meromim"/>        <j:endConditional target="#shabbat_torah_memorial"/></tei:div>
+        </j:conditional><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Commemoration of Martyrs</tei:head><tei:pb n="384" ed="1949 shabbat/shacharit/torah" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n408_medium.jpg"/>        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/shokhen_meromim"/>        <j:endConditional target="#shabbat_torah_memorial"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
