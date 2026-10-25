@@ -1,7 +1,8 @@
-# Printed books
+# Books
 
-Each file here is an exporter settings file for one printed book. Every opensiddur-ai release
-builds all of them into PDFs and attaches them to the release.
+Each file here is an exporter settings file for one book. Every opensiddur-ai release builds
+all of them, as an electronic book (HTML) and a printed one (PDF), and attaches them to the
+release.
 
 ```
 settings/
@@ -26,8 +27,15 @@ settings/
     ...
   ```
 
-- The release asset is `<book>-<variant>-<tag>.pdf`, e.g. `humash-annual-v0.5.0.pdf`. Names are
-  lowercase with `_` between words.
+- A book is built in both forms unless its `formats:` says otherwise. A book read only on a
+  device lists just the electronic one:
+
+  ```yaml
+  formats: [html]   # html, pdf, or both (the default)
+  ```
+
+- The release assets are `<book>-<variant>-<tag>.html` and `.pdf`, e.g.
+  `humash-annual-v0.5.0.pdf`. Names are lowercase with `_` between words.
 
 The rest of the format is documented in opensiddur-ai: `opensiddur/exporter/README.md` and
 `doc/typography.md`.
