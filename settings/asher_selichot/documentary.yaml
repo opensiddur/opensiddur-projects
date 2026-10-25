@@ -13,12 +13,18 @@ priority:
   transclusion:
   - asher_selichot_he_1912
   - asher_selichot_en_1912
+  # An electronic book leaves the reader's choice to expand the Full Kaddish undecided, so
+  # Birnbaum's text, which supplies it, must be resolvable even though this book prints
+  # the abbreviation.
+  - birnbaum_ashkenaz_he_1949
+  - birnbaum_ashkenaz_en_1949
   instructions:
   - asher_selichot_he_1912
   - asher_selichot_en_1912
 parallel:
   projects:
   - asher_selichot_en_1912
+  - birnbaum_ashkenaz_en_1949
 readings:
   abbreviations: abbreviated
 # The editor's notes (standoff, each beginning "Editor:") are in the English project.
