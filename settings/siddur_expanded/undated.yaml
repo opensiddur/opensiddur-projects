@@ -1,6 +1,10 @@
 description: Expanded Ashkenazi siddur in recitation order, with silent and repeated
   Amidah occurrences and actual Torah and haftarah readings. The reader selects date,
   location and service; unresolved alternatives retain their rubrics.
+# Only the electronic book: its reader chooses the date, place and service on the device,
+# and an undated printed siddur, every day's alternatives with their rubrics, is not wanted.
+formats:
+- html
 book:
   project: siddur_expanded
   file_name: index.xml
