@@ -31,7 +31,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: release-${{ inputs.tag || 'new' }}
+  group: release-${{ inputs.tag || 'new' }}-${{ inputs.book || 'all' }}
   cancel-in-progress: false
 
 jobs:
