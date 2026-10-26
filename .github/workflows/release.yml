@@ -1,0 +1,43 @@
+name: Release
+
+# Monthly books release (opensiddur-ai#216): tags this repository with the date (vYYYYMMDD),
+# builds every book in settings/ with the latest opensiddur-ai release, and attaches them to the
+# release of that tag. A month with no new commits here and no new opensiddur-ai release is
+# skipped. The work is done by opensiddur-ai's release-projects.yml; see its RELEASE_PROCEDURE.md.
+#
+# Run by hand: with nothing set, to release now if anything is new; with `force`, even if
+# nothing is; with `tag` (and optionally `book`), to rebuild an existing release.
+#
+# GitHub turns off scheduled workflows in a repository with no activity for 60 days; turn this
+# one back on from the Actions tab if the monthly release stops.
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Make a new release even when nothing has changed since the last one
+        type: boolean
+        default: false
+      tag:
+        description: Rebuild this existing release (e.g. v20261101) instead of making a new one
+        default: ''
+      book:
+        description: With tag, rebuild only this settings file, as <book>/<variant> (e.g. humash/annual)
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ inputs.tag || 'new' }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    uses: opensiddur/opensiddur-ai/.github/workflows/release-projects.yml@main
+    with:
+      force: ${{ inputs.force == true }}
+      tag: ${{ inputs.tag }}
+      book: ${{ inputs.book }}

@@ -5,6 +5,8 @@ description: Expanded Ashkenazi siddur in recitation order, with silent and repe
 # and an undated printed siddur, every day's alternatives with their rubrics, is not wanted.
 formats:
 - html
+# The earliest opensiddur-ai release that can build this book: `formats:` is newer than 0.6.0.
+minimum_version: 0.7.0
 book:
   project: siddur_expanded
   file_name: index.xml
