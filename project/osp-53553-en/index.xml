@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Many and the Few</tei:title>
+        <tei:title type="alt" xml:lang="he">רַבִּים בְּיַד מְעַטִּים (Rabim b'Yad M'atim) — a Hebrew adaptation of Woody Guthrie's Ḥanukkah ballad by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Many and the Few</tei:title>
+          <tei:title xml:lang="he">רַבִּים בְּיַד מְעַטִּים (Rabim b'Yad M'atim) — a Hebrew adaptation of Woody Guthrie's Ḥanukkah ballad by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Woody Guthrie</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1949">1949</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/the-many-and-the-few-by-woody-guthrie-hebrew-adaptation-by-isaac-gantwerk-mayer/</tei:idno>
+          <tei:idno type="opensiddur.org">53553</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53553_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>Did you know that the great songwriter and activist Woody Guthrie wrote Ḥanukkah music? It’s true. Though Guthrie himself was not Jewish, Marjorie Greenblatt, his second wife and their children were, and he would write Ḥanukkah songs for the kids in his neighborhood in the 1940s. Two of these songs were recorded by Moses Asch, head of Folkways Records, in 1949 — a kid’s song called “Hanuka Dance,” and a twenty-verse ballad retelling the story of Ḥanukkah called “The Many and the Few.” Below is an original Hebrew translation of “The Many and the Few,” preserving the meter of the original. With a simple melody and a lot of historical research, it could certainly be sung at a Ḥanukkah event.</tei:p>
+        <tei:p>A recording of the Hebrew is forthcoming. For further information about the original songs in question and Woody Guthrie’s connection with the Yiddish folk world, check here and here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53553_introduction"/>
+      <j:conditional xml:id="osp_53553_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="notes">
+        <tei:p>Recording(s)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53553_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_many_and_the_few_by_woody_guthrie_hebrew_adaptation_by_isaac_gantwerk_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

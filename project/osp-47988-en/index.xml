@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet am Lichtfeste</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer at the Festival of Light (Ḥanukkah), a teḥinah by Max Emanuel Stern (1841)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet am Lichtfeste</tei:title>
+          <tei:title xml:lang="en">Prayer at the Festival of Light (Ḥanukkah), a teḥinah by Max Emanuel Stern (1841)</tei:title>
+          <tei:author>Menaḥem Mendel Stern</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1841">1841</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/gebet-am-lichtfeste-by-max-emanuel-stern-1841/</tei:idno>
+          <tei:idno type="opensiddur.org">47988</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/die-fromme-zionstochter-max-emanuel-stern-1841/Die%20fromme%20Zionstochter%20%28Max%20Emanuel%20Stern%201841%29#page/60/mode/2up">https://archive.org/stream/die-fromme-zionstochter-max-emanuel-stern-1841/Die%20fromme%20Zionstochter%20%28Max%20Emanuel%20Stern%201841%29#page/60/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_47988_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="notes">
+        <tei:p>“Gebet am Lichtfeste” by Max Emanuel Stern was first published in his anthology of teḥinot <tei:hi rend="italic">Die Fromme Ẓionstochter: Andachtsbuch für Israels Frauen und Mädchen</tei:hi> (1841), pp. 60-63.</tei:p>
+        <tei:p>We welcome corrections and improvements. The transcription of the German from Latin script in Fraktur type provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_47988_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_am_lichtfeste_by_max_emanuel_stern_1841"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

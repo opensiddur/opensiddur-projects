@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yā Ḥanukka[t]</tei:title>
+        <tei:title type="alt" xml:lang="he">יָא חַנוּכָּה</tei:title>
+        <tei:title type="alt" xml:lang="en">يَا حَنُكَّة — a Judeo-Arabic adaptation of Mordkhe Rivesman's "Oy Khanike" by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Yā Ḥanukka[t]</tei:title>
+          <tei:title xml:lang="he">יָא חַנוּכָּה</tei:title>
+          <tei:title xml:lang="en">يَا حَنُكَّة — a Judeo-Arabic adaptation of Mordkhe Rivesman's "Oy Khanike" by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-12-07">2023-12-07</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/ya-hanukkat-a-judeo-arabic-adaptation-of-mordkhe-rivesemans-oy-khanike-by-isaac-gantwerk-mayer/</tei:idno>
+          <tei:idno type="opensiddur.org">53572</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53572_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>An original Judeo-Arabic adaptation of the song “Oy Khanike” (derived from the Yiddish poem of the same name by Mordkhe Rivesman) also known in English as “Oh Ḥanukkah” or in Hebrew as “Y’mei ha-Ḥanukka.” With thanks to Mazen Haddad for his help with the Arabic! Some notes: 1) Case endings and nunation, which would (in colloquial dialects) often be skipped or dropped, are transcribed in brackets. 2) The word “sufnāj” is a Moroccan Arabic dialectal word which is the agent noun for sfenj, a traditional type of North African doughnut.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53572_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ya_hanukkat_a_judeo_arabic_adaptation_of_mordkhe_rivesemans_oy_khanike_by_isaac_gantwerk_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

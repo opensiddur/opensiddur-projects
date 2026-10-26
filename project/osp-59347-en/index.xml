@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הכרזה לימי הודיה (פורים וחנוכה)</tei:title>
+        <tei:title type="main" xml:lang="en">Hakhrazah li-Ymei ha-Hodayah — Announcement for Days of Miraculous Thanksgiving (Purim and Ḥanukkah)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הכרזה לימי הודיה (פורים וחנוכה)</tei:title>
+          <tei:title xml:lang="en">Hakhrazah li-Ymei ha-Hodayah — Announcement for Days of Miraculous Thanksgiving (Purim and Ḥanukkah)</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-12-20">2024-12-20</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/hakhrazah-liymei-hahodayah-announcement-for-days-of-miraculous-thanksgiving-purim-and-hanukkah/</tei:idno>
+          <tei:idno type="opensiddur.org">59347</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59347_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>An original announcement, or hakhrazah, for days of thanksgiving (Purim and Ḥanukkah). Written in the style of other more well-known announcements, like the Sephardic announcement of fasts, or the Italian-rite announcement for Pesaḥ, and to be recited in the same location in the Torah service after the haftarah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59347_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hakhrazah_liymei_hahodayah_announcement_for_days_of_miraculous_thanksgiving_purim_and_hanukkah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

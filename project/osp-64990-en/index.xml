@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אָשִׁירָה לְצוּר נוֹרָא</tei:title>
+        <tei:title type="main" xml:lang="en">Ashira l-Tsur Nora — a piyyuṭ for Ḥanukkah by Rabbi Salomon Berdugo of Meknes</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אָשִׁירָה לְצוּר נוֹרָא</tei:title>
+          <tei:title xml:lang="en">Ashira l-Tsur Nora — a piyyuṭ for Ḥanukkah by Rabbi Salomon Berdugo of Meknes</tei:title>
+          <tei:author>Salomon Berdugo</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1874" to="1906">1874 – 1906</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/ashira-ltsur-nora-a-piyyut-for-hanukkah-by-salomon-berdugo-of-meknes/</tei:idno>
+          <tei:idno type="opensiddur.org">64990</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64990_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>This is a Ḥanukkah piyyut by R. Salomon Berdugo (1854–1906), illustrious payṭan and the chief rabbi of Meknes, Morocco. According to the Kehillot Sharot organization’s notes, found here, “This piyyut speaks of the miracles that occured for the Hasmoneans, both in war against the Greeks and in purification of the Temple. It is customarily sung in Maqam Hijaz.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64990_introduction"/>
+      <j:conditional xml:id="osp_64990_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="notes">
+        <tei:p>This is a piyyut by Salomon Berdugo digitally transcribed by Kehillot Sharot and published to their website. The English translation is by Isaac Gantwerk Mayer. (Thank you!)</tei:p>
+        <tei:p>Recording(s)</tei:p>
+        <tei:p>Notes</tei:p>
+        <tei:p>Notes 1 Song of Songs 5:7 2 In most texts this word is dotted with a shin as the more common word שָׁחוּ “they stooped.” But in traditional Moroccan Hebrew pronunciation (not including Tetouan), shin and sin are both pronounced as /s/, and the other two words in this verset both refer to walking. 3 Find Ezekiel 43:12. 4 Find Exodus 39:37. In some texts, written as the more common word מַעֲרֶֽכֶת, which loses the rhyme and is not found in the verse. 5 Psalms 105:6. In traditional Moroccan Hebrew pronunciation (not including Tetouan), the vowels וֹ and וּ are both pronounced as /u/, and thus this stanza rhymes. 6 Psalms 117:2 7 Psalms 66:17</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64990_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ashira_ltsur_nora_a_piyyut_for_hanukkah_by_salomon_berdugo_of_meknes"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

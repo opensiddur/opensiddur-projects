@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מָעוֹז צוּר</tei:title>
+        <tei:title type="main" xml:lang="en">Maoz Tsur (Stronghold Rock who Rescues Me), complete poetic translation by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מָעוֹז צוּר</tei:title>
+          <tei:title xml:lang="en">Maoz Tsur (Stronghold Rock who Rescues Me), complete poetic translation by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Mordekhai ben Yitsḥaq ha-Levi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1240" to="1300">1240 – 1300</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/maoz-tsur-stronghold-rock-who-rescues-me-complete-poetic-translation-by-isaac-gantwerk-mayer/</tei:idno>
+          <tei:idno type="opensiddur.org">48000</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48000_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>A complete poetic translation (all six verses) of Maoz Tsur. As far as the editor knows this is the first translation of Maoz Tsur to both (a) cover all the verses relatively accurately and (b) preserve the strict ABAB-BBCCB rhyme scheme of the original. (Reb Zalman’s comes close but it goes ABAB-CCDDC instead). If it sounds violent, that’s because it *is* violent. Ḥanukkah is a holiday about actively fighting against assimilation and abuse. A lot of Maoz Tsur translations are censored, but it’s a powerful, loud, and even nationalist statement.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48000_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

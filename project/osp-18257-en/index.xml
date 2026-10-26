@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">זאָג ניט קײן מאָל</tei:title>
+        <tei:title type="main" xml:lang="en">Partisaner Lid (the Partisan Song), by Hirsh Glik (Vilna Ghetto, 1943)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/comyakowenko">comYakowenko</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/noam-lerman">Noam Lerman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">זאָג ניט קײן מאָל</tei:title>
+          <tei:title xml:lang="en">Partisaner Lid (the Partisan Song), by Hirsh Glik (Vilna Ghetto, 1943)</tei:title>
+          <tei:author>Hirsh Glik</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1943">1943</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/partisaner-lid-the-partisan-song-by-hirsh-glik-vilna-ghetto-1943/</tei:idno>
+          <tei:idno type="opensiddur.org">18257</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/nybc205496#page/n12/mode/2up">https://www.archive.org/stream/nybc205496#page/n12/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_18257_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="notes">
+        <tei:p>The Yiddish resistance song, “Partisaner Lid” (The Partisan Song) was composed by Hirsh Glik (1922-1944) in the Vilna Ghetto in 1943. This song is included in “A Ḥanukkah Madrikh!” (2011) by Noam Lerman &amp; Aharon Varady. Ukrainian translation added in February 2022 by comYakowenko.</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_18257_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:partisaner_lid_the_partisan_song_by_hirsh_glik_vilna_ghetto_1943"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

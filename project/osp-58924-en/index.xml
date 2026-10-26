@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מָעוֹז צוּר</tei:title>
+        <tei:title type="main" xml:lang="en">Maoz Tsur in a rhyming English translation (1893)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מָעוֹז צוּר</tei:title>
+          <tei:title xml:lang="en">Maoz Tsur in a rhyming English translation (1893)</tei:title>
+          <tei:author>Mordekhai ben Yitsḥaq ha-Levi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1240" to="1300">1240 – 1300</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/maoz-tsur-in-a-rhyming-english-translation-1893/</tei:idno>
+          <tei:idno type="opensiddur.org">58924</tei:idno>
+          <tei:note>Source: Chanukah (The Hebrew Standard, 8 December 1893), p. 1 col. 1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/12/chanukah-the-hebrew-standard-8-december-1893-p--1-col--1.jpg">https://opensiddur.org/wp-content/uploads/2024/12/chanukah-the-hebrew-standard-8-december-1893-p--1-col--1.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58924_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>This is an English translation of Maoz Tsur published by <tei:hi rend="italic">The Hebrew Standard</tei:hi> for their 1893 Ḥanukkah issue (vol. 29, no. 12, New York, Friday, 8 December 1893 — 29 Kislev 5654). <tei:hi rend="italic">The Hebrew Standard</tei:hi> was one of the biggest English-language Jewish papers in America around the turn of the twentieth century, generally taking a more traditionalist line than the Reform papers and a more moderate line than the leftist ones. This translation, simply titled “Chanukah”, unfortunately goes unattributed in the pages of <tei:hi rend="italic">The Hebrew Standard</tei:hi>. The translation follows an ABABCCDD rhyme scheme (for those unfamiliar with rhyme scheme notation, this is the same rhyme scheme as “The Star-Spangled Banner“), unlike the Hebrew’s ABABBBccB.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58924_introduction"/>
+      <j:conditional xml:id="osp_58924_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="notes">
+        <tei:p>This is “Chanukah” a free or interpretive rhyming English translation of Maoz Tsur, a 13th century piyyut attributed to Mordecai ben Yitsḥak haLevi (based on his acrostic signature). Employing the same rhyme scheme as the “Star Spangled Banner,” the anonymous translator implicitly suggests its proud usage as a patriotic hymn for American Jewry of the United States on Ḥanukkah. At the time, Zionism as a political force was still in its relative infancy and American rabbis were explicitly referring to the United States as a new Canaan. In conjunction with the Columbian Exposition in Chicago, the United States had just hosted the World’s Parliament of Religions — and representatives of Judaism were treated on par with that of every other representative. Jews worldwide were looking to the United States as a <tei:hi rend="italic">golden medinah</tei:hi> amidst the shocking and persistent anti-Jewish violence in Eastern Europe and elsewhere. At a time when the late 18th century Enlightenment promise of Emancipation and Religious Freedom remained unfulfilled in most places, for a generation yearning to realize Jewish safety amidst some measure of national pride, this use of Maoz Tsur compares with the adoption of Eugène Pottier’s “The Internationale” (1871), Naphtali Herz Imber’s “Hatiḳvah” (1878), and Ḥayyim Naḥman Bialik’s “The People’s Blessing” (a/k/a Teḥezaqnah, 1894) as anthems to carry forward a vision of the end of Exile. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58924_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

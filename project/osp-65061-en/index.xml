@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יְדִידֶֽיךָ אַל יְלִידֵי אִישׁ תָּם</tei:title>
+        <tei:title type="main" xml:lang="en">Yedidekha El Yelidei Ish Tam — a piyyuṭ before Qaddish (after the Megillat Antiokhus reading) on Shabbat Ḥanukkah by Yaaqov ibn Tsur</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יְדִידֶֽיךָ אַל יְלִידֵי אִישׁ תָּם</tei:title>
+          <tei:title xml:lang="en">Yedidekha El Yelidei Ish Tam — a piyyuṭ before Qaddish (after the Megillat Antiokhus reading) on Shabbat Ḥanukkah by Yaaqov ibn Tsur</tei:title>
+          <tei:author>Yaaqov ibn Tsur</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1693" to="1753">1693 – 1753</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/prayers/lunisolar/commemorative-days/hanukkah/yedidekha-el-yelidei-ish-tam-a-piyyut-before-qaddish-after-the-torah-reading-of-shabbat-hanukkah-by-yaaqov-ibn-tsur/</tei:idno>
+          <tei:idno type="opensiddur.org">65061</tei:idno>
+          <tei:note>Source: Sefer Et l-Kol Ḥefets (Yaaqov ibn Tsur) page 33b <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/12/sefer-et-l-kol-hefetz-yaaqov-ibn-tsur-page-33b.png">https://opensiddur.org/wp-content/uploads/2025/12/sefer-et-l-kol-hefetz-yaaqov-ibn-tsur-page-33b.png</tei:ref></tei:note>
+          <tei:note>Source: Sefer Et l-Kol Ḥefets (Yaaqov ibn Tsur) page 34b <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/12/sefer-et-l-kol-hefetz-yaaqov-ibn-tsur-page-34b.png">https://opensiddur.org/wp-content/uploads/2025/12/sefer-et-l-kol-hefetz-yaaqov-ibn-tsur-page-34b.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65061_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="introduction">
+        <tei:p>Yedidekha El Yelidei Ish Tam — a piyyuṭ intended to be sung before Qaddish (after the Torah Reading) of Shabbat Ḥanukkah — was written by the great Moroccan paytan Yaaqov ibn Tsur (1673–1753) of Fez. It was first put to print in the Sefer ‘Et l-Kol Ḥefetz, printed by ibn Tsur’s descendants in 1893 in Alexandria. It may be sung according to the tune of “El Asher Yetzarani b-Ḥokhma.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65061_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yedidekha_el_yelidei_ish_tam_a_piyyut_before_qaddish_after_the_torah_reading_of_shabbat_hanukkah_by_yaaqov_ibn_tsur"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
