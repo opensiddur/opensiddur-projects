@@ -1,6 +1,6 @@
 # Books
 
-Each file here is an exporter settings file for one book. Every opensiddur-ai release builds
+Each file here is an exporter settings file for one book. Every opensiddur-processor release builds
 all of them, as an electronic book (HTML) and a printed one (PDF), and attaches them to the
 release.
 
@@ -37,13 +37,13 @@ settings/
 - The release assets are `<book>-<variant>-<tag>.html` and `.pdf`, e.g.
   `humash-annual-v0.5.0.pdf`. Names are lowercase with `_` between words.
 
-The rest of the format is documented in opensiddur-ai: `opensiddur/exporter/README.md` and
+The rest of the format is documented in opensiddur-processor: `opensiddur/exporter/README.md` and
 `doc/typography.md`.
 
 Pull requests are checked (`python -m opensiddur.exporter.books --check`): each file must be
 in place, parse, match the settings schema, name a project and file that exist, and have an
 installed font for every font chain it is typeset with. To build the books locally from an
-opensiddur-ai checkout:
+opensiddur-processor checkout:
 
 ```bash
 P=<this repository>/project
