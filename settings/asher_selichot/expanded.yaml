@@ -5,9 +5,8 @@ description: >
   kept. The abbreviated refrains, prayers and repetitions are written out in full, and the
   Full Kaddish the book does not print is taken from Birnbaum's siddur.
 
-# The processor before 0.7.0 built the electronic documentary book without the Full Kaddish it
-# takes from Birnbaum, and failed (v0.6.0); 0.7.0 is the first release paired with the settings
-# that resolve it.
+# Built with the documentary book's processor, so that the two editions of the one book come
+# from the same release (0.7.0, the first paired with the documentary book's fixed settings).
 requires_processor: ">=0.7.0"
 
 book:
