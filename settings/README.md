@@ -27,6 +27,12 @@ settings/
     ...
   ```
 
+- A book that needs a processor fix says which versions build it, as PEP 440 writes them:
+  ```yaml
+  requires_processor: ">=0.7.0"
+  ```
+  An older processor refuses the settings instead of building a broken book. Main between
+  releases is the development of the next release, and meets that release's requirement.
 - A book is built in both forms unless its `formats:` says otherwise. A book read only on a
   device lists just the electronic one:
 

@@ -5,6 +5,11 @@ description: >
   kept. Abbreviated refrains, prayers and repetitions stay as printed, with the book's
   instructions for completing them.
 
+# v0.6.0 paired this book with settings that could not resolve the Full Kaddish its electronic
+# book transcludes from Birnbaum (fixed in #81), and the release failed to build it. Releases
+# from 0.7.0 on are paired with the fixed settings.
+requires_processor: ">=0.7.0"
+
 book:
   project: asher_selichot_he_1912
   file_name: index.xml
