@@ -29,6 +29,8 @@ on:
 
 permissions:
   contents: write
+  # The downloads list, DOWNLOADS.md, is committed through a pull request the release merges.
+  pull-requests: write
 
 concurrency:
   group: release-${{ inputs.tag || 'new' }}-${{ inputs.book || 'all' }}
