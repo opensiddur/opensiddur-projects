@@ -1,0 +1,203 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הַסִּדּוּר הַשָּׁלֵם</tei:title>
+        <tei:title type="alt" xml:lang="en">ha-Siddur ha-Shalem (The Daily Prayer Book)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Birnbaum’s own English, read from the facing pages of the scanned 1949 printing</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:siddur@hasiddur_hashalem-birnbaum-1949-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title>ha-Siddur ha-Shalem: The Daily Prayer Book</tei:title>
+          <tei:author>Philip Birnbaum</tei:author>
+          <tei:publisher>Hebrew Publishing Company</tei:publisher>
+          <tei:pubPlace>New York</tei:pubPlace>
+          <tei:date when="1949">1949</tei:date>
+          <tei:date type="accessed" when="2026-09-08">2026-09-08</tei:date>
+          <tei:idno type="url">https://archive.org/details/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
+          <tei:idno type="archive.org">PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949</tei:idno>
+          <tei:note xml:lang="en">The English of this project is Birnbaum’s own translation, printed on the pages facing the Hebrew.</tei:note>
+          <tei:note xml:lang="en">The scan cited here is the source of the text, not merely a reference for it: every word was read off it, page by page.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Every tei:pb/@facs in this project deep-links into the leaf its page break falls on. The scan is 1541x2291 pixels per leaf, which is the scan itself and not a derivative.</tei:note>
+          <tei:note type="encoding" xml:lang="en">In the front matter, tei:pb/@n in square brackets is a designation the book implies rather than prints. The printed Roman sequence runs IX to XXIII on scan leaves 11 to 25, which fixes leaf 3 as I; leaves 1 and 2 precede that sequence and are numbered from the scan.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <tei:pb n="[1]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n0_medium.jpg"/>
+      <tei:pb n="[I]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n2_medium.jpg"/>
+      <j:conditional xml:id="title_page_3"><tei:fs type="opensiddur:paratext"><tei:f name="title-page"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" corresp="urn:x-opensiddur:text:front:title_page" xml:lang="en">
+          <tei:docTitle>
+            <tei:titlePart type="main">DAILY PRAYER BOOK</tei:titlePart>
+            <tei:titlePart type="sub">HA-SIDDUR HA-SHALEM</tei:titlePart>
+          </tei:docTitle>
+          <tei:byline><tei:hi rend="italic">Translated and Annotated</tei:hi><tei:lb/><tei:hi rend="italic">with an Introduction</tei:hi><tei:lb/><tei:hi rend="italic">by</tei:hi><tei:lb/><tei:docAuthor>PHILIP BIRNBAUM</tei:docAuthor></tei:byline>
+          <tei:docImprint>
+            <tei:publisher>HEBREW PUBLISHING COMPANY</tei:publisher><tei:lb/>
+            <tei:pubPlace>NEW YORK</tei:pubPlace>
+          </tei:docImprint>
+        </tei:titlePage>
+      <j:endConditional target="#title_page_3"/>
+      <tei:pb n="[II]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n3_medium.jpg"/>
+      <j:conditional xml:id="title_page_4"><tei:fs type="opensiddur:paratext"><tei:f name="title-page"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <tei:titlePage xmlns:tei="http://www.tei-c.org/ns/1.0" type="copyright" corresp="urn:x-opensiddur:text:front:copyright" xml:lang="en">
+          <tei:docImprint><tei:hi rend="small-caps">Ha-Siddur Ha-Shalem</tei:hi><tei:lb/><tei:hi rend="italic">Copyright 1949</tei:hi><tei:lb/><tei:hi rend="italic">by Hebrew Publishing Company New York</tei:hi></tei:docImprint>
+          <tei:imprimatur><tei:hi rend="italic">All rights reserved. This text including the new translation and notes has been edited and revised as to the order of prayers, content, form and style. No part of this book may be reproduced in any form without permission in writing from the publisher, except by a reviewer who wishes to quote brief passages in connection with a review written for inclusion in magazines or newspapers. The rights of the publisher will be strictly enforced.</tei:hi></tei:imprimatur>
+          <tei:docImprint xml:lang="he">סֻדַּר בַּמִּסְדָּרָה שֶׁל<tei:lb/>הִיבְּרוּ פּוּבְּלִישִׁינְג קוֹמְפּ., נְיוּ־יוֹרְק</tei:docImprint>
+          <tei:docImprint><tei:hi rend="italic">Typography by Hebrew Publishing Co., New York</tei:hi><tei:lb/><tei:hi rend="italic">Printed and bound in the United States of America,</tei:hi><tei:lb/><tei:hi rend="italic">by Montauk Book Mfg. Co., Inc., New York</tei:hi></tei:docImprint>
+        </tei:titlePage>
+      <j:endConditional target="#title_page_4"/>
+      <j:conditional xml:id="paratext_dedication"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:dedication"/>
+      <j:endConditional target="#paratext_dedication"/>
+      <tei:pb n="[V]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n6_medium.jpg"/>
+      <tei:pb n="[VI]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n7_medium.jpg"/>
+      <j:conditional xml:id="paratext_acknowledgements"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:acknowledgements"/>
+      <j:endConditional target="#paratext_acknowledgements"/>
+      <tei:pb n="[VIII]" ed="1949" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n9_medium.jpg"/>
+      <j:conditional xml:id="paratext_introduction"><tei:fs type="opensiddur:paratext"><tei:f name="include"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:front:introduction"/>
+      <j:endConditional target="#paratext_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:all">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:all/shacharit">
+            <j:conditional xml:id="occasion_yeladim"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:all/shacharit/yeladim"/>
+            <j:endConditional target="#occasion_yeladim"/>
+          </tei:div>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:chol">
+          <j:conditional xml:id="occasion_chol_shacharit"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_shacharit_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit"/>
+          <j:endDeclare target="#occasion_chol_shacharit_declare"/><j:endConditional target="#occasion_chol_shacharit"/>
+          <j:conditional xml:id="occasion_chol_minchah"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_minchah_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah"/>
+          <j:endDeclare target="#occasion_chol_minchah_declare"/><j:endConditional target="#occasion_chol_minchah"/>
+          <j:conditional xml:id="occasion_chol_arvit"><j:all><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_chol_arvit_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/arvit"/>
+          <j:endDeclare target="#occasion_chol_arvit_declare"/><j:endConditional target="#occasion_chol_arvit"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat">
+          <j:conditional xml:id="occasion_shabbat_preparations"><j:any><j:all><tei:fs type="opensiddur:day-of-week"><tei:f name="hebrew-day"><tei:numeric value="6"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:any></j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/preparations"/>
+          <j:endConditional target="#occasion_shabbat_preparations"/>
+          <j:conditional xml:id="occasion_shabbat_kabbalat_service"><j:any><j:all><tei:fs type="opensiddur:day-of-week"><tei:f name="hebrew-day"><tei:numeric value="6"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:any></j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/kabbalat_service"/>
+          <j:endConditional target="#occasion_shabbat_kabbalat_service"/>
+          <j:conditional xml:id="occasion_shabbat_arvit"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_arvit_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit"/>
+          <j:endDeclare target="#occasion_shabbat_arvit_declare"/><j:endConditional target="#occasion_shabbat_arvit"/>
+          <j:conditional xml:id="occasion_shabbat_leil_shabbat"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_leil_shabbat_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat"/>
+          <j:endDeclare target="#occasion_shabbat_leil_shabbat_declare"/><j:endConditional target="#occasion_shabbat_leil_shabbat"/>
+          <j:conditional xml:id="occasion_shabbat_shacharit"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_shacharit_declare"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit"/>
+          <j:endDeclare target="#occasion_shabbat_shacharit_declare"/><j:endConditional target="#occasion_shabbat_shacharit"/>
+          <j:conditional xml:id="occasion_shabbat_musaf"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="chol-hamoed"><tei:binary value="true"/></tei:f></tei:fs></j:any><j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_shabbat_musaf_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="false"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/musaf"/>
+          <j:endDeclare target="#occasion_shabbat_musaf_declare"/><j:endConditional target="#occasion_shabbat_musaf"/>
+          <j:conditional xml:id="occasion_shabbat_day_meal"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_shabbat_day_meal_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="false"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/day_meal"/>
+          <j:endDeclare target="#occasion_shabbat_day_meal_declare"/><j:endConditional target="#occasion_shabbat_day_meal"/>
+          <j:conditional xml:id="occasion_shabbat_minchah"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_shabbat_minchah_declare"><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:declare><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah"/>        <j:conditional xml:id="avot_season">
+          <tei:note type="instruction" xml:lang="en">Recited on the Sabbaths between <tei:hi rend="italic">Pesaḥ</tei:hi> and <tei:hi rend="italic">Rosh Hashanah</tei:hi></tei:note>
+<j:all>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="season">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs><j:any>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-1">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-2">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-3">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-4">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-5">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:pirkei-avot">
+            <tei:f name="chapter-6">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:pirkei_avot"/>        <j:endConditional target="#avot_season"/><j:endDeclare target="#occasion_shabbat_minchah_declare"/><j:endConditional target="#occasion_shabbat_minchah"/>
+          <j:conditional xml:id="occasion_shabbat_conclusion"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="motzaei-shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_shabbat_conclusion_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="motzaei-shabbat"><tei:binary value="true"/></tei:f><tei:f name="yom-tov"><tei:binary value="false"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/conclusion"/>
+          <j:endDeclare target="#occasion_shabbat_conclusion_declare"/><j:endConditional target="#occasion_shabbat_conclusion"/>
+        </tei:div>
+        <j:conditional xml:id="occasion_berakhot_birkat_halevanah"><tei:fs type="opensiddur:hebrew-date"><tei:f name="day"><tei:numeric value="3" max="15"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkat_halevanah"/>
+        <j:endConditional target="#occasion_berakhot_birkat_halevanah"/>
+        <j:conditional xml:id="occasion_hallel"><j:all><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="hanukkah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all></j:conditional><j:declare xml:id="occasion_hallel_declare"><tei:fs type="opensiddur:service-time"><tei:f name="shaharit"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:hallel"/>
+        <j:endDeclare target="#occasion_hallel_declare"/><j:endConditional target="#occasion_hallel"/>
+        <j:conditional xml:id="occasion_rosh_chodesh_musaf"><j:all><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:numeric value="1" max="2"/></tei:f></tei:fs><j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_rosh_chodesh_musaf_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="false"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf"/>
+        <j:endDeclare target="#occasion_rosh_chodesh_musaf_declare"/><j:endConditional target="#occasion_rosh_chodesh_musaf"/>
+        <j:conditional xml:id="occasion_regalim"><j:any><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="eruv-tavshilin"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim"/>
+        <j:endConditional target="#occasion_regalim"/>
+        <j:conditional xml:id="occasion_yizkor"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="yom-kippur"><tei:numeric value="1"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1"/></tei:f></tei:fs><j:all><tei:fs type="opensiddur:israel"><tei:f name="is-israel"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:any></j:all><j:all><tei:fs type="opensiddur:israel"><tei:f name="is-israel"><tei:binary value="false"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="2"/></tei:f></tei:fs></j:any></j:all></j:any></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:yizkor"/>
+        <j:endConditional target="#occasion_yizkor"/>
+        <j:conditional xml:id="occasion_regalim_musaf"><j:all><j:any><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="chol-hamoed"><tei:binary value="true"/></tei:f></tei:fs></j:any><j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_regalim_musaf_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="false"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf"/>
+        <j:endDeclare target="#occasion_regalim_musaf_declare"/><j:endConditional target="#occasion_regalim_musaf"/>
+        <j:conditional xml:id="occasion_regalim_morning_meal"><j:all><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><j:any><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:numeric value="1" max="8"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1" max="2"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:all><j:none><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:all></j:conditional><j:declare xml:id="occasion_regalim_morning_meal_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="false"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/morning_meal"/>
+        <j:endDeclare target="#occasion_regalim_morning_meal_declare"/><j:endConditional target="#occasion_regalim_morning_meal"/>
+        <j:conditional xml:id="occasion_sefirat_haomer"><j:all><tei:fs type="opensiddur:holiday"><tei:f name="omer"><tei:numeric value="1" max="49"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:declare xml:id="occasion_sefirat_haomer_declare"><tei:fs type="opensiddur:service-time"><tei:f name="maariv"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sefirat_haomer"/>
+        <j:endDeclare target="#occasion_sefirat_haomer_declare"/><j:endConditional target="#occasion_sefirat_haomer"/>
+        <j:conditional xml:id="occasion_regalim_akdamut"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_regalim_akdamut_declare"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:numeric value="1"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/akdamut"/>
+        <j:endDeclare target="#occasion_regalim_akdamut_declare"/><j:endConditional target="#occasion_regalim_akdamut"/>
+        <j:conditional xml:id="occasion_rosh_hashanah_minchah_maariv_and_rites"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_rosh_hashanah_minchah_maariv_and_rites_declare"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv_and_rites"/>
+        <j:endDeclare target="#occasion_rosh_hashanah_minchah_maariv_and_rites_declare"/><j:endConditional target="#occasion_rosh_hashanah_minchah_maariv_and_rites"/>
+        <j:conditional xml:id="occasion_sukkot_rites"><j:any><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:numeric value="1" max="7"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:numeric value="1" max="2"/></tei:f></tei:fs></j:any></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sukkot/rites"/>
+        <j:endConditional target="#occasion_sukkot_rites"/>
+        <j:conditional xml:id="occasion_chanukah"><tei:fs type="opensiddur:holiday"><tei:f name="hanukkah"><tei:numeric value="1" max="8"/></tei:f></tei:fs></j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chanukah"/>
+        <j:endConditional target="#occasion_chanukah"/>
+        <j:conditional xml:id="occasion_purim"><tei:fs type="opensiddur:holiday"><tei:f name="purim-observed"><tei:numeric value="1"/></tei:f></tei:fs></j:conditional><j:declare xml:id="occasion_purim_declare"><tei:fs type="opensiddur:holiday"><tei:f name="purim-observed"><tei:numeric value="1"/></tei:f></tei:fs></j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:purim"/>
+        <j:endDeclare target="#occasion_purim_declare"/><j:endConditional target="#occasion_purim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

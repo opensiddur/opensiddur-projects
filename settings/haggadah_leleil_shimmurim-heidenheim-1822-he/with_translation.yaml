@@ -1,0 +1,51 @@
+# The Heidenheim Haggadah (1822) with the Feinstein English translation and notes, filling any
+# biblical text missing from the Haggadah itself from Miqra al pi ha-Masorah.
+
+description: >
+  The Heidenheim Haggadah (1822) facing the Feinstein English translation (2009), with
+  Feinstein's notes as numbered footnotes and a table of contents.
+
+# The projects took their present names in 0.7.0 (opensiddur-processor#266); an older
+# processor knows them by the old ones.
+requires_processor: ">=0.7.0"
+book:
+  project: haggadah_leleil_shimmurim-heidenheim-1822-he
+  file_name: index.xml
+  title: Heidenheim Haggadah with English translation
+
+priority:
+  transclusion:
+    - haggadah_leleil_shimmurim-heidenheim-1822-he
+    - tanakh-miqra_al_pi_hamasorah-he
+  instructions:
+    - haggadah_leleil_shimmurim-heidenheim-1822-he
+    - haggadah_leleil_shimmurim-feinstein-2009-en
+
+annotations:
+  - haggadah_leleil_shimmurim-feinstein-2009-en
+
+parallel:
+  projects:
+    - haggadah_leleil_shimmurim-feinstein-2009-en
+  column_order: primary_first
+
+# The electronic book: a haggadah is read ahead of the seder as well as at it, so it opens with
+# no particular day -- every passage shown, with its rubric -- rather than following the date,
+# on which, any night but the seder's, it would show almost nothing. A reader can still choose
+# the seder night, or now.
+electronic:
+  day: none
+
+typography:
+  page:
+    paper: letterpaper
+    sides: two
+  parallel:
+    layout: pairs
+  notes:
+    placement: footnote
+    anchor: interlinear
+    mark: numeric
+  table_of_contents:
+    enabled: true
+    depth: 2

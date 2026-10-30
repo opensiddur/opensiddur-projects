@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">גְּאוּלָּה</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:amidah/geulah@hasiddur_hashalem-birnbaum-1949-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="85" to="85"/>
+          <tei:biblScope unit="pages" from="163" to="163"/>
+          <tei:biblScope unit="pages" from="203" to="203"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+        <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/geulah">
+          <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/geulah/reeh_na">
+            <tei:p>רְאֵה נָא בְעָנְיֵֽנוּ וְרִיבָה רִיבֵֽנוּ, וּגְאָלֵֽנוּ מְהֵרָה לְמַֽעַן שְׁמֶֽךָ, כִּי גוֹאֵל חָזָק אָֽתָּה. בָּרוּךְ אַתָּה, יְיָ, גּוֹאֵל יִשְׂרָאֵל.</tei:p>
+          </tei:div>
+        <j:conditional xml:id="cond_geulah_aneinu">
+          <j:all>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:recitation">
+            <tei:f name="repetition">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+          </j:all>
+        </j:conditional><tei:note type="description" xml:lang="en">On fast days (except Tish‘ah b’Av) the Reader adds:</tei:note>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu"/>
+        <j:endConditional target="#cond_geulah_aneinu"/>
+        </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

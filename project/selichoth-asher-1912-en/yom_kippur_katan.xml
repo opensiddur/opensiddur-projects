@@ -1,0 +1,567 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">PRAYERS FOR THE DAY BEFORE NEW MOON.</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan@selichoth-asher-1912-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan">
+        <tei:pb n="188" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n378_medium.jpg"/>
+        <tei:head>PRAYERS FOR THE DAY BEFORE NEW MOON.</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/opening_instruction">
+          <tei:pb n="188" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n378_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">It is customary for the pious to fast on the day preceding the New Moon. If the New Moon falls on Sabbath or Sunday the fast is held on the preceding Thursday. Those who fast put on the Taleth and Tephillin. The Reader commences the following— </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/102"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/refrain_instruction">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/refrain_instruction/printed">
+            <tei:pb n="189" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n380_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words (Let, &amp;c.) occur at the end of verses, repeat from “Let the weight,” till “bring forth buds.” </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:yom_zeh_yehi_mishqal_kol_hattotai"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/psalm_order_instruction">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n382_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Some Congregations say here Psalm viii., page 202, instead of the following Psalm, and say the following Psalm at the end of the Service. But when the New Moon is on Sabbath or Sunday, the order of Service is not altered. </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/20"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashrei_instruction">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashrei_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashrei_instruction/printed">
+            <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n382_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Happy are they.” </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashrei_instruction_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashrei_instruction_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ashrei"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashrei_instruction_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish/printed">
+            <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n382_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">The Reader says Kaddish. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Reader.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_reader_kaddish_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_reader_kaddish_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/torah_amidah_instruction">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n382_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">[The following instructions are only to be observed if there are ten persons present who fast till night; should there not be, the Ameedah is said immediately after Kaddish. The Law is taken from the Ark, and the portion for fast days (see end of volume) is read to three persons; the third person called reads the Aftorah (see end of volume). After the Law is returned to the Ark, the Congregation say the Ameedah, introducing “O answer us,” as on other fast days. After the repetition thereof by the Reader, the following is said— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/lekhu_venashuvah">
+          <tei:pb n="190" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n382_medium.jpg"/>
+          <tei:p>Come, and let us return unto the Lord; for he hath torn, and he will heal us; he hath smitten, and he will bind us up. After two days he will revive us: in the third day he will raise us up, and we shall live in his sight. For we do not present our sup<tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>plications before thee for our righteousness, but for thy great mercies. O Lord, hear; O Lord, forgive; O Lord, hearken and do; defer not, for thine own sake; O my God; for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hashivenu_instruction">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The following verse is said three times by the Minister and Congregation— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hashivenu">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+          <tei:p>Turn thou us unto thee, O Lord, and we shall be turned; remember our days of old. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_hashivenu">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_hashivenu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_hashivenu/printed">
+            <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_hashivenu_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_hashivenu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_hashivenu_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ana_adonai_elohei_hashamayim">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+          <tei:p>O Lord God of heaven, let our prayer be set before thee as incense. Bring forth our righteousness as the light, and our judgment as the noon-day. Give ear unto our words, O Lord, consider our meditation; when we call, answer us, O God of our righteousness! As a father compassioneth his children, so have mercy on us, O Lord! to the Lord belongeth mercies and pardon, but we have rebelled against him. Forgive thy people who have sinned against thee, and all their transgressions wherein they have transgressed against thee, and grant thee compassion in the presence of those who carried them captive; and may he be merciful to them, O thou who art in heaven, thy dwelling place; hearken and pardon. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/selah_na">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said) And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hateh_elohai">
+          <tei:pb n="191" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n384_medium.jpg"/>
+          <tei:p>O my God! incline thine ear, and hear, open thine eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thy own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/bracket_instruction"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:masat_kappai_minhat_erev"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_masat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_masat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_masat/printed">
+            <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n388_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_masat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_masat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_masat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/uneshalmah_farim">
+          <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n388_medium.jpg"/>
+          <tei:p>Let us pay the calves of our lips, let our prayer be set before thee as incense, the lifting up of our hands as a pure evening oblation. Let the words of our mouth and the meditation of our heart be acceptable before thee, O Lord, our Rock and Redeemer. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_before_samar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar/printed"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_before_samar_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_before_samar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_before_samar/expanded"/>
+            <tei:p/>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_before_samar_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_samar">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_samar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_samar/printed">
+            <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n390_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_samar_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_samar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_samar_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/tov_adonai_lakkol">
+          <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n390_medium.jpg"/>
+          <tei:p>The Lord is good to all, and his tender mercies are over all his works. The Lord is good unto them that wait for him, to the soul that seeketh him. The Lord is good, a stronghold in the day of trouble; and he knoweth them that trust in him. The Lord is good; for his mercy is everlasting; and his truth endureth to all generations. It is better to trust in the Lord than to put confidence in man! It is better to trust in the Lord than to put confidence in princes! Good and upright is the Lord; therefore will he teach sinners in the way. It is good that a man should both hope, and quietly wait for the salvation of the Lord. Help us; for the water has come up to our soul. O Lord, save thy people, the remnant of Israel; save thy people and bless thine inheritance; feed them also, and lift them up for ever. Help us, for the pious man ceaseth, the faithful fail from among the children of men. Help us, O Lord God of our Salvation for the sake of thy glorious name. Deliver us, and grant the expiation of our sins, for the sake of thy name. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_after_tov_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov/printed">
+            <tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n390_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord hear,” pp. 9, 10 </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_after_tov_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_verses_after_tov_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_tov/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_verses_after_tov_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pizmon_instruction">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pizmon_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pizmon_instruction/printed">
+            <tei:pb n="195" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n392_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words (So let it be, &amp;c.) occur at the end of the verses, repeat from “So let it be,” till “instead of meat-offering.” </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pizmon_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:bat_ammi_lo_tehesheh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_bat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_bat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_bat/printed">
+            <tei:pb n="195" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n392_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_bat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_bat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_bat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/rahmana_instruction">
+          <tei:pb n="196" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n394_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Congregation respond at the end of each verse “for his sake he will forgive.” </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:prayer:rahmana_adkar_lan"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_rahmana">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_rahmana_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/pair_after_rahmana/printed">
+            <tei:pb n="196" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n394_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_rahmana_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_pair_after_rahmana_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_pair_after_rahmana_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:al_taas_immanu_khalah"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_olamim_qodem_kol_davar"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_im_amadti"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_lo_al_atsmi"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_minhag_bet_dinekha"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ribbon_haolamim_lule_hataenu"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/tavo_tefillatenu">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n402_medium.jpg"/>
+          <tei:p>Our God, and the God of our fathers, may our prayers come before thee, and withdraw not thyself from our supplications; for we are not so shameless or so hardened, as to declare in thy presence, O Eternal, our God! and the God of our fathers, that we are righteous, and have not sinned: verily (we confess) we and our fathers have sinned. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_reprint">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n402_medium.jpg"/>
+          <tei:p>We have trespassed, we have dealt treacherously, we have stolen, we have spoken slander, we have committed iniquity, and have done wickedly, we have acted presumptuously, we have committed violence, we have framed falsehood, we have counselled evil, we have uttered lies, we have scorned, we have rebelled, we have blasphemed, we have revolted, we have acted perversely, we have transgressed, we have oppressed, we have been stiffnecked, we have acted wickedly, we have corrupted, we have done abominably, we have gone astray and have caused others to err; we have turned aside from thy excellent precepts and institutions, and which hath not profited us: but thou art just concerning all that is come upon us; for thou hast dealt most truly, but we have done wickedly. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_mikkol_am">
+          <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n402_medium.jpg"/>
+          <tei:p>We are more guilty than any other people, more ashamed than any other generation. Our mirth is gone from us, our hearts are faint because of our sins; the place of our desire is devastated; our ornament is dashed to pieces; our holy temple is destroyed through our iniquities; our palaces have become a desolation; our beautiful land belongeth to strangers, our strength to others. Yet, still we have not returned from our error, and how shall we now be so presumptuous and so insolent as to say before thee, O Lord, our God, and God of our ancestors, that we are righteous and have not sinned: verily (we confess) we and our fathers have sinned. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat/printed">
+            <tei:pb n="200" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n402_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “We have trespassed,” till “we have done wickedly,” page 18. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:ashamnu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/leeineinu_ashuq">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n404_medium.jpg"/>
+          <tei:p>Before our eyes hath our substance been plundered, torn, and stripped from us; they put their yoke upon us, and we had to bear it on our shoulders; slaves ruled over us, and no one delivered us from their hands; many troubles compass us about, we called upon thee, O Lord, our God, but thou wast far from us because of our iniquities: we turned from thee, went astray and perished. Yet, still we have not returned from our error, and how shall we now be so presumptuous and so insolent as to say before thee, O Lord, our God, and God of our ancestors, that we are righteous, and have not sinned: verily (we confess) we and our fathers have sinned. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat_second">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_second_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_repeat_second/printed">
+            <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n404_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “We have trespassed,” till “we have done wickedly,” as in preceding page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_second_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_ashamnu_repeat_second_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ashamnu_reprint"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_ashamnu_repeat_second_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/el_erekh_apayim">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n404_medium.jpg"/>
+          <tei:p>O Omnipotent! thou art long-suffering, and art called the Lord of mercy; and therefore hast thou taught us the way of repentance; O remember the greatness of thy mercy and kindness to the offspring of thy beloved, on this and every other day. O regard us with mercy for thou art the Lord of compassion. With prayer and supplication we approach thy presence, as thou didst make known of old to Moses the meek. O turn from thy fierce anger, as it is written in thy law. O may we be shielded and lodged in the shadow of thy wings, as on the day when thou, O Eternal, didst descend in a cloud. O pass by our transgression, and blot out our guilt, as on the day when thou didst stand there with Moses, on Mount Sinai. O hearken to our cry, and accept our prayer, as on the day when thou didst proclaim the name Eternal! and there it is said, </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/vayaavor_reprint">
+          <tei:pb n="201" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n404_medium.jpg"/>
+          <tei:p>“And the Eternal passed by before him (Moses) and proclaimed: The Eternal is the immutable eternal being; an omnipotent God, merciful and gracious, long-suffering, and abundant in beneficence and truth; keeping mercy unto thousands, forgiving iniquity, transgression, and sin, and acquitting. Par<tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>don thou our iniquity and our sin, and take us for thy heritage. Forgive us, O our Father, for we have sinned: pardon us, O our King! for we have transgressed. For thou, O Lord! art good, and ready to pardon, and of abundant mercy unto all those who call on thee.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/hatanu_tsurenu">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>We have sinned, O our Rock, pardon us, O our Creator! </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ark_open">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Ark is opened. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/shema_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say once— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/shema">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>Hear, O Israel, the Lord our God, the Lord is One! </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/barukh_shem_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say twice— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/barukh_shem">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>Blessed be the name of his glorious kingdom for ever! </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_hu_haelohim_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say seven times— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_hu_haelohim">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>The Lord he is God! </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_melekh_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Say once— </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/adonai_melekh">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>The Lord doth reign, the Lord hath reigned, the Lord will reign for ever and ever! </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/ark_close">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">The Ark is closed. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/anenu">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:p>Answer us, God of Abraham; O answer us! Answer us, O thou the reverence of Isaac; O answer us! Answer us, mighty God of Jacob! O answer us! Answer us, O thou the shield of David; O answer us! Answer us, God of the chariot; O answer us! Answer us, O thou who answerest in an acceptable time; O answer us! Answer us, O thou who answerest in time of distress; O answer us! Answer us, O thou who answerest in time of mercy; O answer us! Answer us, thou who art merciful and gracious! O answer us! most merciful Lord, O answer us. Most merciful Lord, redeem us; most merciful Lord, have abundant compassion on us, on all our household, and on all our brethren, the house of Israel, and bring us forth from darkness into light, for the sake of thy great name. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish_conclusion">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/reader_kaddish_conclusion/printed"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_conclusion_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_reader_kaddish_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Reader.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_reader_kaddish_conclusion_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_reader_kaddish_conclusion_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_reader_kaddish_conclusion_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/psalm_end_instruction">
+          <tei:pb n="202" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n406_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">If the Eve of New Moon is on Sabbath or Sunday the Psalm, page 190, is said instead of the following—<tei:anchor xml:id="editorial_ykk_eve_rubric"/> </tei:note>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:bible:psalms/8"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/conclusion">
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_conclusion_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/conclusion/printed">
+            <tei:pb n="203" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n408_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “It is incumbent on us.” A Mourner says Kaddish. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_conclusion_printed"/>
+          <j:conditional xml:id="penitential_yom-kippur-katan_day_conclusion_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/aleinu"/>
+          <tei:div>
+            <tei:note type="instruction" xml:lang="en">Mourner.</tei:note>
+          </tei:div>
+          <j:declare xml:id="penitential_yom-kippur-katan_conclusion_kaddish">
+            <tei:fs type="asher:selichot">
+              <tei:f name="first_day">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <j:transclude target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+          <j:endDeclare target="#penitential_yom-kippur-katan_conclusion_kaddish"/>
+          <j:endConditional target="#penitential_yom-kippur-katan_day_conclusion_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="editorial" target="#editorial_ykk_eve_rubric" xml:lang="en">Editor: page 190 gives this exception as “when the New Moon is on Sabbath or Sunday”, the days on which the fast is held on Thursday; that is probably what is meant here.</tei:note>
+  </tei:standOff>
+</tei:TEI>
