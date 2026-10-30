@@ -68,7 +68,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
-        <j:conditional xml:id="weekday_kedushah">
+        <j:conditional xml:id="weekday_qedushah">
 <j:all>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
@@ -81,8 +81,8 @@
         </j:conditional>
         <tei:head xml:lang="en">KEDUSHAH</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/>
-        <j:endConditional target="#weekday_kedushah"/>
-        <j:conditional xml:id="weekday_silent_kedushat_hashem">
+        <j:endConditional target="#weekday_qedushah"/>
+        <j:conditional xml:id="weekday_silent_qedushat_hashem">
 <j:none><j:all>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
@@ -94,7 +94,7 @@
           </tei:fs></j:all></j:none>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
-        <j:endConditional target="#weekday_silent_kedushat_hashem"/>
+        <j:endConditional target="#weekday_silent_qedushat_hashem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
@@ -104,10 +104,10 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzadiqim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzaddiqim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
         <j:conditional xml:id="weekday_reader_birkat_kohanim">

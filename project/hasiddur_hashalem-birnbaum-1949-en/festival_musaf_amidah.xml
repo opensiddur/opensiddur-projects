@@ -89,7 +89,7 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/rain"/><j:endConditional target="#festival_musaf_rain"/><j:endConditional target="#festival_musaf_ordinary_opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/mekhalkel"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim"/><j:conditional xml:id="festival_musaf_kedushah_major">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/rain"/><j:endConditional target="#festival_musaf_rain"/><j:endConditional target="#festival_musaf_ordinary_opening"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/mekhalkel"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim"/><j:conditional xml:id="festival_musaf_qedushah_major">
           <tei:note type="instruction" xml:lang="en">During the Reader’s repetition on major festivals and Sabbaths:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -124,7 +124,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:any></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushah/major"/><j:endConditional target="#festival_musaf_kedushah_major"/><j:conditional xml:id="festival_musaf_kedushah_chol">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/qedushah/major"/><j:endConditional target="#festival_musaf_qedushah_major"/><j:conditional xml:id="festival_musaf_qedushah_chol">
           <tei:note type="instruction" xml:lang="en">During the Reader’s repetition on weekday Ḥol ha-Mo‘ed:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -143,7 +143,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushah/chol_hamoed"/><j:endConditional target="#festival_musaf_kedushah_chol"/><j:conditional xml:id="festival_musaf_ledor">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/qedushah/chol_hamoed"/><j:endConditional target="#festival_musaf_qedushah_chol"/><j:conditional xml:id="festival_musaf_ledor">
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -153,7 +153,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><tei:note type="description" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_musaf_ledor"/><j:conditional xml:id="festival_musaf_atah_kadosh">
+        </j:conditional><tei:note type="description" xml:lang="en">Reader:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/ledor"/><j:endConditional target="#festival_musaf_ledor"/><j:conditional xml:id="festival_musaf_attah_qadosh">
           <j:none>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -165,7 +165,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><tei:note type="description" xml:lang="en">In silent devotion:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/atah_kadosh"/><j:endConditional target="#festival_musaf_atah_kadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/kedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/retzeh"/><j:conditional xml:id="festival_musaf_duchen_retzeh">
+        </j:conditional><tei:note type="description" xml:lang="en">In silent devotion:</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/attah_qadosh"/><j:endConditional target="#festival_musaf_attah_qadosh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/qedushat_hayom"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/retzeh"/><j:conditional xml:id="festival_musaf_duchen_retzeh">
           <tei:note type="instruction" xml:lang="en">When the Kohanim bless the congregation:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -197,7 +197,7 @@
             </tei:f>
           </tei:fs></j:all>
           </j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezenah"/><j:endConditional target="#festival_musaf_ordinary_retzeh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/hodaah"/><j:conditional xml:id="festival_musaf_duchen">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/><j:endConditional target="#festival_musaf_ordinary_retzeh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/amidah/hodaah"/><j:conditional xml:id="festival_musaf_duchen">
           <tei:note type="instruction" xml:lang="en">When the Kohanim bless the congregation:</tei:note>
 <j:all><j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">

@@ -44,17 +44,17 @@
         <j:transclude target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:selah_lanu_avinu"/>
         <j:transclude target="urn:x-opensiddur:text:poem:eikh_niftah_peh"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rahamekha"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rachamekha"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:el_erekh_apayim"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor/selichot_preliminary"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:selah_na"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha"/>
         <j:transclude target="urn:x-opensiddur:text:poem:ein_mi_yiqra_betsedeq"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:miqveh_yisrael"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_first_selihah_rubric">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_first_selichah_rubric">
           <tei:pb n="12" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n26_medium.jpg"/>
           <j:conditional xml:id="after_first_selihah_rubric_printed">
             <tei:fs type="asher:expansions">
@@ -73,11 +73,11 @@
             </tei:fs>
           </j:conditional>
           <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha/repeat"/>
           <j:endConditional target="#after_first_selihah_rubric_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:poem:im_avoneinu_rabu_lehagdil"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_prayers">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selichah_prayers">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
           <j:conditional xml:id="after_second_selihah_prayers_printed">
             <tei:fs type="asher:expansions">
@@ -100,7 +100,7 @@
           <j:endConditional target="#after_second_selihah_prayers_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:prayer:tavo_lefanekha_tefillatenu"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selihah_verses">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_second_selichah_verses">
           <tei:pb n="13" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n28_medium.jpg"/>
           <j:conditional xml:id="after_second_selihah_verses_printed">
             <tei:fs type="asher:expansions">
@@ -119,11 +119,11 @@
             </tei:fs>
           </j:conditional>
           <j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha/repeat"/>
           <j:endConditional target="#after_second_selihah_verses_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:poem:tavo_lefanekha_shavat_hinnun"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_third_selihah_prayers">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/after_third_selichah_prayers">
           <tei:pb n="14" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n30_medium.jpg"/>
           <j:conditional xml:id="after_third_selihah_prayers_printed">
             <tei:fs type="asher:expansions">
@@ -145,8 +145,8 @@
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
           <j:endConditional target="#after_third_selihah_prayers_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:bemotzaei_menuhah"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rahamekha"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:bemotzaei_menuchah"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rachamekha"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:amarenu_haazinah"/>
@@ -197,23 +197,23 @@
           <j:endConditional target="#ashamnu_repeat_2_expanded"/>
         </tei:div>
         <j:transclude target="urn:x-opensiddur:text:prayer:meshiah_tsidqekha"/>
-        <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:el_rachum_shimkha"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:anenu"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:rahmana"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:vayomer_david"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:rahum_vehanun"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:rachum_vehanun"/>
         <j:transclude target="urn:x-opensiddur:text:bible:psalms/6"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:mahi_umasi"/>
-        <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rahamim"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rachamim"/>
         <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
         <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:mitratseh_berahamim"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_qadosh"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:mitratzeh_berachamim"/>
         <j:transclude target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonenu"/>
-        <j:transclude target="urn:x-opensiddur:text:prayer:vaanahnu_lo_neda"/>
+        <j:transclude target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/first_day/reader_kaddish">
           <tei:pb n="25" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n52_medium.jpg"/>
           <j:conditional xml:id="reader_kaddish_printed">

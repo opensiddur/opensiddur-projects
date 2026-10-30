@@ -30,7 +30,7 @@
         </tei:bibl>
         <tei:bibl>
           <tei:title>Humash reading divisions</tei:title>
-          <tei:ptr target="urn:x-opensiddur:text:bible:humash@chumash-opensiddur-he"/>
+          <tei:ptr target="urn:x-opensiddur:text:bible:chumash@chumash-opensiddur-he"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -164,7 +164,7 @@
               <tei:div>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
-                <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_hanukkah">
+                <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_chanukah">
                   <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
                   <tei:fs type="opensiddur:holiday">
                     <tei:f name="hanukkah">
@@ -172,8 +172,8 @@
                     </tei:f>
                   </tei:fs>
                 </j:conditional>
-                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_hanukkah"/>
-                <j:endConditional target="#occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_hanukkah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_chanukah"/>
+                <j:endConditional target="#occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_chanukah"/>
                 <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_purim">
                   <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
                   <tei:fs type="opensiddur:holiday">
@@ -186,7 +186,7 @@
                 <j:endConditional target="#occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_grace_purim"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
-                <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_retze">
+                <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_retzeh">
                   <tei:note type="instruction" xml:lang="en">On Sabbath add:</tei:note>
                   <tei:fs type="opensiddur:day-of-week">
                     <tei:f name="hebrew-day">
@@ -195,7 +195,7 @@
                   </tei:fs>
                 </j:conditional>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
-                <j:endConditional target="#occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_retze"/>
+                <j:endConditional target="#occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_retzeh"/>
                 <j:conditional xml:id="occurrence_413_occurrence_411_occurrence_410_occurrence_406_festival_concluding_yaaleh">
                   <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh and festivals add:</tei:note>
                   <j:any>
@@ -391,7 +391,7 @@
               <tei:div>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
-                <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_hanukkah">
+                <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_chanukah">
                   <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
                   <tei:fs type="opensiddur:holiday">
                     <tei:f name="hanukkah">
@@ -399,8 +399,8 @@
                     </tei:f>
                   </tei:fs>
                 </j:conditional>
-                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_hanukkah"/>
-                <j:endConditional target="#occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_hanukkah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_chanukah"/>
+                <j:endConditional target="#occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_chanukah"/>
                 <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_purim">
                   <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
                   <tei:fs type="opensiddur:holiday">
@@ -413,7 +413,7 @@
                 <j:endConditional target="#occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_grace_purim"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
-                <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_retze">
+                <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_retzeh">
                   <tei:note type="instruction" xml:lang="en">On Sabbath add:</tei:note>
                   <tei:fs type="opensiddur:day-of-week">
                     <tei:f name="hebrew-day">
@@ -422,7 +422,7 @@
                   </tei:fs>
                 </j:conditional>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
-                <j:endConditional target="#occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_retze"/>
+                <j:endConditional target="#occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_retzeh"/>
                 <j:conditional xml:id="occurrence_422_occurrence_421_occurrence_419_occurrence_415_festival_concluding_yaaleh">
                   <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh and festivals add:</tei:note>
                   <j:any>
@@ -647,7 +647,7 @@
             <tei:div>
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
-              <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_hanukkah">
+              <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_chanukah">
                 <tei:note type="instruction" xml:lang="en">On Ḥanukkah add:</tei:note>
                 <tei:fs type="opensiddur:holiday">
                   <tei:f name="hanukkah">
@@ -655,8 +655,8 @@
                   </tei:f>
                 </tei:fs>
               </j:conditional>
-              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_hanukkah"/>
-              <j:endConditional target="#occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_hanukkah"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:concluding_prayers/text/grace_chanukah"/>
+              <j:endConditional target="#occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_chanukah"/>
               <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_purim">
                 <tei:note type="instruction" xml:lang="en">On Purim add:</tei:note>
                 <tei:fs type="opensiddur:holiday">
@@ -669,7 +669,7 @@
               <j:endConditional target="#occurrence_429_occurrence_428_occurrence_424_festival_concluding_grace_purim"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
-              <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_retze">
+              <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_retzeh">
                 <tei:note type="instruction" xml:lang="en">On Sabbath add:</tei:note>
                 <tei:fs type="opensiddur:day-of-week">
                   <tei:f name="hebrew-day">
@@ -678,7 +678,7 @@
                 </tei:fs>
               </j:conditional>
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
-              <j:endConditional target="#occurrence_429_occurrence_428_occurrence_424_festival_concluding_retze"/>
+              <j:endConditional target="#occurrence_429_occurrence_428_occurrence_424_festival_concluding_retzeh"/>
               <j:conditional xml:id="occurrence_429_occurrence_428_occurrence_424_festival_concluding_yaaleh">
                 <tei:note type="instruction" xml:lang="en">On Rosh Ḥodesh and festivals add:</tei:note>
                 <j:any>
