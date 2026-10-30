@@ -1,9 +1,9 @@
 name: Release
 
-# Monthly books release (opensiddur-ai#216): tags this repository with the date (vYYYYMMDD),
-# builds every book in settings/ with the latest opensiddur-ai release, and attaches them to the
-# release of that tag. A month with no new commits here and no new opensiddur-ai release is
-# skipped. The work is done by opensiddur-ai's release-projects.yml; see its RELEASE_PROCEDURE.md.
+# Monthly books release (opensiddur-processor#216): tags this repository with the date (vYYYYMMDD),
+# builds every book in settings/ with the latest opensiddur-processor release, and attaches them to the
+# release of that tag. A month with no new commits here and no new opensiddur-processor release is
+# skipped. The work is done by opensiddur-processor's release-projects.yml; see its RELEASE_PROCEDURE.md.
 #
 # Run by hand: with nothing set, to release now if anything is new; with `force`, even if
 # nothing is; with `tag` (and optionally `book`), to rebuild an existing release.
@@ -36,7 +36,7 @@ concurrency:
 
 jobs:
   release:
-    uses: opensiddur/opensiddur-ai/.github/workflows/release-projects.yml@main
+    uses: opensiddur/opensiddur-processor/.github/workflows/release-projects.yml@main
     with:
       force: ${{ inputs.force == true }}
       tag: ${{ inputs.tag }}

@@ -1,3 +1,7 @@
+# Before 0.7.0, the processor gave this book uniform psalm titles by its project name; from
+# 0.7.0 the settings ask for them (electronic.psalm_titles).
+requires_processor: ">=0.7.0"
+
 description: Expanded Ashkenazi siddur in recitation order, with silent and repeated
   Amidah occurrences and actual Torah and haftarah readings. The reader selects date,
   location and service; unresolved alternatives retain their rubrics.
@@ -5,12 +9,14 @@ description: Expanded Ashkenazi siddur in recitation order, with silent and repe
 # and an undated printed siddur, every day's alternatives with their rubrics, is not wanted.
 formats:
 - html
-# The earliest opensiddur-ai release that can build this book: `formats:` is newer than 0.6.0.
-minimum_version: 0.7.0
 book:
   project: siddur_expanded
   file_name: index.xml
   title: Expanded Ashkenazi Siddur
+# The psalms come from several editions, which title them differently: give each whole psalm
+# one heading.
+electronic:
+  psalm_titles: uniform
 typography:
   fonts:
     hebrew:
