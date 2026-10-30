@@ -1,0 +1,217 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">סליחות לשני תנינא׃</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/last_monday_fast@selichoth-asher-1912-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast">
+        <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+        <tei:head>סליחות לשני תנינא׃</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/weekday_amidah">
+          <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Prayers are said as on other week-days, adding <tei:foreign xml:lang="he">עֲנֵנוּ</tei:foreign> after <tei:foreign xml:lang="he">אַל תְּשִׁיבֵנוּ</tei:foreign> in <tei:foreign xml:lang="he">שְׁמַע קוֹלֵנוּ</tei:foreign> in the Ameedah. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/opening_repeat">
+          <j:conditional xml:id="penitential_last-monday-fast_day_opening_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/opening_repeat/printed">
+            <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from <tei:foreign xml:lang="he">סְלַח לָנוּ</tei:foreign> page 159, till <tei:foreign xml:lang="he">לְכָל־קֹרְאֶיךָ</tei:foreign> page 160, and continue with the following. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_opening_repeat_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_opening_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/selah_lanu_avinu"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/el_erekh_apayim_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/vayaavor_reprint"/>
+          <j:endConditional target="#penitential_last-monday-fast_day_opening_repeat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/al_tiqtsof_adonai">
+          <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+          <tei:lg><tei:l>אַל תִּקְצֹף יְיָ עַד מְאֹד וְאַל לָעַד תִּזְכֹּר עָוֹן ·</tei:l> <tei:l>הֵן הַבֶּט־נָא עַמְּךָ כֻלָּנוּ׃</tei:l> <tei:l>הַעַל אֵלֶּה תִתְאַפַּק יְיָ תֶּחֱשֶׁה וּתְעַנֵּנוּ עַד מְאֹד׃</tei:l> <tei:l>שׁוּבָה יְיָ עַד מָתָי ·</tei:l> <tei:l>וְהִנָּחֵם עַל עֲבָדֶיךָ׃</tei:l> <tei:l>כְּרַחֵם אָב עַל־בָּנִים כֵּן תְּרַחֵם יְיָ עָלֵינוּ׃</tei:l> <tei:l>לַיְיָ הַיְשׁוּעָה עַל־עַמְּךָ בִרְכָתֶךָ סֶלָה׃</tei:l> <tei:l>יְיָ צְבָאוֹת עִמָּנוּ מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה׃</tei:l> <tei:l>יְיָ צְבָאוֹת אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ׃</tei:l> <tei:l>יְיָ הוֹשִׁיעָה הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/selah_na">
+          <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+          <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/hateh_elohai">
+          <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
+          <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמַע פְּקָחָה עֵינֶיךָ וּרְאֵה שֹׁמְמֹתֵינוּ וְהָעִיר אֲשֶׁר נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:afafunu_mayim_ad_nefesh"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_afafunu">
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_afafunu_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_afafunu/printed">
+            <tei:pb n="172" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n345_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_afafunu_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_afafunu_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_afafunu_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/haazinah_adonai_tefillatenu">
+          <tei:pb n="172" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n345_medium.jpg"/>
+          <tei:lg><tei:l>הַאֲזִינָה יְיָ תְּפִלָּתֵנוּ הַקְשִׁיבָה לְקוֹל תַּחֲנוּנֵנוּ׃</tei:l> <tei:l>שְׁמַע יְיָ קוֹלֵנוּ נִקְרָא וְחָנֵּנוּ וַעֲנֵנוּ׃</tei:l> <tei:l>שִׁמְעָה יְיָ צֶדֶק הַקְשִׁיבָה רִנָּתֵנוּ׃</tei:l> </tei:lg>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/verses_after_haazinah">
+          <j:conditional xml:id="penitential_last-monday-fast_day_verses_after_haazinah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/verses_after_haazinah/printed">
+            <tei:pb n="172" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n345_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="he">כרחם אב · ליי הישועה · יי צבאות עמנו · יי צבאות אשרי · יי הושיעה · כי לא על · יי שמעה׃ </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_verses_after_haazinah_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_verses_after_haazinah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/verses_after_haazinah/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_verses_after_haazinah_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:ozon_tahan_vehasket_atirah"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_ozon">
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_ozon_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_ozon/printed">
+            <tei:pb n="173" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n347_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_ozon_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_ozon_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_ozon_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:ezkerah_elohim_veehemayah/fast_day_recension"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_ezkerah">
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_ezkerah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_ezkerah/printed">
+            <tei:pb n="174" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n349_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבֹר</tei:foreign> </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_ezkerah_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_ezkerah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_last-monday-fast_day_pair_after_ezkerah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/conclusion_repeat">
+          <j:conditional xml:id="penitential_last-monday-fast_day_conclusion_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/conclusion_repeat/printed">
+            <tei:pb n="174" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n349_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Continue from <tei:foreign xml:lang="he">זְכוֹר רַחֲמֶיךָ</tei:foreign> page 164, till <tei:foreign xml:lang="he">הָרַחֲמִים וְהַסְּלִיחוֹת</tei:foreign> page 167. The Reader says <tei:foreign xml:lang="he">וְאַל יְעַכֵּב</tei:foreign>, and the Service is concluded as directed in page 167. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_last-monday-fast_day_conclusion_repeat_printed"/>
+          <j:conditional xml:id="penitential_last-monday-fast_day_conclusion_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_rahamekha_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_lanu_berit_rishonim"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/shema_qolenu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/amarenu_haazinah_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/tavo_tefillatenu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/ashamnu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/hirshanu_ufashanu"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/mashiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/veal_yeakkev"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/conclusion"/>
+          <j:endConditional target="#penitential_last-monday-fast_day_conclusion_repeat_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

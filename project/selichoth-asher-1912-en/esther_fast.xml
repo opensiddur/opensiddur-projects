@@ -1,0 +1,207 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">PROPITIATORY PRAYERS FOR THE FAST OF ESTHER.</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:selichot/esther_fast@selichoth-asher-1912-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast">
+        <tei:pb n="178" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n358_medium.jpg"/>
+        <tei:head>PROPITIATORY PRAYERS FOR THE FAST OF ESTHER.</tei:head>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/weekday_amidah">
+          <tei:pb n="178" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n358_medium.jpg"/>
+          <tei:note type="instruction" xml:lang="en">Prayers are said as on other week days, adding in the Ameedah the prayer “Answer us,” page 51. </tei:note>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/opening_repeat">
+          <j:conditional xml:id="penitential_esther-fast_day_opening_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/opening_repeat/printed">
+            <tei:pb n="178" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n358_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Pardon us, our Father,” page 159, till “all those who call on thee,” page 160, and continue with the following— </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_opening_repeat_printed"/>
+          <j:conditional xml:id="penitential_esther-fast_day_opening_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/selah_lanu_avinu"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/el_erekh_apayim_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/vayaavor_reprint"/>
+          <j:endConditional target="#penitential_esther-fast_day_opening_repeat_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/qavvo_qivviti_adonai">
+          <tei:pb n="178" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n358_medium.jpg"/>
+          <tei:p>I waited patiently for the Lord, and he inclined unto me, and heard my cry. Yea, in the way of thy judgments, O Lord, have we waited for thee; the desire of our soul is to thy name, and to the remembrance of thee. Like a father hath compassion on his children, so have thou compassion on us, O Lord! Salvation belongeth unto the Eternal! thy blessing be upon thy people. Selah! The Lord of hosts is with us, the God of Jacob is our <tei:pb n="179" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n360_medium.jpg"/>refuge. Selah! O Lord of hosts! happy is the man that trusteth in thee. Save us, O Eternal! Let the King hear us when we call. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/selah_na">
+          <tei:pb n="179" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n360_medium.jpg"/>
+          <tei:p>“Pardon, I beseech thee, the iniquity of this people, according to the greatness of thy beneficence, and as thou hast been indulgent to this people from Egypt even until hitherto: (as it is said), And the Lord said, I have pardoned according to thy word.” </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/hateh_elohai">
+          <tei:pb n="179" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n360_medium.jpg"/>
+          <tei:p>O my God! incline thine ear, and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:adam_bequm_aleinu_hil_ahazatnu"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/pair_after_adam">
+          <j:conditional xml:id="penitential_esther-fast_day_pair_after_adam_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/pair_after_adam/printed">
+            <tei:pb n="181" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n364_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_pair_after_adam_printed"/>
+          <j:conditional xml:id="penitential_esther-fast_day_pair_after_adam_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_esther-fast_day_pair_after_adam_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/ki_immekha_meqor_hayyim">
+          <tei:pb n="181" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n364_medium.jpg"/>
+          <tei:p>For with thee is the source of life, in thy light we shall see light. Hear us when we call, O God of our righteousness: thou hast enlarged us when we were in distress: have mercy upon us, and hear our prayer. And now, I beseech thee, let the power of my Lord be great, according as thou hast spoken. </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/verses_after_meqor">
+          <j:conditional xml:id="penitential_esther-fast_day_verses_after_meqor_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/verses_after_meqor/printed">
+            <tei:pb n="181" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n364_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father,” till “when we call,” page 52, then say the verses “For we do not presume,” and “O Lord, hear,” in the same page. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_verses_after_meqor_printed"/>
+          <j:conditional xml:id="penitential_esther-fast_day_verses_after_meqor_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/verses_after_meqor/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_verses_after_meqor_expanded"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:attah_hael_oseh_felaot"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/pair_after_attah">
+          <j:conditional xml:id="penitential_esther-fast_day_pair_after_attah_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/pair_after_attah/printed">
+            <tei:pb n="182" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n366_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say “Omnipotent King,” “And the Eternal passed,” &amp;c., pp. 11, 12. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_pair_after_attah_printed"/>
+          <j:conditional xml:id="penitential_esther-fast_day_pair_after_attah_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor"/>
+          <j:endConditional target="#penitential_esther-fast_day_pair_after_attah_expanded"/>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/refrain_instruction">
+          <j:conditional xml:id="penitential_esther-fast_day_refrain_instruction_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="refrains_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/refrain_instruction/printed">
+            <tei:pb n="182" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n366_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Wherever the words (We are but few, &amp;c.), occur at the end of the verses, repeat “We are but few,” till “in the days of Mordecai and Esther.” </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_refrain_instruction_printed"/>
+        </tei:div>
+        <j:transclude target="urn:x-opensiddur:text:poem:bematei_mispar_hillinu_fanekha"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/conclusion_repeat">
+          <j:conditional xml:id="penitential_esther-fast_day_conclusion_repeat_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/esther_fast/conclusion_repeat/printed">
+            <tei:pb n="183" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n368_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “O Lord. remember thy mercy,” page 164, till “mercy and pardon,” page 167. The Reader says “Let not sin,” &amp;c., and the Service is concluded as directed in page 167. </tei:note>
+          </tei:div>
+          <j:endConditional target="#penitential_esther-fast_day_conclusion_repeat_printed"/>
+          <j:conditional xml:id="penitential_esther-fast_day_conclusion_repeat_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="prayers_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_rahamekha_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_lanu_berit_rishonim"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/shema_qolenu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/amarenu_haazinah_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/tavo_tefillatenu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/ashamnu_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/hirshanu_ufashanu"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/mashiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/veal_yeakkev"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/conclusion"/>
+          <j:endConditional target="#penitential_esther-fast_day_conclusion_repeat_expanded"/>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

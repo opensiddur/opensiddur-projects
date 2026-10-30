@@ -8,13 +8,14 @@ opensiddur-processor release, makes no release.
 
 ```
 settings/
-  <book>/
+  <project>/
     <variant>.yaml
 ```
 
-- One subdirectory per book. The variants in it are different settings for the same book: an
-  annual and a triennial humash, a Haggadah with and without the translation. A file anywhere
-  else is an error.
+- One subdirectory per book, named for the project the book is built from (its `book.project`),
+  so that a book is named after its project (opensiddur-processor's `specs/NAMING_SCHEME.md`).
+  The variants in it are different settings for the same book: an annual and a triennial
+  humash, a Haggadah with and without the translation. A file anywhere else is an error.
 - Each file names the root file it compiles with `book:`, and says what it makes and how it
   differs from the other variants with `description:`:
 
@@ -22,7 +23,7 @@ settings/
   description: >
     The whole humash for the annual cycle, Hebrew facing English.
   book:
-    project: humash        # a directory under project/
+    project: chumash-opensiddur-he   # a directory under project/, and this one's
     file_name: index.xml   # relative to that project
     title: Humash (annual cycle)   # optional
   priority:
@@ -45,8 +46,9 @@ settings/
   formats: [html]   # html, pdf, or both (the default)
   ```
 
-- The release assets are `<book>-<variant>-<tag>.html` and `.pdf`, e.g.
-  `humash-annual-v20261101.pdf`. Names are lowercase with `_` between words.
+- The release assets are `<project>-<variant>-<tag>.html` and `.pdf`, e.g.
+  `chumash-opensiddur-he-annual-v20261201.pdf`. A variant's name is lowercase with `_` between
+  words.
 
 The rest of the format is documented in opensiddur-processor: `opensiddur/exporter/README.md` and
 `doc/typography.md`.
@@ -60,7 +62,7 @@ opensiddur-processor checkout:
 P=<this repository>/project
 uv run python -m opensiddur.exporter.refdb --project-directory "$P"
 uv run python -m opensiddur.exporter.books --project-directory "$P"            # all books
-uv run python -m opensiddur.exporter.books --project-directory "$P" humash     # one book
+uv run python -m opensiddur.exporter.books --project-directory "$P" chumash-opensiddur-he   # one book
 ```
 
 To make a books release now, or to rebuild one (see opensiddur-processor's `RELEASE_PROCEDURE.md`):
@@ -69,5 +71,5 @@ To make a books release now, or to rebuild one (see opensiddur-processor's `RELE
 gh workflow run release.yml -R opensiddur/opensiddur-projects                     # if anything is new
 gh workflow run release.yml -R opensiddur/opensiddur-projects -f force=true       # regardless
 gh workflow run release.yml -R opensiddur/opensiddur-projects -f tag=v20261101    # rebuild it
-gh workflow run release.yml -R opensiddur/opensiddur-projects -f tag=v20261101 -f book=humash/annual
+gh workflow run release.yml -R opensiddur/opensiddur-projects -f tag=v20261201 -f book=chumash-opensiddur-he/annual
 ```

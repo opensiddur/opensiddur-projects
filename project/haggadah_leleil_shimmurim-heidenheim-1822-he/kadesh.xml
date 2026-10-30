@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">הגדה לליל שימורים</tei:title>
+        <tei:title type="sub" xml:lang="he">סדר הגדה ליל שימורים עם תרגום אשכנזי</tei:title>
+        <tei:title type="alt" xml:lang="en">Haggadah le-Leil Shimurim</tei:title>
+        <tei:title type="alt" xml:lang="en">Seder ha-Haggadah for the Night of Vigil</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Hebrew transcribed for the Open Siddur Project by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Open Siddur transcription (2009/2013), not a diplomatic facsimile of the 1822 Rödelheim print</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:haggadah:haggadah@haggadah_leleil_shimmurim-heidenheim-1822-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/haggadah_leleil_shimmurim-heidenheim-1822-he/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="3v" to="4r"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:haggadah:kadesh">
+        <tei:pb n="3v" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=6"/>
+        <tei:head>קַדֵּשׁ</tei:head>
+        <j:conditional xml:id="cond_kadesh_vayechulu">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">בשבת מתחילין כאן</tei:note>
+        <tei:milestone unit="paragraph" n="1" corresp="urn:x-opensiddur:text:haggadah:kadesh/1"/>
+        <tei:p>וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי וַיְכֻלּ֛וּ הַשָּׁמַ֥יִם וְהָאָ֖רֶץ וְכׇל־צְבָאָֽם וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכׇּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכׇּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת בְּרֵאשִׁית׃</tei:p>
+        <j:endConditional target="#cond_kadesh_vayechulu"/>
+        <tei:milestone unit="paragraph" n="2" corresp="urn:x-opensiddur:text:haggadah:kadesh/2"/>
+        <tei:p>סָבְרִי מָרָנָן וֽרָבָּנָן וֽרָבּוֹתָי בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הַגָּֽפֶן׃</tei:p>
+        <tei:milestone unit="paragraph" n="3" corresp="urn:x-opensiddur:text:haggadah:kadesh/3"/>
+        <tei:p>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם אֲשֶׁר בָּֽחַר בָּֽנוּ מִכָׇּל עָם וְרוֹמְמָֽנוּ מִכׇּל לָשׁוֹן וְקִדְּשָֽׁנוּ בְּמִצְוֺתָיו׃ וַתִּֽתֶּן לָֽנוּ יְיָ אֱלֹהֵֽינוּ בְּאַהֲבָה <j:conditional xml:id="cond_kadesh_shabbatot_limnuha" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>שַׁבָּתוֹת לִמְנוּחָה וּ<j:endConditional target="#cond_kadesh_shabbatot_limnuha"/> מוֹעֲדִים לְשִׁמְחָה חַגִּים וּזְמַנִים לְשָׂשׂוֹן אֶת יוֹם <j:conditional xml:id="cond_kadesh_yom_hashabbat" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>הַשַּׁבָּת הַזֶּה וְאֶת יוֹם<j:endConditional target="#cond_kadesh_yom_hashabbat"/> חַג הַמַּצוֹת הַזֶּה. זְמַן חֵרוּתֵֽנוּ <j:conditional xml:id="cond_kadesh_beahava" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>בְּאַהֲבָה<j:endConditional target="#cond_kadesh_beahava"/> מִקְרָא קֹֽדֶשׁ זֵֽכֶר לִיצִיאַת מִצְרָֽיִם. כִּי בָֽנוּ בָּחַֽרְתָּ וְאוֹתָֽנוּ קִדַּֽשְׁתָּ מִכָׇּל־הָעַמִּים <j:conditional xml:id="cond_kadesh_veshabbat" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>וְשָׁבָּת<j:endConditional target="#cond_kadesh_veshabbat"/> וּמוֹעֲדֵי קָׇדְשֶֽׁךָ <j:conditional xml:id="cond_kadesh_beahava_uvratzon" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>בְּאַהֲבָה וּבְרָצוֹן<j:endConditional target="#cond_kadesh_beahava_uvratzon"/> בְּשִׂמְחָה וּבְשָׂשֹׂן הִנְחַלְתָּֽנוּ בָּרוּךְ אַתָּה יְיָ מְקַדֵּשׁ <j:conditional xml:id="cond_kadesh_mekadesh_hashabbat" type="marked"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>הַשָּׁבָּת וְ<j:endConditional target="#cond_kadesh_mekadesh_hashabbat"/> יִשְׂרָאֵל וְהַזְּמַנִּים׃</tei:p>
+        <j:conditional xml:id="cond_kadesh_havdalah">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="motzaei-shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction">במוצאי שבת מוסיפין</tei:note>
+        <tei:milestone unit="paragraph" n="4" corresp="urn:x-opensiddur:text:haggadah:kadesh/4"/>
+        <tei:p><tei:pb n="4r" ed="1822" facs="https://www.hebrewbooks.org/pdfpager.aspx?req=4909&amp;pgnum=7"/>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם בּוֹרֵא מְאוֹרֵי הָאֵשׁ׃ בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם הַמַּבְדִּיל בֵּין קֹֽדֶשׁ לְחוֹל בֵּין אוֹר לְחֹֽשֶׁךְ בֵּין יִשְׂרָאֵל לָעַמִּים. בֵּין יוֹם הַשְּׁבִיעִי לְשֵֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה. בֵּין קְדֻשַּׁת שַׁבָּת לִקְדֻשַׁת יוֹם טוֹב הִבְדַּֽלְתָּ. וְאֶת יוֹם הַשְּׁבִיעִי מִשֵּֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה קִדַּֽשְׁתָּ. הִבְדַּֽלְתָּ וְקִדַּֽשְׁתָּ אֶת עַמְּךָ יִשְׂרָאֵל בִּקְדֻשָּׁתֶֽךָ. בָּרוּךְ אַתָּה יְיָ הַמַּבְדִּיל בֵּין קֹֽדֶשׁ לְקֹֽדֶשׁ׃</tei:p>
+        <j:endConditional target="#cond_kadesh_havdalah"/>
+        <tei:milestone unit="paragraph" n="5" corresp="urn:x-opensiddur:text:haggadah:kadesh/5"/>
+        <tei:p>בָּרוּךְ אַתָּה יְיָ אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם שֶׁהֶחֱיָֽנוּ וְקִיְּמָנֽוּ וְהִגִּיעָֽנוּ לַזְּמַן הַזֶּה׃</tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">elohei besar ammekha samar</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and encoding by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read from the scanned 1912–5672 printing; editorial expansions recorded in the source README.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar@selichoth-asher-1912-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:p>
+          <tei:ref target="index.xml">Asher Selichoth, 1912 source metadata</tei:ref>
+        </tei:p>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar">
+        <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n388_medium.jpg"/>
+        <tei:div>
+          <tei:p>O my God, the flesh of thy people trembleth in fear of thee, and from the time that the morning dawns until the evening oblation, they wait in expectation, saying, I will appease him with the offering. O refuse to hearken to our accuser: measure thou not to us, we beseech thee, according to his boisterousness, for if thou shouldest mark our iniquities, verily they are abundant, so as to induce thee not to have any regard to the oblation. If with thy left hand thou hast driven thy people Israel, who believe in thee, draw them to thee with thy right hand, for they are come to seek thy presence, and have taken an offering unto thee. They arrange prayer, may it be accepted as the offering of bulls. O accept them, and cast all their sins into the depths of the sea. May their prayer and supplication be pleasant in thy presence as the sin-offering, and as the burnt-offering, and as the meat-offering. Remember the </tei:p>
+        </tei:div>
+        <tei:div corresp="urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar/verses_after_samar">
+          <j:conditional xml:id="yom_kippur_katan_verses_after_samar_printed">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div corresp="urn:x-opensiddur:text:poem:elohei_besar_ammekha_samar/verses_after_samar/printed">
+            <tei:pb n="193" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n388_medium.jpg"/>
+            <tei:note type="instruction" xml:lang="en">Say from “Like a father hath compassion,” till “when we call,” page 9, then say the verses “For we do not presume,” and “O Lord, hear,” pp. 9, 10. </tei:note>
+          </tei:div>
+          <j:endConditional target="#yom_kippur_katan_verses_after_samar_printed"/>
+          <j:conditional xml:id="yom_kippur_katan_verses_after_samar_expanded">
+            <tei:fs type="asher:expansions">
+              <tei:f name="repetitions_present">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:div>
+            <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/yom_kippur_katan/verses_after_samar/expanded"/>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:hateh_elohai_oznekha/repeat" type="inline"/> </tei:p>
+            <tei:milestone unit="prayer"/>
+          </tei:div>
+          <j:endConditional target="#yom_kippur_katan_verses_after_samar_expanded"/>
+        </tei:div>
+        <tei:div>
+          <tei:p><tei:pb n="194" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n390_medium.jpg"/>bull whose blood was sprinkled on the inner altar, as also the kid whose blood was sprinkled upon the outer altar. O may our words be now acceptable in thy presence, and may our present be pleasant as one of the lambs of the flock out of the two hundred from the pastures of Israel, for an oblation. Behold their power is gone, and those who were seated on high are bowed down; the faithful fail; they have therefore chosen one who is slow of speech and of uncircumcised lip (as expressed),<tei:note type="commentary">Judges iii. 15.</tei:note> “And the children of Israel sent a present by him.” Purify the speech of my lips as the wide extended dawn of the morning; answer me and repair thy altar that is broken down. May the smoothness of my language be pleasant as the oil that was mingled with the burnt-offering and meat-offering. May the house of their prayer, the place where they pour out their humble supplication, be accounted as the place where the priests boiled the sin-offering, and the trespass-offering, and where they baked the meat-offering. May he command his loving-kindness to lead me securely to my dwelling, to glorify the place of my sanctuary, to renew the honour of my glory, and to refine and purify the children of Levi, that they may offer an oblation to the Lord. </tei:p>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

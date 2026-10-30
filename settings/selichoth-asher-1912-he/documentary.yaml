@@ -1,0 +1,66 @@
+# David Asher's Selichoth (1912), Hebrew facing English, as the book prints it.
+
+description: >
+  Asher's Selichoth, Hebrew facing English, with no date declared, so every service is
+  kept. Abbreviated refrains, prayers and repetitions stay as printed, with the book's
+  instructions for completing them.
+
+# v0.6.0 paired this book with settings that could not resolve the Full Kaddish its electronic
+# book transcludes from Birnbaum (fixed in #81), and the release failed to build it. Releases
+# from 0.7.0 on are paired with the fixed settings.
+requires_processor: ">=0.7.0"
+
+book:
+  project: selichoth-asher-1912-he
+  file_name: index.xml
+  title: Asher Selichoth — documentary
+priority:
+  transclusion:
+  - selichoth-asher-1912-he
+  - selichoth-asher-1912-en
+  # An electronic book leaves the reader's choice to expand the Full Kaddish undecided, so
+  # Birnbaum's text, which supplies it, must be resolvable even though this book prints
+  # the abbreviation.
+  - hasiddur_hashalem-birnbaum-1949-he
+  - hasiddur_hashalem-birnbaum-1949-en
+  instructions:
+  - selichoth-asher-1912-he
+  - selichoth-asher-1912-en
+parallel:
+  projects:
+  - selichoth-asher-1912-en
+  - hasiddur_hashalem-birnbaum-1949-en
+readings:
+  abbreviations: abbreviated
+# The editor's notes (standoff, each beginning "Editor:") are in the English project.
+annotations: [selichoth-asher-1912-en]
+# Each editor's note is printed once, where the book first reaches it, though the
+# expanded book repeats the passages it annotates.
+print_once:
+  editorial: true
+typography:
+  page_header:
+    all:
+      left: סליחות
+      right: '{page}'
+  instructions:
+    from: both
+  # The release builders install Ezra SIL, not SBL Hebrew, so a release sets Ezra; SBL
+  # Hebrew, its descendant, stands in where Ezra is absent. Both carry the middle dot (U+00B7)
+  # that divides Asher's verses, which the Culmus faces (Frank Ruehl CLM) lack.
+  fonts:
+    hebrew:
+    - name: Ezra SIL
+      normal_size: 12
+    - name: SBL Hebrew
+      normal_size: 12
+    - name: FreeSerif
+      normal_size: 12
+  table_of_contents:
+    enabled: true
+    depth: 2
+declarations:
+  asher:expansions:
+    refrains_present: false
+    prayers_present: false
+    repetitions_present: false

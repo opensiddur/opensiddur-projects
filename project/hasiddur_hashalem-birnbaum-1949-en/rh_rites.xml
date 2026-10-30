@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ראש השנה וערב יום הכיפורים</tei:title>
+        <tei:title type="alt" xml:lang="en">Rosh Hashanah and Erev Yom Kippur</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Read from the 1949 scan and encoded by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Efraim Feinstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Read directly from the scanned 1949 printing, page by page</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv_and_rites@hasiddur_hashalem-birnbaum-1949-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-en/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="656" to="674"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+<tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv_and_rites"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Rosh Hashanah and Erev Yom Kippur</tei:head><tei:pb n="656" ed="1949 rosh hashana and erev yom kippur" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n680_medium.jpg"/><j:conditional xml:id="festival_rh_rh_occasion">
+          <tei:note type="instruction" xml:lang="en">On Rosh Hashanah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hashana">
+              <tei:numeric value="1" max="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>        <j:conditional xml:id="rh_amidah_service">
+<j:any>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="minha">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:any>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah"/>        <j:endConditional target="#rh_amidah_service"/>        <j:conditional xml:id="rh_evening_greeting">
+          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/greeting"/>        <j:endConditional target="#rh_evening_greeting"/>        <j:conditional xml:id="rh_evening_kiddush">
+          <tei:fs type="opensiddur:service-time">
+            <tei:f name="maariv">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush"/>        <j:endConditional target="#rh_evening_kiddush"/><j:endConditional target="#festival_rh_rh_occasion"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/tashlikh"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:yom_kippur/kapparot"/><j:conditional xml:id="festival_rh_yk_candles">
+          <tei:note type="instruction" xml:lang="en">Before Yom Kippur begins:</tei:note>
+<j:all><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="9"/></tei:f></tei:fs>          <tei:fs type="opensiddur:service-time">
+            <tei:f name="minha">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs></j:all>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlakat_ner_yom_kippur"/><j:endConditional target="#festival_rh_yk_candles"/></tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
