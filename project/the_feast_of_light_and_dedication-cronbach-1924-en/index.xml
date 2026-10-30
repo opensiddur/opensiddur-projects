@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">[Ḥanukkah] the Feast of Light and Dedication — a prayer by Rabbi Abraham Cronbach (1924)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">[Ḥanukkah] the Feast of Light and Dedication — a prayer by Rabbi Abraham Cronbach (1924)</tei:title>
+          <tei:author>Abraham Cronbach</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1924">1924</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54805</tei:idno>
+          <tei:idno type="opensiddur.org">54805</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/prayers-of-the-jewish-advance-abraham-cronbach-1924/Prayers%20of%20the%20Jewish%20Advance%20%28Abraham%20Cronbach%201924%29#page/n43/mode/2up">https://archive.org/stream/prayers-of-the-jewish-advance-abraham-cronbach-1924/Prayers%20of%20the%20Jewish%20Advance%20%28Abraham%20Cronbach%201924%29#page/n43/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54805_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for “The Feast of Light and Dedication” by Rabbi Abraham Cronbach is found in his, <tei:hi rend="italic">Prayers of the Jewish Advance</tei:hi> (1924), on pages 37-39.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54805_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_feast_of_light_and_dedication_cronbach"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

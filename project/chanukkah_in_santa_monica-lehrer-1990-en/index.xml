@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">[I'm Spending] Ḥanukkah in Santa Monica, by Tom Lehrer (1990)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">[I'm Spending] Ḥanukkah in Santa Monica, by Tom Lehrer (1990)</tei:title>
+          <tei:author>Tom Lehrer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1990">1990</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=49029</tei:idno>
+          <tei:idno type="opensiddur.org">49029</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/shiron-uvirkon-lahanukkah-hillel-yisraeli-lavery-2016/Shiron%20u%27Virkon%20la%27Hanukkah%20%28Hillel%20Lavery-Yisraeli%202016%29#page/n22/mode/2up">https://archive.org/stream/shiron-uvirkon-lahanukkah-hillel-yisraeli-lavery-2016/Shiron%20u%27Virkon%20la%27Hanukkah%20%28Hillel%20Lavery-Yisraeli%202016%29#page/n22/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_49029_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“[I’m Spending] Hanukkah in Santa Monica” by Tom Lehrer was first written at the request of Garrison Keillor for his radio show <tei:hi rend="italic">The American Radio Company</tei:hi> on which it was performed twice, in 1990 and 1992. The song was later released on the album, <tei:hi rend="italic">Bible &amp; Beyond</tei:hi> (Larry Milder, 1999). The first recording of Tom Lehrer singing his song can be heard on <tei:hi rend="italic">The Remains of Tom Lehrer</tei:hi> (Disc 3) (2000). In 2022, Tom Lehrer gave an enormous Ḥanukkah present to the world, dedicating his entire oeuvre to the Public Domain including this song.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_49029_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:chanukah_in_santa_monica_lehrer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yotser for Shabbat Rosh Ḥodesh Ḥanukkah from nusaḥ Candia (Crete), translated by Yitzchak Dickman</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/yitzchak-dickman">Yitzchak Dickman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Yotser for Shabbat Rosh Ḥodesh Ḥanukkah from nusaḥ Candia (Crete), translated by Yitzchak Dickman</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1375" to="1425">1375 – 1425</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65459</tei:idno>
+          <tei:idno type="opensiddur.org">65459</tei:idno>
+          <tei:note>Source: Bodleian-Library-MS-Canonici-Or-49A_27-28 (fol. 10r) <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/01/bodleian-library-ms-canonici-or-49a-27-28-fol--10r.jpg">https://opensiddur.org/wp-content/uploads/2026/01/bodleian-library-ms-canonici-or-49a-27-28-fol--10r.jpg</tei:ref></tei:note>
+          <tei:note>Source: Bodleian-Library-MS-Canonici-Or-49A_27-28 (fol. 10v) <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/01/bodleian-library-ms-canonici-or-49a-27-28-fol--10v.jpg">https://opensiddur.org/wp-content/uploads/2026/01/bodleian-library-ms-canonici-or-49a-27-28-fol--10v.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65459_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a גוף יוצר (<tei:hi rend="italic">guf yotser</tei:hi>) piyut from Nusaḥ Candia (Crete) for Shabbat Rosh Ḥodesh Ḥanukkah. The author of the piyut is unknown. It is presented here on the basis of the edition published by Dr. Gabriel Wasserman in his work <tei:hi rend="italic">Liturgical poems of Ḥanukka from Europe</tei:hi> (2016), where it appears in Volume 2, as piyut number 23. While the translation below heavily utilizes Dr. Wasserman’s commentary on the piyut, the translation itself is original to me.</tei:p>
+        <tei:p>I found this piyut when looking through Dr. Wasserman’s aforementioned work, and it struck me as very beautiful and particularly relevant to current events.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65459_introduction"/>
+      <j:conditional xml:id="osp_65459_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This yotser for Shabbat Rosh Ḥodesh Ḥanukkah is found in two manuscripts: MS. Canonici Or. 49A/2, fol. 10r (Oxford Bodleian 1083): a Maḥzor according to the Romaniote rite (Ḥanukah-Tishah be-Av) (ff. 7r-182v). The text is also found in a manuscript at the Montefiore Library (London, England) Ms. 220 (F 5190) (on page 9).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65459_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_for_shabbat_rosh_chodesh_chanukah_from_nusach_candia"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

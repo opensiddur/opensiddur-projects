@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Menorah, a poem by Miriam del Banco (1886)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Menorah, a poem by Miriam del Banco (1886)</tei:title>
+          <tei:author>Miriam del Banco</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1886">1886</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41110</tei:idno>
+          <tei:idno type="opensiddur.org">41110</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/menorah01bnaiuoft/menorah01bnaiuoft#page/35/mode/2up">https://archive.org/stream/menorah01bnaiuoft/menorah01bnaiuoft#page/35/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41110_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“The Menorah” by Miriam del Banco was first published in 1886 in <tei:hi rend="italic">The Menorah</tei:hi> (the official magazine of Bnei Brith) volume 1, p. 36-37. Del Banco probably authored this poem especially for this inaugural edition.</tei:p>
+        <tei:p>As the featured image for this poem, I have associated an illustration of an orrery, a mechanical model of the solar system. Although del Banco does not mention an orrery outright, I sense its resonance in the seventh stanza “And as all thy branches in their twining / Towards the seventh, central light, do burn. / And as this itself, in splendor shining, / To the Holy Shrine doth ever turn,” and in the line in the last stanza, “Arch and post to gilded portal turning.” This last stanza, asserting that “Light is knowledge” and that Truth in art, science, and the humanities is synonymous with Torah, is a powerful revisionist framing of an enlightened Judaism. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41110_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_menorah_banco"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

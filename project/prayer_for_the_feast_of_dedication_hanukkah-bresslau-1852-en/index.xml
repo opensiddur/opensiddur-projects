@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Prayer for the Feast of Dedication (חנוכה), by Marcus Heinrich Bresslau (1852)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">Prayer for the Feast of Dedication (חנוכה), by Marcus Heinrich Bresslau (1852)</tei:title>
+          <tei:author>Marcus Heinrich Bresslau</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1852">1852</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=32141</tei:idno>
+          <tei:idno type="opensiddur.org">32141</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/devotions-for-the-daughters-of-israel-marcus-heinrich-bresslau-1852#page/44/mode/2up">https://archive.org/stream/devotions-for-the-daughters-of-israel-marcus-heinrich-bresslau-1852#page/44/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_feast_of_dedication_chanukah_bresslau"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

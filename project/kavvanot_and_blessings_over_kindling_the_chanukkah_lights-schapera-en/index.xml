@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kavvanot and Blessings over Kindling the Ḥanukkah lights (HUC-JIR Klau Library MSS 281, Italy 1793)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jason-schapera">Jason Schapera</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kavvanot and Blessings over Kindling the Ḥanukkah lights (HUC-JIR Klau Library MSS 281, Italy 1793)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1793">1793</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=28713</tei:idno>
+          <tei:idno type="opensiddur.org">28713</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_28713_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Over at the Klau Library blog, Jason Schapera writes: “Manuscript 281 [was] composed in Italy in 1793. In it the eight days of Ḥanukkah are recognized as an especially auspicious period. The Kabbalistic work instructs the reader on the proper formulation of a series of prayers which, when said with the proper intent and focus on the mystical names of God, is sure to grant the petitioner children who will merit becoming learned scholars. In clear block letters (with careful diacritics) and the occasional Italian insertion, the mystic scribe lays out his formulations.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_28713_introduction"/>
+      <j:conditional xml:id="osp_28713_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Care has been taken to present divine names without circumlocutions so as to represent the formulation of these invocations in their kabbalistic context. I have made some light editing and added scriptural citations. –Aharon N. Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_28713_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanot_and_blessings_over_kindling_the_chanukah_lights"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kavvanah and prayer for Zōt Ḥanukkah, the last night and day of Ḥanukkah 5784, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kavvanah and prayer for Zōt Ḥanukkah, the last night and day of Ḥanukkah 5784, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-12-13">2023-12-13</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53636</tei:idno>
+          <tei:idno type="opensiddur.org">53636</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53636_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Here is a midrash that is heartbreakingly relevant to our times, followed by a kavvanah.</tei:p>
+        <tei:p>There is a midrash that says the people Israel<tei:anchor xml:id="note_1"/> are like an olive tree: to get the pure oil that gives light, the olives need to be crushed, <tei:hi rend="italic">raḥmanah lits’lan</tei:hi> (God save us). Many of us have never experienced a time as crushing as right now. And even as that is true, it is both an act of sanity and an affirmation of truth’s complexity to remember: the Palestinian people are also compared to an olive tree, and they are also being crushed. May we find the seeds of light that will enable us and all the world to overcome the hatred and violence that is gripping our societies. May there be light and justice and peace for all of Israel/Palestine, for all her inhabitants and peoples, from the river to the sea, speedily in our days.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53636_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanah_and_prayer_for_zot_chanukah_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>”the people Israel” = the whole Jewish people, not the state</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

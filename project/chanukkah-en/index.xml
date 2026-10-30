@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ḥanukkah, a hymn by Minna Kleeberg (1868)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Ḥanukkah, a hymn by Minna Kleeberg (1868)</tei:title>
+          <tei:author>Minna Cohen Kleeberg</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1868">1868</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41087</tei:idno>
+          <tei:idno type="opensiddur.org">41087</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymns00wise/hymns00wise#page/104/mode/2up">https://archive.org/stream/hymns00wise/hymns00wise#page/104/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41087_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥanukkah — Das Fest der Lichter, zum Andenken der Siege der Makkabäer über Antioches Epiphanes und die Syrier, und der Wiedereinweihung des Tempels zu Jerusalem. (The Feast of Lights, commemorating the victories of the Maccabees over Antioch Epiphanes and the Syrians, and the rededication of the Temple at Jerusalem.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41087_introduction"/>
+      <j:conditional xml:id="osp_41087_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Hannukah” by Minna Kleeberg appears as hymn number 38 in מנהג אמעריקא: תפלות בני ישורון <tei:hi rend="italic">Minhag America: Hymns, Psalms &amp; Prayers in English and German</tei:hi> by Rabbi Isaac Mayer Wise, et al (1868), p. 105 and 107.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41087_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:chanukah_kleeberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

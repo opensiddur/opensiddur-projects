@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="de">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכות לנרות חנוכה</tei:title>
+        <tei:title type="alt" xml:lang="en">Die Segenssprüche beim Anzünden der Ḥanukkah-Lichter (German trans. by Chajm Guski)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/chajm">Chajm Guski</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכות לנרות חנוכה</tei:title>
+          <tei:title xml:lang="en">Die Segenssprüche beim Anzünden der Ḥanukkah-Lichter (German trans. by Chajm Guski)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2010-11-24">2010-11-24</tei:date>
+          <tei:date type="accessed" when="2026-10-01">2026-10-01</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=1530</tei:idno>
+          <tei:idno type="opensiddur.org">1530</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/2420d574f26489fc0dfad4b2cfa9c357052a5a30">2420d574f2</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_1530_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>
+          <tei:hi rend="bold">DOWNLOAD:</tei:hi>
+        </tei:p>
+        <tei:p>PDF | ODT | TXT</tei:p>
+        <tei:p>Just in time for Ḥanukkah, Chajm Guski shares a חנוכה מדריך (Ḥanukkah Madrikh), Handbook for Ḥanukkah, with a Deutsch translation and transliteration of the blessings on lighting the Ḥanukiah, the kavanah, <tei:hi rend="italic">HaNerot HaLalu</tei:hi>, and the piyyut, <tei:hi rend="italic">Maoz Tzur</tei:hi>. Chajm adds that the format for his layout was inspired by Shmuel Gonzales‘s work.</tei:p>
+        <tei:p>For the Ḥanukkah blessings in Hebrew with an English translation, go here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_1530_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:die_segensspruche_beim_anzunden_der_chanukah_lichter"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
