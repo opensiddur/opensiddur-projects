@@ -70,7 +70,7 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
-        <j:conditional xml:id="weekday_kedushah">
+        <j:conditional xml:id="weekday_qedushah">
 <j:all>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
@@ -80,8 +80,8 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><tei:div><tei:head xml:lang="he">קְדֻשָּׁה</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/></tei:div>        <j:endConditional target="#weekday_kedushah"/>
-        <j:conditional xml:id="weekday_silent_kedushat_hashem">
+        </j:conditional><tei:div><tei:head xml:lang="he">קְדֻשָּׁה</tei:head><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/></tei:div>        <j:endConditional target="#weekday_qedushah"/>
+        <j:conditional xml:id="weekday_silent_qedushat_hashem">
 <j:none><j:all>          <tei:fs type="opensiddur:recitation">
             <tei:f name="repetition">
               <tei:binary value="true"/>
@@ -91,7 +91,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all></j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>        <j:endConditional target="#weekday_silent_kedushat_hashem"/>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>        <j:endConditional target="#weekday_silent_qedushat_hashem"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
@@ -122,7 +122,7 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzadiqim"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzaddiqim"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim/opening"/>
         <j:conditional xml:id="minchah_jerusalem_seal">
           <tei:note type="instruction" xml:lang="en">Except on Tish‘ah b’Av:</tei:note>
@@ -147,7 +147,7 @@
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/nachaym_hashem_elohaynu"/>
         <j:endConditional target="#minchah_nachem"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah/opening"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah/opening"/>
         <j:conditional xml:id="minchah_silent_aneinu">
 <j:all><j:any>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
@@ -165,7 +165,7 @@
         </j:conditional><tei:note type="description" xml:lang="en">On fast days, the Congregation recites here:</tei:note>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu/opening"/>
         <j:endConditional target="#minchah_silent_aneinu"/>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefilah/seal"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah/seal"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
 <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">On fast days, the Reader recites here the priestly blessing (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim@hasiddur_hashalem-birnbaum-1949-he"/>) and instead of the following paragraph, <tei:foreign xml:lang="he">שים שלום</tei:foreign> is said (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:amidah/shalom/sim_shalom@hasiddur_hashalem-birnbaum-1949-he"/>).</tei:seg></tei:note>
@@ -241,7 +241,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayim"/>
+<j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim"/>
         <j:endConditional target="#minchah_peace_ten_days"/>
         <j:conditional xml:id="weekday_silent_meditation">
 <j:none><j:all>          <tei:fs type="opensiddur:recitation">

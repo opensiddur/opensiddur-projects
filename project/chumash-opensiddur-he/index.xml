@@ -18,7 +18,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:bible:humash@chumash-opensiddur-he</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:chumash@chumash-opensiddur-he</tei:idno>
         <tei:availability status="free">
           <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
         </tei:availability>
@@ -47,14 +47,14 @@
       </tei:titlePage>
     </tei:front>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:bible:humash" n="humash">
+      <tei:div corresp="urn:x-opensiddur:text:bible:chumash" n="chumash">
         <tei:head>חֻמָּשׁ</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/genesis"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/exodus"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/leviticus"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/numbers"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:humash/deuteronomy"/>
-        <tei:div corresp="urn:x-opensiddur:text:bible:humash/haftarot" n="haftarot">
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chumash/genesis"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chumash/exodus"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chumash/leviticus"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chumash/numbers"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chumash/deuteronomy"/>
+        <tei:div corresp="urn:x-opensiddur:text:bible:chumash/haftarot" n="haftarot">
           <tei:head>הַפְטָרוֹת</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/bereshit"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/noach"/>
@@ -112,7 +112,7 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/haazinu"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:haftarah/vezot_haberakhah"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:bible:humash/megillot" n="megillot">
+        <tei:div corresp="urn:x-opensiddur:text:bible:chumash/megillot" n="megillot">
           <tei:head>מְגִלּוֹת</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/song_of_songs"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/ruth"/>
@@ -120,7 +120,7 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/ecclesiastes"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:megillah/esther"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:bible:humash/readings" n="readings">
+        <tei:div corresp="urn:x-opensiddur:text:bible:chumash/readings" n="readings">
           <tei:head>קְרִיאֵי מוֹעֵד</tei:head>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_1"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/chanukah_day_1_(on_shabbat)"/>
@@ -162,9 +162,9 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/pinchas_occurring_after_17_tammuz"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/purim"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_chodesh"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_i"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_i_(on_shabbat)"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashana_ii"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashanah_i"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashanah_i_(on_shabbat)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/rosh_hashanah_ii"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hachodesh"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hachodesh_(on_rosh_chodesh)"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_hagadol"/>
@@ -174,9 +174,9 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_rosh_chodesh_chanukah"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shekalim"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shekalim_(on_rosh_chodesh)"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva_(with_haazinu)"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuva_(with_vayeilech)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuvah"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuvah_(with_haazinu)"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_shuvah_(with_vayeilech)"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shabbat_zachor"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:reading/shavuot_i"/>

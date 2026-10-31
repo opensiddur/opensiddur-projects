@@ -92,7 +92,7 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:ki_al_rachamekha"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:el_erekh_apayim"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:vayaavor/selichot_preliminary"/>
           <j:endConditional target="#penitential_fifth_day_pair_after_am_expanded"/>
@@ -105,12 +105,12 @@
           <tei:pb n="141" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n283_medium.jpg"/>
           <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/hateh_elohai">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/hatteh_elohai">
           <tei:pb n="141" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n283_medium.jpg"/>
           <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמַע פְּקָחָה עֵינֶיךָ וּרְאֵה שֹׁמְמָתֵינוּ וְהָעִיר אֲשֶׁר־נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:atah_haroeh_beelbon_neelamim"/>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/pair_after_atah">
+        <j:transclude target="urn:x-opensiddur:text:poem:attah_haroeh_beelbon_neelamim"/>
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/pair_after_attah">
           <j:conditional xml:id="penitential_fifth_day_pair_after_atah_printed">
             <tei:fs type="asher:expansions">
               <tei:f name="prayers_present">
@@ -118,7 +118,7 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/pair_after_atah/printed">
+          <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/pair_after_attah/printed">
             <tei:pb n="143" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n287_medium.jpg"/>
             <tei:note type="instruction" xml:lang="en">Say <tei:foreign xml:lang="he">אֵל מֶלֶךְ</tei:foreign> and <tei:foreign xml:lang="he">וַיַּעֲבוֹר</tei:foreign> </tei:note>
           </tei:div>
@@ -160,7 +160,7 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/verses_after_eleikha/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rachamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_fifth_day_verses_after_eleikha_expanded"/>
@@ -216,7 +216,7 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/verses_after_shuv/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rachamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_fifth_day_verses_after_shuv_expanded"/>
@@ -272,12 +272,12 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/verses_after_tavo/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rachamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_fifth_day_verses_after_tavo_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:atah_helqi_vetsur_levavi"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:attah_helqi_vetsur_levavi"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/pair_after_helqi">
           <j:conditional xml:id="penitential_fifth_day_pair_after_helqi_printed">
             <tei:fs type="asher:expansions">
@@ -328,7 +328,7 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/verses_after_yigdal/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rachamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_fifth_day_verses_after_yigdal_expanded"/>
@@ -384,7 +384,7 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/verses_after_haazinah/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rahamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:selichot/rachamekha_rabbim" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_fifth_day_verses_after_haazinah_expanded"/>
@@ -447,7 +447,7 @@
           <tei:pb n="150" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n301_medium.jpg"/>
           <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/hateh_after_pizmon">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/hatteh_after_pizmon">
           <tei:pb n="150" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n301_medium.jpg"/>
           <tei:p>הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמָע פְּקָחָה עֵינֶיךָ וּרְאֵה שֹׁמְמָתֵינוּ וְהָעִיר אֲשֶׁר־ <tei:pb n="151" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n303_medium.jpg"/>נִקְרָא שִׁמְךָ עָלֶיהָ׃ כִּי לֹא עַל־צִדְקֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ כִּי עַל־רַחֲמֶיךָ הָרַבִּים׃ אֲדֹנָי שְׁמָעָה אֲדֹנָי סְלָחָה אֲדֹנָי הַקְשִׁיבָה וַעֲשֵׂה אַל־תְּאַחַר לְמַעַנְךָ אֱלֹהַי כִּי־שִׁמְךָ נִקְרָא עַל־עִירְךָ וְעַל־עַמֶּךָ׃ </tei:p>
         </tei:div>
@@ -496,7 +496,7 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rahamekha"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_rachamekha"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:amarenu_haazinah"/>
@@ -507,17 +507,17 @@
           <j:transclude target="urn:x-opensiddur:text:poem:leenenu_ashuqu_amalenu"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:ashamnu"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:meshiah_tsidqekha"/>
-          <j:transclude target="urn:x-opensiddur:text:poem:el_rahum_shimkha"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:el_rachum_shimkha"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:anenu"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:rahmana"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:vayomer_david"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:rahum_vehanun"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:rachum_vehanun"/>
           <j:transclude target="urn:x-opensiddur:text:bible:psalms/6"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:mahi_umasi"/>
           <j:endConditional target="#penitential_fifth_day_closing_repetition_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:miqveh_yisrael_moshio_beet_tsarah"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:miqveh_yisrael_moshio_beet_tzarah"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/penitential_fifth_day/conclusion">
           <j:conditional xml:id="penitential_fifth_day_conclusion_printed">
             <tei:fs type="asher:expansions">
@@ -538,15 +538,15 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:poem:makhnise_rachamim"/>
           <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
           <j:transclude target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_kadosh"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:mitratseh_berahamim"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_qadosh"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:mitratzeh_berachamim"/>
           <j:transclude target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonenu"/>
-          <j:transclude target="urn:x-opensiddur:text:prayer:vaanahnu_lo_neda"/>
+          <j:transclude target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
           <j:declare xml:id="penitential_fifth_conclusion_kaddish">
             <tei:fs type="asher:selichot">
               <tei:f name="first_day">
