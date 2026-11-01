@@ -70,14 +70,14 @@
               <tei:numeric value="1" max="8"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/amidah/chanukah"/>        <j:endConditional target="#shabbat_minchah_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>        <j:conditional xml:id="shabbat_minchah_ukhtov">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/amidah/chanukah"/>        <j:endConditional target="#shabbat_minchah_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>        <j:conditional xml:id="shabbat_minchah_ukhetov">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="aseret-ymei-tshuva">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>        <j:endConditional target="#shabbat_minchah_ukhtov"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>        <j:conditional xml:id="shabbat_minchah_peace_seal">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>        <j:endConditional target="#shabbat_minchah_ukhetov"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>        <j:conditional xml:id="shabbat_minchah_peace_seal">
           <tei:note type="instruction" xml:lang="en">Except during the Ten Days of Repentance:</tei:note>
           <j:none>
           <tei:fs type="opensiddur:holiday-aggregate">
