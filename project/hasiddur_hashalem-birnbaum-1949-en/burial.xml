@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:burial"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Burial service</tei:head><j:conditional xml:id="festival_tzidduk_calendar">
+<tei:div corresp="urn:x-opensiddur:text:siddur:burial"><tei:head xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">Burial service</tei:head><j:conditional xml:id="festival_tzidduq_calendar">
           <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">Burial service held on days when Taḥanan (page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun@hasiddur_hashalem-birnbaum-1949-en"/>) is recited</tei:seg></tei:note>
 <j:none>          <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
@@ -58,7 +58,7 @@
               <tei:numeric value="7"/>
             </tei:f>
           </tei:fs></j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tzidduk_hadin"/><j:endConditional target="#festival_tzidduk_calendar"/><j:conditional xml:id="festival_burial_expanded">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:tzidduq_hadin"/><j:endConditional target="#festival_tzidduq_calendar"/><j:conditional xml:id="festival_burial_expanded">
           <tei:note type="instruction" xml:lang="en">With a minyan, when Tzidduk Hadin is recited:</tei:note>
 <j:none><j:none>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">

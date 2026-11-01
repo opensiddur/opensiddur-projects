@@ -38,7 +38,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/vaani_tefilati"/>        <j:conditional xml:id="shabbat_minchah_torah_minyan">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/vaani_tefillati"/>        <j:conditional xml:id="shabbat_minchah_torah_minyan">
           <tei:note type="instruction" xml:lang="en">When a minyan holds service:</tei:note>
           <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
@@ -79,7 +79,7 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs></j:any></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:endConditional target="#festival_service_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidkatkha">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/amidah"/><j:endConditional target="#festival_service_amidah"/>        <j:conditional xml:id="shabbat_minchah_tzidqatekha">
           <tei:note type="instruction" xml:lang="en"><tei:seg type="optional-page-reference">The following paragraph is omitted on occasions when the Taḥanun (page <tei:ref type="page" target="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun@hasiddur_hashalem-birnbaum-1949-he"/>) is omitted on weekdays.</tei:seg></tei:note>
 <j:none>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">
@@ -122,7 +122,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:none></j:none>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/tzidkatkha"/>        <j:endConditional target="#shabbat_minchah_tzidkatkha"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/aleinu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/mourners_kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/al_tira"/>        <j:conditional xml:id="shabbat_minchah_winter_psalms">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/tzidqatekha"/>        <j:endConditional target="#shabbat_minchah_tzidqatekha"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/aleinu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/mourners_kaddish"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/minchah/al_tira"/>        <j:conditional xml:id="shabbat_minchah_winter_psalms">
           <tei:note type="instruction" xml:lang="en">The following psalms are recited on the Sabbaths between Sukkoth and Pesaḥ.</tei:note>
 <j:all>          <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
