@@ -20,7 +20,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:haggadah:pre_seder">
-        <j:conditional xml:id="cond_pre_seder_bedikat_chametz">
+        <j:conditional xml:id="cond_pre_seder_bediqat_chametz">
           <j:all>
             <tei:fs type="opensiddur:hebrew-date">
               <tei:f name="month">
@@ -57,8 +57,8 @@
             </j:any>
           </j:all>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:bedikat_chametz"/>
-        <j:endConditional target="#cond_pre_seder_bedikat_chametz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:haggadah:bediqat_chametz"/>
+        <j:endConditional target="#cond_pre_seder_bediqat_chametz"/>
         <j:conditional xml:id="cond_pre_seder_biur_chametz">
           <j:all>
             <tei:fs type="opensiddur:hebrew-date">

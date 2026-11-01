@@ -86,14 +86,14 @@
               <tei:numeric value="1" max="8"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah"/>        <j:endConditional target="#shabbat_musaf_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>        <j:conditional xml:id="shabbat_musaf_ukhtov">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah"/>        <j:endConditional target="#shabbat_musaf_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>        <j:conditional xml:id="shabbat_musaf_ukhetov">
           <tei:note type="instruction" xml:lang="en">Between Rosh Hashanah and Yom Kippur add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="aseret-ymei-tshuva">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhtov"/>        <j:endConditional target="#shabbat_musaf_ukhtov"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>        <j:conditional xml:id="shabbat_musaf_kohanim">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>        <j:endConditional target="#shabbat_musaf_ukhetov"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>        <j:conditional xml:id="shabbat_musaf_kohanim">
           <tei:note type="instruction" xml:lang="en">During the Reader’s repetition:</tei:note>
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
