@@ -56,16 +56,16 @@
               </tei:f>
             </tei:fs>
           </j:conditional>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/selah_lanu_avinu"/>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/el_erekh_apayim_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/selach_lanu_avinu"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/el_erekh_appayim_reprint"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/vayaavor_reprint"/>
           <j:endConditional target="#penitential_last-monday-fast_day_opening_repeat_expanded"/>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/al_tiqtsof_adonai">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/al_tiqtzof_adonai">
           <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
           <tei:lg><tei:l>אַל תִּקְצֹף יְיָ עַד מְאֹד וְאַל לָעַד תִּזְכֹּר עָוֹן ·</tei:l> <tei:l>הֵן הַבֶּט־נָא עַמְּךָ כֻלָּנוּ׃</tei:l> <tei:l>הַעַל אֵלֶּה תִתְאַפַּק יְיָ תֶּחֱשֶׁה וּתְעַנֵּנוּ עַד מְאֹד׃</tei:l> <tei:l>שׁוּבָה יְיָ עַד מָתָי ·</tei:l> <tei:l>וְהִנָּחֵם עַל עֲבָדֶיךָ׃</tei:l> <tei:l>כְּרַחֵם אָב עַל־בָּנִים כֵּן תְּרַחֵם יְיָ עָלֵינוּ׃</tei:l> <tei:l>לַיְיָ הַיְשׁוּעָה עַל־עַמְּךָ בִרְכָתֶךָ סֶלָה׃</tei:l> <tei:l>יְיָ צְבָאוֹת עִמָּנוּ מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה׃</tei:l> <tei:l>יְיָ צְבָאוֹת אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ׃</tei:l> <tei:l>יְיָ הוֹשִׁיעָה הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ׃</tei:l> </tei:lg>
         </tei:div>
-        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/selah_na">
+        <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/selach_na">
           <tei:pb n="171" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n343_medium.jpg"/>
           <tei:p>סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה · וְשָׁם נֶאֱמַר׃ וַיֹּאמֶר יְיָ סָלַחְתִּי כִּדְבָרֶךָ׃ </tei:p>
         </tei:div>
@@ -124,12 +124,12 @@
           </j:conditional>
           <tei:div>
             <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/verses_after_haazinah/expanded"/>
-            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:keraham_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tsidqotenu" type="inline"/> </tei:p>
+            <tei:p><j:transclude target="urn:x-opensiddur:text:prayer:kerachem_av" type="inline"/> <j:transclude target="urn:x-opensiddur:text:prayer:selichot/ki_lo_al_tzidqoteinu" type="inline"/> </tei:p>
             <tei:milestone unit="prayer"/>
           </tei:div>
           <j:endConditional target="#penitential_last-monday-fast_day_verses_after_haazinah_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:ozon_tahan_vehasket_atirah"/>
+        <j:transclude target="urn:x-opensiddur:text:poem:ozon_tachan_vehasket_atirah"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/last_monday_fast/pair_after_ozon">
           <j:conditional xml:id="penitential_last-monday-fast_day_pair_after_ozon_printed">
             <tei:fs type="asher:expansions">
@@ -202,11 +202,11 @@
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_rachamekha_reprint"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/zekhor_lanu_berit_rishonim"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/shema_qolenu_reprint"/>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/amarenu_haazinah_reprint"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/amareinu_haazinah_reprint"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/tavo_tefillatenu_reprint"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/ashamnu_reprint"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/hirshanu_ufashanu"/>
-          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/mashiah_tsidqekha"/>
+          <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/mashiach_tzidqekha"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/veal_yeakkev"/>
           <j:transclude target="urn:x-opensiddur:text:siddur:selichot/monday_fast/conclusion"/>
           <j:endConditional target="#penitential_last-monday-fast_day_conclusion_repeat_expanded"/>
