@@ -31,7 +31,7 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/amidah/qedushat_hayom"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדושת היום</tei:head><tei:pb n="589" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n613_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/attah_vechartanu_mikol"/><j:conditional xml:id="festival_vatodienu">
+<tei:div corresp="urn:x-opensiddur:text:siddur:regalim/amidah/qedushat_hayom"><tei:head xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/efraim-feinstein">קדושת היום</tei:head><tei:pb n="589" ed="1949 regalim" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n613_medium.jpg"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/attah_vechartanu_mikol"/><j:conditional xml:id="festival_vattodienu">
           <tei:note type="instruction" xml:lang="en">On Saturday night:</tei:note>
 <j:all>          <tei:fs type="opensiddur:service-time">
             <tei:f name="maariv">
@@ -42,7 +42,7 @@
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs></j:all>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vatodienu"/><j:endConditional target="#festival_vatodienu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/vatiten"/><j:conditional xml:id="festival_amidah_pesach">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vattodienu"/><j:endConditional target="#festival_vattodienu"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/vattitten"/><j:conditional xml:id="festival_amidah_pesach">
           <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="pesah">
@@ -70,7 +70,7 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_shemini"/><j:endConditional target="#festival_amidah_shemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/mikra"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yaaleh"/><j:conditional xml:id="festival_yaaleh_pesach">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/amidah_shemini"/><j:endConditional target="#festival_amidah_shemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/miqra"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yaaleh"/><j:conditional xml:id="festival_yaaleh_pesach">
           <tei:note type="instruction" xml:lang="en">Pesaḥ</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="pesah">
@@ -98,7 +98,7 @@
               <tei:numeric value="1" max="2"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yaaleh_shemini"/><j:endConditional target="#festival_yaaleh_shemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/zokhrenu"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vehasiaynu_hashem_elohaynu"/></tei:div>
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/yaaleh_shemini"/><j:endConditional target="#festival_yaaleh_shemini"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/text/zokhrenu"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vehassienu_hashem_eloheinu"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>

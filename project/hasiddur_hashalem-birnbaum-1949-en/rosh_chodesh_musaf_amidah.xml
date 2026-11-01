@@ -31,14 +31,14 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-<tei:div corresp="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah"><tei:head xml:lang="en">MUSAF FOR ROSH ḤODESH</tei:head><tei:pb n="576" ed="1949 rosh_chodesh/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n600_medium.jpg"/><tei:note type="instruction" xml:lang="en">The Amidah is recited in silent devotion while standing, facing east.</tei:note><tei:note type="instruction" xml:lang="en">The Reader repeats the Amidah aloud when a minyan holds service.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/32/3"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/barukh_attah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/melekh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibor"/>        <j:conditional xml:id="rosh_chodesh_musaf_rain">
+<tei:div corresp="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah"><tei:head xml:lang="en">MUSAF FOR ROSH ḤODESH</tei:head><tei:pb n="576" ed="1949 rosh_chodesh/musaf" facs="https://archive.org/download/PhilipBirnbaumHaSiddurHaShalemTheDailyPrayerBook1949/page/n600_medium.jpg"/><tei:note type="instruction" xml:lang="en">The Amidah is recited in silent devotion while standing, facing east.</tei:note><tei:note type="instruction" xml:lang="en">The Reader repeats the Amidah aloud when a minyan holds service.</tei:note><j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/32/3"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot/barukh_attah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/melekh"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibbor"/>        <j:conditional xml:id="rosh_chodesh_musaf_rain">
           <tei:note type="instruction" xml:lang="en">Between Sukkoth and Pesaḥ add:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="geshem">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/rain"/>        <j:endConditional target="#rosh_chodesh_musaf_rain"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayeh_hametim"/>        <j:conditional xml:id="rosh_chodesh_musaf_qedushah">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/rain"/>        <j:endConditional target="#rosh_chodesh_musaf_rain"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayyeh_hametim"/>        <j:conditional xml:id="rosh_chodesh_musaf_qedushah">
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
@@ -77,7 +77,7 @@
               <tei:numeric value="1" max="8"/>
             </tei:f>
           </tei:fs>
-        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/al_hanissim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/bimei"/>        <j:endConditional target="#rosh_chodesh_musaf_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/veal_kulam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>        <j:conditional xml:id="rosh_chodesh_musaf_kohanim">
+        </j:conditional><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/al_hanissim"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/bimei"/>        <j:endConditional target="#rosh_chodesh_musaf_chanukah"/><j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf/amidah/veal_kullam"/><j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>        <j:conditional xml:id="rosh_chodesh_musaf_kohanim">
 <j:all>          <tei:fs type="opensiddur:quorum">
             <tei:f name="minyan">
               <tei:binary value="true"/>
