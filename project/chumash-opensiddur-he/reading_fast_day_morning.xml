@@ -2,8 +2,8 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">יוֹם תַּעֲנִית (מִנְחָה)</tei:title>
-        <tei:title type="alt" xml:lang="en">Fast Day (Afternoon)</tei:title>
+        <tei:title type="main" xml:lang="he">יוֹם תַּעֲנִית (שַׁחֲרִית)</tei:title>
+        <tei:title type="alt" xml:lang="en">Fast Day (Morning)</tei:title>
       </tei:titleStmt>
       <tei:editionStmt>
         <tei:p>See <tei:ref target="urn:x-opensiddur:text:bible:chumash@chumash-opensiddur-he">the humash project header for version information</tei:ref>.</tei:p>
@@ -12,7 +12,7 @@
         <tei:distributor>
           <tei:ref target="http://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)@chumash-opensiddur-he</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:bible:reading/fast_day_morning@chumash-opensiddur-he</tei:idno>
         <tei:availability status="free">
           <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero Public Domain Declaration (CC0)</tei:licence>
         </tei:availability>
@@ -24,21 +24,16 @@
   </tei:teiHeader>
   <tei:text xml:lang="he">
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)" n="reading_fast_day_(afternoon)">
-        <tei:head>יוֹם תַּעֲנִית (מִנְחָה)</tei:head>
+      <tei:div corresp="urn:x-opensiddur:text:bible:reading/fast_day_morning" n="reading_fast_day_morning">
+        <tei:head>יוֹם תַּעֲנִית (שַׁחֲרִית)</tei:head>
         <tei:milestone unit="citation" n="שמות 32:11–34:10"/>
-        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)/aliyah_annual/1"/>
+        <tei:milestone unit="aliyah.annual" n="רִאשׁוֹן" corresp="urn:x-opensiddur:text:bible:reading/fast_day_morning/aliyah_annual/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/32/11-32/14"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/32/15-33/23"/>
-        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)/aliyah_annual/2"/>
+        <tei:milestone unit="aliyah.annual" n="שֵׁנִי" corresp="urn:x-opensiddur:text:bible:reading/fast_day_morning/aliyah_annual/2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/34/1-34/3"/>
-        <tei:milestone unit="maftir.annual" n="מַפְטִיר" corresp="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)/maftir_annual/maftir"/>
+        <tei:milestone unit="aliyah.annual" n="שְׁלִישִׁי" corresp="urn:x-opensiddur:text:bible:reading/fast_day_morning/aliyah_annual/3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/34/4-34/10"/>
-        <tei:div corresp="urn:x-opensiddur:text:bible:reading/fast_day_(afternoon)/haftarah" n="haftarah">
-          <tei:head>הַפְטָרָה</tei:head>
-          <tei:milestone unit="citation" n="ישעיהו 55:6–56:8"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:isaiah/55/6-56/8"/>
-        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>
