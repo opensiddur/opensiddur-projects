@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ודוי</tei:title>
+        <tei:title type="main" xml:lang="en">Vidui meditation, by Danny Cohen</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ודוי</tei:title>
+          <tei:title xml:lang="en">Vidui meditation, by Danny Cohen</tei:title>
+          <tei:author>Daniel Yoel Cohen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2016-10-09">2016-10-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=14515</tei:idno>
+          <tei:idno type="opensiddur.org">14515</tei:idno>
+          <tei:note>Source: This meditation in vidui was first published by Danny Cohen on his Facebook page, here. <tei:ref target="https://www.facebook.com/permalink.php?story_fbid=10102654562976317&amp;id=626430">https://www.facebook.com/permalink.php?story_fbid=10102654562976317&amp;id=626430</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_14515_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>There’s a meme going around, which I really support, of the ‘positive vidui’. As the field of positive psychology and appreciative inquiry have rigorously demonstrated, it’s important and effective and supportive of growth, learning, and thriving to emphasize what’s working well, not just what’s not.</tei:p>
+        <tei:p>At the same time, I suspect the traditional vidui has suffered from being engaged through a moralistic lens where acknowledging sins is about getting ourselves to act differently through wronging/shaming/blaming. I lament this greatly. I lament the great pain and suffering we bring on ourselves and others in this mode and great missed opportunity for an organic learning and growth by coming into contact with the pain of our sins. Sins in the original sense of חטא, of missing the mark, of acting and being in ways that oppose life instead of serving it. The kind of regret that can come from this type of honest self-reckoning can actually be beautiful and poignant, humanizing and helping us get in touch with deeper commitments with which we’ve fallen out of line. To that end, I offer some suggestions for reflection using the traditional vidui:</tei:p>
+        <tei:p>Vidui means acknowledgment. It is not about self-flagellation or blame, but about honesty, coming into contact with our lives, our patterns and experiences, and ultimately about teshuva and learning. In contacting the pain and suffering which our modes of being have given rise to, our regret can help us to willfully divest ourselves of them and awaken the yearning for those modes of being which are life-affirming, supportive of wholeness, connection, integrity, and flourishing. With each one we tap on our heart, touching the pain and closed-heartedness we have caused, and simultaneously knocking on the door that it may open again.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14515_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashamnu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
