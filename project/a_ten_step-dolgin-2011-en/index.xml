@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Ten-Step, Four-Worlds, One-Earth Tashlikh, by Avi Dolgin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Ten-Step, Four-Worlds, One-Earth Tashlikh, by Avi Dolgin</tei:title>
+          <tei:author>Avi Dolgin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-09-11">2011-09-11</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=3778</tei:idno>
+          <tei:idno type="opensiddur.org">3778</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_3778_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Avi Dolgin’s “A Ten-Step, Four-Worlds, One-Earth Tashlikh is based on teachings from R’ Goldie Milgrom, R’ Hanna Tiferet Siegel and others.</tei:p>
+        <tei:p>From “Tashlikh” in wikipedia (and corrected for accuracy):<tei:anchor xml:id="note_1"/></tei:p>
+        <tei:p>Tashlikh (Hebrew: תשליך‎, meaning “casting off”) is a long-standing Ashkenazi Jewish ritual practice usually performed on the afternoon of Rosh Hashanah, the Jewish New Year, however it can be said up until Hoshana Rabbah.</tei:p>
+        <tei:p>The name “<tei:hi rend="italic">Tashlikh</tei:hi>” and the practice itself are derived from the book of the prophet Micah 7:19, which is recited during the <tei:hi rend="italic">Tashlikh</tei:hi> ritual:</tei:p>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:micah/7/19"/>
+        <tei:p>The previous year’s sins are symbolically “cast off” by literally casting off something (pocket detritus, crumbs, etc.) into a large, natural body of flowing water (such as a river, lake, sea or ocean) while reciting the verse above.</tei:p>
+        <tei:p>The wikipedia article on <tei:hi rend="italic">Tashlikh</tei:hi> has additional information on the origins of the ritual, first recorded by Rabbi Jacob Mölin (d. 1425) in his <tei:hi rend="italic">Sefer Maharil</tei:hi>, a collection of <tei:hi rend="italic">minhagim</tei:hi>, (regional customs).</tei:p>
+        <tei:p>The first direct reference to tashlikh is by Rabbi Jacob Mölin in Sefer Maharil where he explains the minhag (“custom”) as a reminder of the binding of Isaac. He recounts a rabbinic midrash about the binding in which Satan, by throwing himself across Abraham’s path in the form of a deep stream, endeavored to prevent him from sacrificing Isaac on Mount Moriah. Abraham and Isaac nevertheless plunged into the river up to their necks and prayed for divine aid, whereupon the river disappeared.</tei:p>
+        <tei:p>Mölin, however, forbids the practice of throwing pieces of bread to the fish in the river, especially on the Sabbath (on which carrying is forbidden). This shows that in his time <tei:hi rend="italic">tashlikh</tei:hi> was duly performed, even when the first day of Rosh Hashana fell on the Sabbath, though in later times the ceremony was on such occasions deferred till the second day. The significance of the fish is explained by Rabbi Isaiah Horowitz (Shelah 214b): (1) they illustrate man’s plight, and arouse him to repentance: “As the fishes that are taken in an evil net” (Ecclesiastes 9:12); (2) as fishes have no eyelids and their eyes are always wide open, they symbolize God, who does not sleep.</tei:p>
+        <tei:p>Rabbi Moses Isserles co-author of the Shulḥan Arukh (the “Code of Jewish law”) explains: “The deeps of the sea saw the genesis of Creation; therefore to throw bread into the sea on Rosh Hashanah, the anniversary of Creation, is an appropriate tribute to the Creator” (Torat ha-‘Olah 3:56).</tei:p>
+        <tei:p>Some clues as to an earlier origin are:</tei:p>
+        <tei:p>Josephus (“Antiquities” 14:10, § 23, circa 94 CE) refers to the decree of the Halicarnassians permitting Jews to “perform their holy rites according to the Jewish laws and to have their places of prayer by the sea, according to the customs of their forefathers”.</tei:p>
+        <tei:p>The Zohar states that “whatever falls into the deep is lost forever; ... it acts like the scapegoat for the ablution of sins” (Zohar, Vayikra 101a,b). Some hold that this is referring to tashlikh.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_3778_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_ten_step_dolgin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>”Tashlikh” in wikipedia, accessed September 11, 2011.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>
