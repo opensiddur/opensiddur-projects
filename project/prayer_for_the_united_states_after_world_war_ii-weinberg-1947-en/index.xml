@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the United States after World War II, by Rabbi Dudley Weinberg (AMVETS, ca. 1947)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the United States after World War II, by Rabbi Dudley Weinberg (AMVETS, ca. 1947)</tei:title>
+          <tei:author>Dudley Weinberg</tei:author>
+          <tei:author>American Veterans [AMVETS]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1947">1947</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44915</tei:idno>
+          <tei:idno type="opensiddur.org">44915</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-armed-forces-prayer-book-daniel-a-poling-1951/The%20Armed%20Forces%20Prayer%20Book%20%28Daniel%20A.%20Poling%201951%29#page/78/mode/2up">https://archive.org/stream/the-armed-forces-prayer-book-daniel-a-poling-1951/The%20Armed%20Forces%20Prayer%20Book%20%28Daniel%20A.%20Poling%201951%29#page/78/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44915_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Dudley Weinberg, National Chaplain of AMVETS after World War II, was included in the anthology, <tei:hi rend="italic">The Prayer Book of the Armed Forces</tei:hi> (ed. Daniel A. Poling, 1951), pp. 79-80. The prayer was chosen for publication by the then National Commander of AMVETS, Harold Russell.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44915_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_united_states_after_world_war_ii_weinberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

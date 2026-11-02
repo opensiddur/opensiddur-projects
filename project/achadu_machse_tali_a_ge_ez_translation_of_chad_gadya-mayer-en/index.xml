@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">አሐዱ፡ማሕስእ፡ጠሊ (ʾÄḥädu Maḥsəʾ Ṭäli) — a Gəʽəz translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">አሐዱ፡ማሕስእ፡ጠሊ (ʾÄḥädu Maḥsəʾ Ṭäli) — a Gəʽəz translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54545</tei:idno>
+          <tei:idno type="opensiddur.org">54545</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54545_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. But the Beta Israel community of Ethiopian Jews, having been isolated from the larger Jewish world for millennia, never had a chance to pick up this specific piyyut until their exodus <tei:hi rend="italic">en masse</tei:hi> into Israel. So their liturgy, largely in the ancient Semitic language of Gəʽəz, has no version of such a piyyut. This is an original translation of Ḥad Gadya into Gəʽəz, along with Romanized and hebraicized transliterations.</tei:p>
+        <tei:p>The structure of Gəʽəz, being fundamentally Semitic, is ripe for adaptation into Hebrew script. A few notes on the decisions I’ve made in transliterating the Ge’ez in Hebrew script:</tei:p>
+        <tei:p>• In Gəʽəz, [b ~ v] is allophonic, while the sounds {ð θ ɣ} are not present. Thus, when transcribed into Hebrew, the letters በገደተ בגד״ת are only marked with a dagesh when geminated. This does not apply to כ״פ — ከ is כּ, ኀ is כֿ, ፈ is פֿ, and ፐ is פּ.</tei:p>
+        <tei:p>• In ancient Gəʽəz the letters ሠ ś and ሰ s were distinct /ɬ/ and /s/. These are no longer distinguished by modern speakers. The same sound shift occurred in Hebrew, so the letter ሠ ś is here transcribed as its historical equivalent שׂ.</tei:p>
+        <tei:p>• Written Gəʽəz doesn’t distinguish between <tei:hi rend="italic">schwa quiescens</tei:hi> (shva naḥ) and <tei:hi rend="italic">schwa mobile</tei:hi> (shva naʽ), but pronounced Gəʽəz does, with schwa mobile pronounced as the distinct vowel /ɨ/. Since this functions differently from Hebrew shva, only Gəʽəz schwa quiescens is transcribed as as shva, while Gəʽəz schwa mobile is transcribed as a segol.</tei:p>
+        <tei:p>Latin transliteration (Romanization) is per the <tei:hi rend="italic">Encyclopaedia Aethiopica</tei:hi> norm, which can be found here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54545_introduction"/>
+      <j:conditional xml:id="osp_54545_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a translation of Ḥad Gadya into Ge’ez by Isaac Gantwerk Mayer.</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The uncorrected source Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added an English translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54545_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:achadu_machse_tali_a_ge_ez_translation_of_chad_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

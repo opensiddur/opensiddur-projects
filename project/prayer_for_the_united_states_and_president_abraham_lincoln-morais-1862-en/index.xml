@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the United States and President Abraham Lincoln, by Rabbi Sabato Morais (15 April 1862)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the United States and President Abraham Lincoln, by Rabbi Sabato Morais (15 April 1862)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1862-04-15">1862-04-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45580</tei:idno>
+          <tei:idno type="opensiddur.org">45580</tei:idno>
+          <tei:note>Source: Page A993 from Appendix to the Congressional Record (29 February 1944) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Page-A993-from-Appendix-to-the-Congressional-Record-29-February-1944.png">https://opensiddur.org/wp-content/uploads/2022/07/Page-A993-from-Appendix-to-the-Congressional-Record-29-February-1944.png</tei:ref></tei:note>
+          <tei:note>Source: Page A994 from Appendix to the Congressional Record (29 February 1944) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Page-A994-from-Appendix-to-the-Congressional-Record-29-February-1944.png">https://opensiddur.org/wp-content/uploads/2022/07/Page-A994-from-Appendix-to-the-Congressional-Record-29-February-1944.png</tei:ref></tei:note>
+          <tei:note>Source: Prayer on the 1st day of Passover [15 April 1862] (Sabato Morais Ledger p. 22, clip no. 023) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Passover-prayer-15-April-1862-Sabato-Morais-Ledger-p.-22-clip-no.-023.png">https://opensiddur.org/wp-content/uploads/2022/07/Passover-prayer-15-April-1862-Sabato-Morais-Ledger-p.-22-clip-no.-023.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45580_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais (1828-1897), of Congregation Mikveh Israel in Philadelphia, was initially delivered on 15 April 1862 (the first day of Passover) at the conclusion of a sermon later printed in <tei:hi rend="italic">The Philadelphia Inquirer</tei:hi> on 23 April 1862. A copy of that sermon was preserved in the Sabato Morais Ledger (p. 22, clip no. 23). (The prayer was also read by President Abraham Lincoln, who sent Rabbi Morais an acknowledgment). The letter was read into the congressional record on 29 February 1944 by Arthur G. Klein (1904-1968, D-NY) after it was brought to light by Moshe Davis at the 44th annual meeting of the American Jewish Historical Society on 12-13 February 1944 (Lincoln’s Birthday).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45580_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_united_states_and_president_abraham_lincoln_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

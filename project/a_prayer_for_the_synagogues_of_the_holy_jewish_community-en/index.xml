@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה בבתי כנסיות דק״ק פירטה שנת תרע״ד</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer for the Synagogues of the Holy Jewish Community of Fürth [Germany, at the onset of war] – 5674 [1914]</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה בבתי כנסיות דק״ק פירטה שנת תרע״ד</tei:title>
+          <tei:title xml:lang="en">A Prayer for the Synagogues of the Holy Jewish Community of Fürth [Germany, at the onset of war] – 5674 [1914]</tei:title>
+          <tei:author>Dovi Seldowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1914">1914</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51406</tei:idno>
+          <tei:idno type="opensiddur.org">51406</tei:idno>
+          <tei:note>Source: Prayer for the Synagogues of the Holy Jewish Community of Fürth (1914) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/06/Prayer-for-the-Synagogues-of-the-Holy-Jewish-Community-of-Furth-1914.jpg">https://opensiddur.org/wp-content/uploads/2023/06/Prayer-for-the-Synagogues-of-the-Holy-Jewish-Community-of-Furth-1914.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51406_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This prayer appears to have been issued for Jewish soldiers serving in the German army at the start of World War I and was recited in the synagogues in Fürth, Germany in 1914. The prayer was printed as a single leaflet by the printer Druck von Lehrberger &amp; Co. in Frankfurt am Main. A leaflet ended up in the Central Chabad Lubavitch Library in Crown Heights, Brooklyn, NY (Card #87119), although no explanation has been offered how a Chasidic group based in Russia came to acquire this work. The original leaflet was digitized and made accessible via the Chabad library website.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51406_introduction"/>
+      <j:conditional xml:id="osp_51406_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>A copy of this prayer “תפלה בבתי כנסיות דק״ק פירטה שנת תרע״ד” is found in the collection of the Chabad Library. An unvocalized transcription and English translation was made by Dovi Seldowitz. Transcription of the vocalization was completed by Aharon Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51406_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_the_synagogues_of_the_holy_jewish_community_seldowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יש מקומות שנהגו לבקש רחמים על האסור בבית האסורים כדרך הזה</tei:title>
+        <tei:title type="main" xml:lang="en">A piyyut and mi sheberakh for captives, in a late medieval manuscript from France in the Braginsky Collection</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/ephraim-kahn">Ephraim Kahn</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יש מקומות שנהגו לבקש רחמים על האסור בבית האסורים כדרך הזה</tei:title>
+          <tei:title xml:lang="en">A piyyut and mi sheberakh for captives, in a late medieval manuscript from France in the Braginsky Collection</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0900" to="1400">0900 – 1400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65711</tei:idno>
+          <tei:idno type="opensiddur.org">65711</tei:idno>
+          <tei:note>Source: late medieval prayer for captives (MS Braginsky 206), fol. 67b <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/01/late-medieval-prayer-for-captives-ms-braginsky-206-fol--67b.png">https://opensiddur.org/wp-content/uploads/2026/01/late-medieval-prayer-for-captives-ms-braginsky-206-fol--67b.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65711_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for captives, containing a piyyut followed by meaningful verses and a mi sheberakh, was transcribed by Dr. Yehoshua Granat (יהושע גרנט) from a manuscript produced in late medieval France, Ms. Barginsky 206 (fol. 67b) in the Braginsky Collection in Zurich, Switzerland, under the title “יש מקומות שנהגו לבקש רחמים על האסור בבית האסורים כדרך הזה” (“There are places where it was customary to ask for mercy for the imprisoned in this way”). This transcription was published online in an article on Haaretz, “שמע נא לתפילת אסירי עמך” on 4 March 2025. (A full copy of the article as published in print is available from Dr. Granat’s academia.edu account.) We are extremely grateful to Dr. Granat for sharing the verses omitted in the Haaretz article linked above. Dr. Granat notes that he intends a fuller study of the prayer, complete with annotation, to be published at a future date.</tei:p>
+        <tei:p>The English translation I have made here relies partially on the French translation made by Ephraïm Kahn, published along side the Hebrew in a slightly later article by Dr. Granat, “פיוט תחינה בלתי מוכר להצלת שבויים מכלאם | Piyyout de supplication inconnu pour la délivrance des captifs de leur geôle” on 7 April 2025. Many thanks to Shoshana Michael Zucker for informing us of the article in Haaretz. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65711_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:a_piyyut_and_mi_sheberakh_for_captives"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

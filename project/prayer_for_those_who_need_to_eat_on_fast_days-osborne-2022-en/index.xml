@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה למי שצריך לאכול בימי צום</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for those who need to eat on fast days (A Mitzvah to Eat, 2022)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה למי שצריך לאכול בימי צום</tei:title>
+          <tei:title xml:lang="en">Prayer for those who need to eat on fast days (A Mitzvah to Eat, 2022)</tei:title>
+          <tei:author>Sarah Osborne</tei:author>
+          <tei:author>A Mitzvah to Eat</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2022-08-06">2022-08-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46065</tei:idno>
+          <tei:idno type="opensiddur.org">46065</tei:idno>
+          <tei:note>Source: prayer for eating on a fast day (a mitsvah to eat 2022) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-eating-on-a-fast-day-a-mitsvah-to-eat-2022.jpg">https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-eating-on-a-fast-day-a-mitsvah-to-eat-2022.jpg</tei:ref></tei:note>
+          <tei:note>Source: prayer for eating on a fast day (a mitsvah to eat, Heb. translation by Annat Sharbat 2022) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-eating-on-a-fast-day-a-mitsvah-to-eat-Heb.-translation-by-Annat-Sharbat-2022.jpg">https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-eating-on-a-fast-day-a-mitsvah-to-eat-Heb.-translation-by-Annat-Sharbat-2022.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46065_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for those who must eat on Jewish fast days, was shared by Sarah Osborne for A Mitzvah to Eat on Facebook. The Hebrew translation of the prayer was offered by Rabba Dr. Anat Sharbat. The following information was included with the prayer as posted:</tei:p>
+        <tei:p>With Tishah b’Av starting at the end of Shabbat, we’re sending so much support. Here are some ways to connect to Tishah b’Av when your mitsvah is to eat:</tei:p>
+        <tei:p>Eat and/or drink what you need. There are no shuirim (small amounts) on Tishah b’Av.</tei:p>
+        <tei:p>Learn more (facebook).</tei:p>
+        <tei:p>Read our Tishah b’Av anthology.</tei:p>
+        <tei:p>Join our Facebook group.</tei:p>
+        <tei:p>Join our zoom on 7 August (2022), 3:30 pm EDT.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46065_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_those_who_need_to_eat_on_fast_days_osborne"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Zekher Milah, a different tack on Brit milah &amp; Brit banot by Rabbi Arthur Waskow</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Zekher Milah, a different tack on Brit milah &amp; Brit banot by Rabbi Arthur Waskow</tei:title>
+          <tei:author>Arthur Waskow</tei:author>
+          <tei:author>the Shalom Center</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-01-06">2014-01-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=8323</tei:idno>
+          <tei:idno type="opensiddur.org">8323</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_8323_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Elijah’s Chair (from the Jewish Encyclopedia 1906, vol. 5)</tei:p>
+        <tei:p>For a number of reasons, some medical, some psychological, some spiritual, some communal-traditional, I <tei:hi rend="italic">support</tei:hi> and <tei:hi rend="italic">urge</tei:hi> male circumcision.</tei:p>
+        <tei:p>When couples have come to me and despite my advice are adamant in refusing to do it with a boy-child, AND/OR if they ask my advice about a brit/ covenant ceremony for a girl — I urge them to follow what I’ve proposed below.</tei:p>
+        <tei:p>Parts of my proposal owe a good deal to what my son David Waskow and his wife Ketura Persellin did to enrich the covenanting ceremony for their children, which is described in Phyllis’ and my book on the Jewish life-cycle, <tei:hi rend="italic">A Time for Every Purpose Under Heaven</tei:hi> (pp. 28-31), along with our own comments. But there are also some important differences between what they did and our/my own suggestions in the book and since then — suggestions for which they are not responsible.</tei:p>
+        <tei:p>Shalom, salaam, sohl; paz, peace! — Arthur</tei:p>
+        <tei:p>Covenanting/naming/welcoming ceremony on the 8th day of the child’s life (whether a girl or boy)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_8323_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zekher_milah_waskow"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

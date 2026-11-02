@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the cessation of a cattle plague and for protection from cholera, by Chief Rabbi Nathan Marcus Adler (1865)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the cessation of a cattle plague and for protection from cholera, by Chief Rabbi Nathan Marcus Adler (1865)</tei:title>
+          <tei:author>Nathan Marcus Adler</tei:author>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1865">1865</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57262</tei:idno>
+          <tei:idno type="opensiddur.org">57262</tei:idno>
+          <tei:note>Source: Prayer for Cattle amidst plague (The Hebrew Leader, 24 November 1865), p. 1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/prayer-for-cattle-amidst-plague-the-hebrew-leader-24-november-1865-p--1.png">https://opensiddur.org/wp-content/uploads/2024/07/prayer-for-cattle-amidst-plague-the-hebrew-leader-24-november-1865-p--1.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57262_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer for cattle afflicted by an epizootic contagion (in this case, Rinderpest, a/k/a cattle plague), and for the protection of human beings from cholera, prescribed by the Chief Rabbi of the United Hebrew Congregations of Great Britain, Nathan Marcus Adler, and published in <tei:hi rend="italic">The Hebrew Leader</tei:hi> (24 November 1865), p. 1. From “The Cattle Plague of 1865 and the Reception of ‘The Germ Theory’ in Mid-Victorian Britain”:<tei:anchor xml:id="note_4"/></tei:p>
+        <tei:p>In June of 1865, the cattle plague was reported in Islington, a district of London. By July it had spread throughout London cattle and into Suffolk, Shropshire, Norfolk, and Scotland. The disease spread rapidly. In October there were more than 11,000 cases, with infected cattle in 29 English, 2 Welsh, and 16 Scottish counties. By January, more than 120,000 animals were known to be infected, and there were no signs of abatement. The disease had also spread to the Netherlands. The French and the Belgians avoided the contamination of their cattle by placing an embargo on all British livestock. Although the epidemic did not yet directly threaten domestic food supplies (the estimated total head of horned cattle in Great Britain at the time was seven million), the swiftness of the spread of the disease and the damage to British trade led to the appointment of a Royal Commission, which reported to Parliament three times in 1865 and 1866.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57262_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_cessation_of_a_cattle_plague_adler"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="4" target="#note_4">
+      <tei:p>An article by Terrie M. Romano in the <tei:hi rend="italic">Journal of the History of Medicine and Allied Sciences</tei:hi>, 52:1 (January 1997), pp. 51–80.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

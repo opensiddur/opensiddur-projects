@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kavvanah before eating or drinking on Yom Kippur for military personnel on active service (IDF 2017)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>Edict of government (Compendium II, Copyright Office Practices, §206.01)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kavvanah before eating or drinking on Yom Kippur for military personnel on active service (IDF 2017)</tei:title>
+          <tei:author>Tsva ha-Haganah l'Yisrael</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017">2017</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=47003</tei:idno>
+          <tei:idno type="opensiddur.org">47003</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_47003_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a kavvanah (intention) distributed beginning in 2017 for Jewish soldiers on active service during Yom Kippur to use before eating or drinking a limited amount of nourishment in order to sustain their attention and readiness. The text of the prayer here is that which was distributed by Rabbi Captain Udi Schwartz, head of the chief rabbi for Tsahal (IDF), and published by Arutz 7. The kavvanah is derived from one published in 1983 by Rav Yitschok Zilberstein for those who, due to their state of health, must eat or drink in order to live (find <tei:hi rend="italic">Toras haYoledes</tei:hi> (1983), chapter 52, section 10, p. 357; pp. 331-332 in the bilingual edition 1989). The text of the kavvanah was, according to Rabbi Zilberstein, “הועתק ממחזור עתיק” (“copied from an old maḥzor”).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_47003_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanah_before_eating_or_drinking_on_yom_kippur_lyisrael"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

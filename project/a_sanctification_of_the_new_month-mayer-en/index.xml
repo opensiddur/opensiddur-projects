@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קידוש לראש חודש, לפי מסכת סופרים</tei:title>
+        <tei:title type="main" xml:lang="en">A Sanctification of the New Month, reconstructed from Masekhet Soferim by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קידוש לראש חודש, לפי מסכת סופרים</tei:title>
+          <tei:title xml:lang="en">A Sanctification of the New Month, reconstructed from Masekhet Soferim by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0740" to="0800">0740 – 0800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=47747</tei:idno>
+          <tei:idno type="opensiddur.org">47747</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_47747_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The “minor tractate” Soferim is one of our best sources for early liturgical practice. It is the oldest known source for multiple practices still followed today, such as the blessing for the haftarah. Such luminaries as the Vilna Gaon considered it a vital work. But some of its practices are... well, odd. There are customs in Tractate Soferim which are found nowhere else in classical rabbinics — blessings for the recitation of books in Writings other than the scrolls, a three-year cycle of Torah readings, and a custom to divide the scrolls in half when reading them.</tei:p>
+        <tei:p>This is a litanic Ḳiddush for a Rosh Ḥodesh meal, constructed based on the Ḳiddush for Rosh Ḥodesh in Jerusalem as described in Masekhet Soferim chapter 19:9, mostly following the GRA’s edition. Traditionally it would be done in the presence of twelve town elders and twelve scholars of ritual purity, but today we could adapt it to be recited at a festive meal for Rosh Ḥodesh in the presence of seven — the minyan count according to the traditional Western practice recorded elsewhere in Masekhet Soferim 10:7.</tei:p>
+        <tei:p>Note on the translation: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_47747_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_sanctification_of_the_new_month_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

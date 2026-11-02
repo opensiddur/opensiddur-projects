@@ -1,0 +1,121 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">השמע ועשרת הדיברות</tei:title>
+        <tei:title type="main" xml:lang="en">the Shema prefaced by the Decalogue, as found in the Nash Papyrus (ca. 2nd c. BCE)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">השמע ועשרת הדיברות</tei:title>
+          <tei:title xml:lang="en">the Shema prefaced by the Decalogue, as found in the Nash Papyrus (ca. 2nd c. BCE)</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0160" to="-0061">-0160 – -0061</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=2520</tei:idno>
+          <tei:idno type="opensiddur.org">2520</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/jstor-1450625#page/n1/mode/2up">https://archive.org/stream/jstor-1450625#page/n1/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: The Nash Papyrus. Photo appearing in THE JEWISH QUARTERLY REVIEW 15 (1903) 392-408. <tei:ref target="https://opensiddur.org/wp-content/uploads/2011/01/Nash-Papyrus-small.png">https://opensiddur.org/wp-content/uploads/2011/01/Nash-Papyrus-small.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_2520_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a digital transcription of F.C. Burkitt’s published transcription of the Decalogue and the opening of the Shema from the Nash Papyrus.<tei:anchor xml:id="note_1"/> . Text in brackets is reconstructed based on the the surrounding text, space to margin, and comparative sources.</tei:p>
+        <tei:p>Once upon a time, according to the Mishnah, it was the <tei:hi rend="italic">nusaḥ</tei:hi> (liturgical tradition) of the Cohanim in the Bet Hamikdash<tei:anchor xml:id="note_2"/> for the Ten Commandments to be read prior to the Sh’ma. Here’s the relevant teaching from <tei:hi rend="italic">Mishnah Tamid</tei:hi> (32b in <tei:hi rend="italic">Talmud Bavli Tamid</tei:hi>), emphasis mine:</tei:p>
+        <tei:p>מתני׳ אמר להם הממונה ברכו ברכה אחת והם ברכו קראו עשרת הדברות שמע והיה אם שמוע ויאמר ברכו את העם שלש ברכות אמת ויציב ועבודה וברכת כהנים ובשבת מוסיפין ברכה אחת למשמר היוצא:‏</tei:p>
+        <tei:p>The appointed one (i.e., the deputy high priest) said to them (the priests), pronounce one blessing, and they did so. <tei:hi rend="bold">And they then recited the Ten Commandments, and the Shema</tei:hi> (‘And it shall come to pass if you diligently follow’, and ‘And YHVH said’) and recited with the people three blessings (‘True and firm’, the blessing of the ‘Avodah, and the Priestly Blessing) [in the Amidah]. On Shabbat they said an additional blessing for the outgoing watch.</tei:p>
+        <tei:p>So, why don’t we read the Ten Commandments during the <tei:hi rend="italic">Shaḥarit</tei:hi> (morning service) today? Sadly, fears over the insinuations made by certain <tei:hi rend="italic">Minim</tei:hi> (a category of heretics), left this practice confined to the age of the Temple. No one was able to revive this custom regardless of the evident surviving passion for it shown by generations of Babylonian Amoraim.</tei:p>
+        <tei:p>א״ר יהודה אמר שמואל אף בגבולין בקשו לקרות כן אלא שכבר בטלום מפני תרעומת המינין תניא נמי הכי ר׳ נתן אומר בגבולין בקשו לקרות כן אלא שכבר בטלום מפני תרעומת המינין רבה בב״ח סבר למקבעינהו בסורא א״ל רב חסדא כבר בטלום מפני תרעומת המינין אמימר סבר למקבעינהו בנהרדעא א״ל רב אשי כבר בטלום מפני תרעומת המינין:‏</tei:p>
+        <tei:p>Rabi Yehudah<tei:anchor xml:id="note_3"/> said in the name of Shmuel<tei:anchor xml:id="note_4"/> : Outside the Temple people also wanted to do the same (i.e. say the Ten Commandments before the Sh’ma) but they were stopped on account of the insinuations of the <tei:hi rend="italic">Minim</tei:hi><tei:anchor xml:id="note_5"/> [that the Ten Commandments were the only valid part of the Torah]. Similarly it has been taught: Rabi Natan<tei:anchor xml:id="note_6"/> says, They sought to do the same outside the Temple, but it had long been abolished on account of the insinuations of the <tei:hi rend="italic">Minim</tei:hi>. Rabbah bar Bar Ḥanah<tei:anchor xml:id="note_7"/> had an idea of instituting this in Sura,<tei:anchor xml:id="note_8"/> but Rav Ḥisda<tei:anchor xml:id="note_9"/> said to him, It had long been abolished on account of the insinuations of the <tei:hi rend="italic">Minim</tei:hi>. Ameymar<tei:anchor xml:id="note_10"/> had an idea of instituting it in Nehardea,<tei:anchor xml:id="note_11"/> but Rav Ashi<tei:anchor xml:id="note_12"/> said to him, It had long been abolished on account of the insinuations of the <tei:hi rend="italic">Minim</tei:hi>.<tei:anchor xml:id="note_13"/></tei:p>
+        <tei:p>By the time Rav Saadya Gaon and Rav Amram helped to set down the liturgy in print, this liturgical custom had been relegated to the age of the Temple (before 70 C.E.). This wasn’t the first time a liturgical custom had been left to this era. As Rabbi Mark Sameth explains:</tei:p>
+        <tei:p>The Tetragrammaton [the four-letter divine name used in the Torah, aka, the <tei:hi rend="italic">shem hameforash</tei:hi>) was permitted for everyday greetings until at least 586 B.C.E., when the First Temple was destroyed (Mishnah Berakhot 9:5). In time its pronunciation was permitted only to the priests (Mishnah Sotah 7:6), who would pronounce it in their public blessing of the people. With the death of the High Priest Shimon HaTzaddik circa 300 BCE (Talmud Bavli, Yoma 39b) the Name was pronounced only by the High Priest in the Holy of Holies on Yom Kippur (see Mishnah, Sotah 7:6; Mishnah, Tamid 7:2). According to the Zohar, “the ineffable Name was openly enunciated in the hearing of all, but after irreverence became widespread it was concealed under other letters” (Zohar, Bamidbar Naso 146b). According to the Talmud, the pronunciation was passed on by the sages to their disciples only once (some say twice) every seven years (Talmud Bavli, Kiddushin 71a). Finally, upon the destruction of the Second Temple in 70 C.E., the Name was no longer pronounced at all.<tei:anchor xml:id="note_14"/></tei:p>
+        <tei:p>Nor are these examples unique to the history of Jewish spiritual practice. Concerns over how liturgy was heard or misheard, understood or misunderstood, abused irreverently or used to incite fear and prejudice, produced a fair amount of liturgical variation between <tei:hi rend="italic">nusḥaot</tei:hi>. These variations reflect regions in which Jewish communities struggled under oppression and censorship even unto the 20th century.</tei:p>
+        <tei:p>But back to the reciting of the Ten Commandments prior to the Sh’ma. Quite remarkably, in 1898 an ancient papyrus manuscript was purchased from an antiquities merchant in Egypt that attests to this tradition. On the papyrus is recorded the Ten Commandments followed by the Sh’ma. Named the Nash Papyrus after the man W.L. Nash who purchased it and then brought it to Cambridge University Library, the manuscript witnesses what is likely the oldest extant work of Jewish liturgy. Scholars dated it somewhere between 150 and 100 BCE. What continues to fascinate scholars is how this text, early enough to predate the fixed Masoretic text familiar to Judaism, corresponds to very early editions of the Torah only preserved in translation.</tei:p>
+        <tei:p>Twenty four lines long, with a few letters missing at each edge, the papyrus contains the Ten Commandments in Hebrew, followed by the start of the Sh’ma prayer. The text of the Ten Commandments combines parts of the version from Exodus 20:2-17 with parts from Deuteronomy 5:6-21. A curiosity is its omission of the phrase “house of bondage”, used in both versions, about Egypt – perhaps a reflection of where the papyrus was composed.</tei:p>
+        <tei:p>Some (but not all) of the papyrus’ substitutions from Deuteronomy are also found in the version of Exodus in the ancient Greek Septuagint translation of the Hebrew Bible. The Septuagint also interpolates before Deuteronomy 6:4 the preamble to the Sh’ma found in the papyrus, and additionally agrees with a couple of the other variant readings where the papyrus departs from the standard Hebrew Masoretic text. The ordering of the later commandments in the papyrus (Adultery-Murder-Steal, rather than Murder-Adultery-Steal) is also that found in most texts of the Septuagint, as well as in the Christian Gospels (Mark 10:19, Luke 18:20, Romans 13:9, and James 2:11, but not Matthew 19:18).</tei:p>
+        <tei:p>It is thus believed that the papyrus was probably drawn from a liturgical document, which may have purposely synthesised the two versions of the Commandments, rather than directly from Scripture. However, the similarities with the Septuagint text give strong evidence for the likely closeness of the Septuagint as a translation of a Hebrew text of the Pentateuch extant in Egypt in the 2nd century BCE that differed significantly from the texts later collated and preserved by the Masoretes.<tei:anchor xml:id="note_15"/></tei:p>
+        <tei:p>What makes this manuscript fascinating to me is that the Nash Papyrus and the liturgy it witnesses, presents a novel example of a remix. By placing the two different texts next to each other in sequence, a novel association is evoked. A narrative is... reenacted.</tei:p>
+        <tei:p>As I imagine it, the current Shacharit (morning) practice follows the following thematic journey: liberation from the land of Constriction/<tei:hi rend="italic">mitzrayim</tei:hi> (awareness blessings upon waking), songs of liberation until after the passage through the <tei:hi rend="italic">symplegades</tei:hi> of standing water (<tei:hi rend="italic">psukei dzimra</tei:hi> until <tei:hi rend="italic">az yashir</tei:hi>), passage though a world of light and angels (i.e., the Ascent of Moshe at Har Sinai to receive the Torah<tei:anchor xml:id="note_16"/> — the blessings preceding the Sh’ma), a declaration of Oneness upon the revelation of a theophany on Earth (the Sh’ma — a meditation on the interconnectedness of transcendent One with the immanent <tei:hi rend="italic">Shem Kavod Malchuto</tei:hi> name of God written in nature), and finally, the intimate meeting during the standing meditation of the <tei:hi rend="italic">Amidah</tei:hi> (as the <tei:hi rend="italic">Kavod</tei:hi>/Glory of YHVH passes before Moshe preserved in a cleft in the side of the mountain Sinai).</tei:p>
+        <tei:p>A recitation of the Decalogue (ten commandments) feels entirely consistent with this journey of Bnei Yisroel and Moshe, re-enacted through liturgy. It also feels a shame that even when the Temple stood, fears of irreverence mediated individual’s experience and encounters in Jewish spiritual practice. My heart is with Ameymar and Rabbah bar Bar Ḥanah in restoring this liturgy.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_2520_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_shema_prefaced_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>F.C. Burkitt, “The Hebrew Papyrus of the Ten Commandments,” <tei:hi rend="italic">The Jewish Quarterly Review</tei:hi>, 15, 392-408 (1903)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>Priests of the Temple in Jerusalem</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="3" target="#note_3">
+      <tei:p>Rabi Yehuda ben Ilai, a third generation Tanna of the 2nd Century C.E.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="4" target="#note_4">
+      <tei:p>Shmuel haKatan, a second generation Tanna from the 1st century C.E. At the behest of Rabi Gamliel II of Yavneh, he wrote the Birkat HaMinim, by tradition the 19th and final blessing composed for the Amidah (also known as the <tei:hi rend="italic">Shmonah Esrei</tei:hi>, the 18 [blessings]). Less a blessing than a curse, Shmuel attempted to end the blessing but it proved resilient and remains part of the liturgy of the Amidah today.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="5" target="#note_5">
+      <tei:p>A category of heretic in Jewish law</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="6" target="#note_6">
+      <tei:p>Rabi Natan HaBavli, a third generation Tanna of the 2nd Century C.E.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="7" target="#note_7">
+      <tei:p>Rabbah bar Bar Ḥanah, a second generation Amorah in Babylonia (circa 250-280 C.E.)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="8" target="#note_8">
+      <tei:p>Sura, home to an important Babylonian yeshiva (talmudic academy)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="9" target="#note_9">
+      <tei:p>Rav Ḥisda (228-320 C.E.), an Amora of the third generation</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="10" target="#note_10">
+      <tei:p>Ameymar, an Babylonian Amora of the fifth or sixth generation (380-410 C.E.)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="11" target="#note_11">
+      <tei:p>Nehardea, home to an important Babylonian yeshiva</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="12" target="#note_12">
+      <tei:p>Rav Ashi, (352-427 C.E.) a sixth generation Babylonian Amora</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="13" target="#note_13">
+      <tei:p>Talmud Bavli, Berakhot 12a. Also see Talmud Yerushalmi Berakhoth, i. 8 (4)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="14" target="#note_14">
+      <tei:p>Rabbi Mark Sameth, “The Secret Four-Letter Name of God,” CCAR Journal Summer 2008, p.27, cf., 10.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="15" target="#note_15">
+      <tei:p>”Nash Papayrus,” wikipedia, accessed 2011-01-21.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="16" target="#note_16">
+      <tei:p>See “Moses and Angels” at the Encyclopedia of Jewish, Myth, Magic, and Mysticism</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

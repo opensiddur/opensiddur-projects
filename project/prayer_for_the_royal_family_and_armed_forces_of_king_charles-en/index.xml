@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הַנּוֹתֵן תְּשׁוּעָה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Royal Family and Armed Forces of King Charles III (2022)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הַנּוֹתֵן תְּשׁוּעָה</tei:title>
+          <tei:title xml:lang="en">Prayer for the Royal Family and Armed Forces of King Charles III (2022)</tei:title>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1200" to="1400">1200 – 1400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46678</tei:idno>
+          <tei:idno type="opensiddur.org">46678</tei:idno>
+          <tei:note>Source: Tefilah l’Shalom haMalhut – Prayer for the Royal Family (Office of the Chief Rabbi of the United Hebrew Congregations of the UK and Commonwealth 2022) revision No1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Tefilah-lShalom-haMalhut-Prayer-for-the-Royal-Family-Office-of-the-Chief-Rabbi-of-the-United-Hebrew-Congregations-of-the-UK-and-Commonwealth-2022-rev.1.jpg">https://opensiddur.org/wp-content/uploads/2022/09/Tefilah-lShalom-haMalhut-Prayer-for-the-Royal-Family-Office-of-the-Chief-Rabbi-of-the-United-Hebrew-Congregations-of-the-UK-and-Commonwealth-2022-rev.1.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46678_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the formula of the prayer for the government established by chief rabbi Joseph H. Hertz as introduced in 1935 for King George IV at the Royal Jubilee Service and included in his revised <tei:hi rend="italic">Authorised Prayer Book, vol. II</tei:hi> (1942/3), p. 506-507. In 2014, this formula was amended by Rabbi Ephraim Mirvis of the Office of the Chief Rabbi of the UK and the Commonwealth, to include a short passage in recognition of the United Kingdom’s armed forces.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46678_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_royal_family_and_armed_forces_of_king_charles_office"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

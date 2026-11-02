@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵל לִבִּי פְּתַח</tei:title>
+        <tei:title type="main" xml:lang="en">El Libbi Păthaḥ — a Yemenite Jewish prayer for recitation by children before Torah study, translated by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵל לִבִּי פְּתַח</tei:title>
+          <tei:title xml:lang="en">El Libbi Păthaḥ — a Yemenite Jewish prayer for recitation by children before Torah study, translated by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0700" to="1400">0700 – 1400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=48639</tei:idno>
+          <tei:idno type="opensiddur.org">48639</tei:idno>
+          <tei:note>Source: Alef-Bet Chart, Aden (Single Leaf, undated) from a Kedem Auction House auction <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/01/Alef-Bet-Chart-Aden-Single-Leaf-Kedem-Auction-House.jpg">https://opensiddur.org/wp-content/uploads/2023/01/Alef-Bet-Chart-Aden-Single-Leaf-Kedem-Auction-House.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48639_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In Yemenite Jewish children’s schools, this prayer of unknown authorship is said before the lesson in unison. The teacher conducts and the children sing together to a melody. The prayer is printed in <tei:hi rend="italic">tajjim</tei:hi> (Yemenite trilingual Pentateuch codices) before the book of Leviticus, traditionally the starting point for a child’s education.</tei:p>
+        <tei:p>The first twenty-two lines of the prayer are an alphabetical acrostic wherein each line spells out the entire letter in which it starts. For instance, the first line spells out Alef, Lamed, and Pe, which spells out the full name of the letter Alef. This is followed by three Biblical verses all starting with the word “Good,” a brief poem in Hebrew, and a concluding passage largely in Judeo-Arabic.</tei:p>
+        <tei:p>Here the editor has included the original text, along with a non-gendered English translation and a transcription of the Judeo-Arabic text into Arabic script.</tei:p>
+        <tei:p>Note: “<j:divineName>The Cause</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48639_introduction"/>
+      <j:conditional xml:id="osp_48639_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The featured image is a <tei:hi rend="italic">luaḥ otiyot</tei:hi>, an alphabet chart, from Yemen in the late 19th century. The text of El Libbi Păthaḥ can be found along the right side and bottom.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>A video of some Yemenite-Jewish children singing this melody:</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48639_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_libbi_pathach_study"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

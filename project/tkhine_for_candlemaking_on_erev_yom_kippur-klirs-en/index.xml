@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תחנה פאר די ליכט מאכין אום ערב יום כפור</tei:title>
+        <tei:title type="main" xml:lang="en">Tkhine for Candlemaking on Erev Yom Kippur, by Sarah bat Tovim (ca. early 18th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/tracy-guren-klirs">Tracy Guren Klirs</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תחנה פאר די ליכט מאכין אום ערב יום כפור</tei:title>
+          <tei:title xml:lang="en">Tkhine for Candlemaking on Erev Yom Kippur, by Sarah bat Tovim (ca. early 18th c.)</tei:title>
+          <tei:author>Sarah bat Tovim</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1701" to="1739">1701 – 1739</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=33405</tei:idno>
+          <tei:idno type="opensiddur.org">33405</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/seydertinesuvaos00unse#page/7/mode/2up">https://archive.org/stream/seydertinesuvaos00unse#page/7/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_33405_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the tkhine for candlemaking on erev Yom Kippur as found in Sarah bat Tovim’s Tkhine of Three Gates, likely written by her sometime in the early 18th century. The transcription was drawn from that of Rabbi Tracy Klirs published with her HUC dissertation and subsequently published by HUC Press in <tei:hi rend="italic">In the Merit of Our Mothers</tei:hi> (1991). I have made light changes to the translation, re-Hebraizing loshen qodesh and biblical names, and presenting Hashem as gender-neutral. For more on this tkhine and the custom of measuring graves before Yom Kippur, find Chava Weissler’s work “For the Human Soul is the Lamp of the Lord: The Tkhine for Laying Wicks by Sarah bas Tovim” (in <tei:hi rend="italic">Studies in Polish Jewry, vol 10: Jews in Early Modern Poland</tei:hi>, ed. Gershon David Hundert, 1997). –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Tkhines in Song * תחינות לידער · Rak Shaarey Dmaos * רק שערי דמעות by Nesya Nelkin</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_33405_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tkhine_for_candlemaking_on_erev_yom_kippur_sarah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

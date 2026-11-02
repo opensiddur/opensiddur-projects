@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">צֶדֶק טוּב</tei:title>
+        <tei:title type="main" xml:lang="en">Tsedeq Tuv, a piyyuṭ by I.A. Kahenzade</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">צֶדֶק טוּב</tei:title>
+          <tei:title xml:lang="en">Tsedeq Tuv, a piyyuṭ by I.A. Kahenzade</tei:title>
+          <tei:author>I.A. Kahenzade</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-01-20">2025-01-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68467</tei:idno>
+          <tei:idno type="opensiddur.org">68467</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68467_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is an original Hebrew tehillah/piyyuṭ that I composed in January 2025 for my local Nash Didan (Persian-Azerbaijani-Assyrian-Jewish) community. The composition weaves together classic liturgical motifs, echoing the themes of Psalms 1, Ashrei, and Aleinu, while remaining a distinct, contemporary composition. It may be recited during Pesuqei d’Zimra, as a supplementary reading near the conclusion of a service, or however best its cadence speaks to the heart of the worshipper — be it chanted in the polyphonic chorus of a congregation or whispered in solitary devotion. The piyyuṭ also functions as a Maskilic shibutz “domestication” of the Gathic Avestan manthras — an endeavor inspired by Rav Meshullam Zalman Schachter-Shalomi’s reclamation of universal sacred sparks, clothing ancient wisdom in the living vestments of the Holy Tongue.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68467_introduction"/>
+      <j:conditional xml:id="osp_68467_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Tsedeq Tuv” is an original piyut by I.A. Kahenzade first published, with the accompanying English translation and romanized transliteration, on his personal blog. The author welcomes any alterations that may be sought to the translation to better reflect diverse liturgical voices, or to the transliteration to accommodate different regional or historical pronunciations of Hebrew. It is his hope that these words may be adapted, embraced, and given new breath wherever they find a home.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68467_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tsedeq_tuv_kahenzade"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

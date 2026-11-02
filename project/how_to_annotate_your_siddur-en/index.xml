@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">How to Annotate Your Siddur (sourcesheet), by Rabbi Mordechai Torczyner</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">How to Annotate Your Siddur (sourcesheet), by Rabbi Mordechai Torczyner</tei:title>
+          <tei:author>Mordechai Torczyner</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-12-04">2011-12-04</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=4157</tei:idno>
+          <tei:idno type="opensiddur.org">4157</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_4157_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>[On suggestions for writing in siddurim, Rabbi Torczyner adds]</tei:p>
+        <tei:p>Alternatives: http://lauramiller.typepad.com/lauramiller/2009/03/how-to-write-in-a-book.html</tei:p>
+        <tei:p>Practical tips</tei:p>
+        <tei:p>1. Mark phrases for special concentration</tei:p>
+        <tei:p>2. Mark structural/poetic elements that provide greater meaning</tei:p>
+        <tei:p>3. Add wake-up calls</tei:p>
+        <tei:p>4. Mark lines requiring explanation</tei:p>
+        <tei:p>5. Write in food for thought</tei:p>
+        <tei:p>Writing notes</tei:p>
+        <tei:p>1. Pencil, small marks, change them regularly</tei:p>
+        <tei:p>2. Spread marks throughout the various prayers</tei:p>
+        <tei:p>3. Be ready to replace your siddur</tei:p>
+        <tei:p>4. Don’t distract from the davening</tei:p>
+        <tei:p>In lieu of the Workshop, here are some examples of items I have marked in my current siddur:</tei:p>
+        <tei:p>* Words and phrases for special concentration –ואהבת, באהבה, והשב את העבודה לדביר ביתך, ולעבדו בלבב שלם</tei:p>
+        <tei:p>* Poetic/structural elements – The imperatives in Mizmor l’Todah; The 3 types of Divine action requested in Al haTzaddikim; the theme-aligned sets of lines in Avinu Malkeinu; the two halves of Emes v’Emunah (across time / Yetzias Mitzrayim)</tei:p>
+        <tei:p>* Wake-up calls – Alerts for Shma, Morid haGeshem, Refa’einu</tei:p>
+        <tei:p>* Lines that require explanation – והושיענו למען שמך, שיבנה בית המקדש במהרה בימינו ותן חלקנו בתורתך</tei:p>
+        <tei:p>* Food for thought – Rav Kook’s explanation of בעל מלחמות זורע צדקות, the two roles of Avinu and Malkeinu, the difference between a shofar and a nes in T’ka b’shofar.</tei:p>
+        <tei:p>Thank you to Rabbi Mordechai Torczyner for graciously sharing his sourcesheet with translations of the source-texts above. These translations were originally published in a post, “Class: How to Write in Your Siddur” on Rabbi Torczyner’s blog, The Rebbetzin’s Husband, November 22, 2011. As an introduction Rabbi Torczyner explained,</tei:p>
+        <tei:p>On Wednesday night [November 23rd, 2011] I’m delivering a shiur for women on “How to write in your siddur”, a development based on the blog posts that appear here and here.</tei:p>
+        <tei:p>Here is the majority of my source sheet, excluding passages which I’ll use for a “Writing Workshop”. [UPDATE: The audio of the session is now available here.]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4157_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:how_to_annotate_your_siddur_torczyner"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

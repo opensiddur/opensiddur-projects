@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Albert Plotkin on 17 May 1978</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Albert Plotkin on 17 May 1978</tei:title>
+          <tei:author>Albert Plotkin</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1978-05-17">1978-05-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55792</tei:idno>
+          <tei:idno type="opensiddur.org">55792</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 124, part 11 (17 May 1978), p. 14095 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--124-part-11-17-May-1978-p--14095.png">https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--124-part-11-17-May-1978-p--14095.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55792_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Albert Plotkin, Temple Beth Israel, Phoenix, Arizona</tei:p>
+        <tei:p>Sponsor: Rep. John Rhodes (R-AZ)</tei:p>
+        <tei:p>Date of Prayer: 17 May 1978</tei:p>
+        <tei:p>Mr. RHODES. Mr. Speaker, I am proud to welcome Rabbi Albert Plotkin to the House Chamber. He has been rabbi of Temple Beth Israel in Phoenix for the past 23 years. It is true that he is the first resident of the First District in Arizona who has ever given a prayer here in the House of Representatives.</tei:p>
+        <tei:p>I am particularly proud to be able to introduce my good friend for so many years. Rabbi Plotkin is an outstanding leader of the community. He is president of the North Phoenix Corporate Ministry, which is a social service organization formed by seven Jewish, Catholic, and Protestant congregations. He has served as chaplain of the Arizona State Senate, and he teaches classes at Arizona State University in Tempe. Several organizations in Phoenix have recognized Rabbi Plotkin’s contributions by naming him their “Man of the Year.”</tei:p>
+        <tei:p>I would also like to point out something which I think will be of interest to everybody. Rabbi Plotkin is a graduate of Notre Dame University. He has the distinction of being the only rabbi who is a graduate of Notre Dame University.</tei:p>
+        <tei:p>All Members of the House, I am sure, join me in thanking Rabbi Plotkin for being with us today and delivering his inspirational prayer.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55792_introduction"/>
+      <j:conditional xml:id="osp_55792_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the fifth month of the second session of the 95th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 124, part 11 (17 May 1978), page 14095.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55792_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_plotkin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

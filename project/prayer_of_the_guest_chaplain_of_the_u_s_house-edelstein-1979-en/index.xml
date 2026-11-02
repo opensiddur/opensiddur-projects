@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dov Edelstein on 8 March 1979</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dov Edelstein on 8 March 1979</tei:title>
+          <tei:author>Dov Berl Edelstein</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1979-03-08">1979-03-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54612</tei:idno>
+          <tei:idno type="opensiddur.org">54612</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 125, part 4 (8 March 1979), p. 4472 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--125-part-4-8-March-1979-p--4472.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--125-part-4-8-March-1979-p--4472.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54612_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Dov Edelstein, Moses Montefiore Synagogue, Appleton, Wisconsin</tei:p>
+        <tei:p>Sponsor: Rep. Toby Roth (R-WI)</tei:p>
+        <tei:p>Date of Prayer: 8 March 1979</tei:p>
+        <tei:p>Mr. ROTH. Mr. Speaker, I am honored today to be able to recognize Rabbi Dov Edelstein, who delivered our opening prayer this morning.</tei:p>
+        <tei:p>Rabbi Edelstein has served for 9 years at the Moses Montefiore Synagogue in my hometown—Appleton, Wisconsin. He is well known in Appleton as an exemplary citizen with an outstanding reputation for community service.</tei:p>
+        <tei:p>The Rabbi is a native of Romania, and was ordained to the rabbinate in Hungary in 1944. He is also a former inmate of the Nazi concentration camp at Auschwitz. Following the war, he was one of the 50,000 Jews interned by the British in camps on Cyprus prior to the establishment of the State of Israel.</tei:p>
+        <tei:p>From 1947 to 1962, he lived in Israel and taught Hebrew at several institutions and also taught the language to immigrants. In 1962 he entered the United States and settled in Weirton, West Virginia, the sight of his first congregation, coming from there to Appleton 9 years ago.</tei:p>
+        <tei:p>Rabbi Edelstein holds a graduate degree in American history and is the author of a major study of the relationship of the Wisconsin press toward President Abraham Lincoln during the Civil War.</tei:p>
+        <tei:p>It is certainly a pleasure and an honor to welcome him here today.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54612_introduction"/>
+      <j:conditional xml:id="osp_54612_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 96th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 125, part 4 (1979), page 4472. Later that month, on 26 March in a ceremony at the White House, President Anwar Sadat of Egypt and Prime Minister Menachem Begin of Israel signed the Egypt–Israel peace treaty.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54612_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_edelstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

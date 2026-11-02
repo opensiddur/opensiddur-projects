@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלַּת מַשְׁבִּית מִלְחָמוֹת וְהַדֶּבֶר מִן הַבְּהֵמוֹת</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the cessation of war and pestilence afflicting domesticated animals (ca. 1800)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלַּת מַשְׁבִּית מִלְחָמוֹת וְהַדֶּבֶר מִן הַבְּהֵמוֹת</tei:title>
+          <tei:title xml:lang="en">Prayer for the cessation of war and pestilence afflicting domesticated animals (ca. 1800)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1795" to="1805">1795 – 1805</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46145</tei:idno>
+          <tei:idno type="opensiddur.org">46145</tei:idno>
+          <tei:note>Source: HUC MS 465 – recto (screenshot) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/MS-465-Behemot-recto-smol.png">https://opensiddur.org/wp-content/uploads/2022/08/MS-465-Behemot-recto-smol.png</tei:ref></tei:note>
+          <tei:note>Source: HUC MS 465 – verso (screenshot) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/MS-465-Behemot-verso-smol.png">https://opensiddur.org/wp-content/uploads/2022/08/MS-465-Behemot-verso-smol.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46145_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer for the welfare of domesticated animals (behemot), specifically cattle. “Tefilat mashbit milḥamot v’ha-dever min ha-behemot” (HUC MS 465) was composed by an unknown author, sometime in the late 18th or early 19th century, and possibly in a Jewish community in Italy. The text contains the following clues: 1) a prayer for a local Duke (instead of the Emperor Napoleon), 2) mention of warfare, and 3) mention of some variety of epizootic contagious disease among cattle. Rinderpest, known since ancient times, is the most likely candidate for the latter, especially in Italy in the 18th century (where it was first described by early veterinary science) but it was also in Europe following the defeat of Napoleon. While typhus and hoof-and-mouth disease are also possible, Dr. Susan Einbinder, who brought our attention to this prayer via a lecture on epidemic prayers for the HUC Klau Library, notes that the biblical reference to the “bellowing of the cattle” evokes the actual tortuous lived experience of the afflicted animals, and the suffering of their human minders, helpless to relieve them. The tragedy of rinderpest only ended in the 20th century after a concerted multi-national effort to eradicate the disease — one of the earliest modern multinational initiatives to improve the world. (A related disease, Ovine Rinderpest, first described in the 20th century, has not yet been eradicated and affects goats and sheep as well as cattle.)</tei:p>
+        <tei:p>Many thanks to Yisrael Dubitsky for looking over an early draft transcription of the prayer, and to Baruch Jean Thaler for reviewing a portion of the draft translation. Transcribing and translating this prayer is part of a larger project of mine focused on Jewish concern for and interest in behemot (domesticated animals), those fellow creatures who depend upon us, our choices, and our voices to safeguard their lives and well-being. If you know of any other historic prayers concerned with the well-being of non-human animals (domesticated, wild, or captive wild creatures), please leave a comment or contact us. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46145_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_cessation_of_war_and_pestilence_afflicting"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

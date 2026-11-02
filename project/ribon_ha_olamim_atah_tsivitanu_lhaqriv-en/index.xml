@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">רִבּוֹן הָעוֹלָמִים אַתָּה צִוִּיתָֽנוּ לְהַקְרִיב</tei:title>
+        <tei:title type="main" xml:lang="en">Ribon ha-Olamim atah tsivitanu l'haqriv — let the offering of our lips substitute for animal sacrifice</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">רִבּוֹן הָעוֹלָמִים אַתָּה צִוִּיתָֽנוּ לְהַקְרִיב</tei:title>
+          <tei:title xml:lang="en">Ribon ha-Olamim atah tsivitanu l'haqriv — let the offering of our lips substitute for animal sacrifice</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0440" to="0500">0440 – 0500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=58895</tei:idno>
+          <tei:idno type="opensiddur.org">58895</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hasiddurhashalemhassidicsefardicpaltielbirnbaum1969/Ha-Siddur%20Ha-Shalem%20-%20hassidic-sefardic%20%28Paltiel%20Birnbaum%201969%29#page/n67/mode/2up">https://archive.org/stream/hasiddurhashalemhassidicsefardicpaltielbirnbaum1969/Ha-Siddur%20Ha-Shalem%20-%20hassidic-sefardic%20%28Paltiel%20Birnbaum%201969%29#page/n67/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58895_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the Ribon ha-Olamim prayer contained within the concluding readings of the Qarbanot section as an introductory preface to the Morning prayers. In most siddurim in which the Karbanot are included, this prayer appears immediately after Ana b’Khoaḥ and before the rules of Midrash Halakhah taught by Rebbi Yishmael.</tei:p>
+        <tei:p>The placement of the crucial proof-text verse from Hosea (14:3) distinguishes between the liturgical custom of Sefaradim and Ashkenazim. The latter place it before <tei:hi rend="italic">lakhen</tei:hi> (“therefore”) and the former at the end. Since the verse is indeed critical to understanding how rabbinic Judaism validates prayer as a substitute for the Avodah of the Temple Service in the age after the Temple’s destruction, it follows that by repeating the verse we can further emphasize it, and this is my practice. —Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58895_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribon_haolamim_attah_tsivitanu_lehaqriv"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

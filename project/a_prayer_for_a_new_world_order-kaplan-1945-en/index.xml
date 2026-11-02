@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for a New World Order, by Rabbi Dr. Mordecai Kaplan (ca. 1945-1951)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for a New World Order, by Rabbi Dr. Mordecai Kaplan (ca. 1945-1951)</tei:title>
+          <tei:author>Mordecai Kaplan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1945" to="1951">1945 – 1951</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=59870</tei:idno>
+          <tei:idno type="opensiddur.org">59870</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59870_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Prayer may not change the course of events but it may change us. Or to be more precise our prayers should help us focus on our ideals and the goals that we should hold in the forefront of our consciousness.</tei:p>
+        <tei:p>I found this prayer many years ago and do not know when Kaplan crafted it. He was continuously conscious of the need for cooperation in international affairs rather than the assertion of power. The fundamental commitment to cooperation comes out not only in times of war but at all times. So much of what is happening reflects a meanness of spirit. Kaplan here arouses our spirit of generosity and concern. –Mel Scult</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59870_introduction"/>
+      <j:conditional xml:id="osp_59870_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for a new world order by Rabbi Dr. Mordecai Kaplan, representing many of the hopes of a League of Nations after World War I and a more robust United Nations after World War II, was found by Mel Scult among Mordecai Kaplan’s papers and shared by Dr. Scult in a Facebook post. The prayer is undated, although we tentatively date it between 1945 and 1951. The prayer was also untitled; the title offered was chosen by me based on my understanding of its content. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59870_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_a_new_world_order_kaplan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

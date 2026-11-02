@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Centennial of Ḳ.Ḳ. Miḳveh Israel (Philadelphia), by Rabbi Sabato Morais (30 March 1883)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Centennial of Ḳ.Ḳ. Miḳveh Israel (Philadelphia), by Rabbi Sabato Morais (30 March 1883)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1883-03-30">1883-03-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53487</tei:idno>
+          <tei:idno type="opensiddur.org">53487</tei:idno>
+          <tei:note>Source: Centennial Prayer for Ḳ.Ḳ. Mikve Israel [Jewish Record, 1883-03-30] (Sabato Morais Ledger, p. 200) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/11/Centennial-Prayer-for-KK-Mikve-Israel-Jewish-Record-1883-03-30-Sabato-Morais-Ledger-p--200.png">https://opensiddur.org/wp-content/uploads/2023/11/Centennial-Prayer-for-KK-Mikve-Israel-Jewish-Record-1883-03-30-Sabato-Morais-Ledger-p--200.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53487_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer appears in conclusion to “A Summary of the Centenary History of the Mikve Israel Congregation, by Rev. S. Morais” published in the <tei:hi rend="italic">The Jewish Record</tei:hi> on 30 March 1883, a clipping of which is found on page 200in the Sobato Morais Scrapbook (a/k/a, the Morais Ledger).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53487_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_centennial_of_q_q_miqveh_israel_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

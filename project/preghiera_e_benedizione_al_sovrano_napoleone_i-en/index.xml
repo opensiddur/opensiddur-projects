@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הוד מלכות</tei:title>
+        <tei:title type="main" xml:lang="en">Preghiera e Benedizione al Sovrano Napoleone I</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer and Blessing for Napoleon I on his birthday, in the Synagogue of the Jews of Livorno (15 August 1808)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הוד מלכות</tei:title>
+          <tei:title xml:lang="en">Preghiera e Benedizione al Sovrano Napoleone I</tei:title>
+          <tei:title xml:lang="en">Prayer and Blessing for Napoleon I on his birthday, in the Synagogue of the Jews of Livorno (15 August 1808)</tei:title>
+          <tei:author>Jacob Nunes-Vais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1808-08-15">1808-08-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43578</tei:idno>
+          <tei:idno type="opensiddur.org">43578</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hod-malkhut-livorno-1808/Hod%20Malkhuto%20%28Livorno%201808%29#page/n5/mode/2up">https://archive.org/stream/hod-malkhut-livorno-1808/Hod%20Malkhuto%20%28Livorno%201808%29#page/n5/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43578_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer service for the Festival of Napoleon celebrating the Emperor’s birthday in 1808, included a novel prayer by Rabbi Jacob Nunes-Vais (1782-1812) for introducing the traditional prayer for the king, “hanoten teshua,” published in הוד מלכות (Hod Malkhut) <tei:hi rend="italic">Preghiere Recitate, E Cantate Nel Tempio Degli Ebrei Di Livorno, Il di 15. Agosto 1808. Ricorrendo Il Faustissimo Giorno Natalizio Di S. M. I., E R. L’ Augustissimo Napoleone I Imperatore De’Francesi, Re D’Italia, E Protettore Della Confederazione Del Reno.</tei:hi></tei:p>
+        <tei:p>The transcription of the Italian provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. We welcome corrections and improvements. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43578_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:preghiera_e_benedizione_al_sovrano_napoleone_i_nunes_vais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

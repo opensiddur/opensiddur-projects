@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kuando el rey Nimrod (When Nimrod was King), a song relating the story of Avraham &amp; the Furnace (ca. 1890)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kuando el rey Nimrod (When Nimrod was King), a song relating the story of Avraham &amp; the Furnace (ca. 1890)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1890">1890</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29735</tei:idno>
+          <tei:idno type="opensiddur.org">29735</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n128/mode/2up">https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n128/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29735_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Kuando el rey Nimrod” (קואנדו אל ריי נמרוד, “When Nimrod was king”) is a Sephardic folk song, sung in Ladino. The song has its roots in a piyyut called “La vocación de Abraham.” Several versions have been found dating from the 18th century, written by anonymous authors in the former Ottoman Empire. The song, with its original much longer lyrics and its makam rhythm, would become popular in the Sephardic communities of the Mediterranean basin. Around the year 1890, an anonymous author from Tangiers, Morocco wrote the version of the song copied here, shortening its lyrics and composing a new melody in the Phrygian dominant scale also referred to as Freygish, Fraigish, or Hijaz.</tei:p>
+        <tei:p>The earliest recorded version of the story of Avraham’s survival from a fire resulting from his iconoclasm is attested in the Sefer haYovelim 12:12-15.</tei:p>
+        <tei:p>We are looking for other variations of <tei:hi rend="italic">Kuando el rey Nimrod</tei:hi> and “La vocación de Abraham.” If you can provide a reference to one or more, please do — and thank you.</tei:p>
+        <tei:p>The English translation here follows the translation provided in the article “Kuando el rey Nimrod” on Wikipedia. (There, the translation was initially offered in 2009 by the user ‘Gorgongnu’ and improved by subsequent editors such as Archaeogenetics ([kandell].) Honi Sanders and I published this translation along with the romanized Ladino in the birkon for his wedding, <tei:hi rend="italic">Siman l’Vanim</tei:hi> (Dimus Parrhesia Press 2019). –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29735_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:kuando_el_rey_nimrod"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מזמור הקרב על הרפובליקה</tei:title>
+        <tei:title type="main" xml:lang="en">The Battle Hymn of the Republic, by Julia Ward Howe (1861); Hebrew translation by Alan S. Belsky</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מזמור הקרב על הרפובליקה</tei:title>
+          <tei:title xml:lang="en">The Battle Hymn of the Republic, by Julia Ward Howe (1861); Hebrew translation by Alan S. Belsky</tei:title>
+          <tei:author>Julia Ward Howe</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1861-11">1861-11</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68285</tei:idno>
+          <tei:idno type="opensiddur.org">68285</tei:idno>
+          <tei:note>Source: Original appearance of The Battle Hymn of the Republic in The Atlantic Monthly , February 1862 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/07/battle-hymn-of-the-republic.jpg">https://opensiddur.org/wp-content/uploads/2026/07/battle-hymn-of-the-republic.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68285_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Battle Hymn of the Republic” (1861) by the abolitionist writer Julia Ward Howe, is a patriotic hymn written during the Slaveholders’ Rebellion (1861-1865). It is sometimes called “Mine Eyes Have Seen the Glory,” especially outside of the United States. The tune and some of the lyrics of “John Brown’s Body” came from a much older folk hymn called “Say, Brothers will you Meet Us”, also known as “Glory Hallelujah”, which had been developed in the oral hymn tradition of revivalist camp meetings of the late 1700s, though it was first published in the early 1800s. In the first known version, “Canaan’s Happy Shore”, the text includes the verse “Oh! Brothers will you meet me (3×)/On Canaan’s happy shore?” and chorus “There we’ll shout and give Him glory (3×)/For glory is His own.” This developed into the familiar “Glory, glory, hallelujah” chorus by the 1850s. The tune and variants of these words spread across the United States. Julia Ward Howe adapted her song from the soldiers’ song “John Brown’s Body” in November 1861, and sold it for $4 to <tei:hi rend="italic">The Atlantic Monthly</tei:hi> in February 1862. In contrast to the lyrics of the soldiers’ song, her version links the Union cause with God’s vengeance at the Day of Judgment (through allusions to biblical passages such as Isaiah 63:1–6, and to the book of Revelation 14:14–19 and Revelation 19 in the Christian bible). Julia Ward Howe was married to Samuel Gridley Howe, a scholar in education of the blind. Both Samuel and Julia were also active leaders in anti-slavery politics and strong supporters of the Union. Samuel was a member of the Secret Six, the group who funded John Brown’s work.</tei:p>
+        <tei:p>The Hebrew translation, with the completely revised fifth stanza, was made between November 2008 and January 2009 (with some minor tweaking in February 2010) by Alan S. Belsky. (Thank you!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68285_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_battle_hymn_of_the_republic_howe"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

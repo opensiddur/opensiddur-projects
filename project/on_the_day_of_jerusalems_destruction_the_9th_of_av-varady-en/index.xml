@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">Am Zerstörungstage Jerusalems, den 9. des Monats Aw (תשעת באב‎)</tei:title>
+        <tei:title type="main" xml:lang="en">[Prayer] on the day of Jerusalem's destruction: the 9th of Av, by Fanny Neuda (1855)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">Am Zerstörungstage Jerusalems, den 9. des Monats Aw (תשעת באב‎)</tei:title>
+          <tei:title xml:lang="en">[Prayer] on the day of Jerusalem's destruction: the 9th of Av, by Fanny Neuda (1855)</tei:title>
+          <tei:author>Fanny Schmiedl-Neuda</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1855">1855</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=32100</tei:idno>
+          <tei:idno type="opensiddur.org">32100</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/StundenDerAndachtFannyNeuda1864#page/n54/mode/2up">https://archive.org/stream/StundenDerAndachtFannyNeuda1864#page/n54/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/stundenderandac01neudgoog#page/n53/mode/2up/">https://archive.org/stream/stundenderandac01neudgoog#page/n53/mode/2up/</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_32100_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Der neunte Ab, das größte der jüdischen Trauerfeste. An diesem Tage wurde einst der erste Tempel durch Nebucadnezar, der zweite durch Titus zerstört und das Israelitische Reich durch die Römer gänzlich aufgelöst. (“The ninth of Aḅ, is the greatest of the Jewish festivals of mourning. On this day the first temple was once destroyed by Nebuchadnezzar, the second by Titus, and the Israelite Empire was completely dissolved by the Romans.”)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_32100_introduction"/>
+      <j:conditional xml:id="osp_32100_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Am Zerstörungstage Jerusalems, den 9. des Monats Aw.” by Fanny Neuda from her <tei:hi rend="italic">Stunden der Andacht</tei:hi> (1855) is translated for the first time here. We have tagged this prayer as “problematic” owing to its normative reference to the physical punishment of children. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_32100_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:on_the_day_of_jerusalems_destruction_the_9th_of_av_schmiedl_neuda"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

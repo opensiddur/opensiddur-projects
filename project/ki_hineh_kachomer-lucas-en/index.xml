@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כִּי הִנֵּה כַּחֹֽמֶר</tei:title>
+        <tei:title type="main" xml:lang="en">Ki Hinéh Kaḥomer, rhymed translation by Alice Lucas (1898)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כִּי הִנֵּה כַּחֹֽמֶר</tei:title>
+          <tei:title xml:lang="en">Ki Hinéh Kaḥomer, rhymed translation by Alice Lucas (1898)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Alice Montefiore Lucas</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36190</tei:idno>
+          <tei:idno type="opensiddur.org">36190</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/108/mode/2up">https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/108/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimarthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%201%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n86/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimarthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%201%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n86/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36190_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Alice Lucas’s rhymed paraliturgical translation of the pizmon “Ki Hinei Kaḥomer,” was first published in her <tei:hi rend="italic">The Jewish Year</tei:hi> (1898), page 74, under the title “Lo, As the Potter.” She omits the penultimate stanza “as a tapestry in the hands of an embroiderer.”</tei:p>
+        <tei:p>In Ashkenazi comunities, “Ki Hinei Kaḥomer” is sung at maariv on Yom Kippur.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36190_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ki_hineh_kachomer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

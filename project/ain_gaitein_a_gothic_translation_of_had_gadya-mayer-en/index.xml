@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">𐌰𐌹𐌽 𐌲𐌰𐌹𐍄𐌴𐌹𐌽</tei:title>
+        <tei:title type="alt" xml:lang="he">Ain Gaitein (ען גּעטיִן) — a Gothic translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">𐌰𐌹𐌽 𐌲𐌰𐌹𐍄𐌴𐌹𐌽</tei:title>
+          <tei:title xml:lang="he">Ain Gaitein (ען גּעטיִן) — a Gothic translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53706</tei:idno>
+          <tei:idno type="opensiddur.org">53706</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53706_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. Probably not this one, but who knows? While there’s no known community of Jews who spoke Gothic or any other East Germanic language, there certainly were Jews who came into contact with it, such as the communities of Crimea (where variants of Gothic continued to be spoken until the 18th century). In any case this translation of Ḥad Gadya follows the grammar of Wulfila’s 4th-century Gothic translations. Also included is a description of a method for writing the Gothic language in Hebrew script. If your computer doesn’t have access to the Gothic Unicode block, I would recommend George Douros’s “Analecta,” offered as part of his free-to-use Unicode Fonts for Ancient Scripts package.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53706_introduction"/>
+      <j:conditional xml:id="osp_53706_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the translation of Ḥad Gadya into Gothic with a Hebraicization schema by Isaac Gantwerk Mayer for the Ulfian script alphabet. A technical note: unlike other Unicode addressed scripts, we had some difficulty with the Gothic text. We were not able to directly save the Gothic text through our WordPress backend. So in order to display it here, we first had to convert the Unicode text to Hexadecimal NCRs. For any future digital archivist (or site administrator), we hope this note will help to explain an issue that has long since been resolved.</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+        <tei:p>https://opensiddur.org/wp-content/uploads/2023/12/Judeo-Gothic-transliteration-schema-Isaac-Gantwerk-Mayer-2023.pdf</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53706_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ain_gaitein_a_gothic_translation_of_had_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

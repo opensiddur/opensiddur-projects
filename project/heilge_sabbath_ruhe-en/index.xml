@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Heil'ge Sabbath-Ruhe</tei:title>
+        <tei:title type="alt" xml:lang="en">Holy Sabbath Rest — from the Hamburg Temple Hymnal (1833)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Heil'ge Sabbath-Ruhe</tei:title>
+          <tei:title xml:lang="en">Holy Sabbath Rest — from the Hamburg Temple Hymnal (1833)</tei:title>
+          <tei:author>James Koppel Gutheim</tei:author>
+          <tei:author>Gotthold Salomon</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1833">1833</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51216</tei:idno>
+          <tei:idno type="opensiddur.org">51216</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/n5/mode/2up">https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/n5/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/allgemeines-israelitisches-gesangbuch-eingefuhrt-in-dem-neuen-israelitschen-tempel-zu-hamburg-1833/Allgemeines%20Israelitisches%20Gesangbuch%20eingef%C3%BChrt%20in%20dem%20Neuen%20Israelitschen%20Tempel%20zu%20Hamburg%20%281833%29#page/414/mode/2up">https://archive.org/stream/allgemeines-israelitisches-gesangbuch-eingefuhrt-in-dem-neuen-israelitschen-tempel-zu-hamburg-1833/Allgemeines%20Israelitisches%20Gesangbuch%20eingef%C3%BChrt%20in%20dem%20Neuen%20Israelitschen%20Tempel%20zu%20Hamburg%20%281833%29#page/414/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51216_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Heil’ge Sabbath-Ruhe” is a hymn selected by Rabbi Gotthold Salomon, Immanuel Wohlwill, and Maimon Fraenkel for inclusion in the <tei:hi rend="italic">Hamburg Temple Hymnal</tei:hi> (1833), hymn No342, p. 415. The first, fourth, and sixth stanzas were translated by Rabbi James Koppel Gutheim and published as “Der Sabbath (The Sabbath)” in his <tei:hi rend="italic">Hymns, for Divine Service in the Temple Emanu-El</tei:hi> (1871) as hymn No1, pp. 2-3. The hymn also appears as the preface to Gotthold Salomon’s sermon “Der Segen des Sabbathtages” in <tei:hi rend="italic">Der berg des Herrn: Kanzel-vorträge über den Decalog</tei:hi> (1846), p. 32 lending me to think that the hymn was at the very least appreciated by him, and possibly also written by him. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51216_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:heilge_sabbath_ruhe_gutheim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

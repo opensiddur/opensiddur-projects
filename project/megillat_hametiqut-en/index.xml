@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מְגִלַּת הַמְּתִיקוּת</tei:title>
+        <tei:title type="main" xml:lang="en">Megillat HaMetiḳut (Scroll of the Sweetness), by Noraa Neither Kaplan (17 Tishrei, 5787)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מְגִלַּת הַמְּתִיקוּת</tei:title>
+          <tei:title xml:lang="en">Megillat HaMetiḳut (Scroll of the Sweetness), by Noraa Neither Kaplan (17 Tishrei, 5787)</tei:title>
+          <tei:author>Noraa Neither Kaplan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-09-28">2026-09-28</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=69351</tei:idno>
+          <tei:idno type="opensiddur.org">69351</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_69351_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>מגלת המתיקות <tei:hi rend="italic">Megillat HaMetiḳut</tei:hi> (Scroll of the Sweetness), written and sealed by the hand of Noraa Neither Kaplan, upon the deliverance of the Jews from confectionary catastrophe on the 17th of Tishrei, 5787 (the 28th of September, 2026). (obviously the ending is just a shitpost, i have no desire to visit judgment upon Marco Capurso, CEO of Ferrara Candy)</tei:p>
+        <tei:p>[Note: in the cantillated text, blue indicates the Eikhah melody while red indicates a special niggun. (Refer to the recording for the reference melody.)]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69351_introduction"/>
+      <j:conditional xml:id="osp_69351_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Megillat HaMetiḳut,” by Noraa Neither Kaplan, was first shared by the author in vocalized Hebrew with an English translation, and announced via the Shitpost the Beit Midrash Facebook group on 28 September 2026, the third day of Sukkot 5787. Isaac Gantwerk Mayer cantillated and read the text.</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69351_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:megillat_hametiqut_kaplan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

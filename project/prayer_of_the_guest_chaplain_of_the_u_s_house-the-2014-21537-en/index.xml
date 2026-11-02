@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Michael Lotker on 18 June 2014</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Michael Lotker on 18 June 2014</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Michael Lotker</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-06-18">2014-06-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21537</tei:idno>
+          <tei:idno type="opensiddur.org">21537</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4510456/rabbi-michael-lotker-temple-ner-ami-camarillo-ca">https://www.c-span.org/video/standalone/?c4510456/rabbi-michael-lotker-temple-ner-ami-camarillo-ca</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/113/crec/2014/06/18/CREC-2014-06-18-pt1-PgH5404-4.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/113/crec/2014/06/18/CREC-2014-06-18-pt1-PgH5404-4.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21537_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Michael Lotker, Temple Ner Ami, Camarillo, CA</tei:p>
+        <tei:p>Sponsor: Rep. Julia Brownley, (D-CA)</tei:p>
+        <tei:p>Date of Prayer: 06/18/2014</tei:p>
+        <tei:p>Ms. BROWNLEY of California. Mr. Speaker, it is my great privilege to welcome a very good friend, Rabbi Michael Lotker, to be the guest chaplain of the House of Representatives today.</tei:p>
+        <tei:p>Rabbi Lotker is a teacher and a leader in Ventura County. He is the rabbi emeritus at Temple Ner Ami in Camarillo, California; the rabbi of Congregation Khilat HaAloneem in Ojai, California; and the community rabbi and teacher for the Jewish Federation of Ventura County. He is also a member of the Central Conference of American Rabbis and the Board of Rabbis of Southern California.</tei:p>
+        <tei:p>In addition to his work as a rabbi, Rabbi Lotker is an author and a physicist, with a focus on researching alternative energy sources such as wind, solar, and geothermal.</tei:p>
+        <tei:p>Known for his quick–witted humor, Rabbi Lotker writes parody songs for each of the Jewish holidays throughout the year.</tei:p>
+        <tei:p>For his spiritual leadership and thoughtful words, I would like to thank Rabbi Lotker for leading us in prayer today. ;</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21537_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_21537"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

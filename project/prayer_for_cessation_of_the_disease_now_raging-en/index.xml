@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה על המגפה שתעצר</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for Cessation of the Disease Now Raging, by Rabbi Dr. Moses Gaster (1892)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה על המגפה שתעצר</tei:title>
+          <tei:title xml:lang="en">Prayer for Cessation of the Disease Now Raging, by Rabbi Dr. Moses Gaster (1892)</tei:title>
+          <tei:author>Moses Gaster</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1892">1892</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31035</tei:idno>
+          <tei:idno type="opensiddur.org">31035</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/prayerforcessationofthediseasenowragingmosesgaster1892#page/n0/mode/2up">https://archive.org/stream/prayerforcessationofthediseasenowragingmosesgaster1892#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31035_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer prepared in January 1892 by Rabbi Dr. Moses Gaster and offered in London in the Spanish &amp; Portuguese synagogues under his aegis in response to the danger of a cholera pandemic. From Wikipedia, “The fifth cholera pandemic (1881–1896) was the fifth major international outbreak of cholera in the 19th century. It spread throughout Asia and Africa, and reached parts of France, Germany, Russia, and South America. The 1892 outbreak in Hamburg, Germany was the only major European outbreak; about 8,600 people died in that city.”</tei:p>
+        <tei:p>The prayer, offered in Hebrew with an English translation, is not consistent in the translation of divine names. I have re-hebraicized all divine names invoked. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31035_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_cessation_of_the_disease_now_raging_gaster"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

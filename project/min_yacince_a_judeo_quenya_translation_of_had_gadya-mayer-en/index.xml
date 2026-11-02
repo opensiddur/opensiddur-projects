@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en"> </tei:title>
+        <tei:title type="alt" xml:lang="he">Min Yacincë (מִן יַקִינְקֶי) — a Judeo-Quenya translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en"> </tei:title>
+          <tei:title xml:lang="he">Min Yacincë (מִן יַקִינְקֶי) — a Judeo-Quenya translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43875</tei:idno>
+          <tei:idno type="opensiddur.org">43875</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43875_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout Arda, and in many communities it was read in translation. This translation into Quenya is necessary for any good Lothlórien sedarim.</tei:p>
+        <tei:p>But to be serious, Quenya was one of several languages developed by J.R.R. Tolkien. It serves as the sacred ancestral language of the Noldorin elves in the Middle-Earth legendarium. The editor here has developed this adaptation of the well-known seder table-song Ḥad Gadya into Quenya, as well as a home-brewed transcription system into Hebrew script included here (PDF | ODT). This translation uses several fan-made terms, such as <tei:hi rend="italic">cuimacir</tei:hi> for “butcher” and <tei:hi rend="italic">luhtya</tei:hi>– for “extinguish”, as well as one original neologism, <tei:hi rend="italic">yacincë</tei:hi> for “kid-goat.”</tei:p>
+        <tei:p>The editor is not an expert in Tolkien’s languages, so if there are any grammatical errors, feel free to leave a comment! (Thanks to the experts at elfdict for their help!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43875_introduction"/>
+      <j:conditional xml:id="osp_43875_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Just a brief note on the digital font employed here to render legible text in the Elvish Tengwar script through which Quenya is read. Almost all fonts used on the Open Siddur Project are internally addressed according to the Unicode standard. In keeping to this standard, we ensure that the text displayed is preserved as digital text in a form that will remain legible in the future. Unfortunately, at the time of our publication, Tengwar remains unaddressed in Unicode. So, in order to supply a legible text in an Elvish script, we are using Ben Talagan’s Glaemscribe Anatar fonts. The Quenya in Tengwar script was rendered from the Latin text via Glǽmscribe – The Tolkien language transcriber. We will adapt this post to use a Unicode standard once the Tengwar glyphs are formally added and a Unicode font becomes available. (Please don’t hesitate to contact us if you learn of such an advance before we do.) –Aharon Varady</tei:p>
+        <tei:p>Recording(s)</tei:p>
+        <tei:p>Music Notation(s)</tei:p>
+        <tei:p>https://opensiddur.org/wp-content/uploads/2022/04/Min-Yacince-Score-Isaac-Gantwerk-Mayer-2022.pdf</tei:p>
+        <tei:p>Transliteration Schema</tei:p>
+        <tei:p>https://opensiddur.org/wp-content/uploads/2022/04/Judeo-Quenya-hebraization-schema-Isaac-Gantwerk-Mayer-2022.pdf</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43875_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:min_yacince_a_judeo_quenya_translation_of_had_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

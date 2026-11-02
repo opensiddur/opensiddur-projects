@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֶתֵּן לְפוֹעֲלִי צֶֽדֶק</tei:title>
+        <tei:title type="main" xml:lang="en">Ètén l'Fōali Tsedeq ("My Maker's Justice"), a piyyut by Rabbi Shimon bar Yitsḥaq of Mainz (rhyming English translation by Elsie Davis, 1907)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֶתֵּן לְפוֹעֲלִי צֶֽדֶק</tei:title>
+          <tei:title xml:lang="en">Ètén l'Fōali Tsedeq ("My Maker's Justice"), a piyyut by Rabbi Shimon bar Yitsḥaq of Mainz (rhyming English translation by Elsie Davis, 1907)</tei:title>
+          <tei:author>Shimon bar Yitsḥaq of Mainz</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Elsie Davis</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0970" to="1020">0970 – 1020</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66215</tei:idno>
+          <tei:idno type="opensiddur.org">66215</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodatyomhazikaronarthurdavisandherbertadler1907/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haZikaron%20%28Arthur%20Davis%20and%20Herbert%20Adler%201907%29#page/104/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodatyomhazikaronarthurdavisandherbertadler1907/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haZikaron%20%28Arthur%20Davis%20and%20Herbert%20Adler%201907%29#page/104/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66215_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the alphabetic acrostic piyyut “Etén l’Foali Tsedeq” by Shimon bar Yitsḥaq (b. Abun of Mainz, identified via his acrostic signature), as translated into rhymed English verse by Elsie Davis, and published in Herbert Adler and Arthur Davis’s <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Yom haZikaron</tei:hi> (1907), p. 104 (also, p. 200). (The piyyut is accidentally attributed to Kalir in the credits located in the backmatter of the maḥzor.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66215_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:eten_lefoali_tsedeq_shimon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

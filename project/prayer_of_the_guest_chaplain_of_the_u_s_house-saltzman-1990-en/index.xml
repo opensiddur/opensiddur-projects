@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David Saltzman on 6 September 1990</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David Saltzman on 6 September 1990</tei:title>
+          <tei:author>David Saltzman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1990-09-06">1990-09-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51838</tei:idno>
+          <tei:idno type="opensiddur.org">51838</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4503041/rabbi-david-saltzman-aventura-turnberry-jewish-center-aventura-fl">https://www.c-span.org/video/standalone/?c4503041/rabbi-david-saltzman-aventura-turnberry-jewish-center-aventura-fl</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record v. 136, part 16 – 6 September 1990. p. 23494 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-16-6-September-1990.-p.-23494.png">https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-16-6-September-1990.-p.-23494.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51838_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi David Saltzman, Aventura Turnberry Jewish Center, Aventura, FL.</tei:p>
+        <tei:p>Date of Prayer: 6 September 1990</tei:p>
+        <tei:p>Sponsor: Rep. William Lehman (D-FL)</tei:p>
+        <tei:p>Mr. Speaker, I would like to thank Chaplain Ford for the privilege of having Rabbi David Saltzman as the guest chaplain this morning.</tei:p>
+        <tei:p>Rabbi Saltzman has served for the past 11 years as spiritual leader of the Aventura-Turnberry Jewish Center, a dynamic and growing congregation in our 17th Congressional District. This coming Sunday, I will be attending the official ceremony for the placing of the Torah in the new sanctuary.</tei:p>
+        <tei:p>Rabbi Saltzman was born in Brooklyn, NY, attended Flatbush Yeshiva High School, and graduated from Brooklyn College, after first spending his freshman year at Bar Ilan University during the time of the Sinai campaign. He was ordained at the Jewish Theological Seminary in 1965, where he was awarded the degree of doctor of divinity. He also holds a masters of Hebrew letters and master in academic administration.</tei:p>
+        <tei:p>Rabbi Saltzman has had a rich religious background, serving the spiritual needs of congregations in Massachusetts, New York, Illinois, and Florida, and as Navy chaplain in Guantanamo Bay, Cuba, and later with the marines in Vietnam.</tei:p>
+        <tei:p>This fall, Rabbi Saltzman will be leaving our community to serve as rabbi of the Conservative Congregation Moriah in Haifa, Israel. Our community will miss him, but we are most fortunate to have him with us today.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51838_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_saltzman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בִּרְכַּת גּוֹמֵל חֲסָדִים טוֹבִים לְעַמּוֹ יִשְׂרָאֵל</tei:title>
+        <tei:title type="main" xml:lang="en">Birkat Gomel Ḥasadim Tovim l'Amo Yisrael (translated by Rabbi Zalman Schachter-Shalomi)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בִּרְכַּת גּוֹמֵל חֲסָדִים טוֹבִים לְעַמּוֹ יִשְׂרָאֵל</tei:title>
+          <tei:title xml:lang="en">Birkat Gomel Ḥasadim Tovim l'Amo Yisrael (translated by Rabbi Zalman Schachter-Shalomi)</tei:title>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=58955</tei:idno>
+          <tei:idno type="opensiddur.org">58955</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SiddurTehillatHaShemYedaberPiWeekdaySiddur#page/n7/mode/2up">https://archive.org/stream/SiddurTehillatHaShemYedaberPiWeekdaySiddur#page/n7/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sidurtehilashashemforweekdaysandshabbosmerkoslinyonaichinuch1953#page/n6/mode/2up">https://archive.org/stream/sidurtehilashashemforweekdaysandshabbosmerkoslinyonaichinuch1953#page/n6/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58955_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Rabbi Zalman Schachter-Shalomi, z”l, included his translation of the Birkhot haShaḥar in his Siddur Tehillat Hashem Yidaber Pi (2009). To the best of my ability, I have set his English translation side-by-side with the Hebrew phrases comprising the blessings. I also want to share a dvar tefillah on the following.</tei:p>
+        <tei:p>While preparing this work and noticing for the first time the overlapping themes of dawn, blessing, the multiple and bookending blessings concerning perception, the invocation of the name Yisra’el, and the final blessing, in its context in Berakhot 60b after washing one’s face, the valence of the ritual washing of one’s hands after contact with death, and Reb Zalman’s interpretive translation “As we face you” for “be’einekha” (lit. “in your eyes”), I came to an insight that these birkhot hashaḥar may be read as framed by the story of Yaakov wrestling until dawn with the angel he forces to bless him, and which he names Peniel (Genesis 32:25-31).</tei:p>
+        <tei:p>As we arouse ourselves from sleep, an intimate experience with “1/60th of death”<tei:anchor xml:id="note_1"/>, we bless Hashem that we may perceive (or benefit from other’s perception) of the dawn as well as our eponymous ancestor’s taking by force the blessing of the name Yisra’el which informs our daily identity and actions, may our wrestling with these challenges be righteous and just in the perception of our peers and in the judgement of our <tei:hi rend="italic">elo’ah</tei:hi> who is Just. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58955_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_gomel_chasadim_tovim_leamo_yisrael/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_gomel_chasadim_tovim_leamo_yisrael/2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Cf. Berachot 57b, Midrash Rabbah Genesis 17:7</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

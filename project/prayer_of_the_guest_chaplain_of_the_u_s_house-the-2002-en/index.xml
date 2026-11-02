@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gerald M. Kane on 2 October 2002</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gerald M. Kane on 2 October 2002</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Gerald Kane</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2002-10-02">2002-10-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=32792</tei:idno>
+          <tei:idno type="opensiddur.org">32792</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4506931/user-clip-rabbi-gerald-kane-temple-beth-el-las-cruces-nm">https://www.c-span.org/video/standalone/?c4506931/user-clip-rabbi-gerald-kane-temple-beth-el-las-cruces-nm</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_32792_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Gerald M. Kane, Temple Beth El, Las Cruces, New Mexico</tei:p>
+        <tei:p>Sponsor: Rep. Joe Skeen (R-NM)</tei:p>
+        <tei:p>Date of Prayer: 10/02/2002</tei:p>
+        <tei:p>One Minute Speech Given in Recognition of the Guest Chaplain:</tei:p>
+        <tei:p>Mr. SKEEN. Mr. Speaker, it is my pleasure to welcome our guest chaplain, Rabbi Gerald Kane, the rabbi of Temple Beth El in Las Cruces, New Mexico. Jewish pioneers have played an important role in the development of New Mexico for almost 200 years. Since the establishment of the first synagogue in 1883, New Mexico has benefited from the wisdom of many learned Jewish leaders. Rabbi Kane has continued that proud tradition. He grew up in New Jersey and graduated from the University of Buffalo. He was ordained from Hebrew Union College in 1970. For his long record of distinguished service, he received a doctor of divinity from Hebrew Union College in 1995. Rabbi Kane has helped guide many outstanding organizations around the United States. He has worked tirelessly for education and interfaith cooperation throughout our communities. He created programs to stop violence toward women and children and for supporting the battle on mental health. Southern New Mexico has also benefited from his love of the theater and his commitment to bring the arts to students everywhere. I welcome Rabbi Kane to the House of Representatives and thank him for his opening prayer this morning.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_32792_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_32792"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

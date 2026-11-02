@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שמחת בת</tei:title>
+        <tei:title type="main" xml:lang="en">Simḥat Bat of Amalya Shaḥar Exler-Kaunfer, by Rabbi Elie Kaunfer and Lisa Exler</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שמחת בת</tei:title>
+          <tei:title xml:lang="en">Simḥat Bat of Amalya Shaḥar Exler-Kaunfer, by Rabbi Elie Kaunfer and Lisa Exler</tei:title>
+          <tei:author>Elie Kaunfer</tei:author>
+          <tei:author>Lisa Exler</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2010-06-02">2010-06-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=640</tei:idno>
+          <tei:idno type="opensiddur.org">640</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SimhatBatOfAmalyaShaharExlerKaunferElieKaunferAndLisaExler2010#page/n0/mode/2up">https://archive.org/stream/SimhatBatOfAmalyaShaharExlerKaunferElieKaunferAndLisaExler2010#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_640_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>R’ Elie Kaunfer and Lisa Exler kindly shared the Simḥat Bat ceremony they prepared for their daughter this past Monday, May 31st, at Fort Tryon Jewish Center.</tei:p>
+        <tei:p>This Simḥat Bat is really distinguished by Rabbi Kaunfer’s innovation in using milk in the context of a covenant ceremony. From the explanatory notes:</tei:p>
+        <tei:p>In place of the blood of the slaughtered bulls from the covenantal ceremony in Exodus, we looked for another substance to effect the covenant ceremony. Amalya was born right after Shavuot, on which we have a tradition to eat dairy. In fact, milk itself is associated with the acceptance of Torah, as described in the following Midrash which quotes a verse from Song of Songs (4:11):</tei:p>
+        <tei:p>Sweetness drops from your lips, O bride; honey and milk are under your tongue and the scent of your robes is like the scent of Lebanon.</tei:p>
+        <tei:p>Simḥat Bat of Amalya Shaḥar Exler-Kaunfer PDF | ODT | TXT</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_640_introduction"/>
+      <j:conditional xml:id="osp_640_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Some additional material in the Birkhat Hamazon (Blessing for the Meal) was prepared by Dr. Devora Steinmetz and R’ David Silber.</tei:p>
+        <tei:p>Thank you to Ethan Tucker and Ariela Migdal, Devora Steinmetz and David Silber, Ellen Braitman, Barry Stern and Deborah Shapira for their guidance and use of their Simḥat Bat programs.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_640_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:simchat_bat_of_amalya_shachar_exler_kaunfer_kaunfer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

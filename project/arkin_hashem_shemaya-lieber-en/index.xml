@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַרְכִּין ה׳ שְׁמַיָּא</tei:title>
+        <tei:title type="main" xml:lang="en">Arkin Hashem Shemaya, a piyyut narrating the ascent of Mosheh</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/laura-lieber">Laura Lieber</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַרְכִּין ה׳ שְׁמַיָּא</tei:title>
+          <tei:title xml:lang="en">Arkin Hashem Shemaya, a piyyut narrating the ascent of Mosheh</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0300" to="0600">0300 – 0600</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65827</tei:idno>
+          <tei:idno type="opensiddur.org">65827</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65827_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“Arלin” is one of two Aramaic piyyutim read by some Ashkenazi communities at the beginning of the Torah reading on the first day of Shavuot (the other being the Aqdamut). The piyyut makes reference to an important legend featuring Mosheh experiencing an ascent in which he must wrest the Torah from angelic entities that are averse to parting with it, or loathe to giving it up, to humanity. Introducing the piyyut she translated in <tei:hi rend="italic">Jewish Aramaic Poetry from Late Antiquity: Translations and Commentaries</tei:hi> (Brill: 2018),<tei:anchor xml:id="note_1"/> Dr. Laura Lieber writes, “This [Shavuot] poem dramatizes neither the content of revelation, as other poems here do, nor the season of its giving, as the story of Ruth does. Instead, our poet imagines God’s summoning of Moses to the heavens to receive the Torah atop Mount Sinai. God’s voice is most prominent here, although the angels also speak; Moses, however, keeps silent, and the poet depicts him with anything but aggression and bravado. The poet crafts a scene that recreates the tension of the imagined encounter: God repeatedly reassures Moses, who fears angelic aggression, but the angels also express fear of Moses, who is here depicted as having horns, which God encourages Moses to use in self-defense.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65827_introduction"/>
+      <j:conditional xml:id="osp_65827_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is “Arkin Hashem Shemaya l’Sinai,” an Aramaic piyyut from late Antiquity by an unknown author. The English translation was made by Dr. Laura Lieber as published in <tei:hi rend="italic">Jewish Aramaic Poetry from Late Antiquity: Translations and Commentaries</tei:hi> (Brill: 2018), “10. Moses is Summoned to the Summit (SABM 11),” on pages 40–42. That translation was made against the critical text offered in <tei:hi rend="italic">Shirat Bene Ma’arava: Jewish Palestinian Aramaic from Antiquity</tei:hi> [Hebrew], edited and translated by Joseph Yahalom and Michael Sokoloff (Jerusalem: Israel Academy of Sciences and Humanities, 1999). Our transcription was made against the digital text shared from the Comprehensive Aramaic Lexicon, derived from the text published in <tei:hi rend="italic">Shirat Bene Ma’arava</tei:hi>.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65827_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:arkin_hashem_shemaya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Find “10. Moses is Summoned to the Summit (SABM 11),” pp. 40–42.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

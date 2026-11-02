@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת המזון לראש השנה לבהמה</tei:title>
+        <tei:title type="main" xml:lang="en">Birkat haMazon Supplement for Rosh haShanah la-Behemah, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון לראש השנה לבהמה</tei:title>
+          <tei:title xml:lang="en">Birkat haMazon Supplement for Rosh haShanah la-Behemah, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-08-18">2020-08-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=33312</tei:idno>
+          <tei:idno type="opensiddur.org">33312</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_33312_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>It is relatively well known that the Hebrew calendar has four new years. The first of Tishri, often called Rosh haShanah, is the new year of the year count and the tithing cycles. The first of Nisan is the new year for months and calculating kings’ reigns. The fifteenth of Shevat, also known as Tu biShvat or <tei:hi rend="italic">Khamishosor</tei:hi>,<tei:anchor xml:id="note_1"/> is the new year for trees. But there is one more Rosh haShanah which is seriously underrepresented — the first of Elul, the new year for animals. This is a poetic text for Birkat haMazon, signed with an alphabetical acrostic and the name of the author, to be recited on the first of Elul. It celebrates the variety of God’s creation as exemplified by the natural diversity of species, as well as alluding to the livestock tithes traditionally assigned on the first of Elul.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_33312_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon_supplement_for_rosh_hashanah_labehemah_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Khamishosor is a Yiddish name for Tu biShvat.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

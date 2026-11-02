@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Seth Frisch on 5 February 2020</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Seth Frisch on 5 February 2020</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Seth H. Frisch</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-02-05">2020-02-05</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30130</tei:idno>
+          <tei:idno type="opensiddur.org">30130</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4852542/user-clip-rabbi-seth-frisch-shul-america-rydal-pennsylvania">https://www.c-span.org/video/standalone/?c4852542/user-clip-rabbi-seth-frisch-shul-america-rydal-pennsylvania</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/116/crec/2020/02/05/CREC-2020-02-05-pt1-PgH773-4.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/116/crec/2020/02/05/CREC-2020-02-05-pt1-PgH773-4.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30130_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Seth Frisch, New Shul of America, Rydal, Pennsylvania</tei:p>
+        <tei:p>Sponsor: Rep. David Cicilline (D-RI)</tei:p>
+        <tei:p>Date of Prayer: 02/05/2020</tei:p>
+        <tei:p>Mr. CICILLINE. Madam Speaker, I rise today to welcome Rabbi Seth Frisch, who delivered today’s opening prayer to the people’s House.</tei:p>
+        <tei:p>Since his ordination in 1986, at the Jewish Theological Seminary of America in New York, Rabbi Frisch has been a source of comfort and counsel to Jews around the world. In his current posting as rabbi and teacher of the New Shul of Philadelphia, Rabbi Frisch helps serve as a guide for those who want to learn more about what it means to be Jewish in a safe and supporting setting.</tei:p>
+        <tei:p>In a way, today’s opening prayer was a homecoming for Rabbi Frisch, who previously served as a legislative assistant to the chairman of the United States Senate Committee on Foreign Relations.</tei:p>
+        <tei:p>I pray that we will all heed his words today, that out of many, we are one Nation. Let us strive to put our divisions behind us and realize our dream of a country indivisible with liberty and justice for all.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30130_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_30130"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Strike the Cymbal, a hymn by Columbus Moïse (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Strike the Cymbal, a hymn by Columbus Moïse (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+          <tei:author>Columbus Moïse</tei:author>
+          <tei:author>Reformed Society of Israelites</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1826">1826</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39609</tei:idno>
+          <tei:idno type="opensiddur.org">39609</tei:idno>
+          <tei:note>Source: Strike the Cymbal (C.J.M. – Cohn Lithograph 1826) <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/Strike-the-Cymbal-Cherie-Moise-Cohn-Lithograph-1826-scaled.jpg">https://opensiddur.org/wp-content/uploads/2021/10/Strike-the-Cymbal-Cherie-Moise-Cohn-Lithograph-1826-scaled.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39609_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The hymn “Strike the Cymbal” was written by C.J.M. (possibly either Columbus or Cherie “Cherry” Moïse. We consider the former more likely as he was known to have composed a poem for the inauguration of the “Portuguese synagogue in Charleston.” —Jewish Encyclopedia (1906).) The copy transcribed here was recorded in one of the handwritten manuscripts used by the Reformed Society of Israelites as a supplement for their prayer service. A facsimile edition of the manuscript was published as<tei:hi rend="italic">The Isaac Harby Prayerbook</tei:hi> by Edward Cohn for Ḳ.Ḳ. Beth Elohim in 1974, and is also referred to as the Cohn lithograph. I have replaced the vocalization of the Tetragrammaton with ‘YHVH.’ –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39609_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:strike_the_cymbal_moise"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

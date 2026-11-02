@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַדִּיר לֹא יָנוּם</tei:title>
+        <tei:title type="main" xml:lang="en">Adir Lo Yanum — a Sefaradi piyyuṭ for weddings and Torah-reading days</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַדִּיר לֹא יָנוּם</tei:title>
+          <tei:title xml:lang="en">Adir Lo Yanum — a Sefaradi piyyuṭ for weddings and Torah-reading days</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1500" to="1750">1500 – 1750</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=60085</tei:idno>
+          <tei:idno type="opensiddur.org">60085</tei:idno>
+          <tei:note>Source: Adir Lo Yanum – Georgian (Chorny, On the Caucasian Jews, 1870), page 159 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/02/adir-lo-yanum-georgian-chorny-on-the-caucasian-jews-1870-page-159.png">https://opensiddur.org/wp-content/uploads/2025/02/adir-lo-yanum-georgian-chorny-on-the-caucasian-jews-1870-page-159.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_60085_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>According to Joseph Judah Chorny’s <tei:hi rend="italic">On the Caucasian Jews</tei:hi> (1880), this acrostic piyyuṭ was customarily used as an <tei:hi rend="italic">epithalamion</tei:hi> before a wedding. He writes, “Before morning light, the bride is led to the groom’s house accompanied by many women and men, all carrying lit wax candles in their hands, and singing this song along the way.” Variants of this piyyut are found throughout the greater Sephardic world, generally in an abbreviated and slightly altered form. In Syria it is sung during the haqafot for Simḥat Torah, while in Livorno Sephardic practice (and subsequently in most Eastern Sephardic maḥzorim) it is a Shavu’ot piyyut. The specific differences between the two nusḥaot are as follows:</tei:p>
+        <tei:p>• The עֵת דּוֹדִים כַּלָּה refrain is lost entirely.</tei:p>
+        <tei:p>• The lines are broken up into verses in a different form, changing from the original three equal verses to four verses, one of one line and three of three.</tei:p>
+        <tei:p>• Instead of repeating after each line, the Psalms 121:4 refrain is used only at the end of each verse.</tei:p>
+        <tei:p>• The letters resh and shin, as well as the non-acrostic concluding line, are not included.</tei:p>
+        <tei:p>• The words for lamed and mem are different.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60085_introduction"/>
+      <j:conditional xml:id="osp_60085_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This rendering of “Adir Lo Yanum” used by the Georgian (Caucasian) Jewry is found in Jospeh Judah Chorny’s <tei:hi rend="italic">On the Caucasian Jews</tei:hi> (1870), p. 159.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60085_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:addir_lo_yanum"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

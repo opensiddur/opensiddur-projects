@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer after the Earthquake in Guadeloupe, by Rabbi Isaac Lopez (Jamaica, 1843)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer after the Earthquake in Guadeloupe, by Rabbi Isaac Lopez (Jamaica, 1843)</tei:title>
+          <tei:author>Isaac Lopez</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Moses N. Nathan</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1843">1843</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57395</tei:idno>
+          <tei:idno type="opensiddur.org">57395</tei:idno>
+          <tei:note>Source: Prayer after the Earthquake in Guadeloupe, by Rabbi Isaac Lopez (Jamaica, 1843), p. 1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/prayer-after-the-earthquake-in-guadeloupe-by-rabbi-isaac-lopez-jamaica-1843-p--1.png">https://opensiddur.org/wp-content/uploads/2024/07/prayer-after-the-earthquake-in-guadeloupe-by-rabbi-isaac-lopez-jamaica-1843-p--1.png</tei:ref></tei:note>
+          <tei:note>Source: Prayer after the Earthquake in Guadeloupe, by Rabbi Isaac Lopez (Jamaica, 1843), p. 2-3 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/prayer-after-the-earthquake-in-guadeloupe-by-rabbi-isaac-lopez-jamaica-1843-p--2-3.png">https://opensiddur.org/wp-content/uploads/2024/07/prayer-after-the-earthquake-in-guadeloupe-by-rabbi-isaac-lopez-jamaica-1843-p--2-3.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57395_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a “Prayer Composed by The Revd. Isaac Lopez, Returning Thanks for our deliverance from the Calamaties [sic] that have befallen our Sister Colonies, for Monday, the 13th of March, 1843.” A prayer of repentance and thanksgiving recited at the Shaare Shalom synagogue in Kingston, Jamaica, it was offered in response to the massive Guadeloupe earthquake of 1843. According to the manuscript in which it is found — it was written by the Revd. Isaac Lopez, and translated into English by the Revd. Moses N. Nathan. What is unclear is what language it was translated *from.*</tei:p>
+        <tei:p>The notes in the NLI database suggest it was translated from Portuguese, but the manuscript in which it is found has no actual Portuguese text — it was misidentified in the NLI Database as Portuguese but everything not written in English or Hebrew is in Spanish. So perhaps it was in Spanish, only that wasn’t the spoken language of the Jews of Jamaica. Maybe it was written in Hebrew. In any case the original text is, to the best of my knowledge, lost.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57395_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_after_the_earthquake_in_guadeloupe_lopez"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

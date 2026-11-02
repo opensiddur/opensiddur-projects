@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילת העמידה ביום חול</tei:title>
+        <tei:title type="main" xml:lang="en">My Weekday Amidah, by Effron Esseiva</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת העמידה ביום חול</tei:title>
+          <tei:title xml:lang="en">My Weekday Amidah, by Effron Esseiva</tei:title>
+          <tei:author>Effron Esseiva</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2012-06-01">2012-06-01</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=5060</tei:idno>
+          <tei:idno type="opensiddur.org">5060</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_5060_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Effron Esseiva’s morning Amidah (standing prayer) for weekdays. Effron writes, “It’s called <tei:hi rend="italic">Shmonei Esrei</tei:hi> (18) because it used to have eighteen <tei:hi rend="italic">brakhot</tei:hi> (blessings). However, it has an additional <tei:hi rend="italic">brakha</tei:hi> to bring it to nineteen. This is my interpretation of the <tei:hi rend="italic">Teissa Esrei</tei:hi> (19) with abridged <tei:hi rend="italic">kavvanot</tei:hi> (intentions).”</tei:p>
+        <tei:p>http://api.soundcloud.com/tracks/80116134</tei:p>
+        <tei:p>For a personal Amidah, Effron is following the Neo-ḥasidic teaching of Reb Zalman Schachter-Shalomi in his <tei:hi rend="italic">Siddur Tefillat Hashem Yedaber Pi</tei:hi> which advises one to focus on and wrestle with the particular theme of each blessing, and prefacing the blessing with one’s own words. The Hebrew is thus abridged and in place of a translation is Effron’s interpretation of that theme.</tei:p>
+        <tei:p>Effron also includes certain contemporary liturgical innovations familiar among Liberal, Reform, and Conservative <tei:hi rend="italic">minhag</tei:hi>. He includes the Imahot with the Avot in the first blessing and adds “<tei:hi rend="italic">ezrat Sarah</tei:hi>.” Later, he excludes the phrase in <tei:hi rend="italic">retzei</tei:hi> invoking the “<tei:hi rend="italic">ishei Yisrael</tei:hi>.” The final “<tei:hi rend="italic">sim shalom</tei:hi>” blessing is expansive and universal. Aside from these innovations, this Amidah follows from the Nusaḥ Ashkenaz.</tei:p>
+        <tei:p>We are grateful to Effron Esseiva for sharing his personal Amidah for weekdays with a Creative Commons Zero Public Domain Dedication. [In formatting these documents I have supplemented the unvoweled text provided by Effron with voweled text transcribed and proofread for the Open Siddur Project with a CC0 license. –ANV]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_5060_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:my_weekday_amidah_esseiva"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

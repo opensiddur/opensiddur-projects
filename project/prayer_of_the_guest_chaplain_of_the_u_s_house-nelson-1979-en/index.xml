@@ -1,0 +1,77 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David A. Nelson on 27 March 1979</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David A. Nelson on 27 March 1979</tei:title>
+          <tei:author>David A. Nelson</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1979-03-27">1979-03-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55041</tei:idno>
+          <tei:idno type="opensiddur.org">55041</tei:idno>
+          <tei:note>Source: Congressional Record, vol 125, part 5 (27 March 1979), p. 6283 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol-125-part-5-27-March-1979-p--6283.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol-125-part-5-27-March-1979-p--6283.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55041_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi David A. Nelson, Congregation Beth Shalom, Oak Park, Michigan</tei:p>
+        <tei:p>Sponsor: Rep. William S. Broomfield (R-MI)</tei:p>
+        <tei:p>Date of Prayer: 27 March 1979</tei:p>
+        <tei:p>Mr. BROOMFIELD. Mr. Speaker, it is an honor and a pleasure to welcome, as our guest this afternoon, Rabbi David A. Nelson of Congregation Beth Shalom, in Oak Park, Michigan. I would like to thank him for his inspiring opening prayer.</tei:p>
+        <tei:p>Before coming to Michigan, Rabbi Nelson held pulpits in Rio de Janeiro, Brazil, and in our neighboring city of Baltimore, Maryland. In 1972, he took up his present position at Congregation Beth Shalom.</tei:p>
+        <tei:p>While providing spiritual leadership to the people of his congregation, Rabbi Nelson has also been an active community leader.</tei:p>
+        <tei:p>He has served as president of the Conservative Rabbis of Metropolitan Detroit; a member of the Anti-Defamation League Cabinet; and as a member of the Detroit Round Table of the National Conference of Christians and Jews. He is also the director of the Michigan Region of the United Synagogues of America. Rabbi Nelson was also appointed by the city of Southfield, Michigan, to serve as a member of the Total Living Commission, and as an advisory board member to the Southfield City Council. He is also on the advisory board of the Oakland County Mental Health Associates and the Michigan Council on Alcohol Problems.</tei:p>
+        <tei:p>Rabbi Nelson is not the first member of his family to offer the opening prayer before this body. On May 23, 1963, the House of Representatives was honored to hear the profound words of his father, the late Rabbi Harry Nelson.</tei:p>
+        <tei:p>Mr. Speaker, Rabbi Nelson is accompanied by two of his three children this afternoon, Harry, age 11, and Debra, age 10.</tei:p>
+        <tei:p>I would like to welcome all three to Washington, and to again thank Rabbi David Nelson for his inspirational message.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55041_introduction"/>
+      <j:conditional xml:id="osp_55041_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 96th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 125, part 5 (1979), page 6283.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55041_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_nelson"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

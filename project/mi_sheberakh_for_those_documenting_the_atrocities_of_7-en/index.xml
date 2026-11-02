@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מי שברך לעוסקות ועוסקים במלאכת תיעוד הפגיעות המיניות ומעשי הקינוסייד ב 7.10</tei:title>
+        <tei:title type="main" xml:lang="en">Mi sheBerakh (a protective prayer) for those documenting the atrocities of 7 October 2023</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מי שברך לעוסקות ועוסקים במלאכת תיעוד הפגיעות המיניות ומעשי הקינוסייד ב 7.10</tei:title>
+          <tei:title xml:lang="en">Mi sheBerakh (a protective prayer) for those documenting the atrocities of 7 October 2023</tei:title>
+          <tei:author>Gila Caine</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-01-13">2026-01-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65492</tei:idno>
+          <tei:idno type="opensiddur.org">65492</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65492_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I had the honour of hearing Dr. Cochav Elkayam Levy speak of the work she has done since Oct. 7, 2023, documenting the savagery committed by Hamas on that day. Apart from documenting the torture, rape and murder committed that day, Dr. Elkayam-Levy and her team named a specific form of terror: Kinocide—violently harming family members in each other’s presence. After her talk, I realized our community must support both this work and those doing it. Exposure to such evidence is itself harmful (which is why Hamas livestreamed their attacks), making this documentation both sacred work and a source of spiritual, mental, and emotional trauma. The Mi Sheberakh I wrote is one step toward creating a community of protection around those doing this unbearably difficult work. Read more about this on my page.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65492_introduction"/>
+      <j:conditional xml:id="osp_65492_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This mi sheberakh prayer was offered by Rabbi Gila Caine for those reviewing and compiling the documentary evidence of the depraved violence committed by HAMA”S and its allies on 7 October 2023.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65492_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh_for_those_documenting_the_atrocities_of_7_caine"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

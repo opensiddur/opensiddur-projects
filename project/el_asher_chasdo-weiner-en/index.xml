@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵל אֲשֶׁר חַסְדּוֹ - פיוט על תפילת חנה</tei:title>
+        <tei:title type="main" xml:lang="en">El Asher Ḥasdo — Prayer of Ḥannah, a piyyuṭ for Rosh Hashanah by the Diwan Ashira Project</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/josh-weiner">Josh Weiner</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵל אֲשֶׁר חַסְדּוֹ - פיוט על תפילת חנה</tei:title>
+          <tei:title xml:lang="en">El Asher Ḥasdo — Prayer of Ḥannah, a piyyuṭ for Rosh Hashanah by the Diwan Ashira Project</tei:title>
+          <tei:author>Diwan Ashira Project</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023">2023</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63581</tei:idno>
+          <tei:idno type="opensiddur.org">63581</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63581_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This piyyut versifies the Laws of Prayer as derived from the verses recounting Hannah’s prayer (Bavli Berakhot 31a-31b). In addition to using the words of the verses from which these laws are derived, this poem is itself a prayer: «Train my lips to pray like those of Hannah!». It can be sung as a <tei:hi rend="italic">reshut</tei:hi> (introductory piyyut) for the Haftarah of the first day of Rosh Hashanah, when these verses are read. You can read the commentary of the piyyut in Hebrew here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63581_introduction"/>
+      <j:conditional xml:id="osp_63581_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“El asher hasdo” (Hannah’s Prayer) was first published in 2023, as the first of a series of four piyyutim published through the Diwan Ashira Project by Ephraim Kahn. Each piyyut is focused around a different biblical heroine, and sung in relation to a Jewish festival: 1) Hannah’s Prayer (El asher hasdo) for Rosh Hashanah, 2) Song of Miriam, Song of Deborah (Uri Uri) for Shabbat Shirah, 3) Queen Esther’s Prayer (‘Et sha’are armon) for Purim, 4) Ruth and Naomi (Biti ‘arvot) for Shavuot.</tei:p>
+        <tei:p>The French translations were contributed by Diwan Ashira. The English translation by Rabbi Josh Weiner. The annotation in English were translated by Aharon Varady from the Hebrew “&gt;here. –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Sung by Shir Ifrah</tei:p>
+        <tei:p>Sung by Ariel Danan</tei:p>
+        <tei:p>https://drive.google.com/file/d/1n2X5x12ZBdyW464e5vSE_Junj_CYoVnD/view?usp=drivesdk</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63581_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_asher_chasdo_project"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה לפני שחיטה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer before Kosher Slaughter, by Eliyah ben Shlomo Avraham haKohen (Sefer Shevet Musar, 1712)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה לפני שחיטה</tei:title>
+          <tei:title xml:lang="en">Prayer before Kosher Slaughter, by Eliyah ben Shlomo Avraham haKohen (Sefer Shevet Musar, 1712)</tei:title>
+          <tei:author>Eliyah ben Shlomo Avraham haKohen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1712">1712</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=18884</tei:idno>
+          <tei:idno type="opensiddur.org">18884</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/SeferShevetMusarEliyahBenShlomoAvrahamHaKohen1722#page/n184/mode/2up">https://www.archive.org/stream/SeferShevetMusarEliyahBenShlomoAvrahamHaKohen1722#page/n184/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_18884_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer to be recited prior to the blessing over sheḥitah first appeared in ספר שבט מוסר Sefer Shevet Mussar (Constantinople, 1712), chapter 36, by Eliyah ben Shlomo Avraham ha-Kohen (1650-1729). Shevet Mussar, on ethics, is divided into fifty-two chapters corresponding to the weeks of the year, and taken for the most part from the Or Ḳadmon of Eliyah’s contemporary, Moshe Ḥagis, as well as earlier works: the Tokaḥot of the Spanish poets, the Orḥot Ḥayyim, and the Roḳeaḥ of Eleazar of Worms. Chapter 36 concerns sheḥitah and the reincarnation of souls.</tei:p>
+        <tei:p>The process of kosher slaughter involves the shoḥet making a blessing over the slaughter at the beginning of their shift. The concern of this prayer, to be said before the blessing, is whether there may be a transmigrated soul (gilgul nefesh) in one of the animals slated for slaughter. This prayer then transforms the activity of slaughter into a ritual for potentially releasing and repairing the spiritual journey of souls that had been placed in animal bodies in order that they be rectified of past misdeeds.</tei:p>
+        <tei:p>Many thanks to Yedidyah Greenberg of the Jewish Initiative for Animals, in helping to identify this prayer, and with incredible gratitude to Devora Steinmetz for her corrections to our initial translation.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_18884_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_before_kosher_slaughter_eliyah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

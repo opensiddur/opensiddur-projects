@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">גבריאל מימינהון</tei:title>
+        <tei:title type="main" xml:lang="en">"Gavriel is on the right," an apotropaic invocation of angelic protection in the amulet bowl SD12 (ca. mid-first millennium C.E.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">גבריאל מימינהון</tei:title>
+          <tei:title xml:lang="en">"Gavriel is on the right," an apotropaic invocation of angelic protection in the amulet bowl SD12 (ca. mid-first millennium C.E.)</tei:title>
+          <tei:author>Dan Levene</tei:author>
+          <tei:author>Dalia Marx</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0400" to="0600">0400 – 0600</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31400</tei:idno>
+          <tei:idno type="opensiddur.org">31400</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/gabriel-is-on-their-right-angelic-protection-in-jewish-magic-and-babylonian-lore#page/n05/mode/2up">https://archive.org/stream/gabriel-is-on-their-right-angelic-protection-in-jewish-magic-and-babylonian-lore#page/n05/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31400_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The text and translation of an amulet bowl discussed in “‘Gabriel is on their Right’: Angelic Protection in Jewish Magic and Babylonian Lore” by Dan Levene, Dalia Marx, and Siam Bharyo in <tei:hi rend="italic">Studia Mesopotamica</tei:hi> (Band 1: 2014) pp.185-198. “Typically, such bowls come from Mesopotamia and date to the late Sasanian period.” In archaeological excavations, the bowls have been found below the threshold of Jewish homes, faced downward, the theory being that unwanted spirits attempting to enter the home from below this entrance would be drawn instead into the concave area of the bowl and thus be blocked in their passage.</tei:p>
+        <tei:p>The apotropaic incantation found in the amulet bowl, SD 12, contains an “angels on all sides” formula similar to that appearing in the Jewish liturgy of the bedtime shema. As the authors explain, such formulas have been found in cuneiform tablets as far back as the second millennium B.C.E. in the context of a healing ritual by an āšipu, a “physician-exorcist.”</tei:p>
+        <tei:p>For variations on this formula appearing in rabbinic Jewish liturgy, find the differences in a traveler’s prayer (from Seder Rav Amram Gaon, 9th c.), in an early formulation of the kriyat shema al hamitah (in Maḥzor Vitry, 11th c.), and in the bedtime shema of a more recent sidddur.</tei:p>
+        <tei:p>The translation appearing here differs slightly from that of the authors of this article.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31400_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gavriel_is_on_the_right_levene"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Arthur Schneier on 8 May 1990</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Arthur Schneier on 8 May 1990</tei:title>
+          <tei:author>Arthur Schneier</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1990-05-08">1990-05-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51831</tei:idno>
+          <tei:idno type="opensiddur.org">51831</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4503241/rabbi-arthur-schneier-park-east-synagogue-york-city">https://www.c-span.org/video/standalone/?c4503241/rabbi-arthur-schneier-park-east-synagogue-york-city</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record v. 136, part 7 – 8 May 1990. p. 9639 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-7-8-May-1990.-p.-9639.png">https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-7-8-May-1990.-p.-9639.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51831_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Arthur Schneier, Park East Synagogue, New York, New York</tei:p>
+        <tei:p>Date of Prayer: 8 May 1990</tei:p>
+        <tei:p>Sponsor: Rep. Sedgwick “Bill” Green (R-NY)</tei:p>
+        <tei:p>Mr. GREEN. Mr. Speaker, it gives me great pleasure to welcome my friend, Rabbi Arthur Schneier, of the Park East Synagogue in New York City, who gave today’s opening prayer.</tei:p>
+        <tei:p>Rabbi Schneier’s visit today is part of the commemoration of the 100th anniversary of this synagogue, which was founded in 1889.</tei:p>
+        <tei:p>As Rabbi Schneier noted, today is also the 43rd anniversary of his arrival in the United States as a refugee from Europe.</tei:p>
+        <tei:p>The Park East Synagogue is renowned for its contributions to Jewish life in New York City as well as throughout the United States and abroad. The synagogue, its rabbi, and its congregation have contributed to interreligious harmony and have been in the forefront of concern for Soviet and Eastern European Jewry and the State of Israel.</tei:p>
+        <tei:p>The Park East Synagogue has benefited from the spiritual leadership of Rabbi Schneier for the past 28 years. Rabbi Schneier also leads the highly respected human rights organization, the Appeal of Conscience Foundation. This group of leaders from the Roman Catholic, Protestant, Greek Orthodox, Armenian Orthodox, and Jewish faiths has visited many countries including the Soviet Union, Hungary, and China in an effort to. protest repression of religious activity.</tei:p>
+        <tei:p>On behalf of all of my colleagues, I extend a warm welcome to Rabbi Schneier and those members of the Park East Synagogue who made the trip to Washington to witness this extraordinary occasion. I should also like to thank Rabbi Schneier for giving the prayer today and for his dedication to the worldwide Jewish community and to interreligious accord.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51831_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_schneier"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

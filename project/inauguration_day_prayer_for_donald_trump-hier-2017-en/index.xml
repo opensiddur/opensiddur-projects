@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Inauguration Day Prayer for Donald Trump, by Rabbi Marvin Hier (2017)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Inauguration Day Prayer for Donald Trump, by Rabbi Marvin Hier (2017)</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Marvin Hier</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-01-20">2017-01-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=15020</tei:idno>
+          <tei:idno type="opensiddur.org">15020</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/5nxAi9WEf5g?feature=oembed">https://www.youtube.com/embed/5nxAi9WEf5g?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2017/01/20/CREC-2017-01-20-pt1-PgS362-4.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2017/01/20/CREC-2017-01-20-pt1-PgS362-4.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_15020_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Rabbi Marvin Hier offered this prayer of blessing for Donald Trump and the United States of America on January 20, 2017 at the inauguration day ceremony, whereafter it was entered into the <tei:hi rend="italic">Congressional Record</tei:hi> (a U.S. government document in the Public Domain). Misgivings over Rabbi Hier’s presentation of a prayer at this ceremony reflected widely felt opposition within the Jewish community to any normalization of “President” Trump’s unpopular election to the chief executive office. — A.N. Varady, ed.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_15020_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:inauguration_day_prayer_for_donald_trump_hier"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

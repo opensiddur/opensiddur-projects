@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה קודם התפילה מרבי אלימלך מליזשענסק</tei:title>
+        <tei:title type="main" xml:lang="en">Rabbi Elimelekh of Lizhensk’s prayer to be able to pray (interpretive translation by Rabbi Zalman Schachter-Shalomi)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה קודם התפילה מרבי אלימלך מליזשענסק</tei:title>
+          <tei:title xml:lang="en">Rabbi Elimelekh of Lizhensk’s prayer to be able to pray (interpretive translation by Rabbi Zalman Schachter-Shalomi)</tei:title>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:author>Elimelekh Weisblum of Lizhensk</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1737" to="1787">1737 – 1787</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=16095</tei:idno>
+          <tei:idno type="opensiddur.org">16095</tei:idno>
+          <tei:note>Source: Prayer before Praying (Elimelekh of Lizhansk, Seder Rinah u’Tefilah, Schlossberg 1861) <tei:ref target="https://opensiddur.org/wp-content/uploads/2017/07/Prayer-before-Praying-Elimelekh-of-Lizhansk-Seder-Rinah-uTefilah-Schlossberg-1861-.png">https://opensiddur.org/wp-content/uploads/2017/07/Prayer-before-Praying-Elimelekh-of-Lizhansk-Seder-Rinah-uTefilah-Schlossberg-1861-.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_16095_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Rabbi Zalman Schachter-Shalomi, z”l, included his translation of “Rabbi Elimelekh of Lizhensk’s prayer to be able to pray” in his <tei:hi rend="italic">Siddur Tehillat Hashem Yidaber Pi</tei:hi> (2009). To the best of my ability, I have set his translation side-by-side with a transcription of the vocalized text of the prayer. Reb Zalman may have made his translation to a slightly different edition of this prayer as indicated in several places. If you can determine which edition of Rabbi Elimelekh’s prayer was translated by Reb Zalman, please contact us or share your knowledge in the comments. The source image below is from Seder rinah u-tefilah (Jacob Schlossberg, 1861).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_16095_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbi_elimelekh_of_lizhensks_prayer_to_be_able_to_pray_elimelekh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

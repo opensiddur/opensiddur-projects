@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלַּת גֶּשֶׁם</tei:title>
+        <tei:title type="main" xml:lang="en">Tefilat Geshem (Prayer for Rain), adapted by Rabbi Emily Aviva Kapor-Mater (2013)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלַּת גֶּשֶׁם</tei:title>
+          <tei:title xml:lang="en">Tefilat Geshem (Prayer for Rain), adapted by Rabbi Emily Aviva Kapor-Mater (2013)</tei:title>
+          <tei:author>Emily Aviva Kapor-Mater</tei:author>
+          <tei:author>the Ḥavurat Shalom Siddur Project</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013">2013</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52591</tei:idno>
+          <tei:idno type="opensiddur.org">52591</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddur-birkat-shalom-havurat-shalom-2021/Siddur%20Birkat%20Shalom%20%28Havurat%20Shalom%202021%29#page/197/mode/2up">https://archive.org/stream/siddur-birkat-shalom-havurat-shalom-2021/Siddur%20Birkat%20Shalom%20%28Havurat%20Shalom%202021%29#page/197/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52591_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for rain, adapted by Rabbi Emily Aviva Kapor-Mater in 2013, appears in סִדּוּר בִּרְכַּת שָׁלוֹם <tei:hi rend="italic">Siddur Birkat Shalom, an egalitarian Shabbat morning siddur</tei:hi> (Havurat Shalom 1991/2021), in the “Holiday Prayers” section, pp. 197-202.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52591_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tefillat_geshem_project"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

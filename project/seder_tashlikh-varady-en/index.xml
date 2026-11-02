@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">סֵדֶר תַּשְׁלִיךְ</tei:title>
+        <tei:title type="main" xml:lang="en">Seder Tashlikh, as translated by Yehoshua Heshil Miro (1833)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">סֵדֶר תַּשְׁלִיךְ</tei:title>
+          <tei:title xml:lang="en">Seder Tashlikh, as translated by Yehoshua Heshil Miro (1833)</tei:title>
+          <tei:author>Yehoshua Heshil Miro</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1833">1833</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46935</tei:idno>
+          <tei:idno type="opensiddur.org">46935</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/allgemeines-gebetbuch-fur-gebildete-frauen-mosaicher-religion-yehoshua-heshil-miro-1835/Beit%20Yaakov-%20Allgemeines%20Gebetbuch%20f%C3%BCr%20Gebildete%20Frauen%20Mosaicher%20Religion%20%281st%20ed.%20Miro%201835%29#page/157/mode/2up">https://archive.org/stream/allgemeines-gebetbuch-fur-gebildete-frauen-mosaicher-religion-yehoshua-heshil-miro-1835/Beit%20Yaakov-%20Allgemeines%20Gebetbuch%20f%C3%BCr%20Gebildete%20Frauen%20Mosaicher%20Religion%20%281st%20ed.%20Miro%201835%29#page/157/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tehinot-ein-gebetbuch-fur-gebildete-frauenzimmer-mosaicher-religion-yehoshua-heshil-miro-1833/Tehinot%20ein%20Gebetbuch%20f%C3%BCr%20gebildete%20Frauenzimmer%20mosaicher%20Religion%20%28Yehoshua%20Heshil%20Miro%201833%29#page/145/mode/2up">https://archive.org/stream/tehinot-ein-gebetbuch-fur-gebildete-frauenzimmer-mosaicher-religion-yehoshua-heshil-miro-1833/Tehinot%20ein%20Gebetbuch%20f%C3%BCr%20gebildete%20Frauenzimmer%20mosaicher%20Religion%20%28Yehoshua%20Heshil%20Miro%201833%29#page/145/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46935_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“סֵדֶר תַּשְׁלִיךְ (Seder Tashlikh)” was translated/adapted by Yehoshua Heshil Miro and published in his anthology of teḥinot, בית יעקב (Beit Yaaqov) <tei:hi rend="italic">Allgemeines Gebetbuch für gebildete Frauen mosaischer Religion</tei:hi>. It first appears in the 1833 edition on pp. 145-146. In the 1835 edition it is arranged as teḥinah No84 on p. 157. As this Seder Tashlikh is mostly comprised of verses from the Tanakh, I have added the Hebrew and set it side-by-side with the Miro’s German.</tei:p>
+        <tei:p>We welcome corrections and improvements. The transcription of the German from Latin script in Fraktur type provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. –Aharon Varady</tei:p>
+        <tei:p>Recordings and Derivations</tei:p>
+        <tei:p>Maia Brown’s tkhine in response to “Seder Tashlikh,” as part of the Der Tkhines Proyekt! (<tei:hi rend="italic">‘shkoyeḥ!”</tei:hi>)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46935_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:seder_tashlikh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

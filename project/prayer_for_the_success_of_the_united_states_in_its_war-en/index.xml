@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה לבני ישראל בעד הצלחת יושבי ארצנו בּמלחמתם עם השׂפּנים</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the success of the United States in its war with Spain, by Rabbi Joshua Seigel (1898)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה לבני ישראל בעד הצלחת יושבי ארצנו בּמלחמתם עם השׂפּנים</tei:title>
+          <tei:title xml:lang="en">Prayer for the success of the United States in its war with Spain, by Rabbi Joshua Seigel (1898)</tei:title>
+          <tei:author>Joshua Seigel</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1898">1898</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44987</tei:idno>
+          <tei:idno type="opensiddur.org">44987</tei:idno>
+          <tei:note>Source: Prayer for United States victory in the Spanish-American War (Joshua Seigel 1898), cropped from an image of an item in auction at Sothebys <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/06/Prayer-for-United-States-victory-in-the-Spanish-American-War-Joshua-Seigel-1898-scaled.jpg">https://opensiddur.org/wp-content/uploads/2022/06/Prayer-for-United-States-victory-in-the-Spanish-American-War-Joshua-Seigel-1898-scaled.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44987_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a Prayer for American Victory in the Spanish-American War by Rabbi Joshua Seigel (1846-1910), New York: Eliakum Zunser, [1898]. While this prayer will be widely recognized as an expression of Jewish American patriotism, I think it should also be recognized as a prayer on behalf of justice and freedom for the Cuban people. The Cuban War of Independence saw the first use of modern concentration camps as innovated under Spanish rule. This is the use of the medium of prayer for rallying Jewish opinion for the sake of another people and that, I believe, is special, especially in the evolution of the particularly American Jewish conception of Judaism as working for repair of brokenness in our world, <tei:hi rend="italic">tiqun olam</tei:hi>. I also read this prayer as providing something of a precedent for the prayers that many of us feel today in regards to Russian aggression in its invasion and the suffering and death they’ve forced upon Ukraine.</tei:p>
+        <tei:p>We are grateful to Sothebys for sharing an image of this prayer at a high enough resolution sufficient for a relatively straightforward transcription. Thank you to David Selis for informing us of this prayer. Many thanks to the Baruch Thaler for looking over my rough translation and suggesting corrections. Please leave a comment or contact us with any corrections or improvements to this translation — and thank you. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44987_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_success_of_the_united_states_in_its_war_seigel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

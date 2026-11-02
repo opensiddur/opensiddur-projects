@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בְּנֵי עָפָר מִי מָנָה</tei:title>
+        <tei:title type="main" xml:lang="en">B'nei Afar Mi Manah (Thy sons—the dust of Jacob who hath told?), a zulat piyyuṭ for the first day of Sukkot (translated by Elsie Davis)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בְּנֵי עָפָר מִי מָנָה</tei:title>
+          <tei:title xml:lang="en">B'nei Afar Mi Manah (Thy sons—the dust of Jacob who hath told?), a zulat piyyuṭ for the first day of Sukkot (translated by Elsie Davis)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Elsie Davis</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0590" to="0640">0590 – 0640</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64384</tei:idno>
+          <tei:idno type="opensiddur.org">64384</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodathaghasukkotarthurdavisandherbertadler1908/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haSukkot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201908%29#page/n427/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodathaghasukkotarthurdavisandherbertadler1908/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haSukkot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201908%29#page/n427/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64384_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the piyyut “B’nei Afar Mi Manah (Thy sons—‘‘the dust of Jacob who hath told?”...)” a zulat piyyut by an unknown paytan for the first day of Sukkot, published in Adler and Davis’s Maḥzor for Sukkot, <tei:hi rend="italic">Avodat Ḥag ha-Sukkot</tei:hi> (1908), pp. 209.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64384_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:benei_afar_mi_manah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

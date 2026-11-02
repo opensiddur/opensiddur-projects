@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">אֵין כֵּאלֹהֵֽינוּ</tei:title>
+        <tei:title type="alt" xml:lang="he">Non È Come lo Ded Nostro (נוֹן אֵי קוֹמְי לוֹדֵּיד נוֹשְׁטְרוֹ) — a Renaissance Judeo-Italian translation of Ein Keloheinu (1483)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵין כֵּאלֹהֵֽינוּ</tei:title>
+          <tei:title xml:lang="he">Non È Come lo Ded Nostro (נוֹן אֵי קוֹמְי לוֹדֵּיד נוֹשְׁטְרוֹ) — a Renaissance Judeo-Italian translation of Ein Keloheinu (1483)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55203</tei:idno>
+          <tei:idno type="opensiddur.org">55203</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55203_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is the text of the piyyut Ein Keloheinu from a 1483 Judeo-Italian translation of the siddur (British Library Or. 2443), along with a transcription into Italian script, a normative Italian modernization, and the Hebrew and English. Interestingly, this text lacks the verses beginning with “Barukh” found in most modern versions of the piyyut, and instead of leading into the recitation of the incense, it leads to the well-known verse Isaiah 42:21.</tei:p>
+        <tei:p>Some uniquely Judeo-Italian features of the language include:</tei:p>
+        <tei:p>The term “Ded” — referring to God — which probably derives from the Latin “Deus.”</tei:p>
+        <tei:p>The term “Domedet” — referring to the divine name Yod-He-Vav-He — which probably comes from Latin “Dominus Deus.” These two terms are never found in non-Jewish Italian dialects.</tei:p>
+        <tei:p>The usage of “lo” as an all-purpose singular masculine definite article, even in scenarios where most Italian dialects would use “il” or “’l”</tei:p>
+        <tei:p>The use of the vowel sheva to mark /e/ and /ɛ/.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronoun to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to God.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55203_introduction"/>
+      <j:conditional xml:id="osp_55203_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The mantra-like piyyut “Ein kEloheinu,” a praise of God’s attributes and uniqueness featuring incremental repetition, is found in siddurim as far back as the siddur of Rav Amram, and may date back to the Hekhalot literature. [In the variations found in the Siddur Rav Amram and in genizah fragments, the order of the stanzas differs from how it is currently read today. –ANV</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55203_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:non_e_come_lo_ded_nostro_a_renaissance_judeo_italian"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

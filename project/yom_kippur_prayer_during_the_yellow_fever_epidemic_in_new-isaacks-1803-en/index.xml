@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yom Kippur prayer during the Yellow Fever epidemic in New York, by Abraham Mears Isaacks (1803)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Yom Kippur prayer during the Yellow Fever epidemic in New York, by Abraham Mears Isaacks (1803)</tei:title>
+          <tei:author>Abraham Mears Isaacks</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1803">1803</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57177</tei:idno>
+          <tei:idno type="opensiddur.org">57177</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/publicationsofam20amer/publicationsofam20amer#page/158/mode/2up">https://archive.org/stream/publicationsofam20amer/publicationsofam20amer#page/158/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57177_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Composed for the Day of Atonement during the Prevalence of the Yellow Fever in New York in 1803,” this prayer was likely composed by Abraham Mears Isaacks (1765-1815). It was published in the <tei:hi rend="italic">Publications of the American Jewish Historical Society</tei:hi> number 20 (1911), p. 158, as submitted by Rebecca E. Mitchell, one of Isaacks descendants. The original manuscript from which this transcription was derived was not published. The lack of punctuation may have been included in the original, or the prayer may have been reformatted as a paragraph without any indicative line breaks. Without the original manuscript it’s impossible to determine whether any unusual orthography or line breaks were in the original or not. We have added some minimal formatting and spelling for improved legibility, and this can be compared with the image of the source from which out transcription was derived. Where a significant ambiguity remained in the transcription we have added either a note or clarifying text in brackets. We have also replaced all ampersands with “and.” –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57177_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yom_kippur_prayer_during_the_yellow_fever_epidemic_in_new_isaacks"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

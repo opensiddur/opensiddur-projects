@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עַל־הַנִּסִּים לכ״ח בְּחֹדֶשׁ שְׁבָט</tei:title>
+        <tei:title type="main" xml:lang="en">Al ha-Nissim for 28 Shəvat, for the fortunate rescue of a wanderer in the area of the synagogue in Avignon (1766)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עַל־הַנִּסִּים לכ״ח בְּחֹדֶשׁ שְׁבָט</tei:title>
+          <tei:title xml:lang="en">Al ha-Nissim for 28 Shəvat, for the fortunate rescue of a wanderer in the area of the synagogue in Avignon (1766)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1766">1766</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=60116</tei:idno>
+          <tei:idno type="opensiddur.org">60116</tei:idno>
+          <tei:note>Source: Al ha-Nissim for 28 Shevat (Seder ha-Tamid, Provencal 1766), p. 129v <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--129v.png">https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--129v.png</tei:ref></tei:note>
+          <tei:note>Source: Al ha-Nissim for 28 Shevat (Seder ha-Tamid, Provencal 1766), p. 130r <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--130r.png">https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--130r.png</tei:ref></tei:note>
+          <tei:note>Source: Al ha-Nissim for 28 Shevat (Seder ha-Tamid, Provencal 1766), p. 130v <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--130v.png">https://opensiddur.org/wp-content/uploads/2025/02/al-ha-nissim-for-28-shevat-seder-ha-tamid-provencal-1766-p--130v.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_60116_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The <tei:hi rend="italic">Seder ha-Tamid</tei:hi>, a Provençal (Nusaḥ Comtat Venaissin) siddur published in Avignon in 1766, has liturgical additions for an amazing five different local festivals — one for Avignon, and two each for Carpentras and Cavaillon. I’m working on transcribing all of these, but to start, here’s an Al haNissim for the twenty-eighth of Shvat in Avignon. Written in rhymed prose, this text tells the story of a gentile who fell headfirst down a deep well near the synagogue, but successfully managed to flip himself over and wedged his feet in the walls.</tei:p>
+        <tei:p>Even more miraculously, afterwards he declared that it was his own fault he fell in the pit! The Jews of the Comtat, an area under direct papal control at the time, were well aware of the tenuousness of their position, and were the man a talebearer then they could have faced a pogrom or exile.</tei:p>
+        <tei:p>This text would be added to the Modim brakha as well as to the third brakha of Birkat haMazon, as one does with other Al haNissim additions.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60116_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim_for_28_shevat"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

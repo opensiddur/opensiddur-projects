@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for Universal Peace, by Rabbi Hillel Lavery-Yisraëli (2019)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for Universal Peace, by Rabbi Hillel Lavery-Yisraëli (2019)</tei:title>
+          <tei:author>R' Hillel Ḥayyim Lavery-Yisraëli</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-03-16">2019-03-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24233</tei:idno>
+          <tei:idno type="opensiddur.org">24233</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24233_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>A prayer for peace adapted from the texts of the prayers for peace found in the Sim Shalom (1985) and Lev Shalem (2016) siddurim of the Rabbinical Assembly. This prayer was shared in an interfaith setting the day before the massacre of Muslim worshipers during Jumu’ah in Christchurch, New Zealand on 15 March 2015. The text of the prayer was afterward posted to Rabbi Hillel’s Facebook page, writing:</tei:p>
+        <tei:p>Yesterday [14 March 2019] I was honoured to open freedom fighter [2011 Nobel Prize winner] Leymah Gbowee’s talk in Hamilton, Canada by reading this prayer for universal peace. Today I wake up to the news of #nzmosqueshooting. As General Leymah said, no matter what religion or ethnicity, if you cut us, we all bleed the same colour blood. Let there be peace and security!</tei:p>
+        <tei:p>Source(s)</tei:p>
+        <tei:p>The prayer for peace appearing in Siddur Sim Shalom is adapted from the Prayer for Peace found in Reb Nosson Sternhartz of Nemirov’s adaptation of the teachings of Rebbe Nahman of Bratzlav in Likkutei Tefillot. “Page 417: Prayer for Peace . . . Adapted and translated from the Hebrew of Rabbi Nathan Sternhartz (1780-1845), Ukraine, from Likutei Tefillot, part two, 53.”</tei:p>
+        <tei:p>Prayer for Peace (Sim Shalom p.416-417) adapted from Reb Nosson Sternhartz, Likutei Tefilot II-53</tei:p>
+        <tei:p>Prayer for Peace (Lev Shalem 2016, p.178)</tei:p>
+        <tei:p>Prayer for Peace in Hebrew (Lev Shalem 2016)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24233_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_universal_peace_lavery_yisraeli/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_universal_peace_lavery_yisraeli/2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יִגְדַּל (אשכנז)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Yigdal, by Daniel ben Yehudah Dayyan (abridged translation by Rev. Newton Mann, 1884)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יִגְדַּל (אשכנז)‏</tei:title>
+          <tei:title xml:lang="en">Yigdal, by Daniel ben Yehudah Dayyan (abridged translation by Rev. Newton Mann, 1884)</tei:title>
+          <tei:author>Newton Mann</tei:author>
+          <tei:author>Max Landsberg</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1440" to="1500">1440 – 1500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65141</tei:idno>
+          <tei:idno type="opensiddur.org">65141</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/ritualforjewishw0000unse/ritualforjewishw0000unse#page/n27/mode/2up">https://archive.org/stream/ritualforjewishw0000unse/ritualforjewishw0000unse#page/n27/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65141_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Rev. Newton Mann’s slightly abridged rhymed English translation of Daniel ben Yehudah Dayyan’s “Yigdal” as first published in Rabbi Max Landsberg’s <tei:hi rend="italic">Ritual for Jewish Worship</tei:hi> (1884), pp. 13-14. Mann, a Unitarian minister, had made the translation at the request of Rabbi Landsberg. Over at the Hymnology Archive, Chris Fenner writes,</tei:p>
+        <tei:p>When Max Landsberg (1845–1927), rabbi of the B’rith Kodesh Congregation in Rochester, New York, was assembling his <tei:hi rend="italic">Ritual of Jewish Worship</tei:hi> (1884), he approached his friend Newton Mann, pastor of the Unity Church (Unitarian) in Rochester, about creating a version of the Yigdal in English rhyme. This appeared in the book, beginning “Extollèd be the living God and praisèd be his name,” in 9 rhyming couplets, effectively 8.6.8.6 (Common Meter). This text, unfortunately, did not have the same meter as the Hebrew and could not be used with existing Hebrew tunes. In his preface, Landsberg acknowledged Mann: “I cannot find adequate terms to express my obligations to my dear friend Rev. N.M. Mann, Pastor of Unity Church, for the kind interest he has taken in the preparation of Part First of this Ritual, and the valuable services he has rendered in making the English more idiomatic and perfect.”</tei:p>
+        <tei:p>Later on, at Rabbi Landsberg’s request, William Channing Gannet (Mann’s successor at Unity Church) revised Mann’s translation. That derived work was published in <tei:hi rend="italic">Unity Hymns and Chorals</tei:hi> (1911). Many thanks to the Hymnology Archive and to Chris Fenner for his research.</tei:p>
+        <tei:p>I have set the text of Mann’s English translation side-by-side with the Hebrew source text of Yigdal indicating several of the verses left untranslated, likely a testament to the ideological differences of the Reform Judaism of Rabbi Landsberg. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65141_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal_landsberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

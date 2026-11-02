@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תפילת הדרך</tei:title>
+        <tei:title type="alt" xml:lang="en">Tefilat haDerekh (Traveler's Prayer), by Rabbi Michal Ratner Ken-tor</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת הדרך</tei:title>
+          <tei:title xml:lang="en">Tefilat haDerekh (Traveler's Prayer), by Rabbi Michal Ratner Ken-tor</tei:title>
+          <tei:author>Michal Ratner Ken-tor</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-06-28">2020-06-28</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=32604</tei:idno>
+          <tei:idno type="opensiddur.org">32604</tei:idno>
+          <tei:note>Source: Tefilat ha-Adam (Israeli Reform Movement, 2020) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/06/tefilat-ha-adam-Israeli-REform-Movement-2020.jpg">https://opensiddur.org/wp-content/uploads/2020/06/tefilat-ha-adam-Israeli-REform-Movement-2020.jpg</tei:ref></tei:note>
+          <tei:note>Source: tefilat ha-adam p.419 <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/06/tefilat-ha-adam-p.419.jpg">https://opensiddur.org/wp-content/uploads/2020/06/tefilat-ha-adam-p.419.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_32604_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “תפילת הדרך” (Traveler’s Prayer) by הרבה מיכל קן־תור Rabbi Michal Ratner Ken-tor, appears in תפילת האדם, סידור רפורמי ישראלי (2020), the Israeli Reform Movement siddur edited by Rabbi Alona Lisitsa (Ph.D.) and Rabbi Dr. Dalia Marx.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_32604_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_haderekh_ken_tor"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

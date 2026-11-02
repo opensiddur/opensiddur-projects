@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="la">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The "Dona Nobis Pacem" blues from Leonard Bernstein's MASS (1971), original Hebrew translation by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The "Dona Nobis Pacem" blues from Leonard Bernstein's MASS (1971), original Hebrew translation by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Leonard Bernstein</tei:author>
+          <tei:author>Stephen Schwartz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1971">1971</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53062</tei:idno>
+          <tei:idno type="opensiddur.org">53062</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53062_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>An original Hebrew translation of the blues-rock portion of the <tei:hi rend="italic">Agnus Dei</tei:hi> movement from Leonard Bernstein’s MASS (note: always spelled with ALL CAPS), where the crowd of disaffected and disillusioned young parishioners interrupts the offertory to demand peace now, and hold God to account for not giving it to us. It’s unsurprising that for a composer as proudly and openly Jewish as Bernstein that even his setting of the Tridentine Mass has major “shaking your fist at God” energy. Not gonna lie, I was listening to this on a plane out of Jerusalem as the war was starting, and I started to tear up. I immediately started writing this translation and finished it up in the process of about an hour while stuck somewhere a few thousand feet above Greenland. It’s amazing and moving and tragic and enraging and a little full of itself in exactly the right way to hit me in the heart.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53062_introduction"/>
+      <j:conditional xml:id="osp_53062_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The blues-rock portion from the <tei:hi rend="italic">Agnus Dei</tei:hi> movement to Leonard Bernstein’s MASS, translated into Hebrew. Original lyrics by Leonard Bernstein and Stephen Schwartz.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53062_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_dona_nobis_pacem_blues_from_leonard_bernsteins_mass_bernstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

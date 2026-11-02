@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"Prayer Song," a hymn by Stephen Hanan Kaplan from the play, David Dances (1973)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"Prayer Song," a hymn by Stephen Hanan Kaplan from the play, David Dances (1973)</tei:title>
+          <tei:author>Stephen Hanan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1973" to="1975">1973 – 1975</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29349</tei:idno>
+          <tei:idno type="opensiddur.org">29349</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddurtehillathashemyedaberpisabbathsupplementzalmanschachtershalomi2009#page/n9/mode/2up">https://archive.org/stream/siddurtehillathashemyedaberpisabbathsupplementzalmanschachtershalomi2009#page/n9/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29349_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Prayer Song” from <tei:hi rend="italic">David Dances, a play</tei:hi> (1973/1975) by Stephen Hanan Kaplan is included in Rabbi Zalman Schachter-Shalomi’s Sabbath Supplement to his <tei:hi rend="italic">Siddur Tehillat Hashem Yidaber Pi ~ As I Can Say It (for Praying in the Vernacular)</tei:hi> (2009). The line “O Lord, O Lord, come into my heart, build there your shrine, and never depart” is quoted in Reb Zalman’s <tei:hi rend="italic">Davening: A Guide to Meaningful Jewish Prayer</tei:hi> (Jewish Lights, 2012), chapter “Intention: Davvening with Kavvanah” p. 23.</tei:p>
+        <tei:p>Knowing that everything I think and feel is revealed and known to God is, in itself, an important form of divine service, of avodat ha-Shem. I want no barrier separating what I feel in my heart from what I’m praying and asking for. I want to make myself transparent of heart, transparent of mind, transparent of body—to say, “O <j:divineName>Lord</j:divineName>, O <j:divineName>Lord</j:divineName>, come into my heart, build there your shrine, and never depart.” I wish to constantly remember that everything I do is witnessed by that <j:divineName>Infinite Witness</j:divineName>. I want to invite that witness in and not shut it out. I want my awareness to bring me to the life described in Proverbs 3:6, “Be-khol derakhekha da’eihu, Know God in all your ways.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29349_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:prayer_song_hanan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַ סאָציאַליסטישער הַלֵּל</tei:title>
+        <tei:title type="main" xml:lang="en">A Yiddish Socialist adaptation of Hallel (1894/1919)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/shlomo-enkin-lewis-translation">Shlomo Enkin Lewis</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַ סאָציאַליסטישער הַלֵּל</tei:title>
+          <tei:title xml:lang="en">A Yiddish Socialist adaptation of Hallel (1894/1919)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1894" to="1919">1894 – 1919</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55145</tei:idno>
+          <tei:idno type="opensiddur.org">55145</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/haggadah-for-pesah-with-a-socialist-nusah-1919/Haggadah%20shel%20Pesach%20mit%20a%20sotsyalistishn%20nosach%20%28Krak%C3%B3w-Podg%C3%B3rze-%20Binyamin%20Geizhals%20for%20Der%20Sotsyaldemokrat%201919%29#page/8/mode/2up">https://archive.org/stream/haggadah-for-pesah-with-a-socialist-nusah-1919/Haggadah%20shel%20Pesach%20mit%20a%20sotsyalistishn%20nosach%20%28Krak%C3%B3w-Podg%C3%B3rze-%20Binyamin%20Geizhals%20for%20Der%20Sotsyaldemokrat%201919%29#page/8/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/haggadah-shel-pesah-sap.-fun-nord-amerike-1896/Haggadah%20shel%20Pesah%20%28S.A.P.%20fun%20Nord-Amerike%2C%201896%29.pdf#page/n15/mode/2up">https://archive.org/stream/haggadah-shel-pesah-sap.-fun-nord-amerike-1896/Haggadah%20shel%20Pesah%20%28S.A.P.%20fun%20Nord-Amerike%2C%201896%29.pdf#page/n15/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55145_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the transcription and English translation by Shlomo Jack Enkin Lewis of the “Hallel” portions of the הגדה של פסח – מיט אַ סאָציאַליסטישען נוסח (פאָדגורזש [Krakow-Podgorze]: 1919 Sotsyaldemokrat edition). The Hallel first appeared in the 1894-1896 newspaper editions of the Socialist Haggadah by the S.A.P. fun Nord-Amerike (Socialist Labour Party of North America) in New York City, and was updated in the 1900 (Bund in Rusland un Poyln) and 1919 (Sotsyaldemokrat) editions. The authorship of the Hallel is entirely unknown as it was not included in the initial 1887/1888 edition (which had named authors).</tei:p>
+        <tei:p>Suggestions for liturgical use on festival, Rosh Ḥodesh, and the Passover seder night are all added by Shlomo Enkin Lewis as prepared in sourcesheet format on Sefaria. The entire 1919 (Sotsyaldemokrat) version of the haggadah in Yiddish with English translation is available in the Hagode Shel Peysekh: in a Socialist Mode (1900/1919, trans. Shlomo Enkin Lewis 2025). The same resource link also provides the text as a Yiddish gloss on the traditional Hebrew/Aramaic text of the Pesaḥ haggadah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55145_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_yiddish_socialist_adaptation_of_hallel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

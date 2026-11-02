@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">לִשְׁמֹר הַשָּׁנָה שֶׁל שְׁמִטָּה</tei:title>
+        <tei:title type="main" xml:lang="en">Candlelighting for Rosh haShanah, Shabbat, and Yom Tov during the Shmitah Year, by Rabbi Arthur Waskow</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">לִשְׁמֹר הַשָּׁנָה שֶׁל שְׁמִטָּה</tei:title>
+          <tei:title xml:lang="en">Candlelighting for Rosh haShanah, Shabbat, and Yom Tov during the Shmitah Year, by Rabbi Arthur Waskow</tei:title>
+          <tei:author>Arthur Waskow</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021-08-14">2021-08-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38586</tei:idno>
+          <tei:idno type="opensiddur.org">38586</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38586_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>We suggest saying these blessings when you light the candles for Rosh Hashanah, for Yom Kippur, and for every Shabbat and Festival during the Shmita year. Some thoughts about why to do this and about changes in the brakhot: The reason to do this is to remain aware throughout the year of what a whole year of Shabbat Shabbaton and Shmita means — to stay both aware and active.</tei:p>
+        <tei:p>The “Name of God” is not an identifier, like “Hi, Esther” or “Hey, Daniel.” It expresses an understanding of the world. Substituting “Adonai” or “Lord” for “YHWH” endorses a worldview based on hierarchy. But if we try to pronounce “YHWH” with no vowels what happens is simply a Breath. It is a universal connector between and among all forms of life, animal and plant. It expresses an interwoven or ecological, rather than hierarchical, understanding of the world – the uniqueness of each being, fitting together like the pieces of a jigsaw puzzle within the Unity of all Being.</tei:p>
+        <tei:p>So in these prayers we honor the original intent of “YHWH” by presenting the sound as simply a Breath, or as “Yahhhh,” as in “Hallelu-Yahhhh” or as “Interbreath of Life” and using the word “ruaḥ” – breath, wind, or spirit – instead of “melekh,” king. Similarly, the Hebrew “mitsvah” — which is conventionally translated “command” coming from a lord or king, can also be understood as “connection” that is infused in the process of the jigsaw puzzle and of reality.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38586_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:candlelighting_for_rosh_hashanah_waskow"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

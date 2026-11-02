@@ -1,0 +1,77 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בְּנדּיגֿ טוּ שַנט...קִי פִֿיש מִי פְינַה</tei:title>
+        <tei:title type="main" xml:lang="en">Blessed are you...who made me a woman, a variation of the morning blessing for Jewish women in Judeo-Provençal (ca. 14-15th c.)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בְּנדּיגֿ טוּ שַנט...קִי פִֿיש מִי פְינַה</tei:title>
+          <tei:title xml:lang="en">Blessed are you...who made me a woman, a variation of the morning blessing for Jewish women in Judeo-Provençal (ca. 14-15th c.)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1300" to="1450">1300 – 1450</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39363</tei:idno>
+          <tei:idno type="opensiddur.org">39363</tei:idno>
+          <tei:note>Source: Leeds MS Roth 32 p.328-329 – blessing on making me a woman <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/Leeds-MS-Roth-32-p.328-329-blessing-on-making-me-a-woman.jpg">https://opensiddur.org/wp-content/uploads/2021/10/Leeds-MS-Roth-32-p.328-329-blessing-on-making-me-a-woman.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39363_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The following is the blessing for women from the Morning Blessings (Birkhot ha-Shaḥar) of the Seder tefilot be-targum le-Shuʾadit [סדר תפילות בתרגום לשואדית] (a translation of the Siddur into Judaeo-Provençal dating from some point in the 14th-15th century).</tei:p>
+        <tei:p>Many are already familiar with two other formulations of the blessing for women. “Sheasani kirtsono” (who made me according to Their will/desire)<tei:anchor xml:id="note_1"/> is the most familiar as it appears in most nusḥaot today. Likely to be contemporary with this is the blessing “Sheasitani ishah v’lo ish” (who made me a woman and not a man) that appears in the siddurim of Abraham Farissol from 1471 and 1480.<tei:anchor xml:id="note_2"/> The blessing appearing here and in Farrisol’s siddurim are examples from a time in Jewish liturgical history when “sheasani kirtsono” had not yet become the near universally acknowledged variation of the blessing. As George Jochnowitz writes, “Although the Morning Benedictions are generally taken from the Talmud Berakhot 60b, the women’s blessing, ‘who made me according to His will,’ may not be very much older than our Shuʾadit translation. Israel Abrahams, in <tei:hi rend="italic">A Companion to the Authorized Prayerbook</tei:hi>, says that it was attested in the first part of the 14th century. Conceivably there were competing variants in the Middle Ages, only one of which has survived to our own time.” More can be read in Jochnowitz’s 1981 article.<tei:anchor xml:id="note_3"/></tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39363_introduction"/>
+      <j:conditional xml:id="osp_39363_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This blessing appears in MS Roth 32 on the pagespread No 328-329 of the Seder tefilot be-targum le-Shuʾadit [סדר תפילות בתרגום לשואדית] in the collection of the library of the University of Leeds.</tei:p>
+        <tei:p>Many, many thanks to the Jewish Language Project and Dr. Sarah Benor for bringing this formula of the blessing for Jewish women (and George Jochnowitz’s article) to our attention.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39363_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:blessed_are_you_who_made_me_a_woman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Recorded by Yaaqov ben Asher (Cologne, 1270 – Toledo, Spain ca.1340) in the <tei:hi rend="italic">Arba’ah Turim</tei:hi> (Oraḥ Ḥayim §46): ברוך אתה ה׳ אלהינו מלך העולם שלא עשאני אשה — שאינה חייבת במצוות עשה שהזמן גרמא. ונהגו הנשים לברך “שעשאני כרצונו,” ואפשר שנוהגים כן, שהוא כמי שמצדיק עליו הדין על הרעה. (“Blessed are you YHVH our <tei:hi rend="italic">elo’ah</tei:hi>, cosmic majesty, who did not make me a woman” — because she is not obligated in obligatory time-bound mitsvot. Women have been accustomed to bless “Who made me according to His will,” and it is possible that this practice is like acknowledging the [Divine] justice of adversity). With gratitude to Laurie Novick (Derecheha) for sharing their source sheet.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>For a nice comparison of images from the 1471 and 1480 volumes, find this article at the National Library of Israel.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="3" target="#note_3">
+      <tei:p>A version of that article appeared in the April 1981 issue of <tei:hi rend="italic">Commentary</tei:hi>.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer on the consecration of the new synagogue building for Ḳahal Ḳadosh Mikveh Israel in Philadelphia, by Rabbi Sabato Morais (1 June 1860)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer on the consecration of the new synagogue building for Ḳahal Ḳadosh Mikveh Israel in Philadelphia, by Rabbi Sabato Morais (1 June 1860)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1860-06-01">1860-06-01</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45855</tei:idno>
+          <tei:idno type="opensiddur.org">45855</tei:idno>
+          <tei:note>Source: Prayer at the consecration of the new synagogue building for Mikve Israel [1860-05-25] (Sabato Morais Ledger, p. 17b clipping 017) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Prayer-at-the-consecration-of-the-new-synagogue-building-for-Mikve-Israel-1860-05-25-Sabato-Morais-Ledger-p.-17b-clipping-017.png">https://opensiddur.org/wp-content/uploads/2022/07/Prayer-at-the-consecration-of-the-new-synagogue-building-for-Mikve-Israel-1860-05-25-Sabato-Morais-Ledger-p.-17b-clipping-017.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45855_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the consecration of the new synagogue building of Mikve Israel by Rabbi Sabato Morais was recorded in an “[Account of...] the consecration ceremony of the new Synagogue of the congregation Mikveh Israel... [Excerpted...] from <tei:hi rend="italic">The Philadelphia Inquirer</tei:hi>, of May 25th.” and reprinted in <tei:hi rend="italic">The Jewish Messenger</tei:hi> on 1 June 1860. It was preserved by Rabbi Morais in his ledger (page 17b, clipping 017), an archive of newsclippings recording material he contributed to the press, among other announcements. (Many thanks to the Library of the University of Pennsylvania for helping to make this resource accessible.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45855_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_on_the_consecration_of_the_new_synagogue_building_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

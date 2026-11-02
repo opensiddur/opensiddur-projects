@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילת השעה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer of the Moment [after the Neve Yaakov synagogue shooting], by Rabbi Avi Novis-Deutsch (Knesset haRabanim l'Yisrael 2023)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת השעה</tei:title>
+          <tei:title xml:lang="en">Prayer of the Moment [after the Neve Yaakov synagogue shooting], by Rabbi Avi Novis-Deutsch (Knesset haRabanim l'Yisrael 2023)</tei:title>
+          <tei:author>Avi Novis-Deutsch</tei:author>
+          <tei:author>Knesset haRabanim b'Yisrael</tei:author>
+          <tei:author>the Rabbinical Assembly of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-01-29">2023-01-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=48688</tei:idno>
+          <tei:idno type="opensiddur.org">48688</tei:idno>
+          <tei:note>Source: Tefilah haSha’ah (Avi Novis-Deutsch 2023) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/01/Tefilah-haShaah-Avi-Novis-Deutsch-2023.jpg">https://opensiddur.org/wp-content/uploads/2023/01/Tefilah-haShaah-Avi-Novis-Deutsch-2023.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48688_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Tefilah haSha’ah” (Prayer of the Moment) with Psalms 130 was offered by Rav Avi Novis-Deutsch and shared by the Knesset haRabbanim l’Yisrael via their Facebook page on 29 January 2023. The English translation of the prayer was shared by the Rabbinical Assembly via their Facebook page a few hours later.</tei:p>
+        <tei:p>The translation of Psalms 130 is derived from the Sefaria Community translation. (I have re-hebraicized divine names, de-capitalized ‘you/your,’ and replaced default masculine pronouns for the divine with the gender inclusive singular ‘they.’) We have transcribed the prayer from the source image and set it and Psalms 130 side-by-side with their translations in English. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48688_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_moment_novis_deutsch"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

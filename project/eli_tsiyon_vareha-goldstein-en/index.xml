@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֱלִי צִיּוֹן וְעָרֶיהָ</tei:title>
+        <tei:title type="main" xml:lang="en">Eli Tsiyon v'Areha (Mourn Zion and her cities), a ḳinah for Tishah b'Av</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/joel-avi-goldstein">Joel Goldstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֱלִי צִיּוֹן וְעָרֶיהָ</tei:title>
+          <tei:title xml:lang="en">Eli Tsiyon v'Areha (Mourn Zion and her cities), a ḳinah for Tishah b'Av</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10454</tei:idno>
+          <tei:idno type="opensiddur.org">10454</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_10454_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>One of the most well-known of the kinot (liturgical poems for mourning), Eli Tsiyon v’Areha is an alphabetical acrostic describing the destruction of Jerusalem. It is recited towards the conclusion of <tei:hi rend="italic">ḳinot</tei:hi>, due to the hopeful note in the comparison of Ẓíōn to a woman about to give birth, thought by many to be a messianic reference. The author of the work is unknown.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_10454_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eli_tziyyon_veareha"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

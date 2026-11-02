@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Israel Mowshowitz on 15 March 1973</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Israel Mowshowitz on 15 March 1973</tei:title>
+          <tei:author>Israel Mowshowitz</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1973-03-15">1973-03-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54666</tei:idno>
+          <tei:idno type="opensiddur.org">54666</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 119, part 7 (15 March 1973), p. 7955 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--119-part-7-15-March-1973-p--7955.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--119-part-7-15-March-1973-p--7955.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54666_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Israel Mowshowitz, Hillcrest Jewish Center, Flushing, New York</tei:p>
+        <tei:p>Sponsor: Rep. Lester Wolff (D-NY)</tei:p>
+        <tei:p>Date of Prayer: 15 March 1973</tei:p>
+        <tei:p>Mr. WOLFF. Mr. Speaker, I am truly proud that Rabbi Israel Mowshowitz, who just delivered the invocation so beautifully and movingly, is the spiritual leader of the Hillcrest Jewish Center located in my congressional district.</tei:p>
+        <tei:p>Rabbi Mowshowitz’ outstanding record of service to his community, State, and Nation certainly deserves to be honored by his invitation to lead us in prayer here today. A graduate of Duke University, he is past president of the New York Board of Rabbis, the largest body of its kind in the world. In addition he is an honoree of the National Conference of Christians and Jews, the Jewish War Veterans, and the Federation of Jewish Philanthropies.</tei:p>
+        <tei:p>A cofounder and cochairman of Crossroads Africa, a study and work camp project which brought 300 students annually to Africa, Rabbi Mowshowitz has been honored as a life member of the NAACP and the Knights of Pythias.</tei:p>
+        <tei:p>As a representative of American Jewry, Rabbi Mowshowitz served as spokesman for the first delegation of rabbis to visit the Soviet Union in 1956 at the invitation of the chief rabbi of Moscow and was the only Jewish representative to be officially invited as the guest of the Shah of Iran at the 2,500th anniversary celebration.</tei:p>
+        <tei:p>As well as being a great spiritual leader Rabbi Mowshowitz is a great American.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54666_introduction"/>
+      <j:conditional xml:id="osp_54666_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the third month of the first session of the 93rd US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 119, part 7 (1973), page 7955.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54666_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_mowshowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

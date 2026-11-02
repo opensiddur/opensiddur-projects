@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer at the Dedication of the Home for the Aged and Infirm by the I.O.B.B. District Grand Lodge No1 by Rabbi Henry Samuel Jacobs (28 June 1882)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer at the Dedication of the Home for the Aged and Infirm by the I.O.B.B. District Grand Lodge No1 by Rabbi Henry Samuel Jacobs (28 June 1882)</tei:title>
+          <tei:author>Henry Samuel Jacobs</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1882-06-28">1882-06-28</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65183</tei:idno>
+          <tei:idno type="opensiddur.org">65183</tei:idno>
+          <tei:note>Source: Prayer of Henry S. Jacobs at the Proceedings of the Opening of the Home for the Infirm and Aged (28 June 1882) – 1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/12/prayer-of-henry-s--jacobs-at-the-proceedings-of-the-opening-of-the-home-for-the-infirm-and-aged-28-june-1882-1.png">https://opensiddur.org/wp-content/uploads/2025/12/prayer-of-henry-s--jacobs-at-the-proceedings-of-the-opening-of-the-home-for-the-infirm-and-aged-28-june-1882-1.png</tei:ref></tei:note>
+          <tei:note>Source: Prayer of Henry S. Jacobs at the Proceedings of the Opening of the Home for the Infirm and Aged (28 June 1882) – 2 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/12/prayer-of-henry-s--jacobs-at-the-proceedings-of-the-opening-of-the-home-for-the-infirm-and-aged-28-june-1882-2.png">https://opensiddur.org/wp-content/uploads/2025/12/prayer-of-henry-s--jacobs-at-the-proceedings-of-the-opening-of-the-home-for-the-infirm-and-aged-28-june-1882-2.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65183_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Henry S. Jacobs was offered at the Dedication of the Home for the Aged and Infirm by the District Grand Lodge No. 1 Independent Order of B’né B’rith on 28 June 1882 and published in their <tei:hi rend="italic">Proceedings of the Thirtieth Annual Meeting of District Grand Lodge No. 1 I.O.B.B. Held January 29, 30, and 31, 1882</tei:hi>, pp. 68-70.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65183_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_at_the_dedication_of_the_home_for_the_aged_and_infirm_jacobs"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

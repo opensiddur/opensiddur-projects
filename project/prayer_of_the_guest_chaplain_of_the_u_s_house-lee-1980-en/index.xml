@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Barton G. Lee on 13 March 1980</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Barton G. Lee on 13 March 1980</tei:title>
+          <tei:author>Barton G. Lee</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1980-03-13">1980-03-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54661</tei:idno>
+          <tei:idno type="opensiddur.org">54661</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 126, part 5 (13 March 1980), p. 5455 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--126-part-5-13-March-1980-p--5455.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--126-part-5-13-March-1980-p--5455.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54661_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Barton G. Lee, Hillel Foundation, Arizona State University, Tempe, Arizona</tei:p>
+        <tei:p>Sponsor: Rep. Martin Frost (D-TX)</tei:p>
+        <tei:p>Date of Prayer: 13 March 1980</tei:p>
+        <tei:p>Mr. FROST. Mr. Speaker, it is a privilege to introduce a longtime personal friend of mine who delivered the opening prayer this morning, Rabbi Barton Lee, Barton grew up in San Antonio, Texas, and has had a longstanding interest in politics. As a teenager, he stood on street corners passing out literature for Ralph Yarborough, former longtime Senator from Texas. Both of us were active in the Texas-Oklahoma Federation of Temple Youth, where he proved to be a good politician himself, serving as regional president of that organization. Rabbi Lee received his undergraduate degree from Stanford University, California, and his rabbinical training from Hebrew Union College at Cincinnati, Ohio. He comes to us from Tempe, Arizona, where he has been with the Hillel Foundation, Union of Jewish Students at Arizona State University, for a number of years. Rabbi Lee and his wife, Marcie, continue to reside in Tempe, Arizona.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54661_introduction"/>
+      <j:conditional xml:id="osp_54661_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the third month of the second session of the 96th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 126, part 5 (1980), page 5455.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54661_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_lee"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

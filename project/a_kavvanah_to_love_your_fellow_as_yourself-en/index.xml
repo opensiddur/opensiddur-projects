@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הֲרֵינִי מְקַבֵּל עָלַי</tei:title>
+        <tei:title type="main" xml:lang="en">A kavvanah to love your fellow as yourself, before prayer (ca. 1572)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הֲרֵינִי מְקַבֵּל עָלַי</tei:title>
+          <tei:title xml:lang="en">A kavvanah to love your fellow as yourself, before prayer (ca. 1572)</tei:title>
+          <tei:author>Yitsḥak Luria</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1571" to="1573">1571 – 1573</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=18441</tei:idno>
+          <tei:idno type="opensiddur.org">18441</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_18441_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Rav Yitsḥak Luria, circa 16th century, on Leviticus 19:18, recorded in Minhagei ha-ARI z”l Petura d’Abba, p.3b by R’ Ḥayyim Vital:</tei:p>
+        <tei:p>קודם שהאדם יסדר תפילתו בבית הכנסת...</tei:p>
+        <tei:p>צריך שיקבל עליו מצוָת ואהבת לרעך כמוך</tei:p>
+        <tei:p>ויכוין לאהוב כל אחד מבני ישראל כנפשו.</tei:p>
+        <tei:p>כי על ידי זה תעלה תפילתו כלולה מכל תפילות ישראל</tei:p>
+        <tei:p>ותוכל לעלות למעלה ולעשות פרי</tei:p>
+        <tei:p>ובפרט אהבת החברים העוסקים בתורה ביחד.</tei:p>
+        <tei:p>צריך כל אחד ואחד לכלול עצמו כאלו הוא אבר אחד מן החברים שלו...</tei:p>
+        <tei:p>ואם יש איזה חבר מהם בצרה צריכים כולם לשתף עצמם בצערו</tei:p>
+        <tei:p>(דרושי השחר א, ע”ב)..</tei:p>
+        <tei:p>Before one arranges their prayers in the synagogue...</tei:p>
+        <tei:p>they should take upon themselves the mitsvah to love one’s neighbor as one’s self,</tei:p>
+        <tei:p>and direct themselves to love all of the children of Yisra’el as if each were one’s own soul.</tei:p>
+        <tei:p>Through this, one’s prayer is raised up to be included amongst all the prayers of Yisra’el</tei:p>
+        <tei:p>and [the prayer] can raise up to the heights where it can bear fruit.</tei:p>
+        <tei:p>And specifically [this is like] loving friends who study Torah together.</tei:p>
+        <tei:p>Each and every one of us needs to include ourselves as if we were but one limb from the body of friendship ...</tei:p>
+        <tei:p>and if any of one’s friends are in trouble then we all need to share the sorrow together.</tei:p>
+        <tei:p>Many thanks for R’ Tyson Herberger’s help with this translation. Please comment to improve upon it.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_18441_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_kavvanah_to_love_your_fellow_as_yourself_luria"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

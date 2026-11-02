@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">In the aftermath of an attempted assassination, a Prayer Service of Thanksgiving for the wellbeing of King George III — by Rabbi Moses Myers and David Levi (29 October 1795)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">In the aftermath of an attempted assassination, a Prayer Service of Thanksgiving for the wellbeing of King George III — by Rabbi Moses Myers and David Levi (29 October 1795)</tei:title>
+          <tei:author>Moses Myers</tei:author>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>David Levi</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1795-10-29">1795-10-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63897</tei:idno>
+          <tei:idno type="opensiddur.org">63897</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/seder-tefilah-after-a-failed-assassination-of-king-george-iii/Seder%20Tefilah%20-%20A%20Form%20of%20Prayer%20and%20Thanksgiving%20%5Bafter%20a%20failed%20assassination%20of%20King%20George%20III%5D%20%28Moses%20Myers%2C%20David%20Levi%201795%29#page/n1/mode/2up">https://archive.org/stream/seder-tefilah-after-a-failed-assassination-of-king-george-iii/Seder%20Tefilah%20-%20A%20Form%20of%20Prayer%20and%20Thanksgiving%20%5Bafter%20a%20failed%20assassination%20of%20King%20George%20III%5D%20%28Moses%20Myers%2C%20David%20Levi%201795%29#page/n1/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63897_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a full transcription of a patriotic and civic prayer service offered on 29 October 1795 at the German Jews’ Synagogue in London, composed by chief Rabbi Moses Myers and translated into English by David Levi. The prayers on behalf of King George III came in the aftermath of the unraveling of the “Popgun Plot,” an alleged 1794 conspiracy by three members of the London Corresponding Society to assassinate the kning by means of a poison dart fired from an airgun. Three members, Paul Thomas LeMaitre, John Smith, and George Higgins, were arrested in late 1794, and Robert Thomas Crossfield in December 1795. Ultimately, all four were acquitted of treason in May 1796, on the grounds that the chief witness against them was dead.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63897_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:in_the_aftermath_of_an_attempted_assassination_myers"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

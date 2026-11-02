@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כְּגַוְנָא</tei:title>
+        <tei:title type="main" xml:lang="en">K'gavna, on the Secret of Oneness and the Mystery of Shabbat, a reading from the Zohar (parashat Terumah §163-166 &amp; §169-170)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כְּגַוְנָא</tei:title>
+          <tei:title xml:lang="en">K'gavna, on the Secret of Oneness and the Mystery of Shabbat, a reading from the Zohar (parashat Terumah §163-166 &amp; §169-170)</tei:title>
+          <tei:author>Marcia Prager</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1240" to="1300">1240 – 1300</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=14104</tei:idno>
+          <tei:idno type="opensiddur.org">14104</tei:idno>
+          <tei:note>Source: K’Gavna – “The Secret of Shabbat” from the P’nai Or Erev Shabbat Siddur, p. 15. <tei:ref target="https://opensiddur.org/wp-content/uploads/2016/07/kgavneh-small.png">https://opensiddur.org/wp-content/uploads/2016/07/kgavneh-small.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_14104_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>In siddurim following the nusaḥ ha-ARI z”l, the Barekhu call to prayer is immediately preceded by a passage from the Zohar, Parshat Terumah, explaining the profound significance of the Maariv service. The translations here were adapted from Rabbi Marcia Prager’s Pnai Or siddur (Terumah §163-166), and from Michael Berg’s translation of the Zohar (Terumah §169-170).</tei:p>
+        <tei:p>In the terminology of the Zohar, the sphere called Malkhut (Majesty/Kingship) refers to our world, indeed, our reality. In a midrash aggadah, the Primordial Adam was shown all the souls that would descend through them and after perceiving one particularly radiant soul that otherwise might not have lived, asked for seventy years of his life to be gifted to the soul so that it might be embodied in our world. As with King David, so to the nature of Malkhut whose existence is entirely dependent on a gift of lovingkindness from the Most High, the king of kings, the Blessed Holy One. These passages from the Zohar Terumah explicates the relationship by which Malkhut, gendered female, is prepared as the immanent divine presence — the Shabbat Queen and Shekhina — for unification with the transcendent Blessed Holy One. In the realm of kabbalistic symbolic associations, the Shekhina here is synonymous in many ways with the Jewish people. United in the castle in time, as A.J. Heschel refers to it, the people prepare for and enact this wedding with Blessed Holy One in a choreography realized through prayer and joy. The yiḥud (unification) of Shekhina (immanent perception of the divinity suffusing all of reality) with <j:divineName>the blessed Holy One</j:divineName> (the transcendent divine approached through imaginative and intellectual feats) is an everpresent goal in kabbalistic Judaism. — Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14104_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kegavna_prager"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

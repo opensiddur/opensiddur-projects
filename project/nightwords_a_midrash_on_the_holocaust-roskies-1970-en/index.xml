@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">נאַכטװערטער</tei:title>
+        <tei:title type="alt" xml:lang="he">מדרשי צלמוות</tei:title>
+        <tei:title type="main" xml:lang="en">Nightwords: A Midrash on the Holocaust, by Dr. David G. Roskies (1970, 4th ed. CLAL: 2000)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">נאַכטװערטער</tei:title>
+          <tei:title xml:lang="he">מדרשי צלמוות</tei:title>
+          <tei:title xml:lang="en">Nightwords: A Midrash on the Holocaust, by Dr. David G. Roskies (1970, 4th ed. CLAL: 2000)</tei:title>
+          <tei:author>David Roskies</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1970">1970</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55551</tei:idno>
+          <tei:idno type="opensiddur.org">55551</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55551_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p><tei:hi rend="italic">Nightwords: A Midrash on the Holocaust</tei:hi> (Hebrew title: מדרשי צלמוות) by David G. Roskies, with sources in English, Yiddish, and Hebrew and music, was first read publicly at Ḥavurat Shalom in Somerville, Massachusetts in April 1970. It is the first published liturgy for Yom Hashoah, and contains the first use of cantillated English for liturgical purposes. The original cantillation was by Daniel Matt. The first two editions appeared in mimeographed form and were the basis of the third edition published by the B’nai B’rith Hillel Foundations, Washington DC in 1971 and prepared for publication by Rabbi Alfred Jospe. This is the 4th rev. ed. New York: CLAL [Website]: 2000, ii+110 pp. The cantillation was redone by Rabbi Norman Janis.</tei:p>
+        <tei:p>This work was shared by David Roskies/CLAL. (Thank you!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55551_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:nightwords_a_midrash_on_the_holocaust_roskies"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

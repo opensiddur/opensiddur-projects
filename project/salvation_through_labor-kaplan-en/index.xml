@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Salvation through Labor, a prayer for the Sabbath before Labor Day, adapted from the writings of A.D. Gordon by Rabbi Mordecai Kaplan (1945)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Salvation through Labor, a prayer for the Sabbath before Labor Day, adapted from the writings of A.D. Gordon by Rabbi Mordecai Kaplan (1945)</tei:title>
+          <tei:author>Mordecai Kaplan</tei:author>
+          <tei:author>Aaron David Gordon</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1945">1945</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21234</tei:idno>
+          <tei:idno type="opensiddur.org">21234</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SabbathPrayerBookJewishReconstructionistFoundation1945#page/n576/mode/2up">https://archive.org/stream/SabbathPrayerBookJewishReconstructionistFoundation1945#page/n576/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21234_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Mel Scult writes, “Kaplan had always believed that one way to compose new liturgy was to take an inspiring essay and turn it into a prayer” (<tei:hi rend="italic">The Radical American Judaism of Mordecai M. Kaplan</tei:hi> Indiana University Press, 2013, p. 209). This prayer for the Shabbat before Labor Day, “Salvation through Labor,” was adapted by Rabbi Mordecai Menaḥem Kaplan from האדם והטבע (Man and Nature, 1924) by Aaron David Gordon, and can be found on p. 548-551 of his <tei:hi rend="italic">The Sabbath Prayer Book</tei:hi> (New York: The Jewish Reconstructionist Foundation, 1945). The translation was attributed in the Sabbath Prayer Book to its editors (Mordecai Kaplan &amp; Eugene Kohn, assisted by Ira Eisenstein and Milton Steinberg). More on A.D. Gordon’s Man and Nature can be read from Hillel Halkin in his essay in Moment Magazine, “The Self-Actualizing Zionism of A.D. Gordon” (18 February 2018). Writes Halkin,</tei:p>
+        <tei:p>Although it is never quite clear whether Man and Nature is written by a pantheist for whom nature and God are one, or by a deist for whom nature proceeds from God, it is the insistence on a life lived in conjunction with nature and having no substitute in religious practice, prayer, or meditation that keeps Gordon’s book from being a mere restatement of ḥasidic or general mystical themes. Yet its author is neither a “nature lover” nor a primitivist. He has no interest in the naturalist’s study of nature or in the vacationer’s appreciation of it, both of which treat it as an object of consciousness, thus perpetuating the rift with it; nor does he wish to roll back civilization in its name. “When you return to nature,” he writes “return not to your starting point or empty-handed. Be like the traveler who has circled the globe and comes home again wiser, more experienced, and purged of the superfluous, but also wealthier and enriched by all he has seen and felt, by his material no less than his spiritual acquisitions.” Living with nature does not demand the abandonment of railroads and electricity. It demands participation rather than exploitation.</tei:p>
+        <tei:p>And this, says Gordon, means physical work. Nature itself is continually at work. It is always creating, always producing; the only way to join it is to work alongside it. “In all your ways, in all your life,” states Man and Nature, rising to a prophetic tone, “learn to be a partner in the labor of Creation.”</tei:p>
+        <tei:p>On that day, O Man, you shall be given a new spirit. New, too, will be your emotions and your hunger—not for bread, nor for wealth, but for work. You shall joy in all the work that you perform, in all that you do . . . and you shall do it in nature, sharing the world’s exertion, its life, and its expanse. Thus shall you work in the field, and thus shall you work in your home, and thus shall you build your home. And as you work you shall think of the world as your workshop and of nature and you as its workmen. On that day you shall say: “Beautiful is nature in its form, but more beautiful yet in the spirit of its striving.” When you pause to stretch your limbs and take a deep breath, you will be breathing more than air. . . . You will know the bliss of being in the Infinite.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21234_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:salvation_through_labor_gordon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

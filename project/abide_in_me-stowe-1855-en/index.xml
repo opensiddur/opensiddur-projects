@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Abide in Me, and I in You: the Soul's Answer, a prayer-poem by Harriet Beecher Stowe (1855/1865)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Abide in Me, and I in You: the Soul's Answer, a prayer-poem by Harriet Beecher Stowe (1855/1865)</tei:title>
+          <tei:author>Gustav Gottheil</tei:author>
+          <tei:author>Harriet Beecher Stowe</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1855" to="1865">1855 – 1865</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27263</tei:idno>
+          <tei:idno type="opensiddur.org">27263</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsofpraiseandprayermaxklein1926#page/n31/mode/2up">https://archive.org/stream/hymnsofpraiseandprayermaxklein1926#page/n31/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsanthemsadap00gottrich#page/138/mode/2up">https://archive.org/stream/hymnsanthemsadap00gottrich#page/138/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/religiouspoems00stowrich#page/n39/mode/2up">https://archive.org/stream/religiouspoems00stowrich#page/n39/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/plymouthcollecti00beec#page/214/mode/2up">https://archive.org/stream/plymouthcollecti00beec#page/214/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27263_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Abide in Me” by Harriet Beecher Stowe (1811-1896) was first published in <tei:hi rend="italic">Plymouth Collection of Hymns and Tunes; for the use of Christian Congregations</tei:hi> (Henry Ward Beecher, 1855), p.215. A second version with a new second stanza, the 4th stanza removed, and additional edits was published by Beecher Stowe as the poem “Abide in Me, and I in You: The Soul’s Answer” in <tei:hi rend="italic">Religious Poems</tei:hi> (1867).<tei:anchor xml:id="note_10"/> In 1886, Gustav Gottheil (1827-1903) included an abridged form of that poem, (removing the first, third, and fourth stanzas of the original hymn) in <tei:hi rend="italic">Hymns and Anthems Adapted for Jewish Worship</tei:hi>. Finally, Gottheil’s variation was reprinted in Rabbi Max D. Klein’s <tei:hi rend="italic">Hymns of Praise and Prayer</tei:hi> (Congregation Adath Jeshurun of Philadelphia, 1926).</tei:p>
+        <tei:p>I’ve retained the numbering of the stanzas for the hymn as it originally appears in the <tei:hi rend="italic">Plymouth Collection</tei:hi> and I have enclosed the second stanza added by Beecher Stowe in [brackets]. –Aharon Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27263_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:abide_in_me_stowe"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="10" target="#note_10">
+      <tei:p>This second version of the poem appears two years earlier in Caroline Snowden Whitmarsh’s <tei:hi rend="italic">Hymns of the ages, Third series</tei:hi> (1865).</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

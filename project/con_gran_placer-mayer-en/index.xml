@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Con Gran Placer, Señores — a Western Sefaradi table-song for Purim</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Con Gran Placer, Señores — a Western Sefaradi table-song for Purim</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1500" to="1700">1500 – 1700</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66210</tei:idno>
+          <tei:idno type="opensiddur.org">66210</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66210_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A very old Western Sephardic table-song, mentioned as early as the 18th century in Livorno and possibly even older, this ballad retelling the story of Purim is sung to the tune of “Akh Zeh Hayom Kiviti.” It is related to the briefer Haketia-language song “Haman mamzer el malo,” already found here. Also included are literal and singable English translations.</tei:p>
+        <tei:p>Note that this text is much closer to normative Spanish than Ladino as spoken in the Balkans. It could perhaps be considered a variant of Ḥaketia, the language of Tetouan, but this poem is old enough that there isn’t much of a practical difference.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66210_introduction"/>
+      <j:conditional xml:id="osp_66210_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a transcription of the Sefaradi table song for Purim, “Con Gran Placer, Señores,” largely as found in the Jewish Table Singing website of Jonathan Cohen, with variant forms from James Levy’s recording. Literal and singable English translations by Isaac Gantwerk Mayer.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>My Friends, Let Me Inform You (Isaac Gantwerk Mayer, 2026)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66210_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:con_gran_placer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

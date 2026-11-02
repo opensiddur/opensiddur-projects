@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Licht und Wahrheit</tei:title>
+        <tei:title type="alt" xml:lang="en">Light and Truth, translated by Felix Adler (1868) from a poem by Eduard Kley (1826)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Licht und Wahrheit</tei:title>
+          <tei:title xml:lang="en">Light and Truth, translated by Felix Adler (1868) from a poem by Eduard Kley (1826)</tei:title>
+          <tei:author>Felix Adler</tei:author>
+          <tei:author>Eduard Kley</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1826">1826</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45956</tei:idno>
+          <tei:idno type="opensiddur.org">45956</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/24/mode/2up">https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/24/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/allgemeines-israelitisches-gesangbuch-eingefuhrt-in-dem-neuen-israelitschen-tempel-zu-hamburg-1833/Allgemeines%20Israelitisches%20Gesangbuch%20eingef%C3%BChrt%20in%20dem%20Neuen%20Israelitschen%20Tempel%20zu%20Hamburg%20%281833%29#page/n169/mode/2up">https://archive.org/stream/allgemeines-israelitisches-gesangbuch-eingefuhrt-in-dem-neuen-israelitschen-tempel-zu-hamburg-1833/Allgemeines%20Israelitisches%20Gesangbuch%20eingef%C3%BChrt%20in%20dem%20Neuen%20Israelitschen%20Tempel%20zu%20Hamburg%20%281833%29#page/n169/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sammlungderneue01salogoog/sammlungderneue01salogoog#page/n57/mode/2up">https://archive.org/stream/sammlungderneue01salogoog/sammlungderneue01salogoog#page/n57/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45956_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Licht und Wahrheit (Light and Truth)” is a hymn translated by Felix Adler from <tei:hi rend="italic">Allgemeines Israelitisches Gesangbuch: eingeführt in dem Neuen Israelitischen Tempel zu Hamburg</tei:hi> (1833), hymn No125, pp. 155-157, and published in <tei:hi rend="italic">Hymns, for Divine Service in the Temple Emanu-El</tei:hi> (1871), hymn No12, pp. 24-25. We have tentatively dated this hymn to 1868, since another hymn by Adler (“School-hymn, no. 36”) can be found appended from another unattributed work in <tei:hi rend="italic">A Guide to Instruction in the Israelitsh Religion</tei:hi> (Samuel Adler, trans. M. Mayer, Temple Emanu-El, 1864, 4th printing 1868). The hymn as printed in the Hamburg Temple Hymnal is nine stanzas long. That hymnal credits the hymn as printed in the collected sermons of Eduard Kley, <tei:hi rend="italic">Sammlung der neuesten Predigten</tei:hi> (1826) where it appears on pages 49-50 in three stanzas as part of a discourse on Passover. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45956_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:licht_und_wahrheit_adler"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

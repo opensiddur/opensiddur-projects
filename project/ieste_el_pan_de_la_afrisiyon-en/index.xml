@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הָא לַחְמָא עַנְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">Ieste el pan de la afrisiyon</tei:title>
+        <tei:title type="alt" xml:lang="en">Ha laḥ’ma anya (This is the Bread of Oppression): the opening of Magid in a Ladino translation</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הָא לַחְמָא עַנְיָא</tei:title>
+          <tei:title xml:lang="en">Ieste el pan de la afrisiyon</tei:title>
+          <tei:title xml:lang="en">Ha laḥ’ma anya (This is the Bread of Oppression): the opening of Magid in a Ladino translation</tei:title>
+          <tei:author>Emily Aviva Kapor-Mater</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0500" to="0800">0500 – 0800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36483</tei:idno>
+          <tei:idno type="opensiddur.org">36483</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/HaggadahShirGeulahEmilyAvivaKapor2ndEd.2015/Haggadah%20Shir%20Geulah%20%28v.2.1%20Emily%20Aviva%20Kapor%202016%29#page/n16/mode/2up">https://archive.org/stream/HaggadahShirGeulahEmilyAvivaKapor2ndEd.2015/Haggadah%20Shir%20Geulah%20%28v.2.1%20Emily%20Aviva%20Kapor%202016%29#page/n16/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36483_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Ha Laḥma Anya in Aramaic with translations in Ladino and English, from the Passover Seder Haggadah of Rabbi Emily Aviva Kapor-Mater, <tei:hi rend="italic">Haggadah Shir Geulah</tei:hi> (2015, v.2.1/2016). She includes the following commentary,</tei:p>
+        <tei:p>The paragraph that begins the seder is in Aramaic, the everyday language of many Talmudic-era Jews. Here, it is also given in Ladino, the Romance language spoken by many Sefardi Jews. It is supposed to be understandable by everyone, because it is not a prayer, but an invitation. But are all who are hungry truly able to eat anywhere, let alone with us? How many of us would really invite a stranger into our house today? How can we fix the systemic problems that foster hunger, poverty, and oppression?</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36483_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ieste_el_pan_de_la_afrisiyon_kapor_mater"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

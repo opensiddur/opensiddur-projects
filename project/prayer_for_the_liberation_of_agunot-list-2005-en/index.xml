@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה לעגונות</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Liberation of Agunot, by Shelley Frier List (2005)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה לעגונות</tei:title>
+          <tei:title xml:lang="en">Prayer for the Liberation of Agunot, by Shelley Frier List (2005)</tei:title>
+          <tei:author>Shelley Frier List</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2005">2005</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=8064</tei:idno>
+          <tei:idno type="opensiddur.org">8064</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_8064_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>An agunah (Hebrew: עגונה‎, plural: agunot (עגונות); literally “anchored”) is a halachic term for a Jewish woman who is “chained” to her marriage when her husband refuses to grant her a divorce document (known as a ‘get’) in rabbinic Jewish religious law.</tei:p>
+        <tei:p>Agunah Day was established by ICAR – The International Coalition for Agunah Rights – in 1990, to raise public awareness to the plight of the Agunah and galvanize action to solve the problem. It is observed on the Jewish calendar date of the Fast of Esther. Like Esther, the Agunah of the present era does not want to be in the marriage in which she finds herself. Many women who are refused a get live in fear of their spouses and live a double life, just as Esther led a double life. Also, like Esther, the Agunah, a victim of get-refusal, finds herself lacking control of her own freedom.</tei:p>
+        <tei:p>Shelley Frier List’s prayer for agunot was originally printed in JOFA JOURNAL, Summer 2005 (5:4), p.5, wherein was added a Hebrew adaptation made by the Jewish Orthodox Feminist Alliance (JOFA). (I’ve added “בּוֹרֵא שָׁמַיִם וַאָרֶץ” to the top and bottom of this prayer so that these gaps in the Hebrew adaptation are filled.) –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_8064_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_liberation_of_agunot_list"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

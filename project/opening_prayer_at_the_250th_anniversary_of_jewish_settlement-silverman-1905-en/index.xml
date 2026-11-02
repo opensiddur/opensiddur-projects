@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Opening prayer at the 250th Anniversary of Jewish Settlement in the United States — by Rabbi Joseph Silverman (1905)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Opening prayer at the 250th Anniversary of Jewish Settlement in the United States — by Rabbi Joseph Silverman (1905)</tei:title>
+          <tei:author>Joseph Silverman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1905">1905</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57163</tei:idno>
+          <tei:idno type="opensiddur.org">57163</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/250thanniversary00newyrich/250thanniversary00newyrich#page/4/mode/2up">https://archive.org/stream/250thanniversary00newyrich/250thanniversary00newyrich#page/4/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57163_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the opening prayer offered by Rabbi Joseph Silverman for “the two hundred and fiftieth anniversary of the settlement of the Jews in the United States, 1655-1905,” at Carnegie Hall, New York City, Thanksgiving Day, 30 November 1905. The prayer was published in the 14th issue of the <tei:hi rend="italic">Publications Of The American Jewish Historical Society</tei:hi> (1906) and in a book <tei:hi rend="italic">The two hundred and fiftieth anniversary of the settlement of the Jews in the United States, 1655-1905</tei:hi>, also published that same year by the AJHS.</tei:p>
+        <tei:p>On 22 August 1654, Jacob Barsimson arrived in New Amsterdam after having left the Netherlands on July 8. Barsimson had been sent out by the Jewish leaders of Amsterdam, Dutch Republic to determine the possibilities of an extensive Jewish immigration to New Amsterdam. He is the first known Jewish immigrant to America. Jewish settlement in New Amsterdam began in September 1654.</tei:p>
+        <tei:p>In September 1654, 23 Jews arrived in New Amsterdam aboard the St Cathrien. The Jews had come from Recife in Northeast Brazil, where they lived under Dutch rule. The Portuguese captured Recife from the Dutch and expelled the Jews. When the Jews arrived the captain of the ship sued them for the money to pay for their passage. The local court sold their belonging and imprisoned two of the party.</tei:p>
+        <tei:p>Peter Stuyvesant the governor of the colony was not happy to receive the Jews. He described the Jews as “deceitful” and very “repugnant”. Stuyvesant asked permission from the Dutch East India Company, who the colony belonged to remove the Jews from the settlement. The board, which included several Jewish investors, refused and instructed the governor to allow the new Jewish settlers to remain in New Amsterdam.</tei:p>
+        <tei:p>The 23 Jews who arrived were not the first Jews to arrive in North America, but [this is] the first record we have of a group of men women and children arriving to make it their permanent home.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57163_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:opening_prayer_at_the_250th_anniversary_of_jewish_settlement_silverman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

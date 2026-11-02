@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מזמור לבן סירא על זכות אבותינו (פרקים מד-נ)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Paean of Ben Sira on the Merit of the Ancestors (ch. 44-50), vocalized and cantillated with the Poetic Masoretic System by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מזמור לבן סירא על זכות אבותינו (פרקים מד-נ)‏</tei:title>
+          <tei:title xml:lang="en">Paean of Ben Sira on the Merit of the Ancestors (ch. 44-50), vocalized and cantillated with the Poetic Masoretic System by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Shimon ben Yeshua ben Eliezer ben Sira</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0260" to="-0161">-0260 – -0161</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31607</tei:idno>
+          <tei:idno type="opensiddur.org">31607</tei:idno>
+          <tei:note>Source: B_XIX_Recto (T-S 16 314) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/05/B_XIX_Recto-T-S-16-314-1.png">https://opensiddur.org/wp-content/uploads/2020/05/B_XIX_Recto-T-S-16-314-1.png</tei:ref></tei:note>
+          <tei:note>Source: B_XIX_Verso (T-S 16 314) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/05/B_XIX_Verso-T-S-16-314.png">https://opensiddur.org/wp-content/uploads/2020/05/B_XIX_Verso-T-S-16-314.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31607_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The apocryphal book of Ben Sira is one of the strangest omissions from the Biblical canon. Of all the books in the apocrypha, it’s the one which seems like it *would* be the least controversial — an assortment of traditional wisdom and piety, in the vein of the earlier chapters of Proverbs. It also concludes with an extensive poem lauding the merit of the ancestors, finishing with a glorious acclamation of Shimon ben Yoḥanan the High Priest, also known as the Shimon haTzadik, a beloved figure in rabbinic literature. And unlike the other apocryphal books whose original texts were lost, the Hebrew text of Ben Sira was preserved! So why was this book kept out of the canon, while radical dissents like Kohelet and Job were kept in? Well, probably it just boils down to the fact that Ben Sira signed his name, meaning the text could be dated back to him, and he was late enough that it could not be claimed to be prophetic inspiration. In any case, the influence of Ben Sira on Judaism is probably greater than any other apocryphal book. Not only is it the only apocryphal book openly cited in the Talmud, but its discovery in the Cairo Geniza was what led Solomon Schechter to realize its importance. Not to mention that the glorious poem lauding the ancestors from Chapters 44 to 50 is considered by many scholars to be the original influence for the Yom Kippur Avodah service, and the paean to Shimon the Righteous bears a striking similarity to the beloved piyyut “Mar’eh Khohen.” This passage from Ben Sira, the great paean on the merit of the ancestors, takes the Hebrew text of one of the Cairo Geniza manuscripts — Bodleian MS Heb e62 — and versifies it according to the standard Septuagintal text, along with vocalization and cantillation per the standard Masoretic EMe”T system for poetic books. It could be read on Yom Kippur for the avodah service, or just studied as a fascinating piece of Jewish history.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31607_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:paean_of_ben_sira_on_the_merit_of_the_ancestors_shimon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

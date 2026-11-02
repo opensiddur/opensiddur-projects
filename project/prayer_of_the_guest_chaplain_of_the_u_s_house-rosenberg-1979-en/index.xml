@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Bernhard H. Rosenberg on 14 June 1979</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Bernhard H. Rosenberg on 14 June 1979</tei:title>
+          <tei:author>Bernhard H. Rosenberg</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1979-06-14">1979-06-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56665</tei:idno>
+          <tei:idno type="opensiddur.org">56665</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 125, part 12 (14 June 1979), p. 14951 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--125-part-12-14-June-1979-p--14951.png">https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--125-part-12-14-June-1979-p--14951.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56665_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Bernhard H. Rosenberg, First Hebrew Congregation, Peekskill, New York</tei:p>
+        <tei:p>Sponsor: Rep. Hamilton Fish (R-NY)</tei:p>
+        <tei:p>Date of Prayer: 14 June 1979</tei:p>
+        <tei:p>Mr. FISH. Mr. Speaker, I want to take this opportunity to welcome to the Congress Rabbi Bernhard H. Rosenberg, a good friend and the spiritual leader of the First Hebrew Congregation of Peekskill, New York.</tei:p>
+        <tei:p>Besides fulfilling his duties as the leader of a large and active congregation, Rabbi Rosenberg is also a well-known writer whose articles on Jewish survival and the holocaust have been published nationally. He is an individual who is very active in community affairs and contributes a great deal to the welfare of the Peekskill community. I have known Rabbi Rosenberg for some time and we have worked together on projects on behalf of the Jewish community of the Hudson Valley.</tei:p>
+        <tei:p>He is a member of the Rabbinical Council of America, the New York Board of Rabbis, and the Yeshiva University Rabbinical Alumni. Rabbi Rosenberg has been involved as chairman and keynote speaker for numerous rallies on behalf of world Jewry and especially dealing with the memory of the six million Jewish martyrs that perished during the Holocaust. He is himself a son of survivors of the infamous death camp of Auschwitz.</tei:p>
+        <tei:p>I am indeed fortunate to have had the opportunity to invite Rabbi Rosenberg to open our legislative session with a prayer this morning. Rabbi Rosenberg is clearly a gifted man who has given leadership to his congregation and his community. I am honored by his presence here this morning.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56665_introduction"/>
+      <j:conditional xml:id="osp_56665_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the sixth month of the first session of the 96th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 125, part 12 (14 June 1979), page 14951.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56665_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_rosenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

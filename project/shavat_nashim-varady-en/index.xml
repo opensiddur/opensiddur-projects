@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שַׁוְעַת נָשִׁים: תפילה לשלומן של נשים קורבנות אלימות</tei:title>
+        <tei:title type="main" xml:lang="en">Shav'at Nashim, a prayer for the safety of women who are victims of violence (Masorti Movement in Israel)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/shoshana-michael-zucker">Shoshana Michael Zucker</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שַׁוְעַת נָשִׁים: תפילה לשלומן של נשים קורבנות אלימות</tei:title>
+          <tei:title xml:lang="en">Shav'at Nashim, a prayer for the safety of women who are victims of violence (Masorti Movement in Israel)</tei:title>
+          <tei:author>Knesset haRabanim b'Yisrael</tei:author>
+          <tei:author>the Masorti Movement in Israel</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-12-02">2020-12-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34465</tei:idno>
+          <tei:idno type="opensiddur.org">34465</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34465_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of solidarity with women victims of domestic violence was first published to the website of the Masorti Movement in Israel on 4 December 2018. The English translation was made by Aharon Varady, Shoshana Michael Zucker, and anonymous contributors from the Open Siddur Project discussion group on Facebook.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>היום יותר מתמיד. תפקדינו לזעוק זעקה!</tei:p>
+        <tei:p>רבות ורבני התנועה המסורתית מקריאים תפילה לשלומן של נשים קורבנות אלימות</tei:p>
+        <tei:p>לקריאת התפילה והדפסתה &gt; https://t.co/54xFmxAFuc #אלימות_נגד_נשים pic.twitter.com/bXRjur12uf</tei:p>
+        <tei:p>— התנועה המסורתית // The Masorti Movement (@MasortiMovement) November 25, 2020</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34465_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shavat_nashim_byisrael"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

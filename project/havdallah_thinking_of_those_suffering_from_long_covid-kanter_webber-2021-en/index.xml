@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Havdallah: Thinking of those suffering from long-COVID, by Gabriel Kanter-Webber (2021)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Havdallah: Thinking of those suffering from long-COVID, by Gabriel Kanter-Webber (2021)</tei:title>
+          <tei:author>Gabriel Kanter-Webber</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021-08-10">2021-08-10</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38546</tei:idno>
+          <tei:idno type="opensiddur.org">38546</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/havdallah-thinking-of-those-suffering-from-long-covid-gabriel-kanter-webber-2021/Havdallah%20thinking%20of%20those%20suffering%20from%20Long%20COVID%20%28Gabriel%20Kanter-Webber%202021%29#page/n0/mode/2up">https://archive.org/stream/havdallah-thinking-of-those-suffering-from-long-covid-gabriel-kanter-webber-2021/Havdallah%20thinking%20of%20those%20suffering%20from%20Long%20COVID%20%28Gabriel%20Kanter-Webber%202021%29#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38546_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This liturgy was compiled by Student Rabbi Gabriel Kanter-Webber. [In its original media as a document file] it is laid out in a landscape format to aid delivery over Zoom, at least in the short term (find PDF under ‘Source(s)’).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38546_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:havdallah_thinking_of_those_suffering_from_long_covid_kanter_webber"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

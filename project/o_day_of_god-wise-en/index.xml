@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">O Day of God, Leopold Stein's paraliturgical Kol Nidrei "O Tag des Herrn" (1840) adapted in English by Rabbi Isaac Mayer Wise (1866)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">O Day of God, Leopold Stein's paraliturgical Kol Nidrei "O Tag des Herrn" (1840) adapted in English by Rabbi Isaac Mayer Wise (1866)</tei:title>
+          <tei:author>Isaac Mayer Wise</tei:author>
+          <tei:author>Leopold Stein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1840">1840</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45738</tei:idno>
+          <tei:idno type="opensiddur.org">45738</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/divineserviceofa00jews/divineserviceofa00jews#page/n36/mode/2up">https://archive.org/stream/divineserviceofa00jews/divineserviceofa00jews#page/n36/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45738_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>One of the most revolutionary alterations made by the early Reform movement in Germany was their replacement of Kol Nidre with a German hymn, sung to the same melody: O Tag des Herrn. But when the early Reformers came to the United States, they adopted a new language, English. In 1866, the American Reform Jewish community was largely bilingual in German and English, and Isaac Mayer (No Relation) Wise’s 1866 service for the Day of Atonement took account for that, including a singable English translation of the singable German replacement for Kol Nidre. I have also included a musical score which uses I. M. Wise’s English text in Louis Lewandowsky’s original setting of O Tag des Herrn.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45738_introduction"/>
+      <j:conditional xml:id="osp_45738_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“O Tag des Herrn!” is a paraliturgical Kol Nidrei by Leopold Stein. Here it is translated from German to English by Rabbi Isaac Mayer Wise from his Yom Kippur mahzor (minhag America) תפלות בני ישורון ליום הכפורים <tei:hi rend="italic">The Divine Service for American Israelites for the Day of Atonement</tei:hi> (1866), pp. 30-33.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45738_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:o_day_of_god_stein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

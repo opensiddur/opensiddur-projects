@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Opening Prayer of the First Biennial Convention of the National Jewish Welfare Board, by Rabbi Maurice H. Harris (3 December 1922)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Opening Prayer of the First Biennial Convention of the National Jewish Welfare Board, by Rabbi Maurice H. Harris (3 December 1922)</tei:title>
+          <tei:author>Maurice Henry Harris</tei:author>
+          <tei:author>the National Jewish Welfare Board</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1922-12-03">1922-12-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64485</tei:idno>
+          <tei:idno type="opensiddur.org">64485</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/reportoffirstbie00nati/reportoffirstbie00nati#page/14/mode/2up">https://archive.org/stream/reportoffirstbie00nati/reportoffirstbie00nati#page/14/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64485_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the opening prayer of the First Biennial Convention of the National Jewish Welfare Board offered by Rabbi Maurice H. Harris, and published in the <tei:hi rend="italic">Report of First Biennial Convention [of the National Jewish Welfare Board]</tei:hi> (1922), p. 14.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64485_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:opening_prayer_of_the_first_biennial_convention_harris"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

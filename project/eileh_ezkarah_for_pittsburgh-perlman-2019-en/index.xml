@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵלֶּה אֶזְכְּרָה, נוּסַח פִּיטְסְבּוּרְג</tei:title>
+        <tei:title type="main" xml:lang="en">Eileh Ezkarah for Pittsburgh, by Rabbi Jonathan Perlman with Rabbi Tamar Elad-Appelbaum &amp; Rabbi Martin Cohen (2019)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵלֶּה אֶזְכְּרָה, נוּסַח פִּיטְסְבּוּרְג</tei:title>
+          <tei:title xml:lang="en">Eileh Ezkarah for Pittsburgh, by Rabbi Jonathan Perlman with Rabbi Tamar Elad-Appelbaum &amp; Rabbi Martin Cohen (2019)</tei:title>
+          <tei:author>Jonathan Perlman</tei:author>
+          <tei:author>Tamar Elad-Appelbaum</tei:author>
+          <tei:author>Martin Samuel Cohen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-09-26">2019-09-26</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27343</tei:idno>
+          <tei:idno type="opensiddur.org">27343</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27343_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Beth Kissilef writes:</tei:p>
+        <tei:p>I wish the eleven kedoshei Pittsburgh (martyrs) were still with us. But I am very proud that my husband initiated a collaboration to have a meaningful religious response to the tragedy. This is a modern version of the prayer for martyrs read on Yom Kippur. It was written by Rabbi Jonathan Perlman [New Light Congregation, Pittsburgh] in collaboration with Rabbis Tamar Elad-Appelbaum of קהילה ציון ארצישראלית – Kehilat Ẓion Jerusalem and Martin Cohen of the Shelter Rock Jewish Center with <tei:hi rend="italic">nekudot</tei:hi> (vowels) by Tova Admon of Hillel Academy of Pittsburgh and typesetting by David Zvi Kalman. Please read, use and share as the authors would like this response to be known and understood. A version is on the Rabbinical Assembly website and will be on the New Light Congregation site too. <tei:hi rend="italic">Shana tova u’metuka</tei:hi> – a good and sweet new year.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27343_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eileh_ezkarah_for_pittsburgh_perlman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Thanksgiving to the Almighty for the Diamond Jubilee of Her Majesty the Empress Victoria, by Joseph Ezekiel Rajpurkar at Gates of Mercy Synagogue, Bombay (20 June 1897)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Thanksgiving to the Almighty for the Diamond Jubilee of Her Majesty the Empress Victoria, by Joseph Ezekiel Rajpurkar at Gates of Mercy Synagogue, Bombay (20 June 1897)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Joseph Ezekiel Rajpurkar</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1897-06-20">1897-06-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64778</tei:idno>
+          <tei:idno type="opensiddur.org">64778</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/thanksgiving-to-the-almighty-for-the-diamond-jubilee-of-h-m-the-empress-victoria/Thanksgiving%20to%20the%20Almighty%20for%20the%20Diamond%20Jubilee%20of%20Her%20Majesty%20the%20Empress%20Victoria%20%28Joseph%20Ezekiel%20Rajpurkar%2C%2020%20June%201897%29#page/n1/mode/2up">https://archive.org/stream/thanksgiving-to-the-almighty-for-the-diamond-jubilee-of-h-m-the-empress-victoria/Thanksgiving%20to%20the%20Almighty%20for%20the%20Diamond%20Jubilee%20of%20Her%20Majesty%20the%20Empress%20Victoria%20%28Joseph%20Ezekiel%20Rajpurkar%2C%2020%20June%201897%29#page/n1/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64778_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>On 20 June 1897, Joseph Ezekiel Rajpurkar offered this civic prayer in Hebrew with translations in Marathi and English, on behalf of the congregation of the Gates of Prayer Synagogue (Bombay/Mumbai), for the 50th anniversary of the reign of Queen Victoria over the British Empire.</tei:p>
+        <tei:p>If you are literate in Marathi and are capable of typing in Devanagari script, we request your assistance in proofreading the Marathi translation of this prayer. Please share your corrections in the comments or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64778_introduction"/>
+      <j:conditional xml:id="osp_64778_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This transcription was derived from a digital edition prepared by Aharon Varady from a page image made of an item held in the collection of the HUC-JIR Klau library, Cincinnati. (Thank you!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64778_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:thanksgiving_to_the_almighty_for_the_diamond_jubilee_of_her_joseph"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

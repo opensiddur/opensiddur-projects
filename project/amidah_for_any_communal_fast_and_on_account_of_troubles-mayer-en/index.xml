@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה לכל תענית צבור ועל כל צרה (שלא תבא על הציבור!)</tei:title>
+        <tei:title type="main" xml:lang="en">Amidah for Any Communal Fast and On Account of Troubles (Nusaḥ Italki)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה לכל תענית צבור ועל כל צרה (שלא תבא על הציבור!)</tei:title>
+          <tei:title xml:lang="en">Amidah for Any Communal Fast and On Account of Troubles (Nusaḥ Italki)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0500" to="1000">0500 – 1000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46829</tei:idno>
+          <tei:idno type="opensiddur.org">46829</tei:idno>
+          <tei:note>Source: Taanit Tsibur baMahzor Roma (Goldschmidt)_Page_185 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Taanit-Tsibur-baMahzor-Roma-Goldschmidt_Page_185.png">https://opensiddur.org/wp-content/uploads/2022/09/Taanit-Tsibur-baMahzor-Roma-Goldschmidt_Page_185.png</tei:ref></tei:note>
+          <tei:note>Source: Taanit Tsibur baMahzor Roma (Goldschmidt)_Page_186 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Taanit-Tsibur-baMahzor-Roma-Goldschmidt_Page_186.png">https://opensiddur.org/wp-content/uploads/2022/09/Taanit-Tsibur-baMahzor-Roma-Goldschmidt_Page_186.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46829_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The Italian rite, unique among Jewish rites, has preserved up until very recently the custom recorded in the Talmud, Masekhet Tagnanith, for communally declared fast days. In this rite, sometimes referred to as the Twenty-Four Blessings, six more blessings are added to the liturgy — the Zikhronot and Shofrot portions more commonly recited on Rosh haShanah, and four different psalms, all interspaced with a poetic litany on behalf of the ancestors’ merit and shofar blasts. It’s a fascinatng service!</tei:p>
+        <tei:p>Note: this new English translation translates the Divine Name as “Domedet,” the traditional term used as a Judeo-Italian translation of the Tetragrammaton. Of uncertain origin, it may be a derivation of the Latin “Dominus Deus” meaning “the LORD God.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46829_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah_for_any_communal_fast_and_on_account_of_troubles"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

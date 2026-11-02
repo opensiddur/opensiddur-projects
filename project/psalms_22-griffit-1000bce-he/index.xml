@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תהלים כ״ב בלשון לאדינו</tei:title>
+        <tei:title type="alt" xml:lang="en">Psalms 22 by David in Ladino (Estampado por Ǧ. Griffit, ca. 1852/3)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תהלים כ״ב בלשון לאדינו</tei:title>
+          <tei:title xml:lang="en">Psalms 22 by David in Ladino (Estampado por Ǧ. Griffit, ca. 1852/3)</tei:title>
+          <tei:author>Estampado por Ǧ. Griffit</tei:author>
+          <tei:author>David ben Yishai</tei:author>
+          <tei:author>the Mesorah</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-1000" to="-0400">-1000 – -0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=23681</tei:idno>
+          <tei:idno type="opensiddur.org">23681</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/TehilimEnLaLinguaSefaradit#page/n26/mode/2up/">https://www.archive.org/stream/TehilimEnLaLinguaSefaradit#page/n26/mode/2up/</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_23681_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>To the best of my ability, this is a faithful transcription of Psalms 22 from תהילים או לוס סאלמוס ; טריסלאד’אד’וס דיל לשון הקדש אין לה לינגואה ספרדית (<tei:hi rend="italic">Tehillim, or the Psalms, translated from the Holy language [Hebrew] into the Sephardic language</tei:hi>, Estampado por Ǧ. Griffit 1852/3) from a digital copy made available by the collection of Sephardic Studies at the University of Washington. Please join me in making a complete transcription of this Ladino translation of Psalms. –Aharon N. Varady</tei:p>
+        <tei:p>Psalms 22 is traditionally recited on the Fast of Esther. This psalm is recited during synagogue services on Purim by various groups. Sephardi and Mizrahi Jews say Psalms 22 at the beginning of the evening service on Purim night. Sephardi and Mizrahi Jews, as well as Ashkenazi Jews who follow the custom of the Vilna Gaon, recite Psalm 22 as the Song of the Day in the Purim morning service.</tei:p>
+        <tei:p>Psalms 22:4 is part of the opening paragraph of Uva letzion. Psalms 22:12 is recited during Selichot. Psalms 22:26 is found in the repetition of the Amidah in the Rosh Hashanah morning service. Psalms 22:29 is a part of the Song of the Sea, which is recited during Pesukei dezimra in the morning prayer. This verse is also said during Mussaf on Rosh Hashanah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_23681_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/22"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

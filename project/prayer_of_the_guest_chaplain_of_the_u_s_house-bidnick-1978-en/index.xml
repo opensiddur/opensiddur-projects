@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dov Bidnick on 6 April 1978</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dov Bidnick on 6 April 1978</tei:title>
+          <tei:author>Dov Bidnick</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1978-04-06">1978-04-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55240</tei:idno>
+          <tei:idno type="opensiddur.org">55240</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 124, part 7 (6 April 1978), p. 9061 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Congressional-Record-vol--124-part-7-6-April-1978-p--9061.png">https://opensiddur.org/wp-content/uploads/2024/04/Congressional-Record-vol--124-part-7-6-April-1978-p--9061.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55240_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Dov Bidnick, Sky Lake Synagogue, North Miami Beach, Florida</tei:p>
+        <tei:p>Sponsor: Rep. Bill Lehman (D-FL)</tei:p>
+        <tei:p>Date of Prayer: 6 April 1978</tei:p>
+        <tei:p>Mr. LEHMAN. Mr. Speaker. Rabbi Dov Bidnick is the spiritual leader of Sky Lake Synagogue in North Miami Beach, Florida. He is a graduate of Johns Hopkins University, was ordained at the Ner Israel Rabbinical College in Baltimore in 1963, and received his masters degree in education from the Ferkauf Graduate School of Yeshiva University in 1974. He is married to the former Judi Levin of Harrisburg, Pennsylvania, and they have three sons.</tei:p>
+        <tei:p>Rabbi Bidnick is in the forefront of community activities involving not only the Jewish community, but the community in general. He is a lecturer and educator for the Central Agency for Jewish Education’s Judaica High School as well as having taught for the Hebrew Academy. He is the educational director of Hineni of Florida’s Leadership Training Seminar. He was formerly the principal of the Hillel Community Day School of North Miami Beach.</tei:p>
+        <tei:p>Rabbi Bidnick is one of the founders of the Torah Academy of South Florida and serves on the Human Resources Committee of the city of North Miami Beach. In addition, he hosts a radio program, “Judaism Speaks,” and serves on the boards of the Mesivta High School, the Hebrew Academy, and the National Conference of Synagogue Youth.</tei:p>
+        <tei:p>For many years Rabbi Bidnick has been involved with those national and local organizations that have helped him to best dedicate his life to helping people.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55240_introduction"/>
+      <j:conditional xml:id="osp_55240_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the fourth month of the second session of the 95th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 124, part 7 (6 April 1978), page 9061.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55240_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_bidnick"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

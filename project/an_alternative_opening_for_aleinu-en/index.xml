@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עלינו</tei:title>
+        <tei:title type="main" xml:lang="en">An Alternative Opening for Aleinu, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עלינו</tei:title>
+          <tei:title xml:lang="en">An Alternative Opening for Aleinu, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-11-03">2013-11-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=7723</tei:idno>
+          <tei:idno type="opensiddur.org">7723</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_7723_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This version of the <tei:hi rend="italic">Aleinu</tei:hi> recognizes that all nations play a role in God’s plan for humanity. It offers an alternative to the traditionally particularist liturgy, “שֶׁלֹּא עָשָֽׂנוּ כְּגוֹיֵי הָאֲרָצוֹת וְלֹא שָׂמָֽנוּ כְּמִשְׁפְּחוֹת הָאֲדָמָה: שֶׁלֹּא שָׂם חֶלְקֵֽנוּ כָּהֶם וְגֹרָלֵֽנוּ כְּכָל הֲמוֹנָם:‏ (“since God has not made us like the nations of other lands, and has not placed us like other families of the earth, since God has not assigned for us a portion as for them, nor a lot as unto all their multitude”). — Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_7723_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:an_alternative_opening_for_aleinu_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

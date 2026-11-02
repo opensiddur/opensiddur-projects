@@ -1,0 +1,43 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">פֶּרֶק שִׁירָה</tei:title>
+        <tei:title type="alt" xml:lang="en">Pereq Shirah, a litany of verses spoken by the creatures &amp; works of Creation (after the arrangement of Natan Slifkin)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פֶּרֶק שִׁירָה</tei:title>
+          <tei:title xml:lang="en">Pereq Shirah, a litany of verses spoken by the creatures &amp; works of Creation (after the arrangement of Natan Slifkin)</tei:title>
+          <tei:author>Rabbi Natan Slifkin</tei:author>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0440" to="0500">0440 – 0500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10950</tei:idno>
+          <tei:idno type="opensiddur.org">10950</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/SiddurLivnatHaSapirForWelcomingTheShabbatAharonVarady2017#page/n54/mode/2up">https://www.archive.org/stream/SiddurLivnatHaSapirForWelcomingTheShabbatAharonVarady2017#page/n54/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/PerekShiraCriticalEditionMalachiBeitArie1967/PerekShiraCriticalEditionVol.2malachiBeit-arie1967#page/n20/mode/2up">https://archive.org/stream/PerekShiraCriticalEditionMalachiBeitArie1967/PerekShiraCriticalEditionVol.2malachiBeit-arie1967#page/n20/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:pereq_shirah_slifkin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

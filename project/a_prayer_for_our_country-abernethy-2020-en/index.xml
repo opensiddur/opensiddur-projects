@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Our Country, its Leaders, and its Citizens — by David Abernethy (2020)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Our Country, its Leaders, and its Citizens — by David Abernethy (2020)</tei:title>
+          <tei:author>David Abernethy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-12-13">2020-12-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34657</tei:idno>
+          <tei:idno type="opensiddur.org">34657</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34657_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This prayer — for the United States, its leaders and government and its citizens — was my personal response to things that were deeply concerning to me in the months leading up to our most recent election. A rising level of divisiveness in our public discourse. A common belief that we need not be respectful of those with whom we disagree. And a growing acceptance of the view that every individual is entitled to choose which of our society’s rules to follow, and which not – that we need only concern ourselves with our own rights and opinions, not our responsibilities to one another. Over the past few months I have read many beautiful and deeply moving versions of prayers for our country and its government, all highlighting different concerns and challenges, but all reflecting a deeply rooted tradition of concern for the welfare of the nations and communities in which we live. This one is simply one person’s way of expressing that concern. Shared within a synagogue community but not published elsewhere.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34657_introduction"/>
+      <j:conditional xml:id="osp_34657_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>David Abernethy’s “A Prayer for Our Country, its Leaders, and its Citizens” (2020), written in the context of the 2020 United States General Election, was revised in 2025 in the context of the completion of the first 100 days of the 47th president of the United States: “A Prayer for Our Country, Its Leaders and Its Citizens – reconsidered in 2025.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34657_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_our_country_abernethy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

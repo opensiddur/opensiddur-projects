@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יוֹם זֶה לְיִשְׁרַאֵל</tei:title>
+        <tei:title type="main" xml:lang="en">Yom Zeh l'Yisrael, a piyyuṭ by Rabbi Yitsḥaq Luria (abridged rhymed translation by Alice Lucas, 1898)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יוֹם זֶה לְיִשְׁרַאֵל</tei:title>
+          <tei:title xml:lang="en">Yom Zeh l'Yisrael, a piyyuṭ by Rabbi Yitsḥaq Luria (abridged rhymed translation by Alice Lucas, 1898)</tei:title>
+          <tei:author>Yitsḥak Luria</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Alice Montefiore Lucas</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1540" to="1600">1540 – 1600</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36173</tei:idno>
+          <tei:idno type="opensiddur.org">36173</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/180/mode/2up">https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/180/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36173_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Alice Lucas’s rhymed paraliturgical translation of the piyyut “Yom Zeh l’Yisrael” by Rabbi Yitsḥaq Luria, was first published in her <tei:hi rend="italic">The Jewish Year</tei:hi> (1898), pp. 180-181, under the title “Grace for the Sabbath.” Several of the stanzas are omitted in her translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36173_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yom_zeh_leyisrael_luria_36173"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

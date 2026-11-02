@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet für den Landesfürsten</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer for the sovereign (Emperor Franz Joseph I), a teḥinah by Abraham Neuda (1855)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet für den Landesfürsten</tei:title>
+          <tei:title xml:lang="en">Prayer for the sovereign (Emperor Franz Joseph I), a teḥinah by Abraham Neuda (1855)</tei:title>
+          <tei:author>Fanny Schmiedl-Neuda</tei:author>
+          <tei:author>Abraham Neuda</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1855">1855</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=42814</tei:idno>
+          <tei:idno type="opensiddur.org">42814</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/StundenDerAndachtFannyNeuda1864/Stunden%20der%20Andacht%20%28Fanny%20Neuda%2C%201864%29#page/n38/mode/2up">https://archive.org/stream/StundenDerAndachtFannyNeuda1864/Stunden%20der%20Andacht%20%28Fanny%20Neuda%2C%201864%29#page/n38/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/stunden-der-andacht-ein-gebet-und-erbauungsbuch-fur-israels-frauen-und-jungfrauen-fanny-neuda-1855/Stunden%20der%20Andacht-%20ein%20Gebet-%20und%20Erbauungs-buch%20f%C3%BCr%20Israels%20Frauen%20und%20Jungfrauen%20%28Fanny%20Neuda%201855%29#page/22/mode/2up/">https://archive.org/stream/stunden-der-andacht-ein-gebet-und-erbauungsbuch-fur-israels-frauen-und-jungfrauen-fanny-neuda-1855/Stunden%20der%20Andacht-%20ein%20Gebet-%20und%20Erbauungs-buch%20f%C3%BCr%20Israels%20Frauen%20und%20Jungfrauen%20%28Fanny%20Neuda%201855%29#page/22/mode/2up/</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_42814_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Gebet für den Landesfürsten” by Abraham Neuda was first published in the collection of teḥinot otherwise authored by his wife, Fanny Schmiedl Neuda, <tei:hi rend="italic">Stunden der Andacht. ein Gebet⸗ und Erbauungs-buch für Israels Frauen und Jungfrauen</tei:hi> (1855), pp. 22-23. In the 1864 Judeo-German edition, it is found on pp. 28-29.</tei:p>
+        <tei:p>We welcome corrections and improvements. The transcription of the German from Latin script in Fraktur type provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_42814_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_fur_den_landesfursten_schmiedl_neuda"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

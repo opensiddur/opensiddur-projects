@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּחִנָה פון רֹאשׁ חוֹדֶשׁ בענטשן</tei:title>
+        <tei:title type="main" xml:lang="en">Tkhine for the Rosh Ḥodesh Blessing, by an unknown author</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּחִנָה פון רֹאשׁ חוֹדֶשׁ בענטשן</tei:title>
+          <tei:title xml:lang="en">Tkhine for the Rosh Ḥodesh Blessing, by an unknown author</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1740" to="1800">1740 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=15526</tei:idno>
+          <tei:idno type="opensiddur.org">15526</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SiddurKorbanMinchah#page/n238/mode/2up">https://archive.org/stream/SiddurKorbanMinchah#page/n238/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_15526_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a faithful transcription of the תחינה פון ראש חודש בענטשן (“Tkhine for the Rosh Ḥodesh Blessing”) which first appeared in סידור קרבן מנחה (<tei:hi rend="italic">Siddur Korban Minḥah</tei:hi>), 1844. Translation adapted from Rivka Zakutinsky as found in <tei:hi rend="italic">Techinas: A Voice from the Heart, “As Only A Woman Can Pray”</tei:hi> (New York: Aura Press, 1992), p.46-61. There the tkhine is attributed to Leah Horowitz, but this attribution can only be considered pseudepigraphic. –A.N. Varady</tei:p>
+        <tei:p>The Teḥina for the blessing of the new moon is said each Shabbat Mevorkhim, addition to the specific Teḥinah for that month. The prayer is recited when the Aron HaḲodesh is opened, signifying the opening of the Heavenly gates of mercy (an especially propitious time to pray for health, livelihood, and all good).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_15526_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tkhine_for_the_rosh_chodesh_blessing_author"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

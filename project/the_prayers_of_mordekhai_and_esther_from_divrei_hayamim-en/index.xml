@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הַתְּפִלּוֹת שֶׁל מָרְדְּכַי וְאֶסְתֵּר</tei:title>
+        <tei:title type="main" xml:lang="en">The Prayers of Mordekhai and Esther from Divrei haYamim l'Yeraḥmiel (ca. 11-12th c.)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הַתְּפִלּוֹת שֶׁל מָרְדְּכַי וְאֶסְתֵּר</tei:title>
+          <tei:title xml:lang="en">The Prayers of Mordekhai and Esther from Divrei haYamim l'Yeraḥmiel (ca. 11-12th c.)</tei:title>
+          <tei:author>Moses Gaster</tei:author>
+          <tei:author>Yeraḥmiel ben Shlomo</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30495</tei:idno>
+          <tei:idno type="opensiddur.org">30495</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/chroniclesofjera00eleaiala#page/236/mode/2up">https://archive.org/stream/chroniclesofjera00eleaiala#page/236/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30495_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In the cantillated text provided here, blue text is read in the Eikhah melody and red text is read in the “entrances” melody (used in Ashkenaz for vaye’ehav hamelekh and a few other verses). –Isaac Gantwerk Mayer</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30495_introduction"/>
+      <j:conditional xml:id="osp_30495_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a transcription and translation of a section of the Chronicles of Yeraḥmiel (or Jerahmeel, the work also known as Divrei haYamim l’Yeraḥmiel or Sefer Zikhronot), a pseudo-historical anthology compiled by Yeraḥmiel bar Shlomo who flourished in the 11th or 12th century. See Haim Schwarzbaum’s Prolegomenon on Jerahmeel in the 1971 reprint of Moses Gaster’s translation by Ktav Publishing House for more discussion on the author. The compilation includes material from other known works such as Sefer haYashar and Sefer Yossipon, as well as material found nowhere else. Concerning this section of the manuscript, Schwarzbaum writes:</tei:p>
+        <tei:p><tei:hi rend="italic">Jerahmeel</tei:hi> LXXIX-LXXX (pp. 236-241) presents the Esther and Mordecai legends in conformity with <tei:hi rend="italic">Josippon</tei:hi>, ed. Günzburg, cols. 53-60; ed. Huminer pp. 25-30, Mordecai’s dream as given by <tei:hi rend="italic">Josippon</tei:hi> (= <tei:hi rend="italic">Jerahm</tei:hi>. LXXIX 3, p. 237, below) is derived from the <tei:hi rend="italic">Apocryphal Additions to Esther</tei:hi> (Charles I 672f.; Menahem Edmund Stein in Kahana’s <tei:hi rend="italic">Ha-Sepharim Ha-Hitzonim</tei:hi> I 539ff.; E. S. Hartom pp. 49ff.). It is not extant in Flavius Josephus’s <tei:hi rend="italic">Antiquit</tei:hi>. Cf. also Pfeiffer 304ff.; C.C. Torrey, <tei:hi rend="italic">The Apocryphal Literature</tei:hi>, New Haven 1945, pp. 57-59; O. Eissfeldt, <tei:hi rend="italic">The O.T.</tei:hi> (1966) p. 511; Ginzberg IV 419-420; VI 470, note 132; M. J. Bin Gorion, <tei:hi rend="italic">Mimkor Israel</tei:hi> (1966), pp. 87-88, No. 102, as well as his <tei:hi rend="italic">Die Sagen der Juden</tei:hi>, vol. V (1927), pp. 415-422: “Der Traum Mordechais und Esthers Bittgang,” and his <tei:hi rend="italic">Zephunot ve-Aggadot</tei:hi> (1964) p. 125f.; Jellinek vol. V, pp. VII-X and 1-16. Gaster’s reference (in his introduction, p. CVIII, below) to Jellinek vol. I should read “vol. V.” See also the Aramaic and Hebrew versions of Mordecai’s dream and Esther’s prayer edited by S.A. and A.J. Wertheimer, vol. I, Jerusalem 1950, pp. 316f. and 331-339; Eisenstein pp. 64-66; cf. also <tei:hi rend="italic">Esther Rabbah</tei:hi> VIII 5; <tei:hi rend="italic">Yalkut Shimeoni</tei:hi> on Esther, No. 1056.</tei:p>
+        <tei:p>The manuscript from which this transcription was derived is Bodleian MS. 2797, and dates from the 14th century thanks to the scribe, Eleazar ben Asher haLevi. Hakham Dr. Moses Gaster was the first to transcribe the manuscript in the late 19th century, but only small portions of the transcription were published before Gaster’s translation of the whole in 1899. In 2001, a complete transcription of the manuscript was published by Eli Yassif (University of Tel Aviv Press), and it is from that edition that I made the digital transcription of the Hebrew appearing here.<tei:anchor xml:id="note_11"/> This I have set side-by-side with Gaster’s translation, modifying the latter by removing archaic English and re-Hebraizing personal and divine names where they are invoked. In 2026, Isaac Gantwerk Mayer vocalized and cantillated the text accompanied by a reading of the same. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30495_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_prayers_of_mordekhai_and_esther_from_divrei_hayamim_gaster"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="11" target="#note_11">
+      <tei:p>Many thanks to Dr. John C. Reeves for pointing me to this resource, as well as to Schwarzbaum’s Progomenon.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה לישראל</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer for Israel, by Rabbi Lawrence A. Hoffman (2013)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה לישראל</tei:title>
+          <tei:title xml:lang="en">A Prayer for Israel, by Rabbi Lawrence A. Hoffman (2013)</tei:title>
+          <tei:author>Lawrence A. Hoffman</tei:author>
+          <tei:author>T'ruah: The Rabbinic Call for Human Rights</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013">2013</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31267</tei:idno>
+          <tei:idno type="opensiddur.org">31267</tei:idno>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.truah.org/wp-content/uploads/2017/09/Prayer-Israel-Hoffman.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.truah.org/wp-content/uploads/2017/09/Prayer-Israel-Hoffman.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31267_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This Prayer for Israel was composed in English by Rabbi Lawrence A. Hoffman. Hebrew translation offered by Rabbi David Nelson and shared together for a Human Rights Shabbat by T’ruah in 2013. Many thanks to Baruch Sienna and the Open Siddur Project community for their help in correcting the niqqud in Rabbi Nelson’s Hebrew translation. We also worked to improve his Hebrew translation which ultimately led to several additions to the English source [in brackets], especially in the ḥatimah. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31267_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_israel_hoffman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

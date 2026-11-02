@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה למספד על המלך גארג</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Memorial Service of King George VI (Office of the Chief Rabbi of the United Hebrew Congregations, 15 February 1952)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה למספד על המלך גארג</tei:title>
+          <tei:title xml:lang="en">Prayer for the Memorial Service of King George VI (Office of the Chief Rabbi of the United Hebrew Congregations, 15 February 1952)</tei:title>
+          <tei:author>Isidor Grunfeld</tei:author>
+          <tei:author>Alexander Altmann</tei:author>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1952-02-15">1952-02-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46751</tei:idno>
+          <tei:idno type="opensiddur.org">46751</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/order-of-prayer-to-be-used-at-the-memorial-service-for-king-george-vi/Order%20of%20Prayer%20to%20be%20used%20at%20the%20Memorial%20Service...for%20his%20Late%20Majesty%20King%20George%20%28Office%20of%20the%20Chief%20Rabbi%201952%29#page/3/mode/2up">https://archive.org/stream/order-of-prayer-to-be-used-at-the-memorial-service-for-king-george-vi/Order%20of%20Prayer%20to%20be%20used%20at%20the%20Memorial%20Service...for%20his%20Late%20Majesty%20King%20George%20%28Office%20of%20the%20Chief%20Rabbi%201952%29#page/3/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46751_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the prayer offered at the “Memorial Service on Friday, 15th February, 1952 (Eve of Sabbath, 19th Shebat, 5712) at the New West End Synagogue (London, W. 2) for His Late Majesty King George (VI)” as given by the Office of the Chief Rabbi of the United Kingdom and the Commonwealth (officiated by Dayan Dr. I. Grunfeld and Rabbi Dr. A. Altmann, M.A. [Joint Deputies for the Chief Rabbi], the Rev. Ephraim Levine, M.A., the Rev. R.H. Levy, M.A.). Many thanks to Jeffrey Maynard for providing the page images of the service containing this prayer at his blog, Jewish Miscellanies. Aside from this faithful transcription, I have added citation references. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46751_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_memorial_service_of_king_george_vi_grunfeld"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

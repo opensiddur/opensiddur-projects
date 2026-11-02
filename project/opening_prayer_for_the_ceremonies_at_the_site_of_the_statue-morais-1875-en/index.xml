@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Opening prayer for the Ceremonies at the Site of the Statue of Religious Liberty by the Independent Order of B'nai Brith, by Rabbi Sabato Morais (5 July 1875)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Opening prayer for the Ceremonies at the Site of the Statue of Religious Liberty by the Independent Order of B'nai Brith, by Rabbi Sabato Morais (5 July 1875)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1875-07-05">1875-07-05</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57136</tei:idno>
+          <tei:idno type="opensiddur.org">57136</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/celebrationofnin00unit/celebrationofnin00unit#page/30/mode/2up">https://archive.org/stream/celebrationofnin00unit/celebrationofnin00unit#page/30/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57136_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This was the opening prayer offered by Rabbi Sabato Morais at the “Ceremonies at the Site of the Statue of Religious Liberty by the Independent Order of B’nai Berith” for the <tei:hi rend="italic">Celebration of the Ninety-Ninth Anniversary of American Independence in Fairmount Park, Philadelphia, July 5th, 1875</tei:hi> and published in a booklet containing the same. The site of the ceremonies was “the Walnut Street Railway, near the Centennial grounds.” The statue, “Religious Liberty,” was commissioned by B’nai B’rith and dedicated “to the people of the United States” as an expression of support for the Constitutional guarantee of religious freedom. It was created by Moses Jacob Ezekiel, a B’nai B’rith member and the first American Jewish sculptor to gain international prominence.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57136_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:opening_prayer_for_the_ceremonies_at_the_site_of_the_statue_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

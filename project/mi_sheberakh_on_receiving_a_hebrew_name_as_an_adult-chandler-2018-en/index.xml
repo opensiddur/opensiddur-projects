@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מי שברך על קבלת שם עברי</tei:title>
+        <tei:title type="main" xml:lang="en">Mi sheBerakh on Receiving a Hebrew Name as an Adult</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מי שברך על קבלת שם עברי</tei:title>
+          <tei:title xml:lang="en">Mi sheBerakh on Receiving a Hebrew Name as an Adult</tei:title>
+          <tei:author>Sarah Chandler</tei:author>
+          <tei:author>Mollie Andron</tei:author>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-06-20">2018-06-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20363</tei:idno>
+          <tei:idno type="opensiddur.org">20363</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/RitualResourcesHillelU2017#page/n37/mode/2up">https://archive.org/stream/RitualResourcesHillelU2017#page/n37/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20363_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This ritual liturgy for Hebrew naming was prepared in 2016 as part of a series of ritual resource guides for Hillel International by Mollie Andron, in collaboration with Sarah Chandler and Aharon Varady. The selection of verses was chosen by Sarah Chandler. The Mi Sheberakh for adult men and women was adapted by Aharon Varady from the blessings over the names of infant boys and girls.</tei:p>
+        <tei:p>For those interested, the full set of guides can be downloaded here.</tei:p>
+        <tei:p>The names of our ancestors reflect the diverse tapestry of experiences and cultures our people encountered including the names of those who joined our families from neighboring people and regional societies. In giving and receiving Hebrew names, we honor the names of all our ancestors whose “names may be remembered for a blessing” (<tei:hi rend="italic">zekher livrakha</tei:hi>). Of the ancestors mentioned in the mi sheberakh (“May the one who blessed our forefathers and foremothers...”), I wanted to make certain to include Mordekhai and Esther, names of figures distinguished in their being both native to their Diasporan roots (Marduk and Ishtar), as well as elevated by the heroic, brave action of their namesakes. If there are figures from the Tanakh that are important to you, that are a kesher (connection) between you and your Jewish identity contained within these stories, then please feel free to include them in your mi sheberakh. –Aharon Nissn ben Adrienne &amp; David (אַהֲרֹן נִיסָן בֶּן אײדרען וְדַוִד)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20363_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh_on_receiving_a_hebrew_name_as_an_adult_chandler"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

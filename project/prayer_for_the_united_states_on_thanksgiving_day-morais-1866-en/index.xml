@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the United States on Thanksgiving Day, by Rabbi Sabato Morais (29 November 1866)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the United States on Thanksgiving Day, by Rabbi Sabato Morais (29 November 1866)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1866-11-29">1866-11-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46221</tei:idno>
+          <tei:idno type="opensiddur.org">46221</tei:idno>
+          <tei:note>Source: Thanksgiving Day Prayer [1866-11-29] (Sabato Morais Ledger, p. 25, clipping 031) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/Thanksgiving-Day-Prayer-1866-11-29-Sabato-Morais-Ledger-p.-25-clipping-031.jpg">https://opensiddur.org/wp-content/uploads/2022/08/Thanksgiving-Day-Prayer-1866-11-29-Sabato-Morais-Ledger-p.-25-clipping-031.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46221_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This Thanksgiving Day prayer by Rabbi Sabato Morais was offered in conclusion to a sermon reprinted the following day in <tei:hi rend="italic">The Philadelphia Inquirer</tei:hi> on 30 November 1866. It was preserved by Rabbi Morais in his ledger (page 25, clipping 031), an archive of newsclippings recording material he contributed to the press, among other announcements. (Many thanks to the Library of the University of Pennsylvania for helping to make this resource accessible.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46221_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_united_states_on_thanksgiving_day_morais_46221"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

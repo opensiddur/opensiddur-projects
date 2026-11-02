@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת המזון (אשכנז)</tei:title>
+        <tei:title type="main" xml:lang="en">Ḥaverai Nevarekh: Blessing the Spirit of All-which-Lives after Eating and Feeling Satiated, a birkon by Aharon Varady (2016)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון (אשכנז)</tei:title>
+          <tei:title xml:lang="en">Ḥaverai Nevarekh: Blessing the Spirit of All-which-Lives after Eating and Feeling Satiated, a birkon by Aharon Varady (2016)</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2016-04-18">2016-04-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=13386</tei:idno>
+          <tei:idno type="opensiddur.org">13386</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_13386_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Unlike most plant and bacterial life, we human beings cannot process our own food from the sun, soil, water, and air. And so, as with the other kingdoms of life on Earth, we are dependent on vegetation to live, either directly by consuming plants, or indirectly by predating on other creatures that consume vegetation. Being nourished and seeking nourishment is so basic to us, that our practical desperation for survival undergirds most of our ethics relating to non-human life. But Judaism demands that our human propensity towards predation be circumscribed. Indeed, it is my understanding that the ultimate goal of Torah is to circumscribe and temper our our predatory appetites, and to limit and discipline our predatory behavior. In this way, our predatory instinct may be redeemed as a force for goodness in the world, and we might become a living example to others in how to live in peace and with kindness towards the other lifeforms we share this planet with.</tei:p>
+        <tei:p>In 2010, while working with Nili Simhai and the other Jewish environmental educators at the Teva Learning Center, I began working on a Birkon containing a translation of the birkat hamazon that emphasized the deep ecological wisdom contained within the Rabbinic Jewish tradition. I continued working on it over the next several years adding two additional sections of source texts to illuminate the concept of ḥesronan (lit. absence or lacking) and the mitsvah of lo tashḥit (bal tashḥit). I invite you to include these works into your birkon along with other work that I’ve helped to share through the Open Siddur — especially Perek Shirah and other prayers that express delight in the created world and our role in it, l’ovdah u’lshomrah — to cultivate and preserve this living and magnificent Earth.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13386_introduction"/>
+      <j:conditional xml:id="osp_13386_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Borei Nefashot Rabot v’Ḥesronan” by Rachel Katz (CC-BY-SA 4.0 International)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13386_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:chaverai_nevarekh_blessing_the_spirit_of_all_which_lives_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

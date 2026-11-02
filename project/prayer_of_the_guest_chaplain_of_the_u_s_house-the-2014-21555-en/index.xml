@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Stephen Roth on 29 May 2014</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Stephen Roth on 29 May 2014</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Stephen Roth</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-05-29">2014-05-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21555</tei:idno>
+          <tei:idno type="opensiddur.org">21555</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4499907/rabbi-stephen-roth-congregation-eitz-chaim">https://www.c-span.org/video/standalone/?c4499907/rabbi-stephen-roth-congregation-eitz-chaim</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/113/crec/2014/05/29/CREC-2014-05-29-pt1-PgH4923-3.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/113/crec/2014/05/29/CREC-2014-05-29-pt1-PgH4923-3.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21555_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Stephen Roth, Congregation Eitz Chaim, Passaic, NJ</tei:p>
+        <tei:p>Sponsor: Rep. Bill Pascrell, (D-NJ)</tei:p>
+        <tei:p>Date of Prayer: 05/29/2014</tei:p>
+        <tei:p>Mr. PASCRELL. Mr. Speaker, I rise to thank my friend, Rabbi Stephen Roth, a resident of the Ninth Congressional District of New Jersey, for offering the opening prayer before the House of Representatives.</tei:p>
+        <tei:p>Rabbi Roth hails from Brooklyn, New York City, and was ordained in 1972 by the Brooklyn Rabbinical Seminary. For 20 years, he served as the founding rabbi of Congregation Eitz Chaim in Passaic, New Jersey, inspiring and guiding countless members of his congregation.</tei:p>
+        <tei:p>In addition to his work as a teacher, mentor, and counselor in his community, Rabbi Roth also served as the softball coach for the Torah Academy of Bergen County, as well as the Kushner Yeshiva High School. Rabbi Roth has, no doubt, served his community so well, thanks to the loving support of his wife of nearly 35 years, Fern, who is with us today, as well as his three children and 13 grandchildren.</tei:p>
+        <tei:p>So on behalf of the United States Congress and my constituents in New Jersey, I want to thank my friend Rabbi Roth for serving as guest chaplain in the House of Representatives today.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21555_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_21555"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

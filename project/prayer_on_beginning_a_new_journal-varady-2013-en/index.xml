@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer on Beginning a New Journal, by Aharon N. Varady</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer on Beginning a New Journal, by Aharon N. Varady</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-05-02">2013-05-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6916</tei:idno>
+          <tei:idno type="opensiddur.org">6916</tei:idno>
+          <tei:note>Source: Tekhina for honest journal reflections by Aharon Varady, from his journal. <tei:ref target="https://opensiddur.org/wp-content/uploads/2013/05/Tekhina-for-honest-journal-reflections.jpg">https://opensiddur.org/wp-content/uploads/2013/05/Tekhina-for-honest-journal-reflections.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6916_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer that I wrote at Isabella Freedman Jewish Retreat Center soon after I began studying at the Davidson School of the Jewish Theological Seminary’s experiential education program, back in 2011, when I began a new journal and began again a journaling practice. Whether I pray with my lips or write with my hand, my mind is searching for honesty and depth and to help myself perceive the reality of the world — and to do so with recognition of my lack of apprehension and with empathy and encouragement to continue the effort nevertheless. I hope that in sharing this petiḥah (opening prayer), that I can help to bring recognition to journaling as a genuine practice deeply interconnected with that of crafting one’s own siddur (Jewish prayer book).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6916_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_on_beginning_a_new_journal_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

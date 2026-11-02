@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שמע</tei:title>
+        <tei:title type="main" xml:lang="en">Ḳabbalistic Commentary on the Shema from Rabbi Isaiah Horowitz's Siddur Shaar haShamayim</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שמע</tei:title>
+          <tei:title xml:lang="en">Ḳabbalistic Commentary on the Shema from Rabbi Isaiah Horowitz's Siddur Shaar haShamayim</tei:title>
+          <tei:author>Isaiah Horowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1625">1625</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10563</tei:idno>
+          <tei:idno type="opensiddur.org">10563</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_10563_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p><tei:hi rend="italic">We are grateful to Avrum Goodblatt for sharing this transcription accompanied by his notes, originally prepared in 2001 for an undergraduate degree in Religious Studies (minor in Jewish Studies) from the University of California at Santa Cruz. Some of this work was previously published at the Avrum’s homepage. I have re-organized this material into two files: one containing the introductory notes, the second containing the transcription and notes with their associated translation. The latter is nearly, but not perfectly complete. There are several notes and one paragraph that are missing from Goodblatt’s work. These have been highlighted in yellow. There are also several lines of text beginning with asterisks or lower-case letters that are unexplained. These have been kept pending further elucidation. This work contains material in the Public Domain as well as translations that remain under copyright to other translators, and which have not yet been shared under Open Content licenses. These are provided here under Avrum Goodblatt’s Fair Use Right due to their transformative, scholarly use.</tei:hi> — Aharon Varady]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_10563_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

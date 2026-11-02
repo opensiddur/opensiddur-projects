@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"Why should I torture myself" a prayer for reassurance by Rabbi Clifton Harby Levy (1927)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"Why should I torture myself" a prayer for reassurance by Rabbi Clifton Harby Levy (1927)</tei:title>
+          <tei:author>Clifton Harby Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1927">1927</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50166</tei:idno>
+          <tei:idno type="opensiddur.org">50166</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/18/mode/2up">https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/18/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50166_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I MUST NOT WORRY</tei:p>
+        <tei:p>Why should I worry? How can it help me in any way to sit and brood over any troubles, no matter how real they are or seem? Is it not fear and cowardice which lead me to worry lest events should not come as I wish? Who says that my desire is always right? Do I know what is best for me at all times?</tei:p>
+        <tei:p>Worry has never aided in the solution of a single human problem. But if I set aside all fear or hesitation, and calmly try to find some sensible way through my difficulty have I not the right to expect some valuable result?</tei:p>
+        <tei:p>When I worry I merely weaken my power of reasoning, or distort my judgment. I need my best ability when I face a problem, and I can have it only if I am free of all worry. With the aid of God, I can cast out all fear, knowing that He works within me at this moment to help and cheer.</tei:p>
+        <tei:p>Knowing this, I can control myself through my deeper trust in God and my better reliance upon my own powers. I can prove my character by the way in which I surmount a difficulty, or pass over it. Success can never come to me if I worry, which is a process of weakening, when I most require strength. It is as easy for me to resolve never to worry as it is to believe that I am on earth to do things and not to waste my energy in useless fear. If all is not right, can I not make it as nearly right as lies within my strength? That is what I shall do with the help of Almighty God.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50166_introduction"/>
+      <j:conditional xml:id="osp_50166_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer by Rabbi Clifton Harby Levy accompanied his short reflection, “I Must Not Worry” found in <tei:hi rend="italic">The Helpful Manual</tei:hi> (Centre of Jewish Science, 1927), pp. 19-20.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50166_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:why_should_i_torture_myself_a_prayer_for_reassurance_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קדיש יתום</tei:title>
+        <tei:title type="main" xml:lang="en">Mourner's Ḳaddish for a Minyan of Ten People (including Jews and non-Jews), by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קדיש יתום</tei:title>
+          <tei:title xml:lang="en">Mourner's Ḳaddish for a Minyan of Ten People (including Jews and non-Jews), by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-09-09">2018-09-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21656</tei:idno>
+          <tei:idno type="opensiddur.org">21656</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21656_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>As some folks may recall, I worked on a “secular” ḳaddish after my mother died so that I could say ḳaddish under circumstances where I could gather ten people but not ten Jews. I continued to work on this ḳaddish and have been sharing it with people in my home community, and people seem to really love it and get a lot out of it. So I thought I would share it with you all now (even though most will probably only see it after Rosh Hashanah), because you may find it useful in two ways:</tei:p>
+        <tei:p>1) As a kind of prayer for Creation in the spirit of the Rosh Hashanah liturgy that hopes for the time when “all creatures become united in one band” to serve God.</tei:p>
+        <tei:p>2) As an alternative ḳaddish to do at any point in the service where people might get benefit from something that they can read in English. As such this is not a replacement for kaddish but it might work as one of several ḳaddishes that get said in a service.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21656_introduction"/>
+      <j:conditional xml:id="osp_21656_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This mourners kaddish was first published by Rabbi David Seidenberg on the Chasidus without Borders google group as “Kaddish for a Human Minyan” on 9 September 2018.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21656_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mourners_kaddish_for_a_minyan_of_ten_people_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

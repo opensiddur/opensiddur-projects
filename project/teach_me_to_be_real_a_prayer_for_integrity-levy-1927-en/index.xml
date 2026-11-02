@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"Teach me to be real!" a prayer for integrity by Rabbi Clifton Harby Levy (1927)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"Teach me to be real!" a prayer for integrity by Rabbi Clifton Harby Levy (1927)</tei:title>
+          <tei:author>Clifton Harby Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1927">1927</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50119</tei:idno>
+          <tei:idno type="opensiddur.org">50119</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/4/mode/2up">https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/4/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50119_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>APPLYING JUDAISM TO LIFE</tei:p>
+        <tei:p>Jewish Science is the application of Judaism to the art of living. It utilizes every well tested method for insuring the well being of body, mind and Spirit. It begins with the great appeal accepted by all Jews as the first, last and continuous duty of each and every Jew: “to LOVE the Lord thy God with all thy heart, and all thy soul and all thy might.”</tei:p>
+        <tei:p>The attainment of this Love of God is achieved only as we advance in the real contemplation of God, as found in the Universe and within ourselves; the concentration on God as the Eternal and Infinite Source of all life and goodness; the consecration of each human being to the Love of God.</tei:p>
+        <tei:p>The demonstration of our Love of God consists in our fuller obedience to every law, physical, mental and Spiritual, all of which emanate from God, and through which we prove our own Godliness.</tei:p>
+        <tei:p>Our Love of God is progressive, for it is in proportion to our deeper sense of God, the fuller consciousness of His immanence, within and about us; to our clearer comprehension of God’s laws as made manifest through scientist and Prophet; our completer consecration to God through the more perfect following of all the laws, by which we are attuned to God.</tei:p>
+        <tei:p>As we advance in the apprehension of these laws we perfect ourselves through applying all of these principles to living. We do so easily and without strain because of our Love for God, the higher ethical motive. All fear is banished from consciousness because we are sure of the presence of God, and in that presence there can be no fear.</tei:p>
+        <tei:p>Every moment of life is inspired by this trust in God, flowing from our certainty of His nearness. We are near God as we are filled with consciousness of Him. We cannot live the better, higher life unless we are possessed of God. We are removed from God only as we close our consciousness to His love and mercy. But we can always return by the deep desire to become harmonized with His law and through that attuned to Him.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50119_introduction"/>
+      <j:conditional xml:id="osp_50119_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer by Rabbi Clifton Harby Levy accompanied his short essay, “Applying Judaism to Life” found in <tei:hi rend="italic">The Helpful Manual</tei:hi> (Centre of Jewish Science, 1927), pp. 4-5.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50119_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:teach_me_to_be_real_a_prayer_for_integrity_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Sidney S. Guthman on 19 March 1981</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Sidney S. Guthman on 19 March 1981</tei:title>
+          <tei:author>Sidney S. Guthman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1981-03-19">1981-03-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54912</tei:idno>
+          <tei:idno type="opensiddur.org">54912</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 127, part 4 (19 March 1981), p. 4803 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--127-part-4-19-March-1981-p--4803.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--127-part-4-19-March-1981-p--4803.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54912_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Sidney S. Guthman, D.D., Temple Shalom, Seal Beach, California</tei:p>
+        <tei:p>Sponsor: Rep. Dan Lungren (D-CA)</tei:p>
+        <tei:p>Date of Prayer: 19 March 1981</tei:p>
+        <tei:p>Mr. LUNGREN. Mr. Speaker, on behalf of the people of the Long Beach, California, area, I would like to welcome a friend of mine to Washington and to these Chambers today. Dr. Sidney Guthman has long been one of the most active and concerned community leaders and I want to thank him for leading us in the invocation this morning.</tei:p>
+        <tei:p>In fact, there is probably no greater measure of his concern than the fact that he would interrupt his transit from sun-drenched Israel to balmy southern California in order to come to cold Washington, D.C., to take care of his business here.</tei:p>
+        <tei:p>In the course of my civic involvement in southern California, I have repeatedly crossed paths with Rabbi Guthman—he has been a veritable dynamo of personal involvement in civic and local government activities back home—so it is highly appropriate that we should be graced with a man of his caliber this morning.</tei:p>
+        <tei:p>It is fair to say that Dr. Guthman is himself an institution in Long Beach. During the past 6 years as rabbi at Temple Shalom in Seal Beach, his 15 years of service as chaplain of the VA hospital in Long Beach, and his 20 years as rabbi at Temple Sinai in Long Beach he has demonstrated a level of civic involvement that is rare, to say the least.</tei:p>
+        <tei:p>He has for many years served as a director of the Long Beach Symphony Association and has worked for a full decade on the Long Beach Commission on Community Improvement.</tei:p>
+        <tei:p>Seldom have I met an individual of such energy and commitment, and I am pleased and honored that Dr. Guthman could be with us here today to deliver the invocation before the House.</tei:p>
+        <tei:p>Welcome to Washington, Rabbi Guthman, and do not be too disheartened by these cold, Canadian winds that are blowing through the city today.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54912_introduction"/>
+      <j:conditional xml:id="osp_54912_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the third month of the first session of the 97th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 127, part 4 (1981), page 4803.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54912_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_guthman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

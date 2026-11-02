@@ -1,0 +1,77 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">ⵢⴰⵏ ⵉⴽⵔⵓ</tei:title>
+        <tei:title type="alt" xml:lang="he">Yan ikru (יַאן יִכְּרוּ) — a Judeo-Berber translation of Ḥad Gadya</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">ⵢⴰⵏ ⵉⴽⵔⵓ</tei:title>
+          <tei:title xml:lang="he">Yan ikru (יַאן יִכְּרוּ) — a Judeo-Berber translation of Ḥad Gadya</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24621</tei:idno>
+          <tei:idno type="opensiddur.org">24621</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24621_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. This translation is in Judeo-Tamaziɣt (also known as Judeo-Berber), based on the translation of Yehuda Derʕi, born in Ighil n-Ughu in south-central Morocco in the 1920s. Here it is typed out in vocalized Hebrew, along with transcriptions in Tamaziɣt-Latin and Tifinagh. Interestingly, instead of “slaughterer,” Yehuda Derʕi’s translation reads “lḥǝzzan,” which is used in place of “rabbi” – because to the Tamaziɣt the term “ṛǝḅḅi” is reserved for God alone. This text could be read alongside the traditional text of Ḥad Gadya during a Passover seder.</tei:p>
+        <tei:p>Some notes for those unfamiliar with the incredibly complicated world of Tamaziɣt pronunciation:</tei:p>
+        <tei:p>A dot below, as in ḅ, ṛ, or ẓ, means the letter is velarized a la Mizraḥi ח, ט, or צ. The Tamaziɣt languages allow almost every sound to be velarized, unlike Semitic languages which limit velarization to several letters. The closest English parallel would be to read those letters in a very creaky voice.</tei:p>
+        <tei:p>š is equivalent to /ʃ/. as in “sheesh.”</tei:p>
+        <tei:p>ɣ is a sort of rolled g, very close to the modern Israeli Hebrew back pronunciation of ר.</tei:p>
+        <tei:p>ă is a rounded /ɔ/, as in “dog” in a New York accent.</tei:p>
+        <tei:p>ʕ is a pharyngeal sound like a Mizraḥi ע.</tei:p>
+        <tei:p>Doubled letters are geminated (aka lengthened).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24621_introduction"/>
+      <j:conditional xml:id="osp_24621_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found in the Prague Haggadah (1526). The text of the poem is in a form of playful Aramaic and it is accompanied by the lyrics in medieval Yiddish.<tei:anchor xml:id="note_1"/> It is unclear which, if either, came first — the Yiddish or the Aramaic. The Aramaic above below follows the text as it appears in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation sourced from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24621_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yan_ikru_a_judeo_berber_translation_of_had_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The Jewish Encyclopedia (1906, NY) vol. 8 page 190 s.v. “Had Gadya” calls it German.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

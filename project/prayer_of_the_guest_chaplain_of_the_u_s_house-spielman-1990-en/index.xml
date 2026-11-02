@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Irving Spielman on 12 September 1990</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Irving Spielman on 12 September 1990</tei:title>
+          <tei:author>Irving Spielman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1990-09-12">1990-09-12</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51843</tei:idno>
+          <tei:idno type="opensiddur.org">51843</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4503013/rabbi-irving-spielman-fort-lee-jewish-community-center-fort-lee-nj">https://www.c-span.org/video/standalone/?c4503013/rabbi-irving-spielman-fort-lee-jewish-community-center-fort-lee-nj</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record v. 136, part 17 – 12 September 1990. p. 23952 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-17-12-September-1990.-p.-23952.png">https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-17-12-September-1990.-p.-23952.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51843_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Irving Spielman, Fort Lee Jewish Community Center, Fort Lee, New Jersey</tei:p>
+        <tei:p>Date of Prayer: 12 September 1990</tei:p>
+        <tei:p>Sponsor: Rep. Bob Torricelli (D-NJ)</tei:p>
+        <tei:p>Mr. Speaker, it gives me great pleasure to welcome Rabbi Irving Spielman, this morning’s guest chaplain to the U.S. House of Representatives.</tei:p>
+        <tei:p>Rabbi Spielman is the spiritual leader of the Fort Lee Jewish Community Center in Fort Lee, NJ. For nearly a decade, he has given inspired leadership in Bergen County on a variety of religious and community issues.</tei:p>
+        <tei:p>Rabbi Spielman received the rabbinical degree at the Jewish Theological Seminary of America. For over 30 years, he has served a number of important congregations in New York, New Jersey, and Connecticut.</tei:p>
+        <tei:p>Rabbi Spielman, among his many community affiliations, is a member of the National Rabbinic Cabinet of the Israel bonds organization, and serves on the boards of the Jewish National Fund of New Jersey, the Bergen County Board of Rabbis, and the Rabbinical Assembly of New Jersey.</tei:p>
+        <tei:p>Mr. Speaker, I know that you and our colleagues join me in extending warm greetings to Rabbi Spielman, his wife Selma, and members of their family on this happy occasion.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51843_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_spielman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

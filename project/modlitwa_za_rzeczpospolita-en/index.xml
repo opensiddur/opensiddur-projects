@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה בְּעַד שְׁלוֹם הַמַּמְלָכָה</tei:title>
+        <tei:title type="main" xml:lang="en">Modlitwa za Rzeczpospolitą</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer for the Second Polish Republic, by Mojżesz Schorr (1936)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה בְּעַד שְׁלוֹם הַמַּמְלָכָה</tei:title>
+          <tei:title xml:lang="en">Modlitwa za Rzeczpospolitą</tei:title>
+          <tei:title xml:lang="en">Prayer for the Second Polish Republic, by Mojżesz Schorr (1936)</tei:title>
+          <tei:author>Mojżesz Schorr</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1936">1936</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=42551</tei:idno>
+          <tei:idno type="opensiddur.org">42551</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/modlitewnik-sydur-mojzesz-schorr-1936/Modlitewnik-%20Sydur%20%28Moj%C5%BCesz%20Schorr%201936%29#page/233/mode/2up">https://archive.org/stream/modlitewnik-sydur-mojzesz-schorr-1936/Modlitewnik-%20Sydur%20%28Moj%C5%BCesz%20Schorr%201936%29#page/233/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_42551_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Modlitwa za Rzeczpospolitą” by Rabbi Mojżesz Schorr was published in his סדר תפלה <tei:hi rend="italic">Modlitewnik na wszystkie dni w roku oraz modlitwę za Rzeczpospolitą</tei:hi> (1936), recto of p. 232. The Second Polish Republic, at the time officially known as the Republic of Poland, was a country in Central and Eastern Europe that existed between 1918 and 1939. The state was established in 1918, in the aftermath of World War I. The Second Republic ceased to exist in 1939, when Poland was invaded by Nazi Germany, the Soviet Union and the Slovak Republic, marking the beginning of the European theatre of World War II. In 1938, the Second Republic was the sixth largest country in Europe. According to the 1921 census, the number of inhabitants was 27.2 million. By 1939, just before the outbreak of World War II, this had grown to an estimated 35.1 million. Almost a third of the population came from minority groups: 13.9% Ruthenians; 10% Ashkenazi Jews; 3.1% Belarusians; 2.3% Germans and 3.4% Czechs and Lithuanians. At the same time, a significant number of ethnic Poles lived outside the country’s borders. From the 1920s the Polish government excluded Jews from receiving government bank loans, public sector employment, and obtaining business licenses. From the 1930s measures were taken against Jewish shops, Jewish export firms, and Shḥitah. Limitations, as well, were placed on Jewish admission to the medical and legal professions, Jews in business associations and the enrollment of Jews into universities. The political movement National Democracy (Endecja from the abbreviation “ND”) often organized anti-Jewish business boycotts. Following the death of Józef Piłsudski in 1935, the Endecja intensified their efforts which triggered violence in extreme cases in smaller towns across the country. In 1937, the National Democracy movement passed resolutions that “its main aim and duty must be to remove the Jews from all spheres of social, economic, and cultural life in Poland”. The government in response organized the Camp of National Unity (OZON), which in 1938 took control of the Polish Sejm and subsequently drafted anti-Semitic legislation similar to the Anti-Jewish laws in Germany, Hungary, and Romania. OZON advocated mass emigration of Jews from Poland, <tei:hi rend="italic">numerus clausus</tei:hi>, (see also Ghetto benches), and other limitation on Jewish rights. According to William W. Hagen by 1939, prior to the war, Polish Jews were threatened with conditions similar to those in Nazi Germany. (via the article “Second Polish Republic” in Wikipedia (English))</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_42551_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:modlitwa_za_rzeczpospolita_schorr"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

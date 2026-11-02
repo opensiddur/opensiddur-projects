@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה עבור המלך</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Monarch at the Coronation of King Charles III, by Rabbi Ephraim Mirvis (Office of the Chief Rabbi of the United Hebrew Congregations 2023)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>Edict of government (Compendium II, Copyright Office Practices, §206.01)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה עבור המלך</tei:title>
+          <tei:title xml:lang="en">Prayer for the Monarch at the Coronation of King Charles III, by Rabbi Ephraim Mirvis (Office of the Chief Rabbi of the United Hebrew Congregations 2023)</tei:title>
+          <tei:author>Ephraim Mirvis</tei:author>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-05-01">2023-05-01</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50426</tei:idno>
+          <tei:idno type="opensiddur.org">50426</tei:idno>
+          <tei:note>Source: prayer for the monarch at the coronation of king charles iii (Ephraim Mirvis, Office of the Chief Rabbi 2023) pp. 4-5 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/05/prayer-for-the-monarch-at-the-coronation-of-king-charles-iii-Ephraim-Mirvis-Office-of-the-Chief-Rabbi-2023-pp.-4-5.png">https://opensiddur.org/wp-content/uploads/2023/05/prayer-for-the-monarch-at-the-coronation-of-king-charles-iii-Ephraim-Mirvis-Office-of-the-Chief-Rabbi-2023-pp.-4-5.png</tei:ref></tei:note>
+          <tei:note>Source: prayer for the monarch at the coronation of king charles iii (Ephraim Mirvis, Office of the Chief Rabbi 2023) pp. 5-6 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/05/prayer-for-the-monarch-at-the-coronation-of-king-charles-iii-Ephraim-Mirvis-Office-of-the-Chief-Rabbi-2023-pp.-5-6.png">https://opensiddur.org/wp-content/uploads/2023/05/prayer-for-the-monarch-at-the-coronation-of-king-charles-iii-Ephraim-Mirvis-Office-of-the-Chief-Rabbi-2023-pp.-5-6.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50426_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The Prayer for the Monarch included in the “Prayers of Thanksgiving and Supplication to Mark the Coronation of their Majesties King Charles III and Queen Camilla, Shabbat 6th May, 2023 (15 Iyar, 5783)” as circulated via PDF.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50426_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_monarch_at_the_coronation_of_king_charles_iii_mirvis"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

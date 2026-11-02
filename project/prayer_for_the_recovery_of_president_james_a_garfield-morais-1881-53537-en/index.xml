@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Recovery of President James A. Garfield in the merit of the Founding Fathers, by Rabbi Sabato Morais (before 19 September 1881)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Recovery of President James A. Garfield in the merit of the Founding Fathers, by Rabbi Sabato Morais (before 19 September 1881)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1881-09-19">1881-09-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53537</tei:idno>
+          <tei:idno type="opensiddur.org">53537</tei:idno>
+          <tei:note>Source: Prayer during the lingering demise of Garfield [1881] (Sabato Morais Ledger, p. 237) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/12/Prayer-during-the-lingering-demise-of-Garfield-1881-Sabato-Morais-Ledger-p--237.png">https://opensiddur.org/wp-content/uploads/2023/12/Prayer-during-the-lingering-demise-of-Garfield-1881-Sabato-Morais-Ledger-p--237.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53537_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais during the lingering death of President James Garfield is recorded in an undated and unsourced newspaper clipping, “A Petition in the Synagogue. Rabbi Morais’ Fervent Petition Before the Mickve Israel Congregation” preserved on page 237 of the Sabato Morais Ledger. If you know the origin or date of this clipping, please leave a comment or contact us. The prayer is unique in appealing in the merit of four of the Founding Fathers of the United States (the first three presidents: George Washington, John Adams, and Thomas Jefferson, along with Benjamin Franklin).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53537_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_recovery_of_president_james_a_garfield_morais_53537"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

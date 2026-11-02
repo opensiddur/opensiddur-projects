@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲדוֹן עוֹלָם (אשכנז)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Adōn Olam, translated by Ben Zion Bokser (1957)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲדוֹן עוֹלָם (אשכנז)‏</tei:title>
+          <tei:title xml:lang="en">Adōn Olam, translated by Ben Zion Bokser (1957)</tei:title>
+          <tei:author>Ben-Zion Bokser</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36083</tei:idno>
+          <tei:idno type="opensiddur.org">36083</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/HaSiddurThePrayerBookBenZionBokser1957rev1961/HaSiddur%20%28The%20Prayer%20Book%2C%20Ben%20Zion%20Bokser%2C%201957%29#page/n424/mode/2up">https://archive.org/stream/HaSiddurThePrayerBookBenZionBokser1957rev1961/HaSiddur%20%28The%20Prayer%20Book%2C%20Ben%20Zion%20Bokser%2C%201957%29#page/n424/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36083_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Adon Olam” is a piyyut that became popular in the 15th century and is often attributed to Solomon ibn Gabirol (1021–1058) and less often to Sherira Gaon (900-1001), or his son, Hai ben Sherira Gaon (939-1038). The variation of the piyyut appearing here is the 10 line (5 stanza) version familiar to Ashkenazi congregations. (Sefaradi siddurim have 12 line (six stanza) variants, and there are some with 14 or 15 lines.) The translation appearing here is as found on page 204 of the <tei:hi rend="italic">HaSiddur</tei:hi> (“The Prayer Book,” 1957), compiled by Ben Ẓion Bokser. He adds the following commentary:</tei:p>
+        <tei:p>The hymn Adon Olam has been ascribed to the authorship of Solomon ibn Gabirol (born 1021, died 1058). Its sublime conception of God is in the spirit of Gabirol’s work, but there is no proof that he was really the author of it. Because texts of the Prayer Book before the fourteenth century omit it, we may place the date of its composition as not earlier than the early part of that century. Two basic ideas dominate this hymn. One declares that God’s existence and sovereignty are independent of the existent universe, that He fashioned the universe in time, and the He will continue to be after all existence has returned to void. This negates the view that God is only an aspect of the universe in existence. The other declares God’s providential concern for each of His creatures and the abiding peace and security that men find in drawing close to their Maker. The Adon Olam was added to the prayer on retiring for the night. In the synagogue liturgy it has generally been recited as part of the preliminary prayers in the morning service, appropriately so, because it voices gratitude for God’s providence in having enabled us to rise in the morning for a new day of life. As a hymn at the close of the service, it has been recited especially Friday night and the night of Yom Kippur. Presently it is often used at the close of Sabbath and festival morning services as well.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36083_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam_36083"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

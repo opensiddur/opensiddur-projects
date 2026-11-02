@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"To whom life is everlasting" a prayer in the face of mortality by Rabbi Clifton Harby Levy (1927)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"To whom life is everlasting" a prayer in the face of mortality by Rabbi Clifton Harby Levy (1927)</tei:title>
+          <tei:author>Clifton Harby Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1927">1927</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50207</tei:idno>
+          <tei:idno type="opensiddur.org">50207</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/24/mode/2up">https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/24/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50207_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>FACING ETERNITY</tei:p>
+        <tei:p>Every day we live we face Eternity. No one can know when the last day on earth may come. But that should not make us afraid. With God working within us and about us we cannot fear. We know that this casting aside of the body, is part of the great law of life, only an incident, and whenever it occurs is right, according to the will and the laws of God.</tei:p>
+        <tei:p>Because life is to us a continuous whole, we have no fear of turning the corner which leads to Spiritual existence. All the days of thought and effort are leading the way towards that Infinity which is true of the Spirit alone. Because we too are Divine, we feel the touch of Eternity and go to meet it, fearlessly and confidently, in harmony with all existence.</tei:p>
+        <tei:p>It has no terrors for the soul which knows itself as part of the Divine Source. We voice our aspiration for Infinity through the Spirit within.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50207_introduction"/>
+      <j:conditional xml:id="osp_50207_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer by Rabbi Clifton Harby Levy accompanied his short reflection, “Facing Eternity” found in <tei:hi rend="italic">The Helpful Manual</tei:hi> (Centre of Jewish Science, 1927), p. 25.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50207_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:to_whom_life_is_everlasting_a_prayer_in_the_face_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד עוֹבַדְיָה</tei:title>
+        <tei:title type="main" xml:lang="en">Ḥad Ovadya (One Worker), a Yiddish Socialist adaptation of Ḥad Gadya (1888/1919)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/shlomo-enkin-lewis-translation">Shlomo Enkin Lewis</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד עוֹבַדְיָה</tei:title>
+          <tei:title xml:lang="en">Ḥad Ovadya (One Worker), a Yiddish Socialist adaptation of Ḥad Gadya (1888/1919)</tei:title>
+          <tei:author>Benjamin Feigenbaum</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1888" to="1919">1888 – 1919</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55098</tei:idno>
+          <tei:idno type="opensiddur.org">55098</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/haggadah-for-pesah-with-a-socialist-nusah-1919/Haggadah%20shel%20Pesach%20mit%20a%20sotsyalistishn%20nosach%20%28Krak%C3%B3w-Podg%C3%B3rze-%20Binyamin%20Geizhals%20for%20Der%20Sotsyaldemokrat%201919%29#page/n19/mode/2up">https://archive.org/stream/haggadah-for-pesah-with-a-socialist-nusah-1919/Haggadah%20shel%20Pesach%20mit%20a%20sotsyalistishn%20nosach%20%28Krak%C3%B3w-Podg%C3%B3rze-%20Binyamin%20Geizhals%20for%20Der%20Sotsyaldemokrat%201919%29#page/n19/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/seder-hagaddah-shel-pesah-nayen-velt-magid-1888/Seder%20Hagaddah%20shel%20Pesah%20%28Nayen%20Velt-Magid%2C%201886%20%5B1888%5D%29#page/n28/mode/2up">https://archive.org/stream/seder-hagaddah-shel-pesah-nayen-velt-magid-1888/Seder%20Hagaddah%20shel%20Pesah%20%28Nayen%20Velt-Magid%2C%201886%20%5B1888%5D%29#page/n28/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55098_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Taken from the הגדה של פסח – מיט אַ סאָציאַליסטישען נוסח (from the פאָדגורזש printing in 1919, revised 1900 from an edition first published in 1888). The authorship of the Aramaic source is uncertain. It first appears in the 1888 “second edition” of the Haggadah (the 1888 brochure), written under the pseudonym “Der Nayer Velt-Magid” (the New World-Preacher). Benjamin Feigenbaum was probably involved, but it can’t be said for sure. Leon Zolotkoff was less likely to be involved with that edition since by 1888 he was already in the United States.</tei:p>
+        <tei:p>The authorship of the Yiddish translation is unknown. It is original to the 1919 Haggadah (though based on the earlier Aramaic text).</tei:p>
+        <tei:p>The English translation was made by Shlomo Jack Enkin Lewis, with thanks to Daniel Kaplan, 2024.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55098_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:chad_ovadya_feigenbaum"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הספר ששמשו בו הכשדים</tei:title>
+        <tei:title type="main" xml:lang="en">Theurgy of the Kasdim, an astral-magic treatise on the seven angels of the week</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הספר ששמשו בו הכשדים</tei:title>
+          <tei:title xml:lang="en">Theurgy of the Kasdim, an astral-magic treatise on the seven angels of the week</tei:title>
+          <tei:author>Moses Gaster</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0440" to="0539">0440 – 0539</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38069</tei:idno>
+          <tei:idno type="opensiddur.org">38069</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-wisdom-of-the-chaldeans-an-old-hebrew-astrological-text-moses-gaster-1900/The%20Wisdom%20of%20the%20Chaldeans-%20An%20Old%20Hebrew%20Astrological%20Text%20%28Moses%20Gaster%201900%29#page/338/mode/2up">https://archive.org/stream/the-wisdom-of-the-chaldeans-an-old-hebrew-astrological-text-moses-gaster-1900/The%20Wisdom%20of%20the%20Chaldeans-%20An%20Old%20Hebrew%20Astrological%20Text%20%28Moses%20Gaster%201900%29#page/338/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-wisdom-of-the-chaldeans-an-old-hebrew-astrological-text-moses-gaster-1900/The%20Wisdom%20of%20the%20Chaldeans-%20An%20Old%20Hebrew%20Astrological%20Text%20%28Moses%20Gaster%201900%29#page/n19/mode/2up">https://archive.org/stream/the-wisdom-of-the-chaldeans-an-old-hebrew-astrological-text-moses-gaster-1900/The%20Wisdom%20of%20the%20Chaldeans-%20An%20Old%20Hebrew%20Astrological%20Text%20%28Moses%20Gaster%201900%29#page/n19/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38069_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This manuscript, currently catalogued as Gaster Hebrew MS 177 in the collection of the University of Machester (f.36r-39r) was originally published by Ḥakham Dr. Moses Gaster as <tei:hi rend="italic">Wisdom of the Chaldeans: An Old Hebrew Astrological Text</tei:hi>, reprinted from the <tei:hi rend="italic">Proceedings of the Society of Biblical Archaeology</tei:hi>, December 1900. (For additional details on this work, please consult Gaster’s article.) I have re-hebraicized angelic names and replaced archaisms. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38069_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:theurgy_of_the_kasdim_gaster"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

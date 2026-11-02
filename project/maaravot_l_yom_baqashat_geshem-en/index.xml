@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מערבות ליום בקשת גשמים</tei:title>
+        <tei:title type="main" xml:lang="en">Ma'aravot l-Yom Baqashat Geshem — evening piyyuṭim for the Day of Requesting Rain by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מערבות ליום בקשת גשמים</tei:title>
+          <tei:title xml:lang="en">Ma'aravot l-Yom Baqashat Geshem — evening piyyuṭim for the Day of Requesting Rain by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-10-16">2025-10-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63983</tei:idno>
+          <tei:idno type="opensiddur.org">63983</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63983_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>While Gevurot Geshem is recited on Shmini Atseret, Baqashat Geshem as an addition to the birkat ha-shanim is recited later — from the seventh of Marḥeshvan in Israel, from sixty days after the Julian-calendar autumn equinox in the diaspora. This passage is added starting in the evening, but since there is no repetition at night there is no special custom for announcing its insertion. I think that’s a shame, so I wrote a series of ma’aravot (piyyuṭim to be inserted into the ma’ariv service) to be recited on the day where we begin to request rain.</tei:p>
+        <tei:p>The Day of Requesting Rain (Yom Baqashat Geshem) is the day on which the longer form of the birkat ha-shanim begins to be said: in Israel, the seventh of Marḥeshvan; in the Diaspora, sixty days after the Julian-calendar autum equinox. Currently, this means it’s usually the night of December 4, but in the year before a leap year it’s the night of December 5. But from 2031 on it will be on the night of December 6 in the year before a leap year and the night of December 5 elsewhere. (All of this is postponed a day when the date falls on Shabbat, since the ninth blessing is not said on Shabbat.)</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” “<j:divineName>God</j:divineName>” is used to translate the divine name <j:divineName>Elohim</j:divineName>. This translation also uses the plural pronouns <j:divineName>They</j:divineName>/<j:divineName>Their</j:divineName>/<j:divineName>Them</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63983_introduction"/>
+      <j:conditional xml:id="osp_63983_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Recordings</tei:p>
+        <tei:p>Maariv Aravim:</tei:p>
+        <tei:p>Ohev Amo Yisrael:</tei:p>
+        <tei:p>Emet v-Emunah:</tei:p>
+        <tei:p>Hashkivenu:</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63983_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maaravot_leyom_baqashat_geshem_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

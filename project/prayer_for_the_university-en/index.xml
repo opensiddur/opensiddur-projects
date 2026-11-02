@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכה למדרש החכמה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the University [of Oxford] (22 June 1931)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכה למדרש החכמה</tei:title>
+          <tei:title xml:lang="en">Prayer for the University [of Oxford] (22 June 1931)</tei:title>
+          <tei:author>Herbert Loewe</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1931-06-22">1931-06-22</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55419</tei:idno>
+          <tei:idno type="opensiddur.org">55419</tei:idno>
+          <tei:note>Source: Prayer for the University (Oxford Jewish Congregation 1931), p. 12 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Prayer-for-the-University-Oxford-Jewish-Congregation-1931-p--12.jpg">https://opensiddur.org/wp-content/uploads/2024/04/Prayer-for-the-University-Oxford-Jewish-Congregation-1931-p--12.jpg</tei:ref></tei:note>
+          <tei:note>Source: Prayer for the University (Oxford Jewish Congregation 1931), p. 13 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Prayer-for-the-University-Oxford-Jewish-Congregation-1931-p--13.jpg">https://opensiddur.org/wp-content/uploads/2024/04/Prayer-for-the-University-Oxford-Jewish-Congregation-1931-p--13.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55419_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This “Prayer for the University” is found in the Seder ha-Tefilah (Order of Service) arranged by the Oxford Jewish Congregation in 1931 at a special event, arranged by Herbert Loewe (1882-1940), celebrating the centenary of the birth of the Oxford scholar and librarian at the Bodleian Library, Dr. Adolf Neubauer (1831-1907). Two Torah scrolls from the Canterbury Jewish Congregation were also received, and historical markers were unveiled indicating the scene of the martyrdom of Haggai the Proselyte at Osney (17 April 1222) and the sites of the Oxford Synagogue and cemetery in the 12th and 13th centuries. Introducing the prayer, a note attached to the title explains:</tei:p>
+        <tei:p>[The prayer is] based on the Aramaic Bidding Prayer recited on behalf of the Colleges of Sura and Pumbeditha in Babylonia during the third century and on the Hebrew Thanksgiving pronounced after a single lecture or at the completion of a Terminal Course.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55419_introduction"/>
+      <j:conditional xml:id="osp_55419_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for a University (Oxford) is found on pages 12 and 13 of a prayer pamphlet arranged for a service commemorating the centenary of Dr. Adolph Neubauer (11 March 1831 – 6 April 1907). The Centenary was organized by Herbert Loewe and was held on 21 June 1931. Following the centenary, the Canterbury Jewish Congregation (in the process of dissolving) entrusted the Oxford Jewish congregation with the care of two Torah scrolls. The entire event was organized by Herbert Loewe, and although he is not specifically credited, we believe he likely adapted and translated Yequm Purqan for this purpose. –Aharon Varady</tei:p>
+        <tei:p>Many thanks to Shufra Judaica (Elli Fischer and David Selis) for contributing the page images of the prayer pamphlet from which our transcription was derived.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55419_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_university_loewe"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

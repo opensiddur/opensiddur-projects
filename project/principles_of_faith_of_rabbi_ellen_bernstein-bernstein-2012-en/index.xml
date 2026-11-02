@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Principles of Faith of Rabbi Ellen Bernstein (2012)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Principles of Faith of Rabbi Ellen Bernstein (2012)</tei:title>
+          <tei:author>Ellen Bernstein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2012-05-17">2012-05-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=60058</tei:idno>
+          <tei:idno type="opensiddur.org">60058</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_60058_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The following was the ordination speech of Rabbi Ellen Bernstein (1953-2024) at the Academy for Jewish Religion on 17 May 2012:</tei:p>
+        <tei:p>I stand here before you today—<tei:hi rend="italic">kosi revayah</tei:hi>; my cup is flowing over. I offer these words today in memory of my parents, Fred and Etta who cultivated in me a love of nature, and in memory of Rabbi Daniel Kamesar who kindled a passion for Torah in my heart, and Rabbi Joseph B. Glaser, who took note of me, and adopted me like a father. And I dedicate these words to so many friends, and loved ones who accompanied me on this precipitous journey: to Steve and Laurie who, like their great ancestor Abraham, made their home mine, and to my many <tei:hi rend="italic">ḥevrutah</tei:hi> partners, who filled me up with the study of Torah, and to all my teachers at AJR who thought with me and nourished me, and to Steven who kept the home-fires burning and kept loving me, even when I was no where to be found.</tei:p>
+        <tei:p>One of the really precious things about becoming familiar with Jewish texts is that I begin to hear the echos of ancient words in daily conversation, and feel my life growing in depth and dimensionality. As I thought about what I wanted to share today, I kept hearing in my head Maimonides’ 13 Principles of Faith reverberating through the NPR series called, This I Believe.<tei:anchor xml:id="note_1"/> Weaving these two not so different themes together, here’s where I arrived:</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60058_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:principles_of_faith_of_rabbi_ellen_bernstein_bernstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The NPR series revived a program of the same name hosted by Edward R. Murrow, This I Believe (1951-1955).</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

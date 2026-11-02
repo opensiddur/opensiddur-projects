@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הַתִּקְוָה</tei:title>
+        <tei:title type="main" xml:lang="en">Hatiḳvah (the Hope), by Naphtali Herz Imber (1878)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הַתִּקְוָה</tei:title>
+          <tei:title xml:lang="en">Hatiḳvah (the Hope), by Naphtali Herz Imber (1878)</tei:title>
+          <tei:author>Naphtali Herz Imber</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Hillel Meitin</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1878">1878</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31146</tei:idno>
+          <tei:idno type="opensiddur.org">31146</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/nybc200659/nybc200659#page/n15/mode/2up">https://archive.org/stream/nybc200659/nybc200659#page/n15/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: The first and second stanza of Hatikvah (handwritten manuscript by Naftali Herz Imber) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/04/KOL_OD.jpg">https://opensiddur.org/wp-content/uploads/2020/04/KOL_OD.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31146_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>From the article “Hatiḳvah” on wikipedia:</tei:p>
+        <tei:p>The text of Hatikvah was written in 1878 by Naphtali Herz Imber, a Jewish poet from Zolochiv (Polish: Złoczów), a city nicknamed “The City of Poets”,[1] then in Austrian Poland, today in Ukraine. In 1882 Imber immigrated to Ottoman-ruled Palestine and read his poem to the pioneers of the early Jewish villages – Rishon Lezion, Rehovot, Gedera, and Yesud Hama’ala.</tei:p>
+        <tei:p>Imber’s nine-stanza poem, Tikvatenu (“Our Hope”), put into words his thoughts and feelings following the establishment of Petah Tikva (literally “Opening of Hope”). Published in Imber’s first book Barkai [The Shining Morning Star], Jerusalem, 1886, the poem was subsequently adopted as an anthem by the Hovevei Ẓion and later by the Zionist Movement at the First Zionist Congress in 1897. Hatikvah was chosen as the organisational anthem of the First Zionist Congress in 1897.</tei:p>
+        <tei:p>The British Mandate government briefly banned its public performance and broadcast from 1919, in response to an increase in Arab anti-Zionist political activity.</tei:p>
+        <tei:p>A former member of the Sonderkommando reported that the song was spontaneously sung by Czech Jews at the entrance to the Auschwitz-Birkenau gas chamber in 1944. While singing they were beaten by Waffen-SS guards.</tei:p>
+        <tei:p>The Yiddish translation is the one made by Hillel Meitin (1876-1947), first published in <tei:hi rend="italic">Lider fun der milḥome anṭologye</tei:hi> (Poetry of This War), compiled by I. Kissin (New York, 1943), p. 13. The abridged translation follows the popular abbreviated rendition of the anthem, as derived from its choral arrangement and performance by the Yiddish Philharmonic Chorus.</tei:p>
+        <tei:p>The vocalized text of Hatikvah above was provided by the Ben-Yehudah Project. I have made an English translation that provides re-hebraicized and gender neutral divine names. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31146_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatiqvah_imber"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

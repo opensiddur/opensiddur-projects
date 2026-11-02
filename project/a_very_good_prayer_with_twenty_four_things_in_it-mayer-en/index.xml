@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה מְעֻלָּה בְּיוֹתֵר כּוֹלֶלֶת כ״ד דְּבָרִים</tei:title>
+        <tei:title type="main" xml:lang="en">A Very Good Prayer with Twenty-Four Things in It, from an Italian-rite maḥzor (1446)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה מְעֻלָּה בְּיוֹתֵר כּוֹלֶלֶת כ״ד דְּבָרִים</tei:title>
+          <tei:title xml:lang="en">A Very Good Prayer with Twenty-Four Things in It, from an Italian-rite maḥzor (1446)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1446">1446</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68947</tei:idno>
+          <tei:idno type="opensiddur.org">68947</tei:idno>
+          <tei:note>Source: MS Vat. Ross. 499 fol. 3r <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/09/vat--ross--499-fol--3r.jpg">https://opensiddur.org/wp-content/uploads/2026/09/vat--ross--499-fol--3r.jpg</tei:ref></tei:note>
+          <tei:note>Source: MS Vat. Ross. 499 fol. 3v <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/09/vat--ross--499-fol--3v.jpg">https://opensiddur.org/wp-content/uploads/2026/09/vat--ross--499-fol--3v.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68947_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A personal petition in rhymed prose from the introduction to Vat. Ross. 499 (fol. 3r-3v), an Italian-rite maḥzor from the year 1446 with a lot of very cool liturgical content in it. Frankly, the title drew me in.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68947_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_very_good_prayer_with_twenty_four_things_in_it"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

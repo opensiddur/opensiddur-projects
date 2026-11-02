@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אוֹי מֶה הָיָה לָנוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Oy Meh Haya Lanu (Oy What Has Happened to Us), by Barukh ben Shmuel of Mainz (ca. 12th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/rachel-salston">Rachel Salston</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אוֹי מֶה הָיָה לָנוּ</tei:title>
+          <tei:title xml:lang="en">Oy Meh Haya Lanu (Oy What Has Happened to Us), by Barukh ben Shmuel of Mainz (ca. 12th c.)</tei:title>
+          <tei:author>Barukh ben Shmuel of Mainz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=11878</tei:idno>
+          <tei:idno type="opensiddur.org">11878</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_11878_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“<tei:hi rend="italic">Oy Meh Haya Lanu</tei:hi>” is a ḳinah traditionally recited on the night of Tishah b’Av directly after the reading of Eikha. According to the Koren Mesorat HaRav Kinot, it is number 1 of 50. The title is the refrain of the poem, a reflective lament. This ḳinah is based on the fifth and final chapter of Eikha, taking the opening phrase of each line of the megillah as the first line of each couplet and poetically expanding the description for the second. This translation is an attempt to convey the vulgarity and horror of the paytan’s depiction of the destroyed Jerusalem in vernacular English. The ḳinah ends just as the megillah ends, with the four verses of pleas for redemption.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_11878_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:oy_meh_haya_lanu_barukh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

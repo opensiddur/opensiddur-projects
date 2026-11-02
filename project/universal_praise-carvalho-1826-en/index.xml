@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Universal Praise, a hymn by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Universal Praise, a hymn by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+          <tei:author>David Nunes Carvalho</tei:author>
+          <tei:author>Reformed Society of Israelites</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1826">1826</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39413</tei:idno>
+          <tei:idno type="opensiddur.org">39413</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sabbathservicemi00refo#page/64/mode/2up">https://archive.org/stream/sabbathservicemi00refo#page/64/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-constitution-of-the-reformed-society-of-israelites-isaac-harby-1825#page/n75/mode/2up">https://archive.org/stream/the-constitution-of-the-reformed-society-of-israelites-isaac-harby-1825#page/n75/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39413_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Universal Praise” appears as Hymn 19 in <tei:hi rend="italic">The Sabbath service and miscellaneous prayers, adopted by the Reformed society of Israelites, founded in Charleston, S.C., November 21, 1825</tei:hi> (1830, Bloch: 1916), p. 64. Gary Zola writes that the prayer was written by David Carvalho for the Society as indicated in Abraham Moïse’s annotated copy of the 1830 prayerbook.<tei:anchor xml:id="note_1"/> I have replaced the vocalized Tetragramaton in the penultimate line of the second stanza with ‘YHVH.’ I have preserved the wording as handwritten in the endpapers of the <tei:hi rend="italic">Constitution of the Reformed Society of Israelites, 1825</tei:hi>. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39413_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:universal_praise_carvalho"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Find, “The First Reform Prayerbook in America” (p. 116 ft. 32) in <tei:hi rend="italic">Platforms and prayer books: theological and liturgical perspectives on Reform Judaism</tei:hi> (2002)</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

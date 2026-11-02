@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">פיוט למעריב להתחלת בקשת גשם</tei:title>
+        <tei:title type="main" xml:lang="en">Piyyuṭ for maariv on the day when one begins requesting rain by Eliran Sobel</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פיוט למעריב להתחלת בקשת גשם</tei:title>
+          <tei:title xml:lang="en">Piyyuṭ for maariv on the day when one begins requesting rain by Eliran Sobel</tei:title>
+          <tei:author>Eliran Sobel</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-11-09">2025-11-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64472</tei:idno>
+          <tei:idno type="opensiddur.org">64472</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64472_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>While the time for beginning to mention God’s power to bring rain in our prayers has a dramatic introductory piyyut (see my work here for a version with Immahot), the time when we begin actually asking for said rain is unadorned by any poetry, and is simply a change in one phrase in our liturgy. Therefore, inspired by a Facebook post by Isaac Gantwerk Mayer (who since wrote his own version here), I wrote the following piyyut over the course of 5785, to be added to the Maariv service on the evening when one begins praying for rain in their location. Each stanza of the piyyut is intended to be added before the ḥatimah of each of the four blessings surrounding the Maariv Shema. I have signed my name to the acrostic, and provided a translation that highlights said acrostic and structure. May we have a year of abundance and goodness.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64472_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:piyyut_for_maariv_on_the_day_when_one_begins_requesting_rain_sobel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

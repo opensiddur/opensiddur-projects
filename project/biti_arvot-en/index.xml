@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בִּתִּי עַרְבוֹת – פיוט על תפילת רות ונעמי</tei:title>
+        <tei:title type="main" xml:lang="en">Biti ‘Arvot — Prayer of Ruth and Naomi, a piyyuṭ for Shavuot by the Diwan Ashira Project</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בִּתִּי עַרְבוֹת – פיוט על תפילת רות ונעמי</tei:title>
+          <tei:title xml:lang="en">Biti ‘Arvot — Prayer of Ruth and Naomi, a piyyuṭ for Shavuot by the Diwan Ashira Project</tei:title>
+          <tei:author>Diwan Ashira Project</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024">2024</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61820</tei:idno>
+          <tei:idno type="opensiddur.org">61820</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61820_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This piyyut tells the story of Naomi and Ruth through an imagined dialogue. Naomi, aged and alone, is taken aback by Ruth’s unwavering attachment. Ruth explains that it is with Naomi—and her faith—that she finds the truth and authenticity she longs for. It can also be read as an allegorical dialogue between the Torah and the people of Israel, you insist on remaining loyal to her. פתרונו כפול: פשוטו על נעמי ורות ורומז לתורה עם כנסת ישראל.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61820_introduction"/>
+      <j:conditional xml:id="osp_61820_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Biti ‘arvot” (Ruth and Naomi) was first published in 2024, as the fourth of a four piyyutim series published through the Diwan Ashira Project by Ephraim Kahn. Each piyyut is focused around a different biblical heroine, and sung in relation to a Jewish festival: 1) Hannah’s Prayer (<tei:hi rend="italic">El asher hasdo</tei:hi>) for Rosh Hashanah, 2) Song of Miriam, Song of Deborah (<tei:hi rend="italic">Uri Uri</tei:hi>) for Shabbat Shirah, 3) Queen Esther’s Prayer (<tei:hi rend="italic">‘Et sha’are armon</tei:hi>) for Purim, 4) Ruth and Naomi (<tei:hi rend="italic">Biti ‘arvot</tei:hi>) for Shavuot.</tei:p>
+        <tei:p>The piyyut was born from a collaboration with Neta Elkayam, who’s insights shaped its content. Neta Elkayam also contributed precious edits and suggestions and set the poem to a melody from the Andalusian Ala tradition, Tasdir Qudam Rasd, “Aleyloun Azhiboun”. An additional rendition was recorded by the paytan Hai Korkos, who adapted it to the melody of “Eze meqom bina”, which is the opening of the Azharot sung during Shavuot in the Moroccan tradition.</tei:p>
+        <tei:p>The French and English translations were contributed by Diwan Ashira.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Neta Elkayam:</tei:p>
+        <tei:p>Hai Korkos</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61820_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:biti_arvot_project"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

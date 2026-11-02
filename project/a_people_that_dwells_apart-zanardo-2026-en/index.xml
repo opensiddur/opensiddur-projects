@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הֶן־עָם לְבָדָד יִשְׁכֹּן</tei:title>
+        <tei:title type="main" xml:lang="en">"A People That Dwells Apart" — a ritual after withdrawing from those who left us alone, by Rabbi Dr. Andrea Zanardo</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הֶן־עָם לְבָדָד יִשְׁכֹּן</tei:title>
+          <tei:title xml:lang="en">"A People That Dwells Apart" — a ritual after withdrawing from those who left us alone, by Rabbi Dr. Andrea Zanardo</tei:title>
+          <tei:author>Andrea Zanardo</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-07-12">2026-07-12</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68262</tei:idno>
+          <tei:idno type="opensiddur.org">68262</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68262_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I wrote this ritual in 2026 for Jews who have felt compelled to withdraw from friendships, organisations, or social and religious environments in which antisemitism, hostility towards Israel, or the dismissal of Jewish grief had become tolerated or normalised. It is intended particularly for those who have already established a practical boundary—by leaving, blocking, unfollowing, or ending a relationship—and who need a Jewish ritual through which to acknowledge the resulting grief and affirm their dignity, solidarity, and continued connection to the Jewish people.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68262_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_people_that_dwells_apart_zanardo"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

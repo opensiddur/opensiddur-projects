@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">‘Awa Fwampoptsyìp (One Little Tapirus) — a Na'vi translation of Ḥad Gadya</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">‘Awa Fwampoptsyìp (One Little Tapirus) — a Na'vi translation of Ḥad Gadya</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61272</tei:idno>
+          <tei:idno type="opensiddur.org">61272</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61272_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish quadrant, and in many communities it was read in translation. This adaptation into the language of the Na’vi is very useful when celebrating liberation from the tyrannical RDA. Okay, but to be serious for a moment, one of the key themes of James Cameron’s Avatar series of films is the interconnectedness of life in the food chain — predators and prey all part of the cycle. So a piyyut like Ḥad Gadya actually works quite well. Some unique challenges in translating Ḥad Gadya into Na’vi include:</tei:p>
+        <tei:p>1) the Na’vi don’t have agriculture, but survive on hunting and gathering. Thus there is no word for a butcher or slaughterer! So instead I used taronyu = hunter.</tei:p>
+        <tei:p>2) Seeing as they live in a communal substinence method of hunting and gathering, they also have no word for purchasing or buying. So instead I used “acquiring.” Also, the only canonical words for currency are borrowed from “dollar” and “euro!”</tei:p>
+        <tei:p>I’ve also included a system for writing Na’vi text in Hebrew script! A hearty “Irayo!” to Prof. Paul Frommer at USC Marshall, creator of the Na’vi conlang, who was kind enough to proofread my attempt in time for the holiday.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61272_introduction"/>
+      <j:conditional xml:id="osp_61272_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the translation of Ḥad Gadya into the constructed language Na’vi with a Hebraicization schema for Na’vi by Isaac Gantwerk Mayer.</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). –Aharon N. Varady</tei:p>
+        <tei:p>Transliteration Schema</tei:p>
+        <tei:p>https://opensiddur.org/wp-content/uploads/2025/04/Transliteration-schema-for-hebraicized-Navi-Isaac-Gantwerk-Mayer-2025.pdf</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61272_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:awa_fwampoptsyip"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

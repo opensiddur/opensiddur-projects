@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵל מָלֵא רַחֲמִים לְיוֹם־הַזִּכָּרוֹן־הַטְּרַנְסְגֶ׳נְדֵּרִי</tei:title>
+        <tei:title type="main" xml:lang="en">El Malé Raḥamim for Transgender Day of Remembrance, by Nathaniel Jacobs</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵל מָלֵא רַחֲמִים לְיוֹם־הַזִּכָּרוֹן־הַטְּרַנְסְגֶ׳נְדֵּרִי</tei:title>
+          <tei:title xml:lang="en">El Malé Raḥamim for Transgender Day of Remembrance, by Nathaniel Jacobs</tei:title>
+          <tei:author>Nathaniel Jacobs</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-11-20">2024-11-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=59061</tei:idno>
+          <tei:idno type="opensiddur.org">59061</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59061_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>El Malé Raħamim, the Prayer for the Dead, is recited in the Yizkor service on special days of the year. The prayer has been adapted for various groups on these and other memorial days, notably for victims of the Holocaust. This adaptation commemorates victims of lethal hate-crimes against Transgender people. This version was originally written for Queer Jews at Brandeis’s Transgender Day of Remembrance Services on 20 November 2024.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59061_introduction"/>
+      <j:conditional xml:id="osp_59061_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This adaptation of El Malé Raḥamim for Transgender Day of Remembrance was prepared by Nathaniel Jacobs for Queer Jews at Brandeis‘s Transgender Day of Remembrance Services on 20 November 2024.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59061_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_male_rachamim_for_transgender_day_of_remembrance_jacobs"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

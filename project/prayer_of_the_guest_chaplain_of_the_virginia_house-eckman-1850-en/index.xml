@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the Virginia House of Delegates: Rabbi Julius Eckman (January 1850)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the Virginia House of Delegates: Rabbi Julius Eckman (January 1850)</tei:title>
+          <tei:author>Julius Eckman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1850-01-15">1850-01-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57270</tei:idno>
+          <tei:idno type="opensiddur.org">57270</tei:idno>
+          <tei:note>Source: Prayer by Rabbi Julius Eckman (The Richmond Enquirer, 25 January 1850), p 2. <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/prayer-by-rabbi-julius-eckman-the-richmond-enquirer-25-january-1850-p-2.png">https://opensiddur.org/wp-content/uploads/2024/07/prayer-by-rabbi-julius-eckman-the-richmond-enquirer-25-january-1850-p-2.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57270_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This was an opening prayer offered by the guest chaplain before the Virginia House of Delegates (1849-1850 legislative session) in the week of January 15-18, 1850, and published in <tei:hi rend="italic">The Richmond Enquirer</tei:hi> (25 January 1850), p. 1. As the <tei:hi rend="italic">Journal of the House of Delegates of the State of Virginia</tei:hi> records only that Rabbi Eckman offered a prayer on these four days, we can only deduce from the language of the opening prayer that it was offered at one of the proceedings, January 16-18th. The lede to the prayer in <tei:hi rend="italic">The Richmond Enquirer</tei:hi> notes that the prayer was published there “at the request of Mr. West, of Tyler,” a representative in the Virginia House. The prayer was reprinted in <tei:hi rend="italic">The Occident and American Jewish Advocate</tei:hi> (March 1850) under the heading “Virginia” on pages 38-40, along with the following note (likely written by Isaac Leeser):</tei:p>
+        <tei:p>VIRGINIA.—We love this old commonwealth; it is the home of generous feelings, and the seat of true liberty of conscience; this has been frequently proved, especially by the late act to repeal all punishments for not observing Sunday on the part of those who keep the seventh day Sabbath; for though at one time misled to enact an exceptional law, that State repealed it as soon as the injustice was made manifest; and next to not committing an error, it is to acknowledge the wrong and amend it; in truth, it is more generous to do so, especially in public bodies, who are often swayed by contrary notions to those of abstract justice. When the convention to amend the State Constitution, met in 1829 or ’30, under the Presidency of Mr. Monroe, once President of the United States, the clergy of various Christian denominations were invited to open the daily sittings with prayer. This act of exclusion roused the zeal of the Rev. Abraham Hyam Cohen, then the minister of the Jewish Congregation,<tei:anchor xml:id="note_1"/> and he succeeded in having the rights of the Jews respected. We now see the fruits of this well-directed remonstrance. The offence is not repeated again, and we see that the Rev. Mr. Eckman, the newly arrived minister of the Portuguese Synagogue, has been invited to open the meeting of the House of Delegates.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57270_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_virginia_house_eckman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Abraham Hyam Cohen (1779-1841)—son of Jacob Raphael Cohen (1738-1811), also served as spiritual leader of Philadelphia’s Mikve Israel congregation, and afterward at Beth Shalome in Richmond, Virginia.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

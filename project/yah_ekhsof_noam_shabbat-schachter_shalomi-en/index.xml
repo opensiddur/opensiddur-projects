@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יָהּ אֶכְסוֹף נוֹעַם שַׁבָּת</tei:title>
+        <tei:title type="main" xml:lang="en">Yah Ekhsof No'am Shabbat, a Shabbes hymn by Reb Aharon of Karlin (interpretive translation by Rabbi Zalman Schachter-Shalomi)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יָהּ אֶכְסוֹף נוֹעַם שַׁבָּת</tei:title>
+          <tei:title xml:lang="en">Yah Ekhsof No'am Shabbat, a Shabbes hymn by Reb Aharon of Karlin (interpretive translation by Rabbi Zalman Schachter-Shalomi)</tei:title>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:author>Aharon ben Yaakov Perlov of Karlin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1740" to="1800">1740 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29329</tei:idno>
+          <tei:idno type="opensiddur.org">29329</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddurtehillathashemyedaberpisabbathsupplementzalmanschachtershalomi2009#page/n3/mode/2up">https://archive.org/stream/siddurtehillathashemyedaberpisabbathsupplementzalmanschachtershalomi2009#page/n3/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29329_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “praying translation” of the shabbes hymn Yah Ekhsof by Reb Aharon of Karlin is included in Rabbi Zalman Schachter-Shalomi’s Sabbath Supplement to his <tei:hi rend="italic">Siddur Tehillat Hashem Yidaber Pi ~ As I Can Say It (for Praying in the Vernacular)</tei:hi> (2009). There, Reb Zalman describes his translation as composed “after the Shabbat Hymn by Reb Ahron of Karlin, The Great.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29329_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yah_ekhsof_noam_shabbat_aharon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה לשוב לעבודה</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer for (finally) getting back to work, by Chaya Kaplan-Lester</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה לשוב לעבודה</tei:title>
+          <tei:title xml:lang="en">A Prayer for (finally) getting back to work, by Chaya Kaplan-Lester</tei:title>
+          <tei:author>Chaya Kaplan-Lester</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-10-15">2017-10-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=17783</tei:idno>
+          <tei:idno type="opensiddur.org">17783</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_17783_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Chaya Kaplan-Lester’s “Prayer for – Finally – Getting Back to WORK” was first published on her Facebook page, here. The Hebrew word Todah תודה, means grateful. The etymology of the English word ‘ta-da!’ is onomatopoeia for the sound of a horn (Cf. 1913 Sphinx July 98/1): “Coming front in utter disgust, he [sc. a conjuror] tells them [sc. the orchestra] that that won’t do, that he wants something like ‘tadaa!’ from all of them. They seem to understand, so he goes off again. On his reappearance, however, he is met with a loud tumult, as all the orchestra shout out in unison the word ‘tadaa!’” (Oxford English Dictionary).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_17783_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_getting_back_to_work_kaplan_lester"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

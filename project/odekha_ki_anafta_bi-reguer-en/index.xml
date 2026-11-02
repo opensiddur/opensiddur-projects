@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אוֹדְךָ כִּי אָנַֽפְתָּ בִּי</tei:title>
+        <tei:title type="main" xml:lang="en">Odekha Ki Anafta Bi, a Yotser (Hymn) for Ḥanukkah by Yosef bar Shlomo of Carcassone (ca. 11th cent.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/sara-reguer">Sara Reguer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אוֹדְךָ כִּי אָנַֽפְתָּ בִּי</tei:title>
+          <tei:title xml:lang="en">Odekha Ki Anafta Bi, a Yotser (Hymn) for Ḥanukkah by Yosef bar Shlomo of Carcassone (ca. 11th cent.)</tei:title>
+          <tei:author>Yosef ben Shlomo of Carcassonne</tei:author>
+          <tei:author>Girls in Trouble</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=13727</tei:idno>
+          <tei:idno type="opensiddur.org">13727</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_13727_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“<tei:hi rend="italic">Odekha ki anafta bi</tei:hi> (I give thanks to you although you were angry with me) was composed by Joseph ben Solomon of Carcassonne, who is dated to the first half of the eleventh century. This elegant and abstruse poem tells an epic tale of the Jews’ resistance to the decrees of Antiochus IV and includes accounts of both the Hasmonean bride and Judith. It bears a considerable resemblance to texts 4 and 12 of the Hanukkah midrashim<tei:anchor xml:id="note_1"/> and this is evidence for the circulation of the joint Hasmonean daughter-Judith tales in the eleventh century, even if the surviving manuscripts of these stories are from a later date.” (Deborah Levine Gera, “The Jewish Textual Traditions” in <tei:hi rend="italic">The Sword of Judith: Judith Studies Across the Disciplines</tei:hi> (2010).)</tei:p>
+        <tei:p>יוצר. ע״ס א״ב כפול תשעה וחתום בו יוסף בר שלמה. Note the author’s signature twice indicated within the text of the composition. (Open punctums appear over the letters spelling out his name.)</tei:p>
+        <tei:p>Transcribed from <tei:hi rend="italic">Machzor Shivchei Yeshurun</tei:hi> by anonymous contributors to the Open Siddur Project. <tei:hi rend="italic">Shivhei Yeshurun</tei:hi> took this text from Seligmann Baer’s <tei:hi rend="italic">Seder Avodat Yisrael</tei:hi> (1868) pp. 629-633, adding its own parentheses around certain words indicating <tei:hi rend="italic">girsa</tei:hi> variations. Translation by Dr. Sara Reguer and originally published in Dr. Reguer’s <tei:hi rend="italic">The Most Tenacious of Minorities: The Jews of Italy</tei:hi> (Boston: 2013, Academic Studies Press), pp, 162-167.</tei:p>
+        <tei:p>A 15th century Italian illustration for Odekha Ki Anafta. (Rothschild Miscellany, Jerusalem, Israel Museum, Ms. 180/51, fol. 217r, Italy 1470-1480.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13727_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:odekha_ki_anafta_bi_yosef"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>See Grintz, Sefer Yehudit, pp. 205, 207–08</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

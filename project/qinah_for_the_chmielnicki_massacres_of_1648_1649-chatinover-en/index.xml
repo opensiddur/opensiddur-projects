@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">על אלה אני בוכיה</tei:title>
+        <tei:title type="main" xml:lang="en">Ḳinah for the Chmielnicki Massacres of 1648–1649, by Yaaqov Ḳoppel ben Tsvi Margoliyot (1658)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jacob-chatinover">Jacob Chatinover</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">על אלה אני בוכיה</tei:title>
+          <tei:title xml:lang="en">Ḳinah for the Chmielnicki Massacres of 1648–1649, by Yaaqov Ḳoppel ben Tsvi Margoliyot (1658)</tei:title>
+          <tei:author>Yaaqov Ḳoppel ben Tsvi Margoliyot</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1648">1648</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24029</tei:idno>
+          <tei:idno type="opensiddur.org">24029</tei:idno>
+          <tei:note>Source: title page from Sefer Kol Yaakov (1658) <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/02/title-from-Sefer-Kol-Yaakov-1658.png">https://opensiddur.org/wp-content/uploads/2019/02/title-from-Sefer-Kol-Yaakov-1658.png</tei:ref></tei:note>
+          <tei:note>Source: ḳinah from Sefer Kol Yaakov (1658) <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/02/kinah-from-Sefer-Kol-Yaakov-1658.png">https://opensiddur.org/wp-content/uploads/2019/02/kinah-from-Sefer-Kol-Yaakov-1658.png</tei:ref></tei:note>
+          <tei:note>Source: ḳinah from Sefer Ḳol Yaaqov (1658) <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/02/D0A5BMRXcAE7Wfm.jpg">https://opensiddur.org/wp-content/uploads/2019/02/D0A5BMRXcAE7Wfm.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24029_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This ḳinah (elegy) appearing in <tei:hi rend="italic">Sefer Ḳol Yaakov</tei:hi> (1658) by Yaakov Koppel ben Tsvi Margalit, was possibly written by an eyewitness survivor of the Chmielnicki massacres of 1648–1649. Many thanks to Fred MacDowell for bringing this ḳinah to our attention.</tei:p>
+        <tei:p>This English translation is the first and so far only translation we believe published for this kinah. It was made by the Open Siddur Project community by Aharon Varady, Emily Fishman, and Jacob Chatinover, who also provided much of the annotation, as well as other anonymous contributors.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24029_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qinah_for_the_chmielnicki_massacres_of_1648_1649_yaaqov"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

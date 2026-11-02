@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">גאָט בענטש אַמעריקע</tei:title>
+        <tei:title type="main" xml:lang="en">God Bless America, for Armistice Day by Irving Berlin (1918/1938) with Yiddish translation</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">גאָט בענטש אַמעריקע</tei:title>
+          <tei:title xml:lang="en">God Bless America, for Armistice Day by Irving Berlin (1918/1938) with Yiddish translation</tei:title>
+          <tei:author>Irving Berlin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1918">1918</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=22583</tei:idno>
+          <tei:idno type="opensiddur.org">22583</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/b1rKQReqJZg?feature=oembed">https://www.youtube.com/embed/b1rKQReqJZg?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/riHMRZsv3nc?feature=oembed">https://www.youtube.com/embed/riHMRZsv3nc?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/eGePGKlXaQY?feature=oembed">https://www.youtube.com/embed/eGePGKlXaQY?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/xK9FnEj6IT8?start=30&amp;feature=oembed">https://www.youtube.com/embed/xK9FnEj6IT8?start=30&amp;feature=oembed</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_22583_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Irving Berlin’s famous “God Bless America” was written in 1918 during World War I, set aside, and then published again twenty years later in a slightly revised form to be sung on 11 November, Armistice Day (now Veterans Day).</tei:p>
+        <tei:p>In 1938, with the rise of Adolf Hitler, Irving Berlin, who was Jewish and had arrived in America from Russia at the age of five, felt it was time to revive it as a “peace song,” and it was introduced on an Armistice Day broadcast in 1938, sung by Kate Smith on her radio show. Berlin had made some minor changes; by this time, “to the right” might have been considered a call to the political right, so he substituted “through the night” instead. He also provided an introduction that is now rarely heard but which Smith always used: “While the storm clouds gather far across the sea / Let us swear allegiance to a land that’s free / Let us all be grateful for a land so fair, / As we raise our voices in a solemn prayer.” (In her first broadcast of the song, Kate Smith sang “that we’re far from there” rather than “for a land so fair”.) This was changed when Berlin published the sheet music in March 1939.<tei:anchor xml:id="note_2"/></tei:p>
+        <tei:p>The Yiddish version that I have transcribed in Hebrew type is the translation made by Henry Sapoznik used in Mandy Patinkin’s album <tei:hi rend="italic">Mamaloshen</tei:hi> (Nonesuch 1998). <tei:hi rend="bold">Please correct any errors in my transcription or orthography.</tei:hi> Many thanks to Cantor Hinda Labovitz for her assistance in locating these Yiddish lyrics.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_22583_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:god_bless_america_berlin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>”From Peace To Patriotism: The Shifting Identity Of ‘God Bless America’“. Interview of Sheryl Kaskowitz by Robert Siegel. NPR. September 2, 2013. Retrieved September 10, 2013.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

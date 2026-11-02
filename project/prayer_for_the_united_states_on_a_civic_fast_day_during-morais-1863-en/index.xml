@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the United States on a Civic Fast Day during the Civil War, by Rabbi Sabato Morais (30 April 1863)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the United States on a Civic Fast Day during the Civil War, by Rabbi Sabato Morais (30 April 1863)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1863-04-30">1863-04-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46202</tei:idno>
+          <tei:idno type="opensiddur.org">46202</tei:idno>
+          <tei:note>Source: prayer for the day of national humiliation [1863-04-30] (Sabato Morais Ledger, p. 23 clipping 026) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-the-day-of-national-humiliation-1863-04-30-Sabato-Morais-Ledger-p.-23-clipping-026-scaled.jpg">https://opensiddur.org/wp-content/uploads/2022/08/prayer-for-the-day-of-national-humiliation-1863-04-30-Sabato-Morais-Ledger-p.-23-clipping-026-scaled.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46202_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais was offered on 30 April 1863 at the conclusion of a “A Sermon. Delivered in accordance with the Proclamation of the President of the United States, at the Synagogue in Seventh Street, above Arch, on the National Fast-day, by the Rev. S. Morais, Minister of the Congregation”, that was published in <tei:hi rend="italic">The Philadelphia Inquirer</tei:hi> on 2 May 1863. It was preserved by Rabbi Morais in his ledger (page 23, clipping 026), an archive of newsclippings recording material he contributed to the press, among other announcements. (Many thanks to the Library of the University of Pennsylvania for helping to make this resource accessible.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46202_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_united_states_on_a_civic_fast_day_during_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

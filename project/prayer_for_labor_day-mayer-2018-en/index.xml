@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָה לְחַג הָעֲבוֹדָה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for Labor Day, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָה לְחַג הָעֲבוֹדָה</tei:title>
+          <tei:title xml:lang="en">Prayer for Labor Day, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-08-18">2018-08-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21205</tei:idno>
+          <tei:idno type="opensiddur.org">21205</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21205_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a petition for the worker in the style of “Av Haraḥamim” and similar texts, using Biblical and Mishnaic language and co-opting it into a new meaning. It could be read after the Torah service (like many other petitionary texts) or focused on in private.</tei:p>
+        <tei:p>The Biblical relationship between God, humanity, and labor is fascinating. Often it is treated as a curse placed upon us, and just as often as the purpose of humanity. In Genesis 3:19 it is the curse placed upon a disobedient First Adam, but less than a chapter earlier in Genesis 2:15 it is the reason for First Adam’s creation in the first place!</tei:p>
+        <tei:p>In the past century or so, traditional Judaism has somewhat tilted away from the ideas of workers’ rights so clearly stated in the Tanakh and in rabbinic texts. Partially this was to disassociate from the Bundists, partially out of fear of “looking too Communist” in a xenophobic American society, and partially because the Jewish working class is nowhere near as substantial a part of the community as it once was. If this text is meant to do anything, it’s to show that love of God and love of the worker aren’t opposed to each other – in fact, they go hand in hand!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21205_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_labor_day_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">National Brotherhood Week, by Tom Lehrer (1965)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">National Brotherhood Week, by Tom Lehrer (1965)</tei:title>
+          <tei:author>Tom Lehrer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1965">1965</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=49039</tei:idno>
+          <tei:idno type="opensiddur.org">49039</tei:idno>
+          <tei:note>Source: National Brotherhood Week lyrics (Tom Lehrer 1965) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/02/National-Brotherhood-Week-lyrics-Tom-Lehrer-1965.jpg_Page_1_Image_0001.png">https://opensiddur.org/wp-content/uploads/2023/02/National-Brotherhood-Week-lyrics-Tom-Lehrer-1965.jpg_Page_1_Image_0001.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_49039_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“National Brotherhood Week” by Tom Lehrer was first released on his album “That Was The Year That Was” (1965). National Brotherhood Week in February was first established in the 1930s by the National Conference of Christians and Jews as a means of promoting the values of inter-religious tolerance and civic interdependence. The week gained federal support from President Franklin Roosevelt during World War II as a means of combatting fascist and nativist objections to a vision of democracy built on the foundation of a multicultural civil society. By the time Tom Lehrer lampooned the civic commemoration in 1965, the McCarthyite oppressions of the Red Scare and Lavender Scare during the Cold War, the manufactured Vietnam War, lingering anti-Semitic prejudice and suspicion, the continued struggle for civil rights with its continued lynchings, the assassination of JFK and increasing political violence had all exposed National Brotherhood Week for many young adults as <tei:hi rend="italic">phony</tei:hi>, a historical relic that had lost the import of any cultural imperative it might have once possessed. I feel very strongly that if anything has been proven by the past decade, it is that antifascist civic values undergirding our democratic civil society require continued, enduring promotion. If Tom Lehrer showed us anything through his jaunty takedown, it is that such civic values need to register as genuine and authentic if they are not to be watered down to the point of irrelevance. –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_49039_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:national_brotherhood_week_lehrer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

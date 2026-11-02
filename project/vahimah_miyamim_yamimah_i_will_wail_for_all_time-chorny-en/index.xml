@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">וְאָהִימָה מִיָּמִים יָמִימָה</tei:title>
+        <tei:title type="main" xml:lang="en">v’Ahimah Miyamim Yamimah: I Will Wail for All Time (translated by Hillary and Daniel Chorny)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">וְאָהִימָה מִיָּמִים יָמִימָה</tei:title>
+          <tei:title xml:lang="en">v’Ahimah Miyamim Yamimah: I Will Wail for All Time (translated by Hillary and Daniel Chorny)</tei:title>
+          <tei:author>Hillary Chorny</tei:author>
+          <tei:author>Daniel Chorny</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=11858</tei:idno>
+          <tei:idno type="opensiddur.org">11858</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_11858_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“<tei:hi rend="italic">V’ahimah Miyamim Yamimah</tei:hi>” is a ḳinah that recounts the tragic tale of the children of Rabbi Yishmael as told in the Babylonian Talmud (Gittin 58a). The handsome brother and fair sister were separated and sold into slavery during the conquest of Jerusalem. Their respective masters, not knowing the two were siblings, paired them with the intent of creating beautiful offspring. In their shared cell, the two wept all night until morning, when they recognized one another. They cried on each other’s necks until their souls departed from their bodies. The narrator of our story laments their terrible fate, ending each verse with a haunting refrain: “And so I will wail for all time.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_11858_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veahimah_miyamim_yamimah_i_will_wail_for_all_time"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

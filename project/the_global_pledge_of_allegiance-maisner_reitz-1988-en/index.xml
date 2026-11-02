@@ -1,0 +1,80 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Global Pledge of Allegiance, by Edna A. Maisner-Reitz (1988)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Global Pledge of Allegiance, by Edna A. Maisner-Reitz (1988)</tei:title>
+          <tei:author>Edna A. Maisner-Reitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1988-08">1988-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53313</tei:idno>
+          <tei:idno type="opensiddur.org">53313</tei:idno>
+          <tei:note>Source: Edna Reitz in The Quest – Letters to the Editor (Theosophical Society in America, Winter 1989), p. 6 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/11/Edna-Reitz-in-The-Quest-Theosophical-Society-in-America-Winter-1989-p--6.png">https://opensiddur.org/wp-content/uploads/2023/11/Edna-Reitz-in-The-Quest-Theosophical-Society-in-America-Winter-1989-p--6.png</tei:ref></tei:note>
+          <tei:note>Source: Edna Reitz in The Quest – The Global Pledge of Allegiance (Theosophical Society in America, Winter 1989), back cover <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/11/Edna-Reitz-in-The-Quest-Theosophical-Society-in-America-Winter-1989-back-cover.jpg">https://opensiddur.org/wp-content/uploads/2023/11/Edna-Reitz-in-The-Quest-Theosophical-Society-in-America-Winter-1989-back-cover.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53313_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The following “Letter to the Editor” from Edna Reitz (Woodland Hills, California), was printed in the Winter 1989 issue of The Theosophical Society in America’s periodical, <tei:hi rend="italic">The Quest</tei:hi> (vol. 2, issue 4), page 4:</tei:p>
+        <tei:p>During last year’s presidential campaign,<tei:anchor xml:id="note_1"/> I watched with fascination the techniques of evasiveness on important issues.</tei:p>
+        <tei:p>Witnessing the incredible amount of energy involved in the political furor related to the Pledge of Allegiance in our schools,<tei:anchor xml:id="note_2"/> when this energy might have been better used for solving some of our major planetary and social problems such as making peace, reducing pollution, feeding the hungry, etc., it occurred to me that since the “pledge” seemed likely to stay, that perhaps we could upgrade it, add some new verses, or even promote a new “global” pledge.</tei:p>
+        <tei:p>Such a repeated pledge, making use of affirmations and visual imagery without promulgating any particular country or religious point of view, would support the idea of unity while embracing individual freedom.</tei:p>
+        <tei:p>As an elder of my community, a parent, grandparent, and psychotherapist for 45 years, it would please me for our present generation to offer this new pledge to the children of the world.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53313_introduction"/>
+      <j:conditional xml:id="osp_53313_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Global Pledge of Allegiance” was written by Edna A. Meisner-Reitz in reaction to the 1988 US Presidential Election between George W. Bush (R) and Michael Dukakis (D) and was first published a year afterward in <tei:hi rend="italic">The Quest</tei:hi>, vol. 2, issue 4, Winter 1989 (Theosophical Society of America), back cover, accompanied by a Letter to the Editor (on page 6).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53313_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_global_pledge_of_allegiance_maisner_reitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The 1988 US Presidential Election between George W. Bush (R) and Michael Dukakis (D).</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>This occurred during the general election (after the primary elections were decided). As summarized in Wikipedia, “During the election, the Bush campaign sought to portray Dukakis as an unreasonable “Massachusetts liberal.” Dukakis was attacked for such positions as opposing mandatory recitation of the Pledge of Allegiance in schools, and being a “card-carrying member of the ACLU” (a statement Dukakis made early in the primary campaign to appeal to liberal voters). Dukakis responded by saying that he was a “proud liberal” and that the phrase should not be a bad word in America.”</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

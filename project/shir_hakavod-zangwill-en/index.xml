@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שִׁיר הַכָּבוֹד (אַנְעִים זְמִירוֹת)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Shir haKavod (An’im Zemirot), attributed to Rabbi Yehudah he-Ḥasid of Regensburg (ca. 12th c.); translation by Israel Zangwill (1904)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שִׁיר הַכָּבוֹד (אַנְעִים זְמִירוֹת)‏</tei:title>
+          <tei:title xml:lang="en">Shir haKavod (An’im Zemirot), attributed to Rabbi Yehudah he-Ḥasid of Regensburg (ca. 12th c.); translation by Israel Zangwill (1904)</tei:title>
+          <tei:author>Yehudah ben Shmuel of Regensburg</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Israel Zangwill</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1137" to="1217">1137 – 1217</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65702</tei:idno>
+          <tei:idno type="opensiddur.org">65702</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimarthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%201%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n153/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimarthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%201%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n153/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/shir-hayihud-thiengen-1560-facsimile-edition-joseph-dan-1981/Shir%20haYihud%20%5BThiengen%201560%20facsimile%20edition%5D%20%28Joseph%20Dan%201981%29#page/11/mode/2up">https://archive.org/stream/shir-hayihud-thiengen-1560-facsimile-edition-joseph-dan-1981/Shir%20haYihud%20%5BThiengen%201560%20facsimile%20edition%5D%20%28Joseph%20Dan%201981%29#page/11/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65702_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the Shir haKavod (“Hymn of Glory,” also known by its incipit “An’im Zemirot”) attributed to Rabbi Yehudah he-Ḥasid of Regensburg, included at the conclusion of the Shir haYiḥud (first attested in print in Thiengen 1560). This translation by Israel Zangwill, was first published in Arthur Davis and Herbert Adler’s <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Yom haKippurim (Evening Service)</tei:hi> (1904), pp. 73-74.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65702_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shir_hakavod_yehudah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

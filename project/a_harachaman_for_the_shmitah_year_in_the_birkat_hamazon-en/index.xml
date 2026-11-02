@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הָרַחֲמָן עַל שְׁנַת הַשְׁמִיטָה</tei:title>
+        <tei:title type="main" xml:lang="en">A Haraḥaman for the Shmitah Year in the Birkat haMazon, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הָרַחֲמָן עַל שְׁנַת הַשְׁמִיטָה</tei:title>
+          <tei:title xml:lang="en">A Haraḥaman for the Shmitah Year in the Birkat haMazon, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-09-24">2014-09-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=9418</tei:idno>
+          <tei:idno type="opensiddur.org">9418</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_9418_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This <tei:hi rend="italic">Haraḥaman</tei:hi> (prayer to the merciful or compassionate One) for the <tei:hi rend="italic">Shmitah</tei:hi> or sabbatical year can be added to Birkat haMazon (blessing after meals) during the whole Shmitah year, in order to remember and open our hearts to the sanctity of the land. Say it right before the Haraḥaman for Shabbat, since Shmitah is the grand shabbat, and right after the paragraph beginning with <tei:hi rend="italic">Bamarom</tei:hi> (a/k/a, <tei:hi rend="italic">Mimarom</tei:hi>).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_9418_introduction"/>
+      <j:conditional xml:id="osp_9418_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>For your festive meal, you can also print out this PDF and add the Haraḥaman prayer to your <tei:hi rend="italic">birkon</tei:hi> (bentsher).</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Here’s a <tei:hi rend="italic">niggun</tei:hi> (melody) by Nili Simḥai for the haraḥaman, sung by Rabbi David Seidenberg to the “Sosne Nigun” by Jonah Adels, <tei:hi rend="italic">z”l</tei:hi>.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_9418_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_harachaman_for_the_shmitah_year_in_the_birkat_hamazon_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

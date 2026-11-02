@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Hershel Lutch on 21 June 2017</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Hershel Lutch on 21 June 2017</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Hershel Lutch</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-06-21">2017-06-21</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20041</tei:idno>
+          <tei:idno type="opensiddur.org">20041</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4674453/rabbi-hershel-lutch-meor-foundation-baltimore-maryland">https://www.c-span.org/video/standalone/?c4674453/rabbi-hershel-lutch-meor-foundation-baltimore-maryland</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2017/06/21/CREC-2017-06-21-pt1-PgH5001-5.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2017/06/21/CREC-2017-06-21-pt1-PgH5001-5.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20041_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Rabbi Hershel Lutch, MEOR Foundation, Baltimore, MD</tei:p>
+        <tei:p>Sponsor: Rep. Tom Emmer, (R-MN)</tei:p>
+        <tei:p>Date of Prayer: 06/21/2017</tei:p>
+        <tei:p>Mr. EMMER. Mr. Speaker, I rise to recognize my friend, Rabbi Hershel Lutch, and to thank him for reading the opening prayer here on the House floor today.</tei:p>
+        <tei:p>Rabbi Lutch has devoted his life to working for the Jewish community in the United States and around the globe.</tei:p>
+        <tei:p>I met Rabbi Lutch on a trip to Israel that he and his organization, Aish HaTorah, helped to coordinate. That special trip showed me firsthand how our ally in Israel fights to survive and thrive every day.</tei:p>
+        <tei:p>In addition to his work for Aish HaTorah, Rabbi Lutch is the CEO of the MEOR Foundation, an organization that strives to inspire Jewish students on college campuses to learn more about their history and heritage.</tei:p>
+        <tei:p>In his personal life, Rabbi Lutch is a husband and a father and a son. He is an asset to his community and our country, and I am pleased we could hear from him on the floor today.</tei:p>
+        <tei:p>Thank you, Rabbi, for blessing us here today and for your continued dedication to the Jewish people and to people of all faiths. It is an honor to know you.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20041_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_20041"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

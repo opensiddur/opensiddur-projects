@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תחנה אמהות</tei:title>
+        <tei:title type="main" xml:lang="en">Teḥinah Imahot for Shabbat Mevorkhim by Leah Horowitz in its original Aramaic (ca. 1790)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/moshe-rosman">Moshe Rosman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תחנה אמהות</tei:title>
+          <tei:title xml:lang="en">Teḥinah Imahot for Shabbat Mevorkhim by Leah Horowitz in its original Aramaic (ca. 1790)</tei:title>
+          <tei:author>Leah Horowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1788" to="1795">1788 – 1795</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64557</tei:idno>
+          <tei:idno type="opensiddur.org">64557</tei:idno>
+          <tei:note>Source: Tehinah Imahot (NLI R41A460, v.6, n.2), p. 3 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--3.png">https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--3.png</tei:ref></tei:note>
+          <tei:note>Source: Tehinah Imahot (NLI R41A460, v.6, n.2), p. 4 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--4.png">https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--4.png</tei:ref></tei:note>
+          <tei:note>Source: Tehinah Imahot (NLI R41A460, v.6, n.2), p. 5 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--5.png">https://opensiddur.org/wp-content/uploads/2025/11/tehinah-imahot-nli-r41a460-v-6-n-2-p--5.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64557_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the Aramaic source of Leah Horowitz’s teḥinah imahot, a teḥinah for Shabbat Mevorkhim, also known in its Yiddish translation (also by Leah Horowitz) as the “Teḥinah fun Sarah, Rivqah, Raḥel, vəLéah” as found in the manuscript: National Library of Israel (NLI), R41A460, vol. 6, no. 2.</tei:p>
+        <tei:p>The English translation was provided by Dr. Moshe Rosman as published in “Leah Horowitz’s Tkhine Imohos A Proto-Feminist Demand to Increase Jewish Women’s Religious Capital,” <tei:hi rend="italic">Polin</tei:hi> 33 (2020), pp. 27-29, with minor amendments. (There, Rosman refers to the Aramaic form of the teḥinah as a piyyut.) I have parsed the Aramaic text and set each phrase side-by-side with its English translation. I have re-Hebraized names and divine names and omitted Rosman’s descriptive section titles. I have also changed Rosman’s translation from “supreme father and mother” to “supernal father and mother” in order to make the reference to the sefirot of Ḥokhmah and Binah clear in the translation.</tei:p>
+        <tei:p>The annotation is copied directly from Dr. Rosman’s footnotes. For the original footnote numbers, as well as a full analysis of the tekhinah in Aramaic, its Yiddish translation, and its Hebrew introduction, please consult the original article. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64557_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:techinah_imahot_for_shabbat_mevorkhim_horowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

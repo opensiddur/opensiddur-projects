@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברבת מקדש השבת למוסף</tei:title>
+        <tei:title type="main" xml:lang="en">Birkat Meqadesh ha-Shabbat for the Shabbat Musaf Amidah amended with Hosea 14:3</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברבת מקדש השבת למוסף</tei:title>
+          <tei:title xml:lang="en">Birkat Meqadesh ha-Shabbat for the Shabbat Musaf Amidah amended with Hosea 14:3</tei:title>
+          <tei:author>Jonathan Schachter</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0200">-0200 – 0200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66322</tei:idno>
+          <tei:idno type="opensiddur.org">66322</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66322_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In the period following the second destruction of the Temple in Jerusalem, rabbinic Jewish liturgy re-established a form of the Temple service in which all the established offerings were transformed into prayer services. To make the connection clear, verses dictating which Temple offerings were made during the various services were referred to directly in the body of relevant prayers. This formula is evident in the the blessing <tei:hi rend="italic">meqadesh hashabbat</tei:hi>, the central blessing of the musaf Shabbat Amidah. There the musaf offering is invoked directly with the inclusion of the verse, Numbers 28:9. Before the Amidah, my ḥavrutah Jonathan Schachter would remind those davvening musaf with him that they could follow the recitation of that verse with Hosea 14:3, our oldest scriptural witness to a counter-tradition of prayer as a surrogate for animal sacrifice. We offer this amendment to the Shabbat musaf Amidah as a corrective to the notion that the return of the Temple cult must necessarily bring a return of animal sacrifice and to bolster long extant Jewish traditions that regard with love and dignify with inclusion all those tame animals (<tei:hi rend="italic">behemot</tei:hi>) within our shabbat boundaries as respected members of our community (find Deuteronomy 5:14).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66322_introduction"/>
+      <j:conditional xml:id="osp_66322_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the blessing, meqadesh ha-shabbat for the musaf Amidah, with the inclusion of Hosea 14:3 after the traditional invocation of Numbers 28:9. The English translation by Aharon Varady is adapted from the translation offered by the Metsudah Siddur (nusaḥ Sefarad).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66322_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_meqadesh_hashabbat_for_the_shabbat_musaf_amidah_schachter"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לִשְׁלוֹם הַמְּדִינָה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Peace of the State of Israel, by Rabbi David Seidenberg (neohasid·org 2018)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לִשְׁלוֹם הַמְּדִינָה</tei:title>
+          <tei:title xml:lang="en">Prayer for the Peace of the State of Israel, by Rabbi David Seidenberg (neohasid·org 2018)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-04-05">2018-04-05</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=19667</tei:idno>
+          <tei:idno type="opensiddur.org">19667</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_19667_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The familiar prayer for the State of Israel, which is more literally titled “a Prayer for Peace for the State” <tei:hi rend="italic">tefilah lish’lom hamedinah</tei:hi>, was instituted by the chief rabbis in what had up until then been British Mandate Palestine,<tei:anchor xml:id="note_1"/> during a time of war. The state was under direct attack by the Arab armies, and there was little distinction between peace, survival, and victory.</tei:p>
+        <tei:p>As we approach Israel’s 70th birthday, it is time to make such distinctions. Israel and the Jewish people live in a much more complex reality today, where the triumph of one political party or set of goals can radically change the outlook for peace, and the possibility of justice. In our time, praying for peace for the state of Israel mist include praying for the rectification of its relationships with neighboring countries and with the Palestinian people, some of whom are Israeli citizens, and most of whom are in some way under Israel’s control. This prayer assumes that the best reality for the Jewish state is also the best reality for all of her citizens and for everyone who lives “in the land,” no matter where they are in relation to the Green Line or Areas A, B and C.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_19667_introduction"/>
+      <j:conditional xml:id="osp_19667_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Text in green is changed from Rabbi Yitsḥak haLevi Hertzog’s “Prayer for the Welfare of the State of Israel,” (the version that appears as only half the original prayer in many siddurim).</tei:p>
+        <tei:p>What’s left out: “Strengthen the hands of those who defend the land...and crown them with the crown of victory.”</tei:p>
+        <tei:p>Why: This was the one phrase in the original prayer that was included specifically for the IDF. In a time of war, I believe we should say a full prayer for the protection and success of the soldiers of the IDF, like the <tei:hi rend="italic">Mi Shebeirakh</tei:hi> prayer that already exists by Rabbi Shlomo Goren (or Alex Sinclair’s amendation to his prayer). In a less critical political time, any prayerful hope we might have for the IDF is included in the phrase “grant secure calm (<tei:hi rend="italic">shalvah</tei:hi>) to her defenders,” which can also include everyone else who is working to bring peace, justice, and security to the land of Israel and to the state of Israel.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_19667_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_peace_of_the_state_of_israel_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The prayer for the welfare of the State of Israel composed by Ashkeanzi chief Rabbi Yitsḥak haLevi Hertzog (1888-1959) and edited by S.Y. Agnon (1888-1970) in September 1948 was instituted by Hertzog and Sepharadi chief Rabbi Ben Tsiyon Meir Ḥai Uziel (1880-1953), both of whom were chief rabbis under the British Mandate. Also see S.Y. Agnon’s own Prayer for the State of Israel.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

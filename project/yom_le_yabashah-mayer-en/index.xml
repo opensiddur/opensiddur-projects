@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יוֹם לְיַבָּשָׁה</tei:title>
+        <tei:title type="main" xml:lang="en">Yom le-Yabashah (The Day On Which to Dry Land) — a geulah piyyut for the 7th day of Pesaḥ and Shabbat Shirah by Yehudah haLevi (early 12th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יוֹם לְיַבָּשָׁה</tei:title>
+          <tei:title xml:lang="en">Yom le-Yabashah (The Day On Which to Dry Land) — a geulah piyyut for the 7th day of Pesaḥ and Shabbat Shirah by Yehudah haLevi (early 12th c.)</tei:title>
+          <tei:author>Yehudah ben Shmuel haLevi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1095" to="1141">1095 – 1141</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65735</tei:idno>
+          <tei:idno type="opensiddur.org">65735</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65735_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Originally written by Yehuda haLevi for the seventh day of Pesaḥ, Yom le-Yabasha — a celebration of the crossing of the Sea of Reeds and the establishment of the covenant as signified by the circumcision and tsitsit — quickly became a beloved piyyut on that occasion and more.</tei:p>
+        <tei:p>In Ashkenazi communities it is traditionally inserted as a <tei:hi rend="italic">geulah</tei:hi> — a piyyut before the ḥatimah of the final blessing of the Shema’ service on the seventh day of Pesaḥ and on Shabbat Shirah. (The final two lines herein, without a rhyming translation, are the closing lines of every geulah and not a part of the poem itself.) While Yom le-Yabasha is treated as a geulah today, it has been suggested that it originally was meant to be inserted before the line that serves as its refrain — “a new song the redeemed one praised.” This is an exceedingly rare location for a piyyut to be inserted, and no community today inserts it there. R. Mordechai Jaffe (Levush 490:9) suggests that when the seventh day of Pesaḥ falls on Shabbat, Yom le-Yabasha should be brought forward to before “a new song the redeemed one praised” so that both it and the normal Shabbat Ḥol haMoed geula can be recited. He further states that we should insert it in the same location on any other day that a geula is recited when a circumcision occurs. This practice was not adopted, but it would be cool if it had been!</tei:p>
+        <tei:p>Many Ashkenazim sing Yom le-Yabasha at the festive meal for a circumcision, a custom that probably started in the 19th century in Poland. It is also sung by Sepharadim and Mizraḥim on the seventh day of Pesaḥ, and by Moroccans as a baqasha in the morning before Shabbat Shirah (no. 395 in the Shir Yedidot).</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65735_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yom_le_yabashah_yehudah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi David Philipson on 2 February 1904</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi David Philipson on 2 February 1904</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>David Philipson</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1904-02-02">1904-02-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24415</tei:idno>
+          <tei:idno type="opensiddur.org">24415</tei:idno>
+          <tei:note>Source: Congressional Record vol 38 part 2 (1904) p. 1497 <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/04/Congressional-Record-vol-38-part-2-1904-p--1497.png">https://opensiddur.org/wp-content/uploads/2019/04/Congressional-Record-vol-38-part-2-1904-p--1497.png</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record vol 38 part 2 (1904) p. 1498 <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/04/Congressional-Record-vol-38-part-2-1904-p--1498.png">https://opensiddur.org/wp-content/uploads/2019/04/Congressional-Record-vol-38-part-2-1904-p--1498.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24415_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi David Philipson, Cincinnati, Ohio</tei:p>
+        <tei:p>Date of Prayer: 2 February 1904</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24415_introduction"/>
+      <j:conditional xml:id="osp_24415_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 58th US Congress in the Senate and was published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 38, part 2 (1904), pp. 1497-1498. According to our research, this was the first prayer of a rabbinic guest chaplain recorded in the Congressional Record. (The prayer offered on 12 January 1904 by Rabbi Joseph Silverman of Temple Emanu-El (New York) was not recorded in the Congressional Record.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24415_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_the_24415"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

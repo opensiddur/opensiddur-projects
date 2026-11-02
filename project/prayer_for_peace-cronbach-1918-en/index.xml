@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for Peace, a paraliturgical adaptation of Sim Shalom in the Union Prayer Book, revised edition (CCAR 1918)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for Peace, a paraliturgical adaptation of Sim Shalom in the Union Prayer Book, revised edition (CCAR 1918)</tei:title>
+          <tei:author>Abraham Cronbach</tei:author>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1918">1918</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64952</tei:idno>
+          <tei:idno type="opensiddur.org">64952</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-jewish-peace-book-for-home-and-school-abraham-cronbach-1932/The%20Jewish%20Peace%20Book%20for%20Home%20and%20School%20%28Abraham%20Cronbach%201932%29#page/100/mode/2up">https://archive.org/stream/the-jewish-peace-book-for-home-and-school-abraham-cronbach-1932/The%20Jewish%20Peace%20Book%20for%20Home%20and%20School%20%28Abraham%20Cronbach%201932%29#page/100/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-union-prayerbook-for-jewish-worship-part-i-ccar-1918/The%20Union%20Prayerbook%20for%20Jewish%20Worship%2C%20part%20I%20%28CCAR%201918%29#page/110/mode/2up">https://archive.org/stream/the-union-prayerbook-for-jewish-worship-part-i-ccar-1918/The%20Union%20Prayerbook%20for%20Jewish%20Worship%2C%20part%20I%20%28CCAR%201918%29#page/110/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64952_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This blessing, entitled “Prayer for Peace,” was first published in <tei:hi rend="italic">The Union Prayerbook for Jewish Worship, revised edition, part I</tei:hi> (CCAR, 1918) on page 110. The blessing is the concluding prayer of the weekday and festival Amidah. Here, in this adapted formulation in English, it is combined with a blessing for “our country” (the United States of America). Rabbi Abraham Cronbach includes the prayer in <tei:hi rend="italic">The Jewish Peace Book for Home and School</tei:hi> (1932) under “Section III: Peace Devotions for Jewish Use — Prayers for Peace” on page 100. We are not certain whether Rabbi Cronbach authored this prayer, although it is suggested by its inclusion here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64952_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_peace_cronbach"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

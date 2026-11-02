@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">פזמון בשעת המגפה ח״ו</tei:title>
+        <tei:title type="main" xml:lang="en">Pizmon for a time of plague (God forbid!), by Rabbi Moses Mendels (ca. early 17th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פזמון בשעת המגפה ח״ו</tei:title>
+          <tei:title xml:lang="en">Pizmon for a time of plague (God forbid!), by Rabbi Moses Mendels (ca. early 17th c.)</tei:title>
+          <tei:author>Mosheh ben Yeshayah Menaḥem Bachrach</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1600" to="1625">1600 – 1625</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46776</tei:idno>
+          <tei:idno type="opensiddur.org">46776</tei:idno>
+          <tei:note>Source: Siddur u-Mahzor Kol Bo, vol. 3 (1923), p. 33 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Siddur-u-Mahzor-Kol-Bo-vol.-3-1923-p.-33.png">https://opensiddur.org/wp-content/uploads/2022/09/Siddur-u-Mahzor-Kol-Bo-vol.-3-1923-p.-33.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46776_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This seliḥah was written by Rabbi Moshe ben Yeshayah Menaḥem Bachrach, also known as Moshe Mendels, an important sage in the Four Lands area in the sixteenth and seventeenth centuries. It is a pizmon (meaning it is intended to be sung aloud communally), specifically designated for a fast day declared on account of a period of plague. The poem lists a series of sins which might, hypothetically, perhaps, be the cause of the plague, but repeatedly reminds God that we’ve suffered enough. These days the practice of declaring local fasts in response to plague is rare to nonexistent, but the poem deserves to be preserved nevertheless. The translation is original.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46776_introduction"/>
+      <j:conditional xml:id="osp_46776_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This seliḥah, “Moshel ba-Elyonim Atah Yadata,” was written by Rabbi Mosheh ben Yeshayah Menaḥem Bachrach during an epidemic. It is included in the Seliḥot of Posen, Krakow, Prague, Worms, and Alsace. The text here was transcribed from the Siddur Kol Bo, vol. 3 (1923), p. 33.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46776_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pizmon_for_a_time_of_plague_mosheh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

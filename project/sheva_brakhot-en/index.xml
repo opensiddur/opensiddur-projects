@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שבע ברכות</tei:title>
+        <tei:title type="main" xml:lang="en">Sheva Brakhot, the seven blessings following the Birkat Mazon at a wedding meal</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שבע ברכות</tei:title>
+          <tei:title xml:lang="en">Sheva Brakhot, the seven blessings following the Birkat Mazon at a wedding meal</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29716</tei:idno>
+          <tei:idno type="opensiddur.org">29716</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n64/mode/2up">https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n64/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29716_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Sheva Brakhot (Hebrew: שבע ברכות‎) literally “the seven blessings” also known as birkot nissuin (Hebrew: ברכות נישואין‎), “the wedding blessings” in Jewish law are blessings that are recited for a bride and her groom as part of <tei:hi rend="italic">nisuin</tei:hi> (establishing the full marriage). It is not certain who composed the benedictions; the text is recorded in the Talmud Bavli Ketubot 7b-8a, but its origin is probably several centuries earlier.</tei:p>
+        <tei:p>Under the ḥuppah the blessing over wine is read first while at the wedding feast the blessing over wine is read last, as above.</tei:p>
+        <tei:p>The translation follows after the translation that Honi Sanders and I published in the birkon for his wedding, <tei:hi rend="italic">Siman l’Vanim</tei:hi> (Dimus Parrhesia Press 2019) with some minor changes. That translation followed from the translation found in <tei:hi rend="italic">Siddur Zekhut Yosef</tei:hi> (ed. Isaac Azose 2012). –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29716_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_brakhot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

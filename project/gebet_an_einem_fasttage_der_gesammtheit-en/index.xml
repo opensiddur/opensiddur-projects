@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet an einem Fasttage der Gesammtheit</tei:title>
+        <tei:title type="alt" xml:lang="he">Prayer on a Public Fast Day (תַּעֲנִית צִבּוּר), by Max Emanuel Stern (1841)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet an einem Fasttage der Gesammtheit</tei:title>
+          <tei:title xml:lang="he">Prayer on a Public Fast Day (תַּעֲנִית צִבּוּר), by Max Emanuel Stern (1841)</tei:title>
+          <tei:author>Menaḥem Mendel Stern</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1841">1841</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41433</tei:idno>
+          <tei:idno type="opensiddur.org">41433</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/die-fromme-zionstochter-max-emanuel-stern-1841/Die%20fromme%20Zionstochter%20%28Max%20Emanuel%20Stern%201841%29#page/36/mode/2up">https://archive.org/stream/die-fromme-zionstochter-max-emanuel-stern-1841/Die%20fromme%20Zionstochter%20%28Max%20Emanuel%20Stern%201841%29#page/36/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41433_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Gebet an einem Fasttage der Gesammtheit. תַּעֲנִית צִבּוּר” was written by Max Emanuel Stern and published in his anthology of teḥinot, <tei:hi rend="italic">Die fromme Ẓionstochter: Andachtsbuch für Israels Frauen und Mädchen...</tei:hi> (1841). In the 1841 printing, it appears on pp. 37-39. In the 1846 edition, it appears on pp. 39-40.</tei:p>
+        <tei:p>This transcription was derived by correcting the output of Tesseract-OCR with its Fraktur script training data. The translation presented here was derived by running this transcription through the translation tools of DeepL and Google and proofreading the output. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41433_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_an_einem_fasttage_der_gesammtheit_stern"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

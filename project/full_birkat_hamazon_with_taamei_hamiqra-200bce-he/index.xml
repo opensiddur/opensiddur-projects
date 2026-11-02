@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכת המזון השלם עם טעמי מקרא</tei:title>
+        <tei:title type="alt" xml:lang="en">Full Birkat haMazon with Ta’amei haMiqra (cantillation), by Isaac Gantwerk Mayer (Nusaḥ Ashkenaz)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון השלם עם טעמי מקרא</tei:title>
+          <tei:title xml:lang="en">Full Birkat haMazon with Ta’amei haMiqra (cantillation), by Isaac Gantwerk Mayer (Nusaḥ Ashkenaz)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20454</tei:idno>
+          <tei:idno type="opensiddur.org">20454</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20454_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The full Birkat haMazon (or Grace after Meals) according to Nusaḥ Ashkenaz with optional additions for egalitarian rites, fully marked with ta’amei miqra (also known as cantillation marks or <tei:hi rend="italic">trōp</tei:hi>). Ta’amei miqra originally marked grammar and divisions in any Hebrew sentences, and older Hebrew manuscripts such as those from the Cairo Geniza often show ta’amei miqra on all sorts of texts, not just the Biblical texts we associate them with today. This text includes the full tradition for Birkat haMazon, including texts for weekdays, Shabbatot, and festivals, as well as additions for a wedding meal, a circumcision meal, and a meal in a mourner’s house.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20454_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:full_birkat_hamazon_with_taamei_hamiqra_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

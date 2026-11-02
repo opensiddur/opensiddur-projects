@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲמַר קִירִיס לְמֹשֶׁה</tei:title>
+        <tei:title type="main" xml:lang="en">Amar Kiris l-Mosheh, a lamentation on the death of Mosheh (SYAP 40, ca. 7th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲמַר קִירִיס לְמֹשֶׁה</tei:title>
+          <tei:title xml:lang="en">Amar Kiris l-Mosheh, a lamentation on the death of Mosheh (SYAP 40, ca. 7th c.)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0640" to="0700">0640 – 0700</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57977</tei:idno>
+          <tei:idno type="opensiddur.org">57977</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57977_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In the old Erets Yisrael rite, one aspect of the Simḥat Torah service was communal mourning for Moshe’s death, and multiple piyyutim in both Hebrew and Aramaic have been preserved as evidence of this custom. Considering the events of Simḥat Torah last year, perhaps it’s worth bringing that custom back. Presented here is one of three Aramaic-language Byzantine-era lamentations for the death of Moshe (SYAP 40-42), written to be recited as part of the Simḥat Torah service. The first piyyut, Amar Kiris l-Moshe, is a midrashic narrative (possibly related to the Islamic hadith) of Moshe going to Adam to ask why he cursed humanity with death. It’s been translated preserving the acrostic and monorhyme scheme. Taken from Sokoloff and Yahalom’s <tei:hi rend="italic">Jewish Palestinian Aramaic Poetry from Late Antiquity</tei:hi> (2018), it is presented here vocalized with an original translation.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57977_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:amar_kiris_lemosheh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for Our Nation [upon the Inauguration of Donald Trump], by Rabbi Shmuly Yanklowitz (2017)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for Our Nation [upon the Inauguration of Donald Trump], by Rabbi Shmuly Yanklowitz (2017)</tei:title>
+          <tei:author>Shmuly Yanklowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-01-17">2017-01-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=14985</tei:idno>
+          <tei:idno type="opensiddur.org">14985</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_14985_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Because of my commitment to the integrity of prayer, starting this week, I can no longer recite or say amen to the Shabbat prayer for the success of the U.S. President.</tei:p>
+        <tei:p>So I have drafted a new prayer that I will plan to recite each Shabbat morning. If you also feel it’s important to pray for the U.S. government but also feel you cannot pray for the success of this President, feel free to use this or adapt it as you please. I felt that it was not enough to simply avoid the U.S. President in the prayer for the government but to remind myself of the billions of vulnerable people who are at risk under his rule, and challenge myself each Shabbat to build up the strength for another week of spiritual resistance.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14985_introduction"/>
+      <j:conditional xml:id="osp_14985_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was originally shared via Rabbi Shmuly Yanklowitz on Facebook, here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14985_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_our_nation_yanklowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

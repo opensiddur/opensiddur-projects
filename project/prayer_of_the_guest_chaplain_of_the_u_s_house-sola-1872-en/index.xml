@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dr. Abraham de Sola on 9 January 1872</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Dr. Abraham de Sola on 9 January 1872</tei:title>
+          <tei:author>Abraham de Sola</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1872-01-09">1872-01-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56765</tei:idno>
+          <tei:idno type="opensiddur.org">56765</tei:idno>
+          <tei:note>Source: House of Representatives, Tuesday, January 9, 1872 (The Israelite, 9 February 1872), p. 5 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/House-of-Representatives-Tuesday-January-9-1872-The-Israelite-9-February-1872.png">https://opensiddur.org/wp-content/uploads/2024/06/House-of-Representatives-Tuesday-January-9-1872-The-Israelite-9-February-1872.png</tei:ref></tei:note>
+          <tei:note>Source: Abraham de Sola opening the House of Representatives with Prayer (Frank Leslie’s Illustrated Newspaper, 1872) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/Abraham-de-Sola-opening-the-House-of-Representatives-with-Prayer-Frank-Leslies-Illustrated-Newspaper-1872.jpg">https://opensiddur.org/wp-content/uploads/2024/06/Abraham-de-Sola-opening-the-House-of-Representatives-with-Prayer-Frank-Leslies-Illustrated-Newspaper-1872.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56765_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Dr. Abraham de Sola, Congregation Shearith Israel of Montreal, Canada</tei:p>
+        <tei:p>Sponsor: Adolphus Simeon Solomons, District of Columbia House of Representatives</tei:p>
+        <tei:p>Date of Prayer: 9 January 1872</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56765_introduction"/>
+      <j:conditional xml:id="osp_56765_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 42nd US Senate. It was published in <tei:hi rend="italic">The Israelite</tei:hi>, “House of Representatives: Tuesday, January 9, 1872” (9 Feb 1872), page 5. An illustration of the event was published in illustration of the article, “Rev. Dr. de Sola,” published in <tei:hi rend="italic">Frank Leslie’s Illustrated Newspaper</tei:hi> (January 1872). In a letter to the editor, Rabbi de Sola explained that he was invited to offer the prayer by Adolphus Simeon Solomons (1826-1910) who was at that time the chairman of the ways and means committee for the District of Columbia House of Representatives.<tei:anchor xml:id="note_4"/></tei:p>
+        <tei:p>This prayer is one of approximately 20 prayers offered by rabbinic guest chaplains before Congress before such prayers were recorded in the Congressional Record. This prayer was located by Aharon Varady as part of his search for these “lost” prayers in preparation for his Natalie Feld Memorial Fellowship work at the Jacob Rader Marcus Center of the American Jewish Archives (AJA) 2024-2025.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56765_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_sola"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="4" target="#note_4">
+      <tei:p>”A Personal Explanation,” in <tei:hi rend="italic">The Jewish Messenger</tei:hi> (26 Jan 1872), p. 2.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

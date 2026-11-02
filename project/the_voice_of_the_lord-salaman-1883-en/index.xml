@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Voice of the Lord, a poem by Rosa Emma Salaman (before 1883)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Voice of the Lord, a poem by Rosa Emma Salaman (before 1883)</tei:title>
+          <tei:author>Rosa Emma Salaman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1883">1883</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41267</tei:idno>
+          <tei:idno type="opensiddur.org">41267</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/englishschoolfam00abar/englishschoolfam00abar#page/270/mode/2up">https://archive.org/stream/englishschoolfam00abar/englishschoolfam00abar#page/270/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41267_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Titled “The Voice of the Lord” in Henry Abarbanel’s <tei:hi rend="italic">English School and Family Reader</tei:hi> (1883), this poem was written by Rosa Emma Collins née Salaman (1815-1898). Whether “that day” or “that night” refers to a primordial day of creation or a specific and dangerous storm is unclear, but the language of her poem feels inspired by Psalms (93, 29, and others). The poem was likely published before 1883 elsewhere previously although we haven’t been able to locate where. If you know, please leave a comment or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41267_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_voice_of_the_lord_salaman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

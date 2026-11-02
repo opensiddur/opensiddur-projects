@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קֹהֶלֶת לֹא צָדַק</tei:title>
+        <tei:title type="main" xml:lang="en">Qohelet Lo Tsadaq ("Ḳohelet Wasn't Right") — a prayer by Rabbi Oded Mazor (24 November 2023)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/ayelet-cohen">Ayelet Cohen</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קֹהֶלֶת לֹא צָדַק</tei:title>
+          <tei:title xml:lang="en">Qohelet Lo Tsadaq ("Ḳohelet Wasn't Right") — a prayer by Rabbi Oded Mazor (24 November 2023)</tei:title>
+          <tei:author>Oded Mazor</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-11-24">2023-11-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53500</tei:idno>
+          <tei:idno type="opensiddur.org">53500</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53500_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This prayer was written on Friday, November 24th 2023, 11th of Kislev 5784, early afternoon (Israel Time), when we were all waiting to witness the first group of hostages come back home from captivity in the hands of Hamas. Having close friends who have relatives kidnapped who do not fit into the criteria of being released now, I was looking for words to pray at this moment. Referring to the words of Israeli poet Yehuda Amichai <tei:hi rend="italic">z”l</tei:hi>, and his “remarks” on Ḳohelet’s “For everything there is a season,” I tried to describe how all feelings are mixed in these awful hours, and in the days since. I am thankful to Rabbi Ayelet Cohen for her translation of this prayer into English. –Rabbi Oded Mazor</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53500_introduction"/>
+      <j:conditional xml:id="osp_53500_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was written by Rabbi Oded Mazor and disseminated widely by social media in its original Hebrew and in its translation by Rabbi Ayelet Cohen. Here we have set both the prayer and its translation side-by-side.</tei:p>
+        <tei:p>A slightly amended form of the prayer (without the incipit) and with a different title, “A Blessing for those Returning” was included in a <tei:hi rend="italic">Service for Returning the Hostages</tei:hi> prepared by the Israeli Movement for Reform and Progressive Judaism and disseminated by email on 13 October 2025, erev Shemini Atseret, at the release of the remaining living hostages taken captive by HAMA”S two years prior.</tei:p>
+        <tei:p>The title of the prayer and its petiḥah (“קהלת לא צדק“) both point to a line near the beginning of Yehudah Amichai’s poem, אדם בחייו (“A Man in His Life”). The theme of Amichai’s poem is that a human being’s life isn’t long enough to experience every season established for every purpose under heaven. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53500_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qohelet_lo_tsadaq_mazor"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

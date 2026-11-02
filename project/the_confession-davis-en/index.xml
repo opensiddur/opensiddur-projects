@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Confession, an excerpt from Kether Malkhut (Crown of Royalty) by Shlomo ibn Gabirol adapted by Elsie Davis</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Confession, an excerpt from Kether Malkhut (Crown of Royalty) by Shlomo ibn Gabirol adapted by Elsie Davis</tei:title>
+          <tei:author>Shlomo ibn Gabirol</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Elsie Davis</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1060">1040 – 1060</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64464</tei:idno>
+          <tei:idno type="opensiddur.org">64464</tei:idno>
+          <tei:note>Source: The Confession (trans. Elsie Davis in The Reform Advocate, 17 September 1898) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/11/the-confession-trans--elsie-davis-in-the-reform-advocate-17-september-1898.png">https://opensiddur.org/wp-content/uploads/2025/11/the-confession-trans--elsie-davis-in-the-reform-advocate-17-september-1898.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64464_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>An adaptation in rhymed English verse of an excerpt of Shlomo ibn Gabirol’s <tei:hi rend="italic">Keter Malkhut</tei:hi> Elsie Davis. First published in <tei:hi rend="italic">The Jewish Quarterly Review</tei:hi>, Vol. 7, No. 3 (April 1895), pp. 461-464. The adaptation begins with section 34 of the piyyut. A closer translation was later made by Israel Zangwill and published in 1923.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64464_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_confession_gabirol"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

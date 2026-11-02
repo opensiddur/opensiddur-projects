@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Trustfulness, a hymn by Rabbi J. Leonard Levy (1902)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Trustfulness, a hymn by Rabbi J. Leonard Levy (1902)</tei:title>
+          <tei:author>J. Leonard Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1902">1902</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65108</tei:idno>
+          <tei:idno type="opensiddur.org">65108</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-childrens-service-for-use-in-religious-schools-j-leonard-levy-1902/The%20Children%27s%20Service%20for%20Use%20in%20Religious%20Schools%20%28J.%20Leonard%20Levy%2C%201902%29%20-%202nd%20edition#page/222/mode/2up">https://archive.org/stream/the-childrens-service-for-use-in-religious-schools-j-leonard-levy-1902/The%20Children%27s%20Service%20for%20Use%20in%20Religious%20Schools%20%28J.%20Leonard%20Levy%2C%201902%29%20-%202nd%20edition#page/222/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65108_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Trustfulness” by Rabbi J. Leonard Levy was first published in <tei:hi rend="italic">The Children’s Service for Use in Religious Schools</tei:hi> (1902). In the second edition from 1904, it is found on page 223.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65108_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:trustfulness_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

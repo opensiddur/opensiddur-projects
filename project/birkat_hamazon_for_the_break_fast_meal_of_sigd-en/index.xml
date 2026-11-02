@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת המזון לסעודת סוף הצום לסיגד</tei:title>
+        <tei:title type="main" xml:lang="en">Birkat haMazon for the break-fast meal of Sigd (29 Marḥeshvan)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון לסעודת סוף הצום לסיגד</tei:title>
+          <tei:title xml:lang="en">Birkat haMazon for the break-fast meal of Sigd (29 Marḥeshvan)</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021-08-14">2021-08-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38595</tei:idno>
+          <tei:idno type="opensiddur.org">38595</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38595_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Sigd is an Amharic word meaning “prostration” or “worship” and is the commonly used name for a holiday celebrated by the Ethiopian Jewish Beta Israel community on the 29th of the Hebrew month of Marḥeshvan. This date is exactly 50 days after Yom Kippur, usually falling out in late October or November, and according to Ethiopian Jewish tradition is also the date that God first revealed himself to Moses.</tei:p>
+        <tei:p>Sigd is a unique holiday. Originally only celebrated by the Ethiopian Jewish Beta Esrael community, it has gotten more traction recently. One could describe the key concept of Sigd as being the acceptance of the Torah — not the giving, but the receiving of it. Sigd is a holiday of the continuation of the covenant. No matter the persecution that the Beta Esrael suffered (and hoo boy, did they suffer), Sigd announced that they would preserve their Judaism through it all.</tei:p>
+        <tei:p>Sign is traditionally considered a fast day, and at its conclusion a celebratory break-fast meal is held. This is a poetic Birkat haMazon, similar to those found in the Cairo Geniza, intended for this specific break-fast meal. The editor has included the text in Hebrew, English, and an attempted Liturgical Ge’ez translation. (The editor is not an expert in Liturgical Ge’ez, so any grammatical corrections would be welcomed.)</tei:p>
+        <tei:p>Unique aspects of the Ge’ez are marked in red. Unique aspects of the Hebrew text are marked in blue.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+        <tei:p>[From a family of musicians, Isaac Gantwerk Mayer believes that creative art is one of the most powerful ways to get in touch with the divine. He composes music and poetry in Hebrew and English. Isaac runs a Jewish music transcription service, which will transcribe and set any Jewish music in any language, recorded or written. To commission works, check out his website or email him.]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38595_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon_for_the_break_fast_meal_of_sigd_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

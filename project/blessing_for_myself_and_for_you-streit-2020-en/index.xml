@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessing for Myself and for You, by Kohenet Ilana Joy Streit</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Blessing for Myself and for You, by Kohenet Ilana Joy Streit</tei:title>
+          <tei:author>Kohenet Ilana Joy Streit</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-03-11">2020-03-11</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30587</tei:idno>
+          <tei:idno type="opensiddur.org">30587</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30587_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>A poem-blessing for trailblazers of many kinds, to honor everyday courage and to inspire trust and self-compassion. May we get the support we need as we midwife the world to come.</tei:p>
+        <tei:p>“Blessing for Myself and for You” (alternately: “The Trailblazer’s Blessing”) was written by Kohenet Ilana Joy Streit in January 2016.</tei:p>
+        <tei:p>[Financial contributions are most welcome, and support further creation and sharing of Ilana’s creative work. You can see and hear more of Ilana’s creative work on her Patreon page. Or to make a one-time contribution, Venmo (@Ilana-Streit).]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30587_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:blessing_for_myself_and_for_you_streit"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

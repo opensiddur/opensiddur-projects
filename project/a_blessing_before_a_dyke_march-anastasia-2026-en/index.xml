@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Blessing Before a Dyke March, by Anastasia bat Lilith</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Blessing Before a Dyke March, by Anastasia bat Lilith</tei:title>
+          <tei:author>Anastasia bat Lilith</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-06-08">2026-06-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=67663</tei:idno>
+          <tei:idno type="opensiddur.org">67663</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_67663_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A poem / blessing made for the 2026 Pittsburgh Dyke March, framed with a Hebrew blessing for Lesbian Pride written by Rabbi Robin Podolsky.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67663_introduction"/>
+      <j:conditional xml:id="osp_67663_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was offered by Anastasia bat Lilith at the Pittsburg Dyke March on 6 June 2026 in Friendship Park. The concluding blessing, by Rabbi Robin Podolsky, was first published in <tei:hi rend="italic">Mishkan Ga’avah Where Pride Dwells</tei:hi> (CCAR: 2019).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67663_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_blessing_before_a_dyke_march_anastasia"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

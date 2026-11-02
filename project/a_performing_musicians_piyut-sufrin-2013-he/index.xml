@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">פיוט למוזיקאי קודם שיופיע</tei:title>
+        <tei:title type="alt" xml:lang="en">A Performing Musician’s Piyut, by Alan Jay Sufrin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פיוט למוזיקאי קודם שיופיע</tei:title>
+          <tei:title xml:lang="en">A Performing Musician’s Piyut, by Alan Jay Sufrin</tei:title>
+          <tei:author>Alan Jay Sufrin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-03-17">2013-03-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6070</tei:idno>
+          <tei:idno type="opensiddur.org">6070</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6070_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This piyut (liturgical poem) arose after a very meaningful performance of mine in the summer of 2000. It was such a powerful experience that I was moved to say a prayer of thanks to G-d for the opportunity to perform my songs for audiences – but found no such prayer in existence. So I wrote this one. It took about a year to complete and I’ve been saying it backstage right before my performances, and sometimes before recording sessions, since then.</tei:p>
+        <tei:p>It draws mostly from musical references in Psalms, from the Kabbalat Shabbat liturgy, and from some other places in the Torah. The rhyme scheme repeats the sounds “or” and “ai,” which when spelled out in Hebrew, alludes to a mystical way of putting “the light of G-d” or possibly “my light.” The 613th mitsvah is for all Jews to write their own sefer Torah, and the way in which the Aybishter<tei:anchor xml:id="note_1"/> commands us is by calling the Torah “this Song” (See Deuteronomy 31:19). It’s as if to say that G-d is a songwriter, and the Torah (also called “Orayta”) is G-d’s song. The hope of this piyut is to draw musical energy from this G-dly Source, and is noted in the piyut itself as well.</tei:p>
+        <tei:p>It is intended for performing musicians to say or on which to meditate before performances of their own original works, but other appropriate uses are also encouraged.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6070_introduction"/>
+      <j:conditional xml:id="osp_6070_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>פיוט למוזיקאי קודם שיופיע מאת חנן יהודה בן נתן נטע סופרין</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6070_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:a_performing_musicians_piyut_sufrin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>from Yiddish, meaning The Most High — Aharon Varady</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

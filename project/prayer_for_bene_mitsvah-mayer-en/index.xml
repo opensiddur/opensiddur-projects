@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לִבְנֵי מִצְוָה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for Bené Mitsvah, according to the London Sephardic rite, by Ḥakham Benjamin Artom (ca. 1866)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לִבְנֵי מִצְוָה</tei:title>
+          <tei:title xml:lang="en">Prayer for Bené Mitsvah, according to the London Sephardic rite, by Ḥakham Benjamin Artom (ca. 1866)</tei:title>
+          <tei:author>Isaac Montagu</tei:author>
+          <tei:author>Benjamin Artom</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1866" to="1879">1866 – 1879</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=62119</tei:idno>
+          <tei:idno type="opensiddur.org">62119</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_62119_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This prayer, written for the Spanish and Portuguese Jews’ Congregation of London in the mid-19th century, is stated by the bar mitsvah prior to his ‘aliya blessing over the Torah. In the early 2010s, Rabbi Israel Elia ז״ל (1956-2024) introduced the custom that a bat mitsvah recites a feminine form (with words marked in blue replaced by words marked in red) prior to her derasha. (In egalitarian communities where a bat mitsvah recieves an ‘aliyah as well, she may recite it prior to the ‘aliya blessing as well.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_62119_introduction"/>
+      <j:conditional xml:id="osp_62119_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for a Bené Mitsvah, according to the London Sephardic rite, was written by Ḥakham Benjamin Artom ז״ל. The feminine form was added by Rabbi Israel Elia ז״ל. The English, gender-neutral translation was offered by Isaac Gantwerk Mayer. The text of the prayer was supplied, proofread, and edited by Isaac Montagu.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_62119_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_bene_mitzvah_artom"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

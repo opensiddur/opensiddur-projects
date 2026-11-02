@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תשלומי קדיש יתום כשאין מניין</tei:title>
+        <tei:title type="main" xml:lang="en">Replacement for the Orphans' Ḳaddish when praying alone or when there is no minyan (1900)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jonah-rank">Jonah Rank</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תשלומי קדיש יתום כשאין מניין</tei:title>
+          <tei:title xml:lang="en">Replacement for the Orphans' Ḳaddish when praying alone or when there is no minyan (1900)</tei:title>
+          <tei:author>Isaac Seligman Baer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1868">1868</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=7547</tei:idno>
+          <tei:idno type="opensiddur.org">7547</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_7547_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>We are grateful to Jonah Rank for sharing his translation of “Gebet Statt Kaddisch” (Memorial Prayer for when there is no Minyan,תפילת הזכרת הורים כשאין מניין לאמירת קדיש) from Dr. Seligmann Baer and Rabbi Joseph Nobel’s <tei:hi rend="italic">Tozeoth Chajm: Vollständiges Gebet- und Erbauungsbuch zum Gebrauche bei Kranken, Sterbenden...</tei:hi> (1900). Jonah first published his translation on his personal blog, here, thanking Rabbi Tzvi Graetz for calling the original source to his attention over Facebook. Rabbi Graetz titled this prayer “תפילת הזכרת הורים כשאין מניין לאמירת קדיש”. We are not certain who to attribute this Ḳaddish to. (Possibly, it was composed by Dr. Seligmann Baer.) Please comment below if you can add more certain attribution.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_7547_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:replacement_for_the_orphans_kaddish_when_praying_alone_baer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

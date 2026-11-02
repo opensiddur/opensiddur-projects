@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קרובות לתשעה באב</tei:title>
+        <tei:title type="main" xml:lang="en">Ḳerovot for Tishah b'Av, by Elazar ben Kilir (ca. 7th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קרובות לתשעה באב</tei:title>
+          <tei:title xml:lang="en">Ḳerovot for Tishah b'Av, by Elazar ben Kilir (ca. 7th c.)</tei:title>
+          <tei:author>Elazar ben Qallir</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0590" to="0640">0590 – 0640</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36614</tei:idno>
+          <tei:idno type="opensiddur.org">36614</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36614_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The poetic genre known as ḳerovot, brief poems woven throughout the repetition of the weekday Amdiah, is nowadays most closely associated with Elazar ben Killir’s Purim “Krovets”, a majestically interwoven piece of piyyut if ever there was one. But there are many other ḳerovot that have historically been recited. This set of ḳerovot, also written by Elazar ben Killir, is traditionally recited on the Ninth of Av in some Ashkenazi communities. A second-letter half-acrostic with a complex poetic structure incorporating many verses and midrashim, instead of continuing to the end of the service it concludes with the prayer to rebuild Jerusalem, appropriate for a day like the ninth of Av. Like most recored ḳerovot, it was probably originally written for the ancient Eretz Yisrael rite, but because it doesn’t continue past the prayer to rebuild Jerusalem that doesn’t affect the structure. The version presented here is included with the Ashkenazi liturgy, since Ashkenazim have traditionally been far more likely that Sephardim to preserve poetic additions to the service. Elazar ben Killir’s poetry is incredibly rich with meaning — to the point where many have claimed it to be written with ruaḥ ha-ḳodesh — and there are certainly aspects that the translator has missed, so feel free to comment with anything else that needs to be pointed out.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36614_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:qerovot_for_tishah_beav_elazar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

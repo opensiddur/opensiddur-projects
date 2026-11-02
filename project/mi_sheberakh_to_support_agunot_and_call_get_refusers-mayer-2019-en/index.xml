@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מי שברך לעגונות</tei:title>
+        <tei:title type="main" xml:lang="en">Mi sheBerakh to Support Agunot and Call Get Refusers to Account, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מי שברך לעגונות</tei:title>
+          <tei:title xml:lang="en">Mi sheBerakh to Support Agunot and Call Get Refusers to Account, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-08-22">2019-08-22</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=26585</tei:idno>
+          <tei:idno type="opensiddur.org">26585</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_26585_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>There are few loopholes in Jewish law worse than refusing a get. In Orthodox practice, only the husband in a marriage may sign a get, so a husband who seeks to extort his wife can refuse to sign a get unless his demands are met. A woman whose marriage is functionally dead but who has no get is known as an agunah, or a “chained one.” In the old days, a husband who refused to sign a get would be lashed until he agreed, but nowadays we no longer perform corporal punishment. So more women than ever before have been stuck as agunot, between abusive husbands and a halakhic system unfortunately ill-equipped to help.</tei:p>
+        <tei:p>There is a long, long precedent for public shaming of individuals who break the moral code of the community. Often this would involve temporary or even permanent excommunication, or simply announcing their name in public. Although it is generally considered inappropriate to bring disgrace upon Israel, in the case of one who acts in an evil enough manner it is certainly permitted, or even encouraged, to air grievances in public.</tei:p>
+        <tei:p>This prayer, following the structure of the Mi Sheberakh supplications during the Torah service, is meant to call get refusers to account, by name, and make a statement that their behavior is evil and will not be tolerated. In the place of the standard opening of a Mi Sheberakh, calling on the merit of the patriarchs, this one calls on the merit of three righteous Biblical women with wicked husbands. It continues with a textual justification of the public shaming that is to occur, citing Torah and the sages, and after publicly listing the names it concludes yet again with a plea for the goodness of God to fall upon these women and those who support them.</tei:p>
+        <tei:p>The agunah crisis is a difficult one, perhaps unsolvable completely according to our modern halakhic system. But holding those who abuse the system for their own benefit to account is necessary and vital, and solidarity with those who suffer for it even more so.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_26585_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheberakh_to_support_agunot_and_call_get_refusers_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

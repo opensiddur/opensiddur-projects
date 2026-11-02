@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer After the Bombing in Boston, by Rabbi Rachel Barenblat (2013)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer After the Bombing in Boston, by Rabbi Rachel Barenblat (2013)</tei:title>
+          <tei:author>Rachel Barenblat</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-04-19">2013-04-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6679</tei:idno>
+          <tei:idno type="opensiddur.org">6679</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6679_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>I wrote this a few days after the Boston Marathon bombing. It arose out of a meditation service which I led at my synagogue. The doors to our sanctuary were open, so we had the sounds of the nearby wetland in our ears, and I invited the meditators to join me in cultivating compassion and sending it toward Boston.</tei:p>
+        <tei:p>The line “My heart is in the east and I am in the west” is adapted from the medieval Spanish poet Judah haLevi.</tei:p>
+        <tei:p>Alternating stanzas of the poem are italicized to facilitate reading the poem as a responsive reading. Please feel free to use this however is meaningful to you, and to share it with others.</tei:p>
+        <tei:p>To those for whom it is meaningful, I wish a Shabbat shalom, a Shabbat of peace and healing.</tei:p>
+        <tei:p>[This prayer was first published on Rabbi Barenblat’s blog, Velveteen Rabbi, here.]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6679_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:prayer_after_the_bombing_in_boston_barenblat"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

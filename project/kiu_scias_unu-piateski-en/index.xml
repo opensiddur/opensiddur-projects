@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קיו סציאַס אונו?</tei:title>
+        <tei:title type="alt" xml:lang="he">אֶחָד מִי יוֹדֵעַ</tei:title>
+        <tei:title type="main" xml:lang="en">Kiu Scias Unu? — an Esperanto translation of Eḥad Mi Yodéaʼ by Erin Piateski (2010)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/erinja-piateski">Erin Piateski</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קיו סציאַס אונו?</tei:title>
+          <tei:title xml:lang="he">אֶחָד מִי יוֹדֵעַ</tei:title>
+          <tei:title xml:lang="en">Kiu Scias Unu? — an Esperanto translation of Eḥad Mi Yodéaʼ by Erin Piateski (2010)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43684</tei:idno>
+          <tei:idno type="opensiddur.org">43684</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hagada-verda-stelo-erin-piateski-2010/Hagada%20verda%20stelo%20%28Erin%20Piateski%202010%29#page/70/mode/2up">https://archive.org/stream/hagada-verda-stelo-erin-piateski-2010/Hagada%20verda%20stelo%20%28Erin%20Piateski%202010%29#page/70/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43684_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Eḥad Mi Yodéa is a counting-song that is a beloved part of Seders the world over. It is mostly written in Hebrew, counting up to 13, but there are versions that can be found in many different languages. This translation into Esperanto was developed by the renowned Esperantist Erin Piateski, who made a translation of the entire Haggadah into Esperanto.</tei:p>
+        <tei:p>Esperanto as a language has a long Jewish history. Developed by the proudly Jewish L.L, Zamenhof, its utopian vision of a world of free cultural interchange has always been popular among Jews. In fact, the phonology of Esperanto bears many similarities to Yiddish. Thus, Isaac Gantwerk Mayer has developed a system of writing Esperanto in a largely Yiddish-based Hebrew script (PDF | ODT), into which this poem has been transcribed.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43684_introduction"/>
+      <j:conditional xml:id="osp_43684_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the translation of Ḥad Gadya into Esperanto by Erin Piateski with a Hebraicization schema for Esperanto by Isaac Gantwerk Mayer. Piateski’s translation first appeared in her כוכב ירוק הגדה של פסח | <tei:hi rend="italic">Verda Stelo Hagado de Pesaĥo</tei:hi> (2010).</tei:p>
+        <tei:p>The counting-song, “Eḥad Mi Yode’ah” appears for the first time in the Prague Haggadah (1526) in Hebrew and Yiddish, and was transcribed and translated into English by Aharon Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43684_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:kiu_scias_unu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

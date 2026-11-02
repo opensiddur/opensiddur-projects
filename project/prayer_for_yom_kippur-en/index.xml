@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה ליום הכיפורים</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for Yom Kippur by Rabbi Dr. Aryeh Cohen</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה ליום הכיפורים</tei:title>
+          <tei:title xml:lang="en">Prayer for Yom Kippur by Rabbi Dr. Aryeh Cohen</tei:title>
+          <tei:author>Aryeh Cohen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-09-16">2026-09-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=69282</tei:idno>
+          <tei:idno type="opensiddur.org">69282</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_69282_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a prayer for Yom Kippur. It started out as a meditation on Yizkor, hence the אל מלא רחמים form at the beginning. It quickly changed to a prayer for insight and change and the possiblity of tshuvah in this moment.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69282_introduction"/>
+      <j:conditional xml:id="osp_69282_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Prayer for Yom Kippur” was shared by Rabbi Dr. Aryeh Cohen on 18 September 2026. The order of lines in the prayer was revised on 9 October 2026, and the translation modified with input from Maeera Shreiber.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69282_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_yom_kippur_cohen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

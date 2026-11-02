@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yotsrot for Yom Simḥat Kohen/Yom Shem ha-El (11 Tishrei) in a Cairo Geniza weekday yotsrot style by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Yotsrot for Yom Simḥat Kohen/Yom Shem ha-El (11 Tishrei) in a Cairo Geniza weekday yotsrot style by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-10-10">2024-10-10</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=58143</tei:idno>
+          <tei:idno type="opensiddur.org">58143</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58143_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A new and original cycle of yotsrot in the style of the weekday yotsrot of the Cairo Geniza, for the day after Yom Kippur, referred to either as Yom Simḥat Kohen or Yom Shem ha-El depending on the custom. (In Morocco and India it was a holiday for priests, in the communities of Ashkenaz for cantors.)</tei:p>
+        <tei:p>The weekday yotsrot of the Cairo Geniza have a structure quite different from normative Ashkenazi festival yotsrot, and much closer to that of Ashkenazi maaravot. There are no yotser or ofan piyyutim — each blessing has a stanza of an extended, unified poem before its ḥatimah, and the only stanzas inserted into the guf ha-berakha are in the final blessing, surrounding the Mi Khamokha. They’re also generally much shorter and more user-friendly than the complex and intricate mysticism of Ashkenazi festival yotzrot.</tei:p>
+        <tei:p>This cycle is written in an alphabetical acrostic, followed by the author tag “Isaac the priest and poet, be strong.”</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronouns <j:divineName>They</j:divineName>/<j:divineName>Their</j:divineName>/<j:divineName>Them</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58143_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yotsrot_for_yom_simchat_kohen_yom_shem_hael_in_a_cairo_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

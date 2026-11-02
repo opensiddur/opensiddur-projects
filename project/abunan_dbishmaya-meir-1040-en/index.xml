@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲבוּנָן דְּבִשְׁמַיָּא וּבָרְיַן</tei:title>
+        <tei:title type="main" xml:lang="en">Abunan D'biShmaya (Our Parent in Heaven) — a piyyuṭ for the Seder Meturgeman of the 7th Day of Pesaḥ by Meir ben Isaac Nehorai of Orléans (ca. 11th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲבוּנָן דְּבִשְׁמַיָּא וּבָרְיַן</tei:title>
+          <tei:title xml:lang="en">Abunan D'biShmaya (Our Parent in Heaven) — a piyyuṭ for the Seder Meturgeman of the 7th Day of Pesaḥ by Meir ben Isaac Nehorai of Orléans (ca. 11th c.)</tei:title>
+          <tei:author>Meir ben Isaac Nehorai of Orléans</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=49969</tei:idno>
+          <tei:idno type="opensiddur.org">49969</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_49969_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Nowadays, the only Jewish community with a custom to recite the Aramiac targum translation of the Torah portion is the Yemenites. But this was not always the case. For a very long time, Ashkenazim, Italkim, and some other related communities preserved a custom to read the targum on two specific days — the seventh day of Pesaḥ and the first day of Shavuot (Maḥzor Vitry, Hilkhot Pesaḥ 106:7). On those two days, mass communal miracles happened to the Jewish people — the spliting of the sea on the former, the revelation at Sinai on the latter — and the targum, the translation designed for the purpose of making the story accessible, was preserved for the sake of pirsumei nissa.</tei:p>
+        <tei:p>Since the use of targum became a special rare occasion, Jews did what we do for special rare occasions — we write piyyutim. An extensive series of Aramaic piyyutim were written, to be inserted into the recitation of the targum (or the ‘seder meturgeman’) itself. On Shavuot, a massive series of piyyutim, one for every one of the ten commandments and then some, were written. On Pesaḥ, a similar number of piyyutim were composed for important moments.</tei:p>
+        <tei:p>Since the mass acceptance of the Shulḥan Arukh, the custom of the recitation of the targum on these special days has been lost from Ashkenazi practice, and as a consequence the vast majority of the seder meturgeman piyyutim themselves have been abandoned. A small number of Shavuot seder meturgeman piyyutim are still in use (specifically, Aḳdamut Milin and Yetsiv Pitgam), but taken out of their original context. (As an example, why do we read Yetsiv Pitgam after the first verse of the haftarah? Because it’s meant to introduce the targum!)</tei:p>
+        <tei:p>I personally love Aramaic, piyyutim, and liturgy, so I’ve taken it upon myself to translate a selection of seder meturgeman piyyutim. This piyyut, Abunan D’biShmaya (Our Parent in Heaven), the second in a series of Aramaic piyyutim from the seventh day of Pesaḥ, is meant to be recited after the fifth verse of the first aliyah (or second verse of the second aliyah on Shabbat).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_49969_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:abunan_debishmaya_meir"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

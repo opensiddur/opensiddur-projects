@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ואחד ג'די</tei:title>
+        <tei:title type="alt" xml:lang="und-Arab">أغنية لعيد الفصح اليهودي</tei:title>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא (Waaḥid Jady) — an Arabic translation of Ḥad Gadya (Syrian Damascus variation)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ואחד ג'די</tei:title>
+          <tei:title xml:lang="und-Arab">أغنية لعيد الفصح اليهودي</tei:title>
+          <tei:title xml:lang="he">חַד גַּדְיָא (Waaḥid Jady) — an Arabic translation of Ḥad Gadya (Syrian Damascus variation)</tei:title>
+          <tei:author>Eden miQedem</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=25674</tei:idno>
+          <tei:idno type="opensiddur.org">25674</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/ed-nl2bQmC8?feature=oembed">https://www.youtube.com/embed/ed-nl2bQmC8?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/WaahidJadyEdenMiQedem2018#page/n0/mode/2up">https://archive.org/stream/WaahidJadyEdenMiQedem2018#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_25674_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>With gratitude to the band Eden miQedem for sharing the lyrics of this Syrian Jewish Damascus version of Ḥad Gadya in Arabic and Judeo-Arabic. For a slightly different Arabic version, see the lyrics offered by Isaac Gantwerk Mayer.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_25674_introduction"/>
+      <j:conditional xml:id="osp_25674_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found in the Prague Haggadah (1526). The text of the poem is in a form of playful Aramaic and it is accompanied by the lyrics in medieval Yiddish.<tei:anchor xml:id="note_1"/> It is unclear which, if either, came first — the Yiddish or the Aramaic. The Aramaic above follows the text as it appears in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation sourced from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_25674_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:had_gadya_in_arabic_syrian_jewish_damascus_version_miqedem"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The Jewish Encyclopedia (1906, NY) vol. 8 page 190 s.v. “Had Gadya” calls it German.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

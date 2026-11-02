@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="es">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">אָנָּא בְּכֹחַ</tei:title>
+        <tei:title type="alt" xml:lang="en">Ana b'Khoaḥ, with Spanish translation by Rabbi Isaac ben Shem Tov Cavallero (1552)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אָנָּא בְּכֹחַ</tei:title>
+          <tei:title xml:lang="en">Ana b'Khoaḥ, with Spanish translation by Rabbi Isaac ben Shem Tov Cavallero (1552)</tei:title>
+          <tei:author>Isaac ben Shem Tov Cavallero</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1400" to="1500">1400 – 1500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24302</tei:idno>
+          <tei:idno type="opensiddur.org">24302</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/OrdenDeOracionesIsacHijoDeDonSemtobCavallero1552#page/n74/mode/2up">https://archive.org/stream/OrdenDeOracionesIsacHijoDeDonSemtobCavallero1552#page/n74/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/temunot-tehinot-tefilot-sefarad-adelkind-1544/Temunot%20Tehinot%20Tefilot%20Sefarad%20%28Adelkind%201544%29#page/n86/mode/2up">https://www.archive.org/stream/temunot-tehinot-tefilot-sefarad-adelkind-1544/Temunot%20Tehinot%20Tefilot%20Sefarad%20%28Adelkind%201544%29#page/n86/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24302_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Prepared by Isaac ben Shem Tov Cavallero, “Orden de Oraciones segundo el uso ebrèo en lengua ebraica y vulgar espanol: traduzido por el doctor Isac hijo de Don Semtob cavallero” was the first siddur prepared for use by Sepharadim in Spanish throughout the Spanish-Portuguese diaspora. The earliest attestation of Ana b’Khoaḥ is unknown, but the earliest I have been able to find it is in a re-printing of Israel Cornelius (Cornelio) Adelkind proofread revision of <tei:hi rend="italic">Temunot Tehinot Tefilot Sefarad</tei:hi>, a maḥzor first published by Daniel Bomberg in 1519. (The reprinted edition I found was from 1544. According to the scholar, H.P. Salomon, z”l, that edition is unchanged from Adelkind’s 1523 revision.<tei:anchor xml:id="note_1"/>)</tei:p>
+        <tei:p>Ana b’Khoaḥ almost certainly dates from before this printing, but we simply don’t know. This is the earliest printing we have located it in (so far). If you know of an earlier example of Ana b’Khoaḥ in print or manuscript, please leave a comment or contact us.</tei:p>
+        <tei:p>For other examples of the 42 letter divine name sequence, find the litany of angel names in Sefer HaQanah and in Sefer haPeliah. Connected to the latter is another 42 letter divine name acrostic piyyut, “Elohim B’Yisrael.” There are also two other piyyutim directly concerned with the ascent of the soul of one on their deathbed; one recorded by Isaiah Horowitz in his Shnei Luḥot Habrit, and another provided in the Sefer Ma’avar Yabbok with prayers for the Ḥevre Kaddishe.</tei:p>
+        <tei:p>We are grateful to Aron Sterk for proofreading our transcription. He notes: “The accents are random and the ç before e and i are unnecessary...They are just typographic tics.” The transcription above expands the abbreviations (e.g. “con” for “co”) and swaps consonantal u for v and vice versa. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24302_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>This detail is mentioned by Salomon in “A fifteenth century haggada with ritual prescriptions in portuguese aljamiado.” <tei:hi rend="italic">Arquivos do Centro Cultural Português</tei:hi>. vol. 15 (1980), p. 225.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

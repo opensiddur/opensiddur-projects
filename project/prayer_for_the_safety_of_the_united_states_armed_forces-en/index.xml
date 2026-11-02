@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לְחֵיְילוֹת אַרְצוֹת הַבְּרִית</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Safety of the United States Armed Forces (2014)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לְחֵיְילוֹת אַרְצוֹת הַבְּרִית</tei:title>
+          <tei:title xml:lang="en">Prayer for the Safety of the United States Armed Forces (2014)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014">2014</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46784</tei:idno>
+          <tei:idno type="opensiddur.org">46784</tei:idno>
+          <tei:note>Source: Prayer for the Safety of the American Military Forces (Unknown Author 2014) – English <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Prayer-for-the-Safety-of-the-American-Military-Forces-Unknown-Author-2014-English.jpg">https://opensiddur.org/wp-content/uploads/2022/09/Prayer-for-the-Safety-of-the-American-Military-Forces-Unknown-Author-2014-English.jpg</tei:ref></tei:note>
+          <tei:note>Source: Prayer for the Safety of the American Military Forces (Unknown Author 2014) – Hebrew <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/09/Prayer-for-the-Safety-of-the-American-Military-Forces-Unknown-Author-2014-Hebrew.jpg">https://opensiddur.org/wp-content/uploads/2022/09/Prayer-for-the-Safety-of-the-American-Military-Forces-Unknown-Author-2014-Hebrew.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46784_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Prayer for the Safety of the American Military Forces” by an unknown author was first shared on the website of the Orthodox Union on 5 February 2014 with the note, “The RCA and the OU have circulated a special prayer to be said in synagogues during Shabbat services in support of our armed services courageously waging the battle against the scourge of global terrorism.” If you know more about the authorship of these prayers, please leave a comment or contact us.</tei:p>
+        <tei:p>In 2014, the chief rabbi of the United Synagogues in the UK also amended their prayer for the royal family to include a short prayer for the well-being of her majesty’s armed forces. It is intriguing to me that the OU/RCA and the United Synagogue, each representing Modern Orthodoxy on either side of the Atlantic, should circulate prayers with similar rhetoric in 2014. The withdrawal of forces from Iraq mostly ended by 2011. In 2014, US forces that had largely withdrawn from Iraq by 2011 were redeployed against ISIL (ISIS). These prayers may have been circulated in response to those redeployments.</tei:p>
+        <tei:p>In the English translation I have replaced the ambiguous term, “American Military Forces” with “United States Armed Forces” and made other small improvements (e.g., replacing “Dominion” for “Majesty” in the translation of <tei:hi rend="italic">melukhah</tei:hi>) and filling in gaps in the translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46784_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_safety_of_the_united_states_armed_forces"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

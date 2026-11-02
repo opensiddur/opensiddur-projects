@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ceremony of Gender Affirmation and Name Change, by Lilah Rosenfield</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Ceremony of Gender Affirmation and Name Change, by Lilah Rosenfield</tei:title>
+          <tei:author>Lilah Rosenfield</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-03-31">2019-03-31</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24384</tei:idno>
+          <tei:idno type="opensiddur.org">24384</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24384_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I put together this ceremony for myself with support from my Cantor and my parents, and as such was gearing it to my experiences as a Jewish trans woman. I’ve [bracketed] pronouns and other options (choices are denoted with a slash, additive options with a bar), but your mileage may vary regardless of your gender. Think of this as a starting point and modify it as you see fit.</tei:p>
+        <tei:p>I’ve tried to make the ceremony as inclusive as possible to different kinds of families, but it is a ceremony which requires some sort of Jewish teacher/mentor/parent (who’s accepting of you, obviously) to bestow the name upon you. If you don’t have that kind of figure in your life, you may or may not find this ceremony template helpful.</tei:p>
+        <tei:p>Finally, I personally chose to alternate between the feminine and masculine Hebrew for God, and I’ve maintained my original layout but you should feel free to swap the Names as you see fit, either by switching to all one gender or by making the body and will blessings masculine, and the rest feminine.</tei:p>
+        <tei:p>This ceremony was remarkably meaningful to me. I hope others find the same spiritual joy in it that I did.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24384_introduction"/>
+      <j:conditional xml:id="osp_24384_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>We have added Hebrew corresponding with the romanized transliteration. We have added the priestly blessing for non-binary persons as adapted by the non-binary Hebrew project. The blessings for changing genders was offered by Rabbi Eli Kukla in “A Blessing for Transitioning Genders” (TransTorah 2006) in transliteration to which we have added vocalized Hebrew. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24384_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ceremony_of_gender_affirmation_and_name_change_rosenfield"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

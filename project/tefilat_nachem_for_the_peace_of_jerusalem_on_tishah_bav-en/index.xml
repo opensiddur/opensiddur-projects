@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילת נחם לשלם בירושלם</tei:title>
+        <tei:title type="main" xml:lang="en">Tefilat Naḥem for the Peace of Jerusalem on Tishah b'Av, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת נחם לשלם בירושלם</tei:title>
+          <tei:title xml:lang="en">Tefilat Naḥem for the Peace of Jerusalem on Tishah b'Av, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-05-29">2018-05-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20201</tei:idno>
+          <tei:idno type="opensiddur.org">20201</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20201_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>On Tishah b’Av, Jewish communities all over the world add a paragraph called Tefilat Naḥem (the prayer of comfort) to the standard daily Amidah (either for the afternoon service or for all services) praying for a return to Jerusalem. The traditional text discusses Jerusalem being defiled, in the hands of the idol worshipers, putting our people to the sword. But post-1967, Jerusalem has been under Israeli control, and this text has, to many people, felt no longer appropriate in the face of a Jerusalem being rebuilt.</tei:p>
+        <tei:p>Many have written their own versions of a new Tefilat Naḥem for a Jerusalem under Israeli control, but I have felt dissatisfied with a lot of these. Some treat Jerusalem as already fully redeemed, which any glance at the news tells you isn’t the case. Others treat the major step in redeeming Jerusalem as building the Temple, but this seems to me to be only one eschatological part of a larger hope for Jerusalem.</tei:p>
+        <tei:p>Jews have often considered the peace of Jerusalem to be a microcosm of the peace of all the earth. Thus for the Shabbat and Yom Tov Hashkivenu we pray for God to “spread the shelter of peace over us, all Israel, and Jerusalem.” The name Jerusalem, ירושלים, has been analyzed as “they will see peace” יראו שלום, since the peace of Jerusalem means all will see peace. But it’s clear that the peace of Jerusalem is not final or eternal, and it remains a city on the edge of a knife.</tei:p>
+        <tei:p>So my version of Tefilat Naḥem prays not for a return, nor for a Temple, but for the peace of Jerusalem. It can be used at the same time as the standard Tefilat Naḥem (as an extension of the Birkat Yerushalayim in the Shmoneh Esreh for Tishah b’Av) or on its own. Thus I used four puncta (“····” a tetrapuncta) in place of the Tetragrammaton, and also at the end, for those who might consider it a b’rakhah levatalah to avoid. Those who would prefer to use this blessing in the Amidah itself could replace the tetrapuncta with the Name and its spoken circumlocution (e.g. Adonai).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20201_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_nachem_for_the_peace_of_jerusalem_on_tishah_beav_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

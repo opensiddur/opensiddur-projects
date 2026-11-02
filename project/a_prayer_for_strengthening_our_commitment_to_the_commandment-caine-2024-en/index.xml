@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תחינה לחזק ידינו במצוות ”כיבוד אב ואם“ ביחס לאמנו, האדמה</tei:title>
+        <tei:title type="main" xml:lang="en">A prayer for strengthening our commitment to the commandment of "Honoring our Parents" in relation to Mother Earth, by Rabbi Gila Caine</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תחינה לחזק ידינו במצוות ”כיבוד אב ואם“ ביחס לאמנו, האדמה</tei:title>
+          <tei:title xml:lang="en">A prayer for strengthening our commitment to the commandment of "Honoring our Parents" in relation to Mother Earth, by Rabbi Gila Caine</tei:title>
+          <tei:author>Gila Caine</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-06-06">2024-06-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56616</tei:idno>
+          <tei:idno type="opensiddur.org">56616</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56616_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This <tei:hi rend="italic">teḥinah</tei:hi> (supplication) often used to name prayers done prior to preforming a mitsvah, such as, lighting the Shabbat candles) connects the mitsvah of honoring our parents with the mitsvah of caring for the Earth. If we read our relationship with Earth as that of children toward a parent and bring in the mitsvah of honoring our parents, then our use of the word “mother” in this context shifts to one of respect and responsibility.</tei:p>
+        <tei:p>This teḥinah calls us to remember that we are all personally, as well as communally, responsible for our relationship with the Earth. It also calls us to action, and to recall that even small actions realigning ourselves with the work of the Earth, can be seen as a mitsvah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56616_introduction"/>
+      <j:conditional xml:id="osp_56616_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A prayer of strengthening our commitment to the Commandment of Honoring our Parents in relation to Mother Earth” by Rabbi Gila Caine, written in 2022, was first published at Ritualwell on 14 February 2022.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56616_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_strengthening_our_commitment_to_the_commandment_caine"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

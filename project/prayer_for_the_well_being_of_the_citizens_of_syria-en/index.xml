@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה לשלום אזרחי סוריה וחלבּ (ארם-צובה, אר"ץ)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Well-being of the Citizens of Syria and Residents of Aleppo (Masorti Movement in Israel, 2017)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה לשלום אזרחי סוריה וחלבּ (ארם-צובה, אר"ץ)‏</tei:title>
+          <tei:title xml:lang="en">Prayer for the Well-being of the Citizens of Syria and Residents of Aleppo (Masorti Movement in Israel, 2017)</tei:title>
+          <tei:author>the Masorti Movement in Israel</tei:author>
+          <tei:author>Ze'ev Kainan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-04-04">2017-04-04</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=15245</tei:idno>
+          <tei:idno type="opensiddur.org">15245</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_15245_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the well-being for the citizens of Syria and residents of Aleppo was first published by the Masorti Movement in Israel, via their web page here. In this article from the Jewish Telegraphic Agency, the prayer is attributed to Ze’ev Keinan. The prayer was transcribed to Unicode Hebrew by Aharon Varady. After we initially posted our own translation, Zeev Keinan graciously shared his translation first posted at the Masorti website here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_15245_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_well_being_of_the_citizens_of_syria_israel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בּױגעזאנג</tei:title>
+        <tei:title type="main" xml:lang="en">Baugesang (Building Song): a German adaptation of the piyyuṭ Adir Hu attested by Paul Christian Kirchner in his Jüdisches Ceremoniel (Nuremberg, 1717)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בּױגעזאנג</tei:title>
+          <tei:title xml:lang="en">Baugesang (Building Song): a German adaptation of the piyyuṭ Adir Hu attested by Paul Christian Kirchner in his Jüdisches Ceremoniel (Nuremberg, 1717)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Paul Christian Kirchner</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0500" to="1717">0500 – 1717</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66553</tei:idno>
+          <tei:idno type="opensiddur.org">66553</tei:idno>
+          <tei:note>Source: Jüdisches Ceremoniel (Paul Christian Kirchner, 1717), p. 127 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/03/judisches-ceremoniel-paul-christian-kirchner-1717-p--127.png">https://opensiddur.org/wp-content/uploads/2026/03/judisches-ceremoniel-paul-christian-kirchner-1717-p--127.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66553_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Born into Judaism, Paul Christian Kirchner was baptized a Christian in 1713. In 1717, he first published the work <tei:hi rend="italic">Jüdisches Ceremoniel</tei:hi> (or “Jewish Ceremony”), for which he is most well known — a firsthand recollection (and, to be honest, criticism) of Jewish practices throughout the year and life cycle. While the work is written by an apostate for a Christian audience, and thus it is certainly not an unbiased source — and it had been almost a decade since he left the community so some of his memories are a bit muddled — it is still a fascinating work if only for its depiction of Jewish practices otherwise forgotten. In this portion of Kirchner’s description of the Seder night, he translates three songs — Adir Hu, Eḥad Mi Yodea, and Ḥad Gadya — still sung in Jewish communities the world over to this day! This is Adir Hu in a German adaptation known as the “Baugesang,” more well known in its standardized form found in the 1769 Selig Haggadah.</tei:p>
+        <tei:p>Note: For clarity, we have replaced the use of the Solidus (a/k/a “forward slash”) as found in the Fraktur script of the printed work, with its equivalent — the comma.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66553_introduction"/>
+      <j:conditional xml:id="osp_66553_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the early piyyut “Adir Hu” in a German variant of its Western Yiddish adaptation “Baugensang” as attested by Paul Christian Kirchner in his <tei:hi rend="italic">Jüdisches Ceremoniel</tei:hi> (1717), p. 127. For comparison, I have added the text of Adir Hu as it would correspond to this variant of the Baugesang. The alphabetic acrostic of the original piyyut is abridged in this translation. As the acrostic is broken in several places, it is unclear whether this variant itself is abbreviated or whether the translation is abridged. All elisions in the Baugesang are indicated with elipses in the Hebrew text of Adir Hu. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66553_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:baugesang_a_german_adaptation_of_the_piyyut_addir_hu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

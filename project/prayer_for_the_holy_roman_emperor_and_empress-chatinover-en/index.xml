@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכה לאדונינו הקיסר ירה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Holy Roman Emperor and Empress, Leopold I and Margaret (1658/1666)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jacob-chatinover">Jacob Chatinover</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכה לאדונינו הקיסר ירה</tei:title>
+          <tei:title xml:lang="en">Prayer for the Holy Roman Emperor and Empress, Leopold I and Margaret (1658/1666)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1658">1658</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45446</tei:idno>
+          <tei:idno type="opensiddur.org">45446</tei:idno>
+          <tei:note>Source: Prayer for Holy Roman Emperor Leopold I – Ms. 110 (Jewish Museum in Prague, Czech Republic) p. 9 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Prayer-for-Holy-Roman-Emperor-Leopold-I-Ms.-110-Jewish-Museum-in-Prague-Czech-Republic-p.-9.jpg">https://opensiddur.org/wp-content/uploads/2022/07/Prayer-for-Holy-Roman-Emperor-Leopold-I-Ms.-110-Jewish-Museum-in-Prague-Czech-Republic-p.-9.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45446_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>We’re fairly well familiar with the formula of most prayers for the sovereign, king or queen, Tsar or Kaiser, which begin with the phrase “Hanoten Teshuah.” We tend to think that Hanoten Teshuah was the universal formula for these prayers but that’s probably the result of the popular dissemination of that version via printing; the earliest Hanoten Teshuah prayers being attested in the mid-16th century, and then famously, in the letter sent by Menasseh ben Israel to Oliver Cromwell in 1655 as part of the petition for Jews to once again be allowed to dwell in England. This prayer, for the Holy Roman Emperor Leopold I and his wife Margaret, offers a different formula of the prayer for the sovereign. It was likely first written in 1658 when Leopold took the throne and appended with Margaret’s name upon their marriage in 1666.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45446_introduction"/>
+      <j:conditional xml:id="osp_45446_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a 17th century prayer for the Holy Roman Emperor found in Ms. 110 (Jewish Museum in Prague, Czech Republic). The English translation here was prepared by Aharon Varady with citations and additional suggestions by Jacob Chatinover.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45446_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_holy_roman_emperor_and_empress"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

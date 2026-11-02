@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer upon the completion of a tome of medical knowledge, by Dr. Abraham Zacuto IV (1642)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer upon the completion of a tome of medical knowledge, by Dr. Abraham Zacuto IV (1642)</tei:title>
+          <tei:author>Abraham Zacuto Ⅳ</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1642">1642</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61953</tei:idno>
+          <tei:idno type="opensiddur.org">61953</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/BIUSante_00342x02/BIUSante_00342x02#page/n913/mode/2up">https://archive.org/stream/BIUSante_00342x02/BIUSante_00342x02#page/n913/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61953_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer concludes the second volume of the late Renaissance medical tome <tei:hi rend="italic">Opera Omnia</tei:hi> by Abraham Zacutus Lusitanus (Abraham Zacuto IV), published posthumously in 1644. The prayer appears at the very end of a concluding statement addressed to the Reader (on pages 147-148 of a section appended to the second volume). While the prayer itself is short, I think it is crucial to read it in the context of the entire statement and of his life as both a physician and a “New Christian,” i.e., a Portuguese-Jewish converso, ever vulnerable to the attention of the Inquisition or from others who might profit or take petty pleasure in his downfall. Very well respected in his lifetime, little is documented of Zacuto’s professional life in Lisbon — almost the entirety of his writings were published in the last decade of his life after he had fled to Amsterdam.</tei:p>
+        <tei:p>The prayer is referenced by Fred Rosner on page 136 in his chapter, “The Physicians’ Prayer Attributed to Moses Maimonides” in <tei:hi rend="italic">Medicine in the Bible and the Talmud</tei:hi> (1977) while paraphrasing a remark by Dr. Immanuel Jakobovitz, chief rabbi of the United Hebrew Congregations of the British Empire in <tei:hi rend="italic">Jewish Medical Ethics</tei:hi> (1959), p.15-17, who “emphasized the ethical and moral responsibilities of the physician as a divine agent in the alleviation of human suffering. Deeply pious and moving prayers of gratitude for divine help, such as those of Asaph, Judah Halevy, Jacob Zahalon, and Abraham Zacutus, as well as the Physician’s Prayer attributed to Maimonides, says Jakobovits, all recognize God as the ultimate healer of disease, while also asserting “the indispensable part played by the physician, his art and his medicines” in the preservation of health.” For Abraham Zacutus, Rosner (in superscript) points to a section on Zacuto in Harry Friedenwald’s collection of essays, <tei:hi rend="italic">The Jews and Medicine</tei:hi> vol. 1 (1944), p. 315, where Friedenwald writes, “The [second] volume [of Zacuto’s <tei:hi rend="italic">Opera Omnia</tei:hi>] ends with a deeply pious and moving prayer of gratitude for Divine help,—just as the book of precepts mentioned above, opens with Precept I: “The physician should be a faithful worshipper of Divine Majesty’; yet in discussing objectively a medical problem he adds: “for we are physicians and not theologians!”’ (<tei:hi rend="italic">Opera Omnia</tei:hi> vol. I. p. 753.).”</tei:p>
+        <tei:p>In digitally transcribing and translating this work into English, I am unaware of the text or its translation ever having been published anywhere.–Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61953_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_upon_the_completion_of_a_tome_of_medical_knowledge_iv"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

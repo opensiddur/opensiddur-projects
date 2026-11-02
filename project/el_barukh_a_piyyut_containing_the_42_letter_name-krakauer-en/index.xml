@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵל בָּרוּךְ</tei:title>
+        <tei:title type="main" xml:lang="en">El Barukh :: A piyyuṭ containing the 42 Letter Name, recorded by Rabbi Isaiah Horowitz</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/nir-krakauer">Nir Krakauer</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵל בָּרוּךְ</tei:title>
+          <tei:title xml:lang="en">El Barukh :: A piyyuṭ containing the 42 Letter Name, recorded by Rabbi Isaiah Horowitz</tei:title>
+          <tei:author>Isaiah Horowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1625">1625</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=22998</tei:idno>
+          <tei:idno type="opensiddur.org">22998</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/ShneiLuhotHabritIsaiahHorowitz1649#page/n296/mode/2up">https://archive.org/stream/ShneiLuhotHabritIsaiahHorowitz1649#page/n296/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SeferMaavorYabok1860#page/n116/mode/2up">https://archive.org/stream/SeferMaavorYabok1860#page/n116/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_22998_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a piyyut containing the 42 letter divine name in an acrostic, recorded by Rabbi Isaiah Horowitz (1565?–1630) in his Shnei Luḥot HaBerit. In his article comparing this with other 42 letter name piyyutim, Ben Newman writes:</tei:p>
+        <tei:p>In the late sixteenth and early seventeenth centuries, discussion of the [42 letter] name and of the piyyutim corresponding to it increases. Perhaps this is due to the rise in popularity of kabbalah after the incredibly prolific era of the kabbalists of 16th c. Tsfat. One rabbi who extensively discusses the name in the late 16th and early 17th centuries is Isaiah Horowitz (1565?–1630) in his Shnei Luḥot HaBerit. In addition to Ana be-Koaḥ, Horowitz records another piyyut which was derived from the name of 42. This piyyut which begins by describing God’s qualities is very interesting, and if my illustrious reader wants to see how it compares to other versions, please refer to the chart in the appendix. One fascinating point regarding this particular piyyut is that it is similar to the well-known El Barukh Gadol De’ah prayer.</tei:p>
+        <tei:p>The vocalization provided for the unvocalized text in the Shnei Luḥot Habrit is that found in the Sefer Maavar Yabbok (1860 edition). The translation provided here was made by Nir Krakauer, modified by Aharon Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_22998_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_barukh_a_piyyut_containing_the_42_letter_name_horowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

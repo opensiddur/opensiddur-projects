@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Bénissons, a French table song for the Birkat haMazon (ca. 18th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Bénissons, a French table song for the Birkat haMazon (ca. 18th c.)</tei:title>
+          <tei:author>David Lévi Alvarès</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1740" to="1800">1740 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=37431</tei:idno>
+          <tei:idno type="opensiddur.org">37431</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/bulletinhispaniq09borduoft/bulletinhispaniq09borduoft#page/282/mode/2up">https://archive.org/stream/bulletinhispaniq09borduoft/bulletinhispaniq09borduoft#page/282/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_37431_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Bénissons is the French version of the well-known Bendigamos, a prayer and melody of the Spanish &amp; Portuguese Jewish communities, most probably originating in Bordeaux, France.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37431_introduction"/>
+      <j:conditional xml:id="osp_37431_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Bénissons is a French adaptation of the table song, Bendigamos, a hymn sung after meals according to the custom of Western Sepharadim, Jews who found refuge from the Inquisition of the Iberian Peninsula in occidental lands. It is similar in meaning to the <tei:hi rend="italic">Birkat Hamazon</tei:hi> (Blessing after Meals). Bendigamos is said in addition to <tei:hi rend="italic">Birkat Hamazon</tei:hi>, usually immediately after it. The text was contributed by the pioneering French pedagogue David Lévi Alvarès to the collection of songs of the Jewish-Portuguese community of Paris: <tei:hi rend="italic">Hymnes sacrées à l’usage des Israélites français, composées sur les airs hébraïques-portugais les plus connus</tei:hi> (1825). (We have had difficulty locating a copy of this work. If you have access to, or own a copy, please contact us.) The text here is as found in “Les Juifs espagnols de Saint-Esprit” by Henry Léon in in <tei:hi rend="italic">Annales de la Faculte des Lettres de Bordeaux: Bulletin Hispanique</tei:hi> (Tome IX, 1907), p.282 — where it is compared with Bendigamos.</tei:p>
+        <tei:p>Bénissons/Bendigamos probably originated among the Sepharadim who settled in Bordeaux, a Hispanophone rather than Lusophone community. (Find below, a recording of Bénissons — with thanks to the Jewish Community of Bordeaux.) From France, Bendigamos was probably brought to the Dutch West-Indies island of Curaçao in the mid-nineteenth century and from there brought to New York, Amsterdam, and some other Western Sepharadi communities. Alternatively, the song may have originated with Sepharadi Jews living in Spain, who then immigrated to Turkey, other locales in the Ottoman Empire, and the Netherlands. It may originally have been written as a secret way to say the <tei:hi rend="italic">Birkat HaMazon</tei:hi> after practicing Judaism in Spain and Portugal was forbidden in the fifteenth century.</tei:p>
+        <tei:p>English translation of the French by Aharon Varady. (“Who can know all one’s flaws? From hidden errors, correct me.” — Psalms 19:!3)</tei:p>
+        <tei:p>Recording(s)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37431_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:benissons_alvares"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

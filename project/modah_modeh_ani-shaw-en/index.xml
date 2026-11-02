@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מודה אני</tei:title>
+        <tei:title type="main" xml:lang="en">Modah/Modeh Ani, by Moshe ibn Makhir (translation by Andrew Shaw)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מודה אני</tei:title>
+          <tei:title xml:lang="en">Modah/Modeh Ani, by Moshe ibn Makhir (translation by Andrew Shaw)</tei:title>
+          <tei:author>Andrew Shaw</tei:author>
+          <tei:author>Mosheh ben Yehudah ibn Makhir</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-12-14">2011-12-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=4211</tei:idno>
+          <tei:idno type="opensiddur.org">4211</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_4211_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p><tei:hi rend="italic">Modeh Ani</tei:hi> first appeared as an addendum in <tei:hi rend="italic">Seder ha-Yom</tei:hi> by Rav Moshe Ibn Machir of Tzfat, published in 1599. In this 20th century variation, <tei:hi rend="italic">melekh</tei:hi> (king) has been replaced by <tei:hi rend="italic">ruaḥ</tei:hi> (spirit). Read more on “Modeh Ani” at Hardcore Mesorah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4211_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:modeh_ani"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

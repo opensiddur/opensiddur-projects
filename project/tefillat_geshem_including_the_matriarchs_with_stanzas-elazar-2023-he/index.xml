@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תפילת גשם כולל אמהות</tei:title>
+        <tei:title type="alt" xml:lang="en">Tefillat Geshem including the matriarchs with stanzas in a backwards acrostic, an adaptation by Eliran Sobel</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת גשם כולל אמהות</tei:title>
+          <tei:title xml:lang="en">Tefillat Geshem including the matriarchs with stanzas in a backwards acrostic, an adaptation by Eliran Sobel</tei:title>
+          <tei:author>Eliran Sobel</tei:author>
+          <tei:author>Elazar ben Qallir</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-10-03">2023-10-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52874</tei:idno>
+          <tei:idno type="opensiddur.org">52874</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52874_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>On Shemini Atseret, one is supposed to begin mentioning rain in the second blessing of their Amidah prayers (Ta’anit 2a). In many communities, this is liturgically marked by a poetic introduction in the repetition of the Amidah, called Geshem, specifically with the piyyut “Zekhor Av” written by Rabbi Eleezer BeRabbi Kalir, which alludes to the references of our forefathers’ relations to water. One feature of this poem is that it utilizes an alef-bet-ical acrostic, and while there are various modern adaptations that include biblical women, those break the acrostic. This is my attempt to compose a version including stanzas for our foremothers, while maintaining the acrostic by writing the women’s stanzas as a backwards acrostic (i.e. starting from tav and going to alef). This backwards acrostic containing the foremothers is then interspersed with Kalir’s original. I hope that this project will allow synagogues and minyanim to use this text on Shemini Atseret to add meaning to their prayers and feel more inclusive of the values in their communities.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52874_introduction"/>
+      <j:conditional xml:id="osp_52874_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>I am grateful to the already extant versions of Geshem with verses for biblical women, by Rabbi Jill Hammer, Mark Frydenberg and Rabbi Simcha Roth, and Rabbi Ruth Gan Kagan (1, and 2), as well as those found in the Israeli Masorti Va’ani Tefilati Siddur and the Conservative movement’s Lev Shalem Siddur. I am also grateful to the Facebook group, “S’fatai Tiftach—The Baalei Tefilah Forum,” and specifically to its members Isaac Gantwerk Mayer and Dov Rosenschein for their suggestions. There have been numerous drafts of this work that I have used over the years, but this edition was completed over Sukkot 5783.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52874_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tefillat_geshem_including_the_matriarchs_with_stanzas_elazar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

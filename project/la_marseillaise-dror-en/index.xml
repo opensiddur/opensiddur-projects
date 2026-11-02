@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">לה מרסֵיֶיז</tei:title>
+        <tei:title type="main" xml:lang="en">La Marseillaise, by Claude Joseph Rouget de Lisle (1792); Hebrew translation by Efrayim Dror (ca. 1940)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">לה מרסֵיֶיז</tei:title>
+          <tei:title xml:lang="en">La Marseillaise, by Claude Joseph Rouget de Lisle (1792); Hebrew translation by Efrayim Dror (ca. 1940)</tei:title>
+          <tei:author>Claude Joseph Rouget de Lisle</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Efrayim Dror</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1792">1792</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44661</tei:idno>
+          <tei:idno type="opensiddur.org">44661</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/la-marseillaise-hebrew-translation-by-efraim-dror-1951/La%20Marseillaise%20%28Hebrew%20translation%20by%20Efraim%20Dror%201951%29#page/n5/mode/2up">https://archive.org/stream/la-marseillaise-hebrew-translation-by-efraim-dror-1951/La%20Marseillaise%20%28Hebrew%20translation%20by%20Efraim%20Dror%201951%29#page/n5/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44661_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This Hebrew translation of “La Marseillaise,” the national anthem of France, was made by Efrayim Dror for the Free French Army (Forces Françaises Libres) and its many Jewish volunteers during the early years of World War II. His translation was published in 1951. Some context is offered by Lucien Steinberg: “A Jewish Agency memorandum of 1943 mentions that 40,000 non-French Jews volunteered for the French Army in September-October 1939....They joined special units—the 21st, 22nd and 23rd foreign volunteer infantry battalions. Other units were attached to the Foreign Legion, such as the famous Half-Brigade No13 and the foreign infantry battalions No11 and 12” (in “The Participation of Jews in the Allied Armies,” Shoah Research Center, 1971).<tei:anchor xml:id="note_5"/> On Simḥat Torah (18–19 October) 1973, the Lubavitcher Rebbe adapted the melody to the piyyut “Ha’aderet v’ha’emuna”. In ḤaBaD, the melody is believed to convey the idea of a “spiritual French revolution” – in that Torah should be spread around the world as an advent to the messianic era.</tei:p>
+        <tei:p>“La Marseillaise” was written in 1792 by Claude Joseph Rouget de Lisle in Strasbourg after the declaration of war by France against Austria, and was originally titled “Chant de guerre pour l’Armée du Rhin” (War Song for the Army of the Rhine). The French National Convention adopted it as the new Republic’s anthem in 1795. The song acquired its nickname after being sung in Paris by volunteers from Marseille marching to the capital. After the fall of Napoleon in 1815, “La Marseilles” was banned and it became the anthem of the French left. The French government brought back the popular anthem in an attempt to motivate the French people during the Franco-Prussian War. It’s adoption by the Paris Commune in 1871 (albeit with new lyrics under the title “La marseillaise de la Commune”) led to “La Marseillaise” becoming an anthem of the international revolutionary movement alongside “L’Internationale.” While other political movements promoted their anthems, by 1879, “La Marseillaise” was restored as France’s national anthem. —Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44661_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:la_marseillaise_lisle"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="5" target="#note_5">
+      <tei:p>Lucien Steinberg, “The Participation of Jews in the Allied Armies*”, <tei:hi rend="italic">Jewish Resistance During the Holocaust, Proceedings of the Conference on manifestations of Jewish Resistance</tei:hi>, Yad Vashem, Jerusalem, 1971 pp. 379-392.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

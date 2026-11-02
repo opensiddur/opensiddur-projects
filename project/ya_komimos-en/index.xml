@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ya Komimos (We have eaten), a piyyuṭ for the Birkat haMazon in Ladino</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Ya Komimos (We have eaten), a piyyuṭ for the Birkat haMazon in Ladino</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1700" to="1800">1700 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29679</tei:idno>
+          <tei:idno type="opensiddur.org">29679</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n40/mode/2up">https://archive.org/stream/simanlvanimdimusparrhesiapress2019#page/n40/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29679_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The Ladino prayer known by its incipit, “<tei:hi rend="italic">Ya Comimos</tei:hi>,” is said after the recital of the Birkat Hamazon. It can be found in some birkhonim, some Spanish and Portuguese siddurim and some Haggadot. Traditionally the piyyut would be sung by women but at times could also be sung by men.</tei:p>
+        <tei:p>We are looking for older attestations of <tei:hi rend="italic">Ya Comimos</tei:hi> in siddurim and haggadot. If you can provide a reference to one or more, please do — and thank you.</tei:p>
+        <tei:p>This translation follows the translation, Honi Sanders and I published in the birkon for his wedding, <tei:hi rend="italic">Siman l’Vanim</tei:hi> (Dimus Parrhesia Press 2019). The English translation here deviates slightly from strict fidelity to the vernacular Ladino; “They” and “Their” is used here as a singular pronoun to avoid assigning a gender to God. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29679_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ya_komimos"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
