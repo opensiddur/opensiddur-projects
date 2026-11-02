@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קדיש יתום</tei:title>
+        <tei:title type="main" xml:lang="en">Mourner's Ḳaddish, an interpretive rhyming translation by Alan Wagman</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/alan-wagman">Alan Wagman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קדיש יתום</tei:title>
+          <tei:title xml:lang="en">Mourner's Ḳaddish, an interpretive rhyming translation by Alan Wagman</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0200" to="0700">0200 – 0700</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6613</tei:idno>
+          <tei:idno type="opensiddur.org">6613</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6613_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an English language interpretation of the Mourner’s Ḳaddish, intended to capture the spirit of translations/interpretations that I have seen in various sources and also to capture the sound and rhythm of the Aramaic text, including syllables which, when read simultaneously with the Aramaic, rhyme with the Aramaic.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6613_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mourners_kaddish"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

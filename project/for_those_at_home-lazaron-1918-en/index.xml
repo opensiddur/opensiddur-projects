@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">For Those At Home, a prayer for the home front during war by Rev. Howard A. Bridgman adapted by Rabbi Morris Lazaron (1918)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">For Those At Home, a prayer for the home front during war by Rev. Howard A. Bridgman adapted by Rabbi Morris Lazaron (1918)</tei:title>
+          <tei:author>Morris Samuel Lazaron</tei:author>
+          <tei:author>Howard Allen Bridgman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1918">1918</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=48494</tei:idno>
+          <tei:idno type="opensiddur.org">48494</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/side-arms-readings-prayers-and-meditations-for-soldiers-and-sailors-morris-s-lazaron-1918/Side%20Arms-%20Readings%2C%20Prayers%20and%20Meditations%20for%20Soldiers%20and%20Sailors%20%28Morris%20S.%20Lazaron%201918%29#page/24/mode/2up">https://archive.org/stream/side-arms-readings-prayers-and-meditations-for-soldiers-and-sailors-morris-s-lazaron-1918/Side%20Arms-%20Readings%2C%20Prayers%20and%20Meditations%20for%20Soldiers%20and%20Sailors%20%28Morris%20S.%20Lazaron%201918%29#page/24/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sgbooka00youn/sgbooka00youn#page/86/mode/2up">https://archive.org/stream/sgbooka00youn/sgbooka00youn#page/86/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48494_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“[Prayer] for those at home,” a variation of a prayer by Rev. Howard A. Bridgman (1860-1929), is found adapted (without Christian god-language) by Rabbi Morris S. Lazaron in his World War I era prayerbook, <tei:hi rend="italic">Side Arms: Readings, Prayers and Meditations for Soldiers and Sailors</tei:hi> (1918), on page 25. The original version of the prayer was first published in <tei:hi rend="italic">The Service Song Book</tei:hi> (Young Men’s Christian Associations 1917), pp. 86 in the abridged edition.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48494_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:for_those_at_home_lazaron"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Morris H. Margolies on 25 February 1986</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Morris H. Margolies on 25 February 1986</tei:title>
+          <tei:author>Morris Margolies</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1986-02-25">1986-02-25</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54453</tei:idno>
+          <tei:idno type="opensiddur.org">54453</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 132, part 2 (25 February 1986), p. 2660 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/02/Congressional-Record-vol--132-part-2-25-February-1986-p--2660.png">https://opensiddur.org/wp-content/uploads/2024/02/Congressional-Record-vol--132-part-2-25-February-1986-p--2660.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54453_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Morris H. Margolies, Beth Shalom Congregation, Kansas City, Missouri</tei:p>
+        <tei:p>Sponsor: Rep. Ike Skelton (D-MO)</tei:p>
+        <tei:p>Date of Prayer: 25 February 1986</tei:p>
+        <tei:p>Mr. SKELTON. Mr. Speaker, it is with a great deal of personal pride and pleasure that I introduce and welcome Rabbi Morris B. Margolies to the Members of this body.</tei:p>
+        <tei:p>An ordained rabbi since 1943, Rabbi Margolies will be retiring this June after 25 years as the rabbi at the Beth Shalom Congregation in Kansas City, Missouri.</tei:p>
+        <tei:p>Along with a Ph.D. in Jewish history and modern European history from Columbia University, and a master of arts degree in English from the University of Chicago, Rabbi Margolies has written a total of four books and numerous articles.</tei:p>
+        <tei:p>Mr. Speaker, his many academic honors and his personal devotion to his congregation and to his community in the Kansas City area have brought him honor and renown through the years.</tei:p>
+        <tei:p>Rabbi Margolies and his wife of 34 years, Ruth, are the proud parents of four beautiful children and one grandchild.</tei:p>
+        <tei:p>I, along with the Members of this body, take the opportunity to welcome Rabbi Margolies to this Chamber of the House of Representatives and wish him and wish his family all the very best in the years to come.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54453_introduction"/>
+      <j:conditional xml:id="osp_54453_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 99th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 132, part 2 (1986), page 2660.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54453_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_margolies"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Renewal, by Rabbi Zalman Schachter Shalomi (2004)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Renewal, by Rabbi Zalman Schachter Shalomi (2004)</tei:title>
+          <tei:author>Netanel Miles-Yépez</tei:author>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2004">2004</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=37545</tei:idno>
+          <tei:idno type="opensiddur.org">37545</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_37545_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is an untitled prayer by Rabbi Zalman Schachter-Shalomi, originally offered by him in an address given at the Roundtable Dialogue for the visit of the 14th Dalai Lama together with other Nobel Laureates in Vancouver, B.C., entitled “Balancing Educating the Mind with Educating the Heart.” The event was held at the Chan Centre for the Performing Arts, on Tuesday, April 20, 2004. While the video documenting the address is currently offline, thankfully the original text of the prayer is given in its transcription by Gabbai Seth Fishman. The prayer is presented here alongside an adaptation found in the <tei:hi rend="italic">High Holy Days Maḥzor</tei:hi> of Congregation Nevei Kodesh: Jewish Renewal Community of Boulder (2018), p.36, Section 10: Prayers for Rosh haShanah. The prayer in this form, as revised by Netanel Miles-Yepez and Reb Zalman, can be found at Kol Aleph (2014) and the now defunct Sufi Hasidim website (2009).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37545_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_renewal_schachter_shalomi"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

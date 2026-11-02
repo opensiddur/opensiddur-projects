@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">On the Loss of a Beloved One, a prayer in the morning by Annie Josephine Levi (1900)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">On the Loss of a Beloved One, a prayer in the morning by Annie Josephine Levi (1900)</tei:title>
+          <tei:author>Annie Josephine Levi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1900">1900</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50336</tei:idno>
+          <tei:idno type="opensiddur.org">50336</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/meditation-of-the-heart-annie-josephine-levi-1900/Meditation%20of%20the%20Heart%20%28Annie%20Josephine%20Levi%201900%29#page/148/mode/2up">https://archive.org/stream/meditation-of-the-heart-annie-josephine-levi-1900/Meditation%20of%20the%20Heart%20%28Annie%20Josephine%20Levi%201900%29#page/148/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50336_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“On the loss of a beloved one (in the morning)” was written by Annie Josephine Levi and published in her anthology of teḥinot in English, <tei:hi rend="italic">Meditations of the Heart</tei:hi> (1900), pp. 148-149.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50336_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:on_the_loss_of_a_beloved_one_levi_50336"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

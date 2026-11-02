@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer after the death of President Ulysses S. Grant, by Rabbi Sabato Morais (8 August 1885)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer after the death of President Ulysses S. Grant, by Rabbi Sabato Morais (8 August 1885)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1885-08-08">1885-08-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53786</tei:idno>
+          <tei:idno type="opensiddur.org">53786</tei:idno>
+          <tei:note>Source: Prayer in eulogy for Ulysses Grant [Jewish Record 1885-08-14] (Sabato Morais Ledger, p. 338) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/12/Prayer-in-eulogy-for-Ulysses-Grant-Jewish-Record-1885-08-14-Sabato-Morais-Ledger-p--338.png">https://opensiddur.org/wp-content/uploads/2023/12/Prayer-in-eulogy-for-Ulysses-Grant-Jewish-Record-1885-08-14-Sabato-Morais-Ledger-p--338.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53786_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais after the death of President Ulysses S. Grant (April 27, 1822 – July 23, 1885) concludes a eulogy published in the <tei:hi rend="italic">The Jewish Record</tei:hi> on 14 August 1885, “General Grant: Substance of a Discourse Delivered Last Sabbath by the Rev. S. Morais.” A note in the preface to the article dates the eulogy to the preceding Sabbath, 8 August 1885. The article was preserved in a newspaper clipping found on page 338 of the Sabato Morais Ledger.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53786_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_after_the_death_of_president_ulysses_s_grant_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

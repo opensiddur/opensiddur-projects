@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עַל חֵטְא</tei:title>
+        <tei:title type="main" xml:lang="en">Interpretive Al Ḥeyt for Yom Kippur, by Rabbi Emily Aviva Kapor-Mater</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עַל חֵטְא</tei:title>
+          <tei:title xml:lang="en">Interpretive Al Ḥeyt for Yom Kippur, by Rabbi Emily Aviva Kapor-Mater</tei:title>
+          <tei:author>Emily Aviva Kapor-Mater</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-09-17">2018-09-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21742</tei:idno>
+          <tei:idno type="opensiddur.org">21742</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21742_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The Al Ḥeyt (literally meaning “For the sin...”) is a confessional litany recited on Yom Kippur. It is an alphabetical acrostic; each one of its verses starting with a successive letter of the aleph-beit, to represent not only the moral failings that are specifically enumerated there, but the fullness of every way in which we missed the mark in the previous year.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21742_introduction"/>
+      <j:conditional xml:id="osp_21742_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>I wrote this interpreted version of the Al Ḥeyt several years ago and used it at Ḥavurat Shalom in Somerville, Massachusetts over Yom Kippur.</tei:p>
+        <tei:p>The “Interpretive Al Cheyt for Yom Kippur” was first published (sans Hebrew) 17 September 2018 on the website of R’ Emily Aviva Kapor-Mater (under a CC BY license).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21742_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:interpretive_al_cheyt_for_yom_kippur_kapor_mater"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

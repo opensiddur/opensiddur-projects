@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲשֶׁר בִּגְלַל אָבוֹת בָּנִים גִּדֵּל</tei:title>
+        <tei:title type="main" xml:lang="en">Asher Biglal Avot Banim Gidel — an archaic piyyuṭ on Mosheh's Death for Simḥat Torah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲשֶׁר בִּגְלַל אָבוֹת בָּנִים גִּדֵּל</tei:title>
+          <tei:title xml:lang="en">Asher Biglal Avot Banim Gidel — an archaic piyyuṭ on Mosheh's Death for Simḥat Torah</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0440" to="0539">0440 – 0539</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53057</tei:idno>
+          <tei:idno type="opensiddur.org">53057</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53057_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>There are a LOT more sad piyyuṭim than you would expect for the day of Simḥat Torah, many of which are about the death of Moshe Rabbeinu. While many of these piyyuṭim are close to lost — at best printed in the very back of a Sukkot maḥzor, and at worst unsaid entirely — considering the traumatic events of Simḥat Torah 5784, perhaps it’s time to bring this custom of communal mourning for Moshe Rabbeinu back around. This piyyut of unknown authorship is certainly ancient, showing the lack of a rhyme scheme characteristic of the REALLY old piyyutim (see also Aleinu or El Adon). It is still found in some Ashkenazi and Teman maḥzorim, with many different mostly minor variants (which have been combined together somewhat eclectically into one text here). It is presented here along with an English translation attempting to preserve the Hebrew acrostic. Originally it was recited before the Ashrei leading into musaf, but perhaps for those who follow Ashkenazi customs a more appropriate location would be as an introduction to the Yizkor service on Shmini ‘Atzeret — which for those who don’t keep second-day yontef is the same day. It could also be adapted as part of the liturgy for the seventh of Adar, although the final verse (the old Western rite berakha for finishing a full Torah cycle) would have to be elided.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53057_introduction"/>
+      <j:conditional xml:id="osp_53057_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53057_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:asher_biglal_avot_banim_gidel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

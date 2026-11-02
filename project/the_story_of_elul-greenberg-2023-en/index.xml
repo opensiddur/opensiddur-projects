@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Story of Elul, by Todd Greenberg</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Story of Elul, by Todd Greenberg</tei:title>
+          <tei:author>Todd Greenberg</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-08-17">2023-08-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52439</tei:idno>
+          <tei:idno type="opensiddur.org">52439</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52439_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I tried to look at different aspects of what we as Jews contemplate and think about as we move towards the High Holy Days. God’s view of what we did out of fear and loneliness and perhaps why we can never see God’s face and for us to reflect on how we act in the world and what God has asked us of in this lifetime. This poem/prayer is perhaps a little rough, that was intentional. Rather than being a true historical commentary on Elul, I tried to tell a little story about it.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52439_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_story_of_elul_greenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

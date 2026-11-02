@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">אֲדוֹן עוֹלָם (מנהג הספרדים במזרח)‏</tei:title>
+        <tei:title type="alt" xml:lang="en">जो जगताचा स्वामि</tei:title>
+        <tei:title type="alt" xml:lang="en">Adōn Olam in Marathi translation by Jospeh Ezekiel Rajpurkar (1889)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aniruddha-walke">Aniruddha Walke</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲדוֹן עוֹלָם (מנהג הספרדים במזרח)‏</tei:title>
+          <tei:title xml:lang="en">जो जगताचा स्वामि</tei:title>
+          <tei:title xml:lang="en">Adōn Olam in Marathi translation by Jospeh Ezekiel Rajpurkar (1889)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Joseph Ezekiel Rajpurkar</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65626</tei:idno>
+          <tei:idno type="opensiddur.org">65626</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/TheDailyPrayersTranslatedFromHebrewToMarathiJosephEzekielRajpurkar1889/The%20Daily%20Prayers%20translated%20from%20Hebrew%20to%20Marathi%20%28Joseph%20Ezekiel%20Rajpurkar%201889%29#page/n27/mode/2up">https://archive.org/stream/TheDailyPrayersTranslatedFromHebrewToMarathiJosephEzekielRajpurkar1889/The%20Daily%20Prayers%20translated%20from%20Hebrew%20to%20Marathi%20%28Joseph%20Ezekiel%20Rajpurkar%201889%29#page/n27/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65626_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The piyyut, “Adon Olam” became popular in the 15th century and is often attributed to Solomon ibn Gabirol (1021–1058) and less often to Sherira Gaon (900-1001), or his son, Hai ben Sherira Gaon (939-1038). The variation of the piyyut appearing here is the fifteen line version familiar to some Mizraḥi and eastern Sefaradi congregations. (A twelve line variant is common among the Western Sefaradim. The Ashkenazi version has ten lines.)</tei:p>
+        <tei:p>The Marathi translation was made by Joseph Ezekiel Rajpurkar as published in סדר תפלת החדש <tei:hi rend="italic">The Daily Prayers translated from Hebrew in Marathi</tei:hi> (1889), pp. 7-8. The Marathi was proofread by Aniruddha Walke. (Thank you!) –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65626_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam_in_marathi_translation"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

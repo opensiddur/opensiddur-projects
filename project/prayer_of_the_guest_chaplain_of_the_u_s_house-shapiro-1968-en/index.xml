@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David Shapiro on 24 January 1968</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi David Shapiro on 24 January 1968</tei:title>
+          <tei:author>David Shapiro</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1968-01-24">1968-01-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53976</tei:idno>
+          <tei:idno type="opensiddur.org">53976</tei:idno>
+          <tei:note>Source: Prayers of the Guest Chaplain (David Shapiro, 24 January 1968) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/01/Prayers-of-the-Guest-Chaplain-David-Shapiro-24-January-1968.png">https://opensiddur.org/wp-content/uploads/2024/01/Prayers-of-the-Guest-Chaplain-David-Shapiro-24-January-1968.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53976_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi David Shapiro, Temple Sinai, Hollywood, Florida</tei:p>
+        <tei:p>Date of Prayer: 24 January 1968</tei:p>
+        <tei:p>Sponsor: n/a</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53976_introduction"/>
+      <j:conditional xml:id="osp_53976_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered near the beginning of the second session of the 90th US Congress. The general context of the prayer was the war in Vietnam, but also the seizure of the USS Pueblo by North Korea in international waters on 23 January, claiming the ship violated its territorial waters while spying.</tei:p>
+        <tei:p>The source image of the prayer were copied by Howard Mortman and shared via his @CongressRabbi Twitter account. All credit to Howard Mortman for his research in digging up this prayer. Unfortunately, neither the source images nor his tweets provide an exact citation reference to the volume, issue, and page number of the Congressional Record in which the prayer was published. If you know, leave a comment, or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53976_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_shapiro"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

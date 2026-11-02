@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עַד אָנָה בִּכְיָּה בְצִיּוֹן</tei:title>
+        <tei:title type="main" xml:lang="en">Ad Ana Bikhya b'Tsiyon (How Long Will Crying Be In Zion), a qinah for Tishah b'Av (ca. 7th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עַד אָנָה בִּכְיָּה בְצִיּוֹן</tei:title>
+          <tei:title xml:lang="en">Ad Ana Bikhya b'Tsiyon (How Long Will Crying Be In Zion), a qinah for Tishah b'Av (ca. 7th c.)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0601" to="0639">0601 – 0639</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46114</tei:idno>
+          <tei:idno type="opensiddur.org">46114</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/seder-tefilot-mikol-ha-shanah-amsterdam-1681/Seder%20Tefilot%20mikol%20haShanah%20%28Amsterdam%201681%29#page/n900/mode/2up">https://archive.org/stream/seder-tefilot-mikol-ha-shanah-amsterdam-1681/Seder%20Tefilot%20mikol%20haShanah%20%28Amsterdam%201681%29#page/n900/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46114_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>‘Ad Ana Bikhya B’Tsiyon, is one of the oldest qinot of the cycle, dating to the period before rhyme schemes were the norm for Hebrew poetry. It describes the heavenly luminaries themselves as sympathizing with and lamenting for Israel. It goes through the entire zodiac, beginning with Ares and ending with Pisces. It is traditional to stand and recite the last few lines aloud before transitioning into the Ḳedusha d’Sidra.</tei:p>
+        <tei:p>Note on the translation: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46114_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ad_ana_bikhya_betziyyon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

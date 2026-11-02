@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Judeo-Italian couplets for each course of the Passover Seder (Venice, 1609)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Judeo-Italian couplets for each course of the Passover Seder (Venice, 1609)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1609">1609</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61058</tei:idno>
+          <tei:idno type="opensiddur.org">61058</tei:idno>
+          <tei:note>Source: Judeo-Italian Couplets for the Stages of the Seder, Venice, 1609 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/04/judeo-italian-couplets-for-the-stages-of-the-seder-venice-1609.jpg">https://opensiddur.org/wp-content/uploads/2025/04/judeo-italian-couplets-for-the-stages-of-the-seder-venice-1609.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61058_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A series of fourteen short couplets describing the fourteen traditional stages of the Haggadah, written in Judeo-Italian and first published in the famous 1609 Venice Haggadah of Isaac Gershon. The Italian used in the Venice Haggadah lacks a lot of the most divergent aspects of the Judeo-Italian languages, sticking to a more mainline Tuscan grammatical norm, but there are enough obsolete, poetic, or dialectal forms that several footnotes have been included to explain them. Also included is an original English-language rhyming translation!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61058_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:judeo_italian_couplets_for_each_course_of_the_passover_seder"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אָמְרוּ רַבּוֹתֵֽינוּ זִכְרוֹנָם לִבְרָכָה</tei:title>
+        <tei:title type="main" xml:lang="en">"Said our Sages of Blessed Memory" — a Midrashic Addition to the Extrapolation of the First Fruits</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אָמְרוּ רַבּוֹתֵֽינוּ זִכְרוֹנָם לִבְרָכָה</tei:title>
+          <tei:title xml:lang="en">"Said our Sages of Blessed Memory" — a Midrashic Addition to the Extrapolation of the First Fruits</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36233</tei:idno>
+          <tei:idno type="opensiddur.org">36233</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36233_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In many eastern communities, including the communities of Aleppo and Yemen as well as the haggadah of Ḥakham Ovadia Yosef, this text is added to the extrapolation of the First Fruits declaration found in the Pesaḥ Maggid [beginning with “My father was a wandering Aramaean” <tei:bibl>(Deuteronomy 26:5-8)</tei:bibl>]. Specifically, it is found after the citation of Exodus 12:12, specifically within or after the passage concluding “...who is Me and there is no other” and before the passage beginning “with a strong hand.”</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+        <tei:p>[If you’d like to commission a Jewish creative work, check out my website at igmjewishcreativeworks.com! –Isaac Gantwerk Mayer]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36233_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:said_our_sages_of_blessed_memory"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

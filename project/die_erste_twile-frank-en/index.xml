@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">דיא ערשטע טבילה</tei:title>
+        <tei:title type="main" xml:lang="en">Die erste Twile</tei:title>
+        <tei:title type="alt" xml:lang="en">The First Bath of Ablution, a prayer-poem by Morris Rosenfeld (before 1898)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">דיא ערשטע טבילה</tei:title>
+          <tei:title xml:lang="en">Die erste Twile</tei:title>
+          <tei:title xml:lang="en">The First Bath of Ablution, a prayer-poem by Morris Rosenfeld (before 1898)</tei:title>
+          <tei:author>Morris Rosenfeld</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Helena Frank</tei:name>
+          </tei:respStmt>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Rose Pastor Stokes</tei:name>
+          </tei:respStmt>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Leo Wiener</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1898">1898</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51442</tei:idno>
+          <tei:idno type="opensiddur.org">51442</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/songsoflaborothe00rose/songsoflaborothe00rose#page/72/mode/2up">https://archive.org/stream/songsoflaborothe00rose/songsoflaborothe00rose#page/72/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/songsfromghettow00roseuoft/songsfromghettow00roseuoft#page/52/mode/2up">https://archive.org/stream/songsfromghettow00roseuoft/songsfromghettow00roseuoft#page/52/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/nybc203368/nybc203368#page/n193/mode/2up">https://archive.org/stream/nybc203368/nybc203368#page/n193/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51442_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the poem “דיא זרשטע טבילה” by Morris Rosenfeld (1862-1923) written sometime before 1898. (If you know the date of the earliest publication of this poem, please leave a comment or contact us.) We have transcribed the poem as it was published in Rosenfeld’s collection of poems <tei:hi rend="italic">Gezamelṭe lieder</tei:hi> (1906) pp. 167-168. The poem was romanized and translated into English by Leo Wiener and published under the title, “Die erste Twile (The First Bath of Ablution)” in <tei:hi rend="italic">Songs from the Ghetto</tei:hi> (1898), pp. 52-55. A rhyming translation by Rose Pastor Stokes &amp; Helena Frank under the title, “The First Bath of Ablution” was published in <tei:hi rend="italic">Songs of Labor and Other Poems</tei:hi> (1914), pp. 72-73. I have set these all side-by-side for the first time ever. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51442_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:die_erste_twile_rosenfeld"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

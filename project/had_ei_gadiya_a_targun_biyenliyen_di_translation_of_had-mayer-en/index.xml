@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="alt" xml:lang="he">Hād-ĕi Gădìyă (הַ֨דֵ֬י גַ֬דִ֖יַ֬א) — a Tărgŭn Bìyènlìyén Dì translation of Ḥad Gadya derived from an alternate timeline by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="he">Hād-ĕi Gădìyă (הַ֨דֵ֬י גַ֬דִ֖יַ֬א) — a Tărgŭn Bìyènlìyén Dì translation of Ḥad Gadya derived from an alternate timeline by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54045</tei:idno>
+          <tei:idno type="opensiddur.org">54045</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54045_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In our timeline, the Kaifeng Jewish community had originally spoken Persian as their lingua franca, before adopting the Kaifeng dialect of Mandarin that their neighbors spoke. But just change a little and all of history could be different! This is a translation of Ḥad Gadya in a timeline where Judeo-Aramaic was a little more prevalent in eastern Persia all those years ago. In this timeline, instead of speaking Judeo-Persian before adopting Chinese, the Kaifeng Jews spoke Aramaic. And this dialect of Aramaic, like many other languages spoken in the greater Chinese cultural sphere, underwent tonogenesis!</tei:p>
+        <tei:p>Along with this translation (with words of Chinese and Hebrew origin footnoted), I’ve also included some notes on my methodology for developing this dialect I call Tărgŭn Bìyènlìyén Dì (or “Aramaic of Kaifeng”). If you’d like to add to the corpus, let me know! Everything that has yet been developed is included here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54045_introduction"/>
+      <j:conditional xml:id="osp_54045_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the translation of Ḥad Gadya into an invented dialect of Aramaic in Kaifeng by Isaac Gantwerk Mayer.</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added an English translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+        <tei:p>Notes on Targun Biyenliyen Di (Isaac Gantwerk Mayer 2024)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54045_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:had_ei_gadiya_a_targun_biyenliyen_di_translation_of_had"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

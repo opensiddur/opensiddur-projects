@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Simcha Freedman on 18 October 1977</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Simcha Freedman on 18 October 1977</tei:title>
+          <tei:author>Simcha Freedman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1977-10-18">1977-10-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56897</tei:idno>
+          <tei:idno type="opensiddur.org">56897</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 123, part 26 (18 October 1977), p. 34071 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--123-part-26-18-October-1977-p--34071.png">https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--123-part-26-18-October-1977-p--34071.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56897_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Simcha Freedman, Temple Adath Yeshurun, North Miami Beach, Florida</tei:p>
+        <tei:p>Sponsor: Rep. Bill Lehman (D-FL)</tei:p>
+        <tei:p>Date of Prayer: 22 October 1985</tei:p>
+        <tei:p>Mr. LEHMAN. Mr. Speaker, Rabbi Simcha Freedman was born in Philadelphia, Pa. He graduated Yeshiva University. He was ordained by the Rabbi Isaac Hanen Theological Seminary in 1962 and received a master’s degree in Hebrew literature from the Bernard Revei graduate school that same year.</tei:p>
+        <tei:p>Rabbi Simcha Freedman has served congregations in Shenandoah, Pa., and Philadelphia. He is currently spiritual Jeader of Temple Adath Yeshurun in North Miami Beach, Fla. Rabbi Freedman is a past president of the Philadelphia branch of the Rabbinical Council of America, and is a past secretary of the board of rabbis of Greater Philadelphia.</tei:p>
+        <tei:p>He now serves as secretary of the Rabbinical Association of Greater Miami and serves on the City Advisory Council of the Planning Commission of North Miami Beach. He has contributed articles to various local and national publications.</tei:p>
+        <tei:p>Rabbi Freedman is married to the former Anna Becher Wasser and they have two children, Sammy and Benjy. During the years that I have known Rabbi Freedman personally and been acquainted with the extent of his community involvement, I have been impressed by not only his active commitments to Jewish causes but also his concern for the well-being of our entire religious and secular community. Rabbi Freedman is a great humanitarian as well as a true spiritual leader.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56897_introduction"/>
+      <j:conditional xml:id="osp_56897_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the tenth month of the first session of the 95th US House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 123 part 26 (18 October 1977), page 34071.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56897_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_freedman_56897"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

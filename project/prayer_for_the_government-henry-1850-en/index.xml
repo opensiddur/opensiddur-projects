@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Government, by Rabbi H.A. Henry (Ḳ.Ḳ. B'nai Jeshurun, Cincinnati, Ohio 1850)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Government, by Rabbi H.A. Henry (Ḳ.Ḳ. B'nai Jeshurun, Cincinnati, Ohio 1850)</tei:title>
+          <tei:author>Henry Abraham Henry</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1850">1850</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57242</tei:idno>
+          <tei:idno type="opensiddur.org">57242</tei:idno>
+          <tei:note>Source: Emendation of the Liturgy (The Asmonean, 21 June 1850), p. 6 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/emendation-of-the-liturgy-the-asmonean-21-june-1850-p--6.png">https://opensiddur.org/wp-content/uploads/2024/07/emendation-of-the-liturgy-the-asmonean-21-june-1850-p--6.png</tei:ref></tei:note>
+          <tei:note>Source: Henry A. Henry – Prayer for the Government 1850 – a <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/pxl-20250227-154303398-mp-.jpg">https://opensiddur.org/wp-content/uploads/2024/07/pxl-20250227-154303398-mp-.jpg</tei:ref></tei:note>
+          <tei:note>Source: Henry A. Henry – Prayer for the Government 1850 – b <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/07/pxl-20250227-154254046-mp-.jpg">https://opensiddur.org/wp-content/uploads/2024/07/pxl-20250227-154254046-mp-.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57242_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This original prayer for the government of the United States, Ohio, and the city of Cincinnati by Rabbi H.A. Henry was published in an article, “Emendation of the Liturgy” in <tei:hi rend="italic">The Asmonean</tei:hi> (21 June 1850), p. 6. There, the prayer was introduced as follows,</tei:p>
+        <tei:p>CINCINNATI.—The Board of Trustees of the B’nai Jeshurun Congregation of this city, lately unanimously, resolved to request their respected preacher, the Rev. H.A. Henry, to compose a prayer for the welfare of the Government and people of the United States, and that the said prayer should be offered in the English language in the Synagogue, on Sabbaths and Festivals, instead of <tei:bibl>הנותן השועה</tei:bibl> “He who dispenses salvation,” &amp;c., as formerly used by them in accordance with the custom and practice of the European congregations. The following is a copy of the prayer which has been adopted, and was read during Divine Service on Sabbath last.</tei:p>
+        <tei:p>We also have the prayer preserved in its original handwritten form in the Rare Book Room of the HUC-JIR Klau library (MS 830). Images courtesy of Dr. Jason Kalman. (Thank you!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57242_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_government_henry"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַחֵינוּ הַנְּתוּנִים בְּצָרָה וּבְשִׁבְיָה</tei:title>
+        <tei:title type="main" xml:lang="en">Our brethren in distress and bondage, a plea for the safety of Am Yisrael at the conclusion of prayer and ceremonies by Seth (Avi) Kadish</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַחֵינוּ הַנְּתוּנִים בְּצָרָה וּבְשִׁבְיָה</tei:title>
+          <tei:title xml:lang="en">Our brethren in distress and bondage, a plea for the safety of Am Yisrael at the conclusion of prayer and ceremonies by Seth (Avi) Kadish</tei:title>
+          <tei:author>Seth (Avi) Kadish</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-09-03">2026-09-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68988</tei:idno>
+          <tei:idno type="opensiddur.org">68988</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68988_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This prayer is for all members of עם ישראל who are in danger or oppressed in our time: First and foremost for all Israeli soldiers, next for those who are in combat at this moment, then for captive or wounded soldiers and civilians alike, then “all those threatened by malice in our land and in exile” (mostly not soldiers), and finally “all those in need of Your comfort” which especially means the families of dead or wounded soldiers and civilians in Israel and in exile.</tei:p>
+        <tei:p>When I say this prayer in public at weddings (before the groom breaks the glass), I usually informally add “אחינו” to the first to groups: אחינו העומדים על משמר ארצנו and אחינו הלוחמים בשדה הקרב, because the soldiers defending our lives and defending the nation state of the People of Israel are indeed our brothers and our children.</tei:p>
+        <tei:p>I also usually add, regarding the wounded, ופצועים במערכה, חיילים ואזרחים, because the our enemies’ violence is directed at every member of the People of Israel, and to our sorrow it sometimes reaches them, whether they are soldiers defending life and liberty or civilians (both in Israel and abroud).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68988_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:our_brethren_in_distress_and_bondage_kadish"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵלִימֶֽלֶךְ גְּלָה</tei:title>
+        <tei:title type="main" xml:lang="en">Elimelekh G'la — a Byzantine-Era Piyyuṭ Retelling the Book of Ruth</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵלִימֶֽלֶךְ גְּלָה</tei:title>
+          <tei:title xml:lang="en">Elimelekh G'la — a Byzantine-Era Piyyuṭ Retelling the Book of Ruth</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0840" to="1000">0840 – 1000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51179</tei:idno>
+          <tei:idno type="opensiddur.org">51179</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51179_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“Elimelekh G’la” is a Byzantine-era Western Aramaic poetic retelling of the Book of Ruth. It was probably originally used as part of the liturgy for Shavuot, perhaps as a poetic addition to the recitation of a Targumic interpretation of the Book of Ruth. (The verses from Ruth and Psalms appended to the coda of the piyyuṭ would suggest such a Sitz im Leben.) But in any case, it has a great acrostic structure and rhyme scheme, and ought to be preserved! Here is included a vocalized text, largely based on the unvocalized text compiled in <tei:hi rend="italic">Jewish Palestinian Aramaic Poetry from Late Antiquity</tei:hi> (ed. Yahalom and Sakaloff, 1999) where it’s the tenth poem recorded. ‘ve added a rhyming poetic translation that preserves the Hebrew acrostic. Credit to Laura Suzanne Lieber’s literal translations of these poems (in <tei:hi rend="italic">Jewish Aramaic Poetry from Late Antiquity: Translations and Commentaries</tei:hi>, 2018), which have served as a very helpful resource for the project.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51179_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:elimelekh_gela"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,49 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="fr">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">לה מרסֵיֶיז</tei:title>
+        <tei:title type="alt" xml:lang="en">La Marseillaise, by Claude Joseph Rouget de Lisle (1792); Hebrew translation by Efrayim Dror (ca. 1940)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">לה מרסֵיֶיז</tei:title>
+          <tei:title xml:lang="en">La Marseillaise, by Claude Joseph Rouget de Lisle (1792); Hebrew translation by Efrayim Dror (ca. 1940)</tei:title>
+          <tei:author>Claude Joseph Rouget de Lisle</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Efrayim Dror</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1792">1792</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44661</tei:idno>
+          <tei:idno type="opensiddur.org">44661</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/la-marseillaise-hebrew-translation-by-efraim-dror-1951/La%20Marseillaise%20%28Hebrew%20translation%20by%20Efraim%20Dror%201951%29#page/n5/mode/2up">https://archive.org/stream/la-marseillaise-hebrew-translation-by-efraim-dror-1951/La%20Marseillaise%20%28Hebrew%20translation%20by%20Efraim%20Dror%201951%29#page/n5/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:la_marseillaise_lisle"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

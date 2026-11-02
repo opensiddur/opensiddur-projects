@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer upon the death of President James A. Garfield, by Rabbi Sabato Morais (after 19 September 1881)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer upon the death of President James A. Garfield, by Rabbi Sabato Morais (after 19 September 1881)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1881-09-19">1881-09-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53527</tei:idno>
+          <tei:idno type="opensiddur.org">53527</tei:idno>
+          <tei:note>Source: Prayer after the death of James Garfield [1881-09] (Sabato Morais Ledger, p. 176) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/12/Prayer-after-the-death-of-James-Garfield-1881-09-Sabato-Morais-Ledger-p--176.png">https://opensiddur.org/wp-content/uploads/2023/12/Prayer-after-the-death-of-James-Garfield-1881-09-Sabato-Morais-Ledger-p--176.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53527_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais after the death of President James Garfield is recorded in an undated newspaper clipping preserved on page 176 of the Sabato Morais Ledger. The clipping appears next to one printed in the <tei:hi rend="italic">Jewish Record</tei:hi> on 30 September 1881, a few days prior to Yom Kippur that year. From the column borders similar to both clippings, the prayer appears to also have been published in the <tei:hi rend="italic">Jewish Record</tei:hi>, possibly as part of a service in eulogy for the fallen president sometime soon after 19 September.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53527_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_upon_the_death_of_president_james_a_garfield_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

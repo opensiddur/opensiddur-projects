@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Earth Pledge, as included in an essay on Earth Day by Rev. Dr. Clarke D. Wells (1980)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Earth Pledge, as included in an essay on Earth Day by Rev. Dr. Clarke D. Wells (1980)</tei:title>
+          <tei:author>Clarke Dewey Wells</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1980-04-22">1980-04-22</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64080</tei:idno>
+          <tei:idno type="opensiddur.org">64080</tei:idno>
+          <tei:note>Source: earth pledge in Earth Day – Sunshine and Rain at Once (Clarke Wells, Unitarian Universalist Association 1981), p. 20 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/10/earth-pledge-in-earth-day-sunshine-and-rain-at-once-clarke-wells-unitarian-universalist-association-1981-p--20.png">https://opensiddur.org/wp-content/uploads/2025/10/earth-pledge-in-earth-day-sunshine-and-rain-at-once-clarke-wells-unitarian-universalist-association-1981-p--20.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64080_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This earth pledge can be found within “Earth Day” an essay by the writer and Unitarian Universalist minister Clarke D. Wells (1930-2006, and included in his collection <tei:hi rend="italic">Sunshine and Rain at Once</tei:hi> (1981), p. 20. It is the only place we have so far located an earth pledge in the context of a prayer. Although published in 1981, the essay, including the prayer and pledge, was likely written the previous year in the lead up to Earth Day 1980.</tei:p>
+        <tei:p>In his posthumous collected works, <tei:hi rend="italic">Continuously Creating Spirit- A Clarke Wells Reader</tei:hi> (ed. Barbara Carlson, 2012), this earth pledge is found in the following variation: “I pledge allegiance to the earth and the biosphere, and to the ecosystem on which it stands, one planet, indivisible, with fresh water and clean air for all” (p. 79). Two additional earth pledges follow:</tei:p>
+        <tei:p>I pledge allegiance to the globe</tei:p>
+        <tei:p>and all people on it;</tei:p>
+        <tei:p>and to the environment that cradles our lives,</tei:p>
+        <tei:p>one earth, interconnected,</tei:p>
+        <tei:p>with pure rivers and sweet rains</tei:p>
+        <tei:p>for all.</tei:p>
+        <tei:p>I pledge allegiance to this place</tei:p>
+        <tei:p>and to the holy ground that is ours to walk;</tei:p>
+        <tei:p>and to the canopy of gracious sky,</tei:p>
+        <tei:p>one globe, inextricable,</tei:p>
+        <tei:p>with ozone and green trees</tei:p>
+        <tei:p>for all.</tei:p>
+        <tei:p>It is unclear where and when these additional earth pledges were first offered. The third pledge is likely dated to around the 20th anniversary of Earth Day in 1990, just after the ban on chlorofluorocarbons instituted in 1987 came into effect (in 1989).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64080_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:earth_pledge_wells"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

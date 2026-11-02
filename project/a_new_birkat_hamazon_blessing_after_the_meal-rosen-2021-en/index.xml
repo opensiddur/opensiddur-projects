@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A New Birkat haMazon/Blessing After the Meal, by Rabbi Brant Rosen (2021)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A New Birkat haMazon/Blessing After the Meal, by Rabbi Brant Rosen (2021)</tei:title>
+          <tei:author>Brant Rosen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021">2021</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43401</tei:idno>
+          <tei:idno type="opensiddur.org">43401</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43401_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In composing this new Birkat haMazon/Blessing After the Meal, I maintained the essential structure of the traditional prayer, which consists of four basic spiritual themes or categories. As with the other new liturgies that I’ve written, I seek here to compose Jewish prayers that express a Diasporist ethic; that is to say, liturgy that views the entire world as our “homeland” and resists the influence of modern political Zionism, which has become so thoroughly enmeshed in contemporary Jewish liturgy.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43401_introduction"/>
+      <j:conditional xml:id="osp_43401_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A New Birkat haMazon/Blessing After the Meal” was first published by Rabbi Brant Rosen via his liturgy blog, Yedid Nefesh (8 March 2021).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43401_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_new_birkat_hamazon_blessing_after_the_meal_rosen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Milton Balkany on 26 June 2003</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Milton Balkany on 26 June 2003</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Milton Balkany</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2003-06-26">2003-06-26</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29829</tei:idno>
+          <tei:idno type="opensiddur.org">29829</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4502173/rabbi-milton-balkany-bais-yaakov-midwood">https://www.c-span.org/video/standalone/?c4502173/rabbi-milton-balkany-bais-yaakov-midwood</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29829_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Milton Balkany, Dean, Bais Yaakov of Brooklyn, New York</tei:p>
+        <tei:p>Sponsor: Rep. Sue W. Kelly (R-NY)</tei:p>
+        <tei:p>Date of Prayer: 06/26/2003</tei:p>
+        <tei:p>Mrs. KELLY. Mr. Speaker, Rabbi Milton Balkany, Dean of Bais Yaakov in Brooklyn, New York, is an acquaintance of mine. He has been an active participant and leader in the Jewish community in New York City for many, many years. Rabbi Balkany has worked hard to bring the community together in order to continue traditional religious and cultural values. Not only does he help younger generations understand the intrinsic and extraordinary Jewish culture to which they belong, but he also welcomes others of all religions to engage in prayer, meditation and community.</tei:p>
+        <tei:p>I applaud you, Rabbi, on this special occasion and welcome you as the guest chaplain of the House of Representatives.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29829_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_29829"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

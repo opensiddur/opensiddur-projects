@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַרְעָא רַקְדָא</tei:title>
+        <tei:title type="main" xml:lang="en">Ar'a Raqda (And the Earth Danced), a piyyuṭ in Aramaic for introducing the Decalogue as read in the Targum</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַרְעָא רַקְדָא</tei:title>
+          <tei:title xml:lang="en">Ar'a Raqda (And the Earth Danced), a piyyuṭ in Aramaic for introducing the Decalogue as read in the Targum</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1240" to="1300">1240 – 1300</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36975</tei:idno>
+          <tei:idno type="opensiddur.org">36975</tei:idno>
+          <tei:note>Source: Ar’a Raqda (Worms Mahzor) f.148 verso <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/05/Ara-Raqda-Woms-Mahzor-f.148-verso.jpg">https://opensiddur.org/wp-content/uploads/2021/05/Ara-Raqda-Woms-Mahzor-f.148-verso.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36975_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“Ar’a Raqda,” a piyyut read directly before the Ten Commandments in the Targum, uses wedding imagery and language from the Shir haShirim to paint Sinai as a <tei:hi rend="italic">ḥuppah</tei:hi>.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36975_introduction"/>
+      <j:conditional xml:id="osp_36975_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Ar’a Raqda” is found on folio 148 (verso) of the Worms Maḥzor (1272 CE). For more backqound on these Targumic piyyutim in Aramaic, find Kol Bo §52.9.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36975_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ara_raqda"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Earth Pledge, by Carol T. Gaddy and Marianne Wolfman-Dawn (25 April 1981)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Earth Pledge, by Carol T. Gaddy and Marianne Wolfman-Dawn (25 April 1981)</tei:title>
+          <tei:author>Marianne Wolfman-Dawn</tei:author>
+          <tei:author>Carol Talbot Gaddy Graywing</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1981-04-25">1981-04-25</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64087</tei:idno>
+          <tei:idno type="opensiddur.org">64087</tei:idno>
+          <tei:note>Source: our new pledge of allegiance by Carol T. Gaddy and Marianne Wolfman-Dawn (25 April 1981) in What will it take to prevent nuclear war (ed. Pat Farren 1983), p. 149 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/10/our-new-pledge-of-allegiance-by-carol-t--gaddy-and-marianne-wolfman-dawn-25-april-1981-in-what-will-it-take-to-prevent-nuclear-war-ed--pat-farren-1983-p--149.png">https://opensiddur.org/wp-content/uploads/2025/10/our-new-pledge-of-allegiance-by-carol-t--gaddy-and-marianne-wolfman-dawn-25-april-1981-in-what-will-it-take-to-prevent-nuclear-war-ed--pat-farren-1983-p--149.png</tei:ref></tei:note>
+          <tei:note>Source: Carol Gaddy at the March to Damascus, Arkansas (25 April 1981) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/10/carol-gaddy024-march-at-damascus.jpg">https://opensiddur.org/wp-content/uploads/2025/10/carol-gaddy024-march-at-damascus.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64087_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This earth pledge by Carol T. Gaddy and Marianne Wolfman-Dawn is included in a short essay by Gaddy entitled “Our New Pledge of Allegiance.” The essay can be found in <tei:hi rend="italic">What Will It Take to Prevent Nuclear War: Grassroots Responses to Our Most Challenging Question</tei:hi> (ed. Pat Farren 1983), p. 149. Carol Gaddy writes that the pledge “was composed spontaneously by me and Marianne Wolfman-Dawn as we marched on the road to Damascus, Arkansas, April 25, 1981, protesting the nuclear missile site where a Titan missile had exploded the previous November, endangering the people it was meant to protect.” A photo of this march showing Carol Gaddy and Marianne Wolfman-Dawn was published on the cover of <tei:hi rend="italic">Ours: a Feminist Newspaper</tei:hi> (vol. 3, no. 5, Little Rock, Arkansas- Winter 1980). (Many thanks to the University of Arkansas at Little Rock Center for Arkansas History and Culture for digitizing and exhibiting this newspaper cover.)</tei:p>
+        <tei:p>As attested by Bryna Fireside and Elaine Lytel, this earth pledge was cited at the opening ceremonies of The Women’s Encampment for a Future of Peace and Justice in Romulus, New York on 4 July 1983 (in <tei:hi rend="italic">The Women’s Encampment for a Future of Peace and Justice: Images and Writings</tei:hi> (1987), p. 21).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64087_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:earth_pledge_wolfman_dawn"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

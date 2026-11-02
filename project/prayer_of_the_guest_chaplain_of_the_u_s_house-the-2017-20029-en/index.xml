@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gary Klein on 27 June 2017</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gary Klein on 27 June 2017</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Gary Klein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-06-27">2017-06-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20029</tei:idno>
+          <tei:idno type="opensiddur.org">20029</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4675052/rabbi-gary-klein-temple-ahavat-shalom-palm-harbor-florida">https://www.c-span.org/video/standalone/?c4675052/rabbi-gary-klein-temple-ahavat-shalom-palm-harbor-florida</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2017/06/27/CREC-2017-06-27-pt1-PgH5189-3.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2017/06/27/CREC-2017-06-27-pt1-PgH5189-3.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20029_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Gary Klein, Temple Ahavat Shalom, Palm Harbor, FL</tei:p>
+        <tei:p>Sponsor: Rep. Gus Bilirakis, (R-FL)</tei:p>
+        <tei:p>Date of Prayer: 06/27/2017</tei:p>
+        <tei:p>Mr. BILIRAKIS. Mr. Speaker, I rise today to welcome my great friend, Rabbi Gary Klein, who has led the Temple Ahavat Shalom of Palm Harbor, Florida, for the past 30 years.</tei:p>
+        <tei:p>Temple Ahavat Shalom is a congregation that serves nearly 500 households in my district. Since coming to Pinellas County in 1987, he served on the board of the St. Leo University Center for Catholic–Jewish studies and currently serves on the National Council of AIPAC.</tei:p>
+        <tei:p>Rabbi Klein is a long–time advocate on behalf of the U.S.–Israel alliance.</tei:p>
+        <tei:p>As co–chair of the Congressional Hellenic Israeli Alliance, I welcome his continued advice and counsel, especially as it relates to security in the Eastern Mediterranean.</tei:p>
+        <tei:p>For several years now, I have joined Rabbi Klein and the congregation for Passover Seder, and I very much look forward to continuing this tradition.</tei:p>
+        <tei:p>I am thankful for his friendship, and I wish him many more years of blessed leadership.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20029_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_20029"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

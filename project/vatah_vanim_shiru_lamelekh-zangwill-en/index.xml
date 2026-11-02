@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">וְעַתָּה בָנִים שִֽׁירוּ לַמֶּֽלֶךְ</tei:title>
+        <tei:title type="main" xml:lang="en">v'Atah Vanim Shiru laMelekh (Come, children, chant the King), an ofan piyyuṭ for Shavuot by Rabbi Shimon ben Yitsḥaq Abun of Mainz (rhyming English translation by Israel Zangwill)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">וְעַתָּה בָנִים שִֽׁירוּ לַמֶּֽלֶךְ</tei:title>
+          <tei:title xml:lang="en">v'Atah Vanim Shiru laMelekh (Come, children, chant the King), an ofan piyyuṭ for Shavuot by Rabbi Shimon ben Yitsḥaq Abun of Mainz (rhyming English translation by Israel Zangwill)</tei:title>
+          <tei:author>Shimon bar Yitsḥaq of Mainz</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Israel Zangwill</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0970" to="1020">0970 – 1020</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=67087</tei:idno>
+          <tei:idno type="opensiddur.org">67087</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravdathaghashavuotarthurdavisandherbertadler1909/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haShavuot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201909%29#page/n303/mode/2up">https://archive.org/stream/mahzoravdathaghashavuotarthurdavisandherbertadler1909/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haShavuot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201909%29#page/n303/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_67087_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Israel’s Zangwill’s versified English translation of the ofan piyyut of Shimon ben Yitsḥaq Abun of Mainz as published in Arthur Davis and Herbert Adler’s <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Ḥag haShavuot</tei:hi> (1909), p. 149. Zangwill’s adapted translation has six stanzas opposite the piyyut’s five; for the second stanza, Zangwill provided two. To reflect this adaptation, we have separated that stanza in order to keep the source text set side-by-side with the translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67087_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:veattah_vanim_shiru_lamelekh_shimon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

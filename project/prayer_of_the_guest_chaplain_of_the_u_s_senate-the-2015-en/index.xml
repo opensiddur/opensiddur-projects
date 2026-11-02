@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Harold Kravitz on 9 June 2015</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Harold Kravitz on 9 June 2015</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Harold Kravitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-06-09">2015-06-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20415</tei:idno>
+          <tei:idno type="opensiddur.org">20415</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4540400/rabbi-harold-kravitz-adath-jeshurun-congregation-minnetonka-mn">https://www.c-span.org/video/standalone/?c4540400/rabbi-harold-kravitz-adath-jeshurun-congregation-minnetonka-mn</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2015/06/09/CREC-2015-06-09-pt1-PgS3889-4.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2015/06/09/CREC-2015-06-09-pt1-PgS3889-4.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20415_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>WELCOMING THE GUEST CHAPLAIN:</tei:p>
+        <tei:p>Mr. FRANKEN. Mr. President, I rise today to thank Rabbi Harold Kravitz for offering the opening prayer today in the Senate and to praise him for all of his excellent work.</tei:p>
+        <tei:p>Rabbi Kravitz is rabbi at Adath Jeshurun in my State of Minnesota and is an important leader in our State. In addition to serving his congregation, Rabbi Kravitz is also a leader in the fight against hunger. He is outgoing chair of the board of MAZON: A Jewish Response to Hunger, where he has been working to end hunger for all people regardless of their faith background.</tei:p>
+        <tei:p>One of the things most notable about Rabbi Kravitz is his commitment to bringing together people of all faiths to end hunger. I especially want to recognize Rabbi Kravitz’s work in Minnesota to make school lunches free and available for all children.</tei:p>
+        <tei:p>No child should ever go hungry. We know kids won’t do as well in school when they are hungry. It is also just wrong. That is why I have taken up the issue at the Federal level as well, to try to make this commonsense policy that Rabbi Kravitz has championed in MAZON as widespread as possible.</tei:p>
+        <tei:p>Rabbi Kravitz has done excellent work in Minnesota and as a national leader in the fight against hunger. Thank you for that, Rabbi, and thank you again for offering the opening prayer this morning.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20415_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_the_20415"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

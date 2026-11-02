@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מָגֵן אָבוֹת וּמִשְׂגָּב אִמָּהוֹת</tei:title>
+        <tei:title type="main" xml:lang="en">Magen Avot u-Misgav Imahot, an alternate egalitarian ḥatimah for the opening blessing of the Amidah</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מָגֵן אָבוֹת וּמִשְׂגָּב אִמָּהוֹת</tei:title>
+          <tei:title xml:lang="en">Magen Avot u-Misgav Imahot, an alternate egalitarian ḥatimah for the opening blessing of the Amidah</tei:title>
+          <tei:author>Jonathan Schachter</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-02-25">2026-02-25</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66227</tei:idno>
+          <tei:idno type="opensiddur.org">66227</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66227_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Following the insight of my ḥavrutah, Jonathan Schachter, I have begun to include the divine epithet “misgav Sarah” (the fortress, stronghold, or castle keep of Sarah) to the ḥatimah blessing of magen avot, the first blessing of the Amidah. As Jonathan explains, “misgav imahot” already has a liturgical precedent in the ‘anenu litany recited at the end of seliḥot.<tei:anchor xml:id="note_1"/> With respect to the egalitarian impulse to honor both our matriarchal and patriarchal ancestors, I deeply appreciated how “misgav imahot” matched poetically with “magen avot” — each describing the security and protection of the divine in that very vulnerable place of standing before their terrifying throne, aspiring to that earnest sincerity Psalms 51 calls “lev nishbar” (a shattered complacency, as Rabbi David Seidenberg translates it).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66227_introduction"/>
+      <j:conditional xml:id="osp_66227_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an egalitarian liturgical innovation for the ḥatimah of the first blessing of the Amidah, magen avot, in which the divine is described as the fortress of Sarah. The insight behind this formulation comes via Jonathan Schachter. English translation of magen avot, including the additions for the six matriarchs and misgav Sarah, by Aharon Varady.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66227_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:magen_avot_umisgav_imahot_schachter"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>whereas the now common formulations “ezrat Sarah” and “ufokéd Sarah” do not.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

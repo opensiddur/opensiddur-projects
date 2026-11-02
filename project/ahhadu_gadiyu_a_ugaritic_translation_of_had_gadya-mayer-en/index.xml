@@ -1,0 +1,75 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">𐎀𐎈𐎄𐎟𐎂𐎄𐎊𐎟</tei:title>
+        <tei:title type="alt" xml:lang="he">אַחַּﬞדֻ גָדִיֻ (ʾAḥḥadu Gādiyu) — a Ugaritic translation of Ḥad Gadya, by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">𐎀𐎈𐎄𐎟𐎂𐎄𐎊𐎟</tei:title>
+          <tei:title xml:lang="he">אַחַּﬞדֻ גָדִיֻ (ʾAḥḥadu Gādiyu) — a Ugaritic translation of Ḥad Gadya, by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=58764</tei:idno>
+          <tei:idno type="opensiddur.org">58764</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58764_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. Probably not this one though, seeing as it was written over two millenia after the Ugaritic language became extinct. But Ugaritic, closely related to the Canaanite language family of which Hebrew is a part, is worth studying for any Jewish scholar because of the light it sheds on the history of the Western Semitic peoples. So I’ve attempted a Ugaritic translation of Ḥad Gadya.</tei:p>
+        <tei:p>Also included is a transcript of the Ugaritic text into Hebrew script. As a Semitic language, the transcription is pretty one-for-one, but here are a few notes:</tei:p>
+        <tei:p>• Ugaritic, like Quranic Arabic, preserved the case endings lost from Hebrew. This means that almost every word is written with a vowel under the last letter. Since in Hebrew (and modern spoken Arabic) those endings have been lost, I’ve marked word-final letters as final forms even when vowels are under them. Perhaps if Ugaritic had survived they would have been lost, and this would be pronounced like ʾAḥḥad Gādiy instead.</tei:p>
+        <tei:p>• Ugaritic also preserved two sounds which have been lost from Hebrew but are preserved in Arabic — ḫet and ǵayn. In Judeo-Arabic those letters are written as a kaf or a gimel with a mark above. But historically in Hebrew they merged with ḥet and ʿayin. (The Septuagint shows evidence that both sounds were preserved until relatively recently. Both “Isaac” and “Rachel” are written with a ḥet, but the former was a ḥet and the latter was a ḫet. Both “Amram” and “Gaza” are written with an ʿayin, but the former was an ʿayin and the latter was a ǵayn.) If those sound distinctions were preserved, then perhaps they would have been marked with dots a la shin vs sin. But since Unicode doesn’t have shin-dot or sin-dot on non-shin letter capability, I’ve marked ḫet and ǵayn with a varika on the letters.</tei:p>
+        <tei:p>• Ugaritic never went through the bgdkpt shift of Hebrew and Aramaic, so in this transcript dagesh exclusively marks germination. The letters בגדכפת should be assumed plosive.</tei:p>
+        <tei:p>I’m by no means a Ugaritic expert, so if you are feel free to reach out or leave a comment with any corrections or suggestions!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58764_introduction"/>
+      <j:conditional xml:id="osp_58764_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a translation of Ḥad Gadya into Ugaritic by Isaac Gantwerk Mayer including a romanization and hebraization of the text. The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation.</tei:p>
+        <tei:p>The technology used to render cuneiform script for this post required us to update the Unicode character set support for the whole website. This need had already been recognized earlier, but workarounds were possible. Not here though. It was impossible to save, let alone display the Ugaritic text of this post the way our MySQL database was structured. (The database table used utf-8 encoded text. Meanwhile, the cuneiform required utf8mb4 encoding.) The actual process of updating the database to support the extended character set was, I confess, a bit daunting! A mistake could bring the site down. A very bad mistake could cause lost data. Backups were generated and plans drawn up. (Plans were discarded and backups were utilized!) Through a course fraught with persistent and baffling errors, I’m relieved to report that we ultimately navigated to our intended destination, b”H. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58764_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ahhadu_gadiyu_a_ugaritic_translation_of_had_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

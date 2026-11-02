@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Protection from Oppression and Persecution (CCAR 1924)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Protection from Oppression and Persecution (CCAR 1924)</tei:title>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1924">1924</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44035</tei:idno>
+          <tei:idno type="opensiddur.org">44035</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/evening-service-for-the-sabbath-from-the-union-prayer-book-newly-revised-ccar-1924/Evening%20Service%20for%20the%20Sabbath%20from%20the%20Union%20Prayer%20Book%20Newly%20Revised%20%28CCAR%201924%29#page/68/mode/2up">https://archive.org/stream/evening-service-for-the-sabbath-from-the-union-prayer-book-newly-revised-ccar-1924/Evening%20Service%20for%20the%20Sabbath%20from%20the%20Union%20Prayer%20Book%20Newly%20Revised%20%28CCAR%201924%29#page/68/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44035_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an untitled prayer offered in the <tei:hi rend="italic">Evening Service for the Sabbath from the Union Prayer Book (Newly Revised)</tei:hi> (CCAR 1924), pp. 68-69, as a reading between the Shema and the Amidah. As a prayer for protection it fits as a paraliturgical haskivenu, and in New York City, it makes sense in the context of the terrifying news of mass-murder, rape, and genocide being reported from Ukraine at the time. (Find Nokhem Shtif’s “פּאָגראָמען אין אוקראַיִנע : די צײַט פֿון דער פֿרײַװיליקער אַרמײ (The Pogroms in Ukraine: the Period of the Volunteer Army)” (1923) offered in Yiddish and in English translation at <tei:hi rend="italic">In Geveb</tei:hi>.) The Ukrainian context of this prayer is further underscored in that the prayer is not found in the 1918 “revised” edition of the Union Prayer Book, but in the later 1924 “newly revised” edition.</tei:p>
+        <tei:p>The prayer is further remarkable as an early expression of Religious Zionism within American Reform Judaism. This prayer was later adapted into a prayer for Israel “Land of Hope and Promise” found in the 1975 <tei:hi rend="italic">Gates of Prayer</tei:hi> (CCAR), and as the “Prayer for Israel” in the 1984 JWB prayerbook for Jewish US military personnel. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44035_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_protection_from_oppression_and_persecution_ccar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

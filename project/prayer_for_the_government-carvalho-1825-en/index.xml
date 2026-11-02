@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Government [of the United States of America], by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1825)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Government [of the United States of America], by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1825)</tei:title>
+          <tei:author>David Nunes Carvalho</tei:author>
+          <tei:author>Reformed Society of Israelites</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1825">1825</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39388</tei:idno>
+          <tei:idno type="opensiddur.org">39388</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sabbathservicemi00refo#page/24/mode/2up">https://archive.org/stream/sabbathservicemi00refo#page/24/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39388_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the government of the United States of America offered by the Reformed Society of Israelites (Charleston, S.C.), appears in <tei:hi rend="italic">The Sabbath service and miscellaneous prayers, adopted by the Reformed society of Israelites, founded in Charleston, S.C., November 21, 1825</tei:hi> (1830, Bloch: 1916). Gary Zola writes that the prayer was written by David Carvalho for the Society as indicated in Abraham Moïse’s annotated copy of the 1830 prayerbook.<tei:anchor xml:id="note_1"/> Zola calls this prayer “historically significant” as it is the first time that the traditional prayer for the government was replaced by a different prayer in an American siddur. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39388_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_government_carvalho"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Find, “The First Reform Prayerbook in America” (p. 115 ft. 29) in <tei:hi rend="italic">Platforms and prayer books: theological and liturgical perspectives on Reform Judaism</tei:hi> (2002)</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

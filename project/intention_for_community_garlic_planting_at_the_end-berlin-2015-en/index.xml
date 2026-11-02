@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Intention for community garlic planting at the end of a harvest season, by Jess Berlin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Intention for community garlic planting at the end of a harvest season, by Jess Berlin</tei:title>
+          <tei:author>Jessica Berlin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-11-05">2015-11-05</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=12252</tei:idno>
+          <tei:idno type="opensiddur.org">12252</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_12252_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Jewish farming has increasingly engaged intentional communities of Jewish farmers, farmer-educators, and environmental educators. This is exemplified in the experience of Jewish farmers at Isabella Freedman Retreat Center (the Adamah Fellowship), at Urban Adamah (in Berkeley, California), and at Eden Village Camp (in Putnam Valley, New York). These farmers have gone on to teach and grow what they’ve learned, the Torah of the Earth, in new communities and new farms, some of which they’ve founded. The pictures here are from the 2015 ADVA Reunion, a gathering of former Adamah Fellows and TEVA Learning Center educators.</tei:p>
+        <tei:p>Separating Garlic Bulbs at the Adva Reunion, 2015, Isabella Freedman Retreat Center (credit: Steven Wynbrandt, license: CC BY-SA) Separating Garlic Bulbs at the Adva Reunion, 2015, Isabella Freedman Retreat Center (credit: Steven Wynbrandt, license: CC BY-SA)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_12252_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:intention_for_community_garlic_planting_at_the_end_berlin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

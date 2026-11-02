@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּחִינָה װען עס ברעכט אױס אַ מַגֵפָה</tei:title>
+        <tei:title type="main" xml:lang="en">A Tkhine When an Epidemic Breaks Out (1916)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/meena-lifshe-viswanath">Meena-Lifshe Viswanath</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/zach-golden">Zach Golden</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/noam-lerman">Noam Lerman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּחִינָה װען עס ברעכט אױס אַ מַגֵפָה</tei:title>
+          <tei:title xml:lang="en">A Tkhine When an Epidemic Breaks Out (1916)</tei:title>
+          <tei:author>Der Tekhines Proyekt</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1916">1916</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30885</tei:idno>
+          <tei:idno type="opensiddur.org">30885</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/shastehinahravpeninimhebrewpublishingcompany1916#page/n66/mode/2up">https://archive.org/stream/shastehinahravpeninimhebrewpublishingcompany1916#page/n66/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30885_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Tkhine for When an Epidemic Breaks Out” appears in <tei:hi rend="italic">Shas Tkhine Rav Peninim</tei:hi> (Hebrew Publishing Company 1916), pp.59-62. (It may appear in earlier anthologies of teḥinot.)</tei:p>
+        <tei:p>Shlomo Jack and Naomi Klionsky located the tekhine, and reached out to Noam to get going on translating this tekhine. Shlomo Jack typed up the Yiddish Tekhine. Noam Lerman, Rosh HaDoc, contributed translating and editing work, and reached out to other translators. Ari Greenberg, Zach Golden, and Meena Viswanath, all contributed in translating and editing this tekhine.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Tkhines in Song * תחינות לידער · Tkhine Ven Es Brekht Oys A Mageyfe by Mina</tei:p>
+        <tei:p>Tkhines in Song * תחינות לידער · Dayn Logl by Noam Mason</tei:p>
+        <tei:p>Tkhines in Song * תחינות לידער · Dayn Logl * דײַן לאָגל by Avra Shapiro and Benna Kessler</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30885_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_tkhine_when_an_epidemic_breaks_out_proyekt"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

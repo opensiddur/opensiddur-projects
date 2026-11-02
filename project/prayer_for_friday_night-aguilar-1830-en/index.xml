@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for Friday Night, by Grace Aguilar (ca. 1830s)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for Friday Night, by Grace Aguilar (ca. 1830s)</tei:title>
+          <tei:author>Grace Aguilar</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1830" to="1839">1830 – 1839</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50831</tei:idno>
+          <tei:idno type="opensiddur.org">50831</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sabbath-thoughts-and-sacred-communings-grace-aguilar-1853/Sabbath%20Thoughts%20and%20Sacred%20Communings%20%28Grace%20Aguilar%201853%29#page/70/mode/2up">https://archive.org/stream/sabbath-thoughts-and-sacred-communings-grace-aguilar-1853/Sabbath%20Thoughts%20and%20Sacred%20Communings%20%28Grace%20Aguilar%201853%29#page/70/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/essaysmiscellani01agui/essaysmiscellani01agui#page/168/mode/2up">https://archive.org/stream/essaysmiscellani01agui/essaysmiscellani01agui#page/168/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50831_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Prayer for Friday night” by Grace Aguilar was published posthumously by her mother Sarah Aguilar in <tei:hi rend="italic">Essays and Miscellanies</tei:hi> (1853), in the section “Sacred Communings,” pp. 169-170. In the UK edition of <tei:hi rend="italic">Sacred Communings</tei:hi> (1853) the prayer appears with small variations of spelling and punctuation on pages 75-76. The UK edition also includes the detail that this prayer was written when the family lived in Teignmouth, Devon (1828-1840).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50831_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_friday_night_aguilar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

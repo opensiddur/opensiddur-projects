@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הַגָּדַת "וַיְבִאֵנוּ אֶל הַמָּקוֹם הַזֶּה"‏</tei:title>
+        <tei:title type="main" xml:lang="en">"And Hashem Brought Us to This Place," a Magid supplement for Those Living in Erets Yisrael</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הַגָּדַת "וַיְבִאֵנוּ אֶל הַמָּקוֹם הַזֶּה"‏</tei:title>
+          <tei:title xml:lang="en">"And Hashem Brought Us to This Place," a Magid supplement for Those Living in Erets Yisrael</tei:title>
+          <tei:author>Seth (Avi) Kadish</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-04-08">2020-04-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30982</tei:idno>
+          <tei:idno type="opensiddur.org">30982</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30982_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“One expounds (<tei:hi rend="italic">doresh</tei:hi>) from ‘A wandering Aramean was my father’<tei:anchor xml:id="note_1"/> until he finishes the whole story” <tei:bibl>(Mishnah Pesaḥim 10:4)</tei:bibl>. The verse Deuteronomy 26:9 completes that story, and together with some midrash it fulfills the obligation. Jews stopped saying it during our long exile, but now we must express our gratitude to God for gathering millions of our exiles in the State of Israel, where they and their children are exiles no more. The verse and its midrash fit into the Passover Haggadah after the ten plagues and the midrash on them, right before the song <tei:hi rend="italic">Dayyenu</tei:hi>.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30982_introduction"/>
+      <j:conditional xml:id="osp_30982_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The Land of Israel Haggadah was contributed by Rabbi Seth (Avi) Kaddish from the text as it appears in Hebrew Wikisource, along with his English translation.</tei:p>
+        <tei:p>Source(s)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30982_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:and_hashem_brought_us_to_this_place_kadish/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:and_hashem_brought_us_to_this_place_kadish/2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Deuteronomy 26:5.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

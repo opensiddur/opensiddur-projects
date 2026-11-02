@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אחות קטנה במאה ה -21</tei:title>
+        <tei:title type="main" xml:lang="en">A 21st century "Aḥot Ḳetanah" (Little Sister), by Rabbi Dr. Raysh Weiss</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/seth-fishman">Gabbai Seth Fishman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אחות קטנה במאה ה -21</tei:title>
+          <tei:title xml:lang="en">A 21st century "Aḥot Ḳetanah" (Little Sister), by Rabbi Dr. Raysh Weiss</tei:title>
+          <tei:author>Raysh Weiss</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-10-02">2019-10-02</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27433</tei:idno>
+          <tei:idno type="opensiddur.org">27433</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tefilotlroshhashanahdaviddesolapool1937#page/n144/mode/2up">https://archive.org/stream/tefilotlroshhashanahdaviddesolapool1937#page/n144/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27433_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Inspired by the original “Aḥot Ḳetannah” by R. Abraham Hazan Girundi, Spain, 13th century (see below for a source). With great thanks to Rabbi Jonah Rank for assistance with the formatting and niqqud. The author’s name, haRav Raḥel Ḥanah, can be found in the acrostic. English translation, a collaboration of Raysh Weiss and Seth Fishman.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27433_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:a_21st_century_achot_qetanah_weiss"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

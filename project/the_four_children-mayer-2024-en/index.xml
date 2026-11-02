@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַרְבָּעָה בָּנִים</tei:title>
+        <tei:title type="main" xml:lang="en">The Four Children — an alternative take by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַרְבָּעָה בָּנִים</tei:title>
+          <tei:title xml:lang="en">The Four Children — an alternative take by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-04-10">2024-04-10</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55309</tei:idno>
+          <tei:idno type="opensiddur.org">55309</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55309_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The following English text was (barring minor edits) first composed for my family’s experimental small-scale seder in 2019, my second time ever leading a seder. I had come to the conclusion that for a text whose entire ikkar is for the children to learn, the Four Children narrative shows some shockingly bad pedagogy. So I decided to write a subversive take on it, where I applied its framework to some of the most serious problems facing the Jewish community today, and the mainline Jewish community’s failings in dealing with them.</tei:p>
+        <tei:p>This was originally written to be recited as a call and response, with the service leader reading the narration and four guests reading the parts of the four children. (In the 2019 framework, the entire maggid was written out as a play, and the guests were assigned to different rabbis in Bene Brak — the Bad Parent being Tarfon, the wise one/smartass being Akiva, the wicked/freethinker being Eliezer, the simple/new learner being Yehoshua, and the one who does not know/minority language speaker being El’azar. That’s been removed from the text hear because when taken out of context it distracts from the gist of the reading.)</tei:p>
+        <tei:p>The Hebrew text is new — along with the Amharic. In order to make the text work bilingually I actually had to make a few changes to the English — originally the Bad Parent’s response was “Do... you... speak... English?” but that obviously doesn’t work in Hebrew!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55309_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_four_children_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

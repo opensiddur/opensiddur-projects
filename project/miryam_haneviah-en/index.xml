@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מִרְיָם הַנְּבִיאָה</tei:title>
+        <tei:title type="main" xml:lang="en">Miryam haNevi'ah, by rabbis Leila Gal Berner &amp; Arthur Waskow (ca. 1994)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מִרְיָם הַנְּבִיאָה</tei:title>
+          <tei:title xml:lang="en">Miryam haNevi'ah, by rabbis Leila Gal Berner &amp; Arthur Waskow (ca. 1994)</tei:title>
+          <tei:author>Leila Gal Berner</tei:author>
+          <tei:author>Arthur Waskow</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1994">1994</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52302</tei:idno>
+          <tei:idno type="opensiddur.org">52302</tei:idno>
+          <tei:note>Source: Miryam haNiviah (Leila Gal Berner and Arthur Waskow) in My People’s Prayer Book vol 7, (ed. L. Hoffman), p. 189 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/08/Miryam-haNiviah-Leila-Gal-Berner-and-Arthur-Waskow-in-My-Peoples-Prayer-Book-vol-7-ed.-L.-Hoffman-p.-189.png">https://opensiddur.org/wp-content/uploads/2023/08/Miryam-haNiviah-Leila-Gal-Berner-and-Arthur-Waskow-in-My-Peoples-Prayer-Book-vol-7-ed.-L.-Hoffman-p.-189.png</tei:ref></tei:note>
+          <tei:note>Source: Memories of a Jewish Lesbian Evening (Roger McDougle in Bridges vol. 4 Winter-Spring 1994, p.58) <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/08/Memories-of-a-Jewish-Lesbian-Evening-Roger-McDougle-in-Bridges-vol.-4-Winter-Spring-1994-p.58.png">https://opensiddur.org/wp-content/uploads/2023/08/Memories-of-a-Jewish-Lesbian-Evening-Roger-McDougle-in-Bridges-vol.-4-Winter-Spring-1994-p.58.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52302_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>These are the lyrics of the song, Miryam haNevi’ah, written by rabbis Leila Gal Berner and Arthur Waskow (with Hebrew by Leila Gal Berner) as found published in <tei:hi rend="italic">My People’s Prayer Book, vol. 7: Shabbat at Home</tei:hi>, (ed. L. Hoffman, 1997), section 3, p. 189. The English lyrics are from an article published several years earlier — “Memories of a Jewish Lesbian Evening” by Roger McDougle appearing in <tei:hi rend="italic">Bridges</tei:hi> (vol. 4:1, Winter/Spring 1994), on the top of page 58. No specific date is given for the havdalah program described in the article, alas. If you know the earliest reference for the publication or use of Miryam haNevi’ah, please leave a comment contact us.</tei:p>
+        <tei:p>The singing of Miryam haNeviah has been applied to the context of the Passover seder, between Barekh and Hallel as the pouring of the cups of Eliyahu and Miryam and the “shfokh ḥamatekha” declaration. In that context, Rabbi Dr. Leila Gal Berner writes:</tei:p>
+        <tei:p>Miriam the prophetess is linked with water in a number of ways. She watched over her baby brother Moses in the Nile and sang and danced at the shores of the Reed Sea. Midrash teaches us that when Miriam died, the magical, portable well that had sustained our people dried up.</tei:p>
+        <tei:p>According to tradition, Elijah will bring Messiah to us and the world will be redeemed. In my lyrics (below), Miriam brings us to the waters of redemption. It will then be our task to enter the waters and together redeem the world.</tei:p>
+        <tei:p>Instead of pouring out wrath, let us pour forth love, forgiveness and peace – for the soothing and healing of our broken world.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52302_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:miryam_haneviah_berner"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּחִינָה לִשָּׁבוּעוֺת נאָך ליכט צינדן</tei:title>
+        <tei:title type="main" xml:lang="en">Tkhine upon Candlelighting at the Onset of Shavuot</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jonah-sampson-boyarin">Jonah S. Boyarin</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּחִינָה לִשָּׁבוּעוֺת נאָך ליכט צינדן</tei:title>
+          <tei:title xml:lang="en">Tkhine upon Candlelighting at the Onset of Shavuot</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1840" to="1900">1840 – 1900</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=13617</tei:idno>
+          <tei:idno type="opensiddur.org">13617</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/nybc201031#page/n304/mode/2up">https://www.archive.org/stream/nybc201031#page/n304/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_13617_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This tekhinah (supplication) upon candlelighting for Shavuot in Hebrew and Yiddish appears in the <tei:hi rend="italic">Maḥzor for Shavuot Rav Peninim</tei:hi> (Vilna 1911) although we are uncertain whether it first appeared here. Please help to provide a complete attribution. We are grateful to Rivka Zakutinsky for including it in her collection of Tekhinot: <tei:hi rend="italic">Tekhinas, A voice From the Heart</tei:hi> (Aura 1992).</tei:p>
+        <tei:p>The girsah that Morah Zakutinsky used is different than the one which found in the Rav Peninim. There are a couple of extra stanzas in Rav Peninim absent in Zakutinsky’s girsah, and a handful of stanzas in her girsah that are absent in Rav Peninim. The transcription above includes all stanzas found in both versions. We are grateful to Jonah S. Boyarin’s help in reviewing and translating the remaining text.</tei:p>
+        <tei:p>I have faithfully transcribed the Yiddish according to the orthography in Zakutinsky although I have modified the layout to its appearance in the <tei:hi rend="italic">Maḥzor for Shavuot Rav Peninim</tei:hi>. <tei:hi rend="bold">shgiyot mi yavin, ministarot nakeni.</tei:hi> –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13617_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tkhine_upon_candlelighting_at_the_onset_of_shavuot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

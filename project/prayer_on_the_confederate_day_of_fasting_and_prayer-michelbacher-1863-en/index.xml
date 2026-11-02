@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer on the Confederate Day of Fasting and Prayer, by Rabbi Max Michelbacher (27 March 1863)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer on the Confederate Day of Fasting and Prayer, by Rabbi Max Michelbacher (27 March 1863)</tei:title>
+          <tei:author>Maximilian Joseph Michelbacher</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1863-03-27">1863-03-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45577</tei:idno>
+          <tei:idno type="opensiddur.org">45577</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45577_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Jewish prayers for the welfare of the nations in which they dwell are known from medieval times, and developed further with the emancipation and patriotic expectations of Jewish citizens in modern nation-states. Thus, it is no great surprise to find such a prayer offered by a rabbi in the State of Virginia in the capitol of the Confederate States of America. But given that unrepentant revanchist and racist white supremacists continue to celebrate the Confederacy in our own day, often under the guise of “honoring southern pride,” we share the text of this prayer only for its historical import and as a cautious lesson. Patriotism born of genuine appreciation for freedom, liberty, and sanctuary granted to some can blind those privileged to the lives and labor stolen from others. Recognizing such depravity where and when it occurs should ground us in every place we dwell. As Emma Lazarus later argued in “An Epistle to the Hebrews” (1883): “Until we are all free, we are none of us free,” or as Proverbs 4:14 teaches, “Enter not into the path of the wicked, and walk not in the way of evil men.” —Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45577_introduction"/>
+      <j:conditional xml:id="osp_45577_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Max Michelbacher was offered on 27 March 1863, a day appointed by Jefferson Davis for fasting and prayer, and published together with a sermon.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45577_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_on_the_confederate_day_of_fasting_and_prayer_michelbacher"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

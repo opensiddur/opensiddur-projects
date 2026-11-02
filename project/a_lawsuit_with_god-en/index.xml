@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">‎אַ דִין־תּוֹרָה מיט גאָט</tei:title>
+        <tei:title type="main" xml:lang="en">A Lawsuit with God, the ḳaddish prayer of Rebbi Levi Yitsḥaq of Berditchev in Yiddish, Hebrew, and English (ca. 18th c.)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">‎אַ דִין־תּוֹרָה מיט גאָט</tei:title>
+          <tei:title xml:lang="en">A Lawsuit with God, the ḳaddish prayer of Rebbi Levi Yitsḥaq of Berditchev in Yiddish, Hebrew, and English (ca. 18th c.)</tei:title>
+          <tei:author>Levi Yitsḥaq Derbarmdiger Rosakov of Berditchev</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1740" to="1800">1740 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38383</tei:idno>
+          <tei:idno type="opensiddur.org">38383</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/yv-CuXltoaU?feature=oembed">https://www.youtube.com/embed/yv-CuXltoaU?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/Q9Fn1cbNcqk?feature=oembed">https://www.youtube.com/embed/Q9Fn1cbNcqk?feature=oembed</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38383_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is “A Din Torah Mit Gott,” the Ḳaddish prayer of Rebbi Levi Yitsḥaq of Berditchev (1740-1810), in Yiddish with Hebrew, and English translations. Paul Robeson sang an adaptation of this prayer throughout his career and famously at his comeback concert at Carnegie Hall in 1958 after having been blacklisted in the early years of the Cold War (Cf. Jonathan Karp’s “Performing Black-Jewish Symbiosis: The “Hassidic Chant” of Paul Robeson“). The text of the Yiddish and Hebrew is adapted from the various nusḥaot provided at Zemereshet. The Hebrew mainly from <tei:hi rend="italic">Sefer haḤasidut</tei:hi> (Warsaw: Di Welt 1922), p. 257-258. The Yiddish as transcribed by Yigal Landsman as his father, Hillel Landsman heard it from his father. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38383_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_lawsuit_with_god_levi"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

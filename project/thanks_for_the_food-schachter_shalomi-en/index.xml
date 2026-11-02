@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת המזון</tei:title>
+        <tei:title type="main" xml:lang="en">Thanks for the Food, an interpretive translation of the Birkat Hamazon by Rabbi Zalman Schachter-Shalomi</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון</tei:title>
+          <tei:title xml:lang="en">Thanks for the Food, an interpretive translation of the Birkat Hamazon by Rabbi Zalman Schachter-Shalomi</tei:title>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10070</tei:idno>
+          <tei:idno type="opensiddur.org">10070</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sidurtehilashashemforweekdaysandshabbosmerkoslinyonaichinuch1953#page/n88/mode/2up">https://archive.org/stream/sidurtehilashashemforweekdaysandshabbosmerkoslinyonaichinuch1953#page/n88/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_10070_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The style by which Rabbi Zalman Schachter-Shalomi, z”l translated Jewish liturgy in English was neither literal nor idiomatic, but highly interpretive and interspersed with his own ḥiddushim (innovations). Showing Reb Zalman’s translation side-by-side with the Jewish liturgy helps to illuminate his understanding of the liturgy — it’s deeper meaning as well as how it might be communicated to a contemporary audience. In the version I have prepared above, I have set the interpretive translation of Rabbi Zalman Schachter-Shalomi, z”l side-by-side with the liturgical Hebrew that may have inspired it. In several places, Reb Zalman’s formulation departs from the traditional Ashkenazi nusaḥ. Where there is no Hebrew, we can more easily observe where Reb Zalman has expanded upon the blessing. Still, my work was not exhaustive and I appreciate any corrections to the nusaḥ (liturgical custom) of the Hebrew that may have inspired Reb Zalman’s interpretation in English.</tei:p>
+        <tei:p>The interpretive translation of Rabbi Zalman Schachter-Shalomi, z”l was first shared online by Gabbai Seth Fishman at his website, Jewish Renewal Chassidus.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_10070_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:thanks_for_the_food"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

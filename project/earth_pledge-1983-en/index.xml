@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Earth Pledge, included in a Catholic textbook for the Cleveland Diocese by Sister Louise Marie Prochaska (1983), illustrated by Sister Miriam MacGillis for Global Education Associates (1984)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Earth Pledge, included in a Catholic textbook for the Cleveland Diocese by Sister Louise Marie Prochaska (1983), illustrated by Sister Miriam MacGillis for Global Education Associates (1984)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1983">1983</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55559</tei:idno>
+          <tei:idno type="opensiddur.org">55559</tei:idno>
+          <tei:note>Source: Earth Pledge (Global Education Associates, Breakthrough Newsletter, Spring 1984) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Earth-Pledge-Global-Education-Associates-Breakthrough-Newsletter-Spring-1984.jpg">https://opensiddur.org/wp-content/uploads/2024/04/Earth-Pledge-Global-Education-Associates-Breakthrough-Newsletter-Spring-1984.jpg</tei:ref></tei:note>
+          <tei:note>Source: Peace through Justice – Earth Pledge (Louise Marie Prochaska 1983), p. 277 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Peace-through-Justice-Earth-Pledge-Louise-Marie-Prochaska-1983-p--277.png">https://opensiddur.org/wp-content/uploads/2024/04/Peace-through-Justice-Earth-Pledge-Louise-Marie-Prochaska-1983-p--277.png</tei:ref></tei:note>
+          <tei:note>Source: Peace through Justice – Earth Pledge (Louise Marie Prochaska 1983), pp. 278-279 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/peace-through-justice-earth-pledge-louise-marie-prochaska-1983-pp--278-279.png">https://opensiddur.org/wp-content/uploads/2024/04/peace-through-justice-earth-pledge-louise-marie-prochaska-1983-pp--278-279.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55559_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This earth pledge appears without attribution in a justice, peace, and environmentally conscious Catholic textbook, <tei:hi rend="italic">Peace through Justice</tei:hi> (Diocese of Cleveland, 1983) by Louise Marie Prochaska. Sister Prochaska, however, does not recall composing it and it may have been circulating for some time in newsletters or other ephemeral works beforehand. On the page following the quoted pledge, the curricular resource recommends contacting the Union of Concerned Scientists for more information, but that recommendation may have more to do with the pedagogical theme of the section that included the text of the pledge. Among the earth pledges, it is unique. Instead of following the form of Bellamy’s Pledge of Allegiance, it uses an ABCB rhyme scheme.</tei:p>
+        <tei:p>The pledge also appears in an illustration for the Spring 1984 issue of Global Education Associates’ <tei:hi rend="italic">Breakthrough Newsletter</tei:hi>. Neither Pat Mische (co-founder of Global Education Associates) nor Sister Miriam MacGillis (inventor of the Cosmic Walk, founder of Genesis Farm, and illustrator of the pledge) recall with certainty composing the pledge, although both think that it is quite possible. Although the GEA illustration postdates Prochaska’s publication, it’s possible, even likely, that this earth pledge was circulating in 1883 or earlier in other ephemeral works produced by the GEA, the Union of Concerned Scientists, or others.</tei:p>
+        <tei:p>More research is needed. I am currently researching back issues of periodicals published by Global Education Associates in the 1970s and early 1980s to determine once and for all, when it was originally published and hopefully, by whom, the pledge was written. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55559_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:earth_pledge_prochaska"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

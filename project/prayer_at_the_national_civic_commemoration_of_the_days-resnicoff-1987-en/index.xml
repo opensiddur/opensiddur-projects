@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer at the National Civic Commemoration of the Days of Remembrance of the Victims of the Holocaust, by Rabbi Arnold Resnicoff on 28 April 1987</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer at the National Civic Commemoration of the Days of Remembrance of the Victims of the Holocaust, by Rabbi Arnold Resnicoff on 28 April 1987</tei:title>
+          <tei:author>Arnold E. Resnicoff</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1987-04-28">1987-04-28</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=22887</tei:idno>
+          <tei:idno type="opensiddur.org">22887</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/DaysOfRemembranceOfTheVictimsOfTheHolocaustOfficeOfTheSecretaryOfDefense1988#page/n22/mode/2up">https://archive.org/stream/DaysOfRemembranceOfTheVictimsOfTheHolocaustOfficeOfTheSecretaryOfDefense1988#page/n22/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_22887_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This benediction was delivered by Chaplain Arnold E. Resnicoff, U.S. Navy, at the 1987 National Civic Commemoration of the Days of Remembrance, in the U.S. Capitol Rotunda. It was first published in <tei:hi rend="italic">Days of remembrance of the victims of the Holocaust: a Department of Defense guide for commemorative observance</tei:hi> (Office of the Secretary of Defence, 1988).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_22887_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_at_the_national_civic_commemoration_of_the_days_resnicoff"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

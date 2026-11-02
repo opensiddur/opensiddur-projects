@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Be it ours to shed sunshine — a selection from "A Free Man's Religious Worship" by Bertrand Russell (1910)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Be it ours to shed sunshine — a selection from "A Free Man's Religious Worship" by Bertrand Russell (1910)</tei:title>
+          <tei:author>Mel Scult</tei:author>
+          <tei:author>Bertrand Russell</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1910">1910</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50544</tei:idno>
+          <tei:idno type="opensiddur.org">50544</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/cu31924031008802/cu31924031008802#page/n79/mode/2up">https://archive.org/stream/cu31924031008802/cu31924031008802#page/n79/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50544_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The well known philosopher Bertrand Russell had little use for organized religion and in general was quite skeptical in his religious beliefs. I am not a regular reader of Russell but apparently Mordecai Kaplan read him from time to time. In the early 1940s he came across a short essay which Russell wrote many years before entitled “A Free Man’s Religious Worship.” Kaplan mentions the essay a number of times in the diary and I am struck by the fact that Kaplan quotes and focuses on what he considers to be some positive statements in this essay. As a consequence I have been reading Russell and here offer some inspiring statements from this essay.</tei:p>
+        <tei:p>I have taken the liberty of selecting my own statements from this essay. Russell is referring here to all our fellow human beings and our obligations to all others. It is obvious that in true reconstructionist fashion we could use these statements as a prayer. To pray from Russell would be an inspiration from Kaplan.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50544_introduction"/>
+      <j:conditional xml:id="osp_50544_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Versified selection by Mel Scult of lines from an essay by Bertrand Russell: “A Free Man’s Worship,” in <tei:hi rend="italic">Philosophical Essays</tei:hi> (1910), pp. 59-70. (This selection begins on page 69.) The essay was later published in <tei:hi rend="italic">Mysticism and logic, and other essays</tei:hi> (1917). This prayer was first published by Dr. Scult in his Mordecai M. Kaplan group on Facebook, 28 April 2023.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50544_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:be_it_ours_to_shed_sunshine_russell"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

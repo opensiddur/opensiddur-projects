@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">סדר תפילת השיר</tei:title>
+        <tei:title type="main" xml:lang="en">Seder Tefilat haShir — the recitation of the Songs of Ascents before Shabbat and Festival services, as found in Maḥzor Aram Ṣoba and Minhag Kaffa</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">סדר תפילת השיר</tei:title>
+          <tei:title xml:lang="en">Seder Tefilat haShir — the recitation of the Songs of Ascents before Shabbat and Festival services, as found in Maḥzor Aram Ṣoba and Minhag Kaffa</tei:title>
+          <tei:author>Shlomo haMelekh ben David</tei:author>
+          <tei:author>David ben Yishai</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1560" to="1735">1560 – 1735</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=67442</tei:idno>
+          <tei:idno type="opensiddur.org">67442</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_67442_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Tefilat haShir refers to an ancient (perhaps dating back to the Temple era!) custom of reciting the fifteen psalms of ascents (Psalms 120 to 134) before Psuqei d’Zimra. First identified as a unique segment of the Eretz-Yisrael rite by Prof. Ezra Fleischer z”l, this custom was so beloved by the Jews who followed the western rite that long after the rest of its prayer traditions were abandoned it was preserved by the Western-rite Jews of Cairo (see Vered Raziel-Kretzmer, “How Late was the Palestinian Rite Practiced in Egypt?” Tarbiz 85 [2018], heb.)</tei:p>
+        <tei:p>Tefilat haShir was preserved in variant forms in several other communities. For instance, it is found in the Maḥzor Aram Ṣoba, published in 1560 for use of the Musta’aravi Jews of Aleppo. It is also found in the Krymchak variant of the Romaniote rite, also known as Minhag Kaffa. In both cases it would be recited exclusively on sabbaths and festivals. (Note that this was not the case in the old Eretz Yisrael rite, where it was a daily practice!)</tei:p>
+        <tei:p>The Kaffa and Aram Ṣoba forms of the Tefilat haShir cycle are very similar, with a few differences in the introduction and the ending. Their core is the fifteen songs of ascents, interlaced with linking verses from elsewhere in Tanakh featuring a Leitwort (theme-word) related to the psalm. Both are included here, with color coding for substantial differences and footnotes to mark minor distinctions.</tei:p>
+        <tei:p>In Minhag Kaffa, as printed in 1735, the Birkat haShir cycle is inserted after the morning Torah study cycle. In the Maḥzor Aram Ṣoba, it is the beginning of the service, the first thing recited in the synagogue after monring blessings, and consequently inserted before the Torah study cycle.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronouns <j:divineName>They</j:divineName>/<j:divineName>Their</j:divineName>/<j:divineName>Them</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67442_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:seder_tefillat_hashir_shlomo"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

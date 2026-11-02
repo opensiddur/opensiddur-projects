@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Eating on Yom Kippur, by A Mitzvah to Eat (2022)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Eating on Yom Kippur, by A Mitzvah to Eat (2022)</tei:title>
+          <tei:author>A Mitzvah to Eat</tei:author>
+          <tei:author>Sarah Osborne</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2022-09-29">2022-09-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46964</tei:idno>
+          <tei:idno type="opensiddur.org">46964</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/yom-kippur-prayer-guide-for-those-who-must-eat-a-mitzvah-to-eat-and-chronic-congregation-2022/Yom%20Kippur%20Prayer%20Guide%20for%20those%20who%20must%20eat%20%28A%20Mitzvah%20to%20Eat%20and%20Chronic%20Congregation%202022%29#page/n3/mode/2up">https://archive.org/stream/yom-kippur-prayer-guide-for-those-who-must-eat-a-mitzvah-to-eat-and-chronic-congregation-2022/Yom%20Kippur%20Prayer%20Guide%20for%20those%20who%20must%20eat%20%28A%20Mitzvah%20to%20Eat%20and%20Chronic%20Congregation%202022%29#page/n3/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46964_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Prayer for Eating on Yom Kippur” was written by A Mitzvah to Eat (Sarah Osborne) and appears in הַרְחֶב פִּֽיךָ וַאֲמַלְאֵֽהוּ <tei:hi rend="italic">Open Your Mouth Wide, and I (God) Will Fill It: Prayers and Rituals for those who need to eat on Yom Kippur</tei:hi> (2022). For a similar prayer with a translation in Hebrew, find “A Prayer for those who need to eat on fast days” (A Mitzvah to Eat 2022), p. 3.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46964_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_eating_on_yom_kippur_eat"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

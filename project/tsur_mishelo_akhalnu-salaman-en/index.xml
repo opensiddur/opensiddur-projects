@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">צוּר מִשֶּׁלּוֹ אָכַֽלְנוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Tsur Mishelo Akhalnu, a paraliturgical Birkat haMazon (translation by Nina Salaman 1914)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">צוּר מִשֶּׁלּוֹ אָכַֽלְנוּ</tei:title>
+          <tei:title xml:lang="en">Tsur Mishelo Akhalnu, a paraliturgical Birkat haMazon (translation by Nina Salaman 1914)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Nina Davis Salaman</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1340" to="1400">1340 – 1400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39059</tei:idno>
+          <tei:idno type="opensiddur.org">39059</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/acompaniontotheauthoriseddailyprayerbookrevisededitionisraelabrahams1922/A%20companion%20to%20the%20Authorised%20Daily%20Prayer%20Book%20-%20Revised%20edition%20%28Israel%20Abrahams%201922%29#page/n277/mode/2up">https://archive.org/stream/acompaniontotheauthoriseddailyprayerbookrevisededitionisraelabrahams1922/A%20companion%20to%20the%20Authorised%20Daily%20Prayer%20Book%20-%20Revised%20edition%20%28Israel%20Abrahams%201922%29#page/n277/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39059_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The hymn “Rock from whose store we have eaten” is of unknown authorship. It is based on the paragraphs of the Grace after Meals, and the refrain is made up from the first phrase of the Grace and the verse (2 Kings 4:44) which comes towards the close of the Grace in the Sephardic version. As Baer (p. 205) points out there is no reference to the Sabbath in this hymn, which is, he adds, appropriate for any occasion. The translation is by Mrs R. N. Salaman (some phrases and the metre being taken from a rendering by Mr I. Zangwill).</tei:p>
+        <tei:p>The main scriptural references are: Refrain, see [above]; <tei:hi rend="italic">my faithful companions</tei:hi>, cf. 2 Sam. 20:19. There is none holy as the Lord , 1 Sam. 2:2. The good land (Heb. חֶמְדָּה, some read חֶמְדָּה טוּבָה) Jeremiah 3:19 etc. <tei:hi rend="italic">Strong over us is his mercy</tei:hi>, Ps. 117:2. <tei:hi rend="italic">Zion the house of our beauty</tei:hi>, Isaiah 63:15. <tei:hi rend="italic">Offspring of Davids thy servant</tei:hi>, a Messianic reference, cf. Jer. 33:15. <tei:hi rend="italic">The breath of our spirit</tei:hi> etc. (lit. the breath of our nostrils) Lamentations 4:20. <tei:hi rend="italic">Filled again Ẓion</tei:hi>, i.e. either repopulated or filled with righteousness, Isaiah 33:5. <tei:hi rend="italic">Over the full brimming wine- cup</tei:hi> refers to the cup of wine (called cup of blessing) taken alter the grace (Pesahim 103a). –Israel Abrahams</tei:p>
+        <tei:p>I have re-hebraicized divine names. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39059_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tzur_mishello"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

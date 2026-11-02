@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מחזור קדושתאות ליום המתורגמן (ח׳ בטבת)</tei:title>
+        <tei:title type="main" xml:lang="en">Qedushtaot Cycle for Yom Meturgeman (Translator’s Day) on 8 Tevet</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מחזור קדושתאות ליום המתורגמן (ח׳ בטבת)</tei:title>
+          <tei:title xml:lang="en">Qedushtaot Cycle for Yom Meturgeman (Translator’s Day) on 8 Tevet</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-01-07">2025-01-07</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=59545</tei:idno>
+          <tei:idno type="opensiddur.org">59545</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59545_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Yom Meturgeman, or Translator’s Day, is a relatively recent reclamation of what has traditionally been seen as a day of mourning – the eighth of Tevet. On that day, so the rabbis say, the Septuagint was translated from Hebrew into Greek. This was seen as a tragedy by the rabbis, for whom Greek was associated with Hellenism and ultimately Christianity, but it hasn’t always been that way. Originally the translation of the Septuagint was celebrated as a miraculous occasion in works like the Letter of Aristeas. And while the rabbis looked askance at Greek, they did in fact, celebrate the work of Aramaic translators such as Onkelos and Jonathan, whose works were seen as providing a vital need by making the texts of the Bible accessible to a people that could not necessarily speak the original language anymore. As perspectives on language have shifted, translation has grown to be something worth celebrating, and the eighth of Tevet has been reclaimed by Jewish translators as a day to celebrate our work.</tei:p>
+        <tei:p>The following is a full series of qedushtaot (piyyutim leading up to the Shaḥarit qedusha) for Yom Meturgeman. The qedushta form, pioneered by great paytanim like Yannai and Qallir, might well be the single greatest height of piyyut structure, its symphony orchestra per sé. Every single part of it has its own unique form, but they all work together in a unified whole. This entire text could be recited as part of the repetition of the Shaḥarit amidah on the eighth of Tevet.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronouns <j:divineName>They</j:divineName>/<j:divineName>Their</j:divineName>/<j:divineName>Them</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59545_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:qedushtaot_cycle_for_yom_meturgeman_on_8_tevet_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

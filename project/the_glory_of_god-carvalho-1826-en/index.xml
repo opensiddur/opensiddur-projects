@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Glory of God, a hymn by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Glory of God, a hymn by David Nunes Carvalho (Reformed Society of Israelites, Charleston, South Carolina, 1826)</tei:title>
+          <tei:author>David Nunes Carvalho</tei:author>
+          <tei:author>Reformed Society of Israelites</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1826">1826</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39617</tei:idno>
+          <tei:idno type="opensiddur.org">39617</tei:idno>
+          <tei:note>Source: The Glory of God (David Nunes Carvalho – Carvalho Holograph 1826) recto <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/The-Glory-of-God-David-Nunes-Carvalho-Carvalho-Holograph-1826-recto-scaled.jpg">https://opensiddur.org/wp-content/uploads/2021/10/The-Glory-of-God-David-Nunes-Carvalho-Carvalho-Holograph-1826-recto-scaled.jpg</tei:ref></tei:note>
+          <tei:note>Source: The Glory of God (David Nunes Carvalho – Carvalho Holograph 1826) verso <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/The-Glory-of-God-David-Nunes-Carvalho-Carvalho-Holograph-1826-verso-scaled.jpg">https://opensiddur.org/wp-content/uploads/2021/10/The-Glory-of-God-David-Nunes-Carvalho-Carvalho-Holograph-1826-verso-scaled.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39617_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“The Glory of God!” written by David Nunes Carvalho was recorded with a few short bars for the melody in the Carvalho Holograph, one of the handwritten manuscripts used by the Reformed Society of Israelites as a supplement for their prayer service. Many thanks to the American Jewish Archives for providing access to the manuscript. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39617_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_glory_of_god_carvalho"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

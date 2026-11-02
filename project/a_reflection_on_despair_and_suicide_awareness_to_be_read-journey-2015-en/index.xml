@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הקול קטן של אליהו הנביא</tei:title>
+        <tei:title type="main" xml:lang="en">A reflection on despair and suicide awareness to be read upon opening the door for Elijah at the Passover seder</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הקול קטן של אליהו הנביא</tei:title>
+          <tei:title xml:lang="en">A reflection on despair and suicide awareness to be read upon opening the door for Elijah at the Passover seder</tei:title>
+          <tei:author>Elijah's Journey</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-03-25">2015-03-25</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10993</tei:idno>
+          <tei:idno type="opensiddur.org">10993</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_10993_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Thank you to Efrem Epstein for contributing this supplement. An editorial committee collaborated on this composition which included Efrem Epstein, Rabbi Jerome Epstein, Rella Kaplowitz, Dana Kukin, Dr. Chaim Nissel, Tali Rainess, Josh Rivedal, Yael Roberts, Dr. Victor Schwartz, Gabriel Seed, Rabbi Levi Welton. The Hebrew translation was made by Rabbi Oren Steinitz in 2016.</tei:p>
+        <tei:p>
+          <tei:hi rend="bold">If you or anyone you know is in need of help, call 911, or 1-800 273 8255.</tei:hi>
+        </tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_10993_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_reflection_on_despair_and_suicide_awareness_to_be_read_journey"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

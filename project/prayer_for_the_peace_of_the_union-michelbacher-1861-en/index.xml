@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Peace of the Union, by Rabbi M.J. Michelbacher on a National Day of Humiliation, Fasting, and Prayer (4 January 1861)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Peace of the Union, by Rabbi M.J. Michelbacher on a National Day of Humiliation, Fasting, and Prayer (4 January 1861)</tei:title>
+          <tei:author>Maximilian Joseph Michelbacher</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1861-01-04">1861-01-04</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57433</tei:idno>
+          <tei:idno type="opensiddur.org">57433</tei:idno>
+          <tei:note>Source: Another Prayer for the Union (The Occident, 17 January 1861), p. 4 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/08/prayer-by-j-m--michelbacher-the-occident-17-january-1861-p--4.jpg">https://opensiddur.org/wp-content/uploads/2024/08/prayer-by-j-m--michelbacher-the-occident-17-january-1861-p--4.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57433_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the peace of the United States was offered by Rabbi M.J. Michelbacher at Congregation Beit Ahabah (Richmond, Virginia) on the occasion of a national day of humiliation, fasting, and prayer proclaimed by President James Buchanan for January 4th, 1861. The prayer was published in the <tei:hi rend="italic">Richmond Daily Gazette</tei:hi> and reprinted as “Another Prayer for the Union” in <tei:hi rend="italic">The Occident and American Jewish Advocate</tei:hi> (17 January 1861), page 4.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57433_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_peace_of_the_union_michelbacher"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

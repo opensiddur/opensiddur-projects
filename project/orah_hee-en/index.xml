@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אוֹרָה הִיא</tei:title>
+        <tei:title type="main" xml:lang="en">Orah Hee (She is light), a piyyuṭ by Rabbi Jill Hammer (2008)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אוֹרָה הִיא</tei:title>
+          <tei:title xml:lang="en">Orah Hee (She is light), a piyyuṭ by Rabbi Jill Hammer (2008)</tei:title>
+          <tei:author>Rabbi Jill Hammer, Ph.D.</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2008">2008</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43857</tei:idno>
+          <tei:idno type="opensiddur.org">43857</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43857_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Orah hee” was composed by Rabbi Jill Hammer in 2008 and first published at Tel Shemesh in romanized Hebrew and English translation. The piyyut celebrates the Divine Feminine and is patterned after the popular piyyut “Adir Hu.” Rabbi Hammer writes,</tei:p>
+        <tei:p>This song, “Orah Hi,” patterns itself after the traditional Passover closing song “Adir Hu,” which is an acrostic poem listing God’s many qualities of power, righteousness, oneness, sovereignty, and kindness. “Adir Hu” means “He is mighty.” The traditional song speaks of God in majestic terms, celebrating God’s power as part of the telling of the story of Passover, and praying for the rebuilding of the Temple.</tei:p>
+        <tei:p>This alternative version is written in the feminine. Like “Adir Hu,” it is a Hebrew acrostic, and it can be sung to the traditional melody. Almost all of its images come from the Bible, from rabbinic literature, and from Jewish mysticism. Yet this song does not dwell on God’s power and distance. Rather, it emphasizes God’s sharing in human joys and griefs, and God’s ability to renew life through the strength of the earth. These are traits that many modern Jews have chosen to ascribe to the Divine as they seek their own ways of understanding God as immanent, earthy and embodied. In this version, we can imagine God’s house as our entire world infused with the Shekhinah, the indwelling Presence. Singing Adir Hu and Orah Hi together creates a fuller picture of the Divine and the human.</tei:p>
+        <tei:p>We have added the full text in pointed Hebrew. –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Eliana Light · Orah Hi</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43857_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:orah_hee_hammer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

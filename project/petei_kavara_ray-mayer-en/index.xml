@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">Peteĩ Kavara Ra’y — a Guaraní translation of Ḥad Gadya</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">Peteĩ Kavara Ra’y — a Guaraní translation of Ḥad Gadya</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61215</tei:idno>
+          <tei:idno type="opensiddur.org">61215</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61215_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>An (attempted) translation of Ḥad Gadya into the Guaraní language. Guaraní, spoken in central South America, is a unique exception to the general trend that colonizing languages replace indigenous languages. More than half the population of Paraguay speaks it natively, including those of European descent!</tei:p>
+        <tei:p>Unfortunately I was unable to find a proper native Guaraní speaker to proofread this text in time, so if you know of one then feel free to comment or look it over — I’m happy to make any edits that are necessary to make it grammatically correct. (Although, to be fair, it’s not like the original text is grammatically correct either!)</tei:p>
+        <tei:p>Also included is a method for writing Guaraní text in Hebrew script.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61215_introduction"/>
+      <j:conditional xml:id="osp_61215_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a translation of Ḥad Gadya into Guaraní, a vernacular language in Paraguay and central South America.</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added an English translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61215_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:petei_kavara_ray"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

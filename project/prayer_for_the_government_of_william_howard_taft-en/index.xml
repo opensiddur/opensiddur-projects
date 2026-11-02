@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה בעד שלום המדינה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Government of William Howard Taft, by Avraham Hyman Charlap (1912)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה בעד שלום המדינה</tei:title>
+          <tei:title xml:lang="en">Prayer for the Government of William Howard Taft, by Avraham Hyman Charlap (1912)</tei:title>
+          <tei:author>Abraham Hyman Charlap</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1912">1912</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=40747</tei:idno>
+          <tei:idno type="opensiddur.org">40747</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/Sidur-Tifereth-Jehudah_A-Hyman-Charlap_1912_copy1/Sidur-Tifereth-Jehudah_A%20Hyman%20Charlap_1912_copy1#page/n314/mode/2up">https://archive.org/stream/Sidur-Tifereth-Jehudah_A-Hyman-Charlap_1912_copy1/Sidur-Tifereth-Jehudah_A%20Hyman%20Charlap_1912_copy1#page/n314/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_40747_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Among the various versions of the Siddur Tifereth Jehudah published by the Hebrew Publishing Company in 1912 and 1916, the prayer for the government found in one edition of the Ashkenaz siddur from 1912 contains what appears to be the unabridged form of the prayer with a corresponding English translation. (For the shorter version, find it here.) Many thanks to Rabbi Dr. Seth (Avi) Kadish for having this edition of the Siddur Tifereth Jehudah scanned and to Alan Belsky for transcribing this prayer in its entirety. I have done my best to set the English translation side-by-side with the Hebrew text of the prayer in a linear style. I have re-hebraicized invocations of divine names in the translation in brackets. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_40747_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_government_of_william_howard_taft_charlap"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

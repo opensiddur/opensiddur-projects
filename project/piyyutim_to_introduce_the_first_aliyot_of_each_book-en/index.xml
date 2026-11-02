@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">piyyuṭim to Introduce the First Aliyot of Each Book in the Torah, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">piyyuṭim to Introduce the First Aliyot of Each Book in the Torah, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-09-21">2018-09-21</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21767</tei:idno>
+          <tei:idno type="opensiddur.org">21767</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21767_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>These are piyyutim written in a traditional style, meant to introduce the opening of each book in the Torah.</tei:p>
+        <tei:p>Each piyyut is in two sections – an opening (which spells out “Isaac”) and a closing (which spells out “Jacob”).</tei:p>
+        <tei:p>Each piyyut uses specific terminology related to the book itself:</tei:p>
+        <tei:p>The piyyut for Genesis uses imagery of creation.</tei:p>
+        <tei:p>The piyyut for Exodus uses “split,” a verb form found in the Song of the Sea.</tei:p>
+        <tei:p>The piyyut for Leviticus uses terminology related to the Temple and the sacrificial rite.</tei:p>
+        <tei:p>The piyyut for Numbers describes God with a word that can also mean “scout.”</tei:p>
+        <tei:p>The piyyut for Deuteronomy refers to God as “Rock,” a term used in Deuteronomy to great effect.</tei:p>
+        <tei:p>This is the intended liturgical usage for these piyyutim:</tei:p>
+        <tei:p>Once the first aliyah (the kohen aliyah in traditional communities) is called up by the gabbai, then the oleh (or the baal korei as a surrogate) reads the opening four lines.</tei:p>
+        <tei:p>After this, the oleh says the opening aliyah blessing and the first aliyah is read.</tei:p>
+        <tei:p>Then, the oleh says the closing aliyah blessing.</tei:p>
+        <tei:p>Then the closing four lines are recited by the same person who read the opening four.</tei:p>
+        <tei:p>Only after that, the second aliyah is called up, and the rest of the service proceeds as normal.</tei:p>
+        <tei:p>These piyyutim can be used at any time the opening line of the reading is said – on the Shabbat Minḥa/Monday/Thursday prior to the reading OR on the Shabbat morning of the reading proper. Because of this, the sheets arranged including the readings use two sizes – a larger size for the shorter first reading for weekdays, and a smaller size for the full first reading on Shabbatot. They can only be read when the first verse of the book is read.</tei:p>
+        <tei:p>Melodically, these piyyutim could be read in a melody based on Maqam Rast – the traditional Sephardi melody for the opening of a book.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21767_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:piyyutim_to_introduce_the_first_aliyot_of_each_book_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

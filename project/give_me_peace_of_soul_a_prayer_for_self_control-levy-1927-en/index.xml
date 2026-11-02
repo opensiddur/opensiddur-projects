@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"Give me peace of soul" a prayer for self-control by Rabbi Clifton Harby Levy (1927)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"Give me peace of soul" a prayer for self-control by Rabbi Clifton Harby Levy (1927)</tei:title>
+          <tei:author>Clifton Harby Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1927">1927</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50156</tei:idno>
+          <tei:idno type="opensiddur.org">50156</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/16/mode/2up">https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/16/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50156_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>PEACE WITHIN</tei:p>
+        <tei:p>I want to be at peace with myself. I seek the harmony within, by which I know that all is well, and that I am in full accord in every part. I know myself as ONE, with many faculties, and endless powers, if I use them aright. I would not be disturbed by the rush and noise of life, seeking the perfect repose by which I remain at peace and quiet, no matter what goes on around me.</tei:p>
+        <tei:p>I am my own master, and will not permit my emotions to control me, or my passions to rise so high as to destroy my composure.</tei:p>
+        <tei:p>I am not made anxious by any thought that rises from my subconscious past, any unpleasantness of the present or fear of the future. I put aside with a smile every accidental suggestion which does not serve my purpose. I am in peace, at ease, because I am my better self, controlled and directed by my Spirit, which is the image of God within me.</tei:p>
+        <tei:p>I know myself, and seeing my weaknesses, I control them through the Spirit, by the ever ready aid of God. I know Him as my Support and Help and that gives me the sureness through which I am not moved to lose my hold upon my temper, or my feelings. I am at peace within, because I am ever at peace with all men and woimen, and will not quarrel, for nothing is worth an evil, hateful thought. I am at peace, because I feel that I am working with the laws of God, and that He too is working with me, because I am at peace.</tei:p>
+        <tei:p>I may do much, through love, through kindness and consideration. I can do little through force, or harshness. Through right thinking and doing good, I increase the peace within and add to good will all about me. I seek and pursue peace, through the inspiration of God.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50156_introduction"/>
+      <j:conditional xml:id="osp_50156_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer by Rabbi Clifton Harby Levy accompanied his short essay, “Peace within” found in <tei:hi rend="italic">The Helpful Manual</tei:hi> (Centre of Jewish Science, 1927), pp. 17-18.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50156_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:give_me_peace_of_soul_a_prayer_for_self_control_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

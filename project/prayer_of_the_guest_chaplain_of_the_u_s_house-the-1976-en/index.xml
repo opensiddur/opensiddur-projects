@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Chaim Z. Rozwaski on 8 June 1976</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Chaim Z. Rozwaski on 8 June 1976</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Chaim Rozwaski</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1976-06-08">1976-06-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57081</tei:idno>
+          <tei:idno type="opensiddur.org">57081</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 122, part 14 (8 June 1976), p. 16859 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/congressional-record-vol--122-part-14-8-june-1976-p--16859.png">https://opensiddur.org/wp-content/uploads/2024/06/congressional-record-vol--122-part-14-8-june-1976-p--16859.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57081_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Chaim Z. Rozwaski, Congregation Etz Chaim, Flossmoor, Illinois</tei:p>
+        <tei:p>Sponsor: Rep. Ed Derwinski (R-IL)</tei:p>
+        <tei:p>Date of Prayer: 8 June 1976</tei:p>
+        <tei:p>Mr. DERWINSKI. Mr. Speaker, I am pleased to call the attention of the Members to the invocation delivered this afternoon by Rabbi Chaim Z. Rozwaski of Congregation Etz Chaim in Flossmoor, Illinois.</tei:p>
+        <tei:p>Rabbi Rozwaski has earned a reputation as a scholar, teacher, author, and administrator. In addition to his present duties, he is a member of the Rabbinical Council of America, the Synagogue Council of America, and serves as secretary of the South Suburban Board of Rabbis. Rabbi Rozwaski is also active as a professor at Governor’s State University, Park Forest South, Ill. His professional experience includes the publication of several articles in national magazines and newspapers.</tei:p>
+        <tei:p>I am pleased to have my distinguished constituent serve as House Chaplain this afternoon.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57081_introduction"/>
+      <j:conditional xml:id="osp_57081_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the sixth month of the second session of the 94th US House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 122 part 14 (8 June 1976), page 16859. English translations for the Hebrew text in the Congressional Record being absent, we have added it here in [brackets]. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57081_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_57081"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

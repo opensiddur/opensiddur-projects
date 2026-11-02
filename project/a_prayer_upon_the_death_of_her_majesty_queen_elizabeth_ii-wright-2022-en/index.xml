@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer upon the Death of Her Majesty Queen Elizabeth II, by Rabbi Alexandra Wright (Liberal Jewish Synagogue, 2022)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer upon the Death of Her Majesty Queen Elizabeth II, by Rabbi Alexandra Wright (Liberal Jewish Synagogue, 2022)</tei:title>
+          <tei:author>Alexandra Wright</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2022-09-08">2022-09-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46707</tei:idno>
+          <tei:idno type="opensiddur.org">46707</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46707_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Prayer upon the Death of Her Majesty Queen Elizabeth the Second” was written by Rabbi Alexandra Wright, Senior Rabbi of the Liberal Jewish Synagogue (St John’s Wood), and President of Liberal Judaism in the UK. The prayer was shared through the Open Siddur Project via our Facebook discussion group on 8 September 2022, by Rabbi Lea Mühlstein, Senior Rabbi of the Ark Synagogue (NPLS).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46707_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_upon_the_death_of_her_majesty_queen_elizabeth_ii_wright"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

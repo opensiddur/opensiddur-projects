@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קְדוּשְׁתָּאוֹת לְשַׁבָּת תְּקוּמָה</tei:title>
+        <tei:title type="main" xml:lang="en">Qerovot for Shabbat Tequmah (the Sabbath between Yom haShoah and Yom ha-Atsma'ut), by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קְדוּשְׁתָּאוֹת לְשַׁבָּת תְּקוּמָה</tei:title>
+          <tei:title xml:lang="en">Qerovot for Shabbat Tequmah (the Sabbath between Yom haShoah and Yom ha-Atsma'ut), by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-04-16">2026-04-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=67262</tei:idno>
+          <tei:idno type="opensiddur.org">67262</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_67262_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A full qedushta cycle, in the Qallirian style, for the Shabbat between Yom haShoah and Yom ha-Atsma’ut, referred to in the recently published Israeli Reform siddur Tefilat haAdam as “Shabbat Tequmah” (the sabbath of renewal). Partially based on the structure of the qedushta for Shabbat haGadol, the culmination of this qedushta is an azhara, a poetic retelling of the entire Megilat ha-Atsma’ut. One of the most Zionist things I’ve written in a long time. Bluesky will never forgive me.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronouns <j:divineName>They</j:divineName>/<j:divineName>Their</j:divineName>/<j:divineName>Them</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67262_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:qerovot_for_shabbat_tequmah_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

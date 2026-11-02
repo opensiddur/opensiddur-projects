@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Four Freedoms, as articulated by President Franklin D. Roosevelt (6 January 1941)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Four Freedoms, as articulated by President Franklin D. Roosevelt (6 January 1941)</tei:title>
+          <tei:author>Franklin Delano Roosevelt</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1941-01-06">1941-01-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=62736</tei:idno>
+          <tei:idno type="opensiddur.org">62736</tei:idno>
+          <tei:note>Source: Congressional Record – Four Freedoms speech (Franklin D. Roosevelt, 6 January 1941), p. 44 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-1.png">https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-1.png</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record – Four Freedoms speech (Franklin D. Roosevelt, 6 January 1941), p. 45 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-2.png">https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-2.png</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record – Four Freedoms speech (Franklin D. Roosevelt, 6 January 1941), p. 46 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-3.png">https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-3.png</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record – Four Freedoms speech (Franklin D. Roosevelt, 6 January 1941), p. 47 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-4.png">https://opensiddur.org/wp-content/uploads/2025/07/congressional-record-four-freedoms-speech-franklin-d--roosevelt-6-january-1941-page-4.png</tei:ref></tei:note>
+          <tei:note>Source: Union Anthology (CCAR 1966, unpublished) – p. 229 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/229.jpg">https://opensiddur.org/wp-content/uploads/2025/07/229.jpg</tei:ref></tei:note>
+          <tei:note>Source: Union Anthology (CCAR 1966, unpublished) – p. 230 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/07/230.jpg">https://opensiddur.org/wp-content/uploads/2025/07/230.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_62736_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The four freedoms as articulated by President Franklin D. Roosevelt in his address before the 77th Congress of the United States. The speech is recorded in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 87, Part 1 (January 6, 1941) — Bound Edition, 77th Congress – 1st Session, pp. 44-47. The Four Freedoms were included in the unpublished 1966 edition of the CCAR Union Anthology, pages 229-230.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_62736_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_four_freedoms_roosevelt"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

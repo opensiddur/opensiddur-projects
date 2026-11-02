@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כַּעֲבוֹר סוּפָה</tei:title>
+        <tei:title type="main" xml:lang="en">After the Storm, a prayer to "choose life" in the face of climate disruption by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כַּעֲבוֹר סוּפָה</tei:title>
+          <tei:title xml:lang="en">After the Storm, a prayer to "choose life" in the face of climate disruption by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2012-11-14">2012-11-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=5439</tei:idno>
+          <tei:idno type="opensiddur.org">5439</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_5439_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p><tei:hi rend="bold">DOWNLOAD:</tei:hi> PDF</tei:p>
+        <tei:p>The prayers for hurricane, storm, drought, and fire victims that are circulating here and elsewhere are poignant and heartfelt, but they don’t speak an important piece of the truth that we need to hear. What about our collective responsibility for climate disruption that undoubtedly increases the harm caused by this and every major storm? And what about the Deuteronomic promise that God brings us recompense for our actions <tei:hi rend="italic">davka</tei:hi> through the weather? Here’s an attempt at a prayer that incorporates a deeper understanding of our responsibility. For a longer essay on the concerns inspiring the composition of this prayer, please read “After the Storm: How Should we Pray?,” at <tei:hi rend="italic">The Times of Israel</tei:hi>.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_5439_introduction"/>
+      <j:conditional xml:id="osp_5439_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was originally written in the context of Hurricane Sandy in 2012 and updated in the aftermath of Hurricane Harvey in 2017. Rabbi Seidenberg wishes to remind everyone seeking prayers for the victims of this seasonal hurricane, that we are not just dealing with Harvey but with monsoon floods covering a third of Bangladesh, where over 1200 have already died – far worse than our hurricane here.</tei:p>
+        <tei:p>Rabbi Seidenberg adds, “For the final version of this prayer, I started with an anonymous Hebrew translation of my original English prayer, then I tweaked it and wove in scriptural references, and retranslated it back into English.” Aharon Varady, Baruch Sienna, and Hinda Labovitz all assisted in helping to prepare this prayer on the Open Siddur Project Facebook discussion group.</tei:p>
+        <tei:p>This prayer was most recently updated in 2025 in response to the devastating fires impacting the Los Angeles area.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_5439_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:after_the_storm_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

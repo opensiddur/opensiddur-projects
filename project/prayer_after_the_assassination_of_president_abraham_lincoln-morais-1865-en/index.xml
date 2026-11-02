@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer after the assassination of President Abraham Lincoln by Rabbi Sabato Morais (18 April 1865)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer after the assassination of President Abraham Lincoln by Rabbi Sabato Morais (18 April 1865)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1865-04-18">1865-04-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46211</tei:idno>
+          <tei:idno type="opensiddur.org">46211</tei:idno>
+          <tei:note>Source: prayer after the assassination of President Lincoln [1865-04-20] (Sabato Morais Ledger, p. 24 clipping 029) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/08/prayer-after-the-assassination-of-President-Lincoln-1865-04-20-Sabato-Morais-Ledger-p.-24-clipping-029.jpg">https://opensiddur.org/wp-content/uploads/2022/08/prayer-after-the-assassination-of-President-Lincoln-1865-04-20-Sabato-Morais-Ledger-p.-24-clipping-029.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46211_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi Sabato Morais was offered in conclusion to a sermon delivered at some point days after the assassination of President Abraham Lincoln on 15 April 1865, and reprinted in <tei:hi rend="italic">The Philadelphia Inquirer</tei:hi> on 20 November 1865. The time of the assassination corresponded to motsei shabbat and the beginning of the 6th day of Passover 5625, and so we can imagine this prayer having been delivered at some point over the remaining two festival days of Pesaḥ, on April 17th or 18th. The prayer was preserved by Rabbi Morais in his ledger (page 24, clipping 029), an archive of newsclippings recording material he contributed to the press, among other announcements. (Many thanks to the Library of the University of Pennsylvania for helping to make this resource accessible.) Next to the clipping, Rabbi Sabato has written, “Andrew Johnson proved anything but a worthy successor to the sainted Abraham Lincoln.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46211_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_after_the_assassination_of_president_abraham_lincoln_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

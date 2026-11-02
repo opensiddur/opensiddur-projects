@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Israel O. Goldberg on 4 June 1971</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Israel O. Goldberg on 4 June 1971</tei:title>
+          <tei:author>Israel O. Goldberg</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1971-06-04">1971-06-04</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55997</tei:idno>
+          <tei:idno type="opensiddur.org">55997</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 117, part 14 (4 June 1971), p. 18026 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--117-part-14-4-June-1971-p--18026.png">https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--117-part-14-4-June-1971-p--18026.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55997_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Israel O. Goldberg, Ahavas Sholom Agudas Achim Anshe Sphard, Randallstown Synagogue Center, Randallstown, Maryland</tei:p>
+        <tei:p>Sponsor: Rep. Goodloe Byron (D-MD)</tei:p>
+        <tei:p>Date of Prayer: 4 June 1971</tei:p>
+        <tei:p>Mr. BYRON. Mr. speaker, I am pleased that Rabbi Israel O. Goldberg could be with us today to offer the prayer. Rabbi Goldberg is a distinguished religious and community leader in Randallstown, Md., and he has a background of interesting and challenging positions.</tei:p>
+        <tei:p>Rabbi Goldberg was born in New York City and received his ordination in 1960 from the Jacob Joseph Theological Seminary. He received his bachelor of arts degree from Brooklyn College and his master’s from Yeshiva University where he is currently working on his doctorate.</tei:p>
+        <tei:p>He has served as rabbi of the Young Israel of New Rochelle, N.Y., for 4 years where he originated the Hebrew Heritage program. Rabbi Goldberg was also one of the founders of the Ohr Hameir Theological Seminary of New Rochelle.</tei:p>
+        <tei:p>In 1965 Rabbi Goldberg moved to Boston to become leader of Congregation Agudath Israel, Boston’s largest orthodox synagogue. While there, Rabbi Goldberg served as treasurer of the rabbinical council of Massachusetts, a permanent member of the Bet Din of the Hawa’ad Harabbanim of Massachusetts, a member of the advisory committee to the Boston Housing Authority, and chaplain of two hospitals as well as Boston’s penal institutions.</tei:p>
+        <tei:p>Rabbi Goldberg became the spiritual leader of the Randallstown Synagogue Center in the summer of 1970. He is the secretary of the Rabbinical Council of America, Maryland Region and liaison rabbi to the Council of Orthodox Synagogues of Baltimore.</tei:p>
+        <tei:p>I again want to thank Rabbi Goldberg for being here today and hope he can return again.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55997_introduction"/>
+      <j:conditional xml:id="osp_55997_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the sixth month of the first session of the 92nd US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 117, part 14 (4 June 1971), page 18026.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55997_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_goldberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

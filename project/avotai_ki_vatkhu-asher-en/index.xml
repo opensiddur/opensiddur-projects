@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲבוֹתַי כִּי בָטְחוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Avotai ki vatkhu ("When our forefathers trusted"), a pizmon for the Fast of Tevet ascribed to Ephraim ben Avraham ben Yitsḥaq of Regensburg (12th c.)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲבוֹתַי כִּי בָטְחוּ</tei:title>
+          <tei:title xml:lang="en">Avotai ki vatkhu ("When our forefathers trusted"), a pizmon for the Fast of Tevet ascribed to Ephraim ben Avraham ben Yitsḥaq of Regensburg (12th c.)</tei:title>
+          <tei:author>Ephraim ben Avraham ben Yitsḥaq</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>David Asher</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=28994</tei:idno>
+          <tei:idno type="opensiddur.org">28994</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/selichothdavidasher1912#page/n354/mode/2up">https://archive.org/stream/selichothdavidasher1912#page/n354/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_28994_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Avotai ki vatkhu” (When our forefathers trusted) is a pizmon for the Fast of Tevet ascribed to Ephraim ben Avraham ben Yitsḥaq of Regensburg (fl. 12th c.). The English translation here was adapted from the translation of David Asher by Aharon Varady. The transcription of the Hebrew deviates slightly from one of two variations made by contributors to Hebrew Wikisource. I think David Asher’s translation could still be improved upon, so please provide any amendation you feel moved to share. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_28994_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:avotai_ki_vatechu_beshem_elohei_tzuri"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

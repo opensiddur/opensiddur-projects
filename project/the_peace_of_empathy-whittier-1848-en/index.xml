@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Peace of Empathy — three stanzas adapted from "Worship," a poem by John Greenleaf Whittier (1848)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Peace of Empathy — three stanzas adapted from "Worship," a poem by John Greenleaf Whittier (1848)</tei:title>
+          <tei:author>Max D. Klein</tei:author>
+          <tei:author>John Greenleaf Whittier</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1848">1848</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=28058</tei:idno>
+          <tei:idno type="opensiddur.org">28058</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsofpraiseandprayermaxklein1926#page/n39/mode/2up">https://archive.org/stream/hymnsofpraiseandprayermaxklein1926#page/n39/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/good-health-volume-35-issue-03-march-1st-1900#page/n19/mode/2up">https://archive.org/stream/good-health-volume-35-issue-03-march-1st-1900#page/n19/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/earlypoemsofjohn00whit#page/280/mode/2up">https://archive.org/stream/earlypoemsofjohn00whit#page/280/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_28058_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Three stanzas adapted from “Worship” by John Greenleaf Whittier (1807-1892), appears as hymn number 73: “The Peace of Pity” in Rabbi Max Klein’s hymn book for Congregation Adath Jeshurun, Philadelphia, <tei:hi rend="italic">Hymns of Prayer and Praise</tei:hi> (1926). Nowadays we might say “The Peace of Empathy” rather than “The Peace of Pity.” I’ve left the title unchanged in the body of the text.</tei:p>
+        <tei:p>Hymn Studies Blog notes, “Penned in 1847 and 1848 as part of a poem entitled “Worship” with fifteen stanzas to contrast the excesses and carnalities of pagan worship with what Whittier considered to be the essential duty of man, it was first published in his 1850 <tei:hi rend="italic">Labor and Other Poems</tei:hi>.” Only three or four stanzas commonly appear in Protestant hymn books where the title is normally given as “O Brother Man.” In this adaptation, the wording of two lines can be found to be changed from Whittier’s original text. In one line, “the peace of God is there” is changed to “the joy of peace is there.” In another line, “So shall the wide earth seem our Father’s temple” is changed to “So shall the wide earth seem a human temple.” The two changes I’ve noted appear exclusively in the version of the hymn titled “The Peace of Pity,” the earliest attestation of which I could find on page 144 of J.H. Kellogg’s Good Health 35:3 (March 1900). That same year, a similar variation was printed in <tei:hi rend="italic">Hymns of modern thought</tei:hi>, a hymnal of the Hampstead Ethical Institute. In a hymnal published twenty years earlier, in 1880, different language appears in the same lines (Peebles, <tei:hi rend="italic">Spiritual Harmonies</tei:hi>). Although my search isn’t exhaustive, it appears to me that the version appearing in Adath Jeshurun’s hymn book had been circulating in the Clean Living Movement, and possibly among Ethical Society congregations. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_28058_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_peace_of_empathy_whittier"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

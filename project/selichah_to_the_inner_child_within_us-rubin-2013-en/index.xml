@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Seliḥah to the Inner Child Within Us, by Miriam Rubin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Seliḥah to the Inner Child Within Us, by Miriam Rubin</tei:title>
+          <tei:author>Miriam Rubin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-08-21">2013-08-21</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6814</tei:idno>
+          <tei:idno type="opensiddur.org">6814</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6814_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Miriam Rubin writes,</tei:p>
+        <tei:p>i wrote this, the night of <tei:hi rend="italic">Sliḥot</tei:hi>, the night of “Forgiveness”, when ancient prayers for forgiveness are sung and each person asks humbly to be pardoned from any misguided actions we have partaken in.</tei:p>
+        <tei:p>In the cycle of the Jewish Calendar, this is the period just before the New Year, when we take account of our actions, and ask for forgiveness and grace, so that we might be granted the opportunities to remake ourselves and grow in more resonant ways with our deeper calling...</tei:p>
+        <tei:p>may it inspire...</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6814_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:selichah_to_the_inner_child_within_us_rubin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Invocation by Rabbi Joseph Stolz at the Republican National Convention (19 June 1912)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Invocation by Rabbi Joseph Stolz at the Republican National Convention (19 June 1912)</tei:title>
+          <tei:author>Joseph Stolz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1912-06-19">1912-06-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64870</tei:idno>
+          <tei:idno type="opensiddur.org">64870</tei:idno>
+          <tei:note>Source: Republican National Convention – Prayer of Rabbi Joseph Stolz (22 June 1912) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/12/republican-national-convention-prayer-of-rabbi-joseph-stolz-22-june-1912.jpg">https://opensiddur.org/wp-content/uploads/2025/12/republican-national-convention-prayer-of-rabbi-joseph-stolz-22-june-1912.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64870_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>From, “Republican National Convention” in <tei:hi rend="italic">The Reform Advocate</tei:hi> (22 June 1912), reporting on the invocation offered on the second day of the convention at the Chicago Coliseum in Chicago, Illinois on 19 June 1912.</tei:p>
+        <tei:p>Dr. Joseph Stolz served as Chaplain of the Republican National Convention on the second day and delivered the following Invocation:</tei:p>
+        <tei:p>The great throng of 14,000 persons in the Coliseum stood with bared heads to-day while Rabbi Joseph Stolz, D.D., Isaiah Temple, delivered the following prayer at the opening of the republican national convention’s second day:</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64870_introduction"/>
+      <j:conditional xml:id="osp_64870_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Many thanks to Howard Mortman for locating and informing us of this prayer.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64870_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:invocation_stolz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

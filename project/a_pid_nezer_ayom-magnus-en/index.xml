@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַאְפִּיד נֵֽזֶר אָיוֹם</tei:title>
+        <tei:title type="main" xml:lang="en">Aɐpid Nézer Ayom, by Elazar ben Qallir (abridged English translation by Katie Magnus, 1907)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַאְפִּיד נֵֽזֶר אָיוֹם</tei:title>
+          <tei:title xml:lang="en">Aɐpid Nézer Ayom, by Elazar ben Qallir (abridged English translation by Katie Magnus, 1907)</tei:title>
+          <tei:author>Elazar ben Qallir</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Katie Magnus</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0590" to="0640">0590 – 0640</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65966</tei:idno>
+          <tei:idno type="opensiddur.org">65966</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodatyomhazikaronarthurdavisandherbertadler1907/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haZikaron%20%28Arthur%20Davis%20and%20Herbert%20Adler%201907%29#page/n211/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodatyomhazikaronarthurdavisandherbertadler1907/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haZikaron%20%28Arthur%20Davis%20and%20Herbert%20Adler%201907%29#page/n211/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65966_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the abridged rhyming English translation by Katie Magnus for the piyyut “Aɐpid Nézer Ayom” by Elazar ben Qalir. The translation is found in Hebert Adler and Arthur Davis’s <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Yom haZikaron</tei:hi> (1907), pp. 102-103. I have set the translation as-is side-by-side with the text of Aɐpid to the best of my ability. A handful of verses are elided in Magnus’s translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65966_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_pid_nezer_ayom_elazar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

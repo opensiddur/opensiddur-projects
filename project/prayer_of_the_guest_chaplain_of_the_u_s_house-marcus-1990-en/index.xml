@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Jay Marcus on 13 September 1990</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Jay Marcus on 13 September 1990</tei:title>
+          <tei:author>Jay Marcus</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1990-09-13">1990-09-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51848</tei:idno>
+          <tei:idno type="opensiddur.org">51848</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4503244/rabbi-jay-marcus-young-israel-staten-island-ny">https://www.c-span.org/video/standalone/?c4503244/rabbi-jay-marcus-young-israel-staten-island-ny</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record v. 136, part 17 – 13 September 1990. p. 24203 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-17-13-September-1990.-p.-24203.png">https://opensiddur.org/wp-content/uploads/2023/06/Congressional-Record-v.-136-part-17-13-September-1990.-p.-24203.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51848_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Jay Marcus, Young Israel, Staten Island, New York</tei:p>
+        <tei:p>Date of Prayer: 13 September 1990</tei:p>
+        <tei:p>Sponsor: Rep. Gary Ackerman (D-NY)</tei:p>
+        <tei:p>Mr. Speaker, I wish to thank Dr. Ford for permitting Rabbi Jay Marcus to lead the House of Representatives in prayer this morning.</tei:p>
+        <tei:p>Mr. Speaker, for the past twenty years, Rabbi Marcus has distinguished himself as an exemplary community leader, and as the dynamic spiritual leader of the Young Israel of Staten Island.</tei:p>
+        <tei:p>In addition, for the past seven years, Rabbi Marcus has been the teacher and confidant of a number of our colleagues and their families. Under the sponsorship of the Genesis Foundation, Rabbi Marcus has conducted a semimonthly congressional Bible class. Over the years, about thirty of our current and former colleagues, as well as members of their families have participated in these classes. Rabbi Marcus’ class has been a shining light in our busy schedules. His ability to integrate the value of our tradition along with the sublime nature of today’s current events has been a beacon of inspiration to all those present to hear his words.</tei:p>
+        <tei:p>So, it is bittersweet that Rabbi Jay has been awarded a deserved one year sabbatical by his congregation. On the one hand, this sabbatical will enable Rabbi Marcus to recharge his batteries and expand his already broad horizons. Yet, on the other hand, his congressional students will miss hearing his inspirational words. Mr. Speaker, Rabbi Marcus is not only my teacher, but also my dear friend. On behalf of his loyal congressional students, I wish him only the best during his sabbatical in Israel.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51848_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_marcus"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

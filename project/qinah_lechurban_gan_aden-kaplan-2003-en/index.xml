@@ -1,0 +1,75 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קִינָה לְחֻרְבַּן גַּן עֵדֶן</tei:title>
+        <tei:title type="main" xml:lang="en">Qinah leḤurban Gan Aden, an eco-lament by Richard Kaplan (2003)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קִינָה לְחֻרְבַּן גַּן עֵדֶן</tei:title>
+          <tei:title xml:lang="en">Qinah leḤurban Gan Aden, an eco-lament by Richard Kaplan (2003)</tei:title>
+          <tei:author>Richard Kaplan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2003">2003</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52451</tei:idno>
+          <tei:idno type="opensiddur.org">52451</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52451_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Rabbi David Seidenberg writes (neohasid.org):</tei:p>
+        <tei:p>Cantor Richard Kaplan, <tei:hi rend="italic">z”l</tei:hi>, composed this qinah (lament) for Tishah b’Av about the destruction of the earth. Gan Aden of course is the Garden of Eden, both a place and a time. It is the imagined birthplace of all life and species, and an echo of the time when the real Earth was untrammeled. Ḥurban usually refers to the destruction of the First and Second Temples, but here to the Temple of the Earth, which the Jewish Temple was meant to represent according to midrash.<tei:anchor xml:id="note_1"/></tei:p>
+        <tei:p>The song articulates the voice of Gaia, the Earth, embodied in Richard’s plaintive voice. Richard died on the first day of Sukkkot [in 2021],<tei:anchor xml:id="note_2"/> and thinking about him has made me want so much to hear his voice, calling us to truth.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52451_introduction"/>
+      <j:conditional xml:id="osp_52451_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Kinah Lekhurban Gan Eden” was written by Richard Kaplan and first published as the fourth track to his album <tei:hi rend="italic">Life of the Worlds: Journeys in Jewish Sacred Music</tei:hi> (2003).</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52451_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qinah_lechurban_gan_aden_kaplan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>For the Mishkan as microcosm and the Temple as omphalos, find Bamidbar Rabbah Naso 12:4.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>Also, his birthday in the Jewish calendar.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

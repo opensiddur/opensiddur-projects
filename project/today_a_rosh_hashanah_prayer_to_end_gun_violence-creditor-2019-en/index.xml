@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">TODAY: A Rosh haShanah Prayer to End Gun Violence, by Rabbi Menachem Creditor (2019)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">TODAY: A Rosh haShanah Prayer to End Gun Violence, by Rabbi Menachem Creditor (2019)</tei:title>
+          <tei:author>Menachem Creditor</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-09-11">2019-09-11</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27085</tei:idno>
+          <tei:idno type="opensiddur.org">27085</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27085_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Today — A Rosh HaShannah Prayer to End Gun Violence” was first published during Elul Zman (the season of ḥeshbon nefesh) by Rabbi Menachem Creditor on his Facebook Page, and shared through the Open Siddur Project via our Facebook discussion group. The prayer is a riff from <tei:hi rend="italic">Hayom T’amtsenu</tei:hi>, a litany that concludes the Musaf service of both Rosh Hashanah and Yom Kippur. It is a fragment of a longer piyyut which is found in its complete form in the Italian synagogue rite.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27085_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:today_a_rosh_hashanah_prayer_to_end_gun_violence_creditor"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

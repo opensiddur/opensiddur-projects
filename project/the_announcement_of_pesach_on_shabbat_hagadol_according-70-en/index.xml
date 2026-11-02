@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הכרזת פסח לפי נוסח איטלייני</tei:title>
+        <tei:title type="main" xml:lang="en">the Announcement of Pesaḥ on Shabbat haGadol according to the Italian rite</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הכרזת פסח לפי נוסח איטלייני</tei:title>
+          <tei:title xml:lang="en">the Announcement of Pesaḥ on Shabbat haGadol according to the Italian rite</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0070" to="1000">0070 – 1000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55265</tei:idno>
+          <tei:idno type="opensiddur.org">55265</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55265_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Jews all over the world announce the new month on the Shabbat before it with a text known as “birkat ha-ḥodesh” or blessing the month. In many rites, such as the Western Sephardic and Moroccan rites, the fast days 17 Tammuz and 10 Tevet are also announced on the Shabbat before them with a text known as “hazkarat tsomot” or announcing fasts. But to my knowledge, only the Italian rite (and possibly the ancient Eretz Yisrael rite from which much of it derives) have a custom of announcing Pesaḥ on the Shabbat before it. This passage, the Announcement of Pesaḥ (Azcaràd Pesah in Italian traditional pronunciation) is recited on the Shabbat before Pesaḥ, commonly known as Shabbat haGadol (Sciabbàd Aggadòl), after the reading from the Torah. Citing the mystical hekhalot literature, it celebrates the sages who established the rules of the calendar.</tei:p>
+        <tei:p>For upcoming Pesaḥim (as of the date of submission) the announced day will be:</tei:p>
+        <tei:p>for 5784/2024: יוֹם שְׁלִישִׁי Tuesday</tei:p>
+        <tei:p>for 5785/2025: יוֹם רִאשׁוֹן Sunday</tei:p>
+        <tei:p>for 5786/2026: יוֹם חֲמִישִׁי Thursday</tei:p>
+        <tei:p>for 5787/2027: יוֹם חֲמִישִׁי Thursday</tei:p>
+        <tei:p>for 5788/2028: יוֹם שְׁלִישִׁי Tuesday</tei:p>
+        <tei:p>for 5789/2029: יוֹם שַׁבָּת Saturday</tei:p>
+        <tei:p>for 5790/2030: יוֹם חֲמִישִׁי Thursday</tei:p>
+        <tei:p>for 5791/2031: יוֹם שְׁלִישִׁי Tuesday</tei:p>
+        <tei:p>for 5792/2032: יוֹם שַׁבָּת Saturday</tei:p>
+        <tei:p>for 5793/2033: יוֹם חֲמִישִׁי Thursday</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55265_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_announcement_of_pesach_on_shabbat_hagadol_according"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

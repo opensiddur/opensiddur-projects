@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Burying 'Bring Them Home Now' Dog Tags, by Rabbi Menachem Creditor</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Burying 'Bring Them Home Now' Dog Tags, by Rabbi Menachem Creditor</tei:title>
+          <tei:author>Menachem Creditor</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-10-10">2025-10-10</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63935</tei:idno>
+          <tei:idno type="opensiddur.org">63935</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63935_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Other rituals will surely arise — songs, prayers, art, and silence — each guided by the wisdom and imagination of artists, rabbis, and ritual leaders who help us make meaning in the wake of sorrow and hope. Let us honor both the moment and the movement — the courage to create holiness even as we live toward wholeness.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63935_introduction"/>
+      <j:conditional xml:id="osp_63935_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Prayer for Burying ‘Bring Them Home Now’ Dog Tags” by Rabbi Menachem Creditor was shared through the Open Siddur Project’s Facebook discussion group, and elsewhere on social media on 10 October 2025, in anticipation of the final living hostage’s release on 13 October 2025.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63935_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_burying_bring_them_home_now_dog_tags_creditor"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

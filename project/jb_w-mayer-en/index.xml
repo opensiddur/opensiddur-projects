@@ -1,0 +1,78 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">Jb Wꜥ</tei:title>
+        <tei:title type="alt" xml:lang="he">Ib wa (יב וע) — a Middle Egyptian translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">Jb Wꜥ</tei:title>
+          <tei:title xml:lang="he">Ib wa (יב וע) — a Middle Egyptian translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=49423</tei:idno>
+          <tei:idno type="opensiddur.org">49423</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_49423_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. This Middle Egyptian translation was almost certainly the one that Moshe Rabbeinu himself sang at his seder table that fateful night in Egypt! ...Not really. Ḥad Gadya postdates Middle Egyptian as a written language by about three millennia. But it’s fun and Pesaḥ-appropriate to sing this song in the language of that dagnabbed Pharaoh himself.</tei:p>
+        <tei:p>Also included is a transcript of the text into Hebrew script, and even attempted translation into heiroglyphs!</tei:p>
+        <tei:p>For reading out loud I’ve also included the standard Egyptological pronunciation system. If you’re stuck in a time machine be careful, it’s an artificial convention that should not be mistaken for how Egyptian was pronounced at the time. But personally I think “Tutenkhamen” is easier to say than *Təwā́təʾ-ʿā́nəkh-ʾamā́nəʾ*, so sue me.</tei:p>
+        <tei:p>Massive enormous thanks to Willa Snowbender and her advanced Middle Egyptian class for their proofreading and improvements! Without you all this would be unreadable word salad.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_49423_introduction"/>
+      <j:conditional xml:id="osp_49423_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a translation of Ḥad Gadya into Middle Egyptian by Isaac Gantwerk Mayer. While a set of Egyptian hieroglyphs are supported in Unicode, character positioning remains a challenge we have yet to overcome using Andrew Glass’s font tools. For this reason, the Egyptian script provided here employs an image (raster graphic) rendering of the script made with JSesh, the open-source hieroglyphics editor. (If you know how we can render the Egyptian using avaiable open-source tools and the Unicode standard, please be in touch.)</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found in the Prague Haggadah (1526). The text of the poem is in a form of playful Aramaic and it is accompanied by the lyrics in medieval Yiddish.<tei:anchor xml:id="note_2"/> It is unclear which, if either, came first — the Yiddish or the Aramaic. The Aramaic above below follows the text as it appears in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation sourced from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_49423_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:jb_w"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>The Jewish Encyclopedia (1906, NY) vol. 8 page 190 s.v. “Had Gadya” calls it German.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

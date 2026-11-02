@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Psalm of Gratitude, a poem by Ben Aronin (ca. 1950)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Psalm of Gratitude, a poem by Ben Aronin (ca. 1950)</tei:title>
+          <tei:author>the Aronin Family</tei:author>
+          <tei:author>Ben Aronin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1949" to="1951">1949 – 1951</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=23529</tei:idno>
+          <tei:idno type="opensiddur.org">23529</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_23529_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Ben Aronin’s “Psalm of Gratitude” was shared by the loving family of Ben Aronin. The poem may have been printed elsewhere during Aronin’s lifetime (please let us know), but as far as we can tell, it has been first published here, online, through the Open Siddur Project. I have added line breaks to his psalm, separating the poem into stanzas.</tei:p>
+        <tei:p>Aronin’s reference to “the beauty of each blade of grass,” invoked in the first stanza, is a powerful one given that the mitsvah of bal tashḥit was once emphasized to children through stories concerning not idly plucking vegetation — blades of grass and leaves of trees. Aronin is also remembered by his secretary Mrs. Shirr, for saying “I believe God knows every leaf that falls.” That Ben received a ḥassidic appreciation for the vitality of all living creatures including vegetation seems quite plausible as Aronin’s father Simon (1877-1938), also referred to in the poem, “studied with Rabbi [Shalom DovBer] Schneerson in the Lubavitcher Yeshiva” (Jeffrey Conn. “Ben Aronin, Man, Author, and Teacher,” Masters thesis: Spertus College, 1990, p.5). The sixth rebbe of ḤaBaD (Yosef Yitshak Schneerson) recounts his father Shalom DovBer (the fifth rebbe of ḤaBaD) teaching him this very lesson. The first Lubavitch yeshivah, Tomchei Tmimim founded by Shalom DovBer, opened its doors in 1897 in the town of Lubavitch, in those days part of White Russia, Belarus.</tei:p>
+        <tei:p>Both Simon and his wife, Rose, came from “Dokschitz in the Vilna Region,” a town north of Minsk. Simon’s father, R’ Aryeh Loeb Aronin (1849-1931), was a student of Rabbi Yitzhok Elkanon Spector. After serving as rabbi in both Barisev and Krasnaluk, Lithuania, Aryeh Loeb emigrated first to Baltimore and then to Sheboygan, Wisconsin where Simon and Rose eventually joined them in 1902. The childhood reminiscence of Ben Aronin in this poem is of his childhood in Sheboygan, Green Bay, and Sturgeon Bay, Wisconsin.</tei:p>
+        <tei:p>Undated, the poem must have been written after 1944 when Ben Aronin turned 40 years old and made a dramatic shift in his career from a criminal lawyer to a children’s educator and author. This article from the Chicago Tribune in 1944 documents his career change. Ben’s reference to blades of grass might also recall Walt Whitman’s <tei:hi rend="italic">Blades of Grass</tei:hi>; Whitman served as the subject of Aronin’s last novel, a work of secular historical fiction, <tei:hi rend="italic">Walt Whitman’s Secret</tei:hi> (1955).</tei:p>
+        <tei:p>Lawyer to Quit and Become Author (Chicago Tribune 1944)</tei:p>
+        <tei:p>We are indebted to the Aronin family for sharing this poem and the research materials referenced above.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_23529_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:a_psalm_of_gratitude_aronin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

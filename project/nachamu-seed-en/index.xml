@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">נַחֲמוּ נַחֲמוּ עַמִּי</tei:title>
+        <tei:title type="main" xml:lang="en">Naḥamu, Naḥamu Ami (Comfort, comfort, my people), a piyyuṭ for Tishah b'Aḇ</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/gabriel-seed">Gabriel Kretzmer Seed</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">נַחֲמוּ נַחֲמוּ עַמִּי</tei:title>
+          <tei:title xml:lang="en">Naḥamu, Naḥamu Ami (Comfort, comfort, my people), a piyyuṭ for Tishah b'Aḇ</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20857</tei:idno>
+          <tei:idno type="opensiddur.org">20857</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SederTaaniyot1771/Seder%20ta%27aniyot%20%281771%29#page/n251/mode/2up">https://archive.org/stream/SederTaaniyot1771/Seder%20ta%27aniyot%20%281771%29#page/n251/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20857_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>After attending Minḥah services on Tisha B’ab at Congregation Shearith Israel in New York City (The Spanish and Portuguese Synagogue, and the oldest Jewish congregation in the United States), I was moved to translate this beautiful piyyut of unknown authorship which is recited in most Sephardic, Mizrahi and Yemenite traditions on Tisha B’ab at Minḥah. In its stanzas, rich and replete with biblical references (as is particularly common in Sephardic Piyyut), God speaks to Jerusalem and promises to comfort her, and comfort and redeem her people. A recording of how the piyyut is sung in the London Spanish and Portuguese tradition can be found here. After this piyyut, a selection of biblical verses is recited responsively by the Ḥazzan and congregation, also beginning with Naḥamu, Naḥamu Ami, at which point the musical motif of Seliḥot is introduced into the service as a preview of the season of repentance to come.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20857_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:nachamu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תחנה פאר אײן אִשָׁה װאָס דארף האָבּין אײַן קינד</tei:title>
+        <tei:title type="main" xml:lang="en">Tkhine for a Woman who is about to Have a Child (1910)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/tracy-guren-klirs">Tracy Guren Klirs</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תחנה פאר אײן אִשָׁה װאָס דארף האָבּין אײַן קינד</tei:title>
+          <tei:title xml:lang="en">Tkhine for a Woman who is about to Have a Child (1910)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1910">1910</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=29939</tei:idno>
+          <tei:idno type="opensiddur.org">29939</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/RachelWeepsForHerChildrenVilna1910#page/n206/mode/2up">https://archive.org/stream/RachelWeepsForHerChildrenVilna1910#page/n206/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_29939_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a faithful transcription of the תחנה פאר אײן אִשָׁה װאָס דארף האָבּין אײַן קינד (“Tkhine for a Woman who is about to Have a Child”) as it appears in the compilation of tkhines, <tei:hi rend="italic">Rokhl Weeps for Her Children</tei:hi> (1910). I have transcribed it without any changes from <tei:hi rend="italic">The Merit of Our Mothers</tei:hi> בזכות אמהות <tei:hi rend="italic">A Bilingual Anthology of Jewish Women’s Prayers</tei:hi>, compiled by Rabbi Tracy Guren Klirs, Cincinnati: Hebrew Union College Press, 1992. <tei:hi rend="italic">shgiyot mi yavin, ministarot nakeni.</tei:hi></tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_29939_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tkhine_for_a_woman_who_is_about_to_have_a_child"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

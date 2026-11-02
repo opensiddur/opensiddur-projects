@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Invocation by Rabbi Samuel Sale at the Republican National Convention (16 June 1896)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Invocation by Rabbi Samuel Sale at the Republican National Convention (16 June 1896)</tei:title>
+          <tei:author>Samuel Sale</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1896-06-16">1896-06-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56044</tei:idno>
+          <tei:idno type="opensiddur.org">56044</tei:idno>
+          <tei:note>Source: A Listless Opening – Rabbi [Samuel] Sale Prays [at the Republican National Convention in St. Louis, 16 June] (NY Times, 17 June 1896), p. 1 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/05/A-Listless-Opening-Rabbi-Samuel-Sale-Prays-at-the-Republican-National-Convention-in-St--Louis-16-June-NY-Times-17-June-1896-p-1.png">https://opensiddur.org/wp-content/uploads/2024/05/A-Listless-Opening-Rabbi-Samuel-Sale-Prays-at-the-Republican-National-Convention-in-St--Louis-16-June-NY-Times-17-June-1896-p-1.png</tei:ref></tei:note>
+          <tei:note>Source: A Listless Opening – Rabbi [Samuel] Sale Prays [at the Republican National Convention in St. Louis, 16 June] (NY Times, 17 June 1896), p. 5 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/05/A-Listless-Opening-Rabbi-Samuel-Sale-Prays-at-the-Republican-National-Convention-in-St--Louis-16-June-NY-Times-17-June-1896-p--5.png">https://opensiddur.org/wp-content/uploads/2024/05/A-Listless-Opening-Rabbi-Samuel-Sale-Prays-at-the-Republican-National-Convention-in-St--Louis-16-June-NY-Times-17-June-1896-p--5.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56044_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The opening prayer for the Republican National Convention in St. Louis on 16 June 1896 was offered by Rabbi Samuel Sale, and published on the first and fifth pages of the New York Times, “A Listless Opening.” After the Panic of 1896, Rabbi Sales reference to a “golden ring” resonated with Republican partisans committed to adopting gold as the lone standard for redeeming money in the United States. (Democrats were uniting behind an alternate platform of “free silver.”) The novelty of a rabbi delivering the opening prayer of the convention combined with this advocacy inspired antisemitic conspiracists among the “silverists” who denounced Sale and the Republicans as tools of Baron Rothschild. The following is excerpted from “After the Convention” in <tei:hi rend="italic">The New York Times</tei:hi> (21 June 1896), page 2:</tei:p>
+        <tei:p>Some of the current newspaper history compels the conclusion that the campaign in silver communities is to be one of many roorbacks. Prejudice against all men who deal with money and credit as if they were commodities, is likely to be fostered by a little paragraph in to-day’s St. Louis Republic purporting to be an explanation of the selection of Rabbi Sale to be the prayermaker for the opening of the convention. A delegate named Burchell, from Colorado, who participated with Mr. Teller in the bolt, is reported as having seen a telegram from Baron Rothschild, in London, to Chairman Carter asking that a Hebrew be chosen to deliver the opening prayer.</tei:p>
+        <tei:p>The cable dispatch could not be found later on, for the man who showed it was unknown, but all the silver men are said to have heard the story about it, and even the very particular and circumstantial report that the Rothschilds were following the convention so closely that they know it to be the practice to open with prayer, and that the prayer time had arrived, This story, of course, belittles the theory that a Hebrew was chosen to avoid offense to the A.P.A., but does not account for Carter’s mistake in choosing a Democrat instead of a Republican Hebrew, nor does it palliate the Rabbi’s remarks about the “golden” message of the convention to the country.</tei:p>
+        <tei:p>For the story behind Rabbi Sale’s selection, find this 2012 article by Dr. Jonathan Sarna at the Forward.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56044_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:invocation_sale"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

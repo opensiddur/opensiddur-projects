@@ -1,0 +1,77 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּחִנָה זאָגט מען װען מען בּײַסט אָפּ דעם פִּטוּם פוּן דעם אֶתְרוֹג</tei:title>
+        <tei:title type="main" xml:lang="en">Tkhine for when biting the pitom from the etrog (Siddur Ḳorban Minḥah, 1861)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּחִנָה זאָגט מען װען מען בּײַסט אָפּ דעם פִּטוּם פוּן דעם אֶתְרוֹג</tei:title>
+          <tei:title xml:lang="en">Tkhine for when biting the pitom from the etrog (Siddur Ḳorban Minḥah, 1861)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Baruch Jean Thaler</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1861">1861</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=26937</tei:idno>
+          <tei:idno type="opensiddur.org">26937</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SiddurKorbanMinchah#page/n292/mode/2up">https://archive.org/stream/SiddurKorbanMinchah#page/n292/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: Etrog Teḥinot from Siddur Ḳorban Minḥah (Vilna 1861) <tei:ref target="https://opensiddur.org/wp-content/uploads/2019/09/Etrog-Tehinot-from-Siddur-Korban-Minchah-Vilna-1861.jpg">https://opensiddur.org/wp-content/uploads/2019/09/Etrog-Tehinot-from-Siddur-Korban-Minchah-Vilna-1861.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_26937_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>טעם שהאשה נושכת את הפיטם של האתרוג, מפני שאמרו ז״ל עץ שחטא בו אדם הראשון אתרוג היה, ע״כ נושכת את הפיטם כדי להראות כשם שאין לי שום הנאה בזאת הנשיכה, כך לא היה לי אז שום הנאה (ראיתי באיזה ספר)׃ — There is a custom for women to bite off the pitum of the Etrog. The reason is because our sages say that (according to one opinion) the forbidden fruit Adam and Ḥavah ate was an Etrog.<tei:anchor xml:id="note_1"/> Therefore she bites the Pitum in order to show that “just as I have no benefit/pleasure from biting a Pitum so too I had no benefit/pleasure from the sin” –Avraham Yitsḥaq Sperling (1851-1921), <tei:hi rend="italic">Taamei Minhagim</tei:hi> (pg. 521 paragraph 68)<tei:anchor xml:id="note_2"/></tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_26937_introduction"/>
+      <j:conditional xml:id="osp_26937_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This tkhine appears before Hallel in the Siddur Ḳorban Minḥah. Variations in the Yiddish spelling can be found in earlier and later editions of this siddur. Many thanks to Noam Sienna for highlighting this (in a Facebook post). The source from which the transcription was made was the 1897 edition of the Ḳorban Minḥah, however, it is found in earlier editions before Hallel as well. (Find the 1861 edition.) English translation by the inimitable Baruch Jean Thaler. (Thank you!)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_26937_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tkhine_for_when_biting_the_pitom_from_the_etrog"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>This opinion is cited in Bereshit Rabbah 15.7 — רַבִּי אַבָּא דְּעַכּוֹ אָמַר אֶתְרוֹג הָיָה, הֲדָא הוּא דִּכְתִיב (בראשית ג:ו): וַתֵּרֶא הָאִשָּׁה כִּי טוֹב הָעֵץ וגו׳, אֲמַרְתְּ צֵא וּרְאֵה אֵיזֶהוּ אִילָן שֶׁעֵצוֹ נֶאֱכָל כְּפִרְיוֹ, וְאֵין אַתָּה מוֹצֵא אֶלָּא אֶתְרוֹג. Rabbi Abba of Acco said: It was the etrog, as it is written: And when the woman saw that <tei:hi rend="italic">the tree</tei:hi> was good for food (Genesis 3:6). Consider: go forth and see, what tree is it whose wood can be eaten just like its fruit? and you find none but the etrog. (trans. <tei:hi rend="italic">Midrash Rabbah Genesis</tei:hi>, Soncino, p.123). Also find Sukkah 35a, the idea that “the etrog tree is the only tree in which the fruit and the tree taste the same.” Ramban connects the “pri ets <tei:hi rend="italic">hadar</tei:hi>” with the etrog via the Aramaic “<tei:hi rend="italic">rogeg</tei:hi>“, meaning “to desire”, as in Onkelos’ translation of ‘<tei:hi rend="italic">nehmad le’mareh</tei:hi>’ (דמרגג למיחזי, desirable to look upon, Gen. 2:9. Ramban also cites the Targum for Exodus 20:14, Deuteronomy 5:18, and Psalms 45:14). For more on the etrog as the fruit of the Ets haDaat, find Ari Z. Zivotofsky’s article, “What’s the Truth About... The Apple in the Garden of Eden?” (<tei:hi rend="italic">Jewish Action</tei:hi>, Summer 2017).</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>I am not certain as to the earliest attestation of this custom. If you know, please contact us or leave a comment. This practice should not be confused with the <tei:hi rend="italic">segula</tei:hi> for an easy childbirth effected through the eating of etrog jelly — a segula ascribed to Rabbi Rachamim Nissim Yitzchak Palagi (c. 1813-1907; Izmir, Turkey), son of the renowned Rabbi Chaim Palagi. –Aharon Varady (ed.)</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

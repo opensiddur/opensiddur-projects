@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברוכה הבאה</tei:title>
+        <tei:title type="main" xml:lang="en">Blessed be the newcomer! — a ceremony for the naming of a baby daughter by Joshua Gutoff (ca. 1989)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברוכה הבאה</tei:title>
+          <tei:title xml:lang="en">Blessed be the newcomer! — a ceremony for the naming of a baby daughter by Joshua Gutoff (ca. 1989)</tei:title>
+          <tei:author>Joshua Gutoff</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1989">1989</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24762</tei:idno>
+          <tei:idno type="opensiddur.org">24762</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24762_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>If you look at the liturgies of traditional life cycle rituals – brit milah, wedding, funeral – they’re remarkable for how little they speak to, or about, the actual person(s) involved. Many of the baby-naming ceremonies created over the past few decades have tried to remedy this, involving multiple blessings for the newborn girl. It struck me, though, that the lack of reference to the “lead character” in the classic ceremonies might actually be the point.</tei:p>
+        <tei:p>Think of how a b’rakhah works. When a Christian says Grace, it’s something like, “Bless this food to our use,” or “For what we are to receive make us truly grateful.” The prayer points to what’s about to be eaten: this food; these gifts. But a traditional b’rakhah is almost blind to the food on the table “Blessed are You...Who brings bread from the earth” – even though without the bread, this statement would be considered a blessing in vain. So: A Jewish blessing takes a phenomenon and, rather than talking about it directly, uses it as an opportunity to talk about the sacred. We may eat the food, but what we see is an example of God’s eternal bread-giving nature.</tei:p>
+        <tei:p>So, too, with the life-cycle rituals. Think of a wedding. When we look at the chuppah, the blessings invite us to see both a reminder of Eden and a trace of the redemption-to-come. A funeral invokes the idea of God’s ineffably just providence, and recasts our grief as part of a response to the cosmic rupture symbolized by the Destruction of the Temple. And in a Brit Milah the circumcision of this particular baby is a reminder of God’s initial covenant with Abraham (“The blessed Holy One said to Abraham our father, ‘Walk before Me and be perfect”), the Exodus (“I passed over you and saw you weltering in your blood, and said, ‘In your blood may you live'” – understood by the midrash to refer to the bloods of both the first Passover offering and circumcision, and, in its invocation of Elijah, the redemption yet to be.</tei:p>
+        <tei:p>What I wanted was a baby-naming ceremony that did similar work; that is, that recasts the naming as a microcosm of events in sacred history. And in fact naming in Torah has both covenantal and redemptive significance. The reference to the “garments of triumph” and “robe of victory” in the Isaiah passage naturally suggested wrapping the child in a tallit as a transitional event that might otherwise be lacking.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24762_introduction"/>
+      <j:conditional xml:id="osp_24762_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Ceremony created by Joshua Gutoff who adds, “I put this together in 1989 or early 1990 in Leominster, MA.” I have added Hebrew verses and citations opposite Rabbi Dr. Gutoff’s English. I have hebraicized divine names in Dr. Gutoff’s translation (for example, replacing YHVH for “the Lord”). Some Hebrew remains unvocalized. (Please contribute vocalization in the comments.) –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24762_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:blessed_be_the_newcomer_gutoff"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

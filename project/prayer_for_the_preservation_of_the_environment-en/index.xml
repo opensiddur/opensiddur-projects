@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לְמַעַן תֵּבֵל וּמְלוֹאָהּ</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Preservation of the Environment, by Richard Shavei-Tzion</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לְמַעַן תֵּבֵל וּמְלוֹאָהּ</tei:title>
+          <tei:title xml:lang="en">Prayer for the Preservation of the Environment, by Richard Shavei-Tzion</tei:title>
+          <tei:author>Richard Shavei-Tzion</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-06-29">2019-06-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=25863</tei:idno>
+          <tei:idno type="opensiddur.org">25863</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_25863_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>At this time when mankind is wreaking havoc on our Eco-System, we pray to God to preserve the treasure that is the earth and to grant us the wisdom to make pro-active efforts to protect it for the sake of our future generations and all which dwell upon it.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_25863_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_preservation_of_the_environment_shavei_tzion"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

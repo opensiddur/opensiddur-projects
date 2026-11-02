@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the United States on Thanksgiving Day after the Assassination of President James A. Garfield, by Rabbi Sabato Morais (24 November 1881)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the United States on Thanksgiving Day after the Assassination of President James A. Garfield, by Rabbi Sabato Morais (24 November 1881)</tei:title>
+          <tei:author>Sabato Morais</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1881-11-24">1881-11-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45608</tei:idno>
+          <tei:idno type="opensiddur.org">45608</tei:idno>
+          <tei:note>Source: Prayer (Sabato Morais, Ledger p. 234, clip no. 414) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/Prayer-Sabato-Morais-Ledger-p.-234-clip-no.-414.png">https://opensiddur.org/wp-content/uploads/2022/07/Prayer-Sabato-Morais-Ledger-p.-234-clip-no.-414.png</tei:ref></tei:note>
+          <tei:note>Source: The Day in the Synagogue (Sabato Morais Ledger p. 234, clip no. 413) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/07/The-Day-in-the-Synagogue-Sabato-Morais-Ledger-p.-234-clip-no.-413.png">https://opensiddur.org/wp-content/uploads/2022/07/The-Day-in-the-Synagogue-Sabato-Morais-Ledger-p.-234-clip-no.-413.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45608_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the government by Rabbi Sabato Morais, preserved in an undated newspaper clipping from an unknown newspaper, was offered on Thanksgiving Day (24 November) in 1881. It was preserved by Rabbi Sabato Morais in his ledger (p. 234, clipping 414), an archive of newsclippings recording material he contributed to the press, among other announcements. (Many thanks to the Library of the University of Pennsylvania for helping to make this resource accessible.) We were able to date the prayer from the context offered by surrounding clippings that detailed the circumstances in which the prayer was given. Another clipping provided an outline of the sixty-first annual meeting of the Female Hebrew Benevolent Society (founded 1820, thus giving the date of 1881). With that date likely, references to activities in surrounding clippings began to make sense, especially the attention given to the relief work that year of the Alliance Israélite Universelle in eastern Europe. The Kiev pogrom of 1881 began during the spring that year. In the prayer itself, the year 1881 provides the necessary context for understanding Rabbi Morais’s references to the “hour of peril” and “the stability of the government” — the mortal injury to President James A. Garfield shot that summer and who died that fall. When this prayer was offered, Chester A. Arthur, was president of the United States. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45608_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_united_states_on_thanksgiving_day_after_morais"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

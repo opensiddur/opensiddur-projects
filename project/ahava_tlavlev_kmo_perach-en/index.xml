@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַהֲבָה תְּלַבְלֵב כְּמוֹ־פֶֽרַח</tei:title>
+        <tei:title type="main" xml:lang="en">Ahava T'lavlev K'mo Peraḥ (Love blossoms like a flower) — a yotser for Tu b'Av by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַהֲבָה תְּלַבְלֵב כְּמוֹ־פֶֽרַח</tei:title>
+          <tei:title xml:lang="en">Ahava T'lavlev K'mo Peraḥ (Love blossoms like a flower) — a yotser for Tu b'Av by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-08-18">2024-08-18</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57621</tei:idno>
+          <tei:idno type="opensiddur.org">57621</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57621_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A yotser for Tu b’Av, the first part of an intended cycle of yotsrot. A retelling of the list of reasons for Tu b’Av given in the Talmud, with repeated refrains from Psalm 45 for the alphabetical verses and the rest of the Tanakh for the name-acrostic choruses. Written in honor of my friend Eliran’s wedding.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” This translation also uses the plural pronoun <j:divineName>They</j:divineName> to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to <j:divineName>God</j:divineName>.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57621_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ahava_telavlev_kemo_perach_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

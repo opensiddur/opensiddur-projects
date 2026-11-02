@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer on the Jubilee of Her Gracious Majesty Queen Victoria, by Rabbi Dr. Nathan Marcus Adler (21 June 1887)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer on the Jubilee of Her Gracious Majesty Queen Victoria, by Rabbi Dr. Nathan Marcus Adler (21 June 1887)</tei:title>
+          <tei:author>Nathan Marcus Adler</tei:author>
+          <tei:author>Office of the Chief Rabbi of the United Hebrew Congregations</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1887-06-21">1887-06-21</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51482</tei:idno>
+          <tei:idno type="opensiddur.org">51482</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/great-synagogue-london-jubilee-service-for-queen-victoria-united-synagogue-1887/Great%20Synagogue%20London%20Jubilee%20Service%20%5Bfor%20Queen%20Victoria%5D%20%28United%20Synagogue%201887%29#page/n5/mode/2up">https://archive.org/stream/great-synagogue-london-jubilee-service-for-queen-victoria-united-synagogue-1887/Great%20Synagogue%20London%20Jubilee%20Service%20%5Bfor%20Queen%20Victoria%5D%20%28United%20Synagogue%201887%29#page/n5/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51482_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by chief rabbi of the United Hebrew Congregations of the British Empire Nathan Marcus Adler is found in an order of service prepared for the celebration of Queen Victoria’s jubilee in 1887. Many thanks to Shufra Judaica (Elli Fischer and David Selis) for contributing the page images of the prayer pamphlet from which our transcription was derived.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51482_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_on_the_jubilee_of_her_gracious_majesty_queen_victoria_adler"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">סדר ספירת הין</tei:title>
+        <tei:title type="main" xml:lang="en">Order of the Counting of the Hin (in a parallel universe), by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">סדר ספירת הין</tei:title>
+          <tei:title xml:lang="en">Order of the Counting of the Hin (in a parallel universe), by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2022-06-06">2022-06-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44848</tei:idno>
+          <tei:idno type="opensiddur.org">44848</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44848_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Scene: the Technion Institute, midnight. A physics graduate student accidentally opens a portal to another timeline. The portal remains open just long enough for someone on the other side to pass a siddur through. Mostly the siddur looks very familiar, but there are a few things odd about it.</tei:p>
+        <tei:p>The following is the first of several uploads the editor is planning that reflect this parallel universe, wherein all Judaism is conducted according to the rabbinic norms of our universe, except for two things. Firstly, the festivals of wine-offering and wood-offering as described in the Temple Scroll of Qumran were included as part of scripture. And secondly, the custom of writing the Tetragrammaton in Paleo-Hebrew is preserved.</tei:p>
+        <tei:p>Anyway this is a count of the fifty days after the wine-offering festival, in which the new oil is gathered from the tribes of Israel to the Temple. The instructions say only half a hin of oil per tribe, which suggests that by “tribe” something more akin to “family group” is meant, since a total of six hin wouldn’t be enough for the Temple to function.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44848_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:order_of_the_counting_of_the_hin_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

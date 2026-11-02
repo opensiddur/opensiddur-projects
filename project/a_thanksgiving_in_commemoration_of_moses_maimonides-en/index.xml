@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מזמור לתודה לכבוד משה איש האלהים</tei:title>
+        <tei:title type="main" xml:lang="en">A Thanksgiving in Commemoration of Moses Maimonides, an octocentennial prayer by Ḥakham Shem Tov Gaguine (Bevis Marks Synagogue, 27 May 1935)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מזמור לתודה לכבוד משה איש האלהים</tei:title>
+          <tei:title xml:lang="en">A Thanksgiving in Commemoration of Moses Maimonides, an octocentennial prayer by Ḥakham Shem Tov Gaguine (Bevis Marks Synagogue, 27 May 1935)</tei:title>
+          <tei:author>Shem Tov Gaguine</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1935-05-27">1935-05-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51496</tei:idno>
+          <tei:idno type="opensiddur.org">51496</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/service-to-commemorate-the-800th-anniversary-of-rambams-birth-bevis-marks-1935/Service%20to%20Commemorate%20the%20800th%20Anniversary%20of%20Rambam%27s%20birth%20%28Bevis%20Marks%201935%29#page/n27/mode/2up">https://archive.org/stream/service-to-commemorate-the-800th-anniversary-of-rambams-birth-bevis-marks-1935/Service%20to%20Commemorate%20the%20800th%20Anniversary%20of%20Rambam%27s%20birth%20%28Bevis%20Marks%201935%29#page/n27/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51496_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Thanksgiving in Commemoration of Moses Maimonides” with its accompanying <tei:hi rend="italic">Hashkabah</tei:hi> is found in the <tei:hi rend="italic">Service of Praise and Thanksgiving to Commemorate the 800th Anniversary of the Birth of Moses Maimonides</tei:hi> prepared by Bevis Marks Synagogue in London on 27 May 1935. We have been unable to determine the author of this prayer. Many thanks to Simon Montagu for identifying the author of this prayer as Ḥakham Shem Tov Gaguine as attested here.</tei:p>
+        <tei:p>Many thanks to Shufra Judaica (Elli Fischer and David Selis) for providing the page images used for deriving this transcription.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51496_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_thanksgiving_in_commemoration_of_moses_maimonides_gaguine"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

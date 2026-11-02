@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַזְכִּיר מַעֲשֵׂה ה׳</tei:title>
+        <tei:title type="main" xml:lang="en">Azkir Ma'aseh Hashem — a Purim Sheni piyyuṭ of Tripoli for the Shabbat preceding the 29 of Tevet, by Avraham Khalfon</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַזְכִּיר מַעֲשֵׂה ה׳</tei:title>
+          <tei:title xml:lang="en">Azkir Ma'aseh Hashem — a Purim Sheni piyyuṭ of Tripoli for the Shabbat preceding the 29 of Tevet, by Avraham Khalfon</tei:title>
+          <tei:author>Avraham Khalfon</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1801" to="1839">1801 – 1839</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53844</tei:idno>
+          <tei:idno type="opensiddur.org">53844</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53844_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Combining the candy and costumes of Halloween, the plays and parades of Mardi Gras, the mischief and masquerades of April Fools’ Day, and more booze than you can wobble your fist at, Purim is surely one-of-a-kind. Or is it? In fact, there is an ancient custom around the Jewish world to establish and celebrate “Second Purims” in honor of community redemptions or family celebrations. These would often incorporate feasting, celebration, and even the reading of a new Megillah specifically written in honor of the specific miracle!</tei:p>
+        <tei:p>In North Africa, a unique custom developed of reciting a Mi Khamokha v-Ein Kamokha piyyut, inspired by the famed Shabbat Zakhor work of Yehuda haLevi (found here), on the Shabbat before a local Purim. This piyyut, written by R. Avraham ben Rafael Khalfon, was recited on the Shabbat before 29 Tevet in the community of Tripoli, to celebrate the victory of the Karamanlid dynasty over the despotic usurper Ali Burghul (after events transpiring from 1793-1804). The editor found this piyyut in Ephraim Hazan’s work “Mi Khamokha — Piyyutim of Local Miracles and Redemption in North African Communities,”<tei:anchor xml:id="note_1"/> but as far as he is aware this is the first ever translation into English.</tei:p>
+        <tei:p>Note: “<j:divineName>the CAUSE</j:divineName>” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.” This translation also uses the plural pronoun to refer to God as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of God being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to God.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53844_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:azkir_maaseh_hashem_khalfon"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>חזן, אפרים ורחל חיטין־משיח. מי כמוך – פיוטים על נס והצלה מקומיים בקהילות צפון אפריקה. מוסד ביאליק. בער שבע, תשע״ג.‏</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

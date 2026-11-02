@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֲדוֹן עוֹלָם (מנהג הספרדים)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Adōn Olam (rhyming translation by David de Aaron de Sola, 1836)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֲדוֹן עוֹלָם (מנהג הספרדים)‏</tei:title>
+          <tei:title xml:lang="en">Adōn Olam (rhyming translation by David de Aaron de Sola, 1836)</tei:title>
+          <tei:author>Shlomo ibn Gabirol</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>David de Aaron de Sola</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1040" to="1100">1040 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51563</tei:idno>
+          <tei:idno type="opensiddur.org">51563</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sederhatefilotvol1dailyandoccasionalprayersmosesgaster1901/sederhatefilotvol1dailyandoccasionalprayersmosesgaster1901#page/74/mode/2up">https://archive.org/stream/sederhatefilotvol1dailyandoccasionalprayersmosesgaster1901/sederhatefilotvol1dailyandoccasionalprayersmosesgaster1901#page/74/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51563_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p><tei:hi rend="italic">Adon Olam</tei:hi> is a piyyut that became popular in the 15th century and is often attributed to Solomon ibn Gabirol (1021–1058) and less often to Sherira Gaon (900-1001), or his son, Hai ben Sherira Gaon (939-1038). The variation of the piyyut appearing here is the 12 line version familiar to Sepharadi congregations. (There are also fifteen and sixteen line variants found in Sepharadi siddurim. The Ashkenazi version has ten lines.) The rhyming translation here by David de Aaron de Sola was transcribed from his prayerbook <tei:hi rend="italic">Seder haTefilot vol. 1</tei:hi> (1836), p. 122.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51563_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam_gabirol_51563"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

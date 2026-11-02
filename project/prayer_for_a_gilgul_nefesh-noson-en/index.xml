@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ליקוטי תפילות א:לז</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for a Gilgul Nefesh (Liqutei Tefilot I:37), adapted from the teachings of Rebbe Naḥman by Noson Sternhartz of Nemyriv (ca. 1820s)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ליקוטי תפילות א:לז</tei:title>
+          <tei:title xml:lang="en">Prayer for a Gilgul Nefesh (Liqutei Tefilot I:37), adapted from the teachings of Rebbe Naḥman by Noson Sternhartz of Nemyriv (ca. 1820s)</tei:title>
+          <tei:author>Noson Sternhartz of Nemyriv</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1820" to="1829">1820 – 1829</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=19927</tei:idno>
+          <tei:idno type="opensiddur.org">19927</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/liquteitefilotnathansternhartzofnemirovjerusalem1943#page/n180/mode/2up">https://archive.org/stream/liquteitefilotnathansternhartzofnemirovjerusalem1943#page/n180/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_19927_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Reb Noson’s Liqutei Tefillot I:37 was first translated to English and published by Avraham Greenbaum in <tei:hi rend="italic">The Fiftieth Gate Volume 2: Prayers 21-40</tei:hi> (Breslov Research Insitute 1992). Greenbaum is a far better translator than I, but his style sometimes abridges the text and in some case omits important phrases. I have attempted to correct passages omitted from his translation by first setting down the entire text opposite his translation, adding all citation references, and making additional changes. Lacunae still remain, so please if you can, help to make a more complete translation of this prayer.</tei:p>
+        <tei:p>This prayer is tagged with our “problematic prayers” tag since it contains curses that we believe should be contextualized within the anti-Enlightenment and reactionary currents of 19th century Jewry. Amidst these anxieties is an admonishment on gazing at women which may be misapplied, we believe, to the repression of women visible in the public sphere. We share this prayer for historical interest and the possibility of revision through adaptive reuse.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_19927_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_a_gilgul_nefesh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

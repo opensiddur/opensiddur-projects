@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Jacob Voorsanger on 30 June 1898 (fragment)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Jacob Voorsanger on 30 June 1898 (fragment)</tei:title>
+          <tei:author>Jacob Voorsanger</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1898-06-30">1898-06-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=67427</tei:idno>
+          <tei:idno type="opensiddur.org">67427</tei:idno>
+          <tei:note>Source: Rabbi Jacob Voorsanger’s Prayer before the US Senate (NY Times, 1 July 1898), p. 4 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/04/rabbi-voorsangers-prayer-ny-times-1-july-1898-p--4.png">https://opensiddur.org/wp-content/uploads/2026/04/rabbi-voorsangers-prayer-ny-times-1-july-1898-p--4.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_67427_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a fragment of a prayer offered before the United States Senate on 30 June 1898 by Rabbi Jacob Voorsanger, rabbi of Temple Emanuel and professor of Semitic Languages at the University of California, San Francisco. Before 1904, prayers offered by guest chaplains were rarely recorded. Full records of these prayers in both Jewish newspapers and newspaper for a wide audience is spotty. Hopefully, a full record of the entire prayer by Rabbi Voorsanger survives... somewhere. If you have seen a more complete record of the prayer, please leave a comment or contact us.</tei:p>
+        <tei:p>The prayer was offered by Rabbi Voorsanger as part of his travels centered on his attendance at the Central Conference American Rabbis the following week. In a dispatch in the <tei:hi rend="italic">Emanu-El</tei:hi> (v.6, n.9, 15 July 1898) on July 4th, he included this anecdote on the heat of the capitol that day in the Sentate: “Last Thursday morning, sitting in the Senate of the United States with Governor Perkins, I saw that august body mopping its august brow, and quaffing ice water in a temperature that would never stop rising, and I felt some gratitude that I could rush out, whilst the Governor was compelled to stay to listen to Bate of Tennessee 1 Senator Perkins is a hero.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_67427_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_voorsanger"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

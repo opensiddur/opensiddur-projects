@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Yosef Greenberg on 3 February 2016</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Yosef Greenberg on 3 February 2016</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Yosef Greenberg</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2016-02-03">2016-02-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20402</tei:idno>
+          <tei:idno type="opensiddur.org">20402</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.youtube.com/embed/wpuCxE84LNw?feature=oembed">https://www.youtube.com/embed/wpuCxE84LNw?feature=oembed</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2016/02/03/CREC-2016-02-03-pt1-PgS531-2.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2016/02/03/CREC-2016-02-03-pt1-PgS531-2.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20402_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Welcoming the Guest Chaplain:</tei:p>
+        <tei:p>Ms. MURKOWSKI. Mr. President, I thank the minority leader, and I rise this morning to thank and to welcome Rabbi Yosef Greenberg from Anchorage, AK, who was introduced by the President pro tempore, the Senator from Utah.</tei:p>
+        <tei:p>This Senator thinks it is important to appreciate and realize that today there is a little bit of history being made. It is the first time we have had a rabbi from the State of Alaska who has been willing and able to provide the morning prayer before the Senate.</tei:p>
+        <tei:p>The rabbi has led our State for two decades, beginning in 1991, not only leading a small but vibrant Jewish community across the State but also reminding us of the significance of the Jewish culture, the Jewish history, not only to Alaska but throughout the Nation. He has been instrumental in the building of the Jewish cultural center and a museum that recognizes that history and culture. Every year he is truly a leader in the broader community within Anchorage as he brings together people from all faiths at the Jewish Cultural Gala, which is probably one of our more preeminent social gatherings and which is for a good cause.</tei:p>
+        <tei:p>The leadership of Rabbi Greenberg is not only strong and recognized within the Jewish community but across all faiths within our very broad and inclusive State of Alaska. It is indeed a pleasure to be able to listen to his words, reflect on his words, and thank him for his leadership in my State.</tei:p>
+        <tei:p>With that, Mr. President, I yield the floor, and I thank the leaders.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20402_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_the_20402"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

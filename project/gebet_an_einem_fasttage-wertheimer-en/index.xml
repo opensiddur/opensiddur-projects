@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet an einem Fasttage</tei:title>
+        <tei:title type="alt" xml:lang="he">Prayer on a Public Fast Day (תַּעֲנִית צִבּוּר), a teḥinah by Dr. Meïr Letteris (1846)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet an einem Fasttage</tei:title>
+          <tei:title xml:lang="he">Prayer on a Public Fast Day (תַּעֲנִית צִבּוּר), a teḥinah by Dr. Meïr Letteris (1846)</tei:title>
+          <tei:author>Meïr haLevi Letteris</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Miriam Wertheimer</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1846">1846</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41419</tei:idno>
+          <tei:idno type="opensiddur.org">41419</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/devotionalexerci00wessiala/devotionalexerci00wessiala#page/18/mode/2up">https://archive.org/stream/devotionalexerci00wessiala/devotionalexerci00wessiala#page/18/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%29#page/24/mode/2up">https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%29#page/24/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846-judeo-german/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%2C%20Judeo-German%29#page/n32/mode/2up">https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846-judeo-german/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%2C%20Judeo-German%29#page/n32/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41419_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Gebet an einem Fasttage. תַּעֲנִית צִבּוּר” was written by Meir Letteris and published in his anthology of teḥinot, תחנוני בת יהודה (Taḥnunei bat Yehudah) <tei:hi rend="italic">Andachtsbuch für israelitische Frauenzimmer...</tei:hi>. In the 1846 printing, it appears on pp. 25-26.</tei:p>
+        <tei:p>The translation here by Miriam Wertheimer, “Prayer for a Fast-Day” is as published in <tei:hi rend="italic">Devotional Exercises for the Use of Jewish Women on Public and Domestic Occasions</tei:hi> (1852), pp. 19-21.</tei:p>
+        <tei:p>An emended translation of this prayer was also made by Rabbi Morris Jacob Raphall in his anthology of teḥinot, רחמה <tei:hi rend="italic">Devotional Exercises for the Use of the Daughters of Israel</tei:hi> (New York: Joachimssen, 1852), pp. 42-43.</tei:p>
+        <tei:p>This transcription was derived by correcting the output of Tesseract-OCR with its Fraktur script training data. The other translation presented here was derived by running this transcription through the translation tools of DeepL and Google and proofreading the output. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41419_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_an_einem_fasttage_letteris"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

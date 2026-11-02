@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Claudio Kogan on 10 June 2015</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Claudio Kogan on 10 June 2015</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Claudio Kogan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-06-10">2015-06-10</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20406</tei:idno>
+          <tei:idno type="opensiddur.org">20406</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4540543/rabbi-claudio-kogan-temple-emanuel-mcallen-tx">https://www.c-span.org/video/standalone/?c4540543/rabbi-claudio-kogan-temple-emanuel-mcallen-tx</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2015/06/10/CREC-2015-06-10-pt1-PgH4015-3.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2015/06/10/CREC-2015-06-10-pt1-PgH4015-3.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20406_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Claudio Kogan, Temple Emanuel, McAllen, TX</tei:p>
+        <tei:p>Sponsor: Rep. Ruben Hinojosa, (D-TX)</tei:p>
+        <tei:p>Date of Prayer: 06/10/2015</tei:p>
+        <tei:p>Mr. HINOJOSA. Mr. Speaker, I rise today to recognize Rabbi Claudio Kogan from Temple Emanuel in McAllen, Texas, for his service today as guest chaplain.</tei:p>
+        <tei:p>A native of Argentina, Rabbi Kogan and his wife, Anna, immigrated to the United States where he continued his studies, receiving several master’s degrees.</tei:p>
+        <tei:p>Rabbi Kogan has served congregations all over the United States. He has worked to develop a strong interfaith connection with his Christian and Muslim counterparts. He has received numerous awards for his essays on religion and ethics.</tei:p>
+        <tei:p>In addition to his rabbinical duties, Rabbi Kogan is also a medical doctor. He has been a high school teacher in Cincinnati, Ohio, and has combined his religious and medical training by serving as a hospital chaplain at a variety of institutions.</tei:p>
+        <tei:p>Rabbi Kogan is joined here today by his lovely wife, Anna, and his two beautiful children, Milena and Ezekiel.</tei:p>
+        <tei:p>I want to thank him for his prayer and for his service to my community.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20406_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_20406"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

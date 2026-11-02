@@ -1,0 +1,45 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">שִׁירַת הַדֶּרֶךְ הָרְחָבָה</tei:title>
+        <tei:title type="alt" xml:lang="en">Song of the Open Road, by Walt Whitman (1856), Hebrew translation by Shimon Halkin (1952)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שִׁירַת הַדֶּרֶךְ הָרְחָבָה</tei:title>
+          <tei:title xml:lang="en">Song of the Open Road, by Walt Whitman (1856), Hebrew translation by Shimon Halkin (1952)</tei:title>
+          <tei:author>Walt Whitman</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Shimon Halkin</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1856">1856</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36565</tei:idno>
+          <tei:idno type="opensiddur.org">36565</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/wwleavesgrass00whitrich#page/n209/mode/2up">https://archive.org/stream/wwleavesgrass00whitrich#page/n209/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:song_of_the_open_road_whitman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

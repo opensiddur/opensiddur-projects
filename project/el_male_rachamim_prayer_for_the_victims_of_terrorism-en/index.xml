@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אל מלא רחמים לזכר הנרצחים</tei:title>
+        <tei:title type="main" xml:lang="en">El Malé Raḥamim Prayer for the Victims of Terrorism in the Land of Israel</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אל מלא רחמים לזכר הנרצחים</tei:title>
+          <tei:title xml:lang="en">El Malé Raḥamim Prayer for the Victims of Terrorism in the Land of Israel</tei:title>
+          <tei:author>R' Hillel Ḥayyim Lavery-Yisraëli</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1940" to="2000">1940 – 2000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53087</tei:idno>
+          <tei:idno type="opensiddur.org">53087</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/prayers-for-israel-hillel-hayyim-lavery-yisraeli-2023/Prayers%20for%20Israel%20for%20Protection%20from%20Terror%20Attacks%20and%20in%20Memory%20of%20the%20Victims%20%28Hillel%20Hayyim%20Lavery-Yisraeli%202023%29#page/n11/mode/2up">https://archive.org/stream/prayers-for-israel-hillel-hayyim-lavery-yisraeli-2023/Prayers%20for%20Israel%20for%20Protection%20from%20Terror%20Attacks%20and%20in%20Memory%20of%20the%20Victims%20%28Hillel%20Hayyim%20Lavery-Yisraeli%202023%29#page/n11/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53087_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>An El Malé Raḥamim prayer for Victims of Terror in Erets Yisrael, with an English translation by Rabbi Hillel Ḥayyim Lavery-Yisraeli from <tei:hi rend="italic">Prayers for Israel, for Protection from Terror Attacks, and In Memory of the Victims</tei:hi> (15 October 2023), page 6. The girsah of the prayer appearing here was slightly adapted from the version found at Hebrew Wikipedia’s article on Yom haZikaron. We are uncertain as to the origins and original author of this adaptation of El Malé Raḥamim — if you know, please leave a comment (or contact us).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53087_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_male_rachamim_prayer_for_the_victims_of_terrorism_lavery_yisraeli"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

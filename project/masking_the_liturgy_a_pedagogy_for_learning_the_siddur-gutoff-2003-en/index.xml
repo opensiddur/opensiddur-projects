@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Masking the Liturgy: a pedagogy for learning the Siddur, by Rabbi Dr. Joshua Gutoff (2003)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Masking the Liturgy: a pedagogy for learning the Siddur, by Rabbi Dr. Joshua Gutoff (2003)</tei:title>
+          <tei:author>Joshua Gutoff</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2003">2003</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=11812</tei:idno>
+          <tei:idno type="opensiddur.org">11812</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_11812_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Originally published in <tei:hi rend="italic">Gleanings: A digest of Jewish educational thought and practice</tei:hi>, (Davidson School/Jewish Theological Seminary of America, 2003). The image illustrating this post was chosen by Aharon Varady from the Bird’s Head Haggadah (ca. 1300, Ashkenaz) following Dr. Marc Epstein’s interpretation of the chimerical representations of the Jews to be that of griffins, in honor of the inner quality of the martyrs of the Rhineland massacres of those Jews during the first Crusades (1096 CE.), as explained in this lecture.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_11812_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:masking_the_liturgy_a_pedagogy_for_learning_the_siddur_gutoff"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

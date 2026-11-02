@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלַּת הַדֶּרֶךְ לַנְּשָׁמָה שֶׁיָּצְאָה אֶל אוֹר הָאֵינְסוֹף</tei:title>
+        <tei:title type="main" xml:lang="en">Tefilat haDerekh for the Soul Journeying to the Infinite, by Limor Rubin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלַּת הַדֶּרֶךְ לַנְּשָׁמָה שֶׁיָּצְאָה אֶל אוֹר הָאֵינְסוֹף</tei:title>
+          <tei:title xml:lang="en">Tefilat haDerekh for the Soul Journeying to the Infinite, by Limor Rubin</tei:title>
+          <tei:author>Limor Rubin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-04-20">2025-04-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61511</tei:idno>
+          <tei:idno type="opensiddur.org">61511</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61511_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>לקראת ימי הזכרון הבאים עלינו שהם ימי הגעגוע וימי השאלות על משמעות החיים על הכדור הזה ועל משמעות סיומם, משתפת בתפילה שכתבתי לבקשת ניקי, בת משפחה שלנו, שאיבדה את אחותה היחידה אנדי למחלת נוירולוגית נדירה בגיל צעיר כל כך (58). את התפילה הזו תרגמנו גם לאנגלית והיא הוקראה במלבורן אוסטרליה בטקס הלוויה. במהלך השבעה רב הקהילה ביקש רשות להקריא אותה בעוד לוויות, ומאז היא כבר מתגלגלת לה ואני שמחה שהיא מנחמת עוד ועוד משפחות. אני משחררת אותה גם כאן בישראל ומקדישה אותה לכל הנשמות הטובות כל כך שהחליטו ולשמור עלינו ממימד אחר, ולקרובים האוהבים שנשארו להתגעגע ולתקן את העולם מבפנים:</tei:p>
+        <tei:p>In preparation for the coming days of Remembrance, which are the days of longing and questions about the meaning of life on this planet and the meaning of its end, I share in a prayer I wrote at the request of Nikki, a member of our family, who lost her only sister, Andy, to a rare neurological disease at such a young age (58). We also translated this prayer into English and it was recited in Melbourne, Australia, at a funeral service. During the shiva, the community rabbi asked for permission to recite it at more funerals, and since then it has been repeated and I am happy that it comforts more and more families. I am releasing it here in Israel as well and dedicating it to all the good souls who decided to watch over us from another dimension, and to the loving relatives who are left to miss and fix the world from within.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61511_introduction"/>
+      <j:conditional xml:id="osp_61511_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Prayer for the Soul Journeying to the Infinite” by Limor Rubin was first shared on her Facebook page on 20 April 2025, together with this adapted English translation.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61511_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_haderekh_for_the_soul_journeying_to_the_infinite_rubin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

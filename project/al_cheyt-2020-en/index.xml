@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Al Ḥeyt, a paraliturgical translation by Shelby Handler &amp; Maia Brown</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Al Ḥeyt, a paraliturgical translation by Shelby Handler &amp; Maia Brown</tei:title>
+          <tei:author>Shelby Handler</tei:author>
+          <tei:author>Maia Brown</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2020-09-24">2020-09-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=33768</tei:idno>
+          <tei:idno type="opensiddur.org">33768</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_33768_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Each year, we say this prayer. The congregation transforms into a flock of fists flapping into our chests, like a murmuration of birds all hitting a glass door at once, all of us desperately seeking an entrance into a new year, begging to be invited into the book of life.</tei:p>
+        <tei:p>This year and every year, we arrive at the gates of forgiveness as a we, as a squirming organism of humanness–fragile, flawed, alive, longing to change. Who is that we we may wonder now? It’s a we so wide all of our smaller we’s cannot even see its shifting edges.</tei:p>
+        <tei:p>We chant this litany of harms together, even if we did not commit each of the transgressions ourselves. We are declaring that we are in community with people who could possibly say these things in the “I.”</tei:p>
+        <tei:p>You don’t know who you’re saying it with, but you are saying it with them.</tei:p>
+        <tei:p>Every year, we must be in relationship to even approach forgiveness, to even imagine transformation, we have to practice solidarity, in all of its sacred discomfort.</tei:p>
+        <tei:p>This year, there is no more ignoring that we are inextricably linked to one another. The choices we make for ourselves are also choices made for our communities, even if we can’t see the droplet travel or the message carry.</tei:p>
+        <tei:p>This prayer is not a comprehensive list of every single sin we sinned, every error we erred, every mark we missed. The original Al Ḥeyt is intended to show us the roots of all failures, to dig beneath how we harm, to see where that hurt came from. We follow these trails together, not absolved from our own repairs, but never alone in struggles to uproot, to propagate new ways of being ourselves, new ways of being ourselves, of being together.</tei:p>
+        <tei:p>We can even examine the roots of the words themselves: the name of G-d invoked in this prayer means at its root “to join, to be connected.” When we petition G-d here, perhaps we are just praying to the divinity of we, towards our coursing luminous interconnectedness.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_33768_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_cheyt"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

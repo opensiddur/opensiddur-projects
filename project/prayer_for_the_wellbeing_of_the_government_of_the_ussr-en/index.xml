@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לִשְׁלוֹם הַמֶּמְשָׁלָה</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the Wellbeing of the Government of the USSR, by Rabbi Solomon Shleifer (Choral Synagogue, Moscow 1956)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לִשְׁלוֹם הַמֶּמְשָׁלָה</tei:title>
+          <tei:title xml:lang="en">Prayer for the Wellbeing of the Government of the USSR, by Rabbi Solomon Shleifer (Choral Synagogue, Moscow 1956)</tei:title>
+          <tei:author>Solomon Schleifer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1956">1956</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=40134</tei:idno>
+          <tei:idno type="opensiddur.org">40134</tei:idno>
+          <tei:note>Source: Siddur Hashalom – Prayer for the USSR (Solomon Schleifer 1956) – p.230 <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/Prayer-for-the-USSR-Solomon-Schliefer-1956-p.230.png">https://opensiddur.org/wp-content/uploads/2021/10/Prayer-for-the-USSR-Solomon-Schliefer-1956-p.230.png</tei:ref></tei:note>
+          <tei:note>Source: Siddur Hashalom – Prayer for the USSR (Solomon Schleifer 1956) – p.231 <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/Prayer-for-the-USSR-Solomon-Schliefer-1956-p.231.png">https://opensiddur.org/wp-content/uploads/2021/10/Prayer-for-the-USSR-Solomon-Schliefer-1956-p.231.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_40134_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The siddur that this prayer for the government is found in, <tei:hi rend="italic">Siddur haShalom</tei:hi> (1956) was published as a trade-off between the government and Solomon Schleifer, rabbi of the Choral Synagogue in Moscow (the largest synagogue in Moscow). Rabbi Schleifer supported the state’s anti-Israel Soviet declarations after the 1956 Sinai war and in return the Soviets allowed him to print the siddur. A second edition appeared in 1968 apparently a similar result of the 1967 Israeli war. (With gratitude to Eli Amsel for providing this context.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_40134_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_wellbeing_of_the_government_of_the_ussr_schleifer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">On the Decalogue, life wisdom for a Bnei Mitsvah by Rabbi Dr. Mordecai Kaplan (ca. 1920s)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">On the Decalogue, life wisdom for a Bnei Mitsvah by Rabbi Dr. Mordecai Kaplan (ca. 1920s)</tei:title>
+          <tei:author>Mordecai Kaplan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1920" to="1929">1920 – 1929</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=57591</tei:idno>
+          <tei:idno type="opensiddur.org">57591</tei:idno>
+          <tei:note>Source: [An application of the Decalogue] (Mordecai Kaplan, undated) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/08/an-application-of-the-decalogue-mordecai-kaplan-undated.jpg">https://opensiddur.org/wp-content/uploads/2024/08/an-application-of-the-decalogue-mordecai-kaplan-undated.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_57591_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a restatement of the Decalogue offered as life wisdom by Rabbi Dr. Mordecai Kaplan for his daughters, sometime in the 1920s, possibly as early as 1922 at the Bat Mitsvah of his oldest daughter Judith. The document was found by Mel Scult and shared by him from his Mordecai M. Kaplan group on Facebook.</tei:p>
+        <tei:p>Notably, the document only presents restatements of eight of the ten commandments, eliding the initial declaration, “I am YHVH your <tei:hi rend="italic">elo’ah</tei:hi>...” (counted as the first commandment in rabbinic Judaism) and the ninth commandment, forbidding bearing false witness. Possibly, to Rabbi Kaplan, the idea inherent in the ninth commandment was also contained in his commentary “On Faithfulness” (as arranged, a restatement of the commandment against Adultery). I have included the commandments in Hebrew and English translation and set them side-by-side with Kaplan’s commentary. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_57591_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:on_the_decalogue_kaplan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

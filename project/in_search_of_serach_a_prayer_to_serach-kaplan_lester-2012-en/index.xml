@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">In Search of Seraḥ: A Prayer to Seraḥ by Chaya Kaplan-Lester</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">In Search of Seraḥ: A Prayer to Seraḥ by Chaya Kaplan-Lester</tei:title>
+          <tei:author>Chaya Kaplan-Lester</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2012-01-13">2012-01-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=4279</tei:idno>
+          <tei:idno type="opensiddur.org">4279</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_4279_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>[In Parshat Vayigash] we read of the members of Jacob’s family who went down to Egypt. There were 53 grandsons listed, but only a single granddaughter – Seraḥ, the daughter of Asher. The commentators wonder, what was so exceptional about this girl that her name was recorded? The Midrash spills forth with stories portraying an image of a unique and endearing Biblical heroine. Seraḥ stands as a trusted, beloved sage of the people. She possessed an uncommon gift of healing through poetry and music. Somewhat as Orpheus is to Greek myth, so is Seraḥ to the Biblical myth – the archetypal poet and bard.</tei:p>
+        <tei:p>The Midrash on this week’s parsha tells of the brothers’ concern that their father Jacob would die from shock upon hearing the astounding news that his son Joseph was alive and well in Egypt. Their solution – to appoint Seraḥ to the task of sharing the news with him. In one version Seraḥ masterfully waits until Jacob is praying and then relays the news to him through the poetic form of three rhyming lines. In another rendering she sings the news to him gently and wondrously with a harp.</tei:p>
+        <tei:p>Both versions reveal a girl with psychological insight into just how to approach Jacob with the potentially lethal news. Seraḥ intuits how to tend to Jacob’s emotional wounds with song. Even though she was sharing a truth with him, sometimes the sharing of truth with someone can be even more shattering than a lie. Where the bald facts could have killed Jacob, Seraḥ’s simple almost child-like rhyme and song healed him, opening him to hope and possibility after decades of despair.</tei:p>
+        <tei:p>So what is it about song and rhyme which is able to impart such promise and soothe such wounds? Voltaire is famous for saying, “Anything too stupid to be spoken in words is sung.” And this might be true enough if one were to survey song lyrics for their intellectual content. But God forbid the purpose of music would be deliver intellectual points. No, the great gift of song rests in its stirring of sentiment, its arousal of spirit, its curative catharsis of emotions. Seraḥ, with her ample emotional intelligence and creativity knew how to utilize song, rhyme &amp; poetry for their subtle therapeutic properties.</tei:p>
+        <tei:p>May all of our artistic endeavors likewise access healing and inspiration, offering hope and the possibility of betterment in the face of any despair. The poem below is a prayer and request to Seraḥ to instruct us in how to do just that.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4279_introduction"/>
+      <j:conditional xml:id="osp_4279_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>We are grateful to Chaya Kaplan-Lester for graciously sharing her prayer to Seraḥ with a CC-BY-SA 3.0 Unported license, along with her d’var torah for the parsha Vayigash, first published in the Jerusalem Post.</tei:p>
+        <tei:p>Download: TXT | ODT</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4279_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:in_search_of_serach_a_prayer_to_serach_kaplan_lester"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה מאת הרב עדין שטײנזלץ</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer [in Response to Terror] by Rabbi Adin Even-Israel Steinsaltz</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה מאת הרב עדין שטײנזלץ</tei:title>
+          <tei:title xml:lang="en">A Prayer [in Response to Terror] by Rabbi Adin Even-Israel Steinsaltz</tei:title>
+          <tei:author>Adin Steinsaltz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018">2018</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52970</tei:idno>
+          <tei:idno type="opensiddur.org">52970</tei:idno>
+          <tei:note>Source: Prayer by Adin Steinsaltz (undated) – English <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/10/Prayer-by-Adin-Steinsaltz-undated-English.jpg">https://opensiddur.org/wp-content/uploads/2023/10/Prayer-by-Adin-Steinsaltz-undated-English.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52970_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an undated prayer written attributed to Rabbi Adin Steinsaltz (1937-2020) and shared via the Facebook page of Merkaz Steinsaltz (the Steinsaltz Center). The English translation (possibly also made by Rabbi Steinsaltz) was shared by the Center in a separate document. The earliest record I could locate of the prayer shows its dissemination via Arutz Sheva on 20 April 2020. Please leave a comment (or contact us) if you know the original context of this prayer’s composition.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52970_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_steinsaltz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Motzi, a kavvanah before eating ḥallah by Trisha Arlin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Motzi, a kavvanah before eating ḥallah by Trisha Arlin</tei:title>
+          <tei:author>Trisha Arlin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-05-22">2011-05-22</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=3256</tei:idno>
+          <tei:idno type="opensiddur.org">3256</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_3256_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Trisha Arlin shares “Motzi”, a <tei:hi rend="italic">kavvanah</tei:hi> (intention) for the blessing, <tei:hi rend="italic">Hamotsi Leḥem Min Ha’aretz</tei:hi>, over ḥallah. Describing the <tei:hi rend="italic">kavvanah</tei:hi> she writes that it’s based on Rabbi Ellen Lippmann’s tradition on having us create a chain of touch around room that leads to and from the ḥallah, which she then explains as both exemplifying the connection created when people eat together and the chain of work that went to creating the ḥallah itself. A less generic version of this <tei:hi rend="italic">motzi</tei:hi> was written for the service recently held in honor of the ordination of Cantor Lisa B. Segal and Rabbi Molly Kane.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_3256_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:motzi_arlin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

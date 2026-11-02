@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for Immigrant Justice at an Interfaith Vigil at the Broadview Detention Center, by Rabbi Brant Rosen (2008)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for Immigrant Justice at an Interfaith Vigil at the Broadview Detention Center, by Rabbi Brant Rosen (2008)</tei:title>
+          <tei:author>Brant Rosen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2008">2008</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=37400</tei:idno>
+          <tei:idno type="opensiddur.org">37400</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_37400_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Prayer for a Vigil at a Detention Center” was first published by Rabbi Brant Rosen on his blog on 20 June 2008 documenting the vigil at the Broadview Detention Center in Chicago. The Spanish translation by Gonzalo Escobar was published in “Interfaith Prayers for Immigrant Justice” (also on Rosen’s blog) on 2 September 2011, along with the following intentions:</tei:p>
+        <tei:p>We pray for those women and men being deported today form all detention centers in the country, especially the ones leaving today from 101 W. Congress.</tei:p>
+        <tei:p>We pray for families who have experienced the devastation of raids and deportations</tei:p>
+        <tei:p>For the children who have lost parents;</tei:p>
+        <tei:p>For the husbands and wives who were left alone to take care of their families;</tei:p>
+        <tei:p>For all undocumented people who experience fear and live in a state of uncertainty.</tei:p>
+        <tei:p>We pray that all those connected with the Department of Homeland Security treat our immigrant brothers and sisters with respect. We pray for ICE, Immigration and Customs Enforcement, and the staff of all detention centers in our country.</tei:p>
+        <tei:p>We pray for leaders in our country and leaders of all faiths that we may work together with a common wisdom to stop deportations and work toward compassionate immigration policies.</tei:p>
+        <tei:p>We pray that your spirit of goodness and love be a more powerful witness than the spirit of fear, hatred, and discrimination expressed in anti-immigrant legislation in the country.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37400_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_immigrant_justice_at_an_interfaith_vigil_rosen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שיר של מרים הנביאה</tei:title>
+        <tei:title type="main" xml:lang="en">The Song of Miriam, a petiḥah by Rabbi Ruth H. Sohn (1981)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שיר של מרים הנביאה</tei:title>
+          <tei:title xml:lang="en">The Song of Miriam, a petiḥah by Rabbi Ruth H. Sohn (1981)</tei:title>
+          <tei:author>Ruth H. Sohn</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1981">1981</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=15189</tei:idno>
+          <tei:idno type="opensiddur.org">15189</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_15189_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“The Song of Miriam” by Rabbi Ruth Sohn was first published as “I Shall Sing to the Lord a New Song,” in <tei:hi rend="italic">Kol Haneshamah: Shabbat Vehagim, Reconstructionist Prayerbook</tei:hi>, 1989, 1995 Second Edition. Reconstructionist Press, pp. 768-769. (This poem was also published in several haggadot and other books and set to music by several composers in the U.S. and Israel.) Rabbi Sohn wrote the poem in 1981 as a rabbinical student after immersing herself in the Torah verses and the traditional midrashim about Miriam, and after writing a longer modern midrash about Miriam. Part of this modern midrash was published as “Journeys,” in <tei:hi rend="italic">All the Women Followed Her</tei:hi>, ed. Rebecca Schwartz (Rikudei Miriam Press, 2001).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_15189_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:the_song_of_miriam_sohn"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

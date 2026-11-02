@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for the Government in honor of George Washington, First President of the United States of America by Ḳ.Ḳ. Beit Shalome (1789)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/abe-katz">Abe Katz</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for the Government in honor of George Washington, First President of the United States of America by Ḳ.Ḳ. Beit Shalome (1789)</tei:title>
+          <tei:author>Ḳ.Ḳ. Beit Shalome</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1789">1789</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=4518</tei:idno>
+          <tei:idno type="opensiddur.org">4518</tei:idno>
+          <tei:note>Source: Prayer for the United States government and George Washington by K.K. Beth Shalome, Richmond, Virginia (1789) ("1979.10.1 b , The Richmond Prayer" Courtesy of The National Museum of Jewish History). Image provided has been gamma corrected for heightened contrast. <tei:ref target="https://opensiddur.org/wp-content/uploads/2012/02/Prayer-for-the-United-States-government-and-George-Washington-1789.png">https://opensiddur.org/wp-content/uploads/2012/02/Prayer-for-the-United-States-government-and-George-Washington-1789.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_4518_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The above prayer for the government, quite possibly the first prayer composed for the nascent government of the United States of America,<tei:anchor xml:id="note_7"/> was written by Congregation Beth Shalome.<tei:anchor xml:id="note_8"/> in Richmond, Virginia in 1789. The original copy of this prayer is currently on display at the National Museum of American Jewish History, Philadelphia, Pennsylvania. (Much thanks to the museum for sharing a digital copy of the prayer for our transcription.) Please note the acrostic portion of the prayer in which the initial letters of the succeeding lines form the name: Washington.</tei:p>
+        <tei:p>Please visit Abe Katz’s excellent site, Beurei haTefila Institute, where he provides PDF sourcesheets of so many of his studies in <tei:hi rend="italic">tefillah</tei:hi>. Abe Katz’s translation of this prayer was first included in his sourcesheet, “Prayers for George Washington and Abraham Lincoln.” I have digitally transcribed the text in Unicode Hebrew, proofread his translation, and corrected a few errors that appeared in his sourcesheet [–Aharon Varady].</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4518_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_government_in_honor_of_george_washington_shalome"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="7" target="#note_7">
+      <tei:p>An earlier prayer for the welfare of the 13 States, New York Governor George Clinton (1777-1795), and General George Washington was read after the revolutionary war ended at K.K. Shearith Israel in 1784.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="8" target="#note_8">
+      <tei:p>Jews were already doing business in the Virginia Territory as early as 1650. By the 1760s they began to settle in Richmond and by 1790 Jewish residents numbered 100 citizens out of the 3700 citizens in the city. In 1789 a group of Jews established Kahal Kadosh Beth Shalome (The Holy Congregation, House of Peace), a Sepharadi congregation. It became the first congregation in Richmond and the sixth and westernmost Jewish congregation in the United States.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

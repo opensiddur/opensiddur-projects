@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Peace After War, by Norman Corwin (1945)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Peace After War, by Norman Corwin (1945)</tei:title>
+          <tei:author>Norman Corwin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1945">1945</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=37089</tei:idno>
+          <tei:idno type="opensiddur.org">37089</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-faith-of-america-readings-songs-and-prayers-for-the-celebration-of-american-holidays-1951/The%20Faith%20of%20America-%20Readings%2C%20Songs%2C%20and%20Prayers%20for%20the%20Celebration%20of%20American%20Holidays%20%28Mordecai%20Kaplan%2C%20J.%20Paul%20Williams%2C%20Eugene%20Kohn%201951%29#page/102/mode/2up">https://archive.org/stream/the-faith-of-america-readings-songs-and-prayers-for-the-celebration-of-american-holidays-1951/The%20Faith%20of%20America-%20Readings%2C%20Songs%2C%20and%20Prayers%20for%20the%20Celebration%20of%20American%20Holidays%20%28Mordecai%20Kaplan%2C%20J.%20Paul%20Williams%2C%20Eugene%20Kohn%201951%29#page/102/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_37089_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Prayer for Peace” by Norman Corwin was first published in <tei:hi rend="italic">On a Note of Triumph</tei:hi> the most listened to radio drama of all time. The drama marked the end of World War II in Europe. It appeared, with very small changes, in <tei:hi rend="italic">The Faith of America: Readings, Songs, and Prayers for the Celebration of American Holidays</tei:hi> (Jewish Reconstructionist Foundation 1951), p.103-105 — as one of a collection of civic prayers and readings for Memorial Day in the United States. The last stanza was included in <tei:hi rend="italic">Shaarei Tefila: Gates of Prayer, The New Union Prayerbook</tei:hi> (1975). –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37089_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_peace_after_war_corwin"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

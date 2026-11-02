@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Light Divine, a prayer on the quest for illumination in apparent darkness (CCAR 1923)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Light Divine, a prayer on the quest for illumination in apparent darkness (CCAR 1923)</tei:title>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1922" to="1923">1922 – 1923</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66426</tei:idno>
+          <tei:idno type="opensiddur.org">66426</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/bwb_W7-BQA-019/bwb_W7-BQA-019#page/71/mode/2up">https://archive.org/stream/bwb_W7-BQA-019/bwb_W7-BQA-019#page/71/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66426_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Light Divine” is the twentieth prayer found in ברכה ותהלה <tei:hi rend="italic">Blessing and Praise: A Book of Meditations and Prayers for Individual and Home Devotion</tei:hi> (CCAR 1923), pp. 71-73. Unfortunately, we do not yet know of a resource providing clear attribution of authorship for any of the prayers in this volume. Adjacent to the theme shared in this prayer is the concept of the divine spark, or <tei:hi rend="italic">scintillula</tei:hi>, and the <tei:hi rend="italic">pintele yid</tei:hi> — each elaborated upon and related to one another in Rabbi Louis Jacobs’s “The Doctrine of the ‘Divine Spark’ in <tei:hi rend="italic">Man in Jewish Sources</tei:hi>” Studies in Rationalism, Judaism and Universalism, ed. Raphael Loewe (Humanities: 1966) 87-114.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66426_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:light_divine_ccar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

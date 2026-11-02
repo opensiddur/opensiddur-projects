@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יָצַר הָאֵל</tei:title>
+        <tei:title type="main" xml:lang="en">Yatsar ha'El, a Shabbat song by Ya'aqov ha-Qara'i</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יָצַר הָאֵל</tei:title>
+          <tei:title xml:lang="en">Yatsar ha'El, a Shabbat song by Ya'aqov ha-Qara'i</tei:title>
+          <tei:author>Ḳaraite Jews of America</tei:author>
+          <tei:author>Ya'aqov ha-Paitan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24325</tei:idno>
+          <tei:idno type="opensiddur.org">24325</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24325_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>We are grateful to Shawn Lichaa for sharing this piyyut and its translation on behalf of Karaite Jews of America. The author of this piyyut provided their name in an acrostic signature. Unfortunately, nothing else is known of its authorship or date and place of composition. If you know further details, please contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24325_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yatsar_hael_qaraite"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

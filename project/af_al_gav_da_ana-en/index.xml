@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַף־עַל־גַב דַּאֲנָא</tei:title>
+        <tei:title type="main" xml:lang="en">Af Al Gav Da-ana — an original Aramaic “Meturgeman piyyuṭ” for Simḥat Torah by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַף־עַל־גַב דַּאֲנָא</tei:title>
+          <tei:title xml:lang="en">Af Al Gav Da-ana — an original Aramaic “Meturgeman piyyuṭ” for Simḥat Torah by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-09-14">2026-09-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=69187</tei:idno>
+          <tei:idno type="opensiddur.org">69187</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_69187_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>An original Aramaic-language “meturgeman piyyuṭ” for Simḥat Torah. I’m working on creating a seder meturgeman liturgy, akin to those for day 7 of Pesaḥ and for Shavuot, to be recited on Simḥat Torah. Mostly incorporating older Aramaic poems, I’ve also decided to write some originals myself. This piyyuṭ, written in the structure of the famous Aqdamut Milin reshut still recited on Shavuot, is meant to be inserted before the translation of the first verse of the first aliyah on Simḥat Torah. It discusses the halakhic status and history of Shmini Atseret, as well as the final blessing and death of Moses.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69187_introduction"/>
+      <j:conditional xml:id="osp_69187_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_69187_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:af_al_gav_da_ana_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

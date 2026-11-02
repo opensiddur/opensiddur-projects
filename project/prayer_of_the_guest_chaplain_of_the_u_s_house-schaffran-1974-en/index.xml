@@ -1,0 +1,75 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Bentzion Schaffran on 19 February 1974</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Bentzion Schaffran on 19 February 1974</tei:title>
+          <tei:author>Bentzion Schaffran</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1974-02-19">1974-02-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54327</tei:idno>
+          <tei:idno type="opensiddur.org">54327</tei:idno>
+          <tei:note>Source: Prayer of the Guest Chaplain (Ben Ẓion Schaffran, 19 February 1974) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/02/Prayer-of-the-Guest-Chaplain-Ben-Zion-Schaffran-19-February-1974.png">https://opensiddur.org/wp-content/uploads/2024/02/Prayer-of-the-Guest-Chaplain-Ben-Zion-Schaffran-19-February-1974.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54327_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Bentzion Schaffran,<tei:anchor xml:id="note_1"/> Brooklyn, New York</tei:p>
+        <tei:p>Date of Prayer: 19 February 1974</tei:p>
+        <tei:p>Sponsor: Rep. Elizabeth Holtzman (D-NY)</tei:p>
+        <tei:p>Ms. HOLTZMAN. Mr. Speaker, it is a distinct pleasure for me that Rabbi Bentzion Schaffran has given the benediction to the Congress today. At a time when Congress is confronting such difficult and complicated problems, I hope that his words will provide a source of guidance for us.</tei:p>
+        <tei:p>Rabbi Schaffran, who is a constituent of mine, is a distinguished member of the Crown Heights community, and is associated with the Lubavitcher Movement, the worldwide headquarters of which are located within my district.</tei:p>
+        <tei:p>He does not minister only to the spiritual needs of his neighbors, but has taken an active role in working to alleviate many of the urban problems besetting the Crown Heights community.</tei:p>
+        <tei:p>Rabbi Schafiran has done important work with young people, both as a lecturer on college campuses and as a teacher at the Hadar Hatorah Institute. He serves as the executive vice president for Concerned Help To Augment Services for Inner City Dwellers. He has worked diligently with Brooklyn groups to seek new and fruitful approaches to uniting and improying their communities.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54327_introduction"/>
+      <j:conditional xml:id="osp_54327_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 93rd US Congress in the House of Representatives. The source images of the prayer were copied by Howard Mortman and shared via his @CongressRabbi Twitter account. All credit to Howard Mortman for his research in digging up this prayer. Unfortunately, neither the source images nor his tweets provide an exact citation reference to the volume, issue, and page number of the Congressional Record in which the prayer was published. If you know, leave a comment, or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54327_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_schaffran"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Identified in the Congressional Record as “Ben Ẓion D. Schaffran.”</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Shea Hecht on 30 November 2016</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Shea Hecht on 30 November 2016</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Shea Hecht</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2016-11-30">2016-11-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20380</tei:idno>
+          <tei:idno type="opensiddur.org">20380</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4633814/rabbi-shea-hecht-hadar-hatorah-yeshiva-brooklyn-ny">https://www.c-span.org/video/standalone/?c4633814/rabbi-shea-hecht-hadar-hatorah-yeshiva-brooklyn-ny</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/crec/2016/11/30/CREC-2016-11-30-pt1-PgH6373-3.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/crec/2016/11/30/CREC-2016-11-30-pt1-PgH6373-3.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20380_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Shea Hecht, Hadar Hatorah Yeshiva, Brooklyn, NY</tei:p>
+        <tei:p>Sponsor: Rep. Chris Gibson, (R-NY)</tei:p>
+        <tei:p>Date of Prayer: 11/30/2016</tei:p>
+        <tei:p>One Minute Speech Given in Recognition of the Guest Chaplain:</tei:p>
+        <tei:p>Mr. GIBSON. Mr. Speaker, I rise today to thank Rabbi Shea Hecht for his opening prayer. Rabbi Hecht, a Chabad Rabbi, is the chairman of the board of the National Committee for the Furtherance of Jewish Education.</tei:p>
+        <tei:p>Rabbi Hecht has brought together people of different faiths, races, and backgrounds in New York to promote peace through understanding. These principles hold true in New York, as they do throughout the country and right here in this body.</tei:p>
+        <tei:p>One thing that my time in Congress has reinforced in me is that prayer matters. The daily opening prayers here in the Chamber set the tone for my day and often help me reflect on how to be a better husband, father, and Congressman.</tei:p>
+        <tei:p>I join Rabbi Hecht in his pursuit for peace at home and abroad and thank him for his meaningful prayer. I certainly thank his family as well, including Rabbis Hanoch and Yitzchok, rabbis in the Hudson Valley.</tei:p>
+        <tei:p>Mr. Speaker, I am very grateful.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20380_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_20380"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

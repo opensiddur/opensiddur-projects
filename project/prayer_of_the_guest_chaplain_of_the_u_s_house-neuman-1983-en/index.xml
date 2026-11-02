@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Isaac Neuman on 11 April 1983</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Isaac Neuman on 11 April 1983</tei:title>
+          <tei:author>Isaac Neuman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1983-04-11">1983-04-11</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55255</tei:idno>
+          <tei:idno type="opensiddur.org">55255</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 129, part 6 (11 April 1983), p. 7889 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/Congressional-Record-vol--129-part-6-11-April-1983-p--7889.png">https://opensiddur.org/wp-content/uploads/2024/04/Congressional-Record-vol--129-part-6-11-April-1983-p--7889.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55255_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Isaac Neuman, Sinai Temple, Champaign, Illinois</tei:p>
+        <tei:p>Sponsor: Rep. Daniel Crane (R-IL)</tei:p>
+        <tei:p>Date of Prayer: 11 April 1983</tei:p>
+        <tei:p>Mr. DANIEL B. CRANE. Mr. Speaker, the prayer opening today’s session of Congress was delivered by Rabbi Isaac Neuman of the Sinai Temple in Champaign, Illinois.</tei:p>
+        <tei:p>He also is the father of two fine sons. As a young man, Isaac Neuman perhaps had more experiences than most as he matured. For immediately following the completion of his education in Warsaw, war erupted in Europe, World War II, as we all know it today.</tei:p>
+        <tei:p>We cannot begin to imagine what went through his mind as he spent the war years in the camps of Auschwitz and other Nazi concentration camps. Doubtless he would try to forget, if remembering was not so important to the entire world.</tei:p>
+        <tei:p>Perhaps in part because it was the United States that crushed his captors, Isaac Neuman came to this country, the land of the free and the home of the brave, on April 11, 1950, exactly 33 years ago today.</tei:p>
+        <tei:p>Quickly mastering his studies at the University of Cincinnati and Hebrew Union College, he completed his studies in 1958 and served in Panama, traveling throughout South America to recruit Jewish Latin American students.</tei:p>
+        <tei:p>Mr. Speaker, it is a great honor for me and this House to host a man of the stature of Rabbi Neuman, who truly knows the difference between a slave state and a free state.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55255_introduction"/>
+      <j:conditional xml:id="osp_55255_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the fourth month of the first session of the 98th US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 129, part 6 (11 April 1983), page 7889.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55255_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_neuman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

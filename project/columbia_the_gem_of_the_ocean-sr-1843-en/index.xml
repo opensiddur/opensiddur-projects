@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">Columbia, the Gem of the Ocean or The Red, White and Blue (קָלֹמְבִּיָּה! צִיץ נֵֽזֶר הַיָּם או אָדוֹם, לָבָן וּתְֿכֵֽלֶת) — a patriotic hymn by Thomas A'Becket, Sr. (ca. 1843)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">Columbia, the Gem of the Ocean or The Red, White and Blue (קָלֹמְבִּיָּה! צִיץ נֵֽזֶר הַיָּם או אָדוֹם, לָבָן וּתְֿכֵֽלֶת) — a patriotic hymn by Thomas A'Becket, Sr. (ca. 1843)</tei:title>
+          <tei:author>Thomas A'Becket, Sr.</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Gershon Rosenzweig</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1843">1843</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=62722</tei:idno>
+          <tei:idno type="opensiddur.org">62722</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/collectionofzion00magi/collectionofzion00magi#page/132/mode/2up">https://archive.org/stream/collectionofzion00magi/collectionofzion00magi#page/132/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mizimrat-haarets-american-national-songs-in-hebrew-gerson-rosenzweig-1898/Mizimrat%20ha-Arets%20-%20American%20National%20Songs%20in%20Hebrew%20%28Gerson%20Rosenzweig%201898%29#page/n19/mode/2up">https://archive.org/stream/mizimrat-haarets-american-national-songs-in-hebrew-gerson-rosenzweig-1898/Mizimrat%20ha-Arets%20-%20American%20National%20Songs%20in%20Hebrew%20%28Gerson%20Rosenzweig%201898%29#page/n19/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_62722_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Columbia, the Gem of the Ocean” (originally “Columbia, the Land of the Brave”) was an American patriotic song popular in the United States during the 19th and early 20th centuries. Adapted by Thomas A’Becket, Sr. around 1843 from the British patriotic song “Britannia, the Pride of the Ocean”, Columbia was long used as an unofficial national anthem of the United States. Gershon Rosenzweig’s Hebrew translation of the poem, קָלֹמְבִּיָּה! צִיץ נֵֽזֶר הַיָּם, in <tei:hi rend="italic">Mizmirot ha-Arets</tei:hi> (1898), was transcribed from that found in Joseph Magil’s 1903 collection of patriotic hymns, קֹֽבֶץ שִירֵי־צִיּוֹן וְשִׁירֵי־עָם, pp. 132-135.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_62722_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:columbia_the_gem_of_the_ocean_sr"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

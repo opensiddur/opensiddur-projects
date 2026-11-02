@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילת הודיה לגשם</tei:title>
+        <tei:title type="main" xml:lang="en">Thanksgiving Prayer for Rainfall in Lands Where It is Needed, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת הודיה לגשם</tei:title>
+          <tei:title xml:lang="en">Thanksgiving Prayer for Rainfall in Lands Where It is Needed, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-02-21">2019-02-21</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=23860</tei:idno>
+          <tei:idno type="opensiddur.org">23860</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_23860_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In the area of the land of Israel, rain is precious and snow is rare. Incoming rain and snow are thus a sign of blessing rather than curse. This is why we pray for rain during the winter (the rainy season in a Mediterranean climate) and recite the Prayer of Rain every Shmini Atzeret at the most solemn moment of the festival. The Talmud records some notes (Berakhot 59b) on a blessing specifically recited during a rainfall, to give thanks for it. This thanksgiving prayer is not a common part of any traditions today, which means we pray for rain but don’t give thanks when it comes. This deserves to be fixed.</tei:p>
+        <tei:p>This text uses the discussion in Berakhot 59b as a starting point to create thanksgiving blessings for rain in a land where it is needed, as well as snow in a place where it is rare. Though many Jews these days live in areas where rain is common and year-round and snow is a regular part of winter, not all do – and large Jewish communities like those in Israel, southern California or Australia might pray for rain just as much as our ancestors did.</tei:p>
+        <tei:p>This text is meant to be be used as a personal blessing upon stepping outside and experiencing the weather. In Berakhot 59b Rabbi Abbahu says we recite the blessing for rain “when the groom goes out to meet the bride” – generally interpreted as when the raindrops hit puddles on the ground. But we could also interpret it as going outside to meet the weather and deeply sense its power and its beauty.</tei:p>
+        <tei:p>Note: “The Cause” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_23860_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:thanksgiving_prayer_for_rainfall_in_lands_where_it_is_needed_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

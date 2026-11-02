@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">[Prayer on behalf of a] Silver or Golden Wedding Anniversary (CCAR 1951)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">[Prayer on behalf of a] Silver or Golden Wedding Anniversary (CCAR 1951)</tei:title>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1951">1951</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66940</tei:idno>
+          <tei:idno type="opensiddur.org">66940</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/union-home-prayer-book-ccar-1951/Union%20Home%20Prayer%20Book%20%28CCAR%201951%29#page/33/mode/2up">https://archive.org/stream/union-home-prayer-book-ccar-1951/Union%20Home%20Prayer%20Book%20%28CCAR%201951%29#page/33/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66940_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“[Prayer for a] Silver or Golden Wedding Anniversary” is found in the “Family Worship” section of the <tei:hi rend="italic">Union Home Prayer Book</tei:hi> (CCAR 1951), on page 33. Unfortunately, as with so many of the prayers published as a result of CCAR committees from this period and earlier, we cannot yet attribute this prayer to any known author. (If you know, please leave a comment or contact us.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66940_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:silver_or_golden_wedding_anniversary_ccar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

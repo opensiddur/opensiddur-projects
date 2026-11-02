@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קדוש לסעודה מפסקת לפני יום הכפורים</tei:title>
+        <tei:title type="main" xml:lang="en">Ḳiddush for the Seudah Mafseket before Yom Kippur, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קדוש לסעודה מפסקת לפני יום הכפורים</tei:title>
+          <tei:title xml:lang="en">Ḳiddush for the Seudah Mafseket before Yom Kippur, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-10-08">2019-10-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27500</tei:idno>
+          <tei:idno type="opensiddur.org">27500</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27500_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Yom Kippur is a fast day, so we don’t drink wine, so we don’t make a ḳiddush. Also, Yom Kippur is a <tei:hi rend="italic">mo’ed</tei:hi>, one of the Big Five (along with Pesaḥ, Shavuot, Rosh haShanah, and Sukkot), and traditionally said to be one of the happiest days in Israel (see Mishnah Ta’anit 4:8). Now most festivals have a celebratory meal. Obviously, Yom Kippur couldn’t have that. Right?</tei:p>
+        <tei:p>Wrong! In many communities the <tei:hi rend="italic">se’udah mafseket</tei:hi>, the final meal before the fast begins, is considered an equivalent to the festival meal for Yom Kippur. This Ḳiddush was written to be said over a glass of wine at the <tei:hi rend="italic">se’udah mafseket</tei:hi>. This Ḳiddush is largely based on the regular Rosh haShanah evening ḳiddush with Shabbat additions, with a few differences.</tei:p>
+        <tei:p>Since a regular festival ḳiddush contains a lot of wording in common with its respective Kedushat haYom fourth blessing in the amidah, much of the terminology was taken from the equivalent place in the Yom Kippur liturgy.</tei:p>
+        <tei:p>The terminology was changed to future tense since Yom Kippur has not yet begun.</tei:p>
+        <tei:p>Since there would be no morning ḳiddush, the custom of reciting appropriate verses for the ḳiddush was moved to here.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27500_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush_for_the_seudah_mafseket_before_yom_kippur_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

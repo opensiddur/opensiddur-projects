@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="alt" xml:lang="he">Un Kavritiko (און קאבﬞריטיקו) — a Judezmo (Ladino) translation of Ḥad Gadya</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="he">Un Kavritiko (און קאבﬞריטיקו) — a Judezmo (Ladino) translation of Ḥad Gadya</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24616</tei:idno>
+          <tei:idno type="opensiddur.org">24616</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24616_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. This translation is in Judezmo, also known as Judeo-Spanish or Ladino. There are a great many Judezmo versions of Ḥad Gadya, corresponding to the great variety of dialects spoken throughout the Sephardi cultural area. This text is expanded version of a version described as “a standard” by the University of Washington.<tei:anchor xml:id="note_1"/> It has also been reset in a variation of traditional Hebrew orthography alongside the Aki Yerushalayim Latin type used in scholarly analysis. This text, or a variation of it, could be added to any Passover Seder alongside the traditionally Aramaic text. One key note for those unfamiliar with Aki Yerushalayim orthography is that the letter H is pronounced as a hard sound, like modern Hebrew ח or כ. Other than that it’s very easy to read for English speakers.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24616_introduction"/>
+      <j:conditional xml:id="osp_24616_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found in the Prague Haggadah (1526). The text of the poem is in a form of playful Aramaic and it is accompanied by the lyrics in medieval Yiddish.<tei:anchor xml:id="note_2"/> It is unclear which, if either, came first — the Yiddish or the Aramaic. The Aramaic above below follows the text as it appears in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added a translation sourced from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24616_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:un_kavritiko_a_judezmo_ladino_translation_of_had_gadya"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Devin Naar, “Had Gadya in Ladino: A Sephardic Passover Tradition?” 18 April 2016, Stroum Center for Jewish Studies, University of Washington –accessed 15 April 2019.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>The Jewish Encyclopedia (1906, NY) vol. 8 page 190 s.v. “Had Gadya” calls it German.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

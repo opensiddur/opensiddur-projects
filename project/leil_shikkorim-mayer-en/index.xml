@@ -1,0 +1,64 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">לֵיל שִׁיכּוֹרִים</tei:title>
+        <tei:title type="main" xml:lang="en">Leil Shikkorim, a maarava from the Aravit for Erev Purim, as found in Maḥzor Vitry</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">לֵיל שִׁיכּוֹרִים</tei:title>
+          <tei:title xml:lang="en">Leil Shikkorim, a maarava from the Aravit for Erev Purim, as found in Maḥzor Vitry</tei:title>
+          <tei:author>Menaḥem ben Aharon</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54632</tei:idno>
+          <tei:idno type="opensiddur.org">54632</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzor-vitri-abraham-berliner-1893/Mahzor%20Vitri%20%28Abraham%20Berliner%201893%29#page/582/mode/2up">https://archive.org/stream/mahzor-vitri-abraham-berliner-1893/Mahzor%20Vitri%20%28Abraham%20Berliner%201893%29#page/582/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54632_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This piyyut, attributed to Menaḥem ben Aharon,<tei:anchor xml:id="note_1"/> is found in the Maḥzor Vitry, siman 465. It is a note-for-note structural parody of a beloved Pesaḥ <tei:hi rend="italic">maarava</tei:hi> poem, Leil Shimurim. Israel Davidson, in his 1907 work “Parody in Jewish Literature,” writes, “The parodist apparently has no other aim than to dress a wine-song in the garb of a religious hymn. The burden of the song is that on Purim one must throw of all care and anxiety... But in order to make our happiness complete, we must remember the needy, and share our luxuries with those that are in want of them.”</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” “<j:divineName>The Place</j:divineName>” is a direct translation of the divine referent, <j:divineName>ha-Maqom</j:divineName>. This translation also uses the plural pronoun to refer to <j:divineName>God</j:divineName> as a <tei:hi rend="italic">pluralis majestatis</tei:hi>, and to avoid the implications of <j:divineName>God</j:divineName> being assigned a gender. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to God.) All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54632_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:leil_shikkorim_menachem"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Israel Davidson provides this note on Menahem ben Aharon (ftn 14): “So little is known of the author, that it is impossible to say with certainty when he lived. Though the “Maḥzor Vitry was begun in the life time of Rashi (circ. 1100), it continued to receive additions many years later” (<tei:hi rend="italic">Einleitung u. Register zum Machsor Vitry</tei:hi> p.172, also Gross, <tei:hi rend="italic">Gallia Judaica</tei:hi>, p. 196), But, according to Dr. Berliner (<tei:hi rend="italic">Zinleitung</tei:hi>, p. 173), the addition of Eliezer ben Aaron (Maḥzor Vitry p. 600) would be the latest, if he is the same man who flourished in the time of Meir Abulafia (1180—1244). This points to one thing, that by 1244 Menaḥem’s hymn was already included in the Maḥzor Vitry. Zunz, again, includes Menaḥem among the poets who flourished between 1140 and 1300 (<tei:hi rend="italic">Litgesch</tei:hi>. p. 453, 485). We may, therefore, meet him half way and accept 1140 as possibly the earliest, while keeping 1244 as the latest landmark in the life of Menaḥem. Still, it seems to me, that we can safely assign him to the twelfth century, i.e. nearer the original compilers, because his hymn is not marked as an addition, though it is true that not all additions are so indicated (<tei:hi rend="italic">Zinleitung</tei:hi> p. 172; <tei:hi rend="italic">Monatsschrift</tei:hi> vol. 46, p. 578, no. 157).” –ANV</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

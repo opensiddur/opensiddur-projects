@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֱלֹהֵי יְשׁוּעָתֵֽנוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Elohei Yeshuaténu, a pizmon for 17 Tammuz attributed to the legendary Jewish Pope Andreas (translation by Isaac Gantwerk Mayer)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֱלֹהֵי יְשׁוּעָתֵֽנוּ</tei:title>
+          <tei:title xml:lang="en">Elohei Yeshuaténu, a pizmon for 17 Tammuz attributed to the legendary Jewish Pope Andreas (translation by Isaac Gantwerk Mayer)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1500" to="1800">1500 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68109</tei:idno>
+          <tei:idno type="opensiddur.org">68109</tei:idno>
+          <tei:note>Source: Ta’am Zekenim (Eliezer Ashkenazi 1854) <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/07/taam-zekenim-eliezer-ashkenazi-1854.png">https://opensiddur.org/wp-content/uploads/2026/07/taam-zekenim-eliezer-ashkenazi-1854.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68109_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A pizmon (a seliḥah with a refrain, to be recited aloud) recited in the Sephardic rite for the seventeenth of Tammuz, Elohei Yeshuatenu, like most seliḥot for that day, features stanzas for each of the five tragedies that occurred on the day. But what’s unique about it is the legend of its author. This piyyuṭ is signed with the name Andreas (although it’s spelled wrong — the letter R is at the end). Who is Andreas?</tei:p>
+        <tei:p>According to Eliezer Ashkenazi’s Ta’am Zekenim, published in Frankfurt in 1854 — קבלה בידנו כי מחבר סליחה זו המיר דתו ונעשה הגמון ובימיו נעשה עלילה על ישראל וגזרו עליהם להשמידם ונתקבצו מחנות בתוך העיר לכלותם וקם הוא ודרש להם וביטל את הגזרה. וכאשר באו ראשי ישראל וחכמיהם להחזיק לו טובה אמר להם הוא מבקש מהם שישלחו לכל תפוצות ישראל סליחה אחת אשר חיבר ושיקבעו אותה תוך סדורי תפלות שלהם וכן עשו, ושמו חתום עליה בראשי החרוזות “אנדריאס” ובית אחת נהפך בהמודפס. (It is passed into our hands that the composer of this seliḥah apostatized, and became a pope. And in his days, a libel was made against Israel and they decreed against them to exterminate them, and camps gathered in the city to destroy them. And he rose and interpreted for them and nullified the decree. And when the chieftans and sages of Israel came to him to thank him, he said to them he was asking them to send to all the scattered of Israel one seliḥah that he had composed, and that they would set it in their prayer-books, and they did so, and his name was signed in it in the heads of the stanzas — Andreas — <tei:hi rend="italic">but one stanza was set out of order by the printer</tei:hi>.)</tei:p>
+        <tei:p>This is a variant of the famous and oft-retold legend of the Jewish Pope Andreas, found throughout the Jewish world. According to this legend, this seliḥah was written by a pope! Is this actually the case? Probably not — there’s no historical evidence for the reality of any secretly Jewish pope, and it is more likely that the author was simply a regular old Jew who happened to have a name of gentile origin. Still, it’s a fascinating little story.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68109_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:elohei_yeshuatenu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer in a Time of Serious Illness, by Rabbi Gilah Langner</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer in a Time of Serious Illness, by Rabbi Gilah Langner</tei:title>
+          <tei:author>Gilah Langner</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-08-17">2011-08-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=3650</tei:idno>
+          <tei:idno type="opensiddur.org">3650</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_3650_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Traditional Judaism offers a confessional prayer, or vidui, to be recited during a time of serious illness or near death. If the patient is unable to recite the prayer, others may do so on his or her behalf. This modern adaptation [of vidui] places less emphasis on atonement for sins, and more on the bonds connecting the patient to his or her loved ones. It can be recited by a friend, family member, or chaplain on behalf of a person who is very ill, especially when life and death are hanging in the balance. In memory of Dr. Paul Woolf <tei:hi rend="italic">z”l</tei:hi>.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_3650_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_in_a_time_of_serious_illness_langner"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

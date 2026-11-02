@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Jewish Prayer for Peace between England and her Colonies on a public day of fasting and prayer, 17 May 1776</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Jewish Prayer for Peace between England and her Colonies on a public day of fasting and prayer, 17 May 1776</tei:title>
+          <tei:author>Gershom Mendes Seixas</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1776-05-17">1776-05-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=12673</tei:idno>
+          <tei:idno type="opensiddur.org">12673</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/lyonscollection27conguoft#page/30/mode/2up">https://www.archive.org/stream/lyonscollection27conguoft#page/30/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_12673_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>According to the manuscript this prayer was “Part of the Order of Service observed in the Synagogue Congeregation Shearith Israel, on a day of humiliation, fasting &amp; prayer, recommended by Congress in the year 1776.” The prayer was likely composed and read on Iyyar 28, 5536 (17 May, 1776) by Rabbi Gershom Mendes Seixas.<tei:anchor xml:id="note_2"/> The prayer is found in the Jacques Judah Lyons papers; P-15; 1; 4; 234; American Jewish Historical Society, New York, NY, and Boston, MA. An English translation included with the manuscript was published by the American Jewish Historical Society, in <tei:hi rend="italic">The Lyons Papers</tei:hi>, “Items Relating to New York Congregation,” 1913. p. 31. The English translation is adapted with minor changes from that made available in that publication. In a footnote, the American Jewish Historical Society adds, “This was before the Declaration of Independence. During the American Revolution the Congregation disbanded for patriotic reasons and closed the doors of the synagogue rather than continue under British auspices.”</tei:p>
+        <tei:p>Many thanks to Mississippi Fred MacDowell for introducing me to this historic prayer in an article at his On the Main Line blog. He writes:</tei:p>
+        <tei:p>Then, as now, war was looked upon by many as a great evil, especially between brothers, and many American Colonists only wanted the oppressive measures of King George III to be lifted, bloodshed ended, and peace restored. The nascent American Congress called for a day of “Humiliation, Fasting and Prayer” along these lines for May 17, 1776. It was for this occasion that this prayer was recited in Congregation Shearith Israel in New York.</tei:p>
+        <tei:p>As you can see, a complete service was arranged for this occasion, meant to invoke the solemnity and seriousness of the occasion; after morning prayer, Taḥanun was to be sung to the tune of a Yom Kippur pizmon; a dozen Psalms recited, and then the Ḥazan would recite this prayer written for the occasion, and of course all were to be fasting. The prayer hopes for a change of heart for King George III and his advisors, that they would rescind their wrath and harsh decrees against “North America,” that the bloodshed should end, and peace and reconciliation should obtain between the Americans and Great Britain once more, in fulfillment of the Messianic verse that Nation shall not lift up sword against nation.</tei:p>
+        <tei:p>Of course this was not meant to be, and six weeks later the American Congress declared independence from Great Britain, and there was no walking back from the hostilities which had already occurred.</tei:p>
+        <tei:p>I have transcribed this prayer myself and any imperfections are my own. <tei:hi rend="italic">Shgiyot mi yavin u’nistarot nakeni</tei:hi> — please correct me if you see a mistake in my transcription.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_12673_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_jewish_prayer_for_peace_between_england_and_her_colonies_seixas"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>David de Sola Pool, Tamar de Sola Pool, <tei:hi rend="italic">An Old Faith in the New World: Portrait of Shearith Israel, 1654-1954</tei:hi>, Columbia University Press, 1995. p. 170. Also see, Jonathan D. Sarna, Benny Kraut, Samuel K. Joseph, <tei:hi rend="italic">Jews and the founding of the Republic</tei:hi>, Hebrew Union College-Jewish Institute of Religion. Center for the Study of the American Jewish Experience, International Center for University Teaching of Jewish Civilization, M. Wiener Pub., Dec 1, 1985, p.36.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

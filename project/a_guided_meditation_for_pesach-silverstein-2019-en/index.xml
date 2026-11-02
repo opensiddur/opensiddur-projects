@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Guided Meditation for Pesaḥ, by Rabbi Daniel Raphael Silverstein</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Guided Meditation for Pesaḥ, by Rabbi Daniel Raphael Silverstein</tei:title>
+          <tei:author>Daniel Raphael Silverstein</tei:author>
+          <tei:author>Applied Jewish Spirituality</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-04-12">2019-04-12</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=24501</tei:idno>
+          <tei:idno type="opensiddur.org">24501</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream//PesachGuidedMeditationDanielRaphaelSilverstein/Pesach-Guided-Meditation-%28Complete%2C%20Daniel%20Raphael%20Silverstein%20and%20Applied%20Jewish%20Spirituality%205779-2019%29#page/n0/mode/2up">https://archive.org/stream//PesachGuidedMeditationDanielRaphaelSilverstein/Pesach-Guided-Meditation-%28Complete%2C%20Daniel%20Raphael%20Silverstein%20and%20Applied%20Jewish%20Spirituality%205779-2019%29#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_24501_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>
+          <tei:hi rend="bold">DOWNLOAD:</tei:hi>
+        </tei:p>
+        <tei:p>Complete | Short</tei:p>
+        <tei:p>This meditation is inspired, in part, by pieces written by Rabbi Steven Exler and Zoketsu Norman Fischer. It is also based on the teaching of the Ba’al Shem Tov, the founder of Ḥasidic Judaism, that “a person is a microcosm of the world, and they have inside them Pharaoh, Egypt and so on” (See Toldot Ya’akov Yosef on BeShalaḥ).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24501_introduction"/>
+      <j:conditional xml:id="osp_24501_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Postscript: Questions to Consider</tei:p>
+        <tei:p>What is the liberation I am needing right now?</tei:p>
+        <tei:p>Freedom from what?</tei:p>
+        <tei:p>Freedom towards what?</tei:p>
+        <tei:p>How have I best made progress in this journey of liberation until now?</tei:p>
+        <tei:p>How might I best progress with this journey of liberation going forward from this moment?</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_24501_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_guided_meditation_for_pesach_silverstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

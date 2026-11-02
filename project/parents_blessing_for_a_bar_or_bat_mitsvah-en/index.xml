@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת הורים לבר או בת מצווה</tei:title>
+        <tei:title type="main" xml:lang="en">Parents' blessing for a Bar or Bat Mitsvah by Rabbi Dr. Aryeh Cohen</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת הורים לבר או בת מצווה</tei:title>
+          <tei:title xml:lang="en">Parents' blessing for a Bar or Bat Mitsvah by Rabbi Dr. Aryeh Cohen</tei:title>
+          <tei:author>Aryeh Cohen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-02-19">2015-02-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=10389</tei:idno>
+          <tei:idno type="opensiddur.org">10389</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_10389_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>I wrote this brakhah on the occasion of my son Oryah’s bar mitsvah. The Aramaic/Hebrew and the translation are mine. My partner and I recited the blessing after my son was called up to the Torah. The brakhah replaces the ברוך שפטרנו which is recited in some communities. This blessing (which is basically self-explanatory) expresses gratitude for Divine favor leading to this moment and a prayer for Heavenly guidance for my son’s continued path. Though the translation is gender neutral in relation to God, the Hebrew/Aramaic is gendered masculine. This is my practice with regards to my children. I bless my daughter with feminine God language and my son with masculine God language.</tei:p>
+        <tei:p>[Many thanks to Joanna Harader for sharing her paper collage, “Blessing the Children.” Many thanks to Shira Hannah Fischer for her naqdanut. –Aharon N. Varady]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_10389_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:parents_blessing_for_a_bar_or_bat_mitzvah_cohen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

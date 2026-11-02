@@ -1,0 +1,41 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכת יוצר יצירים</tei:title>
+        <tei:title type="alt" xml:lang="en">A Blessing for Creating, by Rabbi Adina Allen (Jewish Studio Project)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת יוצר יצירים</tei:title>
+          <tei:title xml:lang="en">A Blessing for Creating, by Rabbi Adina Allen (Jewish Studio Project)</tei:title>
+          <tei:author>Adina Allen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2017-10-28">2017-10-28</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=18020</tei:idno>
+          <tei:idno type="opensiddur.org">18020</tei:idno>
+          <tei:note>Source: Birkat Yotser Yitsirim (Rabbi Adina Allen 2017) <tei:ref target="https://opensiddur.org/wp-content/uploads/2017/10/Birkat-Yotser-Yitsirim.jpg">https://opensiddur.org/wp-content/uploads/2017/10/Birkat-Yotser-Yitsirim.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_blessing_for_creating_allen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שֵׁשׁ אִמָּהוֹת</tei:title>
+        <tei:title type="main" xml:lang="en">Shesh Imahot (Six Matriarchs) — Sarah, Rivqah, Raḥel, Leah, Bilhah, and Zilpah, as found in rabbinic sources</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שֵׁשׁ אִמָּהוֹת</tei:title>
+          <tei:title xml:lang="en">Shesh Imahot (Six Matriarchs) — Sarah, Rivqah, Raḥel, Leah, Bilhah, and Zilpah, as found in rabbinic sources</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-06-03">2023-06-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51331</tei:idno>
+          <tei:idno type="opensiddur.org">51331</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51331_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I find it important to remind myself, when there is an opportunity to do so in Jewish liturgy or in private prayer, that there are six matriarchs of the children of Israel recognized together as the <tei:hi rend="italic">shesh imahot</tei:hi> in rabbinic sources: Sarah, Rivqah, Leah, Raḥel, Bilhah, and Zilpah. I feel it is important to recognize that while the Jewish people are famously endogamous, we should also remain open, honest, and respectful of our ancestors who connected to our people through exogamous relationships. We can do so by more openly recognizing Bilhah and Zilpah, neither of whose origins are ever explicated in the Torah.<tei:anchor xml:id="note_1"/></tei:p>
+        <tei:p>In our people’s matrilineal genealogy, we are all descendants of Ḥavah the ancestor of all human beings. Sarah is the great-grandmother of bnei Yisrael, the partner of Avraham and the mother of Yitsḥaq. Rivqah is the grandmother, the partner of Yitsḥaq and the mother of Yaaqov. Leah, partner to Yaaqov, was the mother of Yehudah, Issakhar, Zevulun, Reuven, Shimon and Dinah. Zilpah her handmaid, was mother to Gad and Asher. Raḥel, partner to Yaaqov, was the mother of Yosef and Binyamin. Bilhah, her handmaiden, was the mother of Naftali and Dan. Mindful of all of the mothers of the Twelve Tribes of Bnei Yisrael, we should also consider adding As’nat, the Egyptian partner of Yosef (and so, Raḥel’s daughter-in-law), the mother of Efraim and Menashe. (As’nat does not appear in the rabbinic sources compiled below).</tei:p>
+        <tei:p>Four, not six imahot, are commonly referenced traditionally, and yet the sources arranged below attest to an alternate tradition that embraced these six. I think it’s an important question in every generation to ask why and under what contexts have our ancestors been drawn to limit its matriarchs to those (besides Sarah) who modeled endogamous relationships and omit those mothers attesting to exogamous relationships. If in our own generation, we choose to embrace the six (or, for the first time, seven including As’nat) then I believe we will have made a beautiful expression of inclusion for all of those bound to our people by means of all the complex ways through which we as human beings are drawn to one another in building caring and supportive families, mutually concerned for each other’s welfare, the wellbeing of our societies, and of all those creatures with whom which we share this planet, our home.</tei:p>
+        <tei:p>If you know of a source not already cited below, please leave a comment or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51331_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shesh_imahot_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Moshe Reiss and David Zucker write, “Bilhah and Zilpah [are] presumably two local Aramean women.... According to the midrashic tradition, Bilhah and Zilpah are Laban’s own daughters through a concubine. This would make these women half-sisters of Leah and Rachel. (Genesis Rabbah 74.13-14; cf. Pirke de Rabbi Eliezer, Chapter 36)” in “Co-opting the secondary matriarchs: Bilhah, Zilpah, Tamar, and Aseneth,” <tei:hi rend="italic">Biblical Interpretation: A Journal of Contemporary Approaches</tei:hi>, vol. 22 (May 2014) pp. 307-324.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

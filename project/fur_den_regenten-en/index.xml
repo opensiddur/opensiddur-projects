@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">[Gebet] für den Regenten</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer for the Regent (Kaiser Franz I, emperor of Austria), a teḥinah by Pereẓ Beer (1815)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">[Gebet] für den Regenten</tei:title>
+          <tei:title xml:lang="en">Prayer for the Regent (Kaiser Franz I, emperor of Austria), a teḥinah by Pereẓ Beer (1815)</tei:title>
+          <tei:author>Pereẓ (Peter) Beer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1815">1815</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=42086</tei:idno>
+          <tei:idno type="opensiddur.org">42086</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/gebetbuch-fur-gebildete-frauenzimmer-mosaischer-religion-peter-beer-1839/Gebetbuch%20fu%CC%88r%20gebildete%20Frauenzimmer%20mosaischer%20Religion%20%28Peter%20Beer%201839%29#page/n35/mode/2up">https://archive.org/stream/gebetbuch-fur-gebildete-frauenzimmer-mosaischer-religion-peter-beer-1839/Gebetbuch%20fu%CC%88r%20gebildete%20Frauenzimmer%20mosaischer%20Religion%20%28Peter%20Beer%201839%29#page/n35/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/gebetbuch-fur-gebildete-frauenzimmer-mosaischer-religion-peter-beer-1815/Gebetbuch%20f%C3%BCr%20gebildete%20Frauenzimmer%20mosaischer%20Religion%20%28Peter%20Beer%201815%29#page/n56/mode/2up">https://archive.org/stream/gebetbuch-fur-gebildete-frauenzimmer-mosaischer-religion-peter-beer-1815/Gebetbuch%20f%C3%BCr%20gebildete%20Frauenzimmer%20mosaischer%20Religion%20%28Peter%20Beer%201815%29#page/n56/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_42086_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“[Gebet] Für den Regenten (Prayer for the Regent)” was first published in Pereẓ (Peter) Beer’s <tei:hi rend="italic">Gebetbuch für gebildete Frauenzimmer mosaischer Religion</tei:hi> (1815), as teḥinah No11 on pp. 31-32 where it was rendered in Judeo-German. The German rendering transcribed above follows teḥinah No11 in Henry Frank’s 1839 edition on pp. 27-29. A variation can also be found in Beer’s 1843 edition as teḥinah No9 on p. 14-15.</tei:p>
+        <tei:p>We welcome corrections and improvements. The transcription of the German from Latin script in Fraktur type provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_42086_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:fur_den_regenten_beer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

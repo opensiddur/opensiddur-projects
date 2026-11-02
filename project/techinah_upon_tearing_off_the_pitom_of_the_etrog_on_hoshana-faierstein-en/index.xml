@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Teḥinah upon tearing off the pitom of the etrog on Hoshana Rabba, from the Tsenah Ur'enah (1622)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/morris-faierstein">Morris M. Faierstein</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Teḥinah upon tearing off the pitom of the etrog on Hoshana Rabba, from the Tsenah Ur'enah (1622)</tei:title>
+          <tei:author>Yaaqov ben Yitsḥaq Ashkenazi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1622">1622</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52890</tei:idno>
+          <tei:idno type="opensiddur.org">52890</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52890_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>There is a well-known tradition that a pregnant woman should bite off the stem of the etrog that had been used for the festival of Sukkot on Hoshana Rabba after the morning services, when the etrog is no longer needed for the rituals of Sukkot. The earliest known text that describes this custom, its rationale, and the teḥinah that is recited in conjunction with it, is this passage in the Ẓe’enah U-Re’enah §86.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52890_introduction"/>
+      <j:conditional xml:id="osp_52890_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Dr. Morris Faierstein’s transcription and translation of one of the earliest teḥinot found in the earliest surviving edition of the <tei:hi rend="italic">Tsenah u-Re’enah</tei:hi> (Basel/Hanau 1622) by Jacob ben Isaac Ashkenazi (1550–1625). (The first three printed editions may be lost to history.) The teḥinah is included in Dr. Faierstein’s article “The Earliest Published Yiddish Tehinnot (1590–1609)” in <tei:hi rend="italic">Hebrew Union College Annual</tei:hi>, 2020, Vol. 91 (2020). The transcription of the Yiddish sourcetext is found on page 206 and the English translation is found on page 187. The translation is shared under the libre Open Access license (Creative Commons Attribution) provided for the critical translation of the text in <tei:hi rend="italic">Ze’enah U-Re’enah: A Critical Translation into English</tei:hi> (Volume 96 in the series Studia Judaica, ed. Morris M. Faierstein; De Gruyter 2017).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52890_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:techinah_upon_tearing_off_the_pitom_of_the_etrog_on_hoshana_yaaqov"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

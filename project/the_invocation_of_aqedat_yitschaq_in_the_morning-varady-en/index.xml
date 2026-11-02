@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עֲקֵדַת יִצְחָק (אשכנז)</tei:title>
+        <tei:title type="main" xml:lang="en">The invocation of Aqédat Yitsḥaq (the Binding of Isaac, Genesis 22:1-19) in the morning (nusaḥ Ashkenaz)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עֲקֵדַת יִצְחָק (אשכנז)</tei:title>
+          <tei:title xml:lang="en">The invocation of Aqédat Yitsḥaq (the Binding of Isaac, Genesis 22:1-19) in the morning (nusaḥ Ashkenaz)</tei:title>
+          <tei:author>the Mesorah</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1000" to="1400">1000 – 1400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=59022</tei:idno>
+          <tei:idno type="opensiddur.org">59022</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59022_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The translation of the prayers bookending the biblical text is adapted from that of Rabbi Jacob Bosniac in his Tefilot Yisrael Yimei Ḥol (1937) and of Paltiel Birnbaum from his HaSiddur haShalem (1949). The Masoretic text presented here is from Rabbi Dr. Seth (Avi) Kadish’s Miqra al pi ha-Mesorah. For the translation of the Aqeidah in English, I have adapted the translation of Everett Fox in the Schocken Bible (Everett Fox 1995), mostly to re-Hebraize divine names, place names, and personal names, but I have made other changes. In place of “slaughter-site,” I have offered “place-for-slaughter.” Aside from this, I have made minor punctuation changes. (To buy a print copy of the complete translation of <tei:hi rend="italic">The Schocken Bible vol. 1: The Five Books of Moses</tei:hi>, visit Penguin/Random House.)</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59022_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_invocation_of_aqedat_yitschaq_in_the_morning_mesorah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

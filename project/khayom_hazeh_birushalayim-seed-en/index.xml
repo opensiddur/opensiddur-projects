@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כְּהַיּוֹם הַזֶּה בִּירוּשָׁלַיִם</tei:title>
+        <tei:title type="main" xml:lang="en">k'Hayom HaZeh Birushalayim (This day in Jerusalem), a wedding prayer from the Seder Rav Amram Gaon (ca. 9th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/gabriel-seed">Gabriel Kretzmer Seed</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jeffrey-saks">Jeffrey Saks</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כְּהַיּוֹם הַזֶּה בִּירוּשָׁלַיִם</tei:title>
+          <tei:title xml:lang="en">k'Hayom HaZeh Birushalayim (This day in Jerusalem), a wedding prayer from the Seder Rav Amram Gaon (ca. 9th c.)</tei:title>
+          <tei:author>Amram ben Rav Sheshna</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0840" to="0900">0840 – 0900</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31669</tei:idno>
+          <tei:idno type="opensiddur.org">31669</tei:idno>
+          <tei:note>Source: Seder Rav Amram Gaon (Codex Sulzberger) page 59r <tei:ref target="https://digitalcollections.jtsa.edu/islandora/object/jts:236961#page/126/mode/2up">https://digitalcollections.jtsa.edu/islandora/object/jts:236961#page/126/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: seder erusin v’nesuin (seder rav amram gaon, ed. Daniel Goldschmidt 1971) p.182 <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/05/seder-erusin-vnesuin-seder-rav-amram-gaon-ed.-Daniel-Goldschmidt-1971-p.182.png">https://opensiddur.org/wp-content/uploads/2020/05/seder-erusin-vnesuin-seder-rav-amram-gaon-ed.-Daniel-Goldschmidt-1971-p.182.png</tei:ref></tei:note>
+          <tei:note>Source: k’Hayom haZeh b’Yerushalayim (Seder rav Amram Gaon, trans. Jeffrey Saks) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/05/kHayom-haZeh-bYerushalayim-Seder-rav-Amram-Gaon-trans.-Jeffrey-Saks.jpg">https://opensiddur.org/wp-content/uploads/2020/05/kHayom-haZeh-bYerushalayim-Seder-rav-Amram-Gaon-trans.-Jeffrey-Saks.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31669_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>A wedding prayer from the Seder Rav Amram Gaon section on Erusin and Nesu’in. Rabbi Jeffrey Saks contributed an informal translation he prepared for his wedding which we have expanded upon. Many thanks to Rabbi Gabriel Nachman Kretzmer Seed for his work on completing this translation with me. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31669_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kehayom_hazeh_birushalayim_amram"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

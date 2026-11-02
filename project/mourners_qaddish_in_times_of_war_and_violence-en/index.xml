@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קדיש יתום בזמן מלחמה</tei:title>
+        <tei:title type="main" xml:lang="en">Mourner’s Ḳaddish in Times of War and Violence, by Rabbi Arthur Waskow</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קדיש יתום בזמן מלחמה</tei:title>
+          <tei:title xml:lang="en">Mourner’s Ḳaddish in Times of War and Violence, by Rabbi Arthur Waskow</tei:title>
+          <tei:author>Arthur Waskow</tei:author>
+          <tei:author>the Shalom Center</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2011-04-17">2011-04-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=3165</tei:idno>
+          <tei:idno type="opensiddur.org">3165</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_3165_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Jews use the Ḳaddish to mourn the dead, though it has in it only one word — נֶחְמָתָא “<tei:hi rend="italic">neḥamata</tei:hi>,” consolations – which hints at mourning. And this word itself is used in a puzzling way, once we look at it with care. As we will see below, it may be especially appropriate in time of war.</tei:p>
+        <tei:p>The English also suggests why in the midst of saying we cannot praise, celebrate, or sing to God enough to meet the Reality, we also say we cannot CONSOLE (<tei:hi rend="italic">neḥamata</tei:hi>) God enough. Why we need to praise God and why we cannot give sufficient praise are clear enough; but why do we need to console God, and why can we not give God consolation enough? We suggest that for the killing of one human, bearing the Image of God, by another –- for this, God is inconsolable.</tei:p>
+        <tei:p>In this version, changes in the traditional last line of the Hebrew text specifically include not only peace for the people Israel (as in the traditional version) but also for the children of Abraham and Hagar through Ishmael (Arabs and Muslims) and for all the life-forms who dwell upon this planet. The interpretive English addresses the meaning of the Name God is given in most of the Ḳaddish — שְׁמֵהּ רַבָּא “<tei:hi rend="italic">shmeh rabba</tei:hi>,” the “Great Name.” It is understood as that Name which includes all the names of all beings in the universe and which is also present within all beings. The Ḳaddish also prays first with concern for the peaceful life of the Jewish “family,” the people Israel, and then in this version expands that concern to include our cousins the children of Abraham through Ishmael and all who dwell upon the earth.</tei:p>
+        <tei:p>The interpretive English translation below may be appropriate for prayers of mourning and hope in wartime by other spiritual and religious communities.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_3165_introduction"/>
+      <j:conditional xml:id="osp_3165_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Mourners Ḳaddish in Time of War and Violence” by Rabbi Waskow was first written in 2006 and posted at The Shalom Center, here. For many additional explorations by Rabbi Waskow into prayer, Jewish and beyond, find http://www.theshalomcenter.org/treasury/8. The liturgical Hebrew of the Ḳaddish to accompany Rabbi Waskow’s transliterations and interpretive translation was added by Aharon Varady for the Open Siddur Project. All errors are his own. <tei:hi rend="italic">Shgiyot mi yavin, Ministarot Naḳeni</tei:hi> שְׁגִיאוֹת מִי־יָבִין; מִנִּסְתָּרוֹת נַקֵּנִי “Who can know all one’s flaws? From hidden errors, correct me” (Psalms 19:13).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_3165_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mourners_kaddish_in_times_of_war_and_violence_waskow"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

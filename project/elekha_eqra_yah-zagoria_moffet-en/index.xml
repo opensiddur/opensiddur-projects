@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵלֶֽיךָ אֶקְרָא יָהּ</tei:title>
+        <tei:title type="main" xml:lang="en">Elekha Eqra Yah, a piyyuṭ by Rabbi Shlomoh Zrihen (20th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/adam-zagoria-moffet">Adam Zagoria-Moffet</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵלֶֽיךָ אֶקְרָא יָהּ</tei:title>
+          <tei:title xml:lang="en">Elekha Eqra Yah, a piyyuṭ by Rabbi Shlomoh Zrihen (20th c.)</tei:title>
+          <tei:author>Shlomoh Zrihen</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1940" to="2000">1940 – 2000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30699</tei:idno>
+          <tei:idno type="opensiddur.org">30699</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddurmasorti2019#page/n120/mode/2up">https://archive.org/stream/siddurmasorti2019#page/n120/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30699_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Élekha Ekra Yahh Él Nora” was written by שלמה זריהן (Shlomoh Zrihen), a Maghrébi sage and son of the chief rabbi of Marrakesh. This piyyut became a common feature of many celebrations among different North African Jewish cultures (Berber, Tunisian, Moroccan, Algerian, etc.) and is often sung at səmaḥot (festive occasions.) Further details on the song and its composer, the date of its composition, etc., are lacking. If you know more, please contact us or leave a comment below.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30699_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:elekha_eqra_yah_zrihen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

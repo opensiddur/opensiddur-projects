@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַאֲמִיר אוֹתְךָ סֶֽלָה</tei:title>
+        <tei:title type="main" xml:lang="en">Aamir Otekha Selah, an ofan piyyut for Sukkot by Elazar ben Qallir (rhymed translation by Alice Lucas)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַאֲמִיר אוֹתְךָ סֶֽלָה</tei:title>
+          <tei:title xml:lang="en">Aamir Otekha Selah, an ofan piyyut for Sukkot by Elazar ben Qallir (rhymed translation by Alice Lucas)</tei:title>
+          <tei:author>Elazar ben Qallir</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Alice Montefiore Lucas</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0590" to="0640">0590 – 0640</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66395</tei:idno>
+          <tei:idno type="opensiddur.org">66395</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodathaghasukkotarthurdavisandherbertadler1908/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haSukkot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201908%29#page/n425/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodathaghasukkotarthurdavisandherbertadler1908/Mahzor%20Avdat%20Ohel%20Moed%20-%20Avdat%20Hag%20haSukkot%20%28Arthur%20Davis%20and%20Herbert%20Adler%201908%29#page/n425/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/songsofzionbyheb00luca/songsofzionbyheb00luca#page/60/mode/2up">https://archive.org/stream/songsofzionbyheb00luca/songsofzionbyheb00luca#page/60/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66395_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the piyyut, “Aamir Otekha Selah” by Elazar ben Qallir for Sukkot, as translated into rhyming English verse by Alice Montefiore Lucas, first published as “Hymn for Tabernacles” in her anthology of versified translations <tei:hi rend="italic">Songs of Zion by Hebrew Singers of Mediæval Times</tei:hi> (1894). (The translation was reprinted in her <tei:hi rend="italic">The Jewish Year</tei:hi> (1898) under the title, “Palm and Myrtles.”) Her translation was later set opposite Qallir’s Hebrew text in <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Ḥag haSukkot</tei:hi> (ed. Arthur Davis &amp; Herbert Adler, 1908).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66395_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:aamir_otekha_selah_elazar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

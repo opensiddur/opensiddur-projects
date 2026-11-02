@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵיךְ אֶשְׁאָל</tei:title>
+        <tei:title type="main" xml:lang="en">Eikh esh’al (How can I ask?), a piyyuṭ responding to the war by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵיךְ אֶשְׁאָל</tei:title>
+          <tei:title xml:lang="en">Eikh esh’al (How can I ask?), a piyyuṭ responding to the war by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-09-30">2025-09-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63672</tei:idno>
+          <tei:idno type="opensiddur.org">63672</tei:idno>
+          <tei:note>Source: Eikh eshal (How can I ask) Yom Kippur 5786 (David Seidenberg 2025) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/09/eikh-eshal-how-can-i-ask-yom-kippur-5786-david-seidenberg-2025.png">https://opensiddur.org/wp-content/uploads/2025/09/eikh-eshal-how-can-i-ask-yom-kippur-5786-david-seidenberg-2025.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63672_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p><tei:hi rend="bold">DOWNLOAD:</tei:hi> PDF</tei:p>
+        <tei:p>This piyyut (liturgical poem) is a response to what I think of as the second war with Gaza since October 7, the one started on March 18, 2025, when Israel broke the ceasefire. At that point it became clear that war was being driven not by the hostages or even by eliminating Hamas, but rather by Netanyahu’s coalition and its fascist members and elements eager to colonize Gaza. I am also responding to examples of the glee to destroy that accompanied some soldiers’ desire to punish all of Gaza, expressed in song, tik tok, etc., and the repeated declaration made by various Hardal rabbis that all of Gaza is Amalek, and the apparent careless way of that life gets taken by sniper and drone. I have put those feelings in the first person, in the spirit of all of us taking responsibility for any of our sins, as a community. What is real above all is the sin enumerated in the Syrian Vidui Hagadol: “Lo Bacharta Bachayyim, We did not choose Life.”</tei:p>
+        <tei:p>Note: this poem uses some piyyut forms that are not normal Hebrew, like “Artsakh” instead of “Artsekha” or “Beit” instead of “Bayit”. Also, the reference to the hostages here is “Asireha”, to echo the poem by Yehudah Halevi, “Tsiyon halo tish’ali lish’lom asirayikh”.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63672_introduction"/>
+      <j:conditional xml:id="osp_63672_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Rabbi David Seidenberg’s piyyut “Eikh esh’al – How can I ask?” was first published on noehasid.org. For the piyyut with a transliteration (romanized Hebrew), find the PDF here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63672_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eikh_eshal_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

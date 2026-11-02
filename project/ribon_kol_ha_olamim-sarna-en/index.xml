@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">רִבּוֹן כׇּל הָעוֹלָמִים</tei:title>
+        <tei:title type="main" xml:lang="en">Ribon kol ha-Olamim, a prayer for the government of the United States of America by Rabbi Max Lilienthal (1846)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/jonathan-sarna">Jonathan Sarna</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">רִבּוֹן כׇּל הָעוֹלָמִים</tei:title>
+          <tei:title xml:lang="en">Ribon kol ha-Olamim, a prayer for the government of the United States of America by Rabbi Max Lilienthal (1846)</tei:title>
+          <tei:author>Max Lilienthal</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1846">1846</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44004</tei:idno>
+          <tei:idno type="opensiddur.org">44004</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tefilot-yisrael-prayers-of-israel-with-an-english-translation-1854/Tefilot%20Yisrael-%20Prayers%20of%20Israel%20with%20an%20English%20Translation%20%281854%29#page/227/mode/2up">https://archive.org/stream/tefilot-yisrael-prayers-of-israel-with-an-english-translation-1854/Tefilot%20Yisrael-%20Prayers%20of%20Israel%20with%20an%20English%20Translation%20%281854%29#page/227/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44004_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Ribon kol ha-Olamim” was almost certainly written by Rabbi Max Lilienthal in 1846 soon after he arrived in New York City where he was elected chief rabbi of New York’s “united German-Jewish community.” It was first published in <tei:hi rend="italic">Tefilot Yisrael: Prayers of Israel with an English translation</tei:hi> (1848) without further attribution. (Later editions were published in New York by L. Henry Frank.) In 1998, Dr. Jonathan Sarna elucidated its authorship in an article, “A Forgotten 19th Century Prayer for the U.S. Government: Its Meaning, Significance and Surprising Author.” In <tei:hi rend="italic">Hesed Ve-Emet: Studies in Honor of Ernest S. Frerichs</tei:hi>, eds. J. Magness and S. Gitin, 431-440. Athens, Ga.: Scholars Press, 1998.</tei:p>
+        <tei:p>The transcription here, in lieu of the unavailability of the 1848 edition, uses a printing from 1854 and from 1864 with the translation offered by Dr. Sarna containing his annotations. Interestingly, the 1854 printing of <tei:hi rend="italic">Tefilot Yisrael</tei:hi> was made by S.B. Gusdorfer (and printed by J. Sommer) in Fürth, Bavaria, making it the first prayerbook from the United States that we know of to have been republished in Europe. We do not know whether this edition was endorsed by Henry Frank, but the 1854 Furth edition contains an English translation of Lilienthal’s prayer, which do not appear in Frank’s editions.</tei:p>
+        <tei:p>Dr. Sarna notes that a later variation of this prayer for the government of the United States was made by Hyman Charlap and which appear in the siddurim (1, 2) he compiled that were published by the Hebrew Publishing Company in 1912.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44004_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

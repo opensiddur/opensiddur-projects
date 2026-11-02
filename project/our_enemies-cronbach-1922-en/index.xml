@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Our Enemies, an exhortation to look inward to resolve conflict (CCAR 1923)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Our Enemies, an exhortation to look inward to resolve conflict (CCAR 1923)</tei:title>
+          <tei:author>Abraham Cronbach</tei:author>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1922" to="1923">1922 – 1923</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66518</tei:idno>
+          <tei:idno type="opensiddur.org">66518</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/bwb_W7-BQA-019/bwb_W7-BQA-019#page/105/mode/2up">https://archive.org/stream/bwb_W7-BQA-019/bwb_W7-BQA-019#page/105/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66518_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Our Enemies” is the thirty-first prayer found in ברכה ותהלה <tei:hi rend="italic">Blessing and Praise: A Book of Meditations and Prayers for Individual and Home Devotion</tei:hi> (CCAR 1923), pp. 105-107. Unfortunately, we do not yet know of a resource providing clear attribution of authorship for any of the prayers in this volume. However, the pacifist language and argument in this prayer strongly identifies it as having been written by Rabbi Abraham Cronbach. For a comparative, find Rabbi Cronbach’s prayer, “Our Contemners” published in his own collection, <tei:hi rend="italic">Prayers of the Jewish Advance</tei:hi> (1924), pp. 8-11.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66518_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:our_enemies_cronbach"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הודאה לפני התרגיל</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer of Gratitude Before Exercise, by Rabbi Shmuly Yanklowitz</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הודאה לפני התרגיל</tei:title>
+          <tei:title xml:lang="en">Prayer of Gratitude Before Exercise, by Rabbi Shmuly Yanklowitz</tei:title>
+          <tei:author>Shmuly Yanklowitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-06-15">2018-06-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=20294</tei:idno>
+          <tei:idno type="opensiddur.org">20294</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_20294_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was first published at the Times of Israel in an essay by Rav Shmuly Yanklowitz, “Making a blessing before we exercise!” on 15 June 2018. He writes:</tei:p>
+        <tei:p>Rabbi Abraham Isaac HaKohen Kook teaches that exercise can be a holy mitsvah:</tei:p>
+        <tei:p>[W]hen young people engage in sport to strengthen the power and spirit for the sake of the might of the entire nation, that holy service raises God’s Presence higher and higher, as it is raised by the songs and praises that David, King of Israel, expressed in the book of Psalms.</tei:p>
+        <tei:p>By means of supernal intentions, the inner soul rises. By means of actions that strengthen individuals’ bodies for the sake of the all, outer spirituality rises. These two together bring to perfection the arrangements of all holiness, emphasizing the character of the nation in that small phrase upon which all the limbs of the Torah depend: “In all your ways, know Him” (Orot, Orot Hatechiyah 34).</tei:p>
+        <tei:p>So, then, if it is a mitsvah to guard our lives and strengthen our bodies in service of our holy mission, then there should be a brakhah (blessing) before we start a session of vigorous activity; any excuse to add blessings to our day is a wonderful opportunity for personal growth! With regard to the substance of the blessing, I would propose the following language.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_20294_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_gratitude_before_exercise_yanklowitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

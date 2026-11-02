@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Veterans Day Prayer for Jewish War Veterans, by Rabbi Simeon Kobrinetz, Chaplain, USAF (Ret.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Veterans Day Prayer for Jewish War Veterans, by Rabbi Simeon Kobrinetz, Chaplain, USAF (Ret.)</tei:title>
+          <tei:author>Simeon Kobrinetz</tei:author>
+          <tei:author>Jewish War Veterans of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1997">1997</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54508</tei:idno>
+          <tei:idno type="opensiddur.org">54508</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4964356/kobrinetz-prayer">https://www.c-span.org/video/standalone/?c4964356/kobrinetz-prayer</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54508_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for Jewish War Veterans was offered by Rabbi Chaplain Simeon Kobrinetz on Veterans Day 1996 during the Veterans’ Day Memorial Service presided by President Bill Clinton at Arlington National Cemetery. Many thanks to Molly Frisinger for helping me with a difficult line in this transcription from the recording made available via C-SPAN.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54508_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veterans_day_prayer_for_jewish_war_veterans_kobrinetz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

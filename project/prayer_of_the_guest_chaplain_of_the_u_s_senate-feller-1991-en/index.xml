@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Moshe Feller on 16 October 1991</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Moshe Feller on 16 October 1991</tei:title>
+          <tei:author>Moshe Feller</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1991-10-16">1991-10-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52086</tei:idno>
+          <tei:idno type="opensiddur.org">52086</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4503070/rabbi-moshe-feller-st-paul-mn">https://www.c-span.org/video/standalone/?c4503070/rabbi-moshe-feller-st-paul-mn</tei:ref></tei:note>
+          <tei:note>Source: Congressional Record v. 137, part 18 – 16 October 1991. p. 26389 <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/07/Congressional-Record-v.-137-part-18-16-October-1991.-p.-26389.png">https://opensiddur.org/wp-content/uploads/2023/07/Congressional-Record-v.-137-part-18-16-October-1991.-p.-26389.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52086_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Moshe Feller, director, Lubavitch Movement, Upper Midwest Region, St. Paul, Minnesota</tei:p>
+        <tei:p>Date of Prayer: 16 October 1991</tei:p>
+        <tei:p>Sponsor: Sen. Paul Wellstone (D-MN)</tei:p>
+        <tei:p>Mr. WELLSTONE. Mr. President, I rise to thank Rabbi Feller from St. Paul, Minnesota, for coming today and honoring all of us here in the Senate.</tei:p>
+        <tei:p>“Lubavitch” means “City of Love” in Russian, and I cannot help but think of my father-and the Rabbi and I spoke about this before the opening of the session—Leon Wellstone, who was from Russia. My father passed away in 1983, but I believe that he is today well aware of what is happening in his native country, and I hope that the Soviet Union will become the city of love and I hope that this will be a new world for all of God’s children and that we will be able finally to spend less money on weapons of death and destruction and more money in supporting men and women throughout the world.</tei:p>
+        <tei:p>I also want to say to the Rabbi that my favorite quote is a quote from Albert Einstein where he said “the pursuit of knowledge for its own sake, the almost passionate love for justice, and the strong desire for personal independence, these are the features of the Jewish tradition that make me thank my lucky stars that I belong to it.” That is the way I feel on the floor of the U.S. Senate today, because of the presence of Rabbi Feller.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52086_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_feller"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

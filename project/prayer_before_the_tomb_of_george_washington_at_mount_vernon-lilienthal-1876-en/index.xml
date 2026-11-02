@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer before the Tomb of George Washington at Mount Vernon by Rabbi Dr. Max Lilienthal (13 July 1876)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer before the Tomb of George Washington at Mount Vernon by Rabbi Dr. Max Lilienthal (13 July 1876)</tei:title>
+          <tei:author>Max Lilienthal</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1876-07-13">1876-07-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56800</tei:idno>
+          <tei:idno type="opensiddur.org">56800</tei:idno>
+          <tei:note>Source: The Critic and Record (13 July 1876), p. 4 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/the-critic-and-record-13-july-1876-p--4.jpg">https://opensiddur.org/wp-content/uploads/2024/06/the-critic-and-record-13-july-1876-p--4.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56800_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of Rabbi Lilienthal was offered at a tree planting ceremony at the grave of George Washington attended by the delegates to the Council of Hebrew Congregations (the predecessor to the Union for Reformed Judaism) and published in the <tei:hi rend="italic">The Critic and Record</tei:hi>, 13 July 1876, on the fourth page. The prayer was also re-printed in the <tei:hi rend="italic">Annual Report of the Union of American Hebrew Congregations, Volume 1</tei:hi>, “Appendix to Proceedings of Third Council,” pp. 273-275. The very same day, Rabbi Lilienthal had been invited to offer the opening prayer before the House of Representatives. While that prayer has yet to be located in a historical newspaper or other archive, we suspect that it may very well have been a variation of this same prayer.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56800_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_before_the_tomb_of_george_washington_at_mount_vernon_lilienthal"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

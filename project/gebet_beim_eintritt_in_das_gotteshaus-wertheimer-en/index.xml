@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet beim Eintritt in das Gotteshaus</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer on Entering the House of God, by Dr. Meïr Letteris (1846), translated by Miriam Wertheimer (1852)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet beim Eintritt in das Gotteshaus</tei:title>
+          <tei:title xml:lang="en">Prayer on Entering the House of God, by Dr. Meïr Letteris (1846), translated by Miriam Wertheimer (1852)</tei:title>
+          <tei:author>Meïr haLevi Letteris</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Miriam Wertheimer</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1846">1846</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41768</tei:idno>
+          <tei:idno type="opensiddur.org">41768</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/devotionalexerci00wessiala/devotionalexerci00wessiala#page/12/mode/2up">https://archive.org/stream/devotionalexerci00wessiala/devotionalexerci00wessiala#page/12/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%29#page/n11/mode/2up">https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%29#page/n11/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846-judeo-german/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%2C%20Judeo-German%29#page/n12/mode/2up">https://archive.org/stream/tahnunei-bat-yehudah-meir-letteris-1846-judeo-german/Ta%E1%B8%A5nunei%20bat%20Yehudah%20%28Me%C3%AFr%20Letteris%201846%2C%20Judeo-German%29#page/n12/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41768_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Gebet beim Eintritt in das Gotteshaus” was written by Meir Letteris and published in his anthology of teḥinot, תחנוני בת יהודה (Taḥnunei bat Yehudah) <tei:hi rend="italic">Andachtsbuch für israelitische Frauenzimmer...</tei:hi>. In the 1846 printings, it appears on p. 1. The English translation here was made by Miriam Werheimer and for unknown reasons misattributed to Wolfgang Wessely in <tei:hi rend="italic">Devotional exercises for the use of Jewish women, on public and domestic occasions</tei:hi> (1852). –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41768_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_beim_eintritt_in_das_gotteshaus_letteris_41768"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

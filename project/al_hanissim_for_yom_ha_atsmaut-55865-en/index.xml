@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עַל־הַנִּסִּים לְיוֹם הָעַצְמָאוּת</tei:title>
+        <tei:title type="main" xml:lang="en">Al haNissim for Yom ha-Atsma'ut, by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עַל־הַנִּסִּים לְיוֹם הָעַצְמָאוּת</tei:title>
+          <tei:title xml:lang="en">Al haNissim for Yom ha-Atsma'ut, by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-05-13">2024-05-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55865</tei:idno>
+          <tei:idno type="opensiddur.org">55865</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55865_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Many have attempted to write an Al haNissim paragraph for Yom ha-Atsma’ut. Considering that we say Al ha-Nissim on Ḥanukkah, the holiday closest thematically to Yom ha-Atsma’ut, it seems only appropriate. But a lot of these texts are somewhat unfulfilling for their own reasons. (Many, for instance, are too martial, focusing on the wars of independence that happened after the signing and using frankly problematic language equating the Arab nations to the Canaanites.)</tei:p>
+        <tei:p>This is an original Al haNissim paragraph for Yom ha-Atsma’ut, focusing on the actual reason for Zionism’s necessity — European antisemitism. As I put it when I wrote the first draft of this paragraph, “Zionism was necessary because of the Europeans. The original enemy of Israel’s independence was the European nations who wanted us assimilated or dead. Israel was not declared independent from the Arab world, it was declared independent from Britain, and I think we should remember that on Yom ha-Atsma’ut.”</tei:p>
+        <tei:p>Since Israel is a state for the entire Jewish people, the opening line includes both the Ashkenazi הַמִּלְחָמוֹת and the Sephardi הַנֶּחָמוֹת in its list.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55865_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim_for_yom_haatsmaut_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

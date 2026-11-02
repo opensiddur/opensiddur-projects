@@ -1,0 +1,73 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בּוֹרֵא עַד אָנָּה</tei:title>
+        <tei:title type="main" xml:lang="en">Borei Ad Anah ("Creator! How long"), a ḳinah after the Spanish Expulsion (ca. 16th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/gabriel-seed">Gabriel Kretzmer Seed</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בּוֹרֵא עַד אָנָּה</tei:title>
+          <tei:title xml:lang="en">Borei Ad Anah ("Creator! How long"), a ḳinah after the Spanish Expulsion (ca. 16th c.)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Isaac Leeser</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1540" to="1600">1540 – 1600</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=14255</tei:idno>
+          <tei:idno type="opensiddur.org">14255</tei:idno>
+          <tei:note>Source: seder arba tanijot p. 111 <tei:ref target="https://opensiddur.org/wp-content/uploads/2016/08/seder-arba-tanijot-p.-111.jpg">https://opensiddur.org/wp-content/uploads/2016/08/seder-arba-tanijot-p.-111.jpg</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddur-sefatai-tsadiqim-the-form-of-prayers-vol-6-seder-ha-tefilot-la-taaniyyot#page/163/mode/2up">https://archive.org/stream/siddur-sefatai-tsadiqim-the-form-of-prayers-vol-6-seder-ha-tefilot-la-taaniyyot#page/163/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_14255_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“<tei:hi rend="italic">Bore ‘Ad Anah</tei:hi>” is a ḳinah recited in a number of Sephardic communities on Tishah b’Av (or in some cases on Shabbat Hazon, the Shabbat preceding Tishah b’Av), particularly in the Spanish-Portuguese, North African and Turkish traditions – the latter being the origin of the Ladino text reprinted here. The author is unknown, but his name is likely Binyamin based on the acrostic made up of the first letters of the verses. In the kinah, the Children of Israel are compared to a wandering dove caught in a trap by predators, crying out its father, God. The ḳinah was likely written as a poignant response to the Spanish Inquisition, appropriate to Tishah b’Av since the expulsion of the Jews from Spain occurred on the 9th of Av in the year 1492. The version presented here was likely censored, as many manuscripts have the fifth verse presented in the following manner directly calling out their Catholic oppressors, “יועצים עליה עצות היא אנושה זרים העובדים אלילים שלושה אם ובן ורוח כי אין להם בושה גדול ממכאובי.” “They counsel against her and she languishes, the strangers who worship three idols, father, son and spirit, for they have no shame and great is my suffering.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14255_introduction"/>
+      <j:conditional xml:id="osp_14255_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Translation of verses 1-5 by Isaac Leeser, 1837; Gabriel Kretzmer-Seed (verse 6). Transcription of the Ladino by Isaac Gantwerk Mayer from <tei:hi rend="italic">Seder Arba Tanijot</tei:hi>, p. 111.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_14255_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_ad_anah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

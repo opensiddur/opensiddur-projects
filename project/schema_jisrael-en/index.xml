@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Schema Jisrael</tei:title>
+        <tei:title type="alt" xml:lang="en">Shema Yisrael, a hymn by Rabbi Moritz Mayer (1867)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Schema Jisrael</tei:title>
+          <tei:title xml:lang="en">Shema Yisrael, a hymn by Rabbi Moritz Mayer (1867)</tei:title>
+          <tei:author>Moritz Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1867">1867</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51208</tei:idno>
+          <tei:idno type="opensiddur.org">51208</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/66/mode/2up">https://archive.org/stream/hymnsfordivinese00temprich/hymnsfordivinese00temprich#page/66/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51208_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Schema Jisrael (Shema Yisrael)” is a hymn written by Moritz Mayer (1821-1867) and posthumously published in <tei:hi rend="italic">Hymns, for Divine Service in the Temple Emanu-El</tei:hi> (1871), hymn No33, pp. 66-67. It may have been published earlier in the author’s lifetime. From 1865-1867, Mayer would occassionally fill in for Rabbi Samuel Adler at Temple Emanu-El, as noted in the synagogues meeting minutes.<tei:anchor xml:id="note_1"/> If you know of an earlier source for this hymn, please leave a comment or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51208_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:schema_jisrael_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>As noted by Anton Hieke in “Rabbi Maurice Mayer: German Revolutionary, Charleston Reformer, and Anti-Abolitionist,” <tei:hi rend="italic">Southern Jewish Life</tei:hi>, 17 (2014), p. 48 and ftn. 8.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

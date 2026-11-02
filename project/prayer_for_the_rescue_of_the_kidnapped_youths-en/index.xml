@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה להצלתם של הבחורים החטופים</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer for the rescue of the kidnapped youths, by Rabbi Shlomo Mosheh Amar (16 June 2014)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה להצלתם של הבחורים החטופים</tei:title>
+          <tei:title xml:lang="en">Prayer for the rescue of the kidnapped youths, by Rabbi Shlomo Mosheh Amar (16 June 2014)</tei:title>
+          <tei:author>Shlomo Mosheh Amar</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-06-16">2014-06-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53658</tei:idno>
+          <tei:idno type="opensiddur.org">53658</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53658_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for the safe return of captives was offered by the (former) Sephardi chief rabbi of Jerusalem, Shlomo Moshe Amar, as published on the website, Srugim on 16 June 2014, amidst the crisis that summer sparked by the abduction and murder of three Yeshivah boys by HAMAS operatives in the West Bank. A number of Open Siddur Project volunteers contributed to the English translation including Shoshana Michael Zucker, Baruch Jean Thaler, Yosef Razin, and myself. I was responsible for the final edit. (The text was not fully vocalized as published.) If you see an error or would like to improve the vocalization, please leave a comment or contact us. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53658_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_the_rescue_of_the_kidnapped_youths_amar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

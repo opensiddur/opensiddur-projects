@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Our Creed, a Reform movement adaptation of Daniel ben Yehudah Dayyan’s Yigdal by Rabbi J. Leonard Levy (1902)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Our Creed, a Reform movement adaptation of Daniel ben Yehudah Dayyan’s Yigdal by Rabbi J. Leonard Levy (1902)</tei:title>
+          <tei:author>J. Leonard Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1902">1902</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=65121</tei:idno>
+          <tei:idno type="opensiddur.org">65121</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-childrens-service-for-use-in-religious-schools-j-leonard-levy-1902/The%20Children%27s%20Service%20for%20Use%20in%20Religious%20Schools%20%28J.%20Leonard%20Levy%2C%201902%29%20-%202nd%20edition#page/207/mode/2up">https://archive.org/stream/the-childrens-service-for-use-in-religious-schools-j-leonard-levy-1902/The%20Children%27s%20Service%20for%20Use%20in%20Religious%20Schools%20%28J.%20Leonard%20Levy%2C%201902%29%20-%202nd%20edition#page/207/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/ritualforjewishw0000unse/ritualforjewishw0000unse#page/n27/mode/2up">https://archive.org/stream/ritualforjewishw0000unse/ritualforjewishw0000unse#page/n27/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_65121_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This Reform movement catechism by Rabbi J. Leonard Levy was first published as “Our Creed” in <tei:hi rend="italic">The Children’s Service for Use in Religious Schools</tei:hi> (1902). In the second edition from 1904, it is found on page 207. There, Rabbi Levy’s verse is described as a “translation,” which from the credit of the melody to “Leoni” (Meyer Lyon, 1751-1797) might lead one to consider it a revised Reform movement adaptation of some setting of Thomas Oliver’s “God of Abraham” (ca. 1771, itself a Christian adaptation of Daniel ben Yehudah Dayyan’s “Yigdal”). A cross-comparison however reveals this is not the case. Over at the Hymnology Archive, Chris Fenner uncovered a rhymed English translation of Yigdal by Rev. Newton Mann (1836-1926) made at the request of Rabbi Max Landsberg (1845-1927). Chris writes,</tei:p>
+        <tei:p>When Max Landsberg (1845–1927), rabbi of the B’rith Kodesh Congregation in Rochester, New York, was assembling his <tei:hi rend="italic">Ritual of Jewish Worship</tei:hi> (1885), he approached his friend Newton Mann, pastor of the Unity Church (Unitarian) in Rochester, about creating a version of the Yigdal in English rhyme. This appeared in the book, beginning “Extollèd be the living God and praisèd be his name,” in 9 rhyming couplets, effectively 8.6.8.6 (Common Meter). This text, unfortunately, did not have the same meter as the Hebrew and could not be used with existing Hebrew tunes. In his preface, Landsberg acknowledged Mann: “I cannot find adequate terms to express my obligations to my dear friend Rev. N.M. Mann, Pastor of Unity Church, for the kind interest he has taken in the preparation of Part First of this Ritual, and the valuable services he has rendered in making the English more idiomatic and perfect.”</tei:p>
+        <tei:p>Mann’s 1885 version appears to me to offer an English derivative of Yigdal that Rabbi J. Leonard Levy may have used for his revised catechism. Of derivatives of Mann’s work, find the translation of Yigdal in English translation by Mann’s successor at Unity Church, William Channing Gannet in <tei:hi rend="italic">Unity Hymns and Chorals</tei:hi> (1911). Many thanks to the Hymnology Archive and to Chris Fenner for his work. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_65121_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:our_creed"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

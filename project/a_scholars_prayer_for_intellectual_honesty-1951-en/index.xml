@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Scholar's Prayer for Intellectual Honesty, adapted from a prayer quoted by Dr. Leslie Weatherhead (1951)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Scholar's Prayer for Intellectual Honesty, adapted from a prayer quoted by Dr. Leslie Weatherhead (1951)</tei:title>
+          <tei:author>Leslie Weatherhead</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1951">1951</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34306</tei:idno>
+          <tei:idno type="opensiddur.org">34306</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/psychologyreligi013457mbp#page/n13/mode/2up">https://archive.org/stream/psychologyreligi013457mbp#page/n13/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34306_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an adaptation of a prayer to precede study first shared by the Protestant theologian, Leslie D. Weatherhead, and used by Rabbi Mordecai Kaplan as a prayer to begin his classes at the Jewish Theological Seminary of America in the mid-1950s. Text in brackets added by Aharon Varady following Abbaye’s teaching in Berakhot 5a.</tei:p>
+        <tei:p>Prayers supporting individual integrity were dear to Rabbi Mordecai Kaplan. In the supplement to his <tei:hi rend="italic">Sabbath Prayer Book</tei:hi> (1945), the subsection “Torah and the Good Life” is replete with prayers emphasizing and advocating for personal integrity and warning against religious hypocrisy. According to Dr. Mel Scult, Emanuel Goldsmith told him that Mordecai Kaplan often began his class at the JTS with this “Scholar’s Prayer.”</tei:p>
+        <tei:p>The prayer first appears in a preface to <tei:hi rend="italic">Psychology Religion and Healing</tei:hi> (1951), a monograph by Leslie D. Weatherhead, attributed only as an “ancient prayer.” The original source from which the prayer was presumably translated is unknown. Weatherhead offers no other information as to where he first encountered it. Concerns over truth, new truth, and half-truths can be found in Christian missionary and apologetic theological writings from a half-century earlier. Those writings, however, are often concerned with preserving Christian faith <tei:hi rend="italic">against</tei:hi> modernity and the force of its challenging “new truths.” This prayer — an invocation for intellectual honesty — directly rejects as cowardly, lazy, and arrogant these unfortunately common and authoritarian religious apologetics.</tei:p>
+        <tei:p>In 1953, Bishop Gerald Hamilton Kennedy added the prayer to his collection of pithy sayings, <tei:hi rend="italic">A Reader’s Notebook</tei:hi>. Within ten years, the prayer was being quoted by Mormons at Brigham Young and by Episcopalian Priests at St. Paul’s Cathedral in Los Angeles. In 1972, it was referred to as “an ancient Jewish prayer” in a journal article honoring the scientist, Maxwell Finland.</tei:p>
+        <tei:p>I was made aware of this prayer via a post by Mel Scult in his Morecai M. Kaplan Group on Facebook. Many thanks to Rabbi Marisa Elana James for additional research into the history of this prayer. I have translated the prayer into modern Hebrew. (Many thanks to Jacob Chatinover for his translation suggestions.) –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34306_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_scholars_prayer_for_intellectual_honesty"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

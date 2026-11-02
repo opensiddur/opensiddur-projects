@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Mordecai Levy on 25 May 1972</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. Senate: Rabbi Mordecai Levy on 25 May 1972</tei:title>
+          <tei:author>Mordecai Levy</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1972-05-25">1972-05-25</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55860</tei:idno>
+          <tei:idno type="opensiddur.org">55860</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 118, part 15 (25 May 1972), p. 18927 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--118-part-15-25-May-1972-p--18927.png">https://opensiddur.org/wp-content/uploads/2024/05/Congressional-Record-vol--118-part-15-25-May-1972-p--18927.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55860_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Mordecai Levy, Tri-City Jewish Center, Rock Island, Illinois</tei:p>
+        <tei:p>Sponsor: n/a</tei:p>
+        <tei:p>Date of Prayer: 25 May 1972</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55860_introduction"/>
+      <j:conditional xml:id="osp_55860_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the fifth month of the second session of the 92nd US Congress in the Senate, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 118, part 15 (25 May 1972), page 18927.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55860_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_senate_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

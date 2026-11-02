@@ -1,0 +1,91 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">שריך לינקאלען</tei:title>
+        <tei:title type="main" xml:lang="en">Memorial Prayer for Abraham Lincoln, by Isaac Goldstein haLevi (1865)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/abe-katz">Abe Katz</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">שריך לינקאלען</tei:title>
+          <tei:title xml:lang="en">Memorial Prayer for Abraham Lincoln, by Isaac Goldstein haLevi (1865)</tei:title>
+          <tei:author>Isaac Goldstein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1865">1865</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=4477</tei:idno>
+          <tei:idno type="opensiddur.org">4477</tei:idno>
+          <tei:note>Source: Isaac Goldstein’s Memorial Prayer for Abraham Lincoln. Arnold and Deanne Kaplan Collection of Early American Judaica at the University of Pennsylvania Libraries, on loan to the National Museum of American Jewish History <tei:ref target="https://opensiddur.org/wp-content/uploads/2012/02/Presidential_Prayers_Page_4_Image_0001.jpg">https://opensiddur.org/wp-content/uploads/2012/02/Presidential_Prayers_Page_4_Image_0001.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_4477_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The following acrostic authored by Isaac Goldstein haLevi was published in <tei:hi rend="italic">The Jewish Messenger</tei:hi> on May 25, 1865 under the title, “ACROSTIC on ABRAHAM LINCOLN, Assassinated Nisan 18th, 5625” and prefaced by Psalms 45:2.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4477_introduction"/>
+      <j:conditional xml:id="osp_4477_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Abe Katz’s transcription of this elegy for Abraham Lincoln was first included in his sourcesheet, “Prayers for George Washington and Abraham Lincoln“; we have retranscribed the text in Unicode Hebrew [–Aharon Varady].</tei:p>
+        <tei:p>The translation as it originally appeared in The Jewish Messenger on May 25, 1865 is as follows:</tei:p>
+        <tei:p>My heart overflows with a good speech. I address my work unto a king. Psalms, 45:2.[sic]</tei:p>
+        <tei:p>I.</tei:p>
+        <tei:p>Happy art thou, Lincoln, Who is like unto thee!</tei:p>
+        <tei:p>Among kings and princes thou art exalted.</tei:p>
+        <tei:p>Much thou did’st with an humble spirit.</tei:p>
+        <tei:p>Thou art like a unique person in the land.</tei:p>
+        <tei:p>Who among princes is like Lincoln?</tei:p>
+        <tei:p>Who shall be praised like him?</tei:p>
+        <tei:p>II.</tei:p>
+        <tei:p>Thou hast also a name among heroes!</tei:p>
+        <tei:p>Thy right hand has achieved prowess against them.</tei:p>
+        <tei:p>Thou hast girded on the sword of the slain.</tei:p>
+        <tei:p>Thou hast drawn the bow by night and by day.</tei:p>
+        <tei:p>One Father has created us, thou hast said;</tei:p>
+        <tei:p>Therefore thou hast proclaimed Freedom in thy land.</tei:p>
+        <tei:p>The black people thou hast redeemed into Freedom:</tei:p>
+        <tei:p>Forever they will praise and bless thy name.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_4477_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:memorial_prayer_for_abraham_lincoln_goldstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

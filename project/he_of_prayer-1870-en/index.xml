@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">He of Prayer, a poem concerning the angel Sandalphon by an Unknown Author (ca. 1870s)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">He of Prayer, a poem concerning the angel Sandalphon by an Unknown Author (ca. 1870s)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1870" to="1879">1870 – 1879</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41261</tei:idno>
+          <tei:idno type="opensiddur.org">41261</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/englishschoolfam00abar/englishschoolfam00abar#page/14/mode/2up">https://archive.org/stream/englishschoolfam00abar/englishschoolfam00abar#page/14/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41261_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The poem “He of Prayer” was published in Henry Abarbanel’s <tei:hi rend="italic">English School and Family Reader</tei:hi> (1883), p.14, where it is attributed to the newspaper <tei:hi rend="italic">The Jewish Times</tei:hi>, a New York newspaper that circulated from 1869-1877. No further attribution information is available, alas, and likely won’t be forthcoming until the pages of the newspaper are properly digitized and made searchable. If you know the identity of the author, please leave a comment or contact us.</tei:p>
+        <tei:p>The poem is misattributed through a regrettable typo to a “J.F.” in <tei:hi rend="italic">The Standard Book of Jewish Prayer</tei:hi> (ed. Joseph Friedlander and George Alexander Kohut, 1917).</tei:p>
+        <tei:p>The poem shares a great deal with the poem “Sandalphon” by Henry Wadsworth Longfellow (1807-1882), first published in 1858 in <tei:hi rend="italic">Birds of Passage</tei:hi>, but “He of Prayer” is different enough that we think it is probably only inspired by the latter.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41261_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:he_of_prayer_author"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

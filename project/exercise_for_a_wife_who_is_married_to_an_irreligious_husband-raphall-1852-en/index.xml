@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Exercise for a wife who is married to an irreligious husband, by Rabbi Morris Jacob Raphall (1852)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Exercise for a wife who is married to an irreligious husband, by Rabbi Morris Jacob Raphall (1852)</tei:title>
+          <tei:author>Morris Jacob Raphall</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1852">1852</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44160</tei:idno>
+          <tei:idno type="opensiddur.org">44160</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/ruhamah-devotional-exercises-for-the-use-of-the-daughters-of-israel-morris-jacob-raphall-1852/Ruhamah-%20Devotional%20Exercises%20for%20the%20Use%20of%20the%20Daughters%20of%20Israel%20%28trans.%20Morris%20Jacob%20Raphall%201852%29#page/n130/mode/2up">https://archive.org/stream/ruhamah-devotional-exercises-for-the-use-of-the-daughters-of-israel-morris-jacob-raphall-1852/Ruhamah-%20Devotional%20Exercises%20for%20the%20Use%20of%20the%20Daughters%20of%20Israel%20%28trans.%20Morris%20Jacob%20Raphall%201852%29#page/n130/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44160_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In the Book of Exodus, through the plague of <tei:hi rend="italic">dever</tei:hi> the domesticated animals of Mitsrayim are made to suffer on behalf of the sins of their Egyptian taskmasters, even though they are, as the Israelites, innocent of their masters’ transgressions. Rationally, we might explain away this as tragic by saying that then, just as today, domesticated animals are unjustly made to suffer the callous neglect and the willful abuse of the human keepers for whom they are subjects and ultimately, possessions. In a patriarchy, how do women suffer under this hierarchy? This proto-feminist prayer from 1852 implicitly questions whether a wife under patriarchal authority must submit to the transgressions of her husband. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44160_introduction"/>
+      <j:conditional xml:id="osp_44160_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Exercise for a Wife who is married to an irreligious Husband” appears on pages 131-132 of רֻחָמָה (Ruḥamah): <tei:hi rend="italic">Devotional Exercises for the Use of the Daughters of Israel</tei:hi> (1852) edited by Rabbi Morris Jacob Raphall (1798–1868). The prayer appears unique to this collection which otherwise contain selections from the teḥinot anthologies in German of Meir Letteris (1800-1871), Max Emanuel Stern (1811-1873), and Yehoshua Heshil Miro. If you know of another collection from which this prayer first appeared, please leave a comment or contact us.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44160_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:exercise_for_a_wife_who_is_married_to_an_irreligious_husband_raphall"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

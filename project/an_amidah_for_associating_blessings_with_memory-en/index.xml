@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עמידה</tei:title>
+        <tei:title type="main" xml:lang="en">An Amidah for associating blessings with memory by Rabbi Dr. Oren Steinitz</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עמידה</tei:title>
+          <tei:title xml:lang="en">An Amidah for associating blessings with memory by Rabbi Dr. Oren Steinitz</tei:title>
+          <tei:author>Oren Steinitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2016-04-13">2016-04-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=13338</tei:idno>
+          <tei:idno type="opensiddur.org">13338</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_13338_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>As powerful a practice as a standing meditation may be, reciting the familiar words of the Amidah with intention can prove to be a major challenge. The words may become rote, and the davvener may wonder if the ancient formulas are even meaningful to them. In this adaptation of the Amidah, Oren Steinitz treats each <tei:hi rend="italic">B’rakhah</tei:hi> as a prompt to remind ourselves what we are praying for and shares his own thoughts as an example. Rabbi Steinitz originally wrote the “Memory Amidah” in 2013, during the Davennen Leadership Training Institute cohort 7, and revised it for sharing here through the Open Siddur Project in 2016.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13338_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:an_amidah_for_associating_blessings_with_memory_steinitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

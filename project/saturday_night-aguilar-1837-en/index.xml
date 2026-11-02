@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">[Prayer for] Saturday night, by Grace Aguilar (14 January 1837)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">[Prayer for] Saturday night, by Grace Aguilar (14 January 1837)</tei:title>
+          <tei:author>Grace Aguilar</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1837-01-14">1837-01-14</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51030</tei:idno>
+          <tei:idno type="opensiddur.org">51030</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sabbath-thoughts-and-sacred-communings-grace-aguilar-1853/Sabbath%20Thoughts%20and%20Sacred%20Communings%20%28Grace%20Aguilar%201853%29#page/122/mode/2up">https://archive.org/stream/sabbath-thoughts-and-sacred-communings-grace-aguilar-1853/Sabbath%20Thoughts%20and%20Sacred%20Communings%20%28Grace%20Aguilar%201853%29#page/122/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/essaysmiscellani01agui/essaysmiscellani01agui#page/200/mode/2up">https://archive.org/stream/essaysmiscellani01agui/essaysmiscellani01agui#page/200/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51030_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Meditations—Saturday night, Jan. 14, 1837” by Grace Aguilar was published posthumously by her mother Sarah Aguilar in <tei:hi rend="italic">Essays and Miscellanies</tei:hi> (1853), in the section “Sacred Communings,” pp. 200-202. In the UK edition of <tei:hi rend="italic">Sacred Communings</tei:hi> (1853) the prayer appears with small variations of spelling and punctuation on pages 123-124. The US edition includes a note by Sarah Aguilar that this prayer was offered at the beginning of a new book intended as a record for her “sacred communings and prayers.” This suggests that the prayers written before this date were recorded in other journals, possibly also dedicated to her personal prayers.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51030_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:saturday_night_aguilar_51030"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

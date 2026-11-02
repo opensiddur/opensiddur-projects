@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">הַשְׁכִּיבֵנוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Hashkivenu, rhymed translation by Alice Lucas (1898)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">הַשְׁכִּיבֵנוּ</tei:title>
+          <tei:title xml:lang="en">Hashkivenu, rhymed translation by Alice Lucas (1898)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Alice Montefiore Lucas</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36180</tei:idno>
+          <tei:idno type="opensiddur.org">36180</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/74/mode/2up">https://archive.org/stream/jewishyearcollec00lucaiala/jewishyearcollec00lucaiala#page/74/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/AuthorisedDailyPrayerBook9thEdition1912/Authorised%20Daily%20Prayer%20Book%20%289th%20Edition%2C%201912%29#page/n212/mode/2up">https://archive.org/stream/AuthorisedDailyPrayerBook9thEdition1912/Authorised%20Daily%20Prayer%20Book%20%289th%20Edition%2C%201912%29#page/n212/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddur-sefatai-tsadiqim-the-form-of-prayers-vol-1-seder-hatefilot-mikol-hashanah/Siddur%20Sefatai%20Tsadiqim%20The%20Form%20of%20Prayers%20vol.%201%20-%20Seder%20haTefilot%20miKol%20haShanah%20%28ed.%20Isaac%20Leeser%201838%29#page/n138/mode/2up">https://archive.org/stream/siddur-sefatai-tsadiqim-the-form-of-prayers-vol-1-seder-hatefilot-mikol-hashanah/Siddur%20Sefatai%20Tsadiqim%20The%20Form%20of%20Prayers%20vol.%201%20-%20Seder%20haTefilot%20miKol%20haShanah%20%28ed.%20Isaac%20Leeser%201838%29#page/n138/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36180_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Alice Lucas’s rhymed paraliturgical translation of Hashkivenu, was first published in her <tei:hi rend="italic">The Jewish Year</tei:hi> (1898), page 74, under the title “At Evening.” Her variation of Hashkivenu seems to me to be a combination of the Sefaradi version (beginning with ‘Hashkivenu Avinu’) and the Ashkenazi version (with the two ‘ki El’ near the end), but I am not familiar with all the variations she may have had before her. The final blessing is omitted in her translation.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36180_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu_36180"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

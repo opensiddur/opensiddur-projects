@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵל בָּרוּךְ</tei:title>
+        <tei:title type="main" xml:lang="en">El Barukh, an alphabetic acrostic piyyuṭ together with the lyrics to Aleph Bass by Darshan</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵל בָּרוּךְ</tei:title>
+          <tei:title xml:lang="en">El Barukh, an alphabetic acrostic piyyuṭ together with the lyrics to Aleph Bass by Darshan</tei:title>
+          <tei:author>Eden Pearlstein</tei:author>
+          <tei:author>Shir Meira Feit</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Paltiel Birnbaum</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-12-08">2015-12-08</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=12337</tei:idno>
+          <tei:idno type="opensiddur.org">12337</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hasiddurhashalemhassidicsefardicpaltielbirnbaum1969#page/n106/mode/2up">https://archive.org/stream/hasiddurhashalemhassidicsefardicpaltielbirnbaum1969#page/n106/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_12337_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The song “Aleph Bass” and its accompanying video were first published by the duo, Darshan (Eden Pearlstein and Shir Meira Feit), for Ḥanukkah 5776 (2015). The video was promoted with the accompanying text:</tei:p>
+        <tei:p>Celebrate Ḥanukkah with a Psychedelic Hebrew Animation from Darshan!</tei:p>
+        <tei:p>It’s that time of the year again: menorahs, dreidels, and of course, psychedelic ḥamsas. Wait, is that a thing? Brush up on your aleph-bet as you travel through time and space in “Aleph Bass,” this crazy language-learning video. From filmmakers Brian Savelson and Abbey Luck, and the musical maestros of Darshan (Eden Pearlstein and Shir Yaakov Feit), this trip includes Kabbalistic mysticism and super sick beats. Guaranteed, you’ve never seen anything quite like it.</tei:p>
+        <tei:p>The translation of the piyyut, “El Barukh,” is that of Paltiel Birnbaum, which I have adapted by re-Hebraizing divine names, and providing gender-neutral pronouns. –Aharon Varady</tei:p>
+        <tei:p>Recording(s)</tei:p>
+        <tei:p>[youtube https://youtu.be/a6EnyQ0Dy50]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_12337_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_barukh_pearlstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

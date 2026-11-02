@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Earth Pledge by Benjamin Ferencz at Kean College, New Jersey (16 April 1991)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Earth Pledge by Benjamin Ferencz at Kean College, New Jersey (16 April 1991)</tei:title>
+          <tei:author>Benjamin Ferencz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1991-04-16">1991-04-16</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64067</tei:idno>
+          <tei:idno type="opensiddur.org">64067</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64067_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This earth pledge was offered at the first of a series of lectures by Benjamin Ferencz at Kean College, New Jersey on 16 April 1991. Although the video recording of the lecture has not been digitized, the pledge was included in its description by the United States Holocaust Museum.</tei:p>
+        <tei:p>Ferencz speaks about the problems of our small planet, the difficulties for the environment, what progress has been made, and how people can curb hazardous habits and help the planet. He discusses the exploding population, dangerous consumption habits, and problems with disposal of waste. Besides education and awareness, Ferencz identifies the need to establish international law to control what happens to the planet. For example, he defines the Law of the Sea that determines who can fish where, what you cannot do to pollute the waters, the limits of territorial sovereignty, and an effective way for settling disputes at a Tribunal (in Hamburg, Germany). He claims the human species is the most endangered because it has the (nuclear) power to destroy all life on the planet–many times over. He concludes with an inspiring way–a new pledge of allegiance–to begin thinking in planetary terms: “I pledge allegiance to the earth, this unique blue water planet, graced by life, our only home. I promise to respect all living things, to protect to the best of my abilities all parts of our planet’s environment and to promote peace among the human family with liberty and justice for all.” A question and answer period follows. Responding to a student question, Ferencz suggests the creation of a Security Council for the Environment in the United Nations in order to maintain international peace and protect the planet. This will promote a more rational system of governance.</tei:p>
+        <tei:p>Ferencz also included an earth pledge in his 1988 book with Ken Keyes, <tei:hi rend="italic">Planethood</tei:hi>. There the pledge reads: “I pledge allegiance to the Earth, and to the planet for which it stands; one world, under law, indivisible, with liberty and justice for all” (p. 153). Framed as the “Planethood Pledge of Allegiance, that pledge is credited to a “Martin Hayes” who is, unfortunately, not further identified.<tei:anchor xml:id="note_1"/></tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64067_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:earth_pledge_ferencz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>The office of Bishop Martin Hayes confirms that this is not the same person.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

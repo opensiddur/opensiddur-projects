@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">ברכת המזון ליום הכפורים</tei:title>
+        <tei:title type="main" xml:lang="en">Poetic Birkat haMazon for the break-fast meal after Yom Kippur, as found in British Library MS Or. 9772 D</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">ברכת המזון ליום הכפורים</tei:title>
+          <tei:title xml:lang="en">Poetic Birkat haMazon for the break-fast meal after Yom Kippur, as found in British Library MS Or. 9772 D</tei:title>
+          <tei:author>Avi Shmidman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0840" to="1000">0840 – 1000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=41599</tei:idno>
+          <tei:idno type="opensiddur.org">41599</tei:idno>
+          <tei:note>Source: British Library MS Or. 9772 D (f12r) <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/12/British-Library-MS-Or.-9772-D-f12r.jpg">https://opensiddur.org/wp-content/uploads/2021/12/British-Library-MS-Or.-9772-D-f12r.jpg</tei:ref></tei:note>
+          <tei:note>Source: British Library MS Or. 9772 D (f12v) <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/12/British-Library-MS-Or.-9772-D-f12v.jpg">https://opensiddur.org/wp-content/uploads/2021/12/British-Library-MS-Or.-9772-D-f12v.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_41599_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a poetic Birkat haMazon text for the break-fast after Yom Kippur found in British Library MS Or. 9772 D (f.11r – f. 14v). (The text spans f.12 recto and verso.) All the opening words of the alphabetical acrostic are from Psalms 111.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.” This translation also uses the <tei:hi rend="italic">pluralis majestatis</tei:hi> (singular they/them pronouns) to refer to the Divine. This is not meant to imply that God is more than one <tei:hi rend="italic">ḥas v’shalom</tei:hi> but rather to reflect the vastness and majesty of God while also avoiding gendered language. See Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to God.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41599_introduction"/>
+      <j:conditional xml:id="osp_41599_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Poetic Birkat haMazon for the Break-fast After Yom Kippur” was derived from British Library MS Or. 9772 D as transcribed by Avi Shmidman and published in his PhD dissertation, ברכות המזון המפויטות מן הגניזה הקהירית: מבוא ומהדורה מדעית “The Poetic Birkot haMazon from the Cairo Geniza: Introduction and Scientific Edition” (Bar-Ilan University 2009). English translation by Isaac Mayer.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_41599_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:poetic_birkat_hamazon_for_the_break_fast_meal_after_yom_shmidman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

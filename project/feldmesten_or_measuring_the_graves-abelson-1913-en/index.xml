@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Feldmesten or Measuring the Graves, a poem by Alter Abelson (1913)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Feldmesten or Measuring the Graves, a poem by Alter Abelson (1913)</tei:title>
+          <tei:author>Alter Abelson</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1913">1913</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=40071</tei:idno>
+          <tei:idno type="opensiddur.org">40071</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/standardbookofje00frierich/standardbookofje00frierich#page/698/mode/2up">https://archive.org/stream/standardbookofje00frierich/standardbookofje00frierich#page/698/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: Feldmesten or Measuring the Graves (Alter Abelson, The Hebrew Standard, 26 September 1913) <tei:ref target="https://opensiddur.org/wp-content/uploads/2021/10/Feldmesten-or-Measuring-the-Graves-Alter-Abelson-The-Hebrew-Standard-26-September-1913-scaled.jpg">https://opensiddur.org/wp-content/uploads/2021/10/Feldmesten-or-Measuring-the-Graves-Alter-Abelson-The-Hebrew-Standard-26-September-1913-scaled.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_40071_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Feldmesten or Measuring the Graves” by Alter Abelson, appears in the section “The Modern Period” in <tei:hi rend="italic">The Standard Book of Jewish Verse</tei:hi> (Joseph Friedlander and George Alexander Kohut, 1917), pp. 698-699. The poem may have first been published in the 26 September 1913 edition of the <tei:hi rend="italic">Hebrew Standard</tei:hi>, p.10. Abelson’s poem seems to me directly inspired by another late 19th century romantic piece in German and English, “Feldmesten/Measuring the Graves” in <tei:hi rend="italic">Songs of the Ghetto</tei:hi> (Morris Rosenfeld &amp; Leo Wiener 1898), p. 46-49. For more on this custom, find Chava Weissler’s work “For the Human Soul is the Lamp of the Lord: The Tkhine for Laying Wicks by Sarah bas Tovim” (in <tei:hi rend="italic">Studies in Polish Jewry, vol 10: Jews in Early Modern Poland</tei:hi>, ed. Gershon David Hundert, 1997). –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_40071_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:feldmesten_or_measuring_the_graves_abelson"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

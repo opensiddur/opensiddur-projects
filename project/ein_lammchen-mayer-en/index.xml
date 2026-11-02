@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ein Lämmchen — a German Lied Retelling of Ḥad Gadya by Isaac Offenbach (1838)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Ein Lämmchen — a German Lied Retelling of Ḥad Gadya by Isaac Offenbach (1838)</tei:title>
+          <tei:author>Isaac Offenbach</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1500" to="1838">1500 – 1838</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66849</tei:idno>
+          <tei:idno type="opensiddur.org">66849</tei:idno>
+          <tei:note>Source: Hagadah, oder Erzählung von Israels Auszug aus Egypten (Isaac Offenbach 1838), p. 88 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--88.png">https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--88.png</tei:ref></tei:note>
+          <tei:note>Source: Hagadah, oder Erzählung von Israels Auszug aus Egypten (Isaac Offenbach 1838), p. 89 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--89.png">https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--89.png</tei:ref></tei:note>
+          <tei:note>Source: Hagadah, oder Erzählung von Israels Auszug aus Egypten (Isaac Offenbach 1838), p. 90 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--90.png">https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--90.png</tei:ref></tei:note>
+          <tei:note>Source: Hagadah, oder Erzählung von Israels Auszug aus Egypten (Isaac Offenbach 1838), p. 91 <tei:ref target="https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--91.png">https://opensiddur.org/wp-content/uploads/2026/03/hagadah-oder-erzahlung-von-israels-auszug-aus-egypten-isaac-offenbach-1838-p--91.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66849_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A German-language Lied, or art song, retelling Ḥad Gadya, by the great cantor (and father of an even greater composer) Isaac Offenbach. First published in his 1838 “Hagadah, oder Erzählung von Israels Auszug aus Egypten” in Cologne, along with sheet music of a setting for voice and piano, it is here typed in modernized German spelling. A transcription of the sheet music can be found here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66849_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ein_lammchen_offenbach"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

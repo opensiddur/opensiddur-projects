@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Nachum David Herman on 7 March 1950</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Nachum David Herman on 7 March 1950</tei:title>
+          <tei:author>Nochum Dovid Herman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1950-03-07">1950-03-07</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54582</tei:idno>
+          <tei:idno type="opensiddur.org">54582</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 96, part 3 (7 March 1950), p. 2947 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--96-part-3-7-March-1950-p--2947.png">https://opensiddur.org/wp-content/uploads/2024/03/Congressional-Record-vol--96-part-3-7-March-1950-p--2947.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54582_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Nachum David Herman, Congregation Tifereth Israel, Brooklyn, New York</tei:p>
+        <tei:p>Sponsor: Rep. Louis B. Heller (D-NY)</tei:p>
+        <tei:p>Date of Prayer: 7 March 1950</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54582_introduction"/>
+      <j:conditional xml:id="osp_54582_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the second month of the second session of the 81st US Congress in the House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 96, part 3 (1950), page 2947. The Jewish Telegraphic agency, reporting on the invocation noted that it was the first time that such a prayer had been offered by an “Orthodox” rabbi. As traditionalist rabbis had already been offering prayers before Congress since Rabbi Marcus Jastrow’s prayer before the House of Representatives in 1869, Rabbi Abraham de Sola’s in 1872, and Rabbi Henry Mendes’s prayer before the Senate in 1888 — this JTA note should itself be read in its historical context. As the wikipedia article on “Orthodox Judaism” notes, “Only in the postwar era [in the United States], did the vague traditional coalition come to a definite end [with] a new wave of strictly observant refugees [arriving] from Eastern and Central Europe [during and after the Holocaust].”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54582_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_herman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

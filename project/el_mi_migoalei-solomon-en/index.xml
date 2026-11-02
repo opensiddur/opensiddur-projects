@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֶל מִי מִגּוֹאֲלֵי</tei:title>
+        <tei:title type="main" xml:lang="en">El Mi Migoalei (To whom among the redeemers), a rehuṭah piyyuṭ for Yom Kippur by Avraham ben-Shmuel (Abulafia) translated by Avi Solomon</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/avi-solomon">Avi Solomon</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֶל מִי מִגּוֹאֲלֵי</tei:title>
+          <tei:title xml:lang="en">El Mi Migoalei (To whom among the redeemers), a rehuṭah piyyuṭ for Yom Kippur by Avraham ben-Shmuel (Abulafia) translated by Avi Solomon</tei:title>
+          <tei:author>Avraham ben Shmuel Abulafia</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1271" to="1291">1271 – 1291</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63616</tei:idno>
+          <tei:idno type="opensiddur.org">63616</tei:idno>
+          <tei:note>Source: Selihah for Yom Kippur (Avraham Abulafia, National Library of Russia Ms. EVR II A 913) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/09/selihah-for-yom-kippur-avraham-abulafia-national-library-of-russia-ms--evr-ii-a-913.jpg">https://opensiddur.org/wp-content/uploads/2025/09/selihah-for-yom-kippur-avraham-abulafia-national-library-of-russia-ms--evr-ii-a-913.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63616_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This liturgical poem is read by Sefardic congregations around the globe on the holy day of Yom Kippur. The poem’s acrostic reads Abraham ben Samuel. [Although the name Abulafia is not indicated in the acrostic,] Samuel was Avraham Abulafia’s father’s name and the same technique and name is used in the chapter headings of <tei:hi rend="italic">Light of the Intellect</tei:hi>. Intriguing!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63616_introduction"/>
+      <j:conditional xml:id="osp_63616_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is “El Mi Migoalei,” a rehuṭah piyyut for Yom Kippur by Avraham ben Shmuel, as indicated by the acrostic signature (likely the same person as Avraham Abulafia.) Our transcription of the text follows that found in National Library of Russia, Ms. EVR II A 913. The vocalization is based on the niqqud published by Ḥaim Sherman (transcribed by Project Ben Yehuda), which contains some variation in wording not found in our manuscript. Our niqqud conforms to the wording found in the manuscript used for our transcription (not Sherman’s).</tei:p>
+        <tei:p>This translation of “El Mi Migoalei” was made by Avi Solomon and first published via his patreon page, on 31 October 2019. The poem was introduced ten months prior, along with page images of the piyyut, in Avi’s post, “A poem by Abraham Abulafia in the Siddur?” on 16 January 2019.</tei:p>
+        <tei:p>While the attribution to Abulafia cannot be known with absolute certainty, the play of words beginning with אל, לא, and אין (‘to whom,’ ‘no,’ and ‘not’), ultimately inverted in the final line to אל (‘Deity’), strikes me as very Abulafian at a time when ḳabbalists were seeking innovation with the mystical via negativa tradition inherited via Maimonides. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63616_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_mi_migoalei_avraham"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

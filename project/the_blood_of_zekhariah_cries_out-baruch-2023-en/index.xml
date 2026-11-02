@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">דָּם זְכַרְיָה מְבַכֶּה</tei:title>
+        <tei:title type="main" xml:lang="en">The blood of Zekhariah cries out, a qinah by Aryeh Baruch</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">דָּם זְכַרְיָה מְבַכֶּה</tei:title>
+          <tei:title xml:lang="en">The blood of Zekhariah cries out, a qinah by Aryeh Baruch</tei:title>
+          <tei:author>Aryeh Baruch</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-10-13">2023-10-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53053</tei:idno>
+          <tei:idno type="opensiddur.org">53053</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53053_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>As I was in NYC, I first heard the news of the pogrom with which Hamas opened the war between Hallel and the Torah reading on Shemini Atseret. The beginnings of what is now the final stanza of this... I am unsure whether to refer to it as a qinah or a piyut first stirred in my soul during Tefillat Geshem, and the refrain of that stanza during Hakafot that evening. Prayer and song, no matter how joyous, has taken on a somber, cutting, desperate edge for me in this new world where the safety I had once taken for granted was revealed to be an illusion, which is reflected in taking from the phrases taken from the liturgy of the Yomim Nora’im.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53053_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:the_blood_of_zekhariah_cries_out_barukh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

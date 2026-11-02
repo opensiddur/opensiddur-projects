@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה על הסרת שער תחתוני כהכנה לניתוח שינוי מין</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer upon Hair Removal for Vaginoplasty, by the Em haBanim</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה על הסרת שער תחתוני כהכנה לניתוח שינוי מין</tei:title>
+          <tei:title xml:lang="en">A Prayer upon Hair Removal for Vaginoplasty, by the Em haBanim</tei:title>
+          <tei:author>the Em haBanim</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-03-30">2025-03-30</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=60929</tei:idno>
+          <tei:idno type="opensiddur.org">60929</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_60929_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is the first of seven prayers in a seder tefilah introduced with the following statement:</tei:p>
+        <tei:p>Gender transition is a religious experience. These are the psalms and prayers I, the Em haBanim, said at every phase of the long process of preparing for and undergoing vaginoplasty. I offer this set of prayers to the community, so that we can live in deeper awareness of the fact that <j:divineName>Hashem our God</j:divineName> wants our transitions.</tei:p>
+        <tei:p>Note: This translation uses the gender-neutral pronouns <j:divineName>Ze</j:divineName>/<j:divineName>Zir</j:divineName> in reference to the Divine.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60929_introduction"/>
+      <j:conditional xml:id="osp_60929_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Prayer upon Hair Removal for Vaginoplasty” (תפילה על הסרת שער תחתוני כהכנה לניתוח שינוי מין) by the Em haBanim is the first of seven prayers offered in their סדר תפילות לניתוח שינוי מין (<tei:hi rend="italic">The Em haBanim’s Prayers for Vaginoplasty</tei:hi>).</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_60929_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_upon_hair_removal_for_vaginoplasty_habanim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

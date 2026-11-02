@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילת נחם על תשעה באב</tei:title>
+        <tei:title type="main" xml:lang="en">Tefilat Naḥem on Tishah b'Av, by Rabbi Zalman Schachter-Shalomi (free translation by Gabbai Seth Fishman)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/seth-fishman">Gabbai Seth Fishman</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילת נחם על תשעה באב</tei:title>
+          <tei:title xml:lang="en">Tefilat Naḥem on Tishah b'Av, by Rabbi Zalman Schachter-Shalomi (free translation by Gabbai Seth Fishman)</tei:title>
+          <tei:author>Zalman Schachter-Shalomi</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2009">2009</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=7316</tei:idno>
+          <tei:idno type="opensiddur.org">7316</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_7316_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>During the time before there was a State of Israel, those ideals in our hearts which we tried to practice and which we wanted others to practice, seemed not achievable where we were because, we felt we had no influence over our world where we were. And so, the longing for our homeland was tied into the longing for our dreams and our vision. Now that the State of Israel is with us, our dreams and our visions still remain distant from our lives and therefore when we say the Tishah b’Av prayers we need to remind ourselves of the distance between that which we would have in this world and that which we do have. –Gabbai Seth Fishman</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_7316_introduction"/>
+      <j:conditional xml:id="osp_7316_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was originally posted with translation to Jewish Renewal Hasidus by Gabbai Seth Fishman, here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_7316_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_nachem_on_tishah_beav_schachter_shalomi"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

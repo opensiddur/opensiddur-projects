@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֱמוּנֵי שְׁלוּמֵי יִשְׂרָאֵל</tei:title>
+        <tei:title type="main" xml:lang="en">Emunei Shlumei Yisrael — a seliḥah witnessing the Blois incident of 1171 by Hillel ben Yaaqov of Bonn</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֱמוּנֵי שְׁלוּמֵי יִשְׂרָאֵל</tei:title>
+          <tei:title xml:lang="en">Emunei Shlumei Yisrael — a seliḥah witnessing the Blois incident of 1171 by Hillel ben Yaaqov of Bonn</tei:title>
+          <tei:author>Hillel ben Yaaqov of Bonn</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=37281</tei:idno>
+          <tei:idno type="opensiddur.org">37281</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/siddur-otsar-hatefilot-vol-2/Siddur%20Otsar%20haTefilot%20vol.2#page/n536/mode/2up">https://archive.org/stream/siddur-otsar-hatefilot-vol-2/Siddur%20Otsar%20haTefilot%20vol.2#page/n536/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_37281_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Some Jewish communities, especially those in the region of the Four Lands, have a custom of fasting on the 20th of Sivan. This day has a full seliḥot service, commemorating a series of horrors that occurred on that day, most prominently the Chmielnicki (Khmielnetsky) massacres of 1648-49. But this poem was written for another horrific occurrence on 20 Sivan, the blood libel of Blois in 1171. This was the first time the accusation of ritual murder was ever made against the Jews of France, but it wasn’t the last. This seliḥah poem, written by Hillel ben Jacob of Bonn, starts with the dramatic accusation that God has abandoned the people Israel, continuing by listing those who died in myriad horrid ways, and ending with several citations from the apocalyptic final chapter of the book of Joel.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37281_introduction"/>
+      <j:conditional xml:id="osp_37281_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Transcriptions of this seliḥah were made on Hebrew Wikisource in 2009. Sefaria also has a digital edition derived from text imported from Torat Emet Freeware. For a printed source, Abe Katz directed us to the Siddur <tei:hi rend="italic">Otsar haTefilot</tei:hi> (undated, printed in Israel). If you have a better reference or higher quality page images for this seliḥah, please contact us.</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_37281_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emunei_shlumei_yisrael_hillel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

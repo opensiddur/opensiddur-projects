@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Invocation by Rabbi Ronne Friedman at the Democratic National Convention (29 July 2004)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Invocation by Rabbi Ronne Friedman at the Democratic National Convention (29 July 2004)</tei:title>
+          <tei:author>Ronne Friedman</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2004-07-29">2004-07-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34958</tei:idno>
+          <tei:idno type="opensiddur.org">34958</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4899868/rabbi-ronnie-friedman-2004-democratic-convention">https://www.c-span.org/video/standalone/?c4899868/rabbi-ronnie-friedman-2004-democratic-convention</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34958_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Good afternoon. On behalf of the Jewish Community of Greater Boston I’m honored to extend the traditional Hebrew words of welcome to all of the delegates to the Democratic National Convention, to your families, to those behind the scenes who work to enable this extraordinary exercise of our democracy and to the media who cover the event. <tei:hi rend="italic">Brukhim haBaim</tei:hi> — blessed are you who have come.</tei:p>
+        <tei:p>This is an auspicious year for the American Jewish Community. In September we will begin the celebration of our 350th year in America. In the year 1654, twenty-three Jewish souls big and little sailed into the harbor of New Amsterdam, fleeing Brazil aboard a small French frigate. Here we discovered not persecution but promise. Not an insecure space filled with perennial prejudice but a place of permanence, with a slow steadily evolving spirit of tolerance and freedom. We learned that America was not merely a waystation for the wary and fearful immigrant but a land where hopes and dreams could be realized, a country that we, too, could call home.</tei:p>
+        <tei:p>Ours is not a singular story. It has been replicated by potato farmers from Ireland and boat people from Southeast Asia, by Eastern Europeans fleeing the tyranny of Communism, by the descendants of Africans who had the strength to endure our greaters inhumanity, the grace to overcome the moral myopia of their oppressors and the talent to shape our culture. By Italians and Chinese who also helped to build the infrastructure of our cities, and the roads and rails that connect them. By courageous South and Central Americans whose labor put food on our tables, as they attempted to escape lives of economic desperation in order to provide a future for their children. By Native Americans who despite the abuse that they have suffered at the hands of all of these new settlers, are still our first and best protectors of the sanctity of this land. By all these and by so many more we have become one.</tei:p>
+        <tei:p>The Talmud teaches a blessing we should recite whenever we see a large gathering of people. A gathering like this convention. Blessed is the wise one who understands secrets for the mind of each is different from that of the other, just as the face of each is different from that of the other. In that spirit let us offer these words of prayer and praise.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34958_introduction"/>
+      <j:conditional xml:id="osp_34958_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the full text of Rabbi Ronne Friedman’s invocation offered on the fourth day of the Democratic National Convention, July 29th, 2004, corrected from the closed-captions feed offered by C-SPAN.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34958_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:invocation_friedman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

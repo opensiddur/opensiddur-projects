@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַזְכִּֽירָה יָמִים עִם יָמִים</tei:title>
+        <tei:title type="main" xml:lang="en">Azkira Yamim Im Yamim, a piyyuṭ for the First Shabbat of Admonition by Rabbi Yannai (ca. early 6th c.)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַזְכִּֽירָה יָמִים עִם יָמִים</tei:title>
+          <tei:title xml:lang="en">Azkira Yamim Im Yamim, a piyyuṭ for the First Shabbat of Admonition by Rabbi Yannai (ca. early 6th c.)</tei:title>
+          <tei:author>Yanai haPayetan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0501" to="0539">0501 – 0539</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45732</tei:idno>
+          <tei:idno type="opensiddur.org">45732</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45732_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The works of the great paytan Yannai were, with the exception of a small handful of poems, almost completely lost until their rediscovery in the Cairo Geniza. This poem, an acrostic comparison of the days of Moses and Jeremiah, was written by Yannai to serve as part of the Musaf Ḳedushah on the first Shabbat after 17 Tammuz, on which the opening section of Jeremiah is recited. It bears structural and linguistic similarities to the later famous ḳinah Esh Tuqad. In its liturgical context, it was intended to introduce the final few verses of the Ḳedushah . Nowadays the custom of poetic inserts into the ḳedushah is nearly extinct, but the poem stands as a moving and powerful work nonetheless.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45732_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:azkira_yamim_im_yamim_hapayetan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

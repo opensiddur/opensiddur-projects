@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Activist Prayer for a Trauma Center on Chicago's South Side, by Aryeh Bernstein (2015)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Activist Prayer for a Trauma Center on Chicago's South Side, by Aryeh Bernstein (2015)</tei:title>
+          <tei:author>Aryeh Bernstein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2015-05-01">2015-05-01</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=11404</tei:idno>
+          <tei:idno type="opensiddur.org">11404</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_11404_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was composed by Aryeh Bernstein for an overnight ecumenical vigil of prayer and song dedicated to reopening a Level 1 adult trauma center at the University of Chicago’s Medical College on the South Side of Chicago. Additional photographs from the on April 23rd, 2015 vigil can be seen at the Jewish Council on Urban Affair’s Facebook page. The prayer was originally posted online in an article on Jewschool that was cross-posted to the Jewish Council on Urban Affairs blog. Aryeh writes,</tei:p>
+        <tei:p>A disproportionate amount of the alarming gun violence in Chicago takes place on the South Side, yet the South Side lacks even a single level one adult trauma center. Consequently, gunshot victims sometimes minutes from death must be transported miles away to Downtown or North Side hospitals. In 2010, after Damien Turner, an 18-year-old resident of the South Side Woodlawn neighborhood, died waiting for an ambulance to drive him ten miles to a downtown hospital instead of two blocks to the University of Chicago Medical Center (UCMC), a grassroots collaboration of community organizations, faith leaders, and University of Chicago student groups began organizing the Trauma Center Coalition, dedicated to reopening a Level 1 adult trauma center at UCMC, the most well-resourced hospital on the South Side. So far, the university has refused. As part of the coalition’s ongoing campaign, last week [April 23, 2015], dozens of activists gathered on the university’s historic Midway field, for a vigil of prayer and song from different faith traditions. At dusk, participants lit candles to spell out “Trauma Center Now”, right across from the home of U. Chicago President Robert Zimmer, and then camped out for the night. As a representative of coalition partner Jewish Council on Urban Affairs, I was invited to offer a Jewish prayer, which is reproduced here; I read it in both the English and Hebrew. I grew up on the South Side, learning about the history of health care in Chicago and other cities, when, just a couple of generations earlier, Jews were prevented from working in and sometimes, getting needed care in hospitals. So the Jewish community created its own hospitals, with doors open to all patients and qualified medical staff. The value I inherited is that life and death, health and wound, should not discriminate by ethnicity, poverty, neighborhood, or life condition. Since my childhood, South Side hospitals have closed their doors as “post-racial America” has deepened its abandonment of these Black communities. Very little can capture this abandonment as starkly as a victim of gun violence a few blocks from a hospital bleeding to death while the ambulance drives him across the city to a hospital that will take him. The University of Chicago rightfully boasts of its state-of-the-art medical center, but it must focus on the needs of its community.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_11404_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:activist_prayer_for_a_trauma_center_on_chicagos_south_side_bernstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

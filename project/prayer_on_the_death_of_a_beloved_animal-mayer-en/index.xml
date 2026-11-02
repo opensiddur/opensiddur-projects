@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפילה על מת בהמה או חיה מחמד</tei:title>
+        <tei:title type="main" xml:lang="en">Prayer on the Death of a Beloved Animal, by Aharon Varady (1994)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפילה על מת בהמה או חיה מחמד</tei:title>
+          <tei:title xml:lang="en">Prayer on the Death of a Beloved Animal, by Aharon Varady (1994)</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1994">1994</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=25992</tei:idno>
+          <tei:idno type="opensiddur.org">25992</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/prayerforpuzaelaharonvarady1994#page/n0/mode/2up">https://archive.org/stream/prayerforpuzaelaharonvarady1994#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_25992_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This funeral prayer for a beloved pet animal was first compiled in English by Aharon Varady for Nethaniel Puzael, his family cat, in 1994. A copy of the prayer was first shared by Aharon on his Facebook page and in several Facebook groups. There he wrote,</tei:p>
+        <tei:p>Rummaging through old papers on 11 June 2019, my mother discovered the first email she received from me, which is I believe, the first email message I ever wrote and properly addressed (to anyone) dated 10 October 1994. Such a treasure!</tei:p>
+        <tei:p>Lo and behold (!) in the body of the email is a prayer service I put together upon learning our beloved kitty, the first in our family, had passed. His name was Nathaniel Puze’æl. I remember having written this and long wished I had a copy. I’m so grateful my mom saved this among other birthday cards and correspondence. The prayer contains excerpts from the sabbath day prayer “Nishmat Kol Ḥai” (the Spirit of All-Life), “Ashrei” (Psalms 145), and some teaching from tractates of the Babylonian Talmud concerning cats.</tei:p>
+        <tei:p>Hebrew with niqud was added by Isaac Gantwerk Mayer in 2019. (Thank you so much Isaac!) Isaac added additional liturgy and learning for birds, fish, and creeping creatures (lizards, insects, etc.). I added the final “learning sections” for all animals, acknowledging the relationship of interspecies caregivers as that of one between a mother and child, as well as the importance of Wisdom informing compassion, concern, mercy, and pity in the thought of Rabbi Moshe Cordovero (1522-1570) in his <tei:hi rend="italic">Tomer Devorah</tei:hi>. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_25992_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_on_the_death_of_a_beloved_animal_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

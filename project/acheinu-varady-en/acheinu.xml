@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַחֵֽינוּ</tei:title>
+        <tei:title type="main" xml:lang="en">Aḥeinu (Our siblings)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/acheinu-varady-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:acheinu">
+        <tei:head>Aḥeinu (Our siblings)</tei:head>
+        <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:prayer:acheinu/1"/>
+        <tei:lg>
+          <tei:l>Our siblings,</tei:l>
+          <tei:l>the whole house of Yisrael,</tei:l>
+          <tei:l>who are in distress and captivity</tei:l>
+          <tei:l>who wander over sea and over land,</tei:l>
+          <tei:l>may <j:divineName>the Maqom</j:divineName><tei:anchor xml:id="note_1"/> have mercy on them,</tei:l>
+          <tei:l>and bring them from distress to comfort,</tei:l>
+          <tei:l>from darkness to light,</tei:l>
+          <tei:l>from subjugation to redemption,</tei:l>
+          <tei:l>now, swiftly, and soon.</tei:l>
+          <tei:l><tei:note type="instruction">and may we say:</tei:note> <tei:hi rend="italic">Amen</tei:hi>.</tei:l>
+        </tei:lg>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>lit. the Place, an epithet for the Divine in rabbinic Judaism.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

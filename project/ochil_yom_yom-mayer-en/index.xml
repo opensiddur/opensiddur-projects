@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אוֹחִיל יוֹם יוֹם</tei:title>
+        <tei:title type="main" xml:lang="en">Oḥil Yom Yom (As Every Day I Hope) — a poem to honor the holy city of Tiberias on 7 Elul by David bar Aharon ben Ḥassin</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אוֹחִיל יוֹם יוֹם</tei:title>
+          <tei:title xml:lang="en">Oḥil Yom Yom (As Every Day I Hope) — a poem to honor the holy city of Tiberias on 7 Elul by David bar Aharon ben Ḥassin</tei:title>
+          <tei:author>David ben Aharon ibn Ḥassin</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1740" to="1792">1740 – 1792</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63451</tei:idno>
+          <tei:idno type="opensiddur.org">63451</tei:idno>
+          <tei:note>Source: Tiberias piyyut by R. David Ḥassin of Meknes <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/08/tiberias-piyyut-by-r--david-hassin-of-meknes.png">https://opensiddur.org/wp-content/uploads/2025/08/tiberias-piyyut-by-r--david-hassin-of-meknes.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63451_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>A piyyut of the 18th century by R. David Ḥassin, one of the greatest composers of Morocco. In this piyyut, dedicated to the city of Tiberias and recounting its praises, we tour Tiberias and the graves of the tannaim and amoraim there, and come to the place of Maimonides’ burial according to tradition. From the dead, the composer moves on to tell the prose of the living – R. Ḥayyim Abulˁafia, who renewed Jewish settlement in Tiberias to where he had moved with his students in the year 5500 [1740], doing much to revitalize the Jewish settlement and build the city, for which R. David Ḥassin praises and blesses him at the conclusion of the poem. This poem was very beloved and merited widespread circulation, and is found in poetry books of many different Mizraḥi communities. This poem has also merited a number of imitations and adaptations, testifying to its great popularity. The most well-known imitation is a poem by the Israeli diaspora-emissary R. Eliyahu Ḥazzan, who arrived at Morocco, came across this song, and composed an imitation, also called “As Every Day I Hope” — except R. Eliyahu Ḥazzan’s song is dedicated to Jerusalem and tours around it.<tei:anchor xml:id="note_1"/></tei:p>
+        <tei:p>I’ve transcribed and translated this poem in honor of the Purim Sheni of Tiberias, coming up on the seventh of Elul. But for many communities it would be recited regularly as part of the zemirot for Havdalah. Attached is a scan of the page where it appears within the diwan of Shimon Shabazi.</tei:p>
+        <tei:p>Note: “<j:divineName>The CAUSE</j:divineName>” is used to translate the Divine Name <j:divineName>YHVH</j:divineName>, based on the philosophical idea of <j:divineName>God</j:divineName> as the <j:divineName>Prime Mover</j:divineName> and on the interpretation of <j:divineName>the Name</j:divineName> as a causative form of the copula – “causes to be.” “<j:divineName>God</j:divineName>” is used to translate the divine name <j:divineName>Elohim</j:divineName>. All divine referents (pronouns, epithets, names) are rendered in unicase.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63451_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ochil_yom_yom_david"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>An English translation of the note from the NLI piyyuṭ website</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

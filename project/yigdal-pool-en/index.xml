@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יִגְדַּל (מנהג הספרדים)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Yigdal, by Daniel ben Yehudah (rhyming translation by Rabbi David de Sola Pool, 1937)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יִגְדַּל (מנהג הספרדים)‏</tei:title>
+          <tei:title xml:lang="en">Yigdal, by Daniel ben Yehudah (rhyming translation by Rabbi David de Sola Pool, 1937)</tei:title>
+          <tei:author>David de Sola Pool</tei:author>
+          <tei:author>Daniel ben Yehudah Dayyan</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1440" to="1500">1440 – 1500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36110</tei:idno>
+          <tei:idno type="opensiddur.org">36110</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tefilotlroshhashanahdaviddesolapool1937/Tefilot%20l%27Rosh%20haShanah%20%28David%20de%20Sola%20Pool%2C%201937%29#page/n186/mode/2up">https://archive.org/stream/tefilotlroshhashanahdaviddesolapool1937/Tefilot%20l%27Rosh%20haShanah%20%28David%20de%20Sola%20Pool%2C%201937%29#page/n186/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36110_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the philosophical-creed-as-piyyut, Yigdal, by Daniel ben Judah Dayyan. Yigdal means “Magnify [O Living God]” and is based on the 13 Articles of Faith formulated by Maimonides (1135-1204). Daniel ben Judah spent eight years improving his piyyut, completing Yigdal in 1404. This was not the only metrical presentment of the 13 Articles of Faith; but it has outlived all others, whether in Hebrew or in the vernacular. The rhyming English translation appearing here is as found on page 87 of the <tei:hi rend="italic">Tefilot l’Rosh haShanah</tei:hi> (1937), compiled and translated by Rabbi David de Sola Pool.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36110_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal_daniel_36110"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

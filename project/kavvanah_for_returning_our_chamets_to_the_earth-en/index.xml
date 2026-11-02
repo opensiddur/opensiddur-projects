@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כָׇּל־חֲמִירָא</tei:title>
+        <tei:title type="main" xml:lang="en">Kavvanah for Returning Our Ḥamets to the Earth by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כָׇּל־חֲמִירָא</tei:title>
+          <tei:title xml:lang="en">Kavvanah for Returning Our Ḥamets to the Earth by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-03-24">2013-03-24</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6335</tei:idno>
+          <tei:idno type="opensiddur.org">6335</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6335_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Some people think of this as a magic formula that turns <tei:hi rend="italic">ḥamets</tei:hi> into dust. It really is a legal formula that means that you renounce ownership of any <tei:hi rend="italic">ḥamets</tei:hi> still in your space or your domain, so that it no longer has any value to you. But is it true that dirt is valueless and ownerless? We certainly act like we own the dirt, the soil. Developers take good land, build houses on it, and truck the topsoil away to sell to other people—thereby doubling profits and doubling damage to the earth. We act like the soil can be renewed and replaced at will, poisoning its microbial communities with pesticides applied even more strongly on our GMO corn and soy, while we replace the nutrients they create with petroleum-based fertilizers. We send the soil downstream and into the ocean along with vast quantities of agricultural runoff, creating algal blooms and anoxic dead zones. In that sense we do treat the soil like it is both ownerless and valueless. But our lives are almost entirely beholden to the soil. If it is ownerless it is because it belongs to all of us, or more precisely, as the story of the rabbi deciding between claimants goes, “The land says it doesn’t belong to you or to you, but that you belong to it.”</tei:p>
+        <tei:p>Like the dirt of the earth, the ḥamets inside your house becomes what at Burning Man we call “MOOP” (Matter Out Of Place). Finding out where it belongs means finding out that it doesn’t belong to you or to us. Returning it to the soil means tilling our stuff back into the earth, where it can become renewed, where it can become sustenance for new life.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6335_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanah_for_returning_our_chamets_to_the_earth_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">חַד גַּדְיָא</tei:title>
+        <tei:title type="main" xml:lang="en">𒈧𒍪𒌝𒀸𒑰 (Kizzum Ištēn) — an Akkadian translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">חַד גַּדְיָא</tei:title>
+          <tei:title xml:lang="en">𒈧𒍪𒌝𒀸𒑰 (Kizzum Ištēn) — an Akkadian translation of Ḥad Gadya by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1501" to="1526">1501 – 1526</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=48717</tei:idno>
+          <tei:idno type="opensiddur.org">48717</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48717_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Ḥad Gadya has a place in Seder tables throughout the Jewish world, and in many communities it was read in translation. Probably not this one though, seeing as it was written over a millenium after Akkadian became extinct. But in my opinion there ought to be a representation of the East Semitic language family in the canon of Ḥad Gadya translations.</tei:p>
+        <tei:p>Note that there are two different columns in Latin script — one for the Akkadian as it was read, and another for the Akkadian as it was written. This is because cuneiform is an incredibly complex system, invented for Sumerian and haphazardly adapted to Akkadian. All the signs are syllabic, which can lead to much ambiguity in a language like Akkadian were gemination is distinctive. Many signs are still written in what are called ‘Sumerograms’ — the words written in capital letters in the “ktiv” transliteration. These were read according to their meaning, not the signs’ pronunciation, in a system somewhat akin to Japanese kanji. Other signs are written with ‘determinitives’ — Sumerian-origin markers that weren’t read at all, merely serving as a guide for scribes and readers to know what they’re about to be reading. These are written as superscripts in the “ktiv” transliteration. There’s a reason most students of Akkadian start using Latin script!</tei:p>
+        <tei:p>Also included is a transliteration of the Akkadian translation into Hebrew script, since Judeo-Cuneiform doesn’t exist... yet. Eh, Aramaic script was invented in the places Akkadian was spoken anyway, it’s fine.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48717_introduction"/>
+      <j:conditional xml:id="osp_48717_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the translation of Ḥad Gadya into Akkadian by Isaac Gantwerk Mayer. A hearty thanks to Dr. Janine Wende at the University of Leipzig for proofreading and editing the Akkadian translation!</tei:p>
+        <tei:p>The earliest known appearance of “Ḥad Gadya,” by an unknown author, can be found, handwritten, in the Prague Haggadah (1526). The Aramaic has been vocalized according to the Prague Haggadah (1590). Besides the transcription of the Aramaic with its vocalization, I have also added an English translation adapted from Eve Levavi Feinstein’s Passover Haggadah translation. –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48717_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:kizzum_ishten_an_akkadian_translation_of_chad_gadya_by_isaac"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

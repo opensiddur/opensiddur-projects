@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כֹּל נְדָרִים</tei:title>
+        <tei:title type="main" xml:lang="en">Kol N'darim, translated by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כֹּל נְדָרִים</tei:title>
+          <tei:title xml:lang="en">Kol N'darim, translated by Isaac Gantwerk Mayer</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1440" to="1500">1440 – 1500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27254</tei:idno>
+          <tei:idno type="opensiddur.org">27254</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27254_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The Italian Jewish community is one of the oldest continuous Jewish communities on the planet, dating back to the Roman empire at the latest.The Italian Jewish nusaḥ preserves several archaic practices that Ashkenazi and Sephardi rites no longer follow, many of which were found in gaonic siddurim and preserved only among the Italians. One fascinating custom of the Italian Jews is the recitation of what Ashkenazim and Sephardim call “Kol Nidrei” not in Aramaic, but in Hebrew, under the name “Kol N’darim.” This custom, also found among the Romaniotes of Greece, is elsewhere only found in the siddur of Rav Amram Gaon. The text included here is transcribed, niqqud and all, directly from a 1469 Italian-rite siddur found in the British Library. The scribe uses several non-standard vocalizations, which have been marked in editors’ notes.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27254_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kol_nedarim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

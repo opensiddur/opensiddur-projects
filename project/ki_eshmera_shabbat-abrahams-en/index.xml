@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">כִּי אֶשְׁמְרָה שַׁבָּת</tei:title>
+        <tei:title type="main" xml:lang="en">Ki Eshmera Shabbat, a piyyuṭ by Avraham ibn Ezra (rhyming translation by Israel Abrahams, 1914)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">כִּי אֶשְׁמְרָה שַׁבָּת</tei:title>
+          <tei:title xml:lang="en">Ki Eshmera Shabbat, a piyyuṭ by Avraham ibn Ezra (rhyming translation by Israel Abrahams, 1914)</tei:title>
+          <tei:author>Avraham ibn Ezra</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Israel Abrahams</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1140" to="1200">1140 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39047</tei:idno>
+          <tei:idno type="opensiddur.org">39047</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/cu31924079807198/cu31924079807198#page/n285/mode/2up">https://archive.org/stream/cu31924079807198/cu31924079807198#page/n285/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39047_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Abraham Ibn Ezra was the author of the poem “If we the Sabbath keep with faithful hearts.” Ibn Ezra (twelfth century), a writer in several branches of literature, enriched the liturgy with many hymns. The author’s name is given in acrostic simply as Abraham, but all authorities agree in assigning it to Ibn Ezra (cf. Vitry, p. 178). The Sabbath as a sign between God and Israel is taken from Exodus 31:13-17. For some of the ideas in the hymn see T.B. Sabbath 113b, 150b, Shulḥan Aruch, O. Ḥayyim §307. For the allusion to the manna see Exod. 26:5. –Israel Abrahams</tei:p>
+        <tei:p>I have re-hebraicized divine names and mentions of the Torah in Abrahams’s translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39047_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ki_eshmera_shabbat_ezra"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

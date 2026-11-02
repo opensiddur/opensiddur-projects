@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Gebet einer unglücklichen Ehegattin</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer of an unhappy wife, a teḥinah by Fanny Neuda (1855)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Gebet einer unglücklichen Ehegattin</tei:title>
+          <tei:title xml:lang="en">Prayer of an unhappy wife, a teḥinah by Fanny Neuda (1855)</tei:title>
+          <tei:author>Fanny Schmiedl-Neuda</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1855">1855</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=42790</tei:idno>
+          <tei:idno type="opensiddur.org">42790</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/StundenDerAndachtFannyNeuda1864/Stunden%20der%20Andacht%20%28Fanny%20Neuda%2C%201864%29#page/n128/mode/2up">https://archive.org/stream/StundenDerAndachtFannyNeuda1864/Stunden%20der%20Andacht%20%28Fanny%20Neuda%2C%201864%29#page/n128/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/stunden-der-andacht-ein-gebet-und-erbauungsbuch-fur-israels-frauen-und-jungfrauen-fanny-neuda-1855/Stunden%20der%20Andacht-%20ein%20Gebet-%20und%20Erbauungs-buch%20f%C3%BCr%20Israels%20Frauen%20und%20Jungfrauen%20%28Fanny%20Neuda%201855%29#page/92/mode/2up/">https://archive.org/stream/stunden-der-andacht-ein-gebet-und-erbauungsbuch-fur-israels-frauen-und-jungfrauen-fanny-neuda-1855/Stunden%20der%20Andacht-%20ein%20Gebet-%20und%20Erbauungs-buch%20f%C3%BCr%20Israels%20Frauen%20und%20Jungfrauen%20%28Fanny%20Neuda%201855%29#page/92/mode/2up/</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_42790_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Gebet einer unglücklichen Ehegattin” by Fanny Neuda was first published in her collection of teḥinot, <tei:hi rend="italic">Stunden der Andacht. ein Gebet⸗ und Erbauungs-buch für Israels Frauen und Jungfrauen</tei:hi> (1855), pp. 92-93. In the 1864 Judeo-German edition, it is found on pp. 118-120.</tei:p>
+        <tei:p>We welcome corrections and improvements. The transcription of the German from Latin script in Fraktur type provided machine-readable text for a machine translation by DeepL, which we then edited for accuracy and clarity. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_42790_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gebet_einer_unglucklichen_ehegattin_schmiedl_neuda"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

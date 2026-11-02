@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Invocation for the 78th Annual Reading of President George Washington's letter to the Hebrew Congregation of Newport, Rhode Island, by Rabbi Stephen Belsky</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Invocation for the 78th Annual Reading of President George Washington's letter to the Hebrew Congregation of Newport, Rhode Island, by Rabbi Stephen Belsky</tei:title>
+          <tei:author>Stephen Belsky</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-08-17">2025-08-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=63296</tei:idno>
+          <tei:idno type="opensiddur.org">63296</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_63296_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This invocation was given at the 78th annual George Washington Letter Reading Event, August 17, 2025 (23 Av, 5785), held by the Touro Synagogue Foundation to celebrate the famous 1790 letter exchange between the Jewish community of Newport, Rhode Island (represented by warden Moses Seixas) and first president of the United States, George Washington. Washington’s response to Seixas’s letter, in which he quotes some of his most iconic phrasings, is one of the first official statements by the US government on the value of religious freedom. This Letter Reading Event was held in the Old Colony House (where the Jewish community’s letter was probably presented to President Washington), rather than in the Touro Synagogue, due to Congregation Shearith Israel in New York’s barring of the Touro Synagogue Foundation from access to the building.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63296_introduction"/>
+      <j:conditional xml:id="osp_63296_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>For a public reading that provides the historical frame story around this letter, find the Megillat Washiŋton.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_63296_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:invocation_for_the_78th_annual_reading_of_president_george_belsky"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

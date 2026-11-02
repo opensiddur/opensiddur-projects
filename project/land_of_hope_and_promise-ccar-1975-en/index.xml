@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Land of Hope and Promise, a prayer for Israel (CCAR 1975)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Land of Hope and Promise, a prayer for Israel (CCAR 1975)</tei:title>
+          <tei:author>Central Conference of American Rabbis [CCAR]</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1975">1975</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43980</tei:idno>
+          <tei:idno type="opensiddur.org">43980</tei:idno>
+          <tei:note>Source: land of hope and promise (Gates of Prayer 1975), pp. 240-241 <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/04/land-of-hope-and-promise-Gates-of-Prayer-1975-pp.-240-241.png">https://opensiddur.org/wp-content/uploads/2022/04/land-of-hope-and-promise-Gates-of-Prayer-1975-pp.-240-241.png</tei:ref></tei:note>
+          <tei:note>Source: Prayer for Israel – Prayerbook for Jewish Personnel in the Armed Forces of the United States (Jewish Welfare Board 1984) <tei:ref target="https://opensiddur.org/wp-content/uploads/2022/04/Prayer-for-Israel-Prayerbook-for-Jewish-Personnel-in-the-Armed-Forces-of-the-United-States-Jewish-Welfare-Board-1984-scaled.jpg">https://opensiddur.org/wp-content/uploads/2022/04/Prayer-for-Israel-Prayerbook-for-Jewish-Personnel-in-the-Armed-Forces-of-the-United-States-Jewish-Welfare-Board-1984-scaled.jpg</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/evening-service-for-the-sabbath-from-the-union-prayer-book-newly-revised-ccar-1924/Evening%20Service%20for%20the%20Sabbath%20from%20the%20Union%20Prayer%20Book%20Newly%20Revised%20%28CCAR%201924%29#page/n65/mode/2up">https://archive.org/stream/evening-service-for-the-sabbath-from-the-union-prayer-book-newly-revised-ccar-1924/Evening%20Service%20for%20the%20Sabbath%20from%20the%20Union%20Prayer%20Book%20Newly%20Revised%20%28CCAR%201924%29#page/n65/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43980_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Land of Hope and Promise” was published in <tei:hi rend="italic">Gates of Prayer: The New Union Prayerbook</tei:hi> (CCAR 1975), pp. 240-241. In 1984, it was published as the “Prayer for Israel” in the <tei:hi rend="italic">Prayerbook for Jewish Personnel in the Armed Forces of the United States</tei:hi> (Jewish Welfare Board 1984), p. 436. The work appears to have been adapted from a much earlier paraliturgical hashkivenu prayer offered in the <tei:hi rend="italic">Evening Service for the Sabbath from the Union Prayer Book Newly Revised</tei:hi> (CCAR 1924) to be said by the Reader between the Shema and the Amidah in a version (No5) of the Friday night service, pp. 68-69. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43980_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:land_of_hope_and_promise_ccar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

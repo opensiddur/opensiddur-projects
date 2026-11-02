@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer [for Military Personnel] in Temptation (National Jewish Welfare Board 1941)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer [for Military Personnel] in Temptation (National Jewish Welfare Board 1941)</tei:title>
+          <tei:author>David de Sola Pool</tei:author>
+          <tei:author>Eugene Kohn</tei:author>
+          <tei:author>Solomon B. Freehof</tei:author>
+          <tei:author>the National Jewish Welfare Board</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1941">1941</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=43963</tei:idno>
+          <tei:idno type="opensiddur.org">43963</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/abridged-prayer-book-for-the-jews-in-the-armed-forces-of-the-united-states-jewish-welfare-board-1941/Abridged%20Prayer%20Book%20for%20the%20Jews%20in%20the%20Armed%20Forces%20of%20the%20United%20States%20%28Jewish%20Welfare%20Board%201941%29#page/120/mode/2up">https://archive.org/stream/abridged-prayer-book-for-the-jews-in-the-armed-forces-of-the-united-states-jewish-welfare-board-1941/Abridged%20Prayer%20Book%20for%20the%20Jews%20in%20the%20Armed%20Forces%20of%20the%20United%20States%20%28Jewish%20Welfare%20Board%201941%29#page/120/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_43963_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Prayer in Temptation” can be found in the <tei:hi rend="italic">Abridged Prayer Book for the Jews in the Armed Forces of the United States</tei:hi> (Jewish Welfare Board 1941), p. 120. The prayer is found under the title, “[Prayer] For Moral Strength” in the <tei:hi rend="italic">Prayer Book for Jewish Personnel in the Armed Forces of the United States</tei:hi> (1958), p. 344.</tei:p>
+        <tei:p>The specific details of concern are left to the readers of this prayer although it may directly relate to the larger military education campaigns against venereal disease. For more information, find Adrienne Mueller’s honors thesis, “Prostitutes, Prophylactics, and Propaganda: The Venereal Disease Campaign and the Fight for Control of Female Sexuality During WWII” (University of Colorado Boulder 2018).</tei:p>
+        <tei:p>As far as we know, this prayer is unique to this prayerbook, although the text recalls the waking prayer “Elohai Neshama.” The author of the prayer is also not known; three well-known rabbis contributed to the siddur: David de Sola Pool, Eugene Kohn, and Solomon B. Freehof. It would be good to know if similar prayers appeared in the religious resources for chaplains of other religious traditions. If you know more details concerning its authorship or whether it was published elsewhere, please leave a comment or contact us. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_43963_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_in_temptation_pool"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

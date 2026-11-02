@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"A veritable universal pledge of allegiance to this planet and to its peoples," by Adlai E. Stevenson II (9 July 1965)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"A veritable universal pledge of allegiance to this planet and to its peoples," by Adlai E. Stevenson II (9 July 1965)</tei:title>
+          <tei:author>Adlai E. Stevenson Ⅱ</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1965-07-09">1965-07-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55766</tei:idno>
+          <tei:idno type="opensiddur.org">55766</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55766_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is an excerpt from a speech given on 9 July 1965 by Adlai Ewing Stevenson II (1900-1965), his final speech before the United Nations in Geneva, Switzerland. (The US ambassador to the UN passed away less than a week later in London on 14 July.) In 1971, the prominent environmental leader (and later executive director of Friends of the Earth) David Brower (1912-2000), described the quote as “A veritable universal pledge of allegiance to this planet and to its peoples” in his own speech, “What Organizations and Industry Should Do,” delivered at the First International Conference on Environmental Future, held in Finland from 27 June to 3 July 1971. The speech was published in the proceedings of the conference, <tei:hi rend="italic">The Environmental Future</tei:hi> (ed. Nicholas Polunin, 1973), p. 478.</tei:p>
+        <tei:p>James MacGregor Palmer writes in “Spaceship Earth and the Alien Economy: More than a Metaphor,”</tei:p>
+        <tei:p>The first mention of Earth as a ship traveling through space appears way back in 1879 in Henry George’s book <tei:hi rend="italic">Progress and Poverty</tei:hi>. The idea even makes an appearance in George Orwell’s <tei:hi rend="italic">The Road to Wigan Pier</tei:hi>. But in 1965, four years after Yuri Gagarin became the first person in space and four years before Neil Armstrong became the first to walk on the moon, the image had a new resonance.</tei:p>
+        <tei:p>Buoyed by the cultural significance imbued upon it by the space age, the Spaceship Earth worldview gained further traction as the decade wore on. The year after Stevenson’s speech, the economist Kenneth E. Boulding released an essay entitled “The Economics of the Coming Spaceship Earth.” In 1968, the author R. Buckminster Fuller released his book <tei:hi rend="italic">Operating Manual for Spaceship Earth</tei:hi>. Both helped popularize the idea.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55766_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_veritable_universal_pledge_of_allegiance_to_this_planet_ii"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

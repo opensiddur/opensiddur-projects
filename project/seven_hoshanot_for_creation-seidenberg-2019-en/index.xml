@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Seven Hoshanot for Creation, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Seven Hoshanot for Creation, by Rabbi David Seidenberg (neohasid·org)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2019-10-13">2019-10-13</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27609</tei:idno>
+          <tei:idno type="opensiddur.org">27609</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27609_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Traditional hoshanot prayers are said every day of Sukkot, one each day, and then all seven on the last day, called Hoshana Rabbah. Here are some modern Hoshanot, corresponding to the ills and dangers we now face, that can be used in the same way. “<tei:hi rend="italic">Hoshana!</tei:hi>” (“Please save!”) can be called out after each exclamation point, or after each phrase. Use the seventh Hoshana below for whichever day is Shabbat. Each day would begin the same way: <tei:hi rend="italic">Hoshana Eloheinu Hoshana! Hoshana Bor’einu Hoshana! Hoshana Go’aleinu Hoshana! Hoshana Dorsheinu Hoshana!</tei:hi> Our God, Our Creator, Our Redeemer, Our Seeker, Please save!</tei:p>
+        <tei:p>I was first inspired to write a Hoshana for the planet related to ills we are facing today by the protests against the Dakota access pipeline (DAPL) in 2016. The native American-led protest camp was one of the more extraordinary environmental actions of the decade. The Dakota pipeline protest focused on protecting sacred water as well as sacred land, both important themes of Sukkot.</tei:p>
+        <tei:p>The Hoshanah I wrote (“A Hoshana for our planet“) focused especially on aspects of climate change like drought, flooding, and ocean acidification and on other impacts of oil and gas, though it also includes a few other ecosystem threats that we face today, as well as a plea for refugees. Similar to traditional Hoshanot, this Hoshana goes (approximately) in alphabetical order, though I don’t try to hit every letter.</tei:p>
+        <tei:p>The second liturgy [presented here], a cycle of seven Hoshanot roughly corresponding to the days of creation, was written more recently. It includes climate change issues and extinctions, but also more general appreciations and prayers for the order of the natural world.</tei:p>
+        <tei:p>You are invited to change, add to, or subtract from this liturgy in any way you like. Download this and other hoshanot from here or from neohasid.org. ~ R. David Seidenberg</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27609_introduction"/>
+      <j:conditional xml:id="osp_27609_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Seven Hoshanot for Creation,” by Rabbi David Seidenberg was first published on neohasid.org.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27609_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:seven_hoshanot_for_creation_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

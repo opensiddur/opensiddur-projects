@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מעריב ליל שבת לפי נוסח פרס העתיק</tei:title>
+        <tei:title type="main" xml:lang="en">Maariv for the Sabbath Evening according to the Ancient Persian Rite</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מעריב ליל שבת לפי נוסח פרס העתיק</tei:title>
+          <tei:title xml:lang="en">Maariv for the Sabbath Evening according to the Ancient Persian Rite</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1601" to="1639">1601 – 1639</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34007</tei:idno>
+          <tei:idno type="opensiddur.org">34007</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-persian-jewish-prayer-book-a-facsimile-edition-of-ms-adler-ena-23-in-the-jts-library/The%20Persian%20Jewish%20Prayer%20Book%20-%20A%20Facsimile%20Edition%20of%20MS%20ADLER%20ENA%2023%20In%20the%20Jewish%20Theological%20Seminary%20Library%20%28Ben%20Zvi%20Institute%201980%29#page/3/mode/2up">https://archive.org/stream/the-persian-jewish-prayer-book-a-facsimile-edition-of-ms-adler-ena-23-in-the-jts-library/The%20Persian%20Jewish%20Prayer%20Book%20-%20A%20Facsimile%20Edition%20of%20MS%20ADLER%20ENA%2023%20In%20the%20Jewish%20Theological%20Seminary%20Library%20%28Ben%20Zvi%20Institute%201980%29#page/3/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34007_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a transcript and translation of the Maariv service for Shabbat evening in the Old Persian rite, as recorded in MS Adler ENA 23 in the JTS Library (Facsimile edition, Ben Zvi Institute 1980), p.1-21. The Old Persian rite shows some fascinating unique linguistic features. The first thing that immediately strikes one is its tendency towards poetic extensions and doublings, even in texts (such as the Avot blessing) where most other rites are almost completely uniform. It also shows some nonstandard vocalizations that appear to be influenced by the Babylonian system of vocalization. In modern Persian communities the standard rite is a variation of the Sephardic rite used throught the Mizraḥi world, but this older rite with its unique facets deserves to be preserved as well. This is part 1 of a planned series of transcripts and translations from MS Adler 23 ENA.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34007_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:maariv_for_the_sabbath_evening_according_to_the_ancient"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

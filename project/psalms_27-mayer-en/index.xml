@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תהלים כ״ז</tei:title>
+        <tei:title type="main" xml:lang="en">Psalms 27, translated by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תהלים כ״ז</tei:title>
+          <tei:title xml:lang="en">Psalms 27, translated by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>the Mesorah</tei:author>
+          <tei:author>David ben Yishai</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-1000" to="-0400">-1000 – -0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21482</tei:idno>
+          <tei:idno type="opensiddur.org">21482</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21482_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In most Masoretic manuscripts לולא is written surrounded by dots – the only ‘dots below’ in the entire Tanakh. I personally feel like many translations completely miss the point by using phrases like “If I had not believed” (OJPS) or “Had I not the assurance” (NJPS) or “Had I not trusted” (Artscroll), making the verse into a blanket declaration of blind faith. It’s not that – it’s a declaration of doubt. לולא is grammatically always a counterfactual – “if only, but it isn’t true.” The psalmist, in a rare moment of doubt, admits he cannot be sure that God will do justice for him. He then comforts himself, telling himself to have hope, just as I might say “Calm down, Isaac,” when troubled. It’s one of the greatest moments of pathos in all 150 psalms.</tei:p>
+        <tei:p>“The All-Cause” is used to translate the Divine Name, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+        <tei:p>“They” and “Their” is used as a singular pronoun to refer to God. This is not just for anti-sexist reasons, but also because the standard word for “God” is אלהים, which looks like a plural. Just as a queen says “we” to refer to herself, the “plural of majesty” is appropriate when referring to the multitudes that stem from God.</tei:p>
+        <tei:p>Enjoy, and l’shanah tovah!</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21482_introduction"/>
+      <j:conditional xml:id="osp_21482_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Isaac Gantwerk Mayer’s translation of Psalms 27 was first published in a Facebook post on his page. Pinchas Giller provides a citation for the use of Psalms 27 during the month of Elul, “Moshe Halamish says that the earliest plausible source (other people extol its virtues in a general way) is the Sefer Shem Tov Katan of R. Binyamin Beineish ha-Cohen (“the Ba’al Shem of Kratshin”) at the end of the 17th century, then it appears in Ḥemdat ha-Yamim, Yamim Noraim 4, 14d...See Ḥikrei Kabbalah u_Tefilah pp. 175-185.” –Aharon N. Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21482_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/27"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

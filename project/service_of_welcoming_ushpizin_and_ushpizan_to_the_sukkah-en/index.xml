@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">סֶדֶר אוּשְׁפִּיזִין וְאוּשְׁפִּיזַן לְחַג הַסּוּכוֹת</tei:title>
+        <tei:title type="main" xml:lang="en">Service of Welcoming Ushpizin and Ushpizan to the Sukkah on the Festival of Sukkoth, by Hayyim Obadyah</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">סֶדֶר אוּשְׁפִּיזִין וְאוּשְׁפִּיזַן לְחַג הַסּוּכוֹת</tei:title>
+          <tei:title xml:lang="en">Service of Welcoming Ushpizin and Ushpizan to the Sukkah on the Festival of Sukkoth, by Hayyim Obadyah</tei:title>
+          <tei:author>Ḥayyim Obadyah</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2023-09-29">2023-09-29</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52820</tei:idno>
+          <tei:idno type="opensiddur.org">52820</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52820_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>בַּסֻּכֹּ֥ת תֵּֽשְׁב֖וּ... <tei:bibl>(ויקרא כג:מד)</tei:bibl></tei:p>
+        <tei:p>“You shall dwell in Sukkot...” <tei:bibl>(Leviticus 23:42 part)</tei:bibl></tei:p>
+        <tei:p><tei:hi rend="bold">DOWNLOAD:</tei:hi> PDF | ODT</tei:p>
+        <tei:p>The ceremony of welcoming ushpizin originated in the Jewish mystical tradition of Qabbala, for which the ushipizin represented the divine emanations called “sefiroth”, in the context of the sukka as a representation of Ultimate Redemption. Because of this mystical association, the ceremony was rejected by some communities (such as Spanish and Portuguese Jews) and individuals (such as diehard rationalists). Without applying mystical implications, however, we can see this ritual as a symbol of how we bring into our lives diverse aspects of Jewish history and tradition as we navigate our spiritual journeys.</tei:p>
+        <tei:p>Note: Originally only seven men were identified as Ushpizin. Now, however, we include seven women named in the Talmud (Megilla 14a) as prophetesses. The RaMaK, Rabbi Moses ben Jacob Cordovero, in 16th century Safed, associated each of these women with the ‘sefirot’ of the qabbala. According to a tradition recorded in the 17th century by talmudist and kabbalist Rabbi Menachem Azariah da Fano of Italy, these seven prophetesses should also be invited into the sukka as ushpizan.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52820_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:service_of_welcoming_ushpizin_and_ushpizan_to_the_sukkah_obadyah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Prayer for Dew, by Rabbi Rachel Barenblat</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Prayer for Dew, by Rabbi Rachel Barenblat</tei:title>
+          <tei:author>Rachel Barenblat</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2010-05-09">2010-05-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=594</tei:idno>
+          <tei:idno type="opensiddur.org">594</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_594_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p><tei:hi rend="italic">Geshem</tei:hi> and <tei:hi rend="italic">tal</tei:hi>: rain and dew. We pray for each in its season, geshem all winter and tal as summer approaches...not everywhere, necessarily, but in the land of Israel where our prayers have their roots. In a desert climate, water is clearly a gift from God. It’s easy for us to forget that, here with all of this rain and snow. But our liturgy reminds us. Through the winter months, during our daily amidah we’ve prayed “<tei:hi rend="italic">mashiv ha-ruach u-morid ha-gashem</tei:hi>” — You cause the winds to blow and the rains to fall! We only pray for rain during the rainy season, because it is frustrating both to us and to God when we pray for impossibilities.</tei:p>
+        <tei:p>On the first day of Pesaḥ we recite a special prayer for dew — and from here on out, during the daily <tei:hi rend="italic">amidah</tei:hi> we pray “<tei:hi rend="italic">morid ha-tal</tei:hi>,” praising God for creating life-giving dew. As we <tei:hi rend="italic">davven</tei:hi> this prayer, notice how it feels to return to the word “tal” which ends each line; this prayer mirrors the Arabic poetic form called <tei:hi rend="italic">ghazal</tei:hi>, and that repeated end-word is like a refrain.</tei:p>
+        <tei:p>Throughout the Psalms, dew represents blessing, a gift from God. Dew is sustenance which arises as if by magic. Overnight, something mysterious occurs and when we wake water gilds the grasses and the fields. (Of course, the scientific processes are well-understood — it has something to do with temperatures and condensation — but I prefer to think of dew as a mystery.) Dew represents divine grace: omnipresent, mysterious, blessing everyone equally no matter who we are.</tei:p>
+        <tei:p>The imagery of <tei:hi rend="italic">tefilat tal</tei:hi> is sweet. We ask God to let dew drop sweetly on the blessed land, to let dew sweeten the honey of the hills. Sweet water is required in order for us to inhabit the land — both the land of Israel, and wherever we have made our home. I see the prayer for dew as a chance to practice gratitude for everything necessary and wonderful and ineffable which sustains us. What is the dew for which you are most grateful? What does it mean to you to rise and be grateful for dew?</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_594_introduction"/>
+      <j:conditional xml:id="osp_594_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p><tei:hi rend="italic">The Prayer for Dew is a special poem recited once a year during the afternoon service on the first day of Pesaḥ, the day on which this d’var tefillah was given. Rabbi Rachel Barenblat first presented her d’var tefillah on Passover in 2009 and shared her prayer for dew in 2015 (cross-posted at her website here). In the Amidah, many Jewish liturgies replace the request for rain (recited during the traditional rainy season in the land of Israel) with a prayer for dew, beginning on this day.</tei:hi> — Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_594_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_dew_barenblat"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

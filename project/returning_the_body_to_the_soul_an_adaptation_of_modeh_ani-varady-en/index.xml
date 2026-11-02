@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">מוֹדה אֲנִי</tei:title>
+        <tei:title type="main" xml:lang="en">Returning the body to the soul: an adaptation of Modeh Ani by Moshe ibn Makhir</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">מוֹדה אֲנִי</tei:title>
+          <tei:title xml:lang="en">Returning the body to the soul: an adaptation of Modeh Ani by Moshe ibn Makhir</tei:title>
+          <tei:author>Ya'qub Ibn Yusuf</tei:author>
+          <tei:author>Mosheh ben Yehudah ibn Makhir</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1540" to="1600">1540 – 1600</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=5924</tei:idno>
+          <tei:idno type="opensiddur.org">5924</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_5924_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I have difficulty with the idea of thanking God for “returning my soul to me” <tei:hi rend="italic">sheheḥezarta bi nishmati</tei:hi> when I’m getting up with an awareness of trying to stay in touch with my dreams. It’s not my soul that’s been missing through the night; I’m returning to experience my body. So I much prefer what I heard someone suggest, that instead of saying <tei:hi rend="italic">nishmati</tei:hi> (my soul), to say instead <tei:hi rend="italic">ha-</tei:hi>[hitgalmut shel] <tei:hi rend="italic">nishmati</tei:hi> (the embodiment of my soul). I thank God for returning me to my body — my soul was never missing! In the words of my Sufi teacher Murat Yagan, “I am a soul, and I have a body.” –Ya’qub ibn Yusuf</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_5924_introduction"/>
+      <j:conditional xml:id="osp_5924_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p><tei:hi rend="italic">Modeh Ani</tei:hi> first appeared as an addendum in <tei:hi rend="italic">Seder ha-Yom</tei:hi> (1599) by Moshe ibn Makhir of Safed. Around February 2012, I was sitting with Ya’qub ibn Yusuf in his bookstore, <tei:hi rend="italic">Olam Qatan</tei:hi> (then at 54 Emek Refaim in South Jerusalem), asking if he might share some useful practice that I might share through the Open Siddur Project. He offered this thought which he had heard from someone else. (Unfortunately, Ya’qub could not remember who taught this insight. If you know its origin, please contact us or share in the comments.) The Hebrew adaptation and translation I’ve offered is based upon Ya’qub’s teaching. Read more on Modeh Ani from Shmuel Gonzales at Hardcore Mesorah. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_5924_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:modeh_ani"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

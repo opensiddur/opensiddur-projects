@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בּרידער</tei:title>
+        <tei:title type="main" xml:lang="en">"Brothers" – Y.L. Peretz's Sardonic Rejoinder to Friedrich Schiller's Paean to Universal Enlightenment, An die Freude (Ode to Joy)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/raphael-finkel">Refoyl Finkl</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בּרידער</tei:title>
+          <tei:title xml:lang="en">"Brothers" – Y.L. Peretz's Sardonic Rejoinder to Friedrich Schiller's Paean to Universal Enlightenment, An die Freude (Ode to Joy)</tei:title>
+          <tei:author>Yitsḥok Leybush Peretz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1901" to="1906">1901 – 1906</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=12784</tei:idno>
+          <tei:idno type="opensiddur.org">12784</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.archive.org/stream/nybc204295#page/n280/mode/2up">https://www.archive.org/stream/nybc204295#page/n280/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_12784_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The three stanzas of Y.L. Peretz’s “<tei:hi rend="italic">Ale mentshn zaynen brider</tei:hi>” left unsung by the Jewish People’s Philharmonic Chorus attest the degree to which Peretz was wielding the poem in a stinging attack of European hypocrisy. Still a popular song thanks to Beethoven’s 9th Symphony, its inclusive universalist principles were being ignored in a late-19th and early-20th century Europe awash with anti-Semitism, racism, and nationalist zeal. In this poem, Peretz is shouting at the hypocrisy of a Europe that sings the Ode to the tune of Beethoven, but neglects its meaning.</tei:p>
+        <tei:p>I have not been able to learn any more details on when and where exactly Peretz wrote this poem. In 1889, Peretz’s license to practice law was revoked by the Imperial Russian authorities on the basis of suspicion of Polish nationalist feelings. From his article on wikipedia, “Y.L. Peretz rejected cultural universalism, seeing the world as composed of different nations, each with its own character. Liptzin comments that “Every people is seen by him as a chosen people...”; he saw his role as a Jewish writer to express “Jewish ideals...grounded in Jewish tradition and Jewish history....While most Jewish intellectuals were unrestrained in their support of the Russian Revolution of 1905, Peretz’s view was more reserved, focusing more on the pogroms that took place within the Revolution, and concerned that the Revolution’s universalist ideals would leave little space for Jewish non-conformism.”</tei:p>
+        <tei:p>I have transcribed Y.L. Peretz’s poem from Oysgeṿeylṭe ṿerḳ in tsṿey bender (1951), p.278-279. Many thanks to Dr. Raphael Finkel for his help with translation and interpretation and to Dr. Sabine Arndt with her suggestion. –Aharon Varady</tei:p>
+        <tei:p>Recordings</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_12784_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:brothers_peretz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

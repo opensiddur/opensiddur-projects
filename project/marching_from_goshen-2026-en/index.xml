@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Marching from Goshen, an adaptation of "Marching through Georgia" for the Passover seder by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Marching from Goshen, an adaptation of "Marching through Georgia" for the Passover seder by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-03-31">2026-03-31</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66886</tei:idno>
+          <tei:idno type="opensiddur.org">66886</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66886_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is a Passover adaptation of “Marching through Georgia” (1865) by Henry Clay Work (1832-1884). “Marching through Georgia” is a somewhat controversial song for two reasons, one of them valid, the other (in my opinion) not as much. The valid problem: the second verse of the original text features a racial slur. When people sing it now we skip or replace that line. The less valid problem: pity for the poor Confederate plantation owners whose homes were destroyed by Sherman’s forces. I frankly do not care about the suffering of slavers in a slave state. I shed no tears for the monsters who enforced the inhuman system of chattel slavery, and I treat their homes’ destruction as the just deserts of their sin in owning human beings as property.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66886_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:marching_from_goshen"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

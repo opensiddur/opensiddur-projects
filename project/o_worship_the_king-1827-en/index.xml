@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">O worship the King, all glorious above! — an adaptation in English verse of Psalms 104 by Sir Robert Grant (1827)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">O worship the King, all glorious above! — an adaptation in English verse of Psalms 104 by Sir Robert Grant (1827)</tei:title>
+          <tei:author>Robert Grant</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1827">1827</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=66958</tei:idno>
+          <tei:idno type="opensiddur.org">66958</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/unionhy00cent/unionhy00cent#page/n33/mode/2up">https://archive.org/stream/unionhy00cent/unionhy00cent#page/n33/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/sacredpoemsbyla00grangoog/sacredpoemsbyla00grangoog#page/n44/mode/2up">https://archive.org/stream/sacredpoemsbyla00grangoog/sacredpoemsbyla00grangoog#page/n44/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/hymns-for-private-devotion-selected-and-original-bethia-fuller-maitland-1827/Hymns%20for%20private%20devotion%2C%20selected%20and%20original%20%28Bethia%20Fuller-Maitland%201827%29#page/206/mode/2up">https://archive.org/stream/hymns-for-private-devotion-selected-and-original-bethia-fuller-maitland-1827/Hymns%20for%20private%20devotion%2C%20selected%20and%20original%20%28Bethia%20Fuller-Maitland%201827%29#page/206/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_66958_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the poem by Sir Robert Grant known best from its incipit “O Worship the King,” as published posthumously under the title “Psalm CIV” by his brother Charles Grant (Lord Glenelg) in <tei:hi rend="italic">Sacred Poems by the Late Right Hon. Sir Robert Grant</tei:hi> (1839), pp. 33-35. It was first published without attribution as hymn No31 in the Appendix of Hymns for private devotion, selected and original (ed. Bethia Fuller-Maitland, 1827) on pages 206-207. It was first published with attribution as psalm No104 in <tei:hi rend="italic">Psalms and Hymns for Public, Private, and Social Worship</tei:hi> (ed. Henry V. Elliott, 1835) on pages 34-35. Identified as an adaptation of Psalms 104 (and with five of its six stanzas) the hymn was included as No16 in the <tei:hi rend="italic">Union hymnal for Jewish worship</tei:hi> (1914). Brian Hehn writes, “This hymn, one of Grant’s most popular, is a paraphrase of Psalm 104. It was originally thought to have been a rendering of William Kethe’s setting of the same psalm in the Anglo-Genevan Psalter of 1561. However, Episcopal hymnologist Raymond F. Glover contends that this is a misconception. He argues that the two settings are in the same meter only because they were written for the same psalm.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_66958_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/104"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

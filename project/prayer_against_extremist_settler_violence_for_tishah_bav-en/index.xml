@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer against extremist settler violence for Tishah b'Av 5786, by Rabbi David Seidenberg (neoḥasid·org, 2026)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer against extremist settler violence for Tishah b'Av 5786, by Rabbi David Seidenberg (neoḥasid·org, 2026)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2026-07-20">2026-07-20</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=68358</tei:idno>
+          <tei:idno type="opensiddur.org">68358</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_68358_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p><tei:hi rend="bold">DOWNLOAD:</tei:hi> PDF | ODT</tei:p>
+        <tei:p>Here is a prayer opposing extremist settler violence that I’ve been working on for Tishah b’Av. I finished it Monday at the National Library in Jerusalem. Please pass this on! Dedicated to Awdah al-Hathaleen, whose spirit and kindness and courage remain with us – neohasid.org, Tishah b’Av 2026</tei:p>
+        <tei:p>לנוכח כל המלחמות, דם הפלסטינים והבדויאים בשתחים של הגדה המערבית, המכונים יהודה ושומרון, מוסיף להישפך, נגד כל המחאות שבתורה. גם נשפכו דמים בשמה של תורה, וחלילה לנו על חלול השם. התפילה הזאת של קינה ואזהרה היא בשביל חיי כל עמי הארץ ובשביל לב של עם ישראל, שלא נהפוך לאכזרים.</tei:p>
+        <tei:p>In the face of so many wars, the blood of the Palestinians and Bedouin in the West Bank, also known as Judea and Samaria, continues to be spilled, contrary to all the protests of the Torah. This blood is even spilled in the name of the Torah, <j:divineName>God</j:divineName> forbid such a desecration of the divine <j:divineName>name</j:divineName>. This is a prayer of lament and warning for the sake of the lives of all the peoples of the land, and for the sake of the heart of the Jewish and Israeli people, to help us all resist the cruelty that beckons.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68358_introduction"/>
+      <j:conditional xml:id="osp_68358_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer by Rabbi David Seidenberg, in opposition to Israeli-Jewish settler violence in the Israeli territories under military jurisdiction, was written on 20 July 2026 in Jerusalem, and shared through the Open Siddur Project via its discussion group on Facebook.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_68358_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_against_extremist_settler_violence_for_tishah_beav_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

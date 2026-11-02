@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">"Heal me" a prayer for healing by Rabbi Clifton Harby Levy (1927)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">"Heal me" a prayer for healing by Rabbi Clifton Harby Levy (1927)</tei:title>
+          <tei:author>Clifton Harby Levy</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1927">1927</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=50130</tei:idno>
+          <tei:idno type="opensiddur.org">50130</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/8/mode/2up">https://archive.org/stream/the-helpful-manual-clifton-harby-levy-centre-of-jewish-science-1927/The%20Helpful%20Manual%20%28Clifton%20Harby%20Levy%2C%20Centre%20of%20Jewish%20Science%201927%29#page/8/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_50130_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>I SEEK HEALTH AND HEALING</tei:p>
+        <tei:p>The real Jewish Scientist, knowing that the human being is physical, mental and Spiritual, does not ignore the material, or the body, but cooperates with the physician, or surgeon, welcoming his aid, and working with him. We do not fight against his care, but welcome it, and by our desire to cooperate we aid in securing the results for which the wise physician is working.</tei:p>
+        <tei:p>We relax when he dresses a wound, and in that way suffer a minimum of pain. We fill ourselves with the great trust in the physician as one helper and in God as the only Healer. We know that all healing comes from within, through the power and willing aid of God, and are grateful to any one who helps us back to the normal state of self-control, by which we can aid ourselves through the power of God.</tei:p>
+        <tei:p>I relax every muscle and nerve in a quiet place, clear my mind, and let the sense of peace permeate every pore. I exert the Spiritual power within me, filling my consciousness with the complete reliance upon God, resting upon my full consciousness of God’s indwelling power. We aid this consciousness as we repeat the wondrous promises of Prophet and Psalmist, having in mind Jeremiah’s assertion of faith: “Heal me, O Lord, and I shall be healed; save me, O Lord, and I shall be saved!” We add to this numerous suggestions of God’s willingness to help us, as we find them scattered through Scripture. We repeat that thought of Psalms 23: “Even though I walk through the valley of the shadow of death, I will fear no evil, for Thou art with me; Thy rod and Thy staff, they comfort me.” What infinite strength and comfort lies in that consciousness of the ever ready help of God, what courage wells up in our souls, how quietly we rest awaiting the healing that comes with faith and earnest hope!</tei:p>
+        <tei:p>We drive out all fear by our infinite trust in God. We know that all is well because we are certain of the aid of Almighty God, ever loving to those who seek Him in spirit and in truth. If we suffer, we know that it too is but for a time, and that ease and peace will come the sooner for our reliance upon God. We rule through the Spirit, which is of God, and soon all will be well, and we shall be happy, painless, ready to live and work with courage and trust.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50130_introduction"/>
+      <j:conditional xml:id="osp_50130_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer by Rabbi Clifton Harby Levy accompanied his short reflection, “I Seek Health and Healing” found in <tei:hi rend="italic">The Helpful Manual</tei:hi> (Centre of Jewish Science, 1927), pp. 9-10.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_50130_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:heal_me_a_prayer_for_healing_levy"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

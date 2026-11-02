@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Life Is What We Make It, a prayer-poem based on the writings of Rabbi Leo Baeck by Rabbi Mordecai Kaplan (1945)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Life Is What We Make It, a prayer-poem based on the writings of Rabbi Leo Baeck by Rabbi Mordecai Kaplan (1945)</tei:title>
+          <tei:author>Mordecai Kaplan</tei:author>
+          <tei:author>Leo Baeck</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1945">1945</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=38885</tei:idno>
+          <tei:idno type="opensiddur.org">38885</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SabbathPrayerBookJewishReconstructionistFoundation1945#page/426/mode/2up">https://archive.org/stream/SabbathPrayerBookJewishReconstructionistFoundation1945#page/426/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_38885_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is a prayer-poem by Rabbi Mordecai Kaplan based on the writings of Rabbi Leo Baeck, as published in the <tei:hi rend="italic">Sabbath Prayer Book</tei:hi> (Jewish Reconstructionist Foundation 1945), p.426-7. Dr. Mel Scult writes:</tei:p>
+        <tei:p>In the early forties, Kaplan working on his 1945 prayer book, fashioned a poem based on the writings of Rabbi Leo Baeck the famous Reform rabbi of German Jewry. The poem based on Baeck in an altered version found its way into the prayer book as “Life is What We Make It.” Here are the concluding lines from the 1942 version: “For true religion is the will to life abundant, the will to face the world and change it, the will to face men and transform them, the will to bring forth the best out of the worst. This is true religion’s call to repentance and redemption. “Prepare ye a way for the Lord, a path in the wilderness for our God [Isaiah 40:3].” found in the Kaplan diary August 23, 1942 , and <tei:hi rend="italic">Communings of the Spirit</tei:hi>, ed. Mel Scult, vol 3 page 105-106, and in the Kaplan 1945 prayerbook page 426.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_38885_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:life_is_what_we_make_it_kaplan"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

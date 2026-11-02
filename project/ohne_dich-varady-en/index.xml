@@ -1,0 +1,70 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ohne dich</tei:title>
+        <tei:title type="alt" xml:lang="en">Without you, a prayer for Natalie Baeck by Rabbi Dr. Leo Baeck (7 March 1937)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Ohne dich</tei:title>
+          <tei:title xml:lang="en">Without you, a prayer for Natalie Baeck by Rabbi Dr. Leo Baeck (7 March 1937)</tei:title>
+          <tei:author>Leo Baeck</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1937-03-07">1937-03-07</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=54163</tei:idno>
+          <tei:idno type="opensiddur.org">54163</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/leobaeckfamilyco01drey/leobaeckfamilyco01drey#page/n395/mode/2up">https://archive.org/stream/leobaeckfamilyco01drey/leobaeckfamilyco01drey#page/n395/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_54163_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is Rabbi Dr. Leo Beack’s prayer for his wife Natalie Baeck née Hamburger (1878-1937), dated 7 March 1937. Natalie had died two days prior on 5 March. Natalie Hamburger was the grand-daughter of the radical religious reformer Rabbi</tei:p>
+        <tei:p>Adolf Wiener, who had served the Jewish community of Oppeln until his death in 1895.</tei:p>
+        <tei:p>In <tei:hi rend="italic">Rabbi Leo Baeck: Living a Religious Imperative in Troubled Times</tei:hi> (2020) p. 113, Dr. Michael Meyer writes,</tei:p>
+        <tei:p>Baeck’s final years in Berlin were—if anything—even more difficult than those that preceded them. Until March 1937, his wife, Natalie, had been his support. Their home had always been open to friends and students at the seminary. With her death from a stroke, arguably brought on by the extreme anxieties of the times, Baeck lost his life’s companion, and only a house keeper remained to serve his domestic needs. He called it “the hardest blow of these hard years.” Two days after Natalie’s death, he committed his thoughts to paper: “We shall now be without you, our life without the blessing of your life, without you, who were so pure, so true, so bright, so genuine, so pious. . . . You have returned home and left us behind without you. May God give strength to get through these days.” A friend who had often been in their home and had witnessed their matrimonial harmony wrote of their marriage that it had been “earnest, sacred, and deeply happy.”<tei:anchor xml:id="note_1"/> For months after Natalie’s death, Baeck daily visited her grave in the Weissensee Cemetery of the Jewish community. On her gravestone, he asked that words from the last chapter of the Book of Proverbs be written in Hebrew: “But you surpass them all” (Prov. 31:29). According to an interview he gave after the war, each year on the anniversary of her death he suggested to his students at the seminary that they preach a sermon on women.<tei:anchor xml:id="note_2"/></tei:p>
+        <tei:p>The prayer is archived in the Leo Baeck Family Collection, AR 25449, in the Leo Baeck Institute Archives (LBIA), graciously digitized and made accessible by the Institute at the Internet Archive. Many thanks to Rabbi Marisa Elana James for proofreading my German transcription. English translation is my own, but please feel free to correct or improve upon it. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_54163_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ohne_dich_baeck"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Hans-Hasso von Veltheim-Ostrau to Edith Andreae, 5 March 1937, cited in Karl Klaus Walther, <tei:hi rend="italic">Hans Hasso von Veltheim: Eine Biographie</tei:hi> (Halle: Mitteldeutscher Verlag, 2004), p. 259.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" n="2" target="#note_2">
+      <tei:p>Eric H. Boehm, “A People Stands Before Its God: Leo Baeck,” in idem, <tei:hi rend="italic">We Survived: The Stories of Fourteen of the Hidden and Hunted of Nazi Germany</tei:hi> (New Haven, Conn.: Yale University Press, 1949), pp. 282–283.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

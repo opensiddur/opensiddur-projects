@@ -1,0 +1,69 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תפלה לרופא</tei:title>
+        <tei:title type="main" xml:lang="en">A Physician's Prayer, by Markus Herz (1783)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/chana-deutsch">Chana Deutsch</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תפלה לרופא</tei:title>
+          <tei:title xml:lang="en">A Physician's Prayer, by Markus Herz (1783)</tei:title>
+          <tei:author>Markus Herz</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Harry Friedenwald</tei:name>
+          </tei:respStmt>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Isaac Abraham Eüchel</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1783">1783</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=30613</tei:idno>
+          <tei:idno type="opensiddur.org">30613</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/ethicspracticeofmedicinejewishpointofviewharryfriedenwald1917#page/n4/mode/2up">https://archive.org/stream/ethicspracticeofmedicinejewishpointofviewharryfriedenwald1917#page/n4/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/tefilahlrofeisaaceuchel1790#page/n0/mode/2up">https://archive.org/stream/tefilahlrofeisaaceuchel1790#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/taglichesgeheteinesarztesbevorerfeinekrankebesuchtmarkusherz1783#page/n0/mode/2up">https://archive.org/stream/taglichesgeheteinesarztesbevorerfeinekrankebesuchtmarkusherz1783#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_30613_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was written by Markus Herz (1747-1803), a German-Jewish physician and lecturer on philosophy. He was a pupil of Immanuel Kant and physician to Moses Mendelssohn. His prayer was first published in 1783 as “Tägliches Gehet eines Arztes bevor er feine Kranke besucht” in <tei:hi rend="italic">Deutches Museum</tei:hi> (1, pp. 43-45). A Hebrew translation by the editor of the periodical <tei:hi rend="italic">Ha-Me’asef</tei:hi>, Isaac Abraham Euchel (Itziq Eikhel, 1756-1804), followed in 1790 (6, pp. 242-244). For a history of the misattribution of this prayer, see Fred Rosner’s article, “The Physician’s Prayer Attributed to Moses Maimonides” in the <tei:hi rend="italic">Bulletin of the History of Medicine</tei:hi> (41:5, Sep/Oct 1968, pp. 440-454.).</tei:p>
+        <tei:p>After this publication at the Open Siddur Project, Chana Deutsch translated the prayer from its original German into Magyar (Hungarian). The first English translation was published in the London periodical Kol Yaakov in 1841, however, I was not able to locate a copy. The English translation appearing here was made by Dr. Harry Friedenwald as published in “The ethics of the practice of medicine from the Jewish Point of View,” in the <tei:hi rend="italic">Bulletin of the Johns Hopkins Hospital</tei:hi> (28, 1917, pp. 260-261). I have replaced archaisms and re-hebraicized divine names where they appeared in his translation. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_30613_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_physicians_prayer_herz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלָּה לְיוֹם הַזִּכָּרוֹן וְיוֹם הָעַצְמָאוּת</tei:title>
+        <tei:title type="main" xml:lang="en">A Prayer for Yom haZikaron and Yom ha-Atsma'ut 5785, by Rabbi Tzachi Lehman (Tzohar 2025)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלָּה לְיוֹם הַזִּכָּרוֹן וְיוֹם הָעַצְמָאוּת</tei:title>
+          <tei:title xml:lang="en">A Prayer for Yom haZikaron and Yom ha-Atsma'ut 5785, by Rabbi Tzachi Lehman (Tzohar 2025)</tei:title>
+          <tei:author>Tzachi Lehman</tei:author>
+          <tei:author>Irgun Rabbanei Tzohar</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2025-04-23">2025-04-23</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=61774</tei:idno>
+          <tei:idno type="opensiddur.org">61774</tei:idno>
+          <tei:note>Source: Prayer for Yom Hazikaron and Yom Haatzmaut 5785 (Tzohar and Tzachi Lehman 2025) <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/05/prayer-for-yom-hazikaron-and-yom-haatzmaut-5785-tzohar-and-tzachi-lehman-2025.png">https://opensiddur.org/wp-content/uploads/2025/05/prayer-for-yom-hazikaron-and-yom-haatzmaut-5785-tzohar-and-tzachi-lehman-2025.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_61774_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“A Prayer for Yom Hazikaron and Yom ha-Atsma’ut 5785” (2025) was prepared by Rabbi Tzachi Lehman in advance of the State of Israel’s days of remembrance and declaration of independence and published by Tzohar on its website on 23 April 2025. The prayer was the subject of an article in <tei:hi rend="italic">The Times of Israel</tei:hi> on 30 April 2025, “As Israel shifts from sorrow to joy, rabbinic group offers new prayer for grieving nation.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_61774_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_prayer_for_yom_hazikaron_and_yom_haatsmaut_5785_lehman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for a Day of Prayer and Humiliation on Account of the Revolt in India, by the S&amp;P Bevis Marks Congregation (6 November 1857)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for a Day of Prayer and Humiliation on Account of the Revolt in India, by the S&amp;P Bevis Marks Congregation (6 November 1857)</tei:title>
+          <tei:author>David de Aaron de Sola</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1857-11-06">1857-11-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=59654</tei:idno>
+          <tei:idno type="opensiddur.org">59654</tei:idno>
+          <tei:note>Source: Prayer for a day of prayer and humiliation on account of the revolt in India (The Asmonean, 6 November 1857), p. 5 <tei:ref target="https://opensiddur.org/wp-content/uploads/2025/01/prayer-for-a-day-of-prayer-and-humiliation-on-account-of-the-revolt-in-india-the-asmonean-6-november-1857-p--5.jpg">https://opensiddur.org/wp-content/uploads/2025/01/prayer-for-a-day-of-prayer-and-humiliation-on-account-of-the-revolt-in-india-the-asmonean-6-november-1857-p--5.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_59654_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This “Prayer for a day of prayer and humiliation on account of the revolt in India” is the second of two prayers appearing in an article titled, “Humiliation” appearing in <tei:hi rend="italic">The Asmonean</tei:hi> (6 November 1857), on page 5. As an introduction, the article begins: “The British nation have been holding a day of humiliation on account of the revolt in India. The following are copies of the prayers specially composed for the occasion.” The prayer is attributed simply to the S&amp;P Synagogue (in London, a/k/a Bevis Marks Congregation) but the author was likely the Hazan of the synagogue at the time, Rabbi David de Aaron de Sola.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_59654_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_a_day_of_prayer_and_humiliation_on_account_sola"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

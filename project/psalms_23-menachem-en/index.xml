@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תהלים כ״ג</tei:title>
+        <tei:title type="main" xml:lang="en">Psalms 23, translation by Shim'on Menachem, melody by Shir Meira Feit</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תהלים כ״ג</tei:title>
+          <tei:title xml:lang="en">Psalms 23, translation by Shim'on Menachem, melody by Shir Meira Feit</tei:title>
+          <tei:author>Shim'on Menachem</tei:author>
+          <tei:author>David ben Yishai</tei:author>
+          <tei:author>Shir Meira Feit</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-1000" to="-0400">-1000 – -0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=7660</tei:idno>
+          <tei:idno type="opensiddur.org">7660</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_7660_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>The Hebrew language is a zip line from a time-bound, place-bound, and English-bound experience to an ancient civilization’s continually unfolding encounter with the Divine. Hebrew has a unique ability to engage our senses and our rational minds while gently slipping underneath them. To think and pray in Hebrew is to dwell inside nuance and potentiality, to immerse in a sea of words that are few in number but teem with hyperlinks to mystical-imaginal realms and hundreds of centuries of transcendent experience. Psalm 23 is among the best known and most loved of the 150 beautiful poems that we think date back to about the sixth through third centuries BCE. For many, this particular psalm has been a source of great strength in the face of danger and hardship.</tei:p>
+        <tei:p>My hope is that the combination of breathing and singing at a time when most of us are also fasting will induce a shift in perspective, an attunement to higher realms of perception, and an understanding that even at our darkest moments, we are never alone.</tei:p>
+        <tei:p>I offer this workshop as a prayer leader in training, as a long-serving language educator and as part of an effort to nurture Hebrew literacy. If you’d like to stay in touch, please do contact me at shimonides@gmail.com.</tei:p>
+        <tei:p>The melody we will learn today originated in a contemplative community in Rishikesh, India, and came to me, via other waystations, from Shir Meira Feit. The translations are my own, and along with the text itself, they are bound to bring up questions. I welcome them, and I ask you to hold onto them until we have been able to read or sing the entire text of Psalm 23 at least five times.</tei:p>
+        <tei:p>Recordings</tei:p>
+        <tei:p>Listen to a recording of Psalm 23 chanted to an Indian-inspired melody.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_7660_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/23"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

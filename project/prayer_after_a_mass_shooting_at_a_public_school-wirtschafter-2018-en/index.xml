@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer after a Mass Shooting at a Public School, by Rabbi David Dine Wirtschafter (2018)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer after a Mass Shooting at a Public School, by Rabbi David Dine Wirtschafter (2018)</tei:title>
+          <tei:author>David Dine Wirtschafter</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-01-26">2018-01-26</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=18752</tei:idno>
+          <tei:idno type="opensiddur.org">18752</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_18752_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Our hearts and prayers go out to the people of Marshall County, Kentucky who, now have joined an ever growing list of places to experience a mass shooting at a public school. We grieve for the families of the two teenagers who were killed. May the 18 others who were injured speedily recover from their wounds. These incidents are terrible no matter where they happen but there is something all the more unsettling when they occur so close to home.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_18752_introduction"/>
+      <j:conditional xml:id="osp_18752_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was first shared by Rabbi Wirtschafter via his Facebook account, here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_18752_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_after_a_mass_shooting_at_a_public_school_wirtschafter"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

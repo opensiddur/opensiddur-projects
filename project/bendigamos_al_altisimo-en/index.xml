@@ -1,0 +1,62 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Bendigamos al Altísimo, a Spanish song for the Birkat haMazon</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Bendigamos al Altísimo, a Spanish song for the Birkat haMazon</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1500" to="1800">1500 – 1800</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=11935</tei:idno>
+          <tei:idno type="opensiddur.org">11935</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_11935_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Bendigamos is a hymn sung after meals according to the custom of the Sepharadim, the Jews of the Iberian peninsula. It is similar in meaning to the <tei:hi rend="italic">Birkat Hamazon</tei:hi> (blessing after meals). Bendigamos is said in addition to <tei:hi rend="italic">Birkat Hamazon</tei:hi>, either immediately before or immediately after it. The text is in modern Spanish, not Ladino. The melody is one of the best known and loved Spanish and Portuguese melodies, used also for the Song of the Sea (in the Shabbat morning service) and sometimes in “Hallel” (on the first day of the Hebrew month and on festivals).</tei:p>
+        <tei:p>The song probably originated among the Spanish-speaking Jews of Bordeaux, a Hispanophone rather than Lusophone community. (David Lévi Alvarès’s version ‘Bénissons‘ is a free adaptation for Sukkot.)<tei:anchor xml:id="note_1"/> From France the Bendigamos song was probably brought to the Dutch West-Indies (Curaçao) in the mid-nineteenth century and thence taken to New York and Amsterdam. Alternatively, the song may have originated with Sephardic Jews living in Spain, who then immigrated to Turkey, other locales in the Ottoman Empire, and the Netherlands. It may originally have been written as a secret way to say the <tei:hi rend="italic">Birkat HaMazon</tei:hi> after practicing Judaism in Spain and Portugal was forbidden in the fifteenth century. (<tei:hi rend="italic">adapted from the wikipedia article, “Bendigamos”</tei:hi>)</tei:p>
+        <tei:p>Translation from Spanish via Aharon Varady. (<tei:hi rend="italic">Shgiyot mi yavin, Ministarot Nakeni</tei:hi>)</tei:p>
+        <tei:p>Vocal and Guitar: Rabbi Shuviel Ma’aravi</tei:p>
+        <tei:p>Mandola and back up vocals: Joshua Polak</tei:p>
+        <tei:p>Recorded by Ty Ford</tei:p>
+        <tei:p>Ma’aravi-Polak featuring (left to right) Joshua Polak, Esther Polak, and Rabbi Shuviel Ma’aravi. Mike Abramov in foreground.</tei:p>
+        <tei:p>Recording</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_11935_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:bendigamos_al_altisimo"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p>Thanks to Aron Sterk for clarifying this point.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

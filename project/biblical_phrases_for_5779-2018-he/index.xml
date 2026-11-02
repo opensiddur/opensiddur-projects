@@ -1,0 +1,68 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">פסוקים לשנת תשע"ט</tei:title>
+        <tei:title type="alt" xml:lang="en">Biblical Phrases for 5779, by Daniel Matt</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פסוקים לשנת תשע"ט</tei:title>
+          <tei:title xml:lang="en">Biblical Phrases for 5779, by Daniel Matt</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2018-09-09">2018-09-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=21651</tei:idno>
+          <tei:idno type="opensiddur.org">21651</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_21651_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>As many of you know, there is a custom to indicate the Hebrew year with a verse (or part of a verse) that is equal to that year in gematriya. Such words or phrases are called chronograms. The practice of indicating the year by a biblical phrase was often followed in traditional sefarim, on tombstones, and more recently has appeared in written correspondence and email. It’s a nice way to give added meaning to the current year. Here are some biblical phrases that equal תשע”ט 779.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21651_introduction"/>
+      <j:conditional xml:id="osp_21651_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Dr. Daniel Matt shared this list of chronograms in a Facebook post on 29 August 2018.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_21651_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:biblical_phrases_for_5779_matt"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

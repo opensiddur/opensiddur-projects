@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kavvanot when Washing One's Body Before Shabbes, by Eyal Raviv</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kavvanot when Washing One's Body Before Shabbes, by Eyal Raviv</tei:title>
+          <tei:author>Eyal Raviv</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2014-07-27">2014-07-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=9223</tei:idno>
+          <tei:idno type="opensiddur.org">9223</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_9223_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is pre-Shabbos reflection that can be done in a shower or bath. Shabbat is a time when I am less focused on my selfish desires and instead my thoughts drift to my place in the larger community and world. I find myself doing some version of this before Shabbos most weeks and am welcome for the time to reflect on truly what it is to cease from lay work and consider the work that needs to be done to make the world a better place.</tei:p>
+        <tei:p>Disturb us, Adonai, ruffle us from our complacency; Make us dissatisfied. Dissatisfied with the pace of ignorance, the quietude which arises from a shunning of the horror, the defeat, the bitterness and the poverty, physical and spiritual, of humans...Disturb us, O god, and vex us; let not your Shabbat be a day of torpor and slumber; let it a time to be stirred and spurred to action. <tei:hi rend="italic">Baruch atah, Adonai, m’kadeish HaShabat</tei:hi>.<tei:anchor xml:id="note_1"/></tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_9223_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanot_when_washing_ones_body_before_shabbes_raviv"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" n="1" target="#note_1">
+      <tei:p><tei:hi rend="italic">Mishkan Tefilah</tei:hi>, pg. 173</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">בִּרְכָּת אַהֲבַה</tei:title>
+        <tei:title type="main" xml:lang="en">Ahaḇat Olam (for Shaḥarit), translated by William Wotton (1718)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">בִּרְכָּת אַהֲבַה</tei:title>
+          <tei:title xml:lang="en">Ahaḇat Olam (for Shaḥarit), translated by William Wotton (1718)</tei:title>
+          <tei:author>Shawn Eyer</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>William Wotton</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=58250</tei:idno>
+          <tei:idno type="opensiddur.org">58250</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/bim_eighteenth-century_ahiman-rezon-or-a-help_dermott-laurence_1756/NotAnActualSource#page/46/mode/2up">https://archive.org/stream/bim_eighteenth-century_ahiman-rezon-or-a-help_dermott-laurence_1756/NotAnActualSource#page/46/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/bim_eighteenth-century_miscellaneous-discourses_wotton-william_1718_1/NotAnActualSource#page/180/mode/2up">https://archive.org/stream/bim_eighteenth-century_miscellaneous-discourses_wotton-william_1718_1/NotAnActualSource#page/180/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_58250_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Ahavat Olam is the liturgical form of the morning prayer containing the birkat ahavah, the blessing preceding the recitation of the Shema. Curiously, the prayer as translated in English is found in the <tei:hi rend="italic">Ahiman Rezon</tei:hi> (Laurence Dermott, 1756), pp. 46-47, a Freemason work containing prayers used and recommended for meetings at Masonic Lodges. There, the prayer is preceded by the header, “A Prayer repeated in the Royal Arch Lodge at Jerusalem.” Shawn Eyer explains “this should be understood as a figurative reference and not a direct claim that there was a Masonic lodge in Jerusalem in 1756. Dermott is essentially saying that this would be a prayer used there in theory, and by extension, a prayer especially suitable to any Royal Arch Lodge. It is unknown the extent to which this prayer was used in Masonic Royal Arch meetings, but it is likely that numerous groups of Royal Arch Masons did so.”</tei:p>
+        <tei:p>As for the source of this prayer in its English translation, this is pointed to in an annotation following the romanized incipit, “AHAḆATH OLAM” — “A note here reads, ‘See Dr. Wooton, on the Mishna.'” Shawn Eyer clarifies, “Wooten is a typographical error. The English prayer is reprinted nearly verbatim from William Wotton, <tei:hi rend="italic">Miscellaneous discourses relating to the traditions and usages of the scribes and pharisees...</tei:hi> (London: W. Bowyer, 1718), vol. 1, pp. 180–181.”</tei:p>
+        <tei:p>Shawn adds, “This material is part of the research of the Masonic Formation Academy. Support the MFA at &lt;https://www.patreon.com/masonic&gt;.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_58250_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavat_olam_eyer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

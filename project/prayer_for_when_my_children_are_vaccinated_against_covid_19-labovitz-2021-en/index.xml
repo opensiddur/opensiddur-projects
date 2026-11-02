@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer for When My Children are Vaccinated Against COVID-19, by Cantor Hinda Labovitz (2021)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer for When My Children are Vaccinated Against COVID-19, by Cantor Hinda Labovitz (2021)</tei:title>
+          <tei:author>Cantor Hinda Labovitz</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021-11-07">2021-11-07</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=40560</tei:idno>
+          <tei:idno type="opensiddur.org">40560</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_40560_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer for a parent (or primary caregiver) on the vaccination of their children by Cantor Hinda Labovitz was first shared via their Facebook page on 5 November 2021, with the following introduction:</tei:p>
+        <tei:p>I know there are several blessings/prayers floating around. Sharing mine in case it resonates, and to encourage others to compose and share your own if you are so moved. Remember, prayer can be as simple as an extemporaneous expression of our experience. I’m taking this with me when D &amp; J (age 5.5) get vaccinated this Sunday (!), and I’m looking forward to asking them to share with me what that experience means to them, too.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_40560_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_for_when_my_children_are_vaccinated_against_covid_19_labovitz"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

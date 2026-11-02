@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">An Urgent Prayer for the Protection of Human Life, by Rabbi Andy Vogel and Rabbi Seth Goldstein</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">An Urgent Prayer for the Protection of Human Life, by Rabbi Andy Vogel and Rabbi Seth Goldstein</tei:title>
+          <tei:author>Andy Vogel</tei:author>
+          <tei:author>Seth Goldstein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-04-03">2024-04-03</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55220</tei:idno>
+          <tei:idno type="opensiddur.org">55220</tei:idno>
+          <tei:note>Source: An Urgent Prayer for the Protection of Human Life (Andy Vogel and Seth Goldstein 2024) <tei:ref target="https://www.dropbox.com/scl/fi/s7z72mrirq7i4rf6721zp/2024-An-Urgent-Prayer-for-the-Protection-of-Human-Life.pdf?rlkey=x6rtq8jo01t7a03iet2787fb0&amp;dl=0">https://www.dropbox.com/scl/fi/s7z72mrirq7i4rf6721zp/2024-An-Urgent-Prayer-for-the-Protection-of-Human-Life.pdf?rlkey=x6rtq8jo01t7a03iet2787fb0&amp;dl=0</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55220_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer was offered by Rabbi Andy Vogel and Rabbi Seth Goldstein and published at Rabbi Goldstein’s and Rabbi Vogel’s website on 3 April 2024. On Rabbi Vogel’s site, the prayer included the statement, “We encourage you to use the words of this prayer as you see fit; no attribution is needed.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55220_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:an_urgent_prayer_for_the_protection_of_human_life_vogel"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

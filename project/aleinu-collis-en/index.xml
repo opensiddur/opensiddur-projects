@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עָלֵֽינוּ לְשַׁבֵּֽחַ</tei:title>
+        <tei:title type="main" xml:lang="en">Aleinu, translation by Richard Collis (2019)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/richard-collis">Richard Collis</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עָלֵֽינוּ לְשַׁבֵּֽחַ</tei:title>
+          <tei:title xml:lang="en">Aleinu, translation by Richard Collis (2019)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0100" to="0400">0100 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46285</tei:idno>
+          <tei:idno type="opensiddur.org">46285</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/we-sing-we-stay-together-shabbat-morning-service-prayers-english-richard-collis-2022/We%20Sing%20We%20Stay%20Together-%20Shabbat%20Morning%20Service%20Prayers%20-%20English%20%28Richard%20Collis%202022%29#page/60/mode/2up">https://archive.org/stream/we-sing-we-stay-together-shabbat-morning-service-prayers-english-richard-collis-2022/We%20Sing%20We%20Stay%20Together-%20Shabbat%20Morning%20Service%20Prayers%20-%20English%20%28Richard%20Collis%202022%29#page/60/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46285_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Richard Collis’s English translation of Aleinu with Al Kein and Al Tira is provided in the liner notes for tracks 61 and 62 of his album <tei:hi rend="italic">We Sing We Stay Together: Shabbat Morning Service Prayers</tei:hi> (2019).</tei:p>
+        <tei:p>Aleinu, authored sometime in Antiquity, first appears in the liturgy for the Yom Kippur musaf service. It also is found in a first person variation among the hymns in the hekhalot texts. Aleinu became a familiar prayer for concluding services only after the beginning of the terrible massacres that befell the Jews of Ashkenaz during the Crusades. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46285_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aleinu_46285"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

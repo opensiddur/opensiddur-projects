@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אײן אנשפראכע געגען עין הרע</tei:title>
+        <tei:title type="main" xml:lang="en">An Incantation against the Ayin haRa (1896)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אײן אנשפראכע געגען עין הרע</tei:title>
+          <tei:title xml:lang="en">An Incantation against the Ayin haRa (1896)</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Baruch Jean Thaler</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1896">1896</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=13957</tei:idno>
+          <tei:idno type="opensiddur.org">13957</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_13957_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This tkhine offers a formula for providing relief to a very ill person, and as such, should only be used as a supplement to recommendations provided by an expert physician or nurse. The source of this invocation is the <tei:hi rend="italic">Tkhine of a Highly Respected Woman</tei:hi> (Budapest, 1896) and I have faithfully transcribed it as it appears in <tei:hi rend="italic">The Merit of Our Mothers</tei:hi> בזכות אמהות <tei:hi rend="italic">A Bilingual Anthology of Jewish Women’s Prayers</tei:hi>, compiled by Rabbi Tracy Guren Klirs, Cincinnati: Hebrew Union College Press, 1992. Translation by Baruch Jean Thaler with edits by Aharon Varady.</tei:p>
+        <tei:p>The 1906 Jewish Encyclopedia notes the following in its entry “Evil Eye“:</tei:p>
+        <tei:p>In Slavic lands old women throw live coals into water, with which they sprinkle the four corners of the room, reciting the while certain formulas as a safeguard against the evil eye (Rubin, “Geschichte des Aberglaubens,” etc., p. 164; Grunwald, “Mitteilungen,” etc., v. 41, No. 88). People light the Habdalah candle and hold it before the child’s open mouth, extinguishing it so as to make the smoke go into the mouth (Grunwald, l.c. p. 40, note).[...] “A piece of bread and salt or of the maẓẓah from Passover is put into the pockets of particularly beautiful children. A piece from the garment of the person who is suspected of having exercised the charm . . . is placed on glowing coals and the smoke blown into the child’s face” (Grunwald, ib.). Adults wear rings or beads of amber on a string around the neck as a protection against the evil eye (Rubin, l.c. p. 179; Grunwald, l.c. v. 60, No. 198, note). The bridegroom, whose conjugal happiness is envied by some one, is especially susceptible to the influence of the evil eye. He may protect himself by walking backward (Grunwald, l.c. i. 87, v. 33, note 42). In olden times children were not taken to the wedding-feast for fear of the evil eye in the crowd (Lev. R. xxvi. 7; Tan., Emor, 4; comp. also Grunwald, l.c. i. 36, 99).</tei:p>
+        <tei:p>M. Grunwald, <tei:hi rend="italic">Mitteilungen der Gesellschaft für Jüdische Volkskunde</tei:hi>, 1901, part vii., s.v. Böser Blick;</tei:p>
+        <tei:p>S. Rubin, <tei:hi rend="italic">Gesch. des Aberglaubens bei Allen Völkern mit Besonderem Hinblick auf das Jüdische Volk</tei:hi>, Vienna, 1887</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_13957_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:an_incantation_against_the_ayin_hara"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">עַל הַנִּסִּים בִּימֵי הוֹדָיָה לְאֻמִּיִּים</tei:title>
+        <tei:title type="main" xml:lang="en">Al haNissim prayer on Civic Days of Patriotic Gratitude, by Aharon Varady</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">עַל הַנִּסִּים בִּימֵי הוֹדָיָה לְאֻמִּיִּים</tei:title>
+          <tei:title xml:lang="en">Al haNissim prayer on Civic Days of Patriotic Gratitude, by Aharon Varady</tei:title>
+          <tei:author>Aharon N. Varady</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2013-04-15">2013-04-15</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6661</tei:idno>
+          <tei:idno type="opensiddur.org">6661</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6661_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Opportunities to express gratitude on civic days of thanksgiving demand acknowledgement of an almost unfathomably deep history of trauma — not only the suffering and striving of my immigrant ancestors, but the sacrifice of all those who endured suffering dealt by their struggle to survive, and often failure to survive, the oppression dealt by colonization, conquest, hegemony, natural disaster, etc. Only the Earth (from which we, earthlings, were born <tei:hi rend="italic">Bnei Adam</tei:hi> from <tei:hi rend="italic">Adamah</tei:hi>) has witnessed the constancy of the violent traumas we inflict upon each other. The privilege bequeathed to me from this suffering is inherited along with a responsibility to be aware at just what cost this privilege was attained. This must be honestly acknowledged, especially on civic days of thanksgiving, independence, and freedom.</tei:p>
+        <tei:p>This prayer places the Earth at the center of a relationship usually subverted by nationalist aspirations and chauvinist ethnic pride. I want moments like those enshrined by patriotic holidays to reaffirm my commitment to building a world with fairness and compassion for all living creatures, and for establishing a universal, human identity that makes this commitment its central project. Even if (or especially when) my life necessitates my settlement upon the historic lands of indigenous peoples and all those who came before me, the least I can do is honor and recognize this history, and respect this land as it sustains me and the communities I rely upon. There is no land on Earth that doesn’t have such a history, and there is no person whose genealogy spanning thousands and millions of years isn’t ultimately interwoven with the complications of the conquests and survival of their progenitors.</tei:p>
+        <tei:p>This <tei:hi rend="italic">al hanissim</tei:hi> prayer was written for insertion into the <tei:hi rend="italic">Modim</tei:hi> (we are thankful) blessing of the weekday Amidah and of the <tei:hi rend="italic">Birkat haMazon</tei:hi> after the festive meal on any other secular/national day of Thanksgiving. Although it is intentionally written with a diasporic and universalist frame of reference, I hope it may apply just as well for <tei:hi rend="italic">Yom Ha’Atsmaut</tei:hi> (Independence Day) in <tei:hi rend="italic">Medinat Yisrael</tei:hi> (the State of Israel) as it does in the United States, Canada, and other countries on their special days.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6661_introduction"/>
+      <j:conditional xml:id="osp_6661_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>I wrote the prayer above in English and translated it into Hebrew. The latter was subsequently corrected thanks to Rabbi Simcha Daniel Burstyn at Kibbutz Lotan. In 2015, I revised this prayer, adding several verses in order to better emphasize my key points. In 2016, I switched the order of the two sections and polished the Hebrew grammar with the help of Tom Pessah. In 2019, I added a question invoking the shame of witnessing this depravity and an additional stanza (currently untranslated), preceding the ḥatimah, recognizing what I hope are the redemptive prescriptions of our tradition of pursuing justice while we give thanks.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6661_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim_prayer_on_civic_days_of_patriotic_gratitude_varady"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

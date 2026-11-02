@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">תְּפִלַּת גֶּשֶׁם</tei:title>
+        <tei:title type="main" xml:lang="en">Tefilat Geshem, according to the Maḥzor Aram Ṣoba (1560)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">תְּפִלַּת גֶּשֶׁם</tei:title>
+          <tei:title xml:lang="en">Tefilat Geshem, according to the Maḥzor Aram Ṣoba (1560)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="-0200" to="0400">-0200 – 0400</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=53027</tei:idno>
+          <tei:idno type="opensiddur.org">53027</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_53027_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The Geshem prayer for Shemini Atzeret in the Maḥzor Aram Ṣoba has some things in common with other Geshem texts, but its most unique facets are twofold. First and most obviously, the extensive catena of verses from Torah, Neviim and Ketuvim that falls between the introductory announcement and the piyyutim themselves. And second, several Aramaic passages relatively rare in other texts, which seem to reflect an archaic form predating the adoption of Arabic as the spoken language of the Aleppo Jews. (These Aramaic passages are marked in green in the transcription.) As standard in Eastern practice, especially in the Maḥzor Aram Ṣoba (which shows a surprisingly modern reticence to interrupt the ‘amidah), this prayer is placed after the Torah service and before musaf begins.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_53027_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillat_geshem_53027"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

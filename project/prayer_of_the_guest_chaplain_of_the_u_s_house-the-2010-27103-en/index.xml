@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gil Steinlauf on 27 January 2010</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</tei:licence>
+          <tei:p>United States Government work (17 U.S.C. §105)</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Gil Steinlauf on 27 January 2010</tei:title>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:author>Gil Steinlauf</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2010-01-27">2010-01-27</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=27103</tei:idno>
+          <tei:idno type="opensiddur.org">27103</tei:idno>
+          <tei:note>Source: <tei:ref target="https://www.c-span.org/video/standalone/?c4509472/rabbi-gil-steinlauf-congregation-adas-israel-washington-dc">https://www.c-span.org/video/standalone/?c4509472/rabbi-gil-steinlauf-congregation-adas-israel-washington-dc</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="//docs.google.com/gview?url=https://www.congress.gov/111/crec/2010/01/27/CREC-2010-01-27-pt1-PgH389-2.pdf&amp;embedded=true">//docs.google.com/gview?url=https://www.congress.gov/111/crec/2010/01/27/CREC-2010-01-27-pt1-PgH389-2.pdf&amp;embedded=true</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_27103_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Gil Steinlauf, Adas Israel, Washington, DC</tei:p>
+        <tei:p>Sponsor: Rep. Henry Waxman, (D-CA)</tei:p>
+        <tei:p>Date of Prayer: 01/27/2010</tei:p>
+        <tei:p>Madam Speaker, it is my honor to welcome Rabbi Gil Steinlauf of Adas Israel Congregation in Washington, DC, as our guest chaplain today.</tei:p>
+        <tei:p>When I was first elected to Congress and our family moved to Washington, we joined Adas Israel Congregation in Cleveland Park in the Washington, DC, area. Adas Israel is the largest conservative synagogue in our Nation’s capital and one of its oldest. It also has a reputation for outreach to young families and Washington, DC, transplants. We have been members for more than 30 years.</tei:p>
+        <tei:p>Rabbi Steinlauf came to Adas Israel in August 2008 to serve as its senior rabbi. He quickly made his mark as a charismatic, energetic, and dynamic spiritual leader. It has been a great pleasure to get to know him and his family.</tei:p>
+        <tei:p>Originally from Jericho, New York, Rabbi Steinlauf was ordained in 1998 at the Jewish Theological Seminary in New York. He graduated from Princeton in 1991 with honors, and also studied at the Pardes Institute in Jerusalem and the University of Judaism, now known as the American Jewish University, which is located in my district in Los Angeles.</tei:p>
+        <tei:p>Rabbi Steinlauf is joined this morning by his wife, Rabbi Batya Steinlauf, and his children Elana, Noah, and Meirav, his parents Bernard and Sandra, some of his extended family, and a proud delegation of Adas Israel.</tei:p>
+        <tei:p>Thank you, Rabbi Steinlauf, for your inspirational words.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_27103_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_the_27103"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

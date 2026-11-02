@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">קרובות לתענית אסתר</tei:title>
+        <tei:title type="main" xml:lang="en">Ḳerovot for Taanit Esther by Yosef ibn Abitur (ca. 10th c.) with other seliḥot arranged by Isaac Gantwerk Mayer</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">קרובות לתענית אסתר</tei:title>
+          <tei:title xml:lang="en">Ḳerovot for Taanit Esther by Yosef ibn Abitur (ca. 10th c.) with other seliḥot arranged by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Yosef ibn Abitur</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0900" to="1000">0900 – 1000</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=48953</tei:idno>
+          <tei:idno type="opensiddur.org">48953</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/taanit-esther-amidah-with-krovot-and-selihot-isaac-gantwerk-mayer-2023/Taanit%20Esther%20Amidah%20with%20Krovot%20and%20Selihot%20%28Isaac%20Gantwerk%20Mayer%202023%29#page/n1/mode/2up">https://archive.org/stream/taanit-esther-amidah-with-krovot-and-selihot-isaac-gantwerk-mayer-2023/Taanit%20Esther%20Amidah%20with%20Krovot%20and%20Selihot%20%28Isaac%20Gantwerk%20Mayer%202023%29#page/n1/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_48953_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The poetic genre known as qerovot, brief poems woven throughout the repetition of the weekday Amidah, is nowadays most closely associated with Elazar haḲalir’s Purim “Ḳrovetz“, a majestically interwoven piece of piyyut if ever there was one. But there are many other ḳerovot that have historically been recited, many of which were discovered in the Cairo Geniza. This set of ḳerovot, composed by the prolific Spanish paytan Yosef ibn Abitur, is meant to be included within the Shaḥarit amidah for Ta’anit Esther, the fast day before Purim. Consequently, it only goes up to the sixth blessing (the blessing for forgiveness) and concludes by leading directly into Seliḥot, which (before R. Yosef Karo’s standardization of the liturgy, and even now among some Western Ashkenazim) were inserted into the aforementioned blessing. In order to demonstrate this structure on a large scale, the editor here has compiled a full Shaḥarit repetition, nusaḥ Ashkenaz, incorporating the qerovot of Yosef ibn Abitur as well as the three seliḥot piyyutim of the Ashkenazi rite.</tei:p>
+        <tei:p>Also included, (and posted individually), are the seliḥot piyyutim themselves, along with alphabetical acrostic translations. The first, Adam B’qum ‘Alenu, was written by Menachem son of Rabbi Machir. The second, Atah Ha-El Oseh Fela’ot, was written by Shimon son of Isaac. And the third, Bi-M’tei Mispar, was written by Meshullam ben Kalonymus. For those who don’t wish to include Yosef ibn Abitur’s qerovot in their practice, these might be useful nonetheless.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.” “SOURCE” is used to translate the Divine Name Yah.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_48953_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:qerovot_for_taanit_esther_abitur"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

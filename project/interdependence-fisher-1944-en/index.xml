@@ -1,0 +1,57 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Interdependence, a prayer by Dorothy Canfield Fisher (19 November 1944)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Interdependence, a prayer by Dorothy Canfield Fisher (19 November 1944)</tei:title>
+          <tei:author>Dorothy Canfield Fisher</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1944-11-19">1944-11-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46341</tei:idno>
+          <tei:idno type="opensiddur.org">46341</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/AnOfferingOfPrayerBial1962/An%20Offering%20of%20Prayer%20%28Morrison%20David%20Bial%201962%29#page/54/mode/2up">https://archive.org/stream/AnOfferingOfPrayerBial1962/An%20Offering%20of%20Prayer%20%28Morrison%20David%20Bial%201962%29#page/54/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/prayers-of-the-free-spirit-stephen-hole-fritchman-1945/Prayers%20of%20the%20Free%20Spirit%20%28ed.%20Stephen%20Hole%20Fritchman%201945%29#page/38/mode/2up">https://archive.org/stream/prayers-of-the-free-spirit-stephen-hole-fritchman-1945/Prayers%20of%20the%20Free%20Spirit%20%28ed.%20Stephen%20Hole%20Fritchman%201945%29#page/38/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46341_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“Interdependence” by Dorothy Canfield Fisher (1879-1958) was originally written for the 50th Anniversary of the World’s Young Women’s Christian Association, 19 November 1944. The prayer was included by Rabbi Morrison David Bial in his anthology, <tei:hi rend="italic">An Offering of Prayer</tei:hi> (1962), p. 55. It’s likely that Rabbi Bial first read the prayer in an anthology of prayer by Stephen Hole Fritchman, <tei:hi rend="italic">Prayers of the Free Spirit</tei:hi> (1945), p. 38.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46341_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:interdependence_fisher"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

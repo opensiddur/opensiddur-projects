@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֶפְתַּח פִּי לְךָ אָדוֹן</tei:title>
+        <tei:title type="main" xml:lang="en">Eftaḥ Pi L'kha Adōn, a seliḥah for Kristallnacht by Isaac Gantwerk Mayer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֶפְתַּח פִּי לְךָ אָדוֹן</tei:title>
+          <tei:title xml:lang="en">Eftaḥ Pi L'kha Adōn, a seliḥah for Kristallnacht by Isaac Gantwerk Mayer</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2021-10-19">2021-10-19</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=39819</tei:idno>
+          <tei:idno type="opensiddur.org">39819</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_39819_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>There’s a lot of controversy over Yom haShoah as a date. One of the key issues is this: traditionally, the ways Jews mourn communal tragedies is through establishing a fast day. It’s forbidden to fast during the month of Nisan. It’s hard to pick any specific date to commemorate a tragedy as enormous as the Shoah, but one which seems appropriate to me would be 16 Marḥeshvan, the anniversary of Kristallnacht, the November Pogrom. This piyyut is a seliḥah for Kristallnacht, to be recited on 16 Marḥeshvan (or 15 Marḥeshvan on years like 5782 where the sixteenth falls on a Thursday).</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.” This translation also uses the pluralis majestatis to refer to the Divine. This is not meant to imply that God is more than one, ḥas v’shalom, but rather to reflect the vastness and majesty of God while also avoiding gendered language. (Find Ibn Ezra’s commentary on Genesis 1:1 for a discussion of the <tei:hi rend="italic">pluralis majestatis</tei:hi> when referring to God.)</tei:p>
+        <tei:p>[If you’d like to commission a Jewish creative work, check out my website at igmjewishcreativeworks.com!]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_39819_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:eftach_pi_lekha_adon_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">וּתְקוֹל</tei:title>
+        <tei:title type="main" xml:lang="en">U-tqol of Djerba — a Midrashic Addition to the Haggadah relating the story of Avraham &amp; Nimrod's Furnace in Judeo-Tunisian Arabic</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">וּתְקוֹל</tei:title>
+          <tei:title xml:lang="en">U-tqol of Djerba — a Midrashic Addition to the Haggadah relating the story of Avraham &amp; Nimrod's Furnace in Judeo-Tunisian Arabic</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="0800" to="1200">0800 – 1200</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=36476</tei:idno>
+          <tei:idno type="opensiddur.org">36476</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_36476_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>The ancient Jewish community of Djerba, an island off the coast of southern Tunisia, has many unique customs and practices. Among them is that during the Maggid, after the citation of Joshua 24:2-4 and before the paragraph beginning “Praise the One who keep faith with the people Israel,” an extensive work in Judeo-Tunisian Arabic is recited, telling the well-known story of Abraham’s realization of divine unity and his ordeal in the oven of fire. Here is a transcript of that text, vocalized according to the original manuscripts, transcribed, and translated into English and modern Hebrew.</tei:p>
+        <tei:p>(The community of Gafṣa in inland Tunisia has its own separate custom for U-tqol, which the editor is in the process of transcribing. If anyone has a manuscript copy of U-tqol Gafṣa which incldues niqqud, please send it to the editor at isaacgmayerjewishtranscription@gmail.com.)</tei:p>
+        <tei:p>Some linguistic notes for those unfamiliar with the dialect: in Tunisian Arabic the vowels /o/ and /u/ are often interchangeable, the Arabic distinction between interdental fricatives {ð, θ} and dental plosives {d, t} is lost, the definite prefix al- is shortened to l-, and the diphthong /aj/ simplifies to /e:/. This text will look strikingly different to those only familiar with Classical Arabic usage. The Jewish communities of the Arab world have always been somewhat more willing to use local dialects than the Muslim ones, since Judaism doesn’t consider Arabic a holy language the way Islam does, so texts like this can be invaluable for students of Arabic linguistic history.</tei:p>
+        <tei:p>[If you’d like to commission a Jewish creative work, check out my website at igmjewishcreativeworks.com!]</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_36476_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:utqol_of_djerba"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

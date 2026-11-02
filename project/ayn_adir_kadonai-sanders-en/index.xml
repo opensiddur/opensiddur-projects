@@ -1,0 +1,67 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אֵין אַדִּיר כַּיְיָ (מִפִּי אֵל)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Ayn Adir kAdonai</tei:title>
+        <tei:title type="alt" xml:lang="he">לָא קָאדִּר סַוָא אַלְלָה (There is none like Allah), minhag Cairo variation with a Judeo-Arabic translation</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/akiva-sanders">Akiva Sanders</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אֵין אַדִּיר כַּיְיָ (מִפִּי אֵל)‏</tei:title>
+          <tei:title xml:lang="en">Ayn Adir kAdonai</tei:title>
+          <tei:title xml:lang="he">לָא קָאדִּר סַוָא אַלְלָה (There is none like Allah), minhag Cairo variation with a Judeo-Arabic translation</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1601" to="1639">1601 – 1639</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55294</tei:idno>
+          <tei:idno type="opensiddur.org">55294</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/SederAlTawidMoshehAsherIbnShmuel1887/Seder%20al-Taw%E1%B8%A5id%20%28Mosheh%20Asher%20ibn%20Shmuel%201887%29#page/n11/mode/2up">https://archive.org/stream/SederAlTawidMoshehAsherIbnShmuel1887/Seder%20al-Taw%E1%B8%A5id%20%28Mosheh%20Asher%20ibn%20Shmuel%201887%29#page/n11/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55294_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Author unknown, <tei:hi rend="italic">Ayn Adir kAdonai</tei:hi> (“There is none like YHVH”) was originally composed as a piyyut for Shavu’ot. Macy Nulman writes in the <tei:hi rend="italic">Encyclopedia of Jewish Prayer</tei:hi> that the poem was transmitted orally and was put into writing in the 1700s. Variants of the text exist in different compilations. This is a variation of Mipi El in Hebrew with a Judeo-Arabic translation found in the Seder al-Tawḥid for Rosh Ḥodesh Nissan, compiled by Mosheh Asher ibn Shmuel in 1887 in Alexandria. The English translation provided is adapted from the one offered by Akiva Sanders with changes made to the lines which differ from the variation that he translated. Vocalization of the Judeo-Arabic by Isaac Gantwerk Mayer. –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55294_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ayn_addir_kadonai"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

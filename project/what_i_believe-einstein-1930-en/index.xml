@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">What I Believe</tei:title>
+        <tei:title type="alt" xml:lang="en">Wie ich die Welt sehe (How I see the World), an essay by Albert Einstein (in English and German, 1930/1934)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">What I Believe</tei:title>
+          <tei:title xml:lang="en">Wie ich die Welt sehe (How I see the World), an essay by Albert Einstein (in English and German, 1930/1934)</tei:title>
+          <tei:author>Albert Einstein</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1930-10" to="1934">1930-10 – 1934</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=46424</tei:idno>
+          <tei:idno type="opensiddur.org">46424</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/wie-ich-die-welt-sehe-albert-einstein-mein-weltbild-1934/Wie%20ich%20die%20Welt%20sehe%20%28Albert%20Einstein%2C%20Mein%20Weltbild%201934%29#page/n2/mode/2up">https://archive.org/stream/wie-ich-die-welt-sehe-albert-einstein-mein-weltbild-1934/Wie%20ich%20die%20Welt%20sehe%20%28Albert%20Einstein%2C%20Mein%20Weltbild%201934%29#page/n2/mode/2up</tei:ref></tei:note>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/what-i-believe-albert-einstein-1930/What%20I%20Believe%20%28Albert%20Einstein%201930%29#page/n0/mode/2up">https://archive.org/stream/what-i-believe-albert-einstein-1930/What%20I%20Believe%20%28Albert%20Einstein%201930%29#page/n0/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_46424_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This is Albert Einstein’s essay in English, “What I Believe” as published in <tei:hi rend="italic">Forum and Century</tei:hi> 84 (October 1930), no. 4, 193–194, set next to his essay in German, “Wie ich die Welt sehe” (How I see the World) as published in <tei:hi rend="italic">Mein Weltbild</tei:hi> (1934), p. 11-17. The German version includes some thoughts elided in the English which I hope are elucidated in my translation into English of the German version. David E. Rowe and Robert Schulman (in Einstein on Politics 2007, p. 226) note, “The text was reproduced several times under the title ‘The World as I See It,’ most notably in <tei:hi rend="italic">Mein Weltbild</tei:hi> and <tei:hi rend="italic">Ideas and Opinions</tei:hi>, and in 1932 the German League of Human Rights released a phonograph recording of Einstein reading a slightly variant version entitled “Confession of Belief.” [It]...differs significantly from that [published in <tei:hi rend="italic">Ideas and opinions: based on Mein Weltbild</tei:hi> by] Einstein (in) 1954.” –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_46424_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:what_i_believe_einstein"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

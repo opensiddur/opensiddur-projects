@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">אַף אֹרַח מִשְׁפָּטֶיךָ</tei:title>
+        <tei:title type="main" xml:lang="en">Af Oraḥ Mishpatekha — an ofan for Shabbat Ḥazon by Rabbi Elazar ben R' Yehudah of Worms</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">אַף אֹרַח מִשְׁפָּטֶיךָ</tei:title>
+          <tei:title xml:lang="en">Af Oraḥ Mishpatekha — an ofan for Shabbat Ḥazon by Rabbi Elazar ben R' Yehudah of Worms</tei:title>
+          <tei:author>Eleazar ben Yehudah ben Ḳalonymus of Worms</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1240" to="1300">1240 – 1300</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=52019</tei:idno>
+          <tei:idno type="opensiddur.org">52019</tei:idno>
+          <tei:note>Source: Liturgical poems said in Worms throughout the year (Frankfurt 1714), p. 20 recto <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/07/Liturgical-poems-said-in-Worms-throughout-the-year-Frankfurt-1714-p.-20-recto.png">https://opensiddur.org/wp-content/uploads/2023/07/Liturgical-poems-said-in-Worms-throughout-the-year-Frankfurt-1714-p.-20-recto.png</tei:ref></tei:note>
+          <tei:note>Source: Liturgical poems said in Worms throughout the year (Frankfurt 1714), p. 20 verso <tei:ref target="https://opensiddur.org/wp-content/uploads/2023/07/Liturgical-poems-said-in-Worms-throughout-the-year-Frankfurt-1714-p.-20-verso.png">https://opensiddur.org/wp-content/uploads/2023/07/Liturgical-poems-said-in-Worms-throughout-the-year-Frankfurt-1714-p.-20-verso.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_52019_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>“Af Oraḥ Mishpatekha” is an <tei:hi rend="italic">ofan</tei:hi>, a type of piyyut recited as a part of the Ḳedushah d-Yotzer liturgy as an introduction to Ezekiel 3:12. Specifically, it is an ofan written by the Rokeaḥ, R. El’azar ben R. Yehuda of Worms, for the morning liturgy on Shabbat Ḥazon, the Shabbat before Tishah b’Av. It is here included along with an original translation and with cited verses marked. Also included is a series of images from a 1714 maḥzor printed in Frankfurt au Main (found here) that includes the piyyut. To note, the text included above is not exactly the same as that of the 1714 maḥzor, having been edited in accordance with Isaac Meiseles’s 1993 critical edition of the Rokeaḥ’s work.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_52019_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:af_orach_mishpatekha_eleazar"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

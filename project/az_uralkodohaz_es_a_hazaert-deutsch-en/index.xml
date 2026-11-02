@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Az uralkodóház és a hazáért</tei:title>
+        <tei:title type="alt" xml:lang="en">Prayer for the King [Franz Joseph I] and the [Hungarian] Homeland, by Rabbi Gyula Fischer (1908)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/chana-deutsch">Chana Deutsch</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Az uralkodóház és a hazáért</tei:title>
+          <tei:title xml:lang="en">Prayer for the King [Franz Joseph I] and the [Hungarian] Homeland, by Rabbi Gyula Fischer (1908)</tei:title>
+          <tei:author>Gyula Fischer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1908">1908</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=31572</tei:idno>
+          <tei:idno type="opensiddur.org">31572</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/rachelimakzsidonokszamara1908#page/n47/mode/2up">https://archive.org/stream/rachelimakzsidonokszamara1908#page/n47/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_31572_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>Modeled after the prayer Hanoten T’shuah, this patriotic paraliturgical prayer for the Kingdom of Hungary by Rabbi Gyula Fischer was published in the prayerbook for Jewish women, <tei:hi rend="italic">Rachel: imák zsidó nők számára</tei:hi> (1908), pp. 45-47.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_31572_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:az_uralkodohaz_es_a_hazaert_fischer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

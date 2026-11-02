@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">יִגְדַּל (אשכנז)‏</tei:title>
+        <tei:title type="main" xml:lang="en">Yigdal, by Daniel ben Yehudah (trans. Israel Zangwill, 1904)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">יִגְדַּל (אשכנז)‏</tei:title>
+          <tei:title xml:lang="en">Yigdal, by Daniel ben Yehudah (trans. Israel Zangwill, 1904)</tei:title>
+          <tei:author>Daniel ben Yehudah Dayyan</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Israel Zangwill</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1440" to="1500">1440 – 1500</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=51581</tei:idno>
+          <tei:idno type="opensiddur.org">51581</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimvol2arthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%202%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n9/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodatyomhakippurimvol2arthurdavisandherbertadler1904/Mahzor%20Avodat%20Ohel%20Moed%20-%20Avodat%20Yom%20haKippurim%20vol%202%20%28Arthur%20Davis%20and%20Herbert%20Adler%201904%29#page/n9/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_51581_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the philosophical-creed-as-piyyut, Yigdal, by Daniel ben Judah Dayyan. Yigdal means “Magnify [O Living God]” and is based on the 13 Articles of Faith formulated by Maimonides (1135-1204). Daniel ben Judah spent eight years improving his piyyut, completing Yigdal in 1404. This was not the only metrical presentment of the 13 Articles of Faith; but it has outlived all others, whether in Hebrew or in the vernacular. The English translation here by Israel Zangwill was transcribed from Arthur Davis &amp; Herbert Adler’s מַחֲזוֹר עֲבֹדַת אֹהֶל מוֹעֵד: עֲבֹדַת חַג הַכִּפּוּרִים <tei:hi rend="italic">Maḥzor Avodat Ohel Moed: Avodat Yom haKippurim Part II: Morning Service</tei:hi> (1904), p. 2.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_51581_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal_daniel_51581"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

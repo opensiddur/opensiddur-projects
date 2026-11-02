@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Leo Landman on 17 October 1967</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/aharon-varady">Aharon N. Varady</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Prayer of the Guest Chaplain of the U.S. House of Representatives: Rabbi Leo Landman on 17 October 1967</tei:title>
+          <tei:author>Leo Landman</tei:author>
+          <tei:author>the Congressional Record of the United States of America</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1967-10-17">1967-10-17</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=56884</tei:idno>
+          <tei:idno type="opensiddur.org">56884</tei:idno>
+          <tei:note>Source: Congressional Record, vol. 113, part 21 (17 October 1967), p. 29023 <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--113-part-21-17-October-1967-p--29023.png">https://opensiddur.org/wp-content/uploads/2024/06/Congressional-Record-vol--113-part-21-17-October-1967-p--29023.png</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_56884_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Guest Chaplain: Rabbi Leo Landman, Beth Emeth Congregation, Philadelphia, Pennsylvania</tei:p>
+        <tei:p>Sponsor: Rep. Joshua Eilberg (D-PA)</tei:p>
+        <tei:p>Date of Prayer: 17 October 1967</tei:p>
+        <tei:p>Mr. EILBERG, Mr. Speaker, I am grateful to you, to this House, and to Dr. Latch for the opportunity of having today’s opening prayer offered by the spiritual leader of my own congregation, Rabbi Leo Landman.</tei:p>
+        <tei:p>As a member and trustee of Congregation Beth Emeth, I would like to say I am very proud of Dr. Landman. I hasten to add, however, that I hope no one will get the idea I have sought the pulpit of the House as a showcase for him through which other congregations may attempt to lure him from us. I hope he will remain in Philadelphia for as long a time as I know his words will remain with our Members of the House who are here to hear him today.</tei:p>
+        <tei:p>The high regard in which we hold him is evidenced in part by the fact that a number of congregants sought to share the honor by accompanying him here from Philadelphia today. I wish to state that in addition to being spiritual leader of Congregation Beth Emeth, Dr. Landman holds a number of other distinctions.</tei:p>
+        <tei:p>He is assistant to the president of Dropsie College for Hebrew and Cognate Learning, vice president of the Philadelphia Board of Rabbis and regional vice president of the rabbinic alumni of Yeshiva University.</tei:p>
+        <tei:p>He is a graduate of both Yeshiva and Dropsie, from which he received his Ph.D.</tei:p>
+        <tei:p>It is particularly fitting, I think, that in this body of representatives of all American people, our daily deliberations continue to be begun with a prayer for divine guidance. I am appreciative of the fact that my own congregation also has been allowed to share in these daily invocations.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56884_introduction"/>
+      <j:conditional xml:id="osp_56884_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This prayer of the guest chaplain was offered in the tenth month of the first session of the 90th US House of Representatives, and published in the <tei:hi rend="italic">Congressional Record</tei:hi>, vol. 113 part 21 (17 October 1967), page 29023.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_56884_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:prayer_of_the_guest_chaplain_of_the_u_s_house_landman"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

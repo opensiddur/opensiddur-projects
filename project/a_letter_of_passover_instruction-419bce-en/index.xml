@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">A Letter of Passover Instruction, from the Judean Garrison of Elephantine/Yeb (TAD A4.1)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">Transcribed by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/isaac-gantwerk-mayer">Isaac Gantwerk Mayer</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">A Letter of Passover Instruction, from the Judean Garrison of Elephantine/Yeb (TAD A4.1)</tei:title>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="-0419">-0419</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=34083</tei:idno>
+          <tei:idno type="opensiddur.org">34083</tei:idno>
+          <tei:note>Source: A Letter of Passover Instruction, from the Judean Garrison of Elephantine/Yeb (TAD A4.1) <tei:ref target="https://opensiddur.org/wp-content/uploads/2020/10/Passover_Letter_Front.jpg">https://opensiddur.org/wp-content/uploads/2020/10/Passover_Letter_Front.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_34083_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>This letter, written in Imperial Aramaic in 419 BCE, is among the vast number of papyrus letters found in Elephantine, also known as Yeb. The Jewish (or more accurately, Judean) community of Yeb is a fascinating bit of history — a group of Judean mercenaries who settled in Egypt and built their own smaller temple! Although their origin was clearly Judean, and they referred to themselves as the ḥeila yehudaya = Judean garrison, their form of worship featured no Deuteronomic centralization, no discussion of the patriarchs, and questionable monotheism! Although the primary deity was YHW (note the difference in spelling), multiple other deities or hypostatized aspects of divinity were worshipped, and verbs for the word “God” are conjugated in the plural rather than the singular. This text is one of a series of letters written between the brothers Yedaniah and Ḥananiah. In this case, it is giving instructions for keeping the holiday of Pesaḥ. These instructions are interesting in their own right — the prohibition on beer could alternatively be read as a prohibition on any alcoholic drink, which would align with Karaite practice rather than rabbinic. But what’s even more interesting is what isn’t mentioned — the instructions given mention nothing whatsoever about the exodus from Egypt, or even God! The diktat to observe the holiday is accredited not to God or Moses, but to Darius, king of the Achaemenid Empire! This passage is a fascinating taste of a part of Judaism that we know very little about. Vocalization according to Tiberian norms and translation into English by the translator.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_34083_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:a_letter_of_passover_instruction"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

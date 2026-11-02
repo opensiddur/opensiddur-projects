@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kavvanah for the Blessing for the Sun, by Rabbi David Seidenberg (neohasid·org, 2009)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">Kavvanah for the Blessing for the Sun, by Rabbi David Seidenberg (neohasid·org, 2009)</tei:title>
+          <tei:author>David Seidenberg</tei:author>
+          <tei:author>Neohasid·org</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2009">2009</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=6838</tei:idno>
+          <tei:idno type="opensiddur.org">6838</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_6838_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>Finally — I’d been thinking about it for months — I created a liturgy for blessing the Sun last year on April 8th, 2009.</tei:p>
+        <tei:p>We only say this blessing once every 28 years – that’s approximately a (lunar) month of years. I wrote a <tei:hi rend="italic">kavvanah</tei:hi> in four parts to complement the traditional blessing. The blessing itself is completely simple: <tei:hi rend="italic">Barukh Atah...oseh ma’aseh v’reishit</tei:hi> Blessed be You YHVH our God ruler of all space and time (<tei:hi rend="italic">ha’olam</tei:hi>), who does the act of beginning-creation. Say it anytime during the first part of the morning on Wednesday, the day before the first <tei:hi rend="italic">seder</tei:hi>, on your own, or together with folks. You can combine it with burning your <tei:hi rend="italic">chametz</tei:hi>, doing a <tei:hi rend="italic">siyum</tei:hi> for the firstborn etc.</tei:p>
+        <tei:p>My favorite line used in this liturgy comes from <tei:hi rend="italic">Pri Ets Hadar</tei:hi>: “Return the whole of creation now to its original strength”—it’s something we desperately need our entire civilization to focus on. Prayer is part of that process of refocusing. I’ve also rewritten this liturgy to be used over the whole year. It could be recited as a prayer to follow counting the omer (for each day, like <tei:hi rend="italic">Ana b’Khoaḥ</tei:hi>, or for the completion of each week), for the fires of Lag ba-Omer, and Rainbow Day, and as a prayer for the earth on Shabbat after Torah reading, alongside the prayer for the country and the prayer for Israel. See the year-round version here.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_6838_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kavvanah_for_the_blessing_for_the_sun_seidenberg"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

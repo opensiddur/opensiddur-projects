@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">רִבּוֹנוֹ שֶׁל עוֹלָם</tei:title>
+        <tei:title type="main" xml:lang="en">Untitled Prayer, by Isaac Bashevis Singer (ca. 1951)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trl">Translated by</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/david-stromberg">David Stromberg</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">רִבּוֹנוֹ שֶׁל עוֹלָם</tei:title>
+          <tei:title xml:lang="en">Untitled Prayer, by Isaac Bashevis Singer (ca. 1951)</tei:title>
+          <tei:author>Isaac Bashevis Singer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="1951-03-01">1951-03-01</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=45687</tei:idno>
+          <tei:idno type="opensiddur.org">45687</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_45687_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This untitled prayer, written by Isaac Bashevis Singer on the back of a receipt (dated 1 March 1952), was discovered by David Stromberg in 2014 in the archives at the Harry Ransom Center in Austin, Texas, and published online by Tablet (1, 2) with permission of the Susan Schulman Literary Agency. The Hebrew transcription here was based on the transcription made by Stromberg, to which I have added vocalization. (Many thanks to Baruch Jean Thaler and Rabbi Stephen Belsky for their corrections. Please offer any corrections that stand out for you.)</tei:p>
+        <tei:p>The translation here was published by Stromberg in Tablet (13 May 2021). I have set his translation side-by-side with the Hebrew sourcetext, some annotation, and provided citations for the biblical and liturgical references that stood out to me. Many thanks to David Stromberg for permitting us to reprint his translation here along with these additions.</tei:p>
+        <tei:p>We do not know when after 1 March 1952 this prayer was written down or what context possibly motivated its composition. While the Night of the Murdered Poets (12 August 1952) comes to mind, details of that terrible event were not known before 1956. It feels significant to me that Singer specifies “the Jews who fear God,” mindful of those Jews who, for their own reasons, did harm other Jews. Where that had harm took place, in his surroundings, in the United States, or somewhere else remains a mystery. If this prayer was inspired by something else that occurred in Singer’s personal life or in reflection upon other events, we would like to know. If you can help put this prayer into its historical (or personal) context, please leave a comment or contact us. The prayer reminds me of the prayers of Reb Noson Sternhartz of Nemyriv in Liqutei Tefilot, adapted from the teachings of Rebbe Naḥman and in the section with Singer’s adaptation of “elohai netsor” I think we can find a clear reference to the language found there.</tei:p>
+        <tei:p>This work will remain under copyright for seventy years after Singer’s death (until 2062 under the copyright stewardship of the Isaac Bashevis Singer Literary Trust), and Stromberg’s translation for many years after that, and so this prayer is being shared under my Fair Use Right for non-commercial, scholarly, and prayerful purposes. (Many thanks to David Stromberg for bringing this prayer into the light of day.) –Aharon Varady</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_45687_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:untitled_prayer_singer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

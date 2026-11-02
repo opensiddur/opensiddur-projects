@@ -1,0 +1,55 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">סדר חצוצרות לראש חודש</tei:title>
+        <tei:title type="main" xml:lang="en">Seder Ḥatsotsrot l'Rosh Ḥodesh (the Rite of Trumpets for the New Moon)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">סדר חצוצרות לראש חודש</tei:title>
+          <tei:title xml:lang="en">Seder Ḥatsotsrot l'Rosh Ḥodesh (the Rite of Trumpets for the New Moon)</tei:title>
+          <tei:author>Isaac Gantwerk Mayer</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2022-05-09">2022-05-09</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=44325</tei:idno>
+          <tei:idno type="opensiddur.org">44325</tei:idno>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_44325_introduction">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="introduction">
+        <tei:p>In modern days, many traditional Jews’ only experience of musical instruments in liturgical practice is the shofar on Rosh haShanah. But this was not always the case. In the Temple era, every new moon, festival, and Sabbath was marked with the blowing of <tei:hi rend="italic">ḥatsotsrot ha-kesef</tei:hi>, silver natural (i.e. valveless) trumpets. The blast of the trumpets, compared to the sound of the shofar, is more melodic and less harsh, and some have suggested that in the trauma of the post-Temple era the joyous sound of the trumpet seemed inappropriate. But in recent years, some communities (for instance, the Pardes Institute for Jewish Studies in Jerusalem) have brought back the practice of blowing a silver trumpet to proclaim the new month.</tei:p>
+        <tei:p>The following is a ritual for a public blast of the silver trumpet on the new moon, to be inserted before the recitation of the psalm for the new month. It is the hope of the editor that the fulfillment of this joyous mitsvah will once more be practiced throughout all Israel. Or, barring that, at least a few more places.</tei:p>
+        <tei:p>Note: “The CAUSE” is used to translate the Divine Name YHVH, based on the philosophical idea of God as the Prime Mover and on the interpretation of the Name as a causative form of the copula – “causes to be.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_44325_introduction"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:seder_chatsotsrot_lerosh_chodesh_mayer"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

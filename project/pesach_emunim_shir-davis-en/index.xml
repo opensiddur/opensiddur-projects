@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="alt" xml:lang="he">פֶּֽסַח אֱמוּנִים שִׁיר</tei:title>
+        <tei:title type="main" xml:lang="en">Pesaḥ Emunim Shir (At Passover the faithful sang), a piyyuṭ for the seventh night of Pesaḥ by Yosef ben Yaaqov (translated by Elsie Davis)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="he">פֶּֽסַח אֱמוּנִים שִׁיר</tei:title>
+          <tei:title xml:lang="en">Pesaḥ Emunim Shir (At Passover the faithful sang), a piyyuṭ for the seventh night of Pesaḥ by Yosef ben Yaaqov (translated by Elsie Davis)</tei:title>
+          <tei:author>Yosef ben Yaaqov</tei:author>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Elsie Davis</tei:name>
+          </tei:respStmt>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date from="1000" to="1100">1000 – 1100</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=64280</tei:idno>
+          <tei:idno type="opensiddur.org">64280</tei:idno>
+          <tei:note>Source: <tei:ref target="https://archive.org/stream/mahzoravodatohelmoedavodathaghamatsotarthurdavisandherbertadler1909/mahzoravodatohelmoedavodathaghamatsotarthurdavisandherbertadler1909#page/n411/mode/2up">https://archive.org/stream/mahzoravodatohelmoedavodathaghamatsotarthurdavisandherbertadler1909/mahzoravodatohelmoedavodathaghamatsotarthurdavisandherbertadler1909#page/n411/mode/2up</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_64280_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>This is the piyyut “Pesaḥ Emunim (At Passover, the faithful...)” by Yosef bar Yaaqov Kalai for maariv (after the shema) on the seventh night of Pesaḥ, published in Adler and Davis’s Maḥzor for Shavuot, <tei:hi rend="italic">Avodat Ḥag ha-Matzot</tei:hi> (1909), pp. 219-222.</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_64280_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:pesach_emunim_shir_yosef"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

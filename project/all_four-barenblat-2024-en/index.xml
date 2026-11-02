@@ -1,0 +1,53 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">All Four (Are One), a prayer-poem for Passover by Rabbi Rachel Barenblat (Bayit, 2024)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">All Four (Are One), a prayer-poem for Passover by Rabbi Rachel Barenblat (Bayit, 2024)</tei:title>
+          <tei:author>Rachel Barenblat</tei:author>
+          <tei:author>Bayit: Building Jewish</tei:author>
+          <tei:distributor>
+            <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+          </tei:distributor>
+          <tei:date when="2024-04-06">2024-04-06</tei:date>
+          <tei:date type="accessed" when="2026-11-02">2026-11-02</tei:date>
+          <tei:idno type="url">https://opensiddur.org/?p=55259</tei:idno>
+          <tei:idno type="opensiddur.org">55259</tei:idno>
+          <tei:note>Source: All Four (Are One) (credit: Rachel Barenblat, Bayit- Building Jewish, 2024, license: CC BY-SA) <tei:ref target="https://opensiddur.org/wp-content/uploads/2024/04/All-Four-Are-One-Rachel-Barenblat-Bayit-Building-Jewish-2024.jpg">https://opensiddur.org/wp-content/uploads/2024/04/All-Four-Are-One-Rachel-Barenblat-Bayit-Building-Jewish-2024.jpg</tei:ref></tei:note>
+          <tei:note type="encoding">Converted from the export of opensiddur.org at <tei:ref target="https://github.com/aharonium/opensiddur.org/tree/624215eef02ef36c7694c909e3deefca0e9bc0d2">624215eef0</tei:ref>.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="osp_55259_notes">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="colophon" subtype="notes">
+        <tei:p>“All Four (Are One)” was written by Rabbi Rachel Barenblat and first published on the website of Bayit: Building Jewish on 2 April 2024. Introducing the work, she writes, “Bayit’s Liturgical Arts Working Group is collaborating on a new offering for Pesaḥ 2024, which we hope to release on Monday April 8, just before Rosh Ḥodesh Nisan. As a foretaste of what’s coming, here’s one piece from that collection. Stay tuned for more new liturgy, poetry, and artwork coming soon.”</tei:p>
+      </tei:div>
+      <j:endConditional target="#osp_55259_notes"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:all_four_barenblat"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
