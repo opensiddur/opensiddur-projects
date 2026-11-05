@@ -1,0 +1,15 @@
+description: Synthetic Hebrew/English book demonstrating typography and compiler features.
+requires_processor: ">=0.7.0"
+book:
+  project: preview-en
+  file_name: index.xml
+priority:
+  transclusion: [preview-en, preview-he]
+  instructions: [preview-en, preview-he]
+parallel:
+  projects: [preview-en, preview-he]
+  column_order: primary_first
+typography:
+  table_of_contents:
+    enabled: true
+    depth: 4

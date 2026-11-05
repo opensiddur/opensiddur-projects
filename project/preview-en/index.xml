@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Preview book (synthetic)</tei:title>
+        <tei:respStmt>
+          <tei:resp key="aut">Synthetic demonstration text and encoding</tei:resp>
+          <tei:name>Example Preview Editor (fictional)</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Synthetic preview fixture, edition 1</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>Open Siddur Project</tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:preview@preview-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Entirely synthetic demonstration text; CC0 1.0.</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="preview_bibliography">
+          <tei:title>Imaginary Preview Manual (synthetic)</tei:title>
+          <tei:author>Example Author (fictional)</tei:author>
+          <tei:publisher>Example Press (fictional)</tei:publisher>
+          <tei:pubPlace>Example City</tei:pubPlace>
+          <tei:date when="2026">2026</tei:date>
+          <tei:idno type="url">https://example.org/opensiddur/preview</tei:idno>
+          <tei:note>This bibliography describes an invented source, not a historical book.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <j:conditional xml:id="show_title">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:titlePage>
+        <tei:docTitle>
+          <tei:titlePart type="main">Preview book (synthetic)</tei:titlePart>
+          <tei:titlePart type="sub">A small demonstration</tei:titlePart>
+          <tei:titlePart type="alt" xml:lang="he">תַּצּוּגָה לְדֻגְמָה</tei:titlePart>
+        </tei:docTitle>
+        <tei:byline>Prepared by <tei:docAuthor>Example Editor (fictional)</tei:docAuthor></tei:byline>
+        <tei:docEdition>Demonstration edition</tei:docEdition>
+        <tei:docImprint>
+          <tei:pubPlace>Example City</tei:pubPlace>
+          <tei:publisher>Example Press (fictional)</tei:publisher>
+          <tei:docDate>2026</tei:docDate>
+        </tei:docImprint>
+        <tei:epigraph>
+          <tei:p>A small example of bookmaking.</tei:p>
+          <tei:bibl>Invented source</tei:bibl>
+          <tei:p>All text, names and sources in this preview are synthetic.</tei:p>
+        </tei:epigraph>
+        <tei:imprimatur>Demonstration only; this is not an actual approval.</tei:imprimatur>
+      </tei:titlePage>
+      <j:endConditional target="#show_title"/>
+      <j:conditional xml:id="show_preface">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div type="preface">
+        <tei:head>Demonstration preface</tei:head>
+        <tei:p>This small book demonstrates your settings. It is not a prayerbook or a historical transcription.</tei:p>
+      </tei:div>
+      <j:endConditional target="#show_preface"/>
+    </tei:front>
+    <tei:body>
+      <tei:div>
+        <tei:head>An unpaired English passage</tei:head>
+        <tei:p>This paragraph has no parallel counterpart. <tei:foreign xml:lang="en">An English phrase remains left to right: 123 (ABC) [DEF].</tei:foreign></tei:p>
+        <tei:p>A second short paragraph shows paragraph indentation, alignment, and spacing.<tei:note type="editorial">A synthetic editorial note.</tei:note></tei:p>
+      </tei:div>
+      <tei:div xml:lang="en">
+        <j:conditional xml:id="sample_minyan">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:head>Conditional text example</tei:head>
+        <tei:p xml:lang="en">A demonstration passage shown when a minyan is selected.</tei:p>
+        <j:endConditional target="#sample_minyan"/>
+      </tei:div>
+      <j:transclude target="urn:x-opensiddur:text:prayer:preview/parallel" type="external"/>
+      <tei:milestone unit="section" rend="****"/>
+      <tei:div>
+        <tei:head>End of the demonstration</tei:head>
+        <tei:p>Credits, sources, and licenses follow. The people and bibliography are fictional.</tei:p>
+      </tei:div>
+    <tei:div xml:lang="en"><j:conditional xml:id="sample_shabbat"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:p>Synthetic conditional example: shabbat selected.</tei:p><j:endConditional target="#sample_shabbat"/><j:conditional xml:id="sample_rosh_hodesh"><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:numeric value="1"/></tei:f></tei:fs></j:conditional><tei:p>Synthetic conditional example: rosh-hodesh selected.</tei:p><j:endConditional target="#sample_rosh_hodesh"/></tei:div></tei:body>
+  </tei:text>
+</tei:TEI>
