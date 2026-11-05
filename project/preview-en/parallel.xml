@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">A parallel demonstration</tei:title>
+        <tei:respStmt>
+          <tei:resp key="aut">Synthetic demonstration text and encoding</tei:resp>
+          <tei:name>Example Preview Editor (fictional)</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Synthetic preview fixture, edition 1</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>Open Siddur Project</tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:preview/parallel@preview-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">Entirely synthetic demonstration text; CC0 1.0.</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="preview_bibliography">
+          <tei:title>Imaginary Preview Manual (synthetic)</tei:title>
+          <tei:author>Example Author (fictional)</tei:author>
+          <tei:publisher>Example Press (fictional)</tei:publisher>
+          <tei:pubPlace>Example City</tei:pubPlace>
+          <tei:date when="2026">2026</tei:date>
+          <tei:idno type="url">https://example.org/opensiddur/preview</tei:idno>
+          <tei:note>This bibliography describes an invented source, not a historical book.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:preview/parallel">
+        <tei:head>First-level heading</tei:head>
+        <tei:milestone unit="chapter" n="1"/>
+        <tei:milestone unit="parsha" n="Example"/>
+        <tei:milestone unit="aliyah" n="1"/>
+        <tei:milestone unit="citation" n="Preview 1:1"/>
+        <tei:milestone unit="verse" n="1"/>
+        <tei:p xml:id="parallel_paragraph">One short sentence demonstrates running text and punctuation. <tei:hi rend="bold">Bold text</tei:hi><tei:hi rend="italic"> and italic text.</tei:hi><tei:note type="instruction">A synthetic instruction, displayed according to your instruction settings.</tei:note><tei:note type="editorial">An editorial note for testing note placement and marks.</tei:note></tei:p>
+        <tei:milestone unit="verse" n="2"/>
+        <tei:p>Reading options: <tei:choice><tei:abbr>Ex.</tei:abbr><tei:expan>Example</tei:expan></tei:choice><tei:choice><tei:sic>exampel</tei:sic><tei:corr>example</tei:corr></tei:choice><tei:ref target="#preview_bibliography">Synthetic source</tei:ref></tei:p>
+        <tei:div>
+          <tei:head>Second-level heading</tei:head>
+          <tei:p>A short paragraph under a second-level heading.</tei:p>
+          <tei:list type="ordered">
+            <tei:label xml:lang="en">1.</tei:label>
+            <tei:item>
+              <tei:p>Synthetic item 1</tei:p>
+            </tei:item>
+            <tei:label xml:lang="en">2.</tei:label>
+            <tei:item>
+              <tei:p>Synthetic item 2</tei:p>
+            </tei:item>
+          </tei:list>
+          <tei:list type="unordered">
+            <tei:label xml:lang="en">•</tei:label>
+            <tei:item>
+              <tei:p>Synthetic item 1</tei:p>
+            </tei:item>
+            <tei:label xml:lang="en">•</tei:label>
+            <tei:item>
+              <tei:p>Synthetic item 2</tei:p>
+            </tei:item>
+          </tei:list>
+          <tei:div>
+            <tei:head>Third-level heading</tei:head>
+            <tei:p>A third-level paragraph.</tei:p>
+            <tei:div>
+              <tei:head>Fourth-level heading</tei:head>
+              <tei:lg>
+                <tei:l>A short first line.</tei:l>
+                <tei:l>A short second line.</tei:l>
+              </tei:lg>
+            </tei:div>
+          </tei:div>
+        </tei:div>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+<tei:standOff type="notes"><tei:note type="commentary" n="1" target="#parallel_paragraph"><tei:p>A fictional stand-off commentary note for the preview.</tei:p></tei:note></tei:standOff></tei:TEI>
