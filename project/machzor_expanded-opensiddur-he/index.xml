@@ -1,0 +1,65 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Expanded Ashkenazi Mahzor</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Pilot installment, not the complete volume. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:machzor_expanded@machzor_expanded-opensiddur-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title>Prayerbook for the New Year [First Day]</tei:title>
+          <tei:editor role="arranger">Wolf Heidenheim</tei:editor>
+          <tei:editor role="translator">Jenny Marmorstein</tei:editor>
+          <tei:publisher>Victor Goldschmidt Publishers</tei:publisher>
+          <tei:pubPlace>Basle</tei:pubPlace>
+          <tei:date when="1965">1965</tei:date>
+          <tei:idno type="url">https://archive.org/details/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965</tei:idno>
+          <tei:idno type="internet_archive">mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965</tei:idno>
+          <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
+          <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
+          <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5, medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:front>
+      <tei:titlePage xml:lang="en">
+        <tei:docTitle>
+          <tei:titlePart type="main">Expanded Ashkenazi Mahzor</tei:titlePart>
+          <tei:titlePart type="sub">First day of Rosh ha-Shanah — pilot installment</tei:titlePart>
+        </tei:docTitle>
+        <tei:docEdition>An editorial arrangement of the reviewed Heidenheim–Marmorstein passages. Not a complete service.</tei:docEdition>
+      </tei:titlePage>
+    </tei:front>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:machzor_expanded">
+        <tei:head xml:lang="he">מחזור אשכנז מורחב</tei:head>
+        <tei:head xml:lang="en">Expanded Ashkenazi Mahzor</tei:head>
+        <tei:note type="instruction" xml:lang="en">Pilot passages only. Complete first-day service assembly remains in progress.</tei:note>
+        <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
