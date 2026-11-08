@@ -35,46 +35,46 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:preview/parallel">
-        <tei:head>First-level heading</tei:head>
+        <tei:head>heading1</tei:head>
         <tei:milestone unit="chapter" n="1"/>
-        <tei:milestone unit="parsha" n="Example"/>
-        <tei:milestone unit="aliyah" n="1"/>
-        <tei:milestone unit="citation" n="Preview 1:1"/>
+        <tei:milestone unit="parsha" n="parsha"/>
+        <tei:milestone unit="aliyah" n="aliyah"/>
+        <tei:milestone unit="citation" n="citation"/>
         <tei:milestone unit="verse" n="1"/>
-        <tei:p xml:id="parallel_paragraph">One short sentence demonstrates running text and punctuation. <tei:hi rend="bold">Bold text</tei:hi><tei:hi rend="italic"> and italic text.</tei:hi><tei:note type="instruction">A synthetic instruction, displayed according to your instruction settings.</tei:note><tei:note type="editorial">An editorial note for testing note placement and marks.</tei:note></tei:p>
+        <tei:p xml:id="parallel_paragraph">body body body body body body <tei:hi rend="italic">highlight italic</tei:hi> body <tei:hi rend="bold">highlight bold</tei:hi> body <tei:hi rend="small-caps">highlight small caps</tei:hi> body<tei:hi rend="sup">highlight superscript</tei:hi> body <tei:hi rend="large">highlight large</tei:hi> body <tei:hi rend="small">highlight small</tei:hi> body body body body body body<tei:note type="instruction">instruction</tei:note><tei:note type="editorial">note</tei:note></tei:p>
         <tei:milestone unit="verse" n="2"/>
-        <tei:p>Reading options: <tei:choice><tei:abbr>Ex.</tei:abbr><tei:expan>Example</tei:expan></tei:choice><tei:choice><tei:sic>exampel</tei:sic><tei:corr>example</tei:corr></tei:choice><tei:ref target="#preview_bibliography">Synthetic source</tei:ref></tei:p>
+        <tei:p>body <tei:choice><tei:abbr>abbreviation</tei:abbr><tei:expan>expansion</tei:expan></tei:choice> body <tei:choice><tei:sic>printed error</tei:sic><tei:corr>correction</tei:corr></tei:choice> body <tei:choice><j:read>qere</j:read><j:written>ketiv</j:written></tei:choice> body <tei:choice><j:option>body</j:option><j:option>alternative reading</j:option></tei:choice> body <tei:foreign xml:lang="he">לָשׁוֹן זָרָה</tei:foreign> body <tei:ref target="#preview_bibliography">reference</tei:ref> body</tei:p>
         <tei:div>
-          <tei:head>Second-level heading</tei:head>
-          <tei:p>A short paragraph under a second-level heading.</tei:p>
+          <tei:head>heading2</tei:head>
+          <tei:p>body body body body body body body body body body body body body body body body</tei:p>
           <tei:list type="ordered">
-            <tei:label xml:lang="en">1.</tei:label>
+            <tei:label xml:lang="en">list label</tei:label>
             <tei:item>
-              <tei:p>Synthetic item 1</tei:p>
+              <tei:p>list item</tei:p>
             </tei:item>
-            <tei:label xml:lang="en">2.</tei:label>
+            <tei:label xml:lang="en">list label</tei:label>
             <tei:item>
-              <tei:p>Synthetic item 2</tei:p>
+              <tei:p>list item</tei:p>
             </tei:item>
           </tei:list>
           <tei:list type="unordered">
-            <tei:label xml:lang="en">•</tei:label>
+            <tei:label xml:lang="en">list label</tei:label>
             <tei:item>
-              <tei:p>Synthetic item 1</tei:p>
+              <tei:p>list item</tei:p>
             </tei:item>
-            <tei:label xml:lang="en">•</tei:label>
+            <tei:label xml:lang="en">list label</tei:label>
             <tei:item>
-              <tei:p>Synthetic item 2</tei:p>
+              <tei:p>list item</tei:p>
             </tei:item>
           </tei:list>
           <tei:div>
-            <tei:head>Third-level heading</tei:head>
-            <tei:p>A third-level paragraph.</tei:p>
+            <tei:head>heading3</tei:head>
+            <tei:p>body body body body body body body body body body body body body body body body</tei:p>
             <tei:div>
-              <tei:head>Fourth-level heading</tei:head>
+              <tei:head>heading4</tei:head>
               <tei:lg>
-                <tei:l>A short first line.</tei:l>
-                <tei:l>A short second line.</tei:l>
+                <tei:l>poetry line poetry line</tei:l>
+                <tei:l>poetry line poetry line</tei:l>
               </tei:lg>
             </tei:div>
           </tei:div>
@@ -82,4 +82,4 @@
       </tei:div>
     </tei:body>
   </tei:text>
-<tei:standOff type="notes"><tei:note type="commentary" n="1" target="#parallel_paragraph"><tei:p>A fictional stand-off commentary note for the preview.</tei:p></tei:note></tei:standOff></tei:TEI>
+<tei:standOff type="notes"><tei:note type="commentary" n="1" target="#parallel_paragraph"><tei:p>note note</tei:p></tei:note></tei:standOff></tei:TEI>
