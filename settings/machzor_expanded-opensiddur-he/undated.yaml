@@ -1,4 +1,5 @@
 description: Pilot installment; not a complete first-day service.
+requires_processor: '>=0.8.0.dev0'
 book:
   project: machzor_expanded-opensiddur-he
   file_name: index.xml
@@ -15,6 +16,8 @@ priority:
 typography:
   instructions:
     from: both
+  line_numbers:
+    enabled: false
 parallel:
   projects:
   - prayerbook_for_the_new_year-marmorstein-1965-en
