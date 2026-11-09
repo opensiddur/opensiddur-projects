@@ -36,7 +36,7 @@
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
-          <tei:note>The opening Minchah prints Kaddish directions without their words; reuse the compatible Ashkenazi Hebrew Half and Whole Kaddish witnesses, retaining source credits and licence. No English fallback.</tei:note>
+          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -309,6 +309,404 @@
             <j:endDeclare target="#section_weekday_minchah_settings"/>
           </tei:div>
           <j:endConditional target="#section_weekday_minchah_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_eruv_preparation">
+          <j:conditional xml:id="section_eruv_preparation_condition">
+            <j:all>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="6"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="29"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="eruv-tavshilin">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">עירוב תבשילין</tei:head>
+            <tei:head xml:lang="en">Eruv Tavshilin</tei:head>
+            <j:declare xml:id="section_eruv_preparation_settings">
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="6"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="29"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="eruv-tavshilin">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
+            <tei:note type="instruction" xml:lang="en">When a festival is immediately followed by the Sabbath, food intended for the Sabbath may be prepared on a day of the festival only if bread and some cooked or roasted food (a piece of meat or fish) have been prepared and set aside for the Sabbath on the eve of the festival. The master of the house takes the bread and cooked food in his hand and recites the following in the presence of the housewife:</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eruv_tavshilin"/>
+            <j:endDeclare target="#section_eruv_preparation_settings"/>
+          </tei:div>
+          <j:endConditional target="#section_eruv_preparation_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_festival_lights">
+          <j:conditional xml:id="section_festival_lights_condition">
+            <j:all>
+              <j:any>
+                <j:all>
+                  <j:any>
+                    <j:all>
+                      <tei:fs type="opensiddur:hebrew-date">
+                        <tei:f name="month">
+                          <tei:numeric value="6"/>
+                        </tei:f>
+                        <tei:f name="day">
+                          <tei:numeric value="29"/>
+                        </tei:f>
+                      </tei:fs>
+                      <j:none>
+                        <tei:fs type="opensiddur:day-of-week">
+                          <tei:f name="secular-day">
+                            <tei:numeric value="6"/>
+                          </tei:f>
+                        </tei:fs>
+                      </j:none>
+                    </j:all>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday">
+                        <tei:f name="rosh-hashana">
+                          <tei:numeric value="1"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:service-time">
+                        <tei:f name="maariv">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:any>
+                </j:all>
+                <j:all>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="6"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="29"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="secular-day">
+                      <tei:numeric value="6"/>
+                    </tei:f>
+                    <tei:f name="bayn-hashmashot">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:any>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">הדלקת נר של יום טוב</tei:head>
+            <tei:head xml:lang="en">Festival lights</tei:head>
+            <tei:note type="instruction" xml:lang="en">The housewife kindles the festival lights and says the following benediction:</tei:note>
+            <tei:div xml:id="section_festival_lights_weekday">
+              <j:conditional xml:id="section_festival_lights_weekday_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">כשיום טוב אינו בשבת:</tei:foreign> <tei:foreign xml:lang="en">When the festival is not Shabbat:</tei:foreign> </tei:note>
+                <j:all>
+                  <j:any>
+                    <j:all>
+                      <tei:fs type="opensiddur:hebrew-date">
+                        <tei:f name="month">
+                          <tei:numeric value="6"/>
+                        </tei:f>
+                        <tei:f name="day">
+                          <tei:numeric value="29"/>
+                        </tei:f>
+                      </tei:fs>
+                      <j:none>
+                        <tei:fs type="opensiddur:day-of-week">
+                          <tei:f name="secular-day">
+                            <tei:numeric value="6"/>
+                          </tei:f>
+                        </tei:fs>
+                      </j:none>
+                    </j:all>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday">
+                        <tei:f name="rosh-hashana">
+                          <tei:numeric value="1"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:service-time">
+                        <tei:f name="maariv">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:any>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlaqat_ner_yom_tov"/>
+              </tei:div>
+              <j:endConditional target="#section_festival_lights_weekday_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_festival_lights_shabbat">
+              <j:conditional xml:id="section_festival_lights_shabbat_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">לפני כניסת שבת, כשיום טוב חל בשבת:</tei:foreign> <tei:foreign xml:lang="en">Before Shabbat, when the festival falls on Shabbat:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="6"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="29"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="secular-day">
+                      <tei:numeric value="6"/>
+                    </tei:f>
+                    <tei:f name="bayn-hashmashot">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlaqat_ner_yom_tov/shabbat"/>
+              </tei:div>
+              <j:endConditional target="#section_festival_lights_shabbat_condition"/>
+            </tei:div>
+          </tei:div>
+          <j:endConditional target="#section_festival_lights_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_qabbalat_shabbat">
+          <j:conditional xml:id="section_qabbalat_shabbat_condition">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="maariv">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">קבלת שבת</tei:head>
+            <tei:head xml:lang="en">Kabbalat Shabbat</tei:head>
+            <j:declare xml:id="section_qabbalat_shabbat_settings">
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="minha">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="maariv">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="musaf">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="neila">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="slihot">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/95"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/96"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/97"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/98"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/99"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/29"/>
+            <tei:div xml:id="section_lekhah_dodi">
+              <tei:div>
+                <tei:head xml:lang="he">לכה דודי</tei:head>
+                <tei:head xml:lang="en">Lekhah Dodi</tei:head>
+                <tei:note type="description" xml:lang="he"><tei:choice><tei:abbr>הש״ץ</tei:abbr><tei:expan>השליח ציבור</tei:expan></tei:choice> מנגן בנעימה.</tei:note>
+                <tei:note type="description" xml:lang="he">ראשי החרוזים שלמה הלוי.</tei:note>
+                <tei:div xml:id="section_lekhah_dodi_opening">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_opening_response">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_1">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/1"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_1">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_2">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/2"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_2">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_3">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/3"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_3">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_4">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/4"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_4">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_5">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/5"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_5">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_6">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/6"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_6">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_7">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/7"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_7">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_8">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/8"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_8">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_stanza_9">
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/9"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_lekhah_dodi_response_9">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi/refrain"/>
+                  </tei:div>
+                </tei:div>
+              </tei:div>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+            <tei:div xml:id="section_qabbalat_mourner_kaddish">
+              <j:conditional xml:id="section_qabbalat_mourner_kaddish_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">בנוכחות מניין ואבלים:</tei:foreign> <tei:foreign xml:lang="en">With a minyan and mourners present:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:service-context">
+                    <tei:f name="mourners-present">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">קדיש יתום</tei:head>
+                <tei:head xml:lang="en">Mourner’s Kaddish</tei:head>
+                <j:declare xml:id="section_qabbalat_mourner_kaddish_settings">
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:service-context">
+                    <tei:f name="mourners-present">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+                <j:endDeclare target="#section_qabbalat_mourner_kaddish_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_qabbalat_mourner_kaddish_condition"/>
+            </tei:div>
+            <j:endDeclare target="#section_qabbalat_shabbat_settings"/>
+          </tei:div>
+          <j:endConditional target="#section_qabbalat_shabbat_condition"/>
         </tei:div>
         <tei:div xml:id="section_morning">
           <j:conditional xml:id="section_morning_condition">
