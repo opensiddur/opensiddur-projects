@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Pilot installment, not the complete volume. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -39,16 +39,33 @@
   </tei:teiHeader>
   <tei:text>
     <tei:front>
-      <tei:div xml:lang="en">
-        <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n0.jpg"/>
-        <tei:head>Prayerbook for Festivals</tei:head>
-        <tei:p>WH</tei:p>
-        <tei:p xml:lang="he">
+      <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n0.jpg"/>
+      <j:conditional xml:id="front_s1">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:titlePage xml:lang="en">
+        <tei:docTitle>
+          <tei:titlePart type="main">Prayerbook for Festivals</tei:titlePart>
+          <tei:titlePart type="sub">Volume I: First Day of the New Year</tei:titlePart>
+        </tei:docTitle>
+        <tei:byline>WH</tei:byline>
+        <tei:byline xml:lang="he">
           <tei:foreign xml:lang="he">וואלף ב"ר שמשון ז"ל איש היידנהיים</tei:foreign>
-        </tei:p>
-        <tei:p>Volume I: First Day of the New Year</tei:p>
-      </tei:div>
+        </tei:byline>
+      </tei:titlePage>
+      <j:endConditional target="#front_s1"/>
       <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n1.jpg"/>
+      <j:conditional xml:id="front_s2">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
       <tei:titlePage xml:lang="he">
         <tei:docTitle>
           <tei:titlePart type="main">מחזור ליום ראשון של ראש השנה</tei:titlePart>
@@ -62,7 +79,15 @@
           <tei:docDate>תשכ״ה לפ״ק</tei:docDate>
         </tei:docImprint>
       </tei:titlePage>
+      <j:endConditional target="#front_s2"/>
       <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n2.jpg"/>
+      <j:conditional xml:id="front_s3">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
       <tei:titlePage xml:lang="en">
         <tei:docTitle>
           <tei:titlePart type="main">Prayerbook for the New Year</tei:titlePart>
@@ -74,36 +99,50 @@
           <tei:pubPlace>Basle</tei:pubPlace>
         </tei:docImprint>
       </tei:titlePage>
+      <j:endConditional target="#front_s3"/>
+      <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n3.jpg"/>
+      <j:conditional xml:id="front_s4">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="title-page">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:titlePage xml:lang="en">
+        <tei:docImprint>Copyright © by Victor Goldschmidt Publishers Basle (Switzerland) 1965<tei:lb/>Successor of Dr. Felix Kauffmann, New York, formerly I. Kauffmann &amp; M. Lehrberger Publishers Frankfort a. M. — Rödelheim<tei:lb/>Printed in Switzerland by P. M. Goldschmidt, Lucerne</tei:docImprint>
+      </tei:titlePage>
+      <j:endConditional target="#front_s4"/>
+      <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n4.jpg"/>
+      <j:conditional xml:id="front_s5">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
       <tei:div xml:lang="en">
-        <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n3.jpg"/>
-        <tei:p>Copyright © by Victor Goldschmidt Publishers Basle (Switzerland) 1965</tei:p>
-        <tei:p>Successor of Dr. Felix Kauffmann, New York, formerly I. Kauffmann &amp; M. Lehrberger Publishers Frankfort a. M. — Rödelheim</tei:p>
-        <tei:p>Printed in Switzerland by P. M. Goldschmidt, Lucerne</tei:p>
-      </tei:div>
-      <tei:div xml:lang="en">
-        <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n4.jpg"/>
         <tei:head>Translator’s Preface</tei:head>
         <tei:p>A new English rendering of our liturgy for the most sacred days of the year obviously requires a word of introduction. The Hebrew text on which this present attempt is based, will be familiar to those who follow the German rite; and it might well be regarded as a form of perpetuation of the memory of our blessed martyrs that their own particular liturgy should have survived intact in far-flung areas of the English-speaking world.</tei:p>
         <tei:p>My aim has been to combine intelligibility with dignity in contemporary English. Archaisms have been avoided wherever possible. For instance, the archaic second person singular is reserved for the Divine and the normal second person plural of current usage applied to human beings. With regard to interpretation, the German translation of the late Rabbi Dr. Selig Bamberger of Hamburg has been closely followed throughout the numerous passages of mediaeval poetry, which depend so largely on Scriptural and Aggadic allusions.</tei:p>
         <tei:p>Finally, I must acknowledge my gratitude to my husband and the many friends who have been generous with their help and advice.</tei:p>
       </tei:div>
+      <j:endConditional target="#front_s5"/>
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah">
-        <tei:head xml:lang="en">First-day Rosh ha-Shanah — pilot installment</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <tei:pb ed="1965" n="8" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n52.jpg"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:seg type="optional-page-reference">In most communities of the German rite the benedictions of the Torah (page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year-marmorstein-1965-en"/>) are inserted here.</tei:seg>
         </tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19@prayerbook_for_the_new_year-marmorstein-1965-en"/>
       </tei:div>
     </tei:body>
   </tei:text>

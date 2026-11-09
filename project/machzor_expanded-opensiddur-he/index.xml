@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Pilot installment, not the complete volume. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -34,30 +34,57 @@
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5, medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
         </tei:bibl>
+        <tei:bibl>
+          <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
+          <tei:note>The opening Minchah prints Kaddish directions without their words; reuse the compatible Ashkenazi Hebrew Half and Whole Kaddish witnesses, retaining source credits and licence. No English fallback.</tei:note>
+        </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:front>
-      <tei:titlePage xml:lang="en">
-        <tei:docTitle>
-          <tei:titlePart type="main">Expanded Ashkenazi Mahzor</tei:titlePart>
-          <tei:titlePart type="sub">First day of Rosh ha-Shanah — pilot installment</tei:titlePart>
-        </tei:docTitle>
-        <tei:docEdition>An editorial arrangement of the reviewed Heidenheim–Marmorstein passages. Not a complete service.</tei:docEdition>
-      </tei:titlePage>
+      <j:conditional xml:id="expanded_editorial_front">
+        <tei:fs type="opensiddur:paratext">
+          <tei:f name="include">
+            <tei:binary value="true"/>
+          </tei:f>
+        </tei:fs>
+      </j:conditional>
+      <tei:div xml:lang="en">
+        <tei:head>Expanded Ashkenazi Mahzor</tei:head>
+        <tei:p>First day of Rosh ha-Shanah</tei:p>
+        <tei:note type="description">An editorial arrangement of the reviewed Heidenheim–Marmorstein passages. Digitization remains in progress.</tei:note>
+      </tei:div>
+      <j:endConditional target="#expanded_editorial_front"/>
     </tei:front>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:machzor_expanded">
         <tei:head xml:lang="he">מחזור אשכנז מורחב</tei:head>
         <tei:head xml:lang="en">Expanded Ashkenazi Mahzor</tei:head>
-        <tei:note type="instruction" xml:lang="en">Pilot passages only. Complete first-day service assembly remains in progress.</tei:note>
         <tei:div xml:id="section_entering_synagogue">
           <tei:div>
-            <tei:head xml:lang="he">בכניסה לבית הכנסת</tei:head>
-            <tei:head xml:lang="en">Entering the synagogue</tei:head>
-            <tei:note type="instruction" xml:lang="en">Reviewed excerpts. The remaining entrance verses are still being digitized.</tei:note>
+            <tei:head xml:lang="he">תְּפִלָּה.</tei:head>
+            <tei:head xml:lang="en">Prayers on entering the synagogue</tei:head>
+            <tei:note type="description" xml:lang="en">On entering the Synagogue:</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/8"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/55/15/b"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mah_tovu"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/6"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/15"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/31/15"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/28/2"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/3"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/9"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/31/17"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/38/16"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/39/13/shimah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/11"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/122/1"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/119/162"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/3"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/4"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/6"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/26/12"/>
           </tei:div>
         </tei:div>
         <tei:div xml:id="section_weekday_minchah">
@@ -81,8 +108,178 @@
           <tei:div>
             <tei:head xml:lang="he">תפילת מנחה לחול — הכנה ליום טוב</tei:head>
             <tei:head xml:lang="en">Preparatory weekday Minchah</tei:head>
-            <tei:note type="instruction" xml:lang="en">Only Ashrei has been accepted in this opening section. The Kaddish and Amidah sequence remains in progress; this is not a complete service.</tei:note>
+            <j:declare xml:id="section_weekday_minchah_settings">
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="maariv">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="musaf">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="neila">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="slihot">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="yom-tov">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+            <tei:div xml:id="section_half_kaddish">
+              <j:conditional xml:id="section_half_kaddish_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">במניין:</tei:foreign> <tei:foreign xml:lang="en">With a minyan:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">חצי קדיש</tei:head>
+                <tei:head xml:lang="en">Half Kaddish</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+              </tei:div>
+              <j:endConditional target="#section_half_kaddish_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_minchah_silent">
+              <tei:div>
+                <tei:head xml:lang="he">תפילה בלחש</tei:head>
+                <tei:head xml:lang="en">Silent Amidah</tei:head>
+                <j:declare xml:id="section_minchah_silent_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geullah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/refuah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shanim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzaddiqim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
+                <j:endDeclare target="#section_minchah_silent_settings"/>
+              </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_minchah_repetition">
+              <j:conditional xml:id="section_minchah_repetition_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">במניין:</tei:foreign> <tei:foreign xml:lang="en">With a minyan:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">חזרת הש״ץ</tei:head>
+                <tei:head xml:lang="en">Reader’s repetition</tei:head>
+                <j:declare xml:id="section_minchah_repetition_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geullah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/refuah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shanim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzaddiqim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
+                <tei:div xml:id="section_modim_reader_and_congregation">
+                  <tei:div>
+                    <tei:note type="description" xml:lang="he">החזן אומר מודים והקהל אומרים מודים דרבנן באותה שעה.</tei:note>
+                    <tei:note type="description" xml:lang="en">The reader says Modim while the congregation recites Modim derabbanan.</tei:note>
+                    <tei:div xml:id="section_modim_reader">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_modim_congregation">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+                      </tei:div>
+                    </tei:div>
+                  </tei:div>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
+                <j:endDeclare target="#section_minchah_repetition_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_minchah_repetition_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_whole_kaddish">
+              <j:conditional xml:id="section_whole_kaddish_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">במניין:</tei:foreign> <tei:foreign xml:lang="en">With a minyan:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">קדיש שלם</tei:head>
+                <tei:head xml:lang="en">Whole Kaddish</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+              </tei:div>
+              <j:endConditional target="#section_whole_kaddish_condition"/>
+            </tei:div>
+            <j:endDeclare target="#section_weekday_minchah_settings"/>
           </tei:div>
           <j:endConditional target="#section_weekday_minchah_condition"/>
         </tei:div>
@@ -104,7 +301,33 @@
           <tei:div>
             <tei:head xml:lang="he">תפילת שחרית</tei:head>
             <tei:head xml:lang="en">Morning service</tei:head>
-            <tei:note type="instruction" xml:lang="en">Reviewed pilot passages. Intervening morning material remains in progress.</tei:note>
+            <j:declare xml:id="section_morning_settings">
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="minha">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="maariv">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="musaf">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="neila">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="slihot">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
@@ -115,6 +338,7 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
+            <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
         </tei:div>
