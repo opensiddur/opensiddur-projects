@@ -102,12 +102,23 @@
                 <tei:f name="yom-tov">
                   <tei:binary value="false"/>
                 </tei:f>
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="6"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="29"/>
+                </tei:f>
               </tei:fs>
             </j:all>
           </j:conditional>
           <tei:div>
-            <tei:head xml:lang="he">תפילת מנחה לחול — הכנה ליום טוב</tei:head>
-            <tei:head xml:lang="en">Preparatory weekday Minchah</tei:head>
+            <tei:head xml:lang="he">מנחה לערב ראש השנה</tei:head>
+            <tei:head xml:lang="en">Erev Rosh ha-Shanah Minchah</tei:head>
             <j:declare xml:id="section_weekday_minchah_settings">
               <tei:fs type="opensiddur:service-time">
                 <tei:f name="shaharit">
@@ -135,6 +146,17 @@
                 </tei:f>
                 <tei:f name="yom-tov">
                   <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="6"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="29"/>
                 </tei:f>
               </tei:fs>
             </j:declare>
@@ -216,6 +238,11 @@
                       <tei:binary value="false"/>
                     </tei:f>
                     <tei:f name="repetition">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
                       <tei:binary value="true"/>
                     </tei:f>
                   </tei:fs>
