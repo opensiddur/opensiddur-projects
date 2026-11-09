@@ -52,17 +52,79 @@
         <tei:head xml:lang="he">מחזור אשכנז מורחב</tei:head>
         <tei:head xml:lang="en">Expanded Ashkenazi Mahzor</tei:head>
         <tei:note type="instruction" xml:lang="en">Pilot passages only. Complete first-day service assembly remains in progress.</tei:note>
-        <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+        <tei:div xml:id="section_entering_synagogue">
+          <tei:div>
+            <tei:head xml:lang="he">בכניסה לבית הכנסת</tei:head>
+            <tei:head xml:lang="en">Entering the synagogue</tei:head>
+            <tei:note type="instruction" xml:lang="en">Reviewed excerpts. The remaining entrance verses are still being digitized.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mah_tovu"/>
+          </tei:div>
+        </tei:div>
+        <tei:div xml:id="section_weekday_minchah">
+          <j:conditional xml:id="section_weekday_minchah_condition">
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="yom-tov">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">תפילת מנחה לחול — הכנה ליום טוב</tei:head>
+            <tei:head xml:lang="en">Preparatory weekday Minchah</tei:head>
+            <tei:note type="instruction" xml:lang="en">Only Ashrei has been accepted in this opening section. The Kaddish and Amidah sequence remains in progress; this is not a complete service.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+          </tei:div>
+          <j:endConditional target="#section_weekday_minchah_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_morning">
+          <j:conditional xml:id="section_morning_condition">
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">תפילת שחרית</tei:head>
+            <tei:head xml:lang="en">Morning service</tei:head>
+            <tei:note type="instruction" xml:lang="en">Reviewed pilot passages. Intervening morning material remains in progress.</tei:note>
+            <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
+          </tei:div>
+          <j:endConditional target="#section_morning_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_supplementary_psalms">
+          <tei:div>
+            <tei:head xml:lang="he">נספח — שיר של יום</tei:head>
+            <tei:head xml:lang="en">Appendix — daily psalm</tei:head>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+          </tei:div>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>
