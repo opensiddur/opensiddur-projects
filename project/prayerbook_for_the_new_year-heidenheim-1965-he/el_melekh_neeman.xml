@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -32,6 +32,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n17.jpg">
         <j:conditional xml:id="el_melekh_neeman_condition">
+          <tei:note type="instruction" xml:lang="he">יחיד אומר</tei:note>
           <j:all>
             <tei:fs type="opensiddur:quorum">
               <tei:f name="minyan">
@@ -40,7 +41,6 @@
             </tei:fs>
           </j:all>
         </j:conditional>
-        <tei:note type="description" xml:lang="he">יחיד אומר</tei:note>
         <tei:p>אֵל מֶלֶךְ נֶאֱמָן: </tei:p>
         <j:endConditional target="#el_melekh_neeman_condition"/>
       </tei:div>
