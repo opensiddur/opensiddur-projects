@@ -36,7 +36,7 @@
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
-          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback. The newly printed maḥzor Half Kaddish is a fixed Ten Days witness. Preparatory Elul29 Kaddish remains bound to compatible Birnbaum Hebrew, without importing its absent English; self-bind Birnbaum Kaddish components to preserve that choice. This installment additionally prints directions for Yigdal and Hamotzi without their words; compatible Birnbaum Hebrew supplies those named dependencies. No English fallback is added.</tei:note>
+          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback. The newly printed maḥzor Half Kaddish is a fixed Ten Days witness. Preparatory Elul29 Kaddish remains bound to compatible Birnbaum Hebrew, without importing its absent English; self-bind Birnbaum Kaddish components to preserve that choice. This installment additionally prints a direction for Hamotzi without its words; compatible Birnbaum Hebrew supplies that named dependency. No English fallback is added. The newly transcribed maḥzor Yigdal now supplies that canonical poem, including its printed English translation, in both morning and evening occurrences.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -62,6 +62,15 @@
         <tei:head xml:lang="he">מחזור אשכנז מורחב</tei:head>
         <tei:head xml:lang="en">Expanded Ashkenazi Mahzor</tei:head>
         <tei:div xml:id="section_entering_synagogue">
+          <j:conditional xml:id="section_entering_synagogue_condition">
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
           <tei:div>
             <tei:head xml:lang="he">תְּפִלָּה.</tei:head>
             <tei:head xml:lang="en">Prayers on entering the synagogue</tei:head>
@@ -86,6 +95,7 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/6"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/26/12"/>
           </tei:div>
+          <j:endConditional target="#section_entering_synagogue_condition"/>
         </tei:div>
         <tei:div xml:id="section_weekday_minchah">
           <j:conditional xml:id="section_weekday_minchah_condition">
@@ -1027,7 +1037,7 @@
               </tei:div>
               <j:endConditional target="#section_maariv_mourner_kaddish_condition"/>
             </tei:div>
-            <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal@hasiddur_hashalem-birnbaum-1949-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
             <j:endDeclare target="#section_first_night_maariv_settings"/>
           </tei:div>
           <j:endConditional target="#section_first_night_maariv_condition"/>
@@ -1171,6 +1181,49 @@
                 </tei:f>
               </tei:fs>
             </j:declare>
+            <tei:div xml:id="section_morning_tallit">
+              <tei:div>
+                <tei:head xml:lang="he">סדר עטיפת הטלית</tei:head>
+                <tei:head xml:lang="en">Wrapping in the tallit</tei:head>
+                <tei:note type="description" xml:lang="en">Before draping oneself in the <tei:foreign xml:lang="he">טלית</tei:foreign> the following is said:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/hineni_mitattef"/>
+                <tei:note type="description" xml:lang="en">Then this <tei:foreign xml:lang="he">ברכה</tei:foreign> is recited while standing:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/lehitattef"/>
+                <tei:note type="instruction" xml:lang="en">One then drapes oneself in the <tei:foreign xml:lang="he">טלית</tei:foreign> and says:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/mah_yaqar"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>
+                <tei:note type="instruction" xml:lang="en">One then removes the <tei:foreign xml:lang="he">טלית</tei:foreign> from the face and drapes oneself in such a way that there should be one <tei:foreign xml:lang="he">ציצת</tei:foreign> in front and one behind on each side.</tei:note>
+              </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_morning_entrance">
+              <tei:div>
+                <tei:head xml:lang="he">תפלות</tei:head>
+                <tei:head xml:lang="en">Prayers</tei:head>
+                <tei:note type="description" xml:lang="en">On entering the Synagogue:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/8"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/55/15/b"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mah_tovu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:shachar_avaqeshkha_gabirol"/>
+                <tei:note type="description" xml:lang="en">Before the morning prayer:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/6"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/15"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/31/15"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/28/2"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/3"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/9"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/31/17"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/38/16"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/39/13/shimah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/30/11"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/122/1"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/119/162"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/3"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/5/4"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/17/6"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/26/12"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
+              </tei:div>
+            </tei:div>
             <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
