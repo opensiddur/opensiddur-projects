@@ -36,7 +36,7 @@
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
-          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback.</tei:note>
+          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback. The newly printed maḥzor Half Kaddish is a fixed Ten Days witness. Preparatory Elul29 Kaddish remains bound to compatible Birnbaum Hebrew, without importing its absent English; self-bind Birnbaum Kaddish components to preserve that choice.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -175,7 +175,7 @@
               <tei:div>
                 <tei:head xml:lang="he">חצי קדיש</tei:head>
                 <tei:head xml:lang="en">Half Kaddish</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi@hasiddur_hashalem-birnbaum-1949-he"/>
               </tei:div>
               <j:endConditional target="#section_half_kaddish_condition"/>
             </tei:div>
@@ -302,7 +302,7 @@
               <tei:div>
                 <tei:head xml:lang="he">קדיש שלם</tei:head>
                 <tei:head xml:lang="en">Whole Kaddish</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/shalem@hasiddur_hashalem-birnbaum-1949-he"/>
               </tei:div>
               <j:endConditional target="#section_whole_kaddish_condition"/>
             </tei:div>
@@ -752,6 +752,11 @@
                   <tei:binary value="false"/>
                 </tei:f>
               </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
             </j:declare>
             <tei:div xml:id="section_maariv_barekhu">
               <j:conditional xml:id="section_maariv_barekhu_condition">
@@ -788,6 +793,58 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/15/37" targetEnd="urn:x-opensiddur:text:bible:numbers/15/41"/>
             <tei:note type="instruction" xml:lang="he">יש לצרף אלהיכם לאמת, אכן יתן רוח מעט שלא יבולע <tei:choice><tei:abbr>הא׳</tei:abbr><tei:expan>האל״ף</tei:expan></tei:choice>.</tei:note>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
+            <tei:div xml:id="section_maariv_veshamru">
+              <j:conditional xml:id="section_maariv_veshamru_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">(אם שבת)</tei:foreign> <tei:foreign xml:lang="en">(On Sabbath)</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:declare xml:id="section_maariv_veshamru_settings">
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/31/16" targetEnd="urn:x-opensiddur:text:bible:exodus/31/17"/>
+                <j:endDeclare target="#section_maariv_veshamru_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_maariv_veshamru_condition"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/81/4" targetEnd="urn:x-opensiddur:text:bible:psalms/81/5"/>
+            <tei:div xml:id="section_maariv_kaddish">
+              <j:conditional xml:id="section_maariv_kaddish_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:declare xml:id="section_maariv_kaddish_settings">
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <tei:note type="description" xml:lang="en">The Reader says half Kaddish.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/14/17"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/25/6"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+                <j:endDeclare target="#section_maariv_kaddish_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_maariv_kaddish_condition"/>
+            </tei:div>
             <j:endDeclare target="#section_first_night_maariv_settings"/>
           </tei:div>
           <j:endConditional target="#section_first_night_maariv_condition"/>

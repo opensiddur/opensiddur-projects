@@ -146,6 +146,28 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/11/13-/11/21@prayerbook_for_the_new_year-marmorstein-1965-en"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/15/37-/15/41@prayerbook_for_the_new_year-marmorstein-1965-en"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/verses/veshamru">
+            <j:conditional xml:id="documentary_maariv_veshamru_en">
+              <tei:note type="instruction" xml:lang="en">(On Sabbath)</tei:note>
+              <j:all>
+                <tei:fs type="opensiddur:holiday-aggregate">
+                  <tei:f name="shabbat">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/31/16-/31/17@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:endConditional target="#documentary_maariv_veshamru_en"/>
+          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/81/4-/81/5@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <tei:div>
+            <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n24.jpg" xml:lang="en">The Reader says half Kaddish.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/14/17@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/25/6@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          </tei:div>
         </tei:div>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev@prayerbook_for_the_new_year-marmorstein-1965-en"/>
