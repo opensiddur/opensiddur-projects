@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -707,6 +707,91 @@
             <j:endDeclare target="#section_qabbalat_shabbat_settings"/>
           </tei:div>
           <j:endConditional target="#section_qabbalat_shabbat_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_first_night_maariv">
+          <j:conditional xml:id="section_first_night_maariv_condition">
+            <j:all>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="maariv">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">מעריב ליל ראשון של ראש השנה</tei:head>
+            <tei:head xml:lang="en">First-night Rosh ha-Shanah Maariv</tei:head>
+            <j:declare xml:id="section_first_night_maariv_settings">
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="minha">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="maariv">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="musaf">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="neila">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="slihot">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
+            <tei:div xml:id="section_maariv_barekhu">
+              <j:conditional xml:id="section_maariv_barekhu_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:declare xml:id="section_maariv_barekhu_settings">
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/yitbarakh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
+                <j:endDeclare target="#section_maariv_barekhu_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_maariv_barekhu_condition"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:maariv_aravim"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavat_olam_arvit"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/shema_yisrael"/>
+            <tei:note type="instruction" xml:lang="he">בלחש</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/6/5" targetEnd="urn:x-opensiddur:text:bible:deuteronomy/6/9"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/11/13" targetEnd="urn:x-opensiddur:text:bible:deuteronomy/11/21"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/15/37" targetEnd="urn:x-opensiddur:text:bible:numbers/15/41"/>
+            <tei:note type="instruction" xml:lang="he">יש לצרף אלהיכם לאמת, אכן יתן רוח מעט שלא יבולע <tei:choice><tei:abbr>הא׳</tei:abbr><tei:expan>האל״ף</tei:expan></tei:choice>.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah"/>
+            <j:endDeclare target="#section_first_night_maariv_settings"/>
+          </tei:div>
+          <j:endConditional target="#section_first_night_maariv_condition"/>
         </tei:div>
         <tei:div xml:id="section_morning">
           <j:conditional xml:id="section_morning_condition">
