@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">מעין שבע</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:meein_sheva@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-heidenheim-1965-he/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="20" to="20"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:meein_sheva" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n34.jpg">
+        <j:conditional xml:id="meein_sheva_condition">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:p><tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note> <tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemeein_sheva"/>בָּרוּךְ אַתָּה <j:divineName>יְיָ</j:divineName> אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ אֱלֹהֵי אַבְרָהָם אֱלֹהֵי יִצְחָק וֵאלֹהֵי יַעֲקֹב הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָרֶץ: </tei:p>
+        <tei:p><tei:milestone unit="prayer-part"/><tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader_and_congregation" xml:lang="he"><tei:choice><tei:abbr>קו״ח</tei:abbr><tei:expan>קהל וחזן</tei:expan></tei:choice></tei:note> <tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/magen_avot"/>מָגֵן אָבוֹת בִּדְבָרוֹ מְחַיֵּה מֵתִים בְּמַאֲמָרוֹ הַמֶּלֶךְ הַקָּדוֹשׁ שֶׁאֵין כָּמוֹהוּ הַמֵּנִיחַ לְעַמּוֹ בְּיוֹם שַׁבַּת קָדְשׁוֹ כִּי בָם רָצָה לְהָנִיחַ לָהֶם. לְפָנָיו נַעֲבוֹד בְּיִרְאָה וָפַחַד וְנוֹדֶה לִשְׁמוֹ בְּכָל־יוֹם תָּמִיד מֵעֵין הַבְּרָכוֹת. אֵל הַהוֹדָאוֹת אֲדוֹן הַשָּׁלוֹם מְקַדֵּשׁ הַשַּׁבָּת וּמְבָרֵךְ שְׁבִיעִי וּמֵנִיחַ בִּקְדֻשָּׁה לְעַם מְדֻשְּׁנֵי עֹנֶג זֵכֶר לְמַעֲשֵׂה בְרֵאשִׁית: </tei:p>
+        <tei:p><tei:milestone unit="prayer-part"/><tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note> <tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:meein_sheva/retzeh"/>אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ שַׂבְּעֵנוּ מִטּוּבֶךָ וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת. וְהַנְחִילֵנוּ <j:divineName>יְיָ</j:divineName> אֱלֹהֵינוּ בְּאַהֲבָה וּבְרָצוֹן שַׁבַּת קָדְשֶׁךָ. וְיָנוּחוּ בָהּ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ. בָּרוּךְ אַתָּה <j:divineName>יְיָ</j:divineName> מְקַדֵּשׁ הַשַּׁבָּת: <tei:milestone unit="prayer-part"/></tei:p>
+        <j:endConditional target="#meein_sheva_condition"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

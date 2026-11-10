@@ -236,6 +236,29 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/elohai_netzor@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/yehi_ratzon_temple@prayerbook_for_the_new_year-heidenheim-1965-he"/>
           </tei:div>
+          <tei:div>
+            <j:conditional xml:id="documentary_maariv_shabbat_close_he">
+              <tei:note type="instruction" xml:lang="de-Hebr">אַם שַׁבָּת:</tei:note>
+              <j:all>
+                <tei:fs type="opensiddur:holiday-aggregate">
+                  <tei:f name="shabbat">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/arvit/vaykhulu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_sheva@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:endConditional target="#documentary_maariv_shabbat_close_he"/>
+          </tei:div>
+          <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n34.jpg" xml:lang="he">קדיש תתקבל.</tei:note>
+          <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n34.jpg" xml:lang="de-Hebr">אין פֿראַנקפֿורט אַם מאַין בעטעט מאַן <tei:foreign xml:lang="he">בַּמֶּה מַדְלִיקִין</tei:foreign> וויא אַם שַׁבָּת.</tei:note>
+          <j:transclude type="external" target="urn:x-opensiddur:text:mishnah:shabbat/2@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:talmud:shabbat/12a/chayyav_adam_lemashmesh@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:talmud:berakhot/64a/amar_rabbi_elazar@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/aleinu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n37.jpg" xml:lang="he">קַדִּישׁ יָתוֹם, יִגְדַּל.</tei:note>
         </tei:div>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev@prayerbook_for_the_new_year-heidenheim-1965-he"/>
