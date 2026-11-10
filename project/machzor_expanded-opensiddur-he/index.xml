@@ -845,6 +845,36 @@
               </tei:div>
               <j:endConditional target="#section_maariv_kaddish_condition"/>
             </tei:div>
+            <tei:div xml:id="section_first_night_amidah">
+              <tei:div>
+                <j:declare xml:id="section_first_night_amidah_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/adonai_sefatai"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/gevurot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/attah_qadosh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_pachdekha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_kavod"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_tzaddiqim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_attah_hashem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qadosh_attah_venora"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qedushat_hayom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/hodaah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/shalom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/elohai_netzor"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/yehi_ratzon_temple"/>
+                <j:endDeclare target="#section_first_night_amidah_settings"/>
+              </tei:div>
+            </tei:div>
             <j:endDeclare target="#section_first_night_maariv_settings"/>
           </tei:div>
           <j:endConditional target="#section_first_night_maariv_condition"/>
