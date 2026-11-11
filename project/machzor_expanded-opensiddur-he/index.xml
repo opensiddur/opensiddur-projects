@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -32,8 +32,8 @@
           <tei:idno type="internet_archive">mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965</tei:idno>
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
-          <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5, medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note>This digitization is incomplete. The material between the opening blessings and the later Torah-study insertion has not yet been fully transcribed. In the German rite, the relocated block retains its position at printed p.8 before Barukh She-amar; subsequent installments will supply the intervening text.</tei:note>
+          <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
+          <tei:note>This digitization is incomplete. The material between the opening blessings and the later Torah-study insertion has not yet been fully transcribed. In the German rite, the relocated block retains its position at printed p.8 before Barukh She-amar; subsequent installments will supply the intervening text. Current draft adds printed pages 6–7 through Aval Anachnu (physical scans 48–51); disputed source marks remain pending human adjudication. Later intervening pages remain incomplete.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1284,6 +1284,61 @@
                   </tei:div>
                   <j:endConditional target="#section_morning_neshamah_other_rites_condition"/>
                 </tei:div>
+              </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_morning_hashachar_continuation">
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/lasekhvi"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved"/>
+                <tei:div xml:id="section_hashachar_men">
+                  <j:conditional xml:id="section_hashachar_men_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">לאנשים:</tei:foreign> <tei:foreign xml:lang="en">Men say:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:person">
+                        <tei:f name="gender">
+                          <tei:symbol value="male"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah"/>
+                  </tei:div>
+                  <j:endConditional target="#section_hashachar_men_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_hashachar_women">
+                  <j:conditional xml:id="section_hashachar_women_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">לנשים:</tei:foreign> <tei:foreign xml:lang="en">Women say:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:person">
+                        <tei:f name="gender">
+                          <tei:symbol value="female"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasani_kirtzono"/>
+                  </tei:div>
+                  <j:endConditional target="#section_hashachar_women_condition"/>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/poqeach_ivrim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/malbish_arummim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/mattir_asurim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/zoqef_kefufim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/roqa_haaretz"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasah_li"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamekhin"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/ozer_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/oter_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hanoten_layaef"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamaavir_shenah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetargilenu" targetEnd="urn:x-opensiddur:text:prayer:birkhot_hashachar/gomel_chasadim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetatzileni"/>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">לְעוֹלָם יְהֵא אָדָם יְרֵא שָׁמַיִם בַּסֵּתֶר וּמוֹדֶה עַל־הָאֱמֶת וְדוֹבֵר אֱמֶת בִּלְבָבוֹ וְיַשְׁכֵּם וְיֹאמַר:</tei:foreign> <tei:foreign xml:lang="en">Let man always fear God in private, acknowledge the truth, speak truth in his heart and rise early in the morning and say:</tei:foreign> </tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
               </tei:div>
             </tei:div>
             <tei:div xml:id="section_morning_torah_german_later">

@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -42,6 +42,52 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/24-/6/26@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elohai_neshamah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/lasekhvi@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <tei:div>
+          <j:conditional xml:id="documentary_hashachar_men_en">
+            <j:all>
+              <tei:fs type="opensiddur:person">
+                <tei:f name="gender">
+                  <tei:symbol value="male"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_hashachar_men_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_hashachar_women_en">
+            <tei:note type="instruction" xml:lang="en">In place of the preceding benediction women say:</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:person">
+                <tei:f name="gender">
+                  <tei:symbol value="female"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasani_kirtzono@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_hashachar_women_en"/>
+        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/poqeach_ivrim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/malbish_arummim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/mattir_asurim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/zoqef_kefufim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/roqa_haaretz@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasah_li@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamekhin@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/ozer_yisrael@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/oter_yisrael@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hanoten_layaef@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamaavir_shenah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetargilenu-/gomel_chasadim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetatzileni@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n50.jpg" xml:lang="en">Let man always fear God in private, acknowledge the truth, speak truth in his heart and rise early in the morning and say:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
       </tei:div>
     </tei:body>
   </tei:text>
