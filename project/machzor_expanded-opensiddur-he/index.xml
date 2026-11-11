@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note>Current reviewed installment continues through Aval Anachnu on printed p.7 (physical scans48–51). The shared morning continuation precedes the established later German Torah-study insertion. Source scans52–59 remain incomplete; laterpilot excerpts do not establish complete service coverage. Digitization of the355-leaf volume remains in progress.</tei:note>
+          <tei:note>Reviewed continuation reaches the incense verses on printed p10 (physical scan55). New p8 prayers precede the established later German Torah/study insertion, followed by Hebrew-only offerings. No absent English supplied. Scans56–59 remain incomplete; laterpilot excerpts do not establish complete service coverage.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1341,6 +1341,15 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
               </tei:div>
             </tei:div>
+            <tei:div xml:id="section_morning_prelude_continued">
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh" targetEnd="urn:x-opensiddur:text:prayer:lefikhakh/ashreinu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_blessings/shema_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/barukh_shem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/ad_shelo" targetEnd="urn:x-opensiddur:text:prayer:attah_hu/uvishuatekha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/bashamayim"/>
+              </tei:div>
+            </tei:div>
             <tei:div xml:id="section_morning_torah_german_later">
               <j:conditional xml:id="section_morning_torah_german_later_condition">
                 <tei:note type="instruction"><tei:foreign xml:lang="he">למנהג גרמניה אומרים כאן את ברכות התורה ואת קטעי הלימוד עד סוף אלו דברים:</tei:foreign> <tei:foreign xml:lang="en">In the German rite, say the Torah blessings through the end of Elu Devarim at this later position:</tei:foreign> </tei:note>
@@ -1360,6 +1369,18 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim"/>
               </tei:div>
               <j:endConditional target="#section_morning_torah_german_later_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_morning_qorbanot">
+              <tei:div>
+                <tei:head xml:lang="he">קרבנות</tei:head>
+                <tei:head xml:lang="en">Offerings</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/kiyyor"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:leviticus/6/3" targetEnd="urn:x-opensiddur:text:bible:leviticus/6/4"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/tamid"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/veshachat"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/qetoret"/>
+              </tei:div>
             </tei:div>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
