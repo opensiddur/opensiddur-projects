@@ -33,6 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5, medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
+          <tei:note>This digitization is incomplete. The material between the opening blessings and the later Torah-study insertion has not yet been fully transcribed. In the German rite, the relocated block retains its position at printed p.8 before Barukh She-amar; subsequent installments will supply the intervening text.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1224,10 +1225,87 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:yigdal"/>
               </tei:div>
             </tei:div>
-            <tei:note type="instruction" xml:lang="en">In most communities of the German rite the benedictions of the Torah are inserted here.</tei:note>
-            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
-            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
-            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+            <tei:div xml:id="section_morning_opening_blessings">
+              <tei:div>
+                <tei:head xml:lang="he">תפלת שחרית</tei:head>
+                <tei:head xml:lang="en">Morning Prayer</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_yadayim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_yatzar"/>
+                <tei:div xml:id="section_morning_neshamah_german">
+                  <j:conditional xml:id="section_morning_neshamah_german_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">למנהג גרמניה אומרים כאן אלהי נשמה לאחר אשר יצר:</tei:foreign> <tei:foreign xml:lang="en">In the German rite, <tei:foreign xml:lang="he">אלהי נשמה</tei:foreign> follows Asher Yatzar here:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="german">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elohai_neshamah"/>
+                  </tei:div>
+                  <j:endConditional target="#section_morning_neshamah_german_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_morning_torah_other_rites">
+                  <j:conditional xml:id="section_morning_torah_other_rites_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">לשאר המנהגים אומרים כאן את ברכות התורה ואת קטעי הלימוד:</tei:foreign> <tei:foreign xml:lang="en">In other rites, say the Torah blessings and study passages here:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="german">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/24" targetEnd="urn:x-opensiddur:text:bible:numbers/6/26"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim"/>
+                  </tei:div>
+                  <j:endConditional target="#section_morning_torah_other_rites_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_morning_neshamah_other_rites">
+                  <j:conditional xml:id="section_morning_neshamah_other_rites_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">לשאר המנהגים אומרים אלהי נשמה לאחר ברכות התורה וקטעי הלימוד:</tei:foreign> <tei:foreign xml:lang="en">In other rites, <tei:foreign xml:lang="he">אלהי נשמה</tei:foreign> follows the Torah blessings and study passages:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="german">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elohai_neshamah"/>
+                  </tei:div>
+                  <j:endConditional target="#section_morning_neshamah_other_rites_condition"/>
+                </tei:div>
+              </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_morning_torah_german_later">
+              <j:conditional xml:id="section_morning_torah_german_later_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">למנהג גרמניה אומרים כאן את ברכות התורה ואת קטעי הלימוד עד סוף אלו דברים:</tei:foreign> <tei:foreign xml:lang="en">In the German rite, say the Torah blessings through the end of Elu Devarim at this later position:</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:rite">
+                    <tei:f name="german">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/24" targetEnd="urn:x-opensiddur:text:bible:numbers/6/26"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim"/>
+              </tei:div>
+              <j:endConditional target="#section_morning_torah_german_later_condition"/>
+            </tei:div>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu"/>
