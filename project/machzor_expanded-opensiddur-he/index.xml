@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note>The preparatory offerings/study sequence through scan59 is transcribed and integrated, continuing into the accepted scans60–65. Human Hebrew readings and all recited words are independently verified. One source German instruction character on scan57 remains low-certainty; the expanded edition uses the clear bilingual Shabbat condition label. Whole-volume/service coverage remains incomplete.</tei:note>
+          <tei:note>The shared morning sequence includes Psalms19,34,90,91 and the Hebrew-only closing91:16 repetition. All human pointing corrections have been applied; identical repetition pointing is confirmed. No absent English supplied. Earlier source57 has one low-certainty German instruction glyph. Psalm135 and complete-volume/service coverage remain unfinished.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1424,6 +1424,10 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/34"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/90"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/91"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/psalm_91_repeat"/>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
