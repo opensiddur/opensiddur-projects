@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note>The shared morning sequence currently ends with Psalm 33. Psalm 136:25 appears only in Hebrew, as in the source edition. Digitization and review remain in progress; this is not a complete service or volume.</tei:note>
+          <tei:note>The shared morning sequence currently ends with the closing Barukh verses after Psalm150. Vayvarekh David and later service remain in progress. Unprinted translations are absent; canonical translations printed at a later position are reusable only in the expanded sequence. Source57German glyph remains lowcertainty.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1433,6 +1433,17 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/25"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/26"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/33"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/yehi_khevod"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/146"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/147"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/148"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/149"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/150"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/150/6"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/barukh_adonai"/>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
