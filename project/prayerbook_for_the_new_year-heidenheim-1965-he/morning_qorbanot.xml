@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -36,6 +36,32 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/veshachat@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/qetoret@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/rashbag@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/rabbi_natan@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/bar_kappara@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_seter@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/vearvah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_qorbanot/barukh_shem@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <tei:div>
+          <j:conditional xml:id="documentary_morning_qorbanot_shabbat_he">
+            <tei:note type="instruction" xml:lang="de-Hebr">אַם <tei:foreign xml:lang="he">שַׁבָּת</tei:foreign> ווירד פֿאָלגענדע<tei:c cert="low">ז</tei:c> איינגעסאַלטעט:</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:endConditional target="#documentary_morning_qorbanot_shabbat_he"/>
+        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/1-/8@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/lead-/13@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/yehi_ratzon@prayerbook_for_the_new_year-heidenheim-1965-he"/>
       </tei:div>
     </tei:body>
   </tei:text>
