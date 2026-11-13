@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding">The shared morning sequence currently reaches the Yotzer blessing before Ahavah Rabbah (scans108/109). Psalm24 is the Sunday daily psalm from the separate source supplement on physical PDF scan351, not a continuation after Yotzer. It remains available as a reusable Hebrew source module and in its named documentary appendix; the incomplete expanded service does not append it. Daily-psalm recitation placement is deferred until that service section is assembled. No absent English translation is supplied.</tei:note>
+          <tei:note type="encoding">The shared morning sequence reaches the end of the silent Amidah on physical PDF scans124/125. Reader repetition beginning later on124/125 is not yet included. Native repeated witnesses retain existing prayer/Biblical identities via documented occurrence contexts; no new canonical prayer identity is invented. Source parenthetical Shabbat clauses are marked conditions, with no substitution for absent English. The unexplained parenthetical מלכנו remains labeled as an unresolved source alternative. Psalm24 remains only in the separate documentary daily-psalm appendix.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1498,7 +1498,53 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/barukh_kevod"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_barukh"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/or_chadash"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavah_rabbah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/barukh_shem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/deuteronomy_6"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/deuteronomy_11"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/numbers_15"/>
+                <tei:note type="instruction" xml:lang="he">יש לסמוך אלהיכם לאמת, לכן יתן רוח מעט כמו יתנו ה״א.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv"/>
               </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_morning_silent_amidah">
+              <j:conditional xml:id="section_morning_silent_amidah_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">תפילת לחש</tei:head>
+                <tei:head xml:lang="en">Silent Amidah</tei:head>
+                <j:declare xml:id="section_morning_silent_amidah_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/adonai_sefatai"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/gevurot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hashem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple"/>
+                <j:endDeclare target="#section_morning_silent_amidah_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_morning_silent_amidah_condition"/>
             </tei:div>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
