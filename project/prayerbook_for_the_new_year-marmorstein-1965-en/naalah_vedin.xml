@@ -1,0 +1,38 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">נַעֲלָה בְדִין</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:poem:naalah_vedin@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-marmorstein-1965-en/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="49" to="49"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:poem:naalah_vedin" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n126.jpg">
+        <tei:p><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n126.jpg" n="49"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/naalah_vedin/part_1"/>He rises in judgment, rising together with the loud blast, to shake the earth and its inhabitants. But with  <j:conditional xml:id="naalah_vedin_segment_1"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="false"/></tei:f></tei:fs></j:all></j:conditional>the Shofar <j:endConditional target="#naalah_vedin_segment_1"/><j:conditional type="marked" xml:id="naalah_vedin_segment_2"><tei:note type="instruction" xml:lang="en">On Sabbath:</tei:note><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional>the memory of the Shofar <j:endConditional target="#naalah_vedin_segment_2"/> I appease Him, and with bent knee, in the shelter of friends, will I sound in His garden (the Sanctuary) the shattering tone. <tei:milestone unit="prayer-part"/></tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -266,6 +266,225 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/open@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:misod_chakhamim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:et_chil_yom_pequddah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:naalah_vedin@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/ending@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/open@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/mekhalkel@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:taalat_zo@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bedin@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/ending@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:even_chug@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/yimlokh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_attah_hu_frankfurt_source_en">
+            <j:all>
+              <tei:fs type="opensiddur:rite">
+                <tei:f name="frankfurt_am_main">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:attah_hu_eloheinu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_attah_hu_frankfurt_source_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_documentary_weekday_1_en">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <j:conditional xml:id="documentary_metz_tair_vetaria_source_en">
+              <j:all>
+                <tei:fs type="opensiddur:rite">
+                  <tei:f name="metz">
+                    <tei:binary value="false"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:poem:tair_vetaria@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:endConditional target="#documentary_metz_tair_vetaria_source_en"/>
+          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/adderet_mamlakhah/part_1@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_documentary_weekday_1_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_shabbat_shemo_en">
+            <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shemo@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shomerei@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shapru@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_shabbat_shemo_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_documentary_weekday_2_en">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/adderet_mamlakhah/part_2@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_documentary_weekday_2_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_shabbat_shivtei_en">
+            <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shivtei@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shevutenu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <tei:div>
+            <j:conditional xml:id="documentary_metz_kol_source_en">
+              <j:all>
+                <tei:fs type="opensiddur:rite">
+                  <tei:f name="metz">
+                    <tei:binary value="false"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/kol_yoshvei@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:endConditional target="#documentary_metz_kol_source_en"/>
+          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/adar@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/dea@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_shabbat_shivtei_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_documentary_weekday_3_en">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/adderet_mamlakhah/part_3@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <tei:div>
+            <j:conditional xml:id="documentary_metz_repetition_tair_repeat_source_en">
+              <j:all>
+                <tei:fs type="opensiddur:rite">
+                  <tei:f name="metz">
+                    <tei:binary value="false"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:conditional>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/repetition_tair_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:endConditional target="#documentary_metz_repetition_tair_repeat_source_en"/>
+          </tei:div>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_memallet@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_zokher_achuz_qeren@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_documentary_weekday_3_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_shabbat_varasham_en">
+            <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/varasham@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/zevach@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/yarum@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_shabbat_varasham_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_documentary_weekday_4_en">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/aafir_nezer/part_1@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_documentary_weekday_4_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_shabbat_motot_en">
+            <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/motot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/qiryat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/shabbat_refrains/kol_yoshvei@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/yishpot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/vehu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_shabbat_motot_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_documentary_weekday_5_en">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/aafir_nezer/part_2@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:teshalesh_shofarot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/repetition_melekh_zokher_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_documentary_weekday_5_en"/>
+        </tei:div>
+        <tei:div>
+          <j:conditional xml:id="documentary_repetition_shabbat_etten_en">
+            <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <j:transclude type="external" target="urn:x-opensiddur:text:poem:eten_lefoali_tsedeq_shimon@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/yishpot_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+          <j:endConditional target="#documentary_repetition_shabbat_etten_en"/>
+        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_namlikhekha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashem_melekh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adirei_ayummah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
       </tei:div>
     </tei:body>
   </tei:text>

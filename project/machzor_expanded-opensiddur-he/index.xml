@@ -1546,6 +1546,205 @@
               </tei:div>
               <j:endConditional target="#section_morning_silent_amidah_condition"/>
             </tei:div>
+            <tei:div xml:id="section_morning_repetition">
+              <j:conditional xml:id="section_morning_repetition_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="repetition">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">חזרת התפלה לשליח צבור</tei:head>
+                <tei:head xml:lang="en">Repetition of the Amidah</tei:head>
+                <j:declare xml:id="section_morning_repetition_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="repetition">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="silent">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/open"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:misod_chakhamim"/>
+                <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:et_chil_yom_pequddah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:naalah_vedin"/>
+                <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/ending"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/open"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/mekhalkel"/>
+                <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:taalat_zo"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bedin"/>
+                <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/ending"/>
+                <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:even_chug"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/yimlokh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh"/>
+                <tei:div xml:id="section_repetition_attah_hu_custom">
+                  <j:conditional xml:id="section_repetition_attah_hu_custom_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">חוץ מפרנקפורט אם מיין</tei:foreign> <tei:foreign xml:lang="en">Outside Frankfurt am Main</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="frankfurt_am_main">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:attah_hu_eloheinu"/>
+                    <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                  </tei:div>
+                  <j:endConditional target="#section_repetition_attah_hu_custom_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_morning_repetition_weekday_poems">
+                  <j:conditional xml:id="section_morning_repetition_weekday_poems_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">כשאינו שבת</tei:foreign> <tei:foreign xml:lang="en">On a weekday</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:div xml:id="section_metz_tair_vetaria_expanded_1">
+                      <j:conditional xml:id="section_metz_tair_vetaria_expanded_1_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">חוץ ממנהג מיץ</tei:foreign> <tei:foreign xml:lang="en">Outside the Metz custom</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tair_vetaria"/>
+                      </tei:div>
+                      <j:endConditional target="#section_metz_tair_vetaria_expanded_1_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:adderet_mamlakhah"/>
+                    <tei:div xml:id="section_metz_tair_vetaria_expanded_2">
+                      <j:conditional xml:id="section_metz_tair_vetaria_expanded_2_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">חוץ ממנהג מיץ</tei:foreign> <tei:foreign xml:lang="en">Outside the Metz custom</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:tair_vetaria"/>
+                      </tei:div>
+                      <j:endConditional target="#section_metz_tair_vetaria_expanded_2_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_memallet"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_zokher_achuz_qeren"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:aafir_nezer"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:teshalesh_shofarot"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_zokher_achuz_qeren"/>
+                  </tei:div>
+                  <j:endConditional target="#section_morning_repetition_weekday_poems_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_morning_repetition_shabbat_poems">
+                  <j:conditional xml:id="section_morning_repetition_shabbat_poems_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">אם שבת</tei:foreign> <tei:foreign xml:lang="en">On Sabbath</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shemo"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shomerei"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shapru"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shivtei"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shevutenu"/>
+                    <tei:div xml:id="section_expanded_metz_kol_1">
+                      <j:conditional xml:id="section_expanded_metz_kol_1_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">חוץ ממנהג מיץ</tei:foreign> <tei:foreign xml:lang="en">Outside the Metz custom</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/kol_yoshvei"/>
+                      </tei:div>
+                      <j:endConditional target="#section_expanded_metz_kol_1_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/adar"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shemo"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/dea"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/varasham"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shomerei"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/zevach"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shapru"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/yarum"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shivtei"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/motot"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/shevutenu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/qiryat"/>
+                    <tei:div xml:id="section_expanded_metz_kol_2">
+                      <j:conditional xml:id="section_expanded_metz_kol_2_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">חוץ ממנהג מיץ</tei:foreign> <tei:foreign xml:lang="en">Outside the Metz custom</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/kol_yoshvei"/>
+                      </tei:div>
+                      <j:endConditional target="#section_expanded_metz_kol_2_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/yishpot"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/vehu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:eten_lefoali_tsedeq_shimon"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/yishpot"/>
+                  </tei:div>
+                  <j:endConditional target="#section_morning_repetition_shabbat_poems_condition"/>
+                </tei:div>
+                <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_namlikhekha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashem_melekh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:adirei_ayummah"/>
+                <j:endDeclare target="#section_morning_repetition_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_morning_repetition_condition"/>
+            </tei:div>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
