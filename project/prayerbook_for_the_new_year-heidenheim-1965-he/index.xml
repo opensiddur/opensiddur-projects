@@ -328,7 +328,12 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/barukh_kevod@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_barukh@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/or_chadash@prayerbook_for_the_new_year-heidenheim-1965-he"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <tei:div>
+          <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n350.jpg"/>
+          <tei:head xml:lang="he">שיר של יום.</tei:head>
+          <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n350.jpg" xml:lang="he">היום ראשון בשבת שבו הלויים היו אומרים במקדש</tei:note>
+          <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>

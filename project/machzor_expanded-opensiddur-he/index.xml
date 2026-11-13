@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note>The shared morning sequence reaches Yishtabbach, with explicit canonical repetition ofExodus15:18 and no supplied English15:19. HalfKaddish and later material are next. Original standing instruction through afterBarkhu is retained. Psalm24remains the preexisting named appendix fromscan351, not a morning continuation.</tei:note>
+          <tei:note type="encoding">The shared morning sequence currently reaches the Yotzer blessing before Ahavah Rabbah (scans108/109). Psalm24 is the Sunday daily psalm from the separate source supplement on physical PDF scan351, not a continuation after Yotzer. It remains available as a reusable Hebrew source module and in its named documentary appendix; the incomplete expanded service does not append it. Daily-psalm recitation placement is deferred until that service section is assembled. No absent English translation is supplied.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1503,13 +1503,6 @@
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
-        </tei:div>
-        <tei:div xml:id="section_supplementary_psalms">
-          <tei:div>
-            <tei:head xml:lang="he">נספח — שיר של יום</tei:head>
-            <tei:head xml:lang="en">Appendix — daily psalm</tei:head>
-            <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
-          </tei:div>
         </tei:div>
       </tei:div>
     </tei:body>
