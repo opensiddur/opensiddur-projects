@@ -1,0 +1,48 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">To the God who rested</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-marmorstein-1965-en/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="38" to="38"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n104.jpg">
+        <j:conditional xml:id="lael_asher_shavat_condition">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:p>To the God who rested from all His works on the seventh day, He rose and was seated on the throne of His glory, He draped Himself in splendour for the day of rest, a delight did He call the Sabbath day. This is the praise of the seventh day that on it God rested from all His work. And the seventh day praises and says:  <tei:milestone unit="chapter" n="92"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat/quoted_psalms_92_1" n="1"/><tei:seg source="urn:x-opensiddur:text:bible:psalms/92/1" type="quotation">a psalm of the Sabbath day, </tei:seg> <tei:milestone unit="verse"/><tei:milestone unit="chapter"/><tei:milestone unit="chapter" n="92"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat/quoted_psalms_92_2" n="2"/><tei:seg source="urn:x-opensiddur:text:bible:psalms/92/2" type="quotation">it is good to thank the Lord. </tei:seg> <tei:milestone unit="verse"/><tei:milestone unit="chapter"/>Therefore do all His creatures glorify and bless God, praise, honour and grandeur do they offer to God, the King, the Creator of all, who has bestowed rest as an inheritance upon His people Israel in His holiness on the Holy Sabbath day. Thy <tei:choice><tei:sic>Name.</tei:sic><tei:corr>Name,</tei:corr></tei:choice> O Lord our God, be sanctified and Thy memory, O our King, be glorified in heaven above and on the earth below. Blessed art Thou, our Helper, for the glory of Thy handiwork and for the radiant lights that Thou hast made, they shall praise Thee, Selah. </tei:p>
+        <j:endConditional target="#lael_asher_shavat_condition"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

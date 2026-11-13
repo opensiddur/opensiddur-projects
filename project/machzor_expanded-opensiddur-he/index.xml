@@ -1459,6 +1459,47 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:befi_yesharim"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvemaqhalot"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_numbers_14_17"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_psalm_25_6"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_barekhu"/>
+            <tei:div xml:id="section_morning_shema_blessings">
+              <tei:div>
+                <tei:head xml:lang="he">ברכות קריאת שמע</tei:head>
+                <tei:head xml:lang="en">Blessings before the Shema</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/opening"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:or_olam_beotzar_chayyim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_azur_gevurah"/>
+                <tei:div xml:id="section_yotzer_weekday">
+                  <j:conditional xml:id="section_yotzer_weekday_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">ביום חול</tei:foreign> <tei:foreign xml:lang="en">On a weekday</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hameir"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/el_barukh"/>
+                  </tei:div>
+                  <j:endConditional target="#section_yotzer_weekday_condition"/>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_adon"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/titbarakh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/et_shem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/qadosh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:khevodo_ahel"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/vehaofannim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/barukh_kevod"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_barukh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/or_chadash"/>
+              </tei:div>
+            </tei:div>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>

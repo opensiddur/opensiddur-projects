@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Half Kaddish</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-marmorstein-1965-en/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="34" to="34"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n96.jpg">
+        <j:conditional xml:id="morning_kaddish_condition">
+          <j:all>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish/yitgaddal"/><tei:seg source="urn:x-opensiddur:text:prayer:kaddish/yitgaddal">Exalted and sanctified be His Great Name in the world which He has created according to His will. May His Kingdom be established in your lifetime and in your days and in the lifetime of the whole House of Israel, speedily and in a short time, and say: Amen!</tei:seg> </tei:p>
+        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish/yehe_shemeh"/><tei:seg source="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh">May His Great Name be praised to eternity and the eternity of eternities.</tei:seg> </tei:p>
+        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish/yitbarakh"/><tei:seg source="urn:x-opensiddur:text:prayer:kaddish/yitbarakh">Blessed and praised and glorified and elevated and exalted and adorned and raised on high and lauded be the Name of the Holy One, blessed be He; high, yea high, above all blessing and song, praise and comfort that has ever been spoken in the world, and say Amen.</tei:seg> <tei:milestone unit="prayer-part"/></tei:p>
+        <j:endConditional target="#morning_kaddish_condition"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

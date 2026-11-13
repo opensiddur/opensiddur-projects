@@ -1,0 +1,48 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">אֵל אָדוֹן</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:poem:el_adon@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-heidenheim-1965-he/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="37" to="38"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:poem:el_adon" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n101.jpg">
+        <j:conditional xml:id="el_adon_condition">
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:p><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/1"/>אֵל אָדוֹן עַל כָּל־הַמַּעֲשִׂים. בָּרוּךְ וּמְבֹרָךְ בְּפִי כָל־נְשָׁמָה: גָּדְלוֹ וְטוּבוֹ מָלֵא עוֹלָם. דַּעַת וּתְבוּנָה סוֹבְבִים אוֹתוֹ:  <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/2"/>הַמִּתְגָּאֶה עַל־חַיּוֹת הַקֹּדֶשׁ. וְנֶהְדָּר בְּכָבוֹד עַל־הַמֶּרְכָּבָה: <j:conditional xml:id="el_adon_segment_2"><tei:note type="instruction" xml:lang="de-Hebr">אַם שַׁבָּת.</tei:note><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n103.jpg" n="38"/>זְכוּת וּמִישׁוֹר לִפְנֵי כִסְאוֹ. חֶסֶד וְרַחֲמִים לִפְנֵי כְבוֹדוֹ:  <j:endConditional target="#el_adon_segment_2"/><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/3"/>טוֹבִים מְאוֹרוֹת שֶׁבָּרָא אֱלֹהֵינוּ. יְצָרָם בְּדַעַת בְּבִינָה וּבְהַשְׂכֵּל: כֹּחַ וּגְבוּרָה נָתַן בָּהֶם. לִהְיוֹת מוֹשְׁלִים בְּקֶרֶב תֵּבֵל:  <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/4"/>מְלֵאִים זִיו וּמְפִיקִים נֹגַהּ. נָאֶה זִיוָם בְּכָל־הָעוֹלָם. שְׂמֵחִים בְּצֵאתָם וְשָׂשִׂים בְּבוֹאָם. עוֹשִׂים בְּאֵימָה רְצוֹן קוֹנָם:  <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/5"/>פְּאֵר וְכָבוֹד נוֹתְנִים לִשְׁמוֹ. צָהֳלָה וְרִנָּה לְזֵכֶר מַלְכוּתוֹ: קָרָא לַשֶּׁמֶשׁ וַיִּזְרַח־אוֹר. רָאָה וְהִתְקִין צוּרַת הַלְּבָנָה:  <tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:el_adon/6"/>שֶׁבַח נוֹתְנִים לוֹ כָּל־צְבָא מָרוֹם. תִּפְאֶרֶת וּגְדֻלָּה שְׂרָפִים וְאוֹפַנִּים וְחַיּוֹת הַקֹּדֶשׁ: <tei:milestone unit="stanza"/></tei:p>
+        <j:endConditional target="#el_adon_condition"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
