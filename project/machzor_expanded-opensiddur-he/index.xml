@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding">The shared morning sequence reaches the end of the silent Amidah on physical PDF scans124/125. Reader repetition beginning later on124/125 is not yet included. Native repeated witnesses retain existing prayer/Biblical identities via documented occurrence contexts; no new canonical prayer identity is invented. Source parenthetical Shabbat clauses are marked conditions, with no substitution for absent English. The unexplained parenthetical מלכנו remains labeled as an unresolved source alternative. Psalm24 remains only in the separate documentary daily-psalm appendix.</tei:note>
+          <tei:note type="encoding">Expanded draft now continues through the Torah service and haftarah blessings on physical PDF183. Shofar and later services follow in subsequent installments; no claim of complete volume coverage.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -1741,9 +1741,654 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_namlikhekha"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashem_melekh"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:adirei_ayummah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_dayyan_emet_attah"/>
+                <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din"/>
+                <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushat_hashem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushat_hayom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/hodaah/modim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/hodaah/modim_derabbanan"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/hodaah/tail"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/birkat_kohanim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/shalom"/>
                 <j:endDeclare target="#section_morning_repetition_settings"/>
               </tei:div>
               <j:endConditional target="#section_morning_repetition_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_morning_avinu_malkenu_expanded">
+              <j:conditional xml:id="section_morning_avinu_malkenu_expanded_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="en">On Sabbath <tei:foreign xml:lang="he">אבינו מלכנו</tei:foreign> is not recited.</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">פותחים הארון.</tei:foreign> <tei:foreign xml:lang="en">The Holy Ark is opened.</tei:foreign> </tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chatanu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/ein_lanu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_immanu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chaddesh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_gezerot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_machshevot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hafer"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kaleh_tzar"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kaleh_dever"/>
+                <tei:div xml:id="section_avinu_printed_order">
+                  <j:conditional xml:id="section_avinu_printed_order_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">כסדר הדפוס, חוץ ממנהג פירטה</tei:foreign> <tei:foreign xml:lang="en">In the printed order, outside the Fuerth custom</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="fuerth">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mena"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/shelach"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hachazirenu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/selach"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mecheh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/qera"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mechoq"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zekhor"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_chayyim"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_zekhuyyot"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_parnasah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_geullah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_selichah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hatzmach"/>
+                  </tei:div>
+                  <j:endConditional target="#section_avinu_printed_order_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_avinu_fuerth_order">
+                  <j:conditional xml:id="section_avinu_fuerth_order_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">כמנהג פירטה וכמה קהלות</tei:foreign> <tei:foreign xml:lang="en">According to Fuerth and some other congregations</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="fuerth">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mena"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hachazirenu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/selach"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mecheh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/mechoq"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/qera"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/shelach"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zekhor"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_chayyim"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_zekhuyyot"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_parnasah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_selichah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_geullah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hatzmach"/>
+                  </tei:div>
+                  <j:endConditional target="#section_avinu_fuerth_order_condition"/>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/harem_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/harem_meshichekha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/shema"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/qabbel"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/al_teshivenu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_harugim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_tevuchim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_baei"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/neqom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_lemaankha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_vehoshienu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_rachamekha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_shimkha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonnenu"/>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">סוגרים הארון.</tei:foreign> <tei:foreign xml:lang="en">The Holy Ark is closed.</tei:foreign> </tei:note>
+              </tei:div>
+              <j:endConditional target="#section_morning_avinu_malkenu_expanded_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_morning_full_kaddish_expanded">
+              <j:conditional xml:id="section_morning_full_kaddish_expanded_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">בצבור</tei:foreign> <tei:foreign xml:lang="en">With a minyan</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/full_kaddish_preface"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/full_kaddish"/>
+              </tei:div>
+              <j:endConditional target="#section_morning_full_kaddish_expanded_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_morning_torah_prelude">
+              <j:conditional xml:id="section_morning_torah_prelude_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">בצבור, לפי מנהג המקום, לפני הוצאת התורה</tei:foreign> <tei:foreign xml:lang="en">With a minyan, according to local custom, before taking out the Torah</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:ein_kamokha/prelude">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/heitivah"/>
+              </tei:div>
+              <j:endConditional target="#section_morning_torah_prelude_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_torah_service">
+              <j:conditional xml:id="section_torah_service_condition">
+                <tei:note type="instruction"><tei:foreign xml:lang="he">בצבור</tei:foreign> <tei:foreign xml:lang="en">With a minyan</tei:foreign> </tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:head xml:lang="he">קריאת התורה וההפטרה</tei:head>
+                <tei:head xml:lang="en">Torah and Haphtarah</tei:head>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vayehi_binsoa"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shelosh_esreh_middot/torah_opening/text"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shelosh_esreh_middot/torah_opening/text"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shelosh_esreh_middot/torah_opening/text"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam/malle_mishalot/opening"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam/malle_mishalot/yehi"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam/malle_mishalot/vaani"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam/malle_mishalot/vaani"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam/malle_mishalot/vaani"/>
+                <tei:div xml:id="section_torah_berikh_shema_expanded">
+                  <j:conditional xml:id="section_torah_berikh_shema_expanded_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">לפי מנהג המקום, חוץ מפרנקפורט דמיין</tei:foreign> <tei:foreign xml:lang="en">According to local custom, outside Frankfurt am Main</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:rite">
+                        <tei:f name="frankfurt_am_main">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:prayer:berikh_shemeh/torah_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:berikh_shemeh"/>
+                    <tei:note type="description" xml:lang="he">הש״ץ אומר בקול רם</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/shema"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:echad_eloheinu"/>
+                  </tei:div>
+                  <j:endConditional target="#section_torah_berikh_shema_expanded_condition"/>
+                </tei:div>
+                <tei:note type="instruction" xml:lang="en">The reader, holding the scroll of the Torah in front of him, says:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/gaddelu"/>
+                <tei:note type="instruction" xml:lang="en">The congregation responds:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/lekha_adonai"/>
+                <tei:note type="instruction" xml:lang="en">While the reader carries a Torah scroll to the reading desk, the congregation says:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hakol"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/hu_yerachem"/>
+                <tei:note type="instruction" xml:lang="en">The Torah scroll is laid on the reading desk and unrolled. The reader then calls upon the Cohen, saying:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayaazor"/>
+                <tei:note type="instruction" xml:lang="en">The congregation responds:</tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/veattem"/>
+                <tei:note type="instruction" xml:lang="he">וקוראים בס״ת ראשון וה׳ פקד את שרה בפרשת וירא.</tei:note>
+                <tei:div xml:id="section_torah_aliyot_weekday">
+                  <j:conditional xml:id="section_torah_aliyot_weekday_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">כשאינו שבת</tei:foreign> <tei:foreign xml:lang="en">On a weekday</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:div xml:id="section_weekday_aliyah_1">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:note type="instruction" xml:lang="en">Before reading from the Torah, the individual called upon says the following:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_1_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_weekday_aliyah_1_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_1_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/1" targetEnd="urn:x-opensiddur:text:bible:genesis/21/4"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_weekday_aliyah_2">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_weekday_aliyah_2_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_weekday_aliyah_2_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_2_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/5" targetEnd="urn:x-opensiddur:text:bible:genesis/21/8"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/9" targetEnd="urn:x-opensiddur:text:bible:genesis/21/12"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_weekday_aliyah_3">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_weekday_aliyah_3_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_weekday_aliyah_3_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_3_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/13" targetEnd="urn:x-opensiddur:text:bible:genesis/21/17"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/18" targetEnd="urn:x-opensiddur:text:bible:genesis/21/21"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_weekday_aliyah_4">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_weekday_aliyah_4_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_weekday_aliyah_4_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_4_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/22" targetEnd="urn:x-opensiddur:text:bible:genesis/21/27"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_weekday_aliyah_5">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_weekday_aliyah_5_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_weekday_aliyah_5_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_weekday_aliyah_5_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/28" targetEnd="urn:x-opensiddur:text:bible:genesis/21/34"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                  </tei:div>
+                  <j:endConditional target="#section_torah_aliyot_weekday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_torah_aliyot_shabbat">
+                  <j:conditional xml:id="section_torah_aliyot_shabbat_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">בשבת</tei:foreign> <tei:foreign xml:lang="en">On Shabbat</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_1">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:note type="instruction" xml:lang="en">Before reading from the Torah, the individual called upon says the following:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_1_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_1_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_1_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/1" targetEnd="urn:x-opensiddur:text:bible:genesis/21/4"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_2">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_2_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_2_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_2_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/5" targetEnd="urn:x-opensiddur:text:bible:genesis/21/8"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_3">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_3_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_3_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_3_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/9" targetEnd="urn:x-opensiddur:text:bible:genesis/21/12"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_4">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_4_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_4_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_4_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/13" targetEnd="urn:x-opensiddur:text:bible:genesis/21/17"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_5">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_5_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_5_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_5_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/18" targetEnd="urn:x-opensiddur:text:bible:genesis/21/21"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_6">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_6_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_6_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_6_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/22" targetEnd="urn:x-opensiddur:text:bible:genesis/21/27"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_shabbat_aliyah_7">
+                      <tei:div>
+                        <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                        <tei:head xml:lang="en">Torah reading</tei:head>
+                        <tei:div xml:id="section_shabbat_aliyah_7_role_0">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_shabbat_aliyah_7_role_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                        <tei:div xml:id="section_shabbat_aliyah_7_role_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                        <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21/28" targetEnd="urn:x-opensiddur:text:bible:genesis/21/34"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                      </tei:div>
+                    </tei:div>
+                  </tei:div>
+                  <j:endConditional target="#section_torah_aliyot_shabbat_condition"/>
+                </tei:div>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">מניחים ס״ת שני אצל הראשון ואומרים חצי קדיש על שניהם,</tei:foreign> <tei:foreign xml:lang="en">The second scroll of the Torah is then placed next to the first on the reading desk and the Reader says half-kaddish.</tei:foreign> </tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">ומגביהים וגוללים ס״ת שקראו בו, ופותחים ס״ת ב׳ וקוראים בו למפטיר בפ׳ פינחס.</tei:foreign> <tei:foreign xml:lang="en">The first scroll is then raised and rolled together. After that, the second scroll is unrolled and someone is called to the reading for Maphtir which is taken from Pinhas.</tei:foreign> </tei:note>
+                <tei:div xml:id="section_maftir_aliyah">
+                  <tei:div>
+                    <tei:head xml:lang="he">עלייה לתורה</tei:head>
+                    <tei:head xml:lang="en">Torah reading</tei:head>
+                    <tei:note type="instruction" xml:lang="en">Before reading from the Torah, the individual called upon says the following:</tei:note>
+                    <tei:div xml:id="section_maftir_aliyah_role_0">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/call"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_maftir_aliyah_role_1">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:note type="instruction" xml:lang="en">He then repeats this and continues:</tei:note>
+                    <tei:div xml:id="section_maftir_aliyah_role_3">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/oleh" xml:lang="he">העולה לתורה</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu/response"/>
+                      </tei:div>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                    <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1" targetEnd="urn:x-opensiddur:text:bible:numbers/29/6"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                  </tei:div>
+                </tei:div>
+                <tei:note type="instruction"><tei:foreign xml:lang="he">מי שברך. ומגביהין וגוללין. כשמגביהין הס״ת מביטין נגד הכתב של ס״ת ואומרין:</tei:foreign> <tei:foreign xml:lang="en">After the reading, the Torah scroll is lifted up and rolled together again. When the Torah scroll is being lifted up, one says:</tei:foreign> </tei:note>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah"/>
+                <tei:div xml:id="section_haftarah_service">
+                  <tei:div>
+                    <tei:head xml:lang="he">הפטרה ליום א׳ של ראש השנה.</tei:head>
+                    <tei:head xml:lang="en">Haphtarah</tei:head>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">קודם קריאת ההפטרה ואחר שנגמר הגולל, יברך המפטיר ברכה זו:</tei:foreign> <tei:foreign xml:lang="en">Blessing before the Haphtorah:</tei:foreign> </tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/asher_bachar"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:samuel_1/1/1" targetEnd="urn:x-opensiddur:text:bible:samuel_1/2/10"/>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">המפטיר יברך ברכות האחרונות.</tei:foreign> <tei:foreign xml:lang="en">Blessings after the Haphtorah:</tei:foreign> </tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/after"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/al_hatorah_festival"/>
+                  </tei:div>
+                </tei:div>
+              </tei:div>
+              <j:endConditional target="#section_torah_service_condition"/>
             </tei:div>
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
