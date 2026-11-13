@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">סֵדֶר קִדּוּשׁ.</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-heidenheim-1965-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush">
+        <tei:pb ed="1965" n="22" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n35.jpg"/>
+        <tei:head xml:lang="he">סֵדֶר קִדּוּשׁ.</tei:head>
+        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n35.jpg" xml:lang="en">After the evening prayer but before <tei:foreign xml:lang="he">עלינו</tei:foreign> the Kiddush is recited over a glass of wine. At home too, it is recited before the meal, but on the Sabbath preceded by <tei:foreign xml:lang="he">ויכלו</tei:foreign></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/vayekhulu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/savri@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush_rosh_hashanah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n35.jpg" xml:lang="en">After Kiddush at the meal, one recites <tei:foreign xml:lang="he">המוציא</tei:foreign> over the two loaves. After tasting the bread, one dips a piece of sweet apple in honey and says:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_haetz@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n35.jpg" xml:lang="en">Then one eats the piece of apple and says:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shetechaddesh_aleinu_shanah_tovah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n35.jpg" xml:lang="en">On the eve of the New Year, friends and acquaintances express their good wishes to one another in the following phrase:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/greeting@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

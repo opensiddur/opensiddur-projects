@@ -1,0 +1,49 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Kiddush — the sixth day and Vayekhulu</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/text/vayekhulu@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-marmorstein-1965-en/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="22" to="22"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/text/vayekhulu" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n36.jpg">
+        <j:conditional xml:id="kiddush_vayekhulu_condition">
+          <tei:note type="instruction" xml:lang="en">(On Sabbath)</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:p><tei:milestone unit="chapter" n="1"/><tei:milestone unit="half-verse" corresp="urn:x-opensiddur:text:bible:genesis/1/31/b" n="b"/><tei:seg source="urn:x-opensiddur:text:bible:genesis/1/31/b">It was evening and it was morning, the sixth day.</tei:seg> <tei:milestone unit="half-verse"/><tei:milestone unit="chapter"/><tei:milestone unit="chapter" n="2" corresp="urn:x-opensiddur:text:bible:genesis/2"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:genesis/2/1" n="1"/>The heavens and the earth were completed and all their hosts. <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:genesis/2/2" n="2"/>God completed by the seventh day His work that He had done and on the seventh day He ceased from all his work which He had done. <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:genesis/2/3" n="3"/>And God blessed the seventh day and sanctified it, for on it did He cease from all His work which God as Creator had done. <tei:milestone unit="verse"/><tei:milestone unit="chapter"/></tei:p>
+        <j:endConditional target="#kiddush_vayekhulu_condition"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
