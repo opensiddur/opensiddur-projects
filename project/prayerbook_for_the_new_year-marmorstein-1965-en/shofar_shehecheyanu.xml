@@ -31,7 +31,31 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shofar/shehecheyanu" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n187.jpg">
+        <j:conditional xml:id="shofar_shehecheyanu_condition">
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <j:all>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="rosh-hashana">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
+        </j:conditional>
         <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shofar/shehecheyanu/text"/>Blessed art Thou, O Lord our God, King of the World, who has granted us life and kept us alive and allowed us to reach this time. <tei:milestone unit="prayer-part"/></tei:p>
+        <j:endConditional target="#shofar_shehecheyanu_condition"/>
       </tei:div>
     </tei:body>
   </tei:text>

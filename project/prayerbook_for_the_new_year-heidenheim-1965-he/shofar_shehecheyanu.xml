@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -31,8 +31,32 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shofar/shehecheyanu" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n187.jpg">
-        <tei:note type="instruction" xml:lang="he">ביום שני אין אומרים שהחינו אלא כשחל יום ראשון בשבת.</tei:note>
+        <j:conditional xml:id="shofar_shehecheyanu_condition">
+          <tei:note type="instruction" xml:lang="he">ביום שני אין אומרים שהחינו אלא כשחל יום ראשון בשבת.</tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <j:all>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="rosh-hashana">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+              </j:all>
+            </j:any>
+          </j:all>
+        </j:conditional>
         <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shofar/shehecheyanu/text"/>בָּרוּךְ אַתָּה <j:divineName>יְיָ</j:divineName> אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם שֶׁהֶחֱיָנוּ וְקִיְּמָנוּ וְהִגִּיעָנוּ לַזְּמַן הַזֶּה: <tei:milestone unit="prayer-part"/></tei:p>
+        <j:endConditional target="#shofar_shehecheyanu_condition"/>
       </tei:div>
     </tei:body>
   </tei:text>
