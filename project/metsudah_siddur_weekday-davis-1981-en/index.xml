@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Metsudah Siddur: A New Linear Siddur (Weekday)</tei:title>
+        <tei:title type="sub" xml:lang="en">English translation</tei:title>
+        <tei:title type="alt" xml:lang="he">סידור ספרד לימות החול</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Metsudah Siddur: A New Linear Siddur (Weekday)</tei:title>
+          <tei:title xml:lang="he">סידור ספרד לימות החול</tei:title>
+          <tei:respStmt>
+            <tei:resp key="trl">Translated by</tei:resp>
+            <tei:name>Avrohom Davis</tei:name>
+          </tei:respStmt>
+          <tei:publisher>Metsudah Publications</tei:publisher>
+          <tei:pubPlace>New York</tei:pubPlace>
+          <tei:date when="1981">1981</tei:date>
+          <tei:distributor>
+            <tei:ref target="https://www.sefaria.org">Sefaria</tei:ref>
+          </tei:distributor>
+          <tei:date type="accessed" when="2026-11-01">2026-11-01</tei:date>
+          <tei:idno type="url">https://www.sefaria.org/Weekday_Siddur_Sefard_Linear</tei:idno>
+          <tei:idno type="sefaria">The Metsudah siddur: a new linear siddur with English translation by Avrohom Davis, 1981 [en]</tei:idno>
+          <tei:note>Rite: Nusach Sefard (Nusach haAri), the Chassidic variant of the Ashkenazi rite; not the rite of the Sefaradim or Edot haMizrach.</tei:note>
+          <tei:note>Digitized by Sefaria as the English version “The Metsudah siddur: a new linear siddur with English translation by Avrohom Davis, 1981 [en]” of Weekday Siddur Sefard Linear; its Hebrew text is the project metsudah_siddur_weekday-davis-1981-he.</tei:note>
+          <tei:note type="encoding">Converted from the Sefaria export of 2026-11-01T00:39:57.367435 (md5 OB26rQ65Pcb74vvHyuyDRw==), one phrase of the linear layout to a phrase milestone. See specs/SEFARIA_IMPORT.md in opensiddur-processor.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
+        <tei:head xml:lang="en">The Metsudah Siddur: A New Linear Siddur (Weekday)</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkat_hamazon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/berakhah_meein_shalosh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkhot_hamitzvot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkhot_hanehenin"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/birkhot_hareiyah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/various"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle/nissuin"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle/sheva_berakhot_birkat_hamazon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle/berit_milah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle/berit_milah_birkat_hamazon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:lifecycle/pidyon_haben"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot/tefillat_haderekh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/arvit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sefirat_haomer"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/keriat_shema_al_hamittah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:sukkot/netilat_lulav"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:hallel"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_chodesh/musaf"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol_hamoed/musaf"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chanukah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:purim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

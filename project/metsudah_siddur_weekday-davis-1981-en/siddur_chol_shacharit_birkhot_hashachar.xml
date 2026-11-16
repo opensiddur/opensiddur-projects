@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Morning Blessings</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/birkhot_hashachar">
+        <tei:head xml:lang="en">Morning Blessings</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hanoten_lasekhvi_vinah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">A woman says:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheasani_kirtzono"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:poqecha_ivrim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:malbish_arummim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mattir_asurim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zoqef_kefufim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/roqa_haaretz"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamekhin"/>
+        <tei:note type="instruction" xml:lang="en">On Tishah B'Av and on Yom Kippur this berachah is omitted.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasah_li"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/ozer_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/oter_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hanoten_layaef"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamaavir_shenah_meeinay"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetatzileni"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

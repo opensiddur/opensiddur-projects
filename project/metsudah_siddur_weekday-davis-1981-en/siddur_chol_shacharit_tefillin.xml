@@ -1,0 +1,49 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Putting on the Tefillin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/tefillin">
+        <tei:head xml:lang="en">Putting on the Tefillin</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshem_yichud_qudesha"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Place the "tefillin of the arm" on the muscle of your left arm, and before tightening it, say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/lehanniach"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Wrap the strap around your arm 7 times and then place the "tefillin of the head" on your head above the region between your eyes, and say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_mitzvat_tzitzit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/barukh_shem"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">With the "tefillin of the head" in place, say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/umechokhmatekha"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">When wrapping the strap around the middle finger of your left hand, say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/verastikh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/parashiyot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

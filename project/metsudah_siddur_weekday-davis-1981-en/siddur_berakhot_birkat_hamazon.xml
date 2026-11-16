@@ -1,0 +1,45 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Birkas Hamazon</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/birkat_hamazon">
+        <tei:head xml:lang="en">Birkas Hamazon</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/137"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/shir_hamaalot"/>
+        <tei:note type="instruction" xml:lang="en">When three or more males, aged 13 or older eat together one of them leads the group in reciting the Birkas Hamazon.</tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader begins by saying:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbotay_nevarekh_yehi"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader repeats:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/yehi_shem"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader repeats:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_eloheinu_sheakhalnu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

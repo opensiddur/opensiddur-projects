@@ -1,0 +1,35 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Mourner's Kaddish</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/kaddish_yatom">
+        <tei:head xml:lang="en">Mourner's Kaddish</tei:head>
+        <tei:note type="instruction" xml:lang="en">Although the Kaddish contains no reference to the dead, it has been recited by mourners for many centuries. The tradition of the mourner's Kaddish began with the following incident: Once, while walking, Rabbi Akiva met a man who had died some time before and was suffering the torments of Purgatory. He pleaded with Rabbi Akiva to go to his home town and teach his son to recite the Kaddish and Borechu, for this would save him from the terrible punishments. Rabbi Akiva and his Court then instituted the practice of mourners reciting the Kaddish, for until then it had been limited to the Chazzan's reciting it only after the services or after a sermon (See <tei:hi rend="italic">Tana D'vei Eliyahu Zuta,</tei:hi> 17: <tei:hi rend="italic">Zohar Parshas Noach</tei:hi>).</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

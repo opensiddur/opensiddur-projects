@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Psalm in the House of a Mourner</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/mizmor_leveit_haavel">
+        <tei:head xml:lang="en">Psalm in the House of a Mourner</tei:head>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On days when Tachanun is said:</tei:hi>
+        </tei:note>
+        <tei:note type="instruction" xml:lang="en">It is customary to recite this psalm (49) in the house of a mourner during the week of mourning, following the morning and evening services. On weekdays when <tei:hi rend="italic">Tachanun</tei:hi> is not said Psalm 16 (page 218) is substituted. This psalm, the final hymn of the psalms set down by the sons of Korach has significance for all mankind. Its message is that man must utilize all his material and physical resources to enhance his spiritual existence so that when his soul survives the body's brief stay on earth it can ascend to immortality. If man fails to recognize his purpose in life and instead regards the acquisition of material wealth the primary aim of life, he forfeits his hope of immortality, and his existence will not continue beyond the grave.—<tei:hi rend="italic">S.R. Hirsch</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/49"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,38 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kaddish d'Rabanan</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/kaddish_derabbanan">
+        <tei:head xml:lang="en">Kaddish d'Rabanan</tei:head>
+        <tei:note type="instruction" xml:lang="en">Kaddish is not the name generally given to this prayer in the Talmud. It is referred to there as "May His great Name...", because the congregational response beginning with these words is the heart of this prayer. Only in one minor tractate, (<tei:hi rend="italic">Maseches Soferim</tei:hi> 16, 19, and 21) is it referred to as Kaddish.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Composed primarily in Aramaic, the language spoken and understood by most Jews in the Second Temple period (See <tei:hi rend="italic">Tosafos</tei:hi> to <tei:hi rend="italic">Maseches Berachos</tei:hi> 3a), nevertheless, several Hebrew phrases, which were familiar even to the unschooled, were also incorporated in the prayer.</tei:note>
+        <tei:note type="instruction" xml:lang="en">This particular form of Kaddish d'Rabanan, is so named because of the insertion of the paragraph which begins with the words "Upon Israel and upon our Sages, etc." This Kaddish is recited following the study of Talmud or Midrash and invokes God's blessings on the Sages of Jewry, the transmitters of the Oral Torah.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/al_yisrael"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

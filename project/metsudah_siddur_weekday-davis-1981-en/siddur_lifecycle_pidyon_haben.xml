@@ -1,0 +1,35 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Redemption of the Firstborn</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:lifecycle/pidyon_haben">
+        <tei:head xml:lang="en">Redemption of the Firstborn</tei:head>
+        <tei:note type="instruction" xml:lang="en">The first born male child must be redeemed on the thirty-first day of his birth. If, however, the father is a Kohein or a Levite, or the mother a daughter of a Kohein or a Levite, they are exempt from the duty of redemption. Should the thirty-first day fall on a Shabbos or Yom Tov, the service is postponed until the next day.</tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The father, presenting his child to the Kohein, makes the following declaration:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zeh_beni_bekhori"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
