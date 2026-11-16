@@ -70,7 +70,21 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:bireshut_maranan_verabbanan"/>
         <j:endDeclare target="#variants_3"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_eloheinu_sheakhalnu_mishello"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_sheakhalnu_mishello/lifecycle_berit_milah_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_sheakhalnu_mishello"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/6"/>
       </tei:div>
     </tei:body>
   </tei:text>

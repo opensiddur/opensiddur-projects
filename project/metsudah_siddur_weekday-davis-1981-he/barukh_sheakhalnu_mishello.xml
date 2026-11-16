@@ -22,12 +22,15 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:prayer:barukh_eloheinu_sheakhalnu">
-        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_eloheinu_sheakhalnu/1"/>בָּרוּךְ (בעשרה אֱלֺהֵֽינוּ)
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_eloheinu_sheakhalnu/2"/>שֶֽׁאָכַֽלְנוּ מִשֶּׁלּוֹ
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_eloheinu_sheakhalnu/3"/>וּבְ֒טוּבוֹ חָיִֽינוּ:
+      <tei:div corresp="urn:x-opensiddur:text:prayer:barukh_sheakhalnu_mishello">
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_sheakhalnu_mishello/1"/>בָּרוּךְ (בעשרה אֱלֺהֵֽינוּ)
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_sheakhalnu_mishello/2"/>שֶֽׁאָכַֽלְנוּ מִשֶּׁלּוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_sheakhalnu_mishello/3"/>וּבְ֒טוּבוֹ חָיִֽינוּ:
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_eloheinu_sheakhalnu/4"/>בָּרוּךְ הוּא וּבָרוּךְ שְׁמוֹ:</tei:p>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:barukh_sheakhalnu_mishello/lifecycle_berit_milah_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_sheakhalnu_mishello/4"/>בָּרוּךְ הוּא וּבָרוּךְ שְׁמוֹ:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>
