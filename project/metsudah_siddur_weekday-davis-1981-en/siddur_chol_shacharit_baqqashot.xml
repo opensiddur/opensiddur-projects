@@ -29,7 +29,15 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/shema_yisrael"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/ad_shelo"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/bashamayim"/>
       </tei:div>

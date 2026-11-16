@@ -25,7 +25,15 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/barekhi_nafshi">
         <tei:head xml:lang="en">My Soul Bless</tei:head>
         <tei:note type="instruction" xml:lang="en">The following psalm (104) is recited in many synagogues on Rosh Chodesh days, following the daily psalm.</tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:tallith/barkhi_nafshi/chol_shacharit_barekhi_nafshi">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/barkhi_nafshi"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hameqareh_vamayim_aliotav"/>
         <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
       </tei:div>

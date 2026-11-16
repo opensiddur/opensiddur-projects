@@ -28,10 +28,27 @@
         <tei:note type="instruction" xml:lang="en">Mourners say the following Kaddish d'Rabanan</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/al_yisrael"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:aleinu_leshabbecha_laadon/chol_arvit_aleinu">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aleinu_leshabbecha_laadon"/>
+        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

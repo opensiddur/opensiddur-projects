@@ -25,13 +25,43 @@
       <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh">
         <tei:head xml:lang="en">PRAYER FOR RETURN OF DIVINE SERVICE</tei:head>
         <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/1"/>Be pleased,<tei:anchor xml:id="note_1"/> Adonoy, our God,
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/11"/>with Your people Israel and their prayer,
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/13"/>with Your people Israel and their prayer,
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/2"/>with Your people Israel
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_3"/>
+<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/3"/>and pay need to their prayer;<tei:anchor xml:id="note_2"/>
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_4"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/4"/>and restore the service
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/5"/>to the Holy of Holies in Your abode,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/6"/>and the fire-offerings<tei:anchor xml:id="note_3"/> of Israel;
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/12"/>and accept their prayer, lovingly and willingly.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_5"/>
+<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/14"/>and accept their prayer, lovingly and willingly.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_6"/>
+<j:conditional xml:id="variant_7"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/7"/>and accept their prayer, lovingly
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_7"/>
+<j:conditional xml:id="variant_8"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/rosh_chodesh_musaf"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/chol_hamoed_musaf"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/8"/>and willingly.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_8"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/9"/>And may You always find pleasure
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/avodah/retzeh/10"/>with the service of Your people, Israel.</tei:p>
       </tei:div>

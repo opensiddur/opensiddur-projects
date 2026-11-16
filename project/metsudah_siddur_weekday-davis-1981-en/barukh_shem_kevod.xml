@@ -23,26 +23,42 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:barukh_shem_kevod">
-        <tei:p><tei:note type="instruction" xml:lang="en">The following three lines are to be said silently</tei:note><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/1"/>Blessed [is His] Name,
+        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">The following two lines are to be said silently:</tei:hi></tei:note><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/24"/>Blessed [is His] Name, Whose glorious kingdom
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<tei:note type="instruction" xml:lang="en">The following three lines are to be said silently</tei:note>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/1"/>Blessed [is His] Name,
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/2"/>Whose glorious kingdom
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_3"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/3"/>is forever and ever.
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/5"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/4"/>And you shall love Adonoy your God<tei:anchor xml:id="note_1"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/5"/>with all your heart
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/6"/>and with all your soul
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/7"/>and with all your possessions.
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/6"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/8"/>And these words
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/9"/>which I command you today,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/10"/>shall be upon your heart.
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/7"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/11"/>And you shall teach them sharply
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/12"/>to your children.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/13"/>And you shall discuss them
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/14"/>when you sit in your house,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/15"/>and when you travel on the road,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/16"/>and when you lie down and when you rise.
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/8"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/17"/>And you shall bind them for a sign
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/18"/>upon your hand,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/19"/>and they shall be for <tei:hi rend="italic">totafos</tei:hi>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/20"/>between your eyes.
+<tei:milestone unit="phrase"/>
+<tei:milestone unit="verse"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/21"/>And you shall write them
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/22"/>upon the doorposts of your house
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:barukh_shem_kevod/23"/>and upon your gateways.</tei:p>

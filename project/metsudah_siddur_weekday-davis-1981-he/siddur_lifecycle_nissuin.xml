@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:lifecycle/nissuin">
         <tei:head xml:lang="he">ברכות אירוסין ונשואין</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:bore_peri_hagafen"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_erusin"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/shehakol_bara"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/yotzer_haadam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/asher_yatzar_haadam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/sos_tasis"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/sammeach_tesammach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/asher_bara"/>
       </tei:div>
     </tei:body>
   </tei:text>

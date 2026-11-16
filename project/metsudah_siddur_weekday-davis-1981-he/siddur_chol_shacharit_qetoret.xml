@@ -36,20 +36,70 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/veshachat"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veneemar_zot_hatorah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uverashei_chadsheikhem_taqrivu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman_shel"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:parim_hanisrafim_useirim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:chattot_hatzibbur_vehayyachid"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:haolah_qodesh_qadashim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/3"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_milefanekha/chol_shacharit_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milefanekha"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/4"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret_413">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_keillu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zivchei_shalmei_tzibbur"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatodah_veeil_nazir"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/5"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_milefanekha/chol_shacharit_qetoret">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milefanekha"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/6"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret_413">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_keillu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shelamim_qadashim_qallim"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/7"/>
+        <j:declare xml:id="variants_5">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_ratzon_keillu/chol_shacharit_qetoret_413">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_keillu"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:habekhor_vehammaaser_vehappesach"/>
+        <j:endDeclare target="#variants_5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/8"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:middot/lead"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:miqal_vachomer_umiggezerah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
       </tei:div>
     </tei:body>

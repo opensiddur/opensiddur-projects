@@ -25,7 +25,7 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/yishtabbach">
         <tei:head xml:lang="en">Yishtabach</tei:head>
         <tei:note type="instruction" xml:lang="en">Rabbeinu Alfasi (<tei:hi rend="italic">Maseches Berachos</tei:hi> 32) refers to <tei:hi rend="italic">Baruch She'amar</tei:hi> as the opening blessing of the <tei:hi rend="italic">Pesukei Dezimrah,</tei:hi> and <tei:hi rend="italic">Yishtabach</tei:hi> as the concluding blessing.</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach_shimkha_laad"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">During the Ten Days of Penitence add:</tei:hi>
         </tei:note>
@@ -36,7 +36,15 @@
         <tei:note type="instruction" xml:lang="en">It is called the Half-Kaddish, the final three verses of the complete Kaddish having been omitted.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

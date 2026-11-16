@@ -27,7 +27,15 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/2"/>וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/3"/>וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/4"/>שְׁמֵהּ דְקוּדְשָׁא, בְּרִיךְ הוּא
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/9"/>לְעֵֽלָּא
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/5"/>לְעֵֽלָּא (<tei:hi rend="small">בעשי"ת</tei:hi> וּלְעֵֽלָּא מִכָּל)
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/6"/>מִן כָּל בִּרְכָתָא וְשִׁירָתָא,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/7"/>תֻּשְׁבְּחָתָא וְנֶחֱמָתָא,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/8"/>דַּאֲמִירָן בְּעָלְ֒מָא, וְאִמְרוּ אָמֵן:</tei:p>

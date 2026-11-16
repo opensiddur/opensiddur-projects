@@ -27,7 +27,15 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/2"/>glorified, and exalted and uplifted,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/3"/>honored and elevated and extolled<tei:anchor xml:id="note_1"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/4"/>be the Name of the Holy One, blessed is He;
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/9"/>above
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/5"/>above (<tei:hi rend="italic">Ten Days of Penitence:</tei:hi> far above)
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/6"/>all the blessings and hymns,<tei:anchor xml:id="note_2"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/7"/>praises and consolations<tei:anchor xml:id="note_3"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/derabbanan/yitbarakh/8"/>which we utter in the world—and say Amein.</tei:p>

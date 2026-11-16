@@ -32,7 +32,15 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/et_shem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/qadosh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/vehaofannim"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yotzer_or/barukh_kevod/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/barukh_kevod"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_barukh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/or_chadash"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavat_olam_ahavtanu"/>

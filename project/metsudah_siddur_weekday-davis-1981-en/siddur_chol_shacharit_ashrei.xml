@@ -25,7 +25,15 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/ashrei">
         <tei:head xml:lang="en">Ashrei</tei:head>
         <tei:note type="instruction" xml:lang="en">Rav S.R. Hirsch writes that the six concluding chapters of the Book of Psalms are the most important gift of David's Divinely-inspired hymns that Israel treasures so greatly. These six psalms, 145-150, are an essential component of our daily prayers. Our Sages attach much significance to Psalm 145 in particular, and stated: "Whoever recites ‘A praise by David' three times a day is assuredly worthy of a share in the world to come" (<tei:hi rend="italic">Maseches Berachos</tei:hi> 4b). When recited in prayer this psalm is always introduced with two verses from other Psalms (84:5 and 144:15). These verses contain the word fortunate three times, an allusion to this psalm being recited three times a day. These verses are so closely identified with Psalm 145 that it is commonly referred to as <tei:hi rend="italic">Ashrei</tei:hi> (Fortunate).</tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ashrei/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">This Psalm acclaims God's loving care as experienced by each Jew in his own life.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/146"/>
         <tei:note type="instruction" xml:lang="en">In this Psalm, David imparts the knowledge to sustain and uphold the Jewish People, during their bitter exile. He tells them of their special and enduring relationship with God and of their role as permanent messengers of the word of God to all mankind.</tei:note>

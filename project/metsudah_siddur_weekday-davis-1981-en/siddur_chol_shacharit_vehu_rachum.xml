@@ -35,7 +35,15 @@
         <tei:note type="instruction" xml:lang="en">The <tei:hi rend="italic">Chazzan</tei:hi> recites the Half Kaddish</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">On days when the Torah is not read continue with Ashrei.</tei:note>
       </tei:div>
     </tei:body>

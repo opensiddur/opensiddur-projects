@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/ashrei_uva_letziyyon">
         <tei:head xml:lang="en">Ashrei U'va L'Tzion</tei:head>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ashrei/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/20"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lealam_ulealemei_alemayya"/>
         <tei:note type="instruction" xml:lang="en">On Rosh Chodesh the Chazzan recites the half-Kaddish, the Tefillin are then removed and the congregation says the Musaf Amidah; and on Chol Hamoed the Chazzan recites the half-Kaddish, and the congregation says the Mussaf Amidah.</tei:note>
@@ -33,8 +41,28 @@
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:endDeclare target="#variants_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal/text"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/chol_arvit_aleinu">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/chol_arvit_aleinu_131">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+        <j:endDeclare target="#variants_3"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">On Mondays, Thursdays and other days when the Torah is read, as the Sefer Torah is returned to the Ark the Chazzan takes the Torah and says:</tei:hi>
         </tei:note>

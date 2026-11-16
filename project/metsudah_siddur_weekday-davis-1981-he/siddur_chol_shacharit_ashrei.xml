@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/ashrei">
         <tei:head xml:lang="he">אשרי</tei:head>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ashrei/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/146"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/147"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/148"/>

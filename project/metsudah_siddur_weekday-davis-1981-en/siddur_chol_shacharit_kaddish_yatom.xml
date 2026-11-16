@@ -27,8 +27,27 @@
         <tei:note type="instruction" xml:lang="en">Although the Kaddish contains no reference to the dead, it has been recited by mourners for many centuries. The tradition of the mourner's Kaddish began with the following incident: Once, while walking, Rabbi Akiva met a man who had died some time before and was suffering the torments of Purgatory. He pleaded with Rabbi Akiva to go to his home town and teach his son to recite the Kaddish and Borechu, for this would save him from the terrible punishments. Rabbi Akiva and his Court then instituted the practice of mourners reciting the Kaddish, for until then it had been limited to the Chazzan's reciting it only after the services or after a sermon (See <tei:hi rend="italic">Tana D'vei Eliyahu Zuta,</tei:hi> 17: <tei:hi rend="italic">Zohar Parshas Noach</tei:hi>).</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/chol_arvit_aleinu">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/chol_arvit_aleinu_131">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

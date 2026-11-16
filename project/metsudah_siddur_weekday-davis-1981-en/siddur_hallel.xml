@@ -40,8 +40,26 @@
         <tei:note type="instruction" xml:lang="en">The Chazzan recites the following Kaddish:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:titqabbel_tzelotehon_uvautehon"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/oseh_shalom/hallel">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>
