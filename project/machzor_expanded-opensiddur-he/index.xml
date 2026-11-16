@@ -979,7 +979,7 @@
                       </tei:f>
                     </tei:fs>
                     <tei:fs type="opensiddur:rite">
-                      <tei:f name="frankfurt">
+                      <tei:f name="frankfurt_am_main">
                         <tei:binary value="true"/>
                       </tei:f>
                     </tei:fs>
@@ -1501,14 +1501,45 @@
                     </j:all>
                   </j:conditional>
                   <tei:div>
+                    <j:declare xml:id="section_yotzer_weekday_settings">
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hameir"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/el_barukh"/>
+                    <j:endDeclare target="#section_yotzer_weekday_settings"/>
                   </tei:div>
                   <j:endConditional target="#section_yotzer_weekday_condition"/>
                 </tei:div>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha"/>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_adon"/>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat"/>
+                <tei:div xml:id="section_yotzer_shabbat">
+                  <j:conditional xml:id="section_yotzer_shabbat_condition">
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">בשבת:</tei:foreign> <tei:foreign xml:lang="en">On Shabbat:</tei:foreign> </tei:note>
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:declare xml:id="section_yotzer_shabbat_settings">
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_adon"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat"/>
+                    <j:endDeclare target="#section_yotzer_shabbat_settings"/>
+                  </tei:div>
+                  <j:endConditional target="#section_yotzer_shabbat_condition"/>
+                </tei:div>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/titbarakh"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/et_shem"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/qadosh"/>
