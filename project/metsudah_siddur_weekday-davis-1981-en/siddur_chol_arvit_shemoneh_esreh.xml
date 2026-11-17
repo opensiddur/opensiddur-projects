@@ -1,0 +1,268 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Shemoneh Esrei</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/shemoneh_esreh">
+        <tei:head xml:lang="en">Shemoneh Esrei</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avot/rosh_chodesh_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avot/chol_hamoed_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/rosh_chodesh_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/chol_hamoed_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushat_hashem/rosh_chodesh_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushat_hashem/chol_hamoed_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
+        <j:endDeclare target="#variants_3"/>
+        <tei:note type="instruction" xml:lang="en">If you mistakenly said, “the Almighty” instead of “the King,” or if you are in doubt, see page 000.</tei:note>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/binah/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/binah"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/teshuvah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/selichah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geullah"/>
+        <tei:note type="instruction" xml:lang="en">(On Fast Days, the Chazzan says “Answer us” which is on page 000 and concludes, “Blessed are . . . Who responds at times of trouble.”)</tei:note>
+        <j:declare xml:id="variants_5">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/refuah/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/refuah/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/refuah"/>
+        <j:endDeclare target="#variants_5"/>
+        <j:declare xml:id="variants_6">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shanim/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shanim/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shanim"/>
+        <j:endDeclare target="#variants_6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qibbutz_galuyot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/mishpat"/>
+        <tei:note type="instruction" xml:lang="en">If you mistakenly said, “King, Lover of righteousness and justice,” instead of “the King of Justice,” see page 000.</tei:note>
+        <j:declare xml:id="variants_7">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/minim/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/minim"/>
+        <j:endDeclare target="#variants_7"/>
+        <j:declare xml:id="variants_8">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tzaddiqim/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tzaddiqim/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tzaddiqim"/>
+        <j:endDeclare target="#variants_8"/>
+        <j:declare xml:id="variants_9">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yerushalayim/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim"/>
+        <j:endDeclare target="#variants_9"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/david"/>
+        <j:declare xml:id="variants_10">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tefillah/opening/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tefillah/opening/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah/opening"/>
+        <j:endDeclare target="#variants_10"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:declare xml:id="variants_11">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
+        <j:endDeclare target="#variants_11"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
+        <tei:note type="instruction" xml:lang="en">At the words, <tei:hi rend="italic">We are thankful</tei:hi>, bend forward; at <tei:hi rend="italic">Adonoy</tei:hi> return to an upright position.</tei:note>
+        <j:declare xml:id="variants_12">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
+        <j:endDeclare target="#variants_12"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “ וְעַל כֻּלָּם , and for all the foregoing.”)</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="hanukkah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="purim-observed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
+        <j:endConditional target="#when_2"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">On Chanukah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="en">On Purim:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim-observed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
+        <j:endConditional target="#when_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
+        <j:declare xml:id="variants_13">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/rosh_chodesh_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/chol_hamoed_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
+        <j:endDeclare target="#variants_13"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
+        <j:declare xml:id="variants_14">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/elohai_netzor/chol_minchah_shemoneh_esreh">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/elohai_netzor/chol_arvit_shemoneh_esreh">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/elohai_netzor/rosh_chodesh_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/elohai_netzor/chol_hamoed_musaf">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
+        <j:endDeclare target="#variants_14"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:malachi/3/4"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the half Kaddish, and the congregation then says, “May the pleasantness” and “and You Holy One,” found on p. 000.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

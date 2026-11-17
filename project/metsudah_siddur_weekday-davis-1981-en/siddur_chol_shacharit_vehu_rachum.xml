@@ -1,0 +1,292 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Vehu Rachum</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/vehu_rachum">
+        <tei:head xml:lang="en">Vehu Rachum</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following prayers are added on Mondays and Thursday. On other days, continue "Guardian of Israel. . .":</tei:hi>
+          </tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <j:any>
+                <j:any>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="rosh-hodesh">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="hanukkah">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="12"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="14" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="13"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="14" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="1"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="2"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="14"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="lag-baomer">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="3"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="1" max="8"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="tisha-bav">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="5"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="6"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="29"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="7"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="9" max="23"/>
+                    </tei:f>
+                  </tei:fs>
+                  <j:all>
+                    <tei:fs type="opensiddur:hebrew-date">
+                      <tei:f name="month">
+                        <tei:numeric value="7"/>
+                      </tei:f>
+                      <tei:f name="day">
+                        <tei:numeric value="24"/>
+                      </tei:f>
+                    </tei:fs>
+                    <j:none>
+                      <tei:fs type="opensiddur:israel">
+                        <tei:f name="is-israel">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:none>
+                  </j:all>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="11"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="15"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:any>
+                <tei:fs type="opensiddur:override">
+                  <tei:f name="omit-tahanun">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:override">
+                  <tei:f name="house-of-mourning">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:override">
+                  <tei:f name="brit-milah">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:override">
+                  <tei:f name="wedding">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:override">
+                  <tei:f name="sheva-brachot">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+              <j:all>
+                <tei:fs type="opensiddur:service-time">
+                  <tei:f name="minha">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <j:any>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="6" max="7"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="day">
+                      <tei:numeric value="29"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="2"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="13" max="14"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="2"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="17" max="18"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="5"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="8" max="9"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="5"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="14" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="9"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="24" max="30"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="11"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="14" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="12"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="13" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="13"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="13" max="15"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:any>
+              </j:all>
+            </j:none>
+          </j:all>
+        </j:conditional>
+        <tei:note type="instruction" xml:lang="en">This group of somber plaints, known as the "long <tei:hi rend="italic">Vehu Rachum</tei:hi>" is recited in the morning service on Mondays and Thursdays, except on days when <tei:hi rend="italic">Tachanun</tei:hi> is omitted.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The origin of these seven prayers is shrouded in legend. It has been suggested that they were composed during the terrible persecutions at the hands of the Goths in seventh-century Spain. It has been said, "Whoever can read this ‘long <tei:hi rend="italic">Vehu Rachum</tei:hi>' prayer without emotion has lost all feeling for what is great and noble."</tei:note>
+        <tei:note type="instruction" xml:lang="en">Despite all the repetition in these cries for forgiveness, mercy, help, and protection, the effect is not tiring; because here it is not merely an individual soul, but the soul of an entire people that utters these laments and supplications, that gives voice to this woe of nearly two thousand years.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Moses ascended Mount Sinai to receive the Second Tablets on the fifth day of the week, and he returned to the people on the second day of the week, bringing them the new tablets as a security for the Divine covenant and as confirmation of God's atonement for their transgression. Ever since, the second and fifth day of each week, Monday and Thursday, have been days of summons to the Jewish people to assemble anew before God and to reaffirm their sincere "return" to the Law of God. Our regular service is therefore augmented on these days by these additional supplications.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehu_rachum_arokh"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha/repeat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/anna_melekh/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
+        <tei:note type="instruction" xml:lang="en">The <tei:hi rend="italic">Chazzan</tei:hi> recites the Half Kaddish</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">On days when the Torah is not read continue with Ashrei.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

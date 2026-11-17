@@ -1,0 +1,37 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Purim Service</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:purim">
+        <tei:head xml:lang="en">Purim Service</tei:head>
+        <tei:note type="instruction" xml:lang="en">Everyone is obligated to hear the reading of the Megillah on the night of Purim and again on the day of Purim itself. The following three blessings are recited by the Reader.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_miqra_megillah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheasah_nissim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:harav_et_riveinu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shoshannat_yaaqov/arur_haman"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shoshannat_yaaqov/charvonah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

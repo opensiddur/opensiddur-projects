@@ -1,0 +1,54 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Chanukah Service</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chanukah">
+        <tei:head xml:lang="en">Chanukah Service</tei:head>
+        <tei:note type="instruction" xml:lang="en">The festival of Chanukah begins on the 25th day of Kislev and lasts eight days. The Chanukah lights should be kindled as soon as possible after nightfall. On Friday the Chanukah lights are kindled <tei:hi rend="italic">before</tei:hi> the Sabbath candles are lit. On the first night of Chanukah, one light is kindled—at the right of the menorah. Each night thereafter one light is added—to the immediate left of the one kindled the preceding night. <tei:hi rend="italic">The newly-added light is always kindled first</tei:hi>, and the kindling then proceeds toward the right.</tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Before kindling the lights, the following blessings are recited.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlaqat_ner_chanukah/blessing"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheasah_nissim"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following blessing is said only on the first evening: </tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hanerot_halalu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/5"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

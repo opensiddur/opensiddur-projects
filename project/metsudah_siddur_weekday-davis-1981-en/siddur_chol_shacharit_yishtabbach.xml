@@ -1,0 +1,59 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yishtabach</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/yishtabbach">
+        <tei:head xml:lang="en">Yishtabach</tei:head>
+        <tei:note type="instruction" xml:lang="en">Rabbeinu Alfasi (<tei:hi rend="italic">Maseches Berachos</tei:hi> 32) refers to <tei:hi rend="italic">Baruch She'amar</tei:hi> as the opening blessing of the <tei:hi rend="italic">Pesukei Dezimrah,</tei:hi> and <tei:hi rend="italic">Yishtabach</tei:hi> as the concluding blessing.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">During the Ten Days of Penitence add:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <tei:note type="instruction" xml:lang="en">In this Psalm, said during the Ten Days of Penitence, the Jewish soul sings of the Jewish spirit ascending from the depths of the deepest misery of all, the burden of sin and guilt.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/130"/>
+        <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">The Half-Kaddish is recited by the Chazzan</tei:note>
+        <tei:note type="instruction" xml:lang="en">Here, as elsewhere in the Liturgy, the Half-Kaddish marks the end of a distinct section of the prayers, in this case, the <tei:hi rend="italic">Pesukei Dezimrah.</tei:hi></tei:note>
+        <tei:note type="instruction" xml:lang="en">It is called the Half-Kaddish, the final three verses of the complete Kaddish having been omitted.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
