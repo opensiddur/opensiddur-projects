@@ -33,15 +33,16 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/7"/>and make us righteous
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/8"/>with righteousness and justice,
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en">During the Ten Days of Penitence, continue at the asterisk (*) below</tei:note>
+<j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en">During the Ten Days of Penitence, continue at the asterisk (*) below</tei:note><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/9"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/10"/>King, Lover of righteousness and justice.
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">*During the Ten Days of Penitence:</tei:hi></tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_1"/>
+<j:conditional xml:id="when_2"><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">*During the Ten Days of Penitence:</tei:hi></tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/11"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/12"/>the King of Justice.
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_1"/></tei:p>
+<j:endConditional target="#when_2"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

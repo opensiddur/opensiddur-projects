@@ -50,7 +50,21 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
         <j:endDeclare target="#variants_2"/>
-        <tei:note type="instruction" xml:lang="en">When praying silently, continue “You are holy” on page 000. When the Chazzan repeats the Shemoneh Esrei during Shacharis, the Kedushah is said here. For Mincha turn to page 000.</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">When praying silently, continue “You are holy” on page 000. When the Chazzan repeats the Shemoneh Esrei during Shacharis, the Kedushah is said here. For Mincha turn to page 000.</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/naaritz"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/leummatam"/>
@@ -59,7 +73,8 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/hael_haqadosh"/>
-        <j:conditional xml:id="when_1">
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
           <tei:note type="instruction" xml:lang="en">During the silent Shemoneh Esrei, continue here:</tei:note>
           <tei:fs type="opensiddur:recitation">
             <tei:f name="silent">
@@ -79,7 +94,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
         <j:endDeclare target="#variants_3"/>
-        <j:endConditional target="#when_1"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/attah_vechartanu_mikol"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uminchatam_veniskeihem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/17"/>
@@ -106,6 +121,28 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vehassienu_hashem_eloheinu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">When Kohanim are present, the Birkas Kohanim is recited here, If no Kohanim are present, the Chazan recites the following.</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:practice">
+                <tei:f name="birkat-kohanim">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_4">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/birkat_kohanim/rosh_chodesh_musaf">
@@ -118,6 +155,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
         <j:endDeclare target="#variants_4"/>
+        <j:endConditional target="#when_3"/>
         <j:declare xml:id="variants_5">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/chol_arvit_shemoneh_esreh">

@@ -24,7 +24,52 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/mizmor_letodah">
         <tei:head xml:lang="he">מזמור לתודה</tei:head>
+        <j:conditional xml:id="when_1">
+          <j:none>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="yom-tov">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="1"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="14"/>
+              </tei:f>
+            </tei:fs>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="chol-hamoed">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="pesah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="9"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/100"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

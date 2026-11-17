@@ -201,8 +201,23 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:endDeclare target="#variants_12"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
         <j:conditional xml:id="when_3">
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
           <j:any>
             <tei:fs type="opensiddur:holiday">
               <tei:f name="hanukkah">
@@ -217,8 +232,8 @@
           </j:any>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
-        <j:endConditional target="#when_3"/>
-        <j:conditional xml:id="when_4">
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
           <tei:fs type="opensiddur:holiday">
             <tei:f name="hanukkah">
               <tei:binary value="true"/>
@@ -226,8 +241,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
-        <j:endConditional target="#when_4"/>
-        <j:conditional xml:id="when_5">
+        <j:endConditional target="#when_5"/>
+        <j:conditional xml:id="when_6">
           <tei:fs type="opensiddur:holiday">
             <tei:f name="purim-observed">
               <tei:binary value="true"/>
@@ -235,7 +250,7 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
-        <j:endConditional target="#when_5"/>
+        <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>

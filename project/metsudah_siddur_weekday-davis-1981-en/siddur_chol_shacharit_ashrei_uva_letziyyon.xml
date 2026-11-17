@@ -48,9 +48,23 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
         <j:endDeclare target="#variants_2"/>
         <tei:note type="instruction" xml:lang="en">On Rosh Chodesh the Chazzan recites the half-Kaddish, the Tefillin are then removed and the congregation says the Musaf Amidah; and on Chol Hamoed the Chazzan recites the half-Kaddish, and the congregation says the Mussaf Amidah.</tei:note>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On regular weekdays the Chazzan recites the following Kaddish:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On regular weekdays the Chazzan recites the following Kaddish:</tei:hi>
+          </tei:note>
+          <j:none>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_3">
@@ -96,10 +110,67 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
         <j:endDeclare target="#variants_5"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On Mondays, Thursdays and other days when the Torah is read, as the Sefer Torah is returned to the Ark the Chazzan takes the Torah and says:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Mondays, Thursdays and other days when the Torah is read, as the Sefer Torah is returned to the Ark the Chazzan takes the Torah and says:</tei:hi>
+          </tei:note>
+          <j:none>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <j:any>
+                <j:any>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="2"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="5"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:any>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="rosh-hodesh">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday-aggregate">
+                  <tei:f name="chol-hamoed">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="hanukkah">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="purim-observed">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday-aggregate">
+                  <tei:f name="minor-fast">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="tzom-tammuz">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+            </j:none>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehalelu_et_shem"/>
+        <j:endConditional target="#when_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

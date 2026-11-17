@@ -80,7 +80,25 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
         <j:endDeclare target="#variants_4"/>
+        <j:conditional xml:id="when_1">
+          <j:any>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="1" max="22"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/27"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

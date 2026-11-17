@@ -170,6 +170,21 @@
         <j:endDeclare target="#variants_10"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu/opening"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:declare xml:id="variants_11">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
@@ -179,6 +194,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_11"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">At the words, </tei:hi>We are thankful, <tei:hi rend="italic">bend forward; at </tei:hi>Adonoy <tei:hi rend="italic">return to an upright position.</tei:hi></tei:note>
         <j:declare xml:id="variants_12">
@@ -193,14 +209,64 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:endDeclare target="#variants_12"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">(When the Chazzan repeats the Shemoneh Esrei and says, “Who returns His Divine Presence to Zion”, the congregation responds by saying “Amein” and then the following prayer.)</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="en">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “ וְעַל כֻּלָּם , and for all the foregoing.”)</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="hanukkah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="purim-observed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
+          <tei:note type="instruction" xml:lang="en">On Chanukah:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
+        <j:endConditional target="#when_5"/>
+        <j:conditional xml:id="when_6">
+          <tei:note type="instruction" xml:lang="en">On Purim:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim-observed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
+        <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
-        <j:conditional xml:id="when_2">
+        <j:conditional xml:id="when_7">
           <tei:note type="instruction" xml:lang="en">Birkas Kohanim is said by the Chazzan on public fast-days:</tei:note>
           <j:any>
             <tei:fs type="opensiddur:holiday-aggregate">
@@ -227,7 +293,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
         <j:endDeclare target="#variants_13"/>
-        <j:endConditional target="#when_2"/>
+        <j:endConditional target="#when_7"/>
         <j:declare xml:id="variants_14">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/chol_arvit_shemoneh_esreh">

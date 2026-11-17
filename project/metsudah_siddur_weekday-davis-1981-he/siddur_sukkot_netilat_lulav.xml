@@ -26,7 +26,15 @@
         <tei:head xml:lang="he">ברכות הלולב</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_bifri_etz"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_lulav"/>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="lulav-first-use">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

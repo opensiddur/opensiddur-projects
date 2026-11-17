@@ -80,7 +80,26 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
         <j:endDeclare target="#variants_4"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">The following is recited here by some congregations from the first day of Elul, through Shemini Atzeres. Others recite it at the end of the Maariv (Evening) Service.</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="1" max="22"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/27"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="en">Mourner's Kaddish is said here:</tei:note>
         <tei:note type="instruction" xml:lang="en">The Psalm said in the house of a mourner is found on page 000.</tei:note>
       </tei:div>

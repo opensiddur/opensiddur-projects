@@ -37,7 +37,18 @@
         <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">After eating grain foods and drinking wine:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake_wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/body"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake"/>

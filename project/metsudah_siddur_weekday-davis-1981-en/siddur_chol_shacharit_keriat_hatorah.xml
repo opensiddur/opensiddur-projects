@@ -25,10 +25,81 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/keriat_hatorah">
         <tei:head xml:lang="en">Reading of the Torah</tei:head>
         <tei:note type="instruction" xml:lang="en">(Weekdays)</tei:note>
-        <tei:note type="instruction" xml:lang="en">The following paragraph is said on Mondays and Thursdays except on Rosh Chodesh, the eve of Pesach, Tishah b'Av, Chanukah, the 14th and 15th Adar and Adar Sheni (Purim and Purim Katan), the eve of Yom Kippur, and it is also omitted in the house of a mourner.</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">The following paragraph is said on Mondays and Thursdays except on Rosh Chodesh, the eve of Pesach, Tishah b'Av, Chanukah, the 14th and 15th Adar and Adar Sheni (Purim and Purim Katan), the eve of Yom Kippur, and it is also omitted in the house of a mourner.</tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hodesh">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="1"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="hanukkah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="12"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="13"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="7"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="9"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="house-of-mourning">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">This prayer is recited while standing, as it includes a form of viduy (<tei:hi rend="italic">confession</tei:hi>) which must be said while standing.</tei:note>
         <tei:note type="instruction" xml:lang="en">On Mondays and Thursdays, as we are about to open the Ark to take out the Seifer Torah for public reading, we realize that we have transgressed much that is written in the Torah and are unworthy even to take it into our hands. Aware of our inadequacy and unworthiness, we utter the words, "Almighty who is slow to anger etc....", appealing to Him for forgiveness.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:berikh_shemeh/berikh"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">The Chazzan says:</tei:hi>

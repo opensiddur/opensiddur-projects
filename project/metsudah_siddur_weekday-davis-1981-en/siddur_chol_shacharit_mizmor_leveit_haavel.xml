@@ -28,11 +28,116 @@
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On days when Tachanun is said:</tei:hi>
           </tei:note>
-          <tei:fs type="opensiddur:override">
-            <tei:f name="omit-tahanun">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
+          <j:none>
+            <j:any>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hodesh">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="hanukkah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="12"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="13"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="2"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="lag-baomer">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="3"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="1" max="8"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="5"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="6"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="29"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="7"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="9" max="23"/>
+                </tei:f>
+              </tei:fs>
+              <j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="24"/>
+                  </tei:f>
+                </tei:fs>
+                <j:none>
+                  <tei:fs type="opensiddur:israel">
+                    <tei:f name="is-israel">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:none>
+              </j:all>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="11"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="15"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+          </j:none>
         </j:conditional>
         <tei:note type="instruction" xml:lang="en">It is customary to recite this psalm (49) in the house of a mourner during the week of mourning, following the morning and evening services. On weekdays when <tei:hi rend="italic">Tachanun</tei:hi> is not said Psalm 16 (page 218) is substituted. This psalm, the final hymn of the psalms set down by the sons of Korach has significance for all mankind. Its message is that man must utilize all his material and physical resources to enhance his spiritual existence so that when his soul survives the body's brief stay on earth it can ascend to immortality. If man fails to recognize his purpose in life and instead regards the acquisition of material wealth the primary aim of life, he forfeits his hope of immortality, and his existence will not continue beyond the grave.—<tei:hi rend="italic">S.R. Hirsch</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/49"/>

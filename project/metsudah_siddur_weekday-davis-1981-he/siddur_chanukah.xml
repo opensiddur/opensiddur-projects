@@ -26,7 +26,15 @@
         <tei:head xml:lang="he">הדלקת נרות חנוכה</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hadlaqat_ner_chanukah/blessing"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheasah_nissim"/>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hanerot_halalu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/2"/>

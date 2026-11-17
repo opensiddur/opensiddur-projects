@@ -25,10 +25,18 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/bar_mitzvah">
         <tei:head xml:lang="en">Berachah for Father of Bar Mitzvah</tei:head>
         <tei:note type="instruction" xml:lang="en">Blessing by the father of a Bar Mitzvah</tei:note>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The following blessing is said by the father of a Bar Mitzvah, after the lad has been called to the Torah and has recited the blessing following the reading:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following blessing is said by the father of a Bar Mitzvah, after the lad has been called to the Torah and has recited the blessing following the reading:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="bar-mitzvah-father">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shepetrani/text"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vezot_hatorah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milifnei_avinu"/>
       </tei:div>

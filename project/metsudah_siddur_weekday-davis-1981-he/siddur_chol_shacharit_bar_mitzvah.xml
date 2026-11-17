@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/bar_mitzvah">
         <tei:head xml:lang="he">ברכה לאבי הבר מצוה</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:person">
+            <tei:f name="bar-mitzvah-father">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shepetrani/text"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vezot_hatorah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milifnei_avinu"/>
       </tei:div>

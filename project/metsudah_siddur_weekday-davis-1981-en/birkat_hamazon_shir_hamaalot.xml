@@ -24,7 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:birkat_hamazon/shir_hamaalot">
         <tei:head xml:lang="en">Psalm 126</tei:head>
-        <tei:p><tei:note type="instruction" xml:lang="en">Psalm 126 is recited on Shabbos, Yom Tov and other festive occasions such as weddings, circumcisions or redemption of the first born.</tei:note><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/126/1"/><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/1"/>A Song of Ascents.
+        <tei:p><j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en">Psalm 126 is recited on Shabbos, Yom Tov and other festive occasions such as weddings, circumcisions or redemption of the first born.</tei:note><j:any><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:override"><tei:f name="wedding"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:override"><tei:f name="sheva-brachot"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:override"><tei:f name="brit-milah"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/126/1"/><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/1"/>A Song of Ascents.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/2"/>When Adonoy brings about
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/3"/>the return to Zion
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/4"/>we will have been like dreamers.<tei:anchor xml:id="note_1"/>
@@ -48,7 +48,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/17"/>he will return with joyous song
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/shir_hamaalot/18"/>carrying his sheaves.
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="verse"/></tei:p>
+<tei:milestone unit="verse"/>
+<j:endConditional target="#when_1"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

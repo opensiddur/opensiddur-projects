@@ -27,19 +27,52 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/lasekhvi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved"/>
+        <j:conditional xml:id="when_1">
+          <j:none>
+            <tei:fs type="opensiddur:person">
+              <tei:f name="gender">
+                <tei:symbol value="female"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">A woman says:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">A woman says:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="gender">
+              <tei:symbol value="female"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasani_kirtzono"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/poqeach_ivrim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/malbish_arummim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/mattir_asurim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/zoqef_kefufim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/roqa_haaretz"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamekhin"/>
-        <tei:note type="instruction" xml:lang="en">On Tishah B'Av and on Yom Kippur this berachah is omitted.</tei:note>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">On Tishah B'Av and on Yom Kippur this berachah is omitted.</tei:note>
+          <j:none>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="tisha-bav">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="yom-kippur">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasah_li"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/ozer_yisrael"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/oter_yisrael"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hanoten_layaef"/>

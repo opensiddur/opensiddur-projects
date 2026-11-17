@@ -219,10 +219,25 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:endDeclare target="#variants_12"/>
-        <tei:note type="instruction" xml:lang="en">(When the Chazzan repeats the <tei:hi rend="italic">Shemoneh Esrei</tei:hi> and says, "Who returns His Divine Presence to Zion", the congregation responds by saying "Amein" and then the following prayer.)</tei:note>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">(When the Chazzan repeats the <tei:hi rend="italic">Shemoneh Esrei</tei:hi> and says, "Who returns His Divine Presence to Zion", the congregation responds by saying "Amein" and then the following prayer.)</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
         <tei:anchor xml:id="note_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
-        <j:conditional xml:id="when_3">
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
           <tei:note type="instruction" xml:lang="en">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, "וְעַל כֻּלָּם, and for all the foregoing.")</tei:note>
           <j:any>
             <tei:fs type="opensiddur:holiday">
@@ -238,8 +253,8 @@
           </j:any>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
-        <j:endConditional target="#when_3"/>
-        <j:conditional xml:id="when_4">
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Chanukah:</tei:hi>
           </tei:note>
@@ -250,8 +265,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
-        <j:endConditional target="#when_4"/>
-        <j:conditional xml:id="when_5">
+        <j:endConditional target="#when_5"/>
+        <j:conditional xml:id="when_6">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Purim:</tei:hi>
           </tei:note>
@@ -262,7 +277,7 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
-        <j:endConditional target="#when_5"/>
+        <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
         <tei:note type="instruction" xml:lang="en">If you forget to say this, you need not go back and repeat it. If you became aware of the omission before concluding the blessing, you can say it at that time.</tei:note>

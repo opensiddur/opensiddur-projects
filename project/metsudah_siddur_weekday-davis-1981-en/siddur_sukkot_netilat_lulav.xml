@@ -27,7 +27,16 @@
         <tei:note type="instruction" xml:lang="en">Many recite the following prayer before taking the four species (Lulav).</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_bifri_etz"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_lulav"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">If you are taking the lulav for the first time on Sukkos, you should also recite:</tei:note>
+          <tei:fs type="opensiddur:practice">
+            <tei:f name="lulav-first-use">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>
