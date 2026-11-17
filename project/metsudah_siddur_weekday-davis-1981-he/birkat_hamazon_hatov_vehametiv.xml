@@ -121,21 +121,28 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/93"/>וְנִמְצָא חֵן וְשֵֽׂכֶל טוֹב
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/94"/>בְּעֵינֵי אֱלֺהִים וְאָדָם:
 <tei:milestone unit="phrase"/>
+<j:conditional xml:id="when_1"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/95"/>הָרַחֲמָן, הוּא יַנְחִילֵֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/96"/>יוֹם שֶׁכֻּלּוֹ שַׁבָּת
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/97"/>וּמְ֒נוּחָה לְחַיֵּי הָעוֹלָמִים:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_1"/>
+<j:conditional xml:id="when_2"><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/98"/>הָרַחֲמָן, הוּא יְחַדֵּשׁ עָלֵֽינוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/99"/>אֶת הַחֹֽדֶשׁ הַזֶּה
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/100"/>לְטוֹבָה וְלִבְ֒רָכָה:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_2"/>
+<j:conditional xml:id="when_3"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/101"/>הָרַחֲמָן, הוּא יַנְחִילֵֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/102"/>יוֹם שֶׁכֻּלּוֹ טוֹב:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_3"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/103"/>הָרַחֲמָן, הוּא יְחַדֵּשׁ עָלֵֽינוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/104"/>אֶת הַשָּׁנָה הַזֹּאת
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/105"/>לְטוֹבָה וְלִבְ֒רָכָה:
 <tei:milestone unit="phrase"/>
+<j:conditional xml:id="when_4"><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/106"/>הָרַחֲמָן הוּא יָקִים לָֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/107"/>אֶת סֻכַּת דָּוִד הַנּוֹפָֽלֶת:
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/108"/>הָרַחֲמָן, הוּא יְזַכֵּֽנוּ
@@ -143,6 +150,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/110"/>וּלְ֒חַיֵּי הָעוֹלָם הַבָּא,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/111"/>מַגְדִּיל יְשׁוּעוֹת מַלְכּוֹ,
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_4"/>
+<j:conditional xml:id="when_5"><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
 <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/18/51"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/112"/>מִגְדּוֹל יְשׁוּעוֹת
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/113"/>מַלְכּוֹ,
@@ -153,7 +162,9 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/116"/>עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/117"/>הוּא יַעֲשֶׂה שָׁלוֹם עָלֵֽינוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/118"/>וְעַל כָּל יִשְׂרָאֵל,
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/119"/>וְאִמְרוּ אָמֵן:</tei:p>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/119"/>וְאִמְרוּ אָמֵן:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_5"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

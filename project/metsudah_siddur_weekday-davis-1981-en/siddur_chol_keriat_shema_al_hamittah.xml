@@ -27,6 +27,40 @@
         <tei:note type="instruction" xml:lang="en">The following is Omitted on the Shabbat and Festivals.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_hareini"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamappil"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_shacharit_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_arvit_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_keriat_shema_al_hamittah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vihi_noam"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:hashkivenu/chol_keriat_shema_al_hamittah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
       </tei:div>
     </tei:body>
   </tei:text>

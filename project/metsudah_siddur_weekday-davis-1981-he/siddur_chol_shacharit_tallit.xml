@@ -24,15 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/tallit">
         <tei:head xml:lang="he">סדר עטיפת טלית</tei:head>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:tallith/barkhi_nafshi/chol_shacharit_barekhi_nafshi">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/barkhi_nafshi"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/lehitattef"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/mah_yaqar"/>
       </tei:div>

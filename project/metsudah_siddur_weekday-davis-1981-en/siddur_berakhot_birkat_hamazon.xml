@@ -32,74 +32,62 @@
         </tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/berakhot_birkat_hamazon">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_sheva_berakhot_birkat_hamazon">
               <tei:binary value="false"/>
             </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_berit_milah_birkat_hamazon">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_berit_milah_birkat_hamazon">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbotay_nevarekh_yehi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
         <j:endDeclare target="#variants_1"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The leader repeats:</tei:hi>
-        </tei:note>
-        <j:declare xml:id="variants_2">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/berakhot_birkat_hamazon">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_berit_milah_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbotay_nevarekh_yehi"/>
-        <j:endDeclare target="#variants_2"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The leader continues: (the words "our God" are substituted for "Him" and "He" if ten males are in the group):</tei:hi>
-        </tei:note>
-        <j:declare xml:id="variants_3">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:bireshut_maranan_verabbanan/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:bireshut_maranan_verabbanan"/>
-        <j:endDeclare target="#variants_3"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The leader repeats:</tei:hi>
-        </tei:note>
-        <j:declare xml:id="variants_4">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_sheakhalnu_mishello/lifecycle_berit_milah_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_sheakhalnu_mishello"/>
-        <j:endDeclare target="#variants_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/eloheinu_avinu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
+        <j:endDeclare target="#variants_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
-        <j:declare xml:id="variants_5">
+        <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
               <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_453">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_rashei"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:declare xml:id="variants_5">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
             </tei:f>
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_453">
               <tei:binary value="false"/>
@@ -108,22 +96,16 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_5"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_rashei"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehazzemannim"/>
         <j:declare xml:id="variants_6">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
               <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_453">
-              <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
         <j:endDeclare target="#variants_6"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehazzemannim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim_tovim"/>
         <j:declare xml:id="variants_7">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">

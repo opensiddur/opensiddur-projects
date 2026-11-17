@@ -24,17 +24,36 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/vehu_rachum">
         <tei:head xml:lang="he">והוא רחום</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehu_rachum_yekhapper"/>
+        <j:conditional xml:id="when_1">
+          <j:any>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="2"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:day-of-week">
+              <tei:f name="hebrew-day">
+                <tei:numeric value="5"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehu_rachum_arokh"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha/repeat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/anna_melekh/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
         <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>

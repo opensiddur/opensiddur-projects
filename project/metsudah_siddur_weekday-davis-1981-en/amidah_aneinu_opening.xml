@@ -23,7 +23,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/aneinu/opening">
-        <tei:p><tei:note type="instruction" xml:lang="en">On Fast days during Mincha, the following petition is added here:</tei:note><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/1"/>Answer us, Adonoy, answer us
+        <tei:p><j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en">On Fast days during Mincha, the following petition is added here:</tei:note><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="tisha-bav"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/1"/>Answer us, Adonoy, answer us
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/2"/>on the day of our fasting,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/3"/>for we are in great trouble.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/4"/>Do not regard our wickedness,
@@ -39,12 +39,14 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/13"/>I will answer;<tei:anchor xml:id="note_1"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/14"/>while they are yet speaking,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/15"/>I will hear.
+<tei:milestone unit="phrase"/>
+<tei:milestone unit="verse"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/16"/>For You, Adonoy,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/17"/>are the One Who answers in time of trouble,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/18"/>Who redeems and rescues
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/19"/>in all times of trouble and distress.
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="verse"/>
+<j:endConditional target="#when_1"/>
 <tei:note type="instruction" xml:lang="en">Continue: “for You hear the prayers.” The Chazzan, however, concludes:</tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/20"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/21"/>Who answers His people Israel

@@ -25,12 +25,42 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/berakhah_meein_shalosh">
         <tei:head xml:lang="en">Concluding Blessings</tei:head>
         <tei:note type="instruction" xml:lang="en">After eating foods of the five species of grain, or wine, grapes, figs, pomegranates, olives, or dates.</tei:note>
-        <tei:note type="instruction" xml:lang="en">The following blessing is said after eating cooked or baked foods prepared from any of the five species of grain: wheat, barley, rye, oats, or spelt.</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hamichyah_veal"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hagefen_veal"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_haetz_veal"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hamichyah_veal"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veal_hagefen_veal"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">The following blessing is said after eating cooked or baked foods prepared from any of the five species of grain: wheat, barley, rye, oats, or spelt.</tei:note>
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/body"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:meein_shalosh/end_wine/berakhot_berakhah_meein_shalosh">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_fruit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake_wine"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:meein_shalosh/end_wine/berakhot_berakhah_meein_shalosh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>
+        <j:endDeclare target="#variants_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_nefashot"/>
       </tei:div>
     </tei:body>

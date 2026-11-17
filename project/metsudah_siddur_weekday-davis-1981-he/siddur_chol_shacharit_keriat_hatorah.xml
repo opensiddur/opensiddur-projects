@@ -24,10 +24,14 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/keriat_hatorah">
         <tei:head xml:lang="he">קריאת התורה</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim_umale"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:berikh_shemeh/berikh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gaddelu_ladonai_itti"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/hu_yerachem/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_natan/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_natan"/>
       </tei:div>
     </tei:body>
   </tei:text>

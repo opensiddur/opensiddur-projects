@@ -24,8 +24,11 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/blessings_before_shema">
         <tei:head xml:lang="he">ברכות לפני שמע</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehu_rachum_yekhapper_aon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehu_rachum"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:maariv_aravim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavat_olam_arvit"/>
       </tei:div>
     </tei:body>
   </tei:text>

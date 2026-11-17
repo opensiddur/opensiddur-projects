@@ -31,19 +31,39 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_116"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_117"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
         <j:endDeclare target="#variants_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal/text"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal"/>
         <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/chol_shacharit_mizmor_leveit_haavel">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/chol_shacharit_kaddish_yatom">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/chol_arvit_aleinu">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/chol_arvit_aleinu_131">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/oseh_shalom/chol_minchah_tachanun">
               <tei:binary value="false"/>
@@ -57,7 +77,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/oseh_shalom"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:endDeclare target="#variants_3"/>
       </tei:div>
     </tei:body>
   </tei:text>

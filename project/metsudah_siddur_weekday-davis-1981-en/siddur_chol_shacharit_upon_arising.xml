@@ -31,7 +31,16 @@
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">After washing your hands, say:</tei:hi>
         </tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:reshit_chakhmah_yirat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/111/10"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_tefillin">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">Before putting on your </tei:hi>tallis katan<tei:hi rend="italic"> say:</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_mitzvat_tzitzit"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/yehi_ratzon"/>

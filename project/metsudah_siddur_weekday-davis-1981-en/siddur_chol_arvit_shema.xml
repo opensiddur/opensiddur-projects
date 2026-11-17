@@ -24,21 +24,31 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/shema">
         <tei:head xml:lang="en">Shema</tei:head>
-        <tei:note type="instruction" xml:lang="en">The following three words should be said when praying without a minyan:</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_melekh_neeman"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/torah_procession/text"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">The following three words should be said when praying without a minyan:</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+        <j:endConditional target="#when_1"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_shacharit_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_arvit_shema">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <j:endDeclare target="#variants_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehayah_im_shamoa"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayyomer_adonai_el"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:adonai_eloheikhem_emet"/>
       </tei:div>
     </tei:body>
   </tei:text>

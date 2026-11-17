@@ -24,9 +24,27 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/ledavid_adonai_ori">
         <tei:head xml:lang="en">Psalm from Rosh Chodesh Elul</tei:head>
-        <tei:note type="instruction" xml:lang="en">The following psalm (27) is recited at the conclusion of services, morning and evenings, from the first day of Elul, through Shemini Atzeres. Others say only until Hoasha'na Rabbah.</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">The following psalm (27) is recited at the conclusion of services, morning and evenings, from the first day of Elul, through Shemini Atzeres. Others say only until Hoasha'na Rabbah.</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="6"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="1" max="22"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="en">The psalm voices our prayer that God will be our light on Rosh Hashana enabling us to repel the darkness of sin through true repentance, and that He will be our salvation on Yom Kippur, through His compassionate atonement of our sins.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/27"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="en">(Mourner's Kaddish.)</tei:note>
       </tei:div>
     </tei:body>

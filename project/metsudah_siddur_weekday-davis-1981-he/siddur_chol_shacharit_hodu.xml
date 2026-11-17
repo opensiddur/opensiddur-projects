@@ -24,7 +24,19 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/hodu">
         <tei:head xml:lang="he">הודו</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hodu_ladonai_qiru"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hodu"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pesuqim/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pesuqim/chol_arvit_motzaei_shabbat">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
+        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

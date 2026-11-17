@@ -33,7 +33,7 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/7"/>may You speedily establish therein.
 <tei:milestone unit="phrase"/>
 <j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/yerushalayim/chol_minchah_shemoneh_esreh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">During Mincha services on the Ninth of Av, the following petition is added here:</tei:hi></tei:note>
+<j:conditional xml:id="when_2"><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">During Mincha services on the Ninth of Av, the following petition is added here:</tei:hi></tei:note><j:all><tei:fs type="opensiddur:holiday"><tei:f name="tisha-bav"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional>
 <tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:amidah/nachem_hashem_eloheinu/opening"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/10"/>Adonoy, our God, console
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/11"/>the mourners of Zion<tei:anchor xml:id="note_2"/>
@@ -68,16 +68,17 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/38"/>and I shall be for glory in her midst.”<tei:anchor xml:id="note_4"/>
 <tei:milestone unit="phrase"/>
 <tei:milestone unit="prayer"/>
+<j:endConditional target="#when_2"/>
 <j:endConditional target="#variant_1"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/8"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/yerushalayim/chol_minchah_shemoneh_esreh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/yerushalayim/chol_minchah_shemoneh_esreh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/39"/>Consoler of Zion and Builder of Jerusalem.
 <tei:milestone unit="phrase"/>
 <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">Continue: “The sprout of David</tei:hi></tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/40"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_2"/>
+<j:endConditional target="#variant_3"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/yerushalayim/9"/>Builder of Jerusalem.</tei:p>
       </tei:div>
     </tei:body>

@@ -31,11 +31,12 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/6"/>deal with us [kindly]
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/7"/>for the sake of Your Name.<tei:anchor xml:id="note_3"/>
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">During the Ten Days of Penitence, say:</tei:hi></tei:note>
+<j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">During the Ten Days of Penitence, say:</tei:hi></tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/8"/>Our Father, our King!
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/9"/>renew for us a good year.
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">On public fast-days, say:</tei:hi></tei:note>
+<j:endConditional target="#when_1"/>
+<j:conditional xml:id="when_2"><tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">On public fast-days, say:</tei:hi></tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/10"/>Our Father, our King!
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/11"/>bless us with a good year.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/12"/>Our Father, our King!
@@ -75,7 +76,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/46"/>Our Father, Our King!
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/47"/>remember us favorably before You.
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en">The following five prayers are said during the Ten Days of Penitence.</tei:note>
+<j:endConditional target="#when_2"/>
+<j:conditional xml:id="when_3"><tei:note type="instruction" xml:lang="en">The following five prayers are said during the Ten Days of Penitence.</tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/48"/>Our Father, Our King!
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/49"/>inscribe us in the Book of the Good Life.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/50"/>Our Father, Our King!
@@ -90,7 +92,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/59"/>inscribe us
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/60"/>in the Book of Pardon and Forgiveness.
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en">The following five prayers are said on public fast-days.</tei:note>
+<j:endConditional target="#when_3"/>
+<j:conditional xml:id="when_4"><tei:note type="instruction" xml:lang="en">The following five prayers are said on public fast-days.</tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/61"/>Our Father, Our King!
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/62"/>remember us for a good life.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/63"/>Our Father, Our King!
@@ -159,7 +162,9 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/126"/>favor us and answer us
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/127"/>for we have no accomplishments;
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/128"/>deal with us charitably and kindly with us
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/129"/>and deliver us.</tei:p>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/129"/>and deliver us.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_4"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

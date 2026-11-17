@@ -26,59 +26,28 @@
         <tei:head xml:lang="he">ברכת המזון לברית מילה</tei:head>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/berakhot_birkat_hamazon">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_sheva_berakhot_birkat_hamazon">
               <tei:binary value="false"/>
             </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_berit_milah_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbotay_nevarekh_yehi"/>
-        <j:endDeclare target="#variants_1"/>
-        <j:declare xml:id="variants_2">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:rabbotay_nevarekh_yehi/lifecycle_berit_milah_birkat_hamazon">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_berit_milah_birkat_hamazon">
               <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:rabbotay_nevarekh_yehi"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/yehi_shem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/refrain"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/refrain"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/refrain"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birshut_hakohanim_vehaleviyyim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birshut_maranan_verabbanan"/>
-        <j:declare xml:id="variants_3">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:bireshut_maranan_verabbanan/lifecycle_sheva_berakhot_birkat_hamazon">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:bireshut_maranan_verabbanan"/>
-        <j:endDeclare target="#variants_3"/>
-        <j:declare xml:id="variants_4">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_sheakhalnu_mishello/lifecycle_berit_milah_birkat_hamazon">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_sheakhalnu_mishello"/>
-        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/refrain"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:birshut_el_ayom/refrain"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/nevarekh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_sheakhalnu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:harachaman_berit_milah/3"/>

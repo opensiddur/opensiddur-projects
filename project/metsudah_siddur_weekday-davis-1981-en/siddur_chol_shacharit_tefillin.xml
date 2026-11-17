@@ -24,7 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/tefillin">
         <tei:head xml:lang="en">Putting on the Tefillin</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshem_yichud_qudesha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/hineni_mekhavven"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">Place the "tefillin of the arm" on the muscle of your left arm, and before tightening it, say:</tei:hi>
         </tei:note>
@@ -33,7 +33,15 @@
           <tei:hi rend="italic">Wrap the strap around your arm 7 times and then place the "tefillin of the head" on your head above the region between your eyes, and say:</tei:hi>
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/al_mitzvat"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/barukh_shem"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_tefillin">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">With the "tefillin of the head" in place, say:</tei:hi>
         </tei:note>

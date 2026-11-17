@@ -25,17 +25,25 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/yishtabbach">
         <tei:head xml:lang="he">ישתבח</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/130"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yitbarakh/hallel">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
         <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>

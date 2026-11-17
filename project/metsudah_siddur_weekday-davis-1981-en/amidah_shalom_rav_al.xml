@@ -34,7 +34,7 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/9"/>at all times and at every moment
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/10"/>with Your peace.
 <tei:milestone unit="phrase"/>
-<tei:note type="instruction" xml:lang="en">During the Ten Days of Penitence continue here:</tei:note>
+<j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en">During the Ten Days of Penitence continue here:</tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/11"/>In the book of life, blessing, peace
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/12"/>and abundant maintenance,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/13"/>good decrees, salvations and condolences,
@@ -43,6 +43,7 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/16"/>we and all Your people, the House of Israel
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/17"/>for a good life and peace.
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_1"/>
 <tei:note type="instruction" xml:lang="en">If you forget to say this you need not go back and repeat it.</tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/18"/>Blessed are You, Adonoy,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/shalom_rav_al/19"/>Who blesses His people Israel

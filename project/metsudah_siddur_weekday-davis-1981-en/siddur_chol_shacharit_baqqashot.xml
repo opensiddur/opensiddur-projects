@@ -25,18 +25,23 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/baqqashot">
         <tei:head xml:lang="en">Morning Supplications</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leolam_yehe_adam"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kal_haolamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/shema_yisrael"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_keriat_shema">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_shacharit_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_arvit_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/ad_shelo"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/bashamayim"/>

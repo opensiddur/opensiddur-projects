@@ -31,9 +31,12 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/6"/>עֲשֵׂה עִמָּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/7"/>לְמַֽעַן שְׁמֶֽךָ:
 <tei:milestone unit="phrase"/>
+<j:conditional xml:id="when_1"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/8"/>אָבִֽינוּ מַלְכֵּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/9"/>חַדֵּשׁ עָלֵֽינוּ שָׁנָה טוֹבָה:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_1"/>
+<j:conditional xml:id="when_2"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/10"/>אָבִֽינוּ מַלְכֵּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/11"/>בָּרֵךְ עָלֵֽינוּ שָׁנָה טוֹבָה:
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/12"/>אָבִֽינוּ מַלְכֵּֽנוּ
@@ -73,6 +76,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/46"/>אָבִֽינוּ מַלְכֵּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/47"/>זָכְ֒רֵֽנוּ בְּזִכָּרוֹן טוֹב לְפָנֶֽיךָ:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_2"/>
+<j:conditional xml:id="when_3"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/48"/>אָבִֽינוּ מַלְכֵּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/49"/>כָּתְ֒בֵֽנוּ בְּסֵֽפֶר חַיִּים טוֹבִים:
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/50"/>אָבִֽינוּ מַלְכֵּֽנוּ
@@ -87,6 +92,8 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/59"/>כָּתְ֒בֵֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/60"/>בְּסֵֽפֶר סְלִיחָה וּמְ֒חִילָה:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_3"/>
+<j:conditional xml:id="when_4"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/61"/>אָבִֽינוּ מַלְכֵּֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/62"/>זָכְ֒רֵֽנוּ לְחַיִּים טוֹבִים:
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/63"/>אָבִֽינוּ מַלְכֵּֽנוּ
@@ -155,7 +162,9 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/126"/>חָנֵּֽנוּ וַעֲנֵֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/127"/>כִּי אֵין בָּֽנוּ מַעֲשִׂים
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/128"/>עֲשֵׂה עִמָּֽנוּ צְדָקָה וָחֶֽסֶד
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/129"/>וְהוֹשִׁיעֵֽנוּ:</tei:p>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:avinu_malkenu/129"/>וְהוֹשִׁיעֵֽנוּ:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_4"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

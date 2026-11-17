@@ -27,7 +27,18 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/yehi_ratzon_miqdash"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/veshachat"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/yehi_ratzon_amirah/chol_shacharit_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/yehi_ratzon_amirah/chol_shacharit_qetoret_373">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/yehi_ratzon_amirah"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
       </tei:div>
     </tei:body>

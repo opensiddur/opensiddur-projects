@@ -28,7 +28,19 @@
         <tei:note type="instruction" xml:lang="en">You are permitted to answer Amein, respond to <tei:hi rend="italic">Barechu, Kaddish</tei:hi> and to say <tei:hi rend="italic">Kedushah</tei:hi> even though you are in the midst of <tei:hi rend="italic">Pesukei Dezimrah</tei:hi>. You are also permitted to say <tei:hi rend="italic">Modim d'Rabbonon</tei:hi> and the first verse of the <tei:hi rend="italic">Shema</tei:hi> together with the congregation.</tei:note>
         <tei:note type="instruction" xml:lang="en">If you are concerned that the saying of <tei:hi rend="italic">Kerias Shema</tei:hi> will not be within the proper time should you follow the regular order of prayers, you are permitted to recite the entire <tei:hi rend="italic">Kerias Shema</tei:hi> during the <tei:hi rend="italic">Pesukei Dezimrah</tei:hi>.</tei:note>
         <tei:note type="instruction" xml:lang="en">The first 28 verses of this section are taken from 1 Chronicles 16:8-36, and the first 15 are almost identical with the first fifteen verses of Psalms 105. These prayers are mentioned in <tei:hi rend="italic">Maseches Soferim.</tei:hi></tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hodu_ladonai_qiru"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hodu"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pesuqim/chol_shacharit_ashrei_uva_letziyyon">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pesuqim/chol_arvit_motzaei_shabbat">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
+        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

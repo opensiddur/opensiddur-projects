@@ -23,7 +23,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/aneinu/opening">
-        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/1"/>עֲנֵֽנוּ יְהֹוָה עֲנֵֽנוּ
+        <tei:p><j:conditional xml:id="when_1"><j:all><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="minor-fast"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday"><tei:f name="tisha-bav"><tei:binary value="true"/></tei:f></tei:fs></j:any><tei:fs type="opensiddur:service-time"><tei:f name="minha"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/1"/>עֲנֵֽנוּ יְהֹוָה עֲנֵֽנוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/2"/>בְּיוֹם צוֹם תַּעֲנִיתֵֽנוּ.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/3"/>כִּי בְצָרָה גְדוֹלָה אֲנָֽחְנוּ.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/4"/>אַל תֵּֽפֶן אֶל רִשְׁעֵֽנוּ
@@ -39,12 +39,14 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/13"/>וַאֲנִי אֶעֱנֶה.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/14"/>עוֹד הֵם מְדַבְּ֒רִים
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/15"/>וַאֲנִי אֶשְׁמָע.
+<tei:milestone unit="phrase"/>
+<tei:milestone unit="verse"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/16"/>כִּי אַתָּה יְהֹוָה
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/17"/>הָעוֹנֶה בְּעֵת צָרָה.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/18"/>פּוֹדֶה וּמַצִּיל
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/19"/>בְּכָל עֵת צָרָה וְצוּקָה:
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="verse"/>
+<j:endConditional target="#when_1"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/20"/>בָּרוּךְ אַתָּה יְהֹוָה
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/21"/>הָעוֹנֶה לְעַמּוֹ יִשְׂרָאֵל
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/aneinu/opening/22"/>בְּעֵת צָרָה:
