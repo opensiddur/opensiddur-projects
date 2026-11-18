@@ -1748,7 +1748,15 @@
                         </j:all>
                       </j:conditional>
                       <tei:div>
+                        <j:declare xml:id="section_expanded_metz_kol_1_settings">
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/kol_yoshvei"/>
+                        <j:endDeclare target="#section_expanded_metz_kol_1_settings"/>
                       </tei:div>
                       <j:endConditional target="#section_expanded_metz_kol_1_condition"/>
                     </tei:div>
@@ -1776,7 +1784,15 @@
                         </j:all>
                       </j:conditional>
                       <tei:div>
+                        <j:declare xml:id="section_expanded_metz_kol_2_settings">
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim/kol_yoshvei"/>
+                        <j:endDeclare target="#section_expanded_metz_kol_2_settings"/>
                       </tei:div>
                       <j:endConditional target="#section_expanded_metz_kol_2_condition"/>
                     </tei:div>
