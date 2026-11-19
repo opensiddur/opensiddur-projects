@@ -33,7 +33,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding">Draft transcription through physical PDF scan 223, ending with Avot in the Musaf repetition. The rest of the repetition remains to be digitized. No full-volume source acceptance is claimed.</tei:note>
+          <tei:note type="encoding">Transcription continues through Unetaneh Toqef and its closing continuation on physical PDF scans238–239. The rest of Kedushah and Musaf remains incomplete; this new batch is under independent source and encoding review.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -2753,6 +2753,24 @@
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/misod_chakhamim"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:poem:uppad_meaz"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_avot_close"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_gevurot_open"/>
+                    <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:tefen_bemakhon"/>
+                    <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_gevurot_close"/>
+                    <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:af_orach_mishpatekha_qivvinukha"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_yimlokh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_veattah_qadosh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_emunah_beorkekha_din"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:im_lo_lemaano_yaas"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:ometz_adirei_kol_chefetz"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_vayehi_vishurun_melekh"/>
+                    <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_elyon"/>
+                    <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_uvekhen_lekha_taaleh_qedushah"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:unetaneh_toqef_in_hebrew"/>
                     <j:endDeclare target="#section_musaf_repetition_s220_settings"/>
                   </tei:div>
                   <j:endConditional target="#section_musaf_repetition_s220_condition"/>
