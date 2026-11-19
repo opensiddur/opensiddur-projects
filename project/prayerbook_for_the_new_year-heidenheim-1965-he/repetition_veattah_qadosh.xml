@@ -31,7 +31,18 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg">
-        <tei:p><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg" n="51"/><tei:milestone unit="chapter" n="22" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh/quotation/22"/><tei:milestone unit="verse" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh/quotation/22/4" n="4"/><tei:seg source="urn:x-opensiddur:text:bible:psalms/22/4">וְאַתָּה קָדוֹשׁ יוֹשֵׁב תְּהִלּוֹת יִשְׂרָאֵל</tei:seg> <tei:milestone unit="verse"/><tei:milestone unit="chapter"/> אֵל נָא: </tei:p>
+        <j:declare xml:id="repetition_veattah_qadosh_wording">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_dwellest">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_art_enthroned">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:p><tei:pb ed="1965 rosh_hashanah/shacharit/repetition/veattah_qadosh" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg" n="51"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:veattah_qadosh_el_na/text@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
+        <j:endDeclare target="#repetition_veattah_qadosh_wording"/>
       </tei:div>
     </tei:body>
   </tei:text>

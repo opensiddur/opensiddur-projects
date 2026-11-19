@@ -31,10 +31,39 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/gevurot" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n26.jpg">
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibbor"/>Thou art for ever mighty, O Lord the reviver of the dead, Thou art great to save. </tei:p>
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim"/>Sustaining life with kindness, reviving the dead with great compassion, supporting the falling and healing the sick and releasing captives and keeping His faith with those who sleep in the dust. Who is like Thee, Master of might, and who resembles Thee, O King, who slays and revives and causes salvation to spring forth. </tei:p>
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/mi_khamokha"/>Who is like Thee, Father of compassion, who remembers His creatures for life in compassion. </tei:p>
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayyeh_hametim"/>And Thou art faithful to revive the dead. Blessed art Thou, O Lord who revives the dead. <tei:milestone unit="prayer-part"/></tei:p>
+        <j:declare xml:id="rh_gevurot_wording">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/attah_gibbor/for_ever">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/attah_gibbor/forever">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mekhalkel_chayyim/falling_and_healing">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mekhalkel_chayyim/falling_healing">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mi_khamokha/compassion_with_comma">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mi_khamokha/compassion_without_comma">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mechayyeh_hametim/and_thou_lord_without_comma">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mechayyeh_hametim/and_thou_lord_with_comma">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibbor@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mi_khamokha@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayyeh_hametim@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <j:endDeclare target="#rh_gevurot_wording"/>
       </tei:div>
     </tei:body>
   </tei:text>

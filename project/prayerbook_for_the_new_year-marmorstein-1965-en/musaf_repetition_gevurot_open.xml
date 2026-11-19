@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -31,8 +31,25 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_gevurot_open" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n224.jpg">
-        <tei:p><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n224.jpg" n="102"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition_gevurot_open/text"/><tei:seg source="urn:x-opensiddur:text:prayer:amidah/gevurot">Thou art forever mighty, O Lord the reviver of the dead, Thou art great to save.</tei:seg> </tei:p>
-        <tei:p><tei:seg source="urn:x-opensiddur:text:prayer:amidah/gevurot">Sustaining life with kindness, reviving the dead with great compassion, supporting the falling, healing the sick, and releasing captives and keeping His faith with those who sleep in the dust. Who is like Thee, Master of might, and who resembles Thee, O King, who slays and revives and causes salvation to spring forth.</tei:seg> <tei:milestone unit="prayer-part"/></tei:p>
+        <j:declare xml:id="musaf_repetition_gevurot_open_wording">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/attah_gibbor/for_ever">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/attah_gibbor/forever">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mekhalkel_chayyim/falling_and_healing">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mekhalkel_chayyim/falling_healing">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:p><tei:pb ed="1965 rosh_hashanah/musaf/repetition_gevurot_open" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n224.jpg" n="102"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibbor@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <j:endDeclare target="#musaf_repetition_gevurot_open_wording"/>
       </tei:div>
     </tei:body>
   </tei:text>

@@ -9,7 +9,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>DRAFT: independent adjudication pending. Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -176,7 +176,24 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_pachdekha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_kavod@prayerbook_for_the_new_year-marmorstein-1965-en"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_tzaddiqim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:declare xml:id="rh_vetimlokh_printed_wording_0">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/146/10/name_plene_hallaluyah_chataf">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/146/10/name_abbreviated_halleluyah_sheva">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/146/10/the_lord_shall_reign">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/146/10/the_lord_will_reign">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_attah_hashem@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:endDeclare target="#rh_vetimlokh_printed_wording_0"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qadosh_attah_venora@prayerbook_for_the_new_year-marmorstein-1965-en"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qedushat_hayom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
@@ -358,7 +375,18 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:adirei_ayummah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_dayyan_emet_attah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_holiness_ascend">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <tei:div>
           <j:conditional xml:id="documentary_morning_avinu_malkenu_en">

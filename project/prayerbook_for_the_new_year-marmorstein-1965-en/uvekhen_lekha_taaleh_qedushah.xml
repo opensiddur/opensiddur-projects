@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main">וּבְכֵן לְךָ תַעֲלֶה קְדֻשָּׁה</tei:title>
+        <tei:title type="main" xml:lang="he">וּבְכֵן לְךָ תַעֲלֶה קְדֻשָּׁה</tei:title>
         <tei:respStmt>
           <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
@@ -24,6 +24,7 @@
         <tei:bibl>
           <tei:ptr target="/prayerbook_for_the_new_year-marmorstein-1965-en/index#project_source_bibl"/>
           <tei:biblScope unit="pages" from="59" to="59"/>
+          <tei:biblScope unit="pages" from="107" to="107"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -31,7 +32,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n146.jpg">
-        <tei:p><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n146.jpg" n="59"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah/text"/>And thus let sanctification arise for Thee, For Thou art our God, O King. <tei:milestone unit="prayer-part"/></tei:p>
+        <tei:p><tei:pb ed="1965 rosh_hashanah/shacharit/repetition" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n146.jpg" n="59"/><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah/text"/><tei:choice><j:option corresp="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n146.jpg">And thus let sanctification arise for Thee, For Thou art our God, O King.</j:option><j:option corresp="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_holiness_ascend" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n234.jpg">And therefore to Thee let holiness ascend for Thou art our God, O King.</j:option></tei:choice> <tei:milestone unit="prayer-part"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>
