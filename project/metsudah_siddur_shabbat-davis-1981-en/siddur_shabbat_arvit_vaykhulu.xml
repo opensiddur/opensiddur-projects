@@ -1,0 +1,47 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Vayechulu</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/vaykhulu">
+        <tei:head xml:lang="en">Vayechulu</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/2/1-3"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avot/shabbat_arvit_vaykhulu">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avot/regalim_amidah">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avot/regalim_musaf_amidah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avot"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">The congregation may recite the following paragraph, which should then be repeated aloud <tei:hi rend="italic">and </tei:hi>in its entirety <tei:hi rend="italic">by the Chazzan.</tei:hi></tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">וְלַמַּלְשִׁינִים אַל תְּהִי תִקְוָה וְכָל הָרִשְׁעָה</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/minim">
+        <tei:head xml:lang="he">ברכת המינים</tei:head>
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/1"/>וְלַמַּלְשִׁינִים אַל תְּהִי תִקְוָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/2"/>וְכָל הָרִשְׁעָה כְּרֶגַע תֹּאבֵד
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/3"/>וְכָל אֹיְ֒בֶֽיךָ מְהֵרָה יִכָּרֵֽתוּ,
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/minim/shabbat_conclusion_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/15"/>וְהַזֵּדִים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/16"/>מְהֵרָה תְעַקֵּר וּתְ֒שַׁבֵּר וּתְ֒מַגֵּר
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/17"/>וּתְ֒כַלֵם וְתַשְׁפִּילֵם
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/minim/shabbat_conclusion_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/13"/>וְהַזֵּדִים מְהֵרָה תְעַקֵּר
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/minim/shabbat_conclusion_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/14"/>וּתְ֒שַׁבֵּר וּתְ֒מַגֵּר וּתְ֒כַלֵם וְתַשְׁפִּילֵם
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_3"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/7"/>וְתַכְנִיעֵם בִּמְ֒הֵרָה בְיָמֵֽינוּ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/8"/>בָּרוּךְ אַתָּה יְהֹוָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/9"/>שׁוֹבֵר אֹיְ֒בִים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/minim/10"/>וּמַכְנִֽיעַ זֵדִים:</tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

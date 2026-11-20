@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Yishtabach</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/yishtabbach">
+        <tei:head xml:lang="en">Yishtabach</tei:head>
+        <tei:note type="instruction" xml:lang="en">Rabbeinu Alfasi (<tei:hi rend="italic">Maseches Berachos</tei:hi> 32) refers to <tei:hi rend="italic">Baruch She'amar</tei:hi> as the open- ing blessing of the <tei:hi rend="italic">Pesukei Dezimrah,</tei:hi> and <tei:hi rend="italic">Yishtabach</tei:hi> as the concluding blessing.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/130"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/shabbat_musaf_amidah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">It has become a universally-accepted custom to recite Barechu before proceeding to the blessings of Shema. Barechu, like Kaddish and Kedusha, cannot be recited unless a quorum—a <tei:hi rend="italic">minyan</tei:hi> of ten adult males—is present. Barechu is also said by one who is called upon to read from the Torah.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The practice of saying Barechu is mentioned numerous times in the Talmud. It is even cited in the Mishna (<tei:hi rend="italic">Maseches Berachos</tei:hi> 49b) in the names of Rabbi Akiva and Rabbi Yishmael.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The Chazzan<tei:hi rend="italic"> says:</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
+        <tei:note type="instruction" xml:lang="en">The Congregation responds and the Chazzan<tei:hi rend="italic"> repeats:</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/opening"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yotzer_or/hameir/shabbat_shacharit_el_adon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hameir"/>
+        <j:endDeclare target="#variants_2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

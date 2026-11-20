@@ -1,0 +1,76 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Birkas Kohanim</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:regalim/birkat_kohanim">
+        <tei:head xml:lang="en">Birkas Kohanim</tei:head>
+        <tei:note type="instruction" xml:lang="en">Even though the <tei:hi rend="italic">kohanim</tei:hi> are commanded to bless Israel every day (according to some authorities) nevertheless, the custom outside the Holy Land is that <tei:hi rend="italic">koha- nim</tei:hi> bless the people only during the Musaf Service of the Festivals, and the High Holidays. One reason given is that the Priestly Blessings are pronounced only in a festive atmosphere. Thus on weekdays when people are troubled with the difficul- ties of earning a livelihood, and even on the Sabbath when people are disturbed by thoughts of their economic plight, the blessings are not pronounced.</tei:note>
+        <tei:note type="instruction" xml:lang="en">During the Musaf Service of the Festivals, however, which precedes the festive meal of the holiday, a joyous atmosphere does prevail and the Priestly Blessing is pronounced.</tei:note>
+        <tei:note type="instruction" xml:lang="en">After the Chazzan's recital of ‘ רְצֵה , be pleased,' the following prayer is recited by the Congregation and <tei:hi rend="italic"> kohanim,</tei:hi> and repeated by the Chazzan:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vetearev_lefanekha_atiratenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_qiddeshanu_biqdushato"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan chants each word of the <tei:hi rend="italic">Bircas Kohanim</tei:hi> and the <tei:hi rend="italic">Kohanim</tei:hi> pronounce it after Him. The Congregation should concentrate on their words, <tei:hi rend="italic">but not repeat them.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yevarekhkha_adonai_veyishmrekha"/>
+        <tei:note type="instruction" xml:lang="en">While the kohanim sing an extended chant before saying וְיִשְׁמְרֶֽךָ , the congregation says the following prayer in an undertone. This prayer is not said on the Sabbath.</tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ribbono_shel_olam_ani/regalim_birkat_kohanim">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_ani"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">After the Kohanim pronounce the word וְיִשְׁמְרֶךָ , the Congregation and the Chazzan say: Amen.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/25"/>
+        <tei:note type="instruction" xml:lang="en">While the Kohanim sing an extended chant before saying וִיחֻנֶךָ , the congregation says the following prayer in an undertone:</tei:note>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ribbono_shel_olam_ani/regalim_birkat_kohanim">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_ani"/>
+        <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">After the Kohanim pronounce the word וִיחֻנֶךָ , the Congregation and the Chazzan say: Amen.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/26"/>
+        <tei:note type="instruction" xml:lang="en">While the Kohanim sing an extended chant before saying שָׁלוֹם , the congregation says the following prayer in an undertone.</tei:note>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:ribbono_shel_olam_ani/regalim_birkat_kohanim">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_ani"/>
+        <j:endDeclare target="#variants_3"/>
+        <tei:note type="instruction" xml:lang="en">After the Kohanim pronounce the word שָׁלוֹם , the Congregation and the Chazzan say: Amen.</tei:note>
+        <tei:note type="instruction" xml:lang="en">After the Kohanim conclude the blessing, the Congregation says:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:addir_bamarom_shokhen"/>
+        <tei:note type="instruction" xml:lang="en">(After the Kohanim conclude their blessing, they turn to the Ark and recite:)</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_asinu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
