@@ -1,0 +1,34 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Sholom Aleichem</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/shalom_aleikhem">
+        <tei:head xml:lang="en">Sholom Aleichem</tei:head>
+        <tei:note type="instruction" xml:lang="en">Rabbi Yose son of Rabbi Yehudah said: “Two angels accompany a man on the eve of Shabbos from the synagogue to his home, one good angel and one evil angel.” When the person arrives home to find the lights burning, the table set, and the bed made, the good angel exclaims, “May it be God's will that it be so next Shabbos.” But if not so, if the the house is dark and in disorder, the evil angel exclaims, “May it be God's will that it be so next Shabbos.” The good angel is compelled to answer Amein.—<tei:hi rend="italic">Maseches Shabbos</tei:hi> 119b</tei:note>
+        <tei:note type="instruction" xml:lang="en">The custom of singing <tei:hi rend="italic">Sholom Aleichem</tei:hi>, peace upon you, upon returning from the synagogue is based on the above Talmudic teaching. Since every Jew is accompanied home by these two angels, it is fitting that he welcome them into his home. Obviously, one should prepare for Shabbos in such manner to evoke the angels' best wishes.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:shalom_aleikhem"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim_adon_kol_haneshamot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

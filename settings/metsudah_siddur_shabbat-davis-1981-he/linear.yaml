@@ -1,0 +1,39 @@
+# The Metsudah Shabbat siddur (Sefard, 1981), imported from Sefaria: the Hebrew beside
+# Avrohom Davis's linear English translation, phrase by phrase, as the book prints it.
+
+description: >
+  The Metsudah Shabbat and festival siddur (Nusach Sefard), Hebrew beside its linear English
+  translation, phrase by phrase, with Davis's notes as numbered footnotes. No date or
+  place is declared: every seasonal insertion is printed with its rubric, as in the book.
+
+requires_processor: ">=0.7.0"
+book:
+  project: metsudah_siddur_shabbat-davis-1981-he
+  file_name: index.xml
+  title: The Metsudah Siddur (Shabbat)
+
+priority:
+  # The Hebrew wins wherever both projects realise a URN; the English is the fallback for
+  # anything only it realises.
+  transclusion: [metsudah_siddur_shabbat-davis-1981-he, metsudah_siddur_shabbat-davis-1981-en]
+
+# Davis's footnotes are in the English project only.
+annotations: [metsudah_siddur_shabbat-davis-1981-en]
+
+# Each phrase carries a metsudah: URN in both projects, so the columns pair line by line.
+parallel:
+  projects: [metsudah_siddur_shabbat-davis-1981-en]
+  column_order: primary_first
+
+typography:
+  # Most of Metsudah's rubrics are given only in English, opposite an empty Hebrew line.
+  instructions:
+    from: both
+  parallel:
+    layout: pairs
+  notes:
+    placement: footnote
+    mark: numeric
+  table_of_contents:
+    enabled: true
+    depth: 2

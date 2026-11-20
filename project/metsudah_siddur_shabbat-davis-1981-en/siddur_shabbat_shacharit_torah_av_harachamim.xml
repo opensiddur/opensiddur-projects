@@ -1,0 +1,33 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Av Horachamim</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/av_harachamim">
+        <tei:head xml:lang="en">Av Horachamim</tei:head>
+        <tei:note type="instruction" xml:lang="en">According to <tei:hi rend="italic">Shaar Ephraim,</tei:hi> this prayer was composed during the persecutions of 1075 and 1095 when thousands of Jews were killed in sanctification of God's Name.</tei:note>
+        <tei:note type="instruction" xml:lang="en">אַב הָרַחֲמִים is said every Shabbos except: when the new moon is blessed, on Rosh Chodesh, on Yom Tov, on Chanukah or Purim, when there is a bridegroom, or when one whose son is to be circumcised on that day is present in the congrega- tion. Between Pesach and Shavuous, אַב הָרַחֲמִים is said in many congregations even on the Shabossos when the new month is blessed.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/shokhen_meromim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
