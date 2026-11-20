@@ -24,8 +24,41 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/birkat_hamazon">
         <tei:head xml:lang="en">Birchas Hamazon</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/shir_hamaalot"/>
         <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">Psalm 126 is recited on Shabbos, Yom Tov and other festive occasions such as weddings, circumcisions or redemption of the first born.</tei:note>
+          <j:any>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="yom-tov">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <tei:fs type="opensiddur:override">
+              <tei:f name="wedding">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:override">
+              <tei:f name="sheva-brachot">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:override">
+              <tei:f name="brit-milah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/shir_hamaalot"/>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
           <tei:note type="instruction" xml:lang="en">When three or more males aged 13 or older eat together, one of them leads the group in reciting the Birkas Hamazon.</tei:note>
           <tei:fs type="opensiddur:meal-context">
             <tei:f name="zimmun">
@@ -46,10 +79,10 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
         <j:endDeclare target="#variants_1"/>
-        <j:endConditional target="#when_1"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
-        <j:conditional xml:id="when_2">
+        <j:conditional xml:id="when_3">
           <tei:note type="instruction" xml:lang="en">On Chanukah add:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="hanukkah">
@@ -78,12 +111,12 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
         <j:endDeclare target="#variants_2"/>
-        <j:endConditional target="#when_2"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/eloheinu_avinu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
-        <j:conditional xml:id="when_3">
+        <j:conditional xml:id="when_4">
           <tei:note type="instruction" xml:lang="en">On Rosh Chodesh and Yom Tov, add:</tei:note>
           <j:any>
             <tei:fs type="opensiddur:holiday">
@@ -116,7 +149,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_3"/>
-        <j:endConditional target="#when_3"/>
+        <j:endConditional target="#when_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>

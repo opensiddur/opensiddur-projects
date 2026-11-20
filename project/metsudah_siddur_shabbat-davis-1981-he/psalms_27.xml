@@ -23,7 +23,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:bible:psalms/27">
-        <tei:p><j:conditional xml:id="when_1"><j:any><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="6"/></tei:f></tei:fs><tei:fs type="opensiddur:hebrew-date"><tei:f name="month"><tei:numeric value="7"/></tei:f><tei:f name="day"><tei:numeric value="1" max="22"/></tei:f></tei:fs></j:any></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/1"/>לְדָוִד
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/1"/>לְדָוִד
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/2"/>יְהֹוָה אוֹרִי וְיִשְׁעִי
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/3"/>מִמִּי אִירָא
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/4"/>יְהֹוָה מָעוֹז חַיַּי
@@ -74,18 +74,16 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/49"/>בְּטוּב יְהֹוָה
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/50"/>בְּאֶֽרֶץ חַיִּים:
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:bible:psalms/27/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:bible:psalms/27/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/54"/>❖קַוֵּה אֶל יְהֹוָה
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_2"/>
-<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:bible:psalms/27/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:bible:psalms/27/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/51"/>קּקַוֵּה אֶל יְהֹוָה
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_3"/>
+<j:endConditional target="#variant_2"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/52"/>חֲזַק וְיַאֲמֵץ לִבֶּךָ
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/53"/>וְקַוֵּה אֶל יְהֹוָה:
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#when_1"/></tei:p>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:psalms/27/53"/>וְקַוֵּה אֶל יְהֹוָה:</tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

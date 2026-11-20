@@ -31,10 +31,19 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_116"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_117"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_118"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/shabbat_musaf_amidah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/titqabbal"/>
+        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/derabbanan/yehe_shelama/shabbat_shacharit_amidah">
               <tei:binary value="false"/>
@@ -48,8 +57,8 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shelama"/>
-        <j:endDeclare target="#variants_1"/>
-        <j:declare xml:id="variants_2">
+        <j:endDeclare target="#variants_2"/>
+        <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yatom/oseh_shalom/shabbat_erev_minchah_kaddish_yatom">
               <tei:binary value="false"/>
@@ -81,7 +90,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:endDeclare target="#variants_3"/>
       </tei:div>
     </tei:body>
   </tei:text>

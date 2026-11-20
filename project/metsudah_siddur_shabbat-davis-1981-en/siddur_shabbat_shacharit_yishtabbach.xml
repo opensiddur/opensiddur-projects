@@ -26,7 +26,16 @@
         <tei:head xml:lang="en">Yishtabach</tei:head>
         <tei:note type="instruction" xml:lang="en">Rabbeinu Alfasi (<tei:hi rend="italic">Maseches Berachos</tei:hi> 32) refers to <tei:hi rend="italic">Baruch She'amar</tei:hi> as the open- ing blessing of the <tei:hi rend="italic">Pesukei Dezimrah,</tei:hi> and <tei:hi rend="italic">Yishtabach</tei:hi> as the concluding blessing.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">During the Ten Days of Penitence add:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/130"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">

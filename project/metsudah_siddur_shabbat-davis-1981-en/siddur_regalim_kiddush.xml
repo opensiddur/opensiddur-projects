@@ -42,16 +42,16 @@
         <tei:note type="instruction" xml:lang="en">Recite quietly:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/vayekhulu"/>
         <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:borei_peri_hagafen/text/shabbat_day_meal_kiddush">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kiddush/savri/shabbat_day_meal_kiddush">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/savri"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamotzi"/>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">

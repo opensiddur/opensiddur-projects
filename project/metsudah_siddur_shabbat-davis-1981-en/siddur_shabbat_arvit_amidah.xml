@@ -119,6 +119,21 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
         <j:endDeclare target="#variants_5"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:declare xml:id="variants_6">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
@@ -137,6 +152,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_6"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <tei:note type="instruction" xml:lang="en">At the words, We are thankful, <tei:hi rend="italic">bend forward; at </tei:hi>Adonoy <tei:hi rend="italic">return to an upright position.</tei:hi></tei:note>
         <j:declare xml:id="variants_7">
@@ -160,7 +176,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:endDeclare target="#variants_7"/>
-        <j:conditional xml:id="when_1">
+        <j:conditional xml:id="when_2">
           <tei:note type="instruction" xml:lang="en">(On Shabbos Chanukah the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “ וְעַל כֻּלָּם , and for all the foregoing.”)</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="hanukkah">
@@ -189,7 +205,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
         <j:endDeclare target="#variants_8"/>
-        <j:endConditional target="#when_1"/>
+        <j:endConditional target="#when_2"/>
         <tei:note type="instruction" xml:lang="en">Some have the custom of saying שים שלום “Grant peace” here, while others say שלום רב “Abundant peace” on page 000.</tei:note>
         <j:declare xml:id="variants_9">
           <tei:fs type="opensiddur:variant">

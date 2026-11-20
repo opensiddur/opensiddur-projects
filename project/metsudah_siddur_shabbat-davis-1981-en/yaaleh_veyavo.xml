@@ -23,7 +23,7 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo">
-        <tei:p><tei:note type="instruction" xml:lang="en">On regular weekdays continue, “And may our eyes,” on p. 000.</tei:note><j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="en">On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:note><j:any><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="chol-hamoed"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/1"/>Our God and God of our fathers,
+        <tei:p><tei:note type="instruction" xml:lang="en">On regular weekdays continue, “And may our eyes,” on p. 000.</tei:note><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/1"/>Our God and God of our fathers,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/2"/>may there ascend, come, and reach,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/3"/>appear, be desired, and heard,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/4"/>counted and recalled
@@ -38,99 +38,98 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/13"/>for survival, for well-being,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/14"/>for favor, kindliness, compassion,
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/31"/>for life and peace
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_2"/>
-<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_minchah_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_minchah_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/33"/>for good life and peace
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_3"/>
-<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_2"/>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/34"/>for life and peace
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_4"/>
-<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_minchah_amidah"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_3"/>
+<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_minchah_amidah"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/15"/>for good life and peace
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_5"/>
+<j:endConditional target="#variant_4"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/16"/>on this day of:
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<j:conditional xml:id="when_7"><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="when_6"><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hodesh"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/17"/><tei:hi rend="italic">Rosh Chodesh</tei:hi>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_7"/>
-<j:endConditional target="#variant_6"/>
-<j:conditional xml:id="when_8"><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_6"/>
+<j:endConditional target="#variant_5"/>
+<j:conditional xml:id="when_7"><tei:fs type="opensiddur:holiday"><tei:f name="pesah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/18"/>the <tei:hi rend="italic">Festival of Matzos</tei:hi>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_8"/>
-<j:conditional xml:id="variant_9"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<j:conditional xml:id="when_10"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_7"/>
+<j:conditional xml:id="variant_8"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="when_9"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/35"/>the <tei:hi rend="italic">Festival of Shavuos</tei:hi>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_10"/>
-<j:endConditional target="#variant_9"/>
-<j:conditional xml:id="when_11"><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_9"/>
+<j:endConditional target="#variant_8"/>
+<j:conditional xml:id="when_10"><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/19"/>the <tei:hi rend="italic">Festival of Sukkos</tei:hi>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_11"/>
-<j:conditional xml:id="variant_12"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<j:conditional xml:id="when_13"><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_10"/>
+<j:conditional xml:id="variant_11"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/regalim_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="when_12"><tei:fs type="opensiddur:holiday"><tei:f name="shmini-atzeret"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/36"/>the <tei:hi rend="italic">Festival of Shemini Atseres</tei:hi>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_13"/>
-<j:endConditional target="#variant_12"/>
-<j:conditional xml:id="variant_14"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_12"/>
+<j:endConditional target="#variant_11"/>
+<j:conditional xml:id="variant_13"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/20"/>Remember us Adonoy, our God,
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_13"/>
+<j:conditional xml:id="variant_14"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/21"/>on this day for well-being;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_14"/>
 <j:conditional xml:id="variant_15"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/21"/>on this day for well-being;
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_15"/>
-<j:conditional xml:id="variant_16"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/22"/>be mindful of us on this day for blessing,
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_16"/>
-<j:conditional xml:id="variant_17"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_15"/>
+<j:conditional xml:id="variant_16"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/32"/>and deliver us for life.
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_17"/>
-<j:conditional xml:id="variant_18"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#variant_16"/>
+<j:conditional xml:id="variant_17"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/shabbat_shacharit_amidah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/23"/>and deliver us for good life.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_17"/>
+<j:conditional xml:id="variant_18"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/24"/>In accord with the promise of deliverance
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_18"/>
 <j:conditional xml:id="variant_19"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/24"/>In accord with the promise of deliverance
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/25"/>and compassion,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_19"/>
 <j:conditional xml:id="variant_20"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/25"/>and compassion,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/26"/>spare us and favor us,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_20"/>
 <j:conditional xml:id="variant_21"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/26"/>spare us and favor us,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/27"/>have compassion on us and deliver us;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_21"/>
 <j:conditional xml:id="variant_22"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/27"/>have compassion on us and deliver us;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/28"/>for to You our eyes are directed
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_22"/>
 <j:conditional xml:id="variant_23"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/28"/>for to You our eyes are directed
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/29"/>because You are the Almighty
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_23"/>
 <j:conditional xml:id="variant_24"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/29"/>because You are the Almighty
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_24"/>
-<j:conditional xml:id="variant_25"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/30"/>Who is King, Gracious, and Merciful.
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_25"/>
-<j:endConditional target="#when_1"/></tei:p>
+<j:endConditional target="#variant_24"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>
