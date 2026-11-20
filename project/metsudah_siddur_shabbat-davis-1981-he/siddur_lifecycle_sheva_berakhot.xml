@@ -28,15 +28,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/yotzer_haadam"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/asher_bara"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:borei_peri_hagafen/text/shabbat_day_meal_kiddush">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
-        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

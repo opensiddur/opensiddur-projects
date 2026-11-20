@@ -33,16 +33,16 @@
         <tei:note type="instruction" xml:lang="en">Halachic opinions differ as to whether <tei:hi rend="italic">Kiddush</tei:hi> should be said while standing or while seated at the table. Both practices are widespread and one should follow family tradition or the tradition of one's teachers in this matter.</tei:note>
         <tei:note type="instruction" xml:lang="en">Recite quietly:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/vayekhulu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:borei_peri_hagafen/text/shabbat_day_meal_kiddush">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kiddush/savri/shabbat_day_meal_kiddush">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/savri"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamotzi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/asher_qiddeshanu/text"/>
         <tei:note type="instruction" xml:lang="en">Each person should receive some wine from the Kiddush cup. Everybody then wash their hands and recite the berachah על נטילת ידים and the head of the household says the berachah for bread over two vhallohs,, and fivess a piecr of the challah to each preson.</tei:note>

@@ -25,18 +25,10 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/birkhot_hanehenin">
         <tei:head xml:lang="he">ברכות הנהנין</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_minei_mezonot"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:borei_peri_hagafen/text/shabbat_day_meal_kiddush">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_haetz"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_haadamah"/>
-        <j:declare xml:id="variants_2">
+        <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:shehakol_nihyeh_bidvaro/shabbat_day_meal_kiddush">
               <tei:binary value="false"/>
@@ -44,7 +36,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehakol_nihyeh_bidvaro"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
       </tei:div>
     </tei:body>

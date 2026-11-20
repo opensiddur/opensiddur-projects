@@ -52,6 +52,16 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/111"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/112"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehalelu_et_shem"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:bible:psalms/24/shabbat_minchah_berikh_shemeh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvenuchoh_yomar_shuvah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yehe_shemeh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
       </tei:div>

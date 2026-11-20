@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/qabbalat_shabbat/psalm_29">
         <tei:head xml:lang="he">תהלים כט</tei:head>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:bible:psalms/29/shabbat_musaf_ashrei">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/29"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach/2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach/3"/>
