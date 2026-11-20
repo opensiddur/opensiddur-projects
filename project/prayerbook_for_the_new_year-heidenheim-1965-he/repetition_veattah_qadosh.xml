@@ -4,7 +4,11 @@
       <tei:titleStmt>
         <tei:title type="main">ואתה קדוש</tei:title>
         <tei:respStmt>
-          <tei:resp key="trc">AI-assisted scan reading and JLPTEI encoding</tei:resp>
+          <tei:resp key="trc">AI-assisted scan transcription</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="mrk">JLPTEI markup</tei:resp>
           <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
         </tei:respStmt>
       </tei:titleStmt>
@@ -17,7 +21,7 @@
         </tei:distributor>
         <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
         <tei:availability status="free">
-          <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</tei:licence>
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0">Creative Commons Zero (Public Domain Dedication)</tei:licence>
         </tei:availability>
       </tei:publicationStmt>
       <tei:sourceDesc>
@@ -30,19 +34,21 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg">
-        <j:declare xml:id="repetition_veattah_qadosh_wording">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_dwellest">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_art_enthroned">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <tei:p><tei:pb ed="1965 rosh_hashanah/shacharit/repetition/veattah_qadosh" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg" n="51"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:veattah_qadosh_el_na/text@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
-        <j:endDeclare target="#repetition_veattah_qadosh_wording"/>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh">
+        <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg">
+          <j:declare xml:id="repetition_veattah_qadosh_wording">
+            <tei:fs type="opensiddur:variant">
+              <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_dwellest">
+                <tei:binary value="true"/>
+              </tei:f>
+              <tei:f name="urn:x-opensiddur:condition:bible:psalms/22/4/holy_one_art_enthroned">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
+          <tei:p><tei:pb ed="1965 rosh_hashanah/shacharit/repetition/veattah_qadosh" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n129.jpg" n="51"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:veattah_qadosh_el_na/text@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
+          <j:endDeclare target="#repetition_veattah_qadosh_wording"/>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>
