@@ -36,6 +36,17 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_117"/>
         <tei:note type="instruction" xml:lang="en">The following four verses are chanted by the Chazzan and congregation with the congregation responding “Thank Adonoy” after each verse.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_118"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/yehalelukha"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">As a segulah for long life, some people say the following verse on Rosh Chodesh:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/24/1"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="en">On Succos, the Hoshanos (beginning on page 000) are said, before the Chazzan recites the following Kaddish</tei:note>
         <tei:note type="instruction" xml:lang="en">On Rosh Chodesh<tei:hi rend="italic"> and on </tei:hi>Chol HaMoed<tei:hi rend="italic"> the Chazzan recites the </tei:hi>Whole Kaddish<tei:hi rend="italic"> on page 000. On Chanukah (except for Rosh Chodesh-Chanukah and Shabbos-Chanukah) he recites the </tei:hi>Half-Kaddish<tei:hi rend="italic"> on page 000.</tei:hi></tei:note>
         <tei:note type="instruction" xml:lang="en">On Shabbos, Yom Tov and Hoshanah Rabbah the Service continues with the Order of Reading the Torah, on page 000. At other times turn to page 000 for the Order of Reading the Torah. After the conclusion of the Torah reading, אַשְׁרֵי (Fortunate), page 000, and וּבָא לְצִיוֹן (The Redeemer will come), page 000, are said. The Chazzan recites Half-Kaddish<tei:hi rend="italic"> , the Tefillin are then removed and the Congregation says the </tei:hi> Musaf Amidah<tei:hi rend="italic"> on page 000. The </tei:hi> Musaf Amidah<tei:hi rend="italic"> for </tei:hi> Chol HaMoed<tei:hi rend="italic"> is found on page 000.</tei:hi></tei:note>
