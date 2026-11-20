@@ -1,0 +1,74 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכה מעין שלש</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/berakhah_meein_shalosh">
+        <tei:head xml:lang="he">ברכה מעין שלש</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/>
+        <j:conditional xml:id="when_2">
+          <tei:fs type="opensiddur:meal-context">
+            <tei:f name="meein-shalosh-food">
+              <tei:symbol value="cake_wine"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
+        <j:endConditional target="#when_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/body"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:meein_shalosh/end_wine/berakhot_berakhah_meein_shalosh">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_fruit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_cake_wine"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:meein_shalosh/end_wine/berakhot_berakhah_meein_shalosh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_nefashot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

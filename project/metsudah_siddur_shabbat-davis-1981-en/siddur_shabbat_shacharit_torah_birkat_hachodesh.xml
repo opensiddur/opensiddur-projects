@@ -1,0 +1,36 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Blessings of the New Month</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/birkat_hachodesh">
+        <tei:head xml:lang="en">Blessings of the New Month</tei:head>
+        <tei:note type="instruction" xml:lang="en">The following prayer יְהִי רָצוֹן , composed by Rav, head of the Babylonian yeshiva at Sura, is mentioned in the Talmud, (<tei:hi rend="italic"> Maseches Berachos</tei:hi> 16b), but not as a prayer specifically ordained for blessing the new month. It was actually a daily prayer that Rav recited <tei:hi rend="italic"> each</tei:hi> day after the regular service.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The יְהִי רָצוֹן was adapted by Ashkenazi Jews as a prayer for the coming of the new month by adding the words: שֶׁתְּחַדֵשׁ עָלֵינוּ אֶת הַחוֹדֶשׁ הַזֶּה לְטוֹבָה וְלִבְרָכָה but Sephardic Jews omit the entire prayer as it is not mentioned either by <tei:hi rend="italic"> Rambam</tei:hi> or <tei:hi rend="italic"> Avudraham.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yehi_ratzon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/mi_sheasah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/rosh_chodesh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hachodesh/yechaddeshehu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

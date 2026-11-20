@@ -1,0 +1,38 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Berachos for the Haftarah</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/torah/haftarah">
+        <tei:head xml:lang="en">Berachos for the Haftarah</tei:head>
+        <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic"> The Haftarah,</tei:hi> a selected reading from the Prophets, usually contains some reference to the text or theme of the Sidrah, the Torah Reading, which precedes it. According to <tei:hi rend="italic"> Avudraham,</tei:hi> the recitation of the <tei:hi rend="italic"> Haftarah,</tei:hi> was instituted during the period of persecution preceding the revolt of the Maccabees, when the actual Torah reading was prohibited. Readings from the Prophets were then substituted in order to review some of the teachings contained in the Torah itself. The word הַפְטָרָה is derived from the root פטר , which means to discharge or conclude. By reading the Haftarah, we conclude the reading of the Torah.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Berachah recited before the reading of the Haftarah:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/asher_bachar/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/after"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/al_hatorah_shabbat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_haftarah/al_hatorah_festival"/>
+        <tei:note type="instruction" xml:lang="en">On the last days of Pesach and Shavuos, and on Shemini Atseres, the Yizkor prayers (pages 000-000) are recited here. If these days should occur on Shabbos, Yizkor is recited after Yekum Purkon.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Following the readings from the Torah and the Prophets, (the Divine laws and knowledge handed to us in <tei:hi rend="italic">writing,</tei:hi>) we proceed to prayers for the survival, support and welfare of the men who perpetuate these laws by teaching and studying the <tei:hi rend="italic">Oral Law</tei:hi>. The Babylonian Talmud, the <tei:hi rend="italic">Oral Law</tei:hi> was organized in its present form in Babylonia, consequently the first two prayers were composed there in Aramaic, the language used and understood by most Jews.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
