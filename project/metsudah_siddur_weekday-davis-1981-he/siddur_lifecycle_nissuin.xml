@@ -1,0 +1,40 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכות אירוסין ונשואין</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:lifecycle/nissuin">
+        <tei:head xml:lang="he">ברכות אירוסין ונשואין</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_erusin"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:harei_at_mequddeshet"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/shehakol_bara"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/yotzer_haadam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/asher_yatzar_haadam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/sos_tasis"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/sammeach_tesammach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sheva_berakhot/asher_bara"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,34 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Lecha Dodi</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/qabbalat_shabbat/lekha_dodi">
+        <tei:head xml:lang="en">Lecha Dodi</tei:head>
+        <tei:note type="instruction" xml:lang="en">This poem was written by Rabbi Solomon Halevy Alkabetz, whose name שְׁלֹמֹה הַלֵוִי is spelled out by the first letter of each stanza.</tei:note>
+        <tei:note type="instruction" xml:lang="en">In this poem, the bridegroom (Israel) calls to his Beloved Friend (God) asking that He join him in welcoming his bride (the Sabbath).</tei:note>
+        <tei:note type="instruction" xml:lang="en">The concept of welcoming the Sabbath goes back to Talmudic times. Rabbi Chanina robed himself and stood at sunset on the eve of the Sabbath and exclaimed, “Come! Let us go forth to welcome the Sabbath Queen.” Rabbi Yanai garbed himself in festive attire on Sabbath eve and exclaimed; “Come bride, Come bride” (<tei:hi rend="italic">Shabbos</tei:hi> 119a).</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:lekhah_dodi"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,110 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kiddush for Yom Tov Evenings</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:regalim/kiddush">
+        <tei:head xml:lang="en">Kiddush for Yom Tov Evenings</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">When Yom Tov occurs on Shabbos, begin here:</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="yom-tov">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:note type="instruction" xml:lang="en">Recite quietly:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/vayekhulu"/>
+        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kiddush/savri/shabbat_day_meal_kiddush">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/savri"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamotzi"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkhot_hatorah/asher_bachar/regalim_kiddush">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veromemanu_mikal_lashon"/>
+        <tei:note type="instruction" xml:lang="en">On the first night of Sukkos, the berachah לישב בסוכה , (p. 000) is recited before the following berachah. On the second night, the berachos are said in the sequence as printed.</tei:note>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">(On the last two nights of Pesach the following berachah is omitted)</tei:note>
+          <j:none>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="pesah">
+                <tei:numeric value="7" max="8"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
+        <j:endConditional target="#when_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshev_basukkah"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">(When Yom Tov occurs at the conclusion of Shabbos, the following two berachos are said before the berachah of “ שֶׁהֶחֱיָנוּ , Who has kept us alive”):</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="yom-tov">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="motzaei-shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_meorei_haesh"/>
+        <j:endConditional target="#when_3"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:hamavdil_bein_qodesh_lechol/regalim_kiddush">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamavdil_bein_qodesh_lechol"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamavdil_bein_qodesh_leqodesh"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

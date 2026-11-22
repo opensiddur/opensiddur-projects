@@ -1,0 +1,258 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תחנון</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/tachanun">
+        <tei:head xml:lang="he">תחנון</tei:head>
+        <j:conditional xml:id="when_1">
+          <j:none>
+            <j:any>
+              <j:any>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="rosh-hodesh">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="hanukkah">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="12"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="14" max="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="13"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="14" max="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="1"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="14"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="lag-baomer">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="3"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="1" max="8"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:holiday">
+                  <tei:f name="tisha-bav">
+                    <tei:binary value="true"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="6"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="29"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="7"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="9" max="23"/>
+                  </tei:f>
+                </tei:fs>
+                <j:all>
+                  <tei:fs type="opensiddur:hebrew-date">
+                    <tei:f name="month">
+                      <tei:numeric value="7"/>
+                    </tei:f>
+                    <tei:f name="day">
+                      <tei:numeric value="24"/>
+                    </tei:f>
+                  </tei:fs>
+                  <j:none>
+                    <tei:fs type="opensiddur:israel">
+                      <tei:f name="is-israel">
+                        <tei:binary value="true"/>
+                      </tei:f>
+                    </tei:fs>
+                  </j:none>
+                </j:all>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="11"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="15"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="omit-tahanun">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="house-of-mourning">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="brit-milah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="wedding">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="sheva-brachot">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <j:any>
+                <tei:fs type="opensiddur:day-of-week">
+                  <tei:f name="hebrew-day">
+                    <tei:numeric value="6" max="7"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="day">
+                    <tei:numeric value="29"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="13" max="14"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="2"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="17" max="18"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="8" max="9"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="5"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="14" max="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="9"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="24" max="30"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="11"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="14" max="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="12"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="13" max="15"/>
+                  </tei:f>
+                </tei:fs>
+                <tei:fs type="opensiddur:hebrew-date">
+                  <tei:f name="month">
+                    <tei:numeric value="13"/>
+                  </tei:f>
+                  <tei:f name="day">
+                    <tei:numeric value="13" max="15"/>
+                  </tei:f>
+                </tei:fs>
+              </j:any>
+            </j:all>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:viduy/introduction"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashamnu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayyaavor_adonai_al"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ezkerah_elohim_veehemayah/fast_day_recension/stanza_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayomer_david"/>
+        <j:endConditional target="#when_1"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

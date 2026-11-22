@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Korban Tamid (Daily Offering)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/qorban_tamid">
+        <tei:head xml:lang="en">Korban Tamid (Daily Offering)</tei:head>
+        <tei:note type="instruction" xml:lang="en">The <tei:hi rend="italic">Tamid</tei:hi>-offerings, two daily offerings of one lamb at a time, were offered once in the morning and once in the afternoon. The former was the first public-offering brought on the Altar each day. And the latter terminated the day's offerings. These animals were purchased from the annual half-shekel gifts of the people and were offered on behalf of the entire Jewish People. Before reading this passage we offer a brief prayer.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Some do not say the following prayer on Sabbath and Yom Tov.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/yehi_ratzon_miqdash"/>
+        <tei:note type="instruction" xml:lang="en">Numbers 28:1-8</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/28"/>
+        <tei:note type="instruction" xml:lang="en">Leviticus 1:11</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/veshachat"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/yehi_ratzon_amirah/chol_shacharit_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/yehi_ratzon_amirah/chol_shacharit_qetoret_373">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/yehi_ratzon_amirah"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Service at a Circumcision</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:lifecycle/berit_milah">
+        <tei:head xml:lang="en">Service at a Circumcision</tei:head>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Upon the arrival of the child, all those present at the service rise and say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_haba_zeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hamilah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lehakhniso_bivrito"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:keshem_shenikhnas_laberit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_qiddesh_yedid"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

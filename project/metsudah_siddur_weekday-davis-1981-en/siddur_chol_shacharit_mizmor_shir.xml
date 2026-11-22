@@ -1,0 +1,45 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Mizmor Shir</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/mizmor_shir">
+        <tei:head xml:lang="en">Mizmor Shir</tei:head>
+        <tei:note type="instruction" xml:lang="en">Psalm 30, once used to inaugurate the Holy Temple, is used today to inaugurate our daily prayers, for the synagogue is a "Holy Temple in miniature" and our prayers take the place of the sacrifices. It is both a prayer for success and a declaration of thanksgiving.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mizmor_shir_chanukat_habayit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha/melekh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha/melekh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:zechariah/14/9"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:hoshienu_adonai_eloheinu/chol_shacharit_shir_shel_yom">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshienu_adonai_eloheinu"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
