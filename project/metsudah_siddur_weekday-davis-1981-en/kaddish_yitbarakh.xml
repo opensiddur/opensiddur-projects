@@ -1,0 +1,56 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kaddish d'Rabanan: Blessed and praised,</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:kaddish/yitbarakh">
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/1"/>Blessed and praised,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/2"/>glorified, and exalted and uplifted,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/3"/>honored and elevated and extolled<tei:anchor xml:id="note_1"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/4"/>be the Name of the Holy One, blessed is He;
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/32"/>above
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/5"/>above (<tei:hi rend="italic">Ten Days of Penitence:</tei:hi> far above)
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_2"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/6"/>all the blessings and hymns,<tei:anchor xml:id="note_2"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/7"/>praises and consolations<tei:anchor xml:id="note_3"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:kaddish/yitbarakh/8"/>which we utter in the world—and say Amein.</tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p>The ten expressions of praise in the Kaddish refer to the ten utterances by which God created the world. (See Maseches Avos 5:1.)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" target="#note_2" xml:lang="en">
+      <tei:p>May God be praised and exalted far beyond all the blessings, hymns and praises that are uttered.—<tei:hi rend="italic">Mishnah Berurah </tei:hi>in the name of the Vilna Gaon 56:14.</tei:p>
+    </tei:note>
+    <tei:note type="commentary" target="#note_3" xml:lang="en">
+      <tei:p>Consolations are uttered because God is in mourning over the destruction of the Holy Temple and the exile of His people.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

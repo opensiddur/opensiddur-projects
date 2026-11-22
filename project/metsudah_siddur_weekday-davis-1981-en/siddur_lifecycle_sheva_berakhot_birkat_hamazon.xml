@@ -1,0 +1,46 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Birchas Hamazon for Sheva Berachos</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_weekday-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:lifecycle/sheva_berakhot_birkat_hamazon">
+        <tei:head xml:lang="en">Birchas Hamazon for Sheva Berachos</tei:head>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader begins:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_sheva_berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/zimmun/lifecycle_berit_milah_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">Recite Birchas Hamazon.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
