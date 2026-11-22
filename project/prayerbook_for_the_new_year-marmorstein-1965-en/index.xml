@@ -834,7 +834,7 @@
                   </j:any>
                 </j:all>
               </j:conditional>
-              <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/malkhuyot_hayom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:endConditional target="#documentary_musaf_hayom_inclusion_en"/>
             </tei:div>
             <tei:div>
@@ -872,6 +872,121 @@
               <j:transclude type="external" target="urn:x-opensiddur:text:prayer:areshet_sefatenu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:endConditional target="#documentary_musaf_areshet_inclusion_en"/>
             </tei:div>
+            <tei:pb ed="1965" n="128" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n276.jpg"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/attah_zokher@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_weekday_zikhronot_en">
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:poem:zekher_techillat_kol_maas@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/noach_weekday@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/zikhronot_verses@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:endConditional target="#documentary_musaf_weekday_zikhronot_en"/>
+            </tei:div>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_shabbat_zikhronot_en">
+                <tei:note type="instruction" xml:lang="en">On Sabbath.</tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/noach_shabbat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:poem:efchad_bemaasai@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shabbat_jeremiah_intro@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:endConditional target="#documentary_musaf_shabbat_zikhronot_en"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/jeremiah_31_19@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/zikhronot_close@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/covenant_verse@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/circumcision@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/zikhronot_blessing@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n292.jpg" xml:lang="en">The Shofar is blown (but not on the Sabbath).</tei:note>
+            <tei:div>
+              <j:conditional xml:id="documentary_zikhronot_musaf_hayom_inclusion_en">
+                <j:all>
+                  <j:any>
+                    <tei:fs type="opensiddur:holiday-aggregate">
+                      <tei:f name="shabbat">
+                        <tei:binary value="false"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:rite">
+                      <tei:f name="frankfurt_am_main">
+                        <tei:binary value="true"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="hayom_only"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_no_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_hayom"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                  </j:any>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/zikhronot_hayom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:endConditional target="#documentary_zikhronot_musaf_hayom_inclusion_en"/>
+            </tei:div>
+            <tei:div>
+              <j:conditional xml:id="documentary_zikhronot_musaf_areshet_inclusion_en">
+                <j:all>
+                  <j:any>
+                    <tei:fs type="opensiddur:holiday-aggregate">
+                      <tei:f name="shabbat">
+                        <tei:binary value="false"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:rite">
+                      <tei:f name="frankfurt_am_main">
+                        <tei:binary value="true"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_no_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_hayom"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                  </j:any>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/zikhronot_areshet@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+              <j:endConditional target="#documentary_zikhronot_musaf_areshet_inclusion_en"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shofarot_open@prayerbook_for_the_new_year-marmorstein-1965-en"/>
           </tei:div>
         </tei:div>
         <tei:anchor xml:id="documentary_s199_draft_gap_en"/>
@@ -885,7 +1000,7 @@
   </tei:standOff>
   <tei:standOff type="notes">
     <tei:note type="commentary" target="#documentary_s199_draft_gap_en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" xml:lang="en">
-      <tei:p>Digitization includes the conclusion of Malkhuyot through Areshet Sefatenu, printed p.127 (PDF274–275). Zikhronot and the subsequent service material have not yet been included.</tei:p>
+      <tei:p>Digitization includes Zikhronot and the complete Atah Nigleita opening paragraph of Shofarot, printed p.136 (PDF292–293). The rest of Shofarot and the later service remain unencoded.</tei:p>
     </tei:note>
   </tei:standOff>
 </tei:TEI>

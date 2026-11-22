@@ -19,7 +19,7 @@
         <tei:distributor>
           <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/malkhuyot_hayom@prayerbook_for_the_new_year-marmorstein-1965-en</tei:idno>
         <tei:availability status="free">
           <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0">Creative Commons Zero (Public Domain Dedication)</tei:licence>
         </tei:availability>
@@ -34,8 +34,10 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:prayer:hayom_harat_olam" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n274.jpg">
-        <tei:p>On this day the world was completed. On this day He brings to judgment all the world’s creatures, either like children or like slaves. If like children, then have mercy upon us as a father has mercy on children. If like slaves, then our eyes are lifted to Thee until Thou wilt be gracious to us and make our verdict shine forth like light, O Awe-inspiring and Holy One. </tei:p>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/malkhuyot_hayom">
+        <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n274.jpg">
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>

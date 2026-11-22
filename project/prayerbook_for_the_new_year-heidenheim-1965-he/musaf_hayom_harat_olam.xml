@@ -19,7 +19,7 @@
         <tei:distributor>
           <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
         </tei:distributor>
-        <tei:idno type="urn">urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/malkhuyot_hayom@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
         <tei:availability status="free">
           <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0">Creative Commons Zero (Public Domain Dedication)</tei:licence>
         </tei:availability>
@@ -34,8 +34,10 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:prayer:hayom_harat_olam" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg">
-        <tei:p>הַיּוֹם הֲרַת עוֹלָם. הַיּוֹם יַעֲמִיד בַּמִּשְׁפָּט. כָּל יְצוּרֵי עוֹלָמִים. אִם כְּבָנִים. אִם כַּעֲבָדִים. אִם כְּבָנִים רַחֲמֵנוּ כְּרַחֵם אָב עַל בָּנִים. וְאִם כַּעֲבָדִים עֵינֵינוּ לְךָ תְּלוּיוֹת. עַד שֶׁתְּחָנֵּנוּ וְתוֹצִיא כָאוֹר מִשְׁפָּטֵנוּ אָיוֹם קָדוֹשׁ: </tei:p>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/malkhuyot_hayom">
+        <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg">
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>
