@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kiddush for Shabbos Eve</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/leil_shabbat/kiddush">
+        <tei:head xml:lang="en">Kiddush for Shabbos Eve</tei:head>
+        <tei:note type="instruction" xml:lang="en">The fourth of the Ten Commandments bids us “ זָכוֹר אֶת יוֹם הַשַׁבָּת לְקַדְשׁוֹ ”, Remember the Shabbos day, <tei:hi rend="italic"> Lekadsho</tei:hi> to keep it holy (<tei:hi rend="italic"> Exodus</tei:hi> 20:8). The word also implies <tei:hi rend="italic"> to sanctify it.</tei:hi> Jewish law therefore requires us to sanctify the Shabbos at its beginning—and at its conclusion—with an oral declaration. Thus we have the mitzvah of <tei:hi rend="italic"> Kiddush</tei:hi> upon the arrival of the Shabbos and <tei:hi rend="italic"> Havdala</tei:hi> at its conclusion.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Most halachic authorities agree that the Scriptural command to proclaim the sanctity of the Shabbos is fulfilled by reciting the middle blessing of the Friday night <tei:hi rend="italic">Shemoneh Esreh.</tei:hi> The command to recite the <tei:hi rend="italic">Kiddush</tei:hi> at home, over wine, is rabbinic.</tei:note>
+        <tei:note type="instruction" xml:lang="en">In Babylonia it was customary to recite <tei:hi rend="italic"> Kiddush</tei:hi> over wine in the synagogue at the end of the Friday night service for the travelers who remained in the synagogue to eat and sleep. (<tei:hi rend="italic"> Pesachim</tei:hi> 101a, see <tei:hi rend="italic"> Tosofos</tei:hi> s.v. דְאָכְלוּ)</tei:note>
+        <tei:note type="instruction" xml:lang="en">In many synagogues in the diaspora it is still customary to recite this <tei:hi rend="italic">Kiddush.</tei:hi> But in Eretz Yisroel, the custom was never instituted, and so to this day, <tei:hi rend="italic">Kiddush</tei:hi> is not recited there on Friday night.</tei:note>
+        <tei:note type="instruction" xml:lang="en">It is forbidden to eat on Friday night without first reciting <tei:hi rend="italic">Kiddush,</tei:hi> to be followed <tei:hi rend="italic">immediately</tei:hi> by the meal.</tei:note>
+        <tei:note type="instruction" xml:lang="en">When <tei:hi rend="italic">Kiddush</tei:hi> is said over wine, the <tei:hi rend="italic">challa</tei:hi> loaves must be covered. When wine is not available on Friday night, it is permissible to recite <tei:hi rend="italic">Kiddush</tei:hi> over two whole <tei:hi rend="italic">challa</tei:hi> loaves; in such an instance, the <tei:hi rend="italic">challa</tei:hi> need not be covered. When reciting <tei:hi rend="italic">Kiddush</tei:hi> over bread, you must wash your hands and say the berachah <tei:hi rend="italic">“Al netilas yodayim”</tei:hi> before reciting the <tei:hi rend="italic">Kiddush.</tei:hi></tei:note>
+        <tei:note type="instruction" xml:lang="en">Halachic opinions differ as to whether <tei:hi rend="italic">Kiddush</tei:hi> should be said while standing or while seated at the table. Both practices are widespread and one should follow family tradition or the tradition of one's teachers in this matter.</tei:note>
+        <tei:note type="instruction" xml:lang="en">Recite quietly:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/vayekhulu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kiddush/savri/shabbat_day_meal_kiddush">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/savri"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamotzi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kiddush/asher_qiddeshanu/text"/>
+        <tei:note type="instruction" xml:lang="en">Each person should receive some wine from the Kiddush cup. Everybody then wash their hands and recite the berachah על נטילת ידים and the head of the household says the berachah for bread over two vhallohs,, and fivess a piecr of the challah to each preson.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

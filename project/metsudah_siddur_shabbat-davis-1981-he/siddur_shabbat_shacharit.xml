@@ -1,0 +1,66 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">תפלת שחרית</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit">
+        <tei:head xml:lang="he">תפלת שחרית</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/upon_arising"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/tallit"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/mah_tovu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/adon_olam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/yigdal"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/birkhot_hashkamah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/birkhot_hatorah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/birkhot_hashachar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/aqedah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/baqqashot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/qorbanot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/qorban_tamid"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/qetoret"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/kaddish_derabbanan"/>
+        <j:conditional xml:id="leaf_15">
+          <tei:fs type="opensiddur:paratext">
+            <tei:f name="include">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/pesuqei_dezimrah"/>
+        <j:endConditional target="#leaf_15"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/hodu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/mizmor_shir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/barukh_sheamar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/psalm_92"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/psalm_93"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/yehi_khevod"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/ashrei"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/shirat_hayam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/nishmat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/yishtabbach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/el_adon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/shema"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat/shacharit/amidah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

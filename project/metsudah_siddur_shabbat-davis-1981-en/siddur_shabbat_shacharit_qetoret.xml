@@ -1,0 +1,72 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Ketores (Incense Offering)</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/qetoret">
+        <tei:head xml:lang="en">Ketores (Incense Offering)</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/qetoret"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:pittum_haqetoret_hatzori/rashbag/shabbat_musaf_ein_keloheinu">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pittum_haqetoret_hatzori/rashbag"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/rabbi_natan"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pittum_haqetoret/bar_kappara/shabbat_minchah_qetoret">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/bar_kappara"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach"/>
+        <tei:note type="instruction" xml:lang="en">The following sequence of Mishnayos and the selection from <tei:hi rend="italic">Sifra</tei:hi> “Rabbi Yishmael Says,” were inserted after the Scriptural selections dealing with daily- offerings in order to give every Jew the opportunity to study/recite daily, the minimum of selections from Scripture, Mishnah, and Talmud. Even though <tei:hi rend="italic">Sifra</tei:hi> is not actually a Talmudic tractate, it is a Tanaitic expansion of Mishnah. (See <tei:hi rend="italic">Shulchan Aruch, OrachChaim</tei:hi> 50:1).</tei:note>
+        <tei:note type="instruction" xml:lang="en">The following are <tei:hi rend="italic">Mishnayos</tei:hi> found in the fifth chapter of <tei:hi rend="italic">Maseches Zevachim.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/7"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/8"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/shabbat_shacharit_qorban_tamid">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
+        <j:endDeclare target="#variants_3"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

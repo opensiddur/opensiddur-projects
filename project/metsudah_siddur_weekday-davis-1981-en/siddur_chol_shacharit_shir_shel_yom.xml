@@ -250,6 +250,102 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/86"/>
         <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:beit_yaaqov_lekhu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/124"/>
+        <tei:note type="instruction" xml:lang="en">The custom of reciting a different psalm each day of the week originated in the Temple. The <tei:hi rend="italic">Mishnah</tei:hi> (<tei:hi rend="italic">Maseches Tamid</tei:hi> 7:4) describes the psalms which were chanted by the Levites each day during the service.</tei:note>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Sunday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="1"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_rishon"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+        <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
+        <j:endConditional target="#when_2"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Monday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="2"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_sheni"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/48"/>
+        <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Tuesday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="3"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_shelishi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/82"/>
+        <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Wednesday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="4"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_revii"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/94"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/95/1-3"/>
+        <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
+        <j:endConditional target="#when_5"/>
+        <j:conditional xml:id="when_6">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Thursday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="5"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_chamishi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/81"/>
+        <tei:note type="instruction" xml:lang="en">(Deliver us...; Mourner's Kaddish.)</tei:note>
+        <j:endConditional target="#when_6"/>
+        <j:conditional xml:id="when_7">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Friday:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:day-of-week">
+            <tei:f name="hebrew-day">
+              <tei:numeric value="6"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_yom_shishi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+        <j:endConditional target="#when_7"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:hoshienu_adonai_eloheinu/chol_shacharit_shir_shel_yom">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshienu_adonai_eloheinu"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:haleluyah_barukh_adonai"/>
       </tei:div>
     </tei:body>
   </tei:text>

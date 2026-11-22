@@ -28,7 +28,15 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha/melekh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ein_kamokha/melekh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:zechariah/14/9"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:hoshienu_adonai_eloheinu/chol_shacharit_shir_shel_yom">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hoshienu_adonai_eloheinu"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
       </tei:div>
     </tei:body>

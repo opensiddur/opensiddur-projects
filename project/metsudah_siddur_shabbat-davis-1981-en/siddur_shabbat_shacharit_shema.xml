@@ -1,0 +1,58 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Recitation of Shema</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/shema">
+        <tei:head xml:lang="en">Recitation of Shema</tei:head>
+        <tei:note type="instruction" xml:lang="en">The recitation of Shema was part of the daily worship in the Holy Temple, and our Sages ordained that it be recited in the synagogue service, providing it a central place in the morning and evening prayers of each Jew. Its importance may be judged from the fact that the very first Mishnah in the Oral Torah opens with the question, “From what time may the evening Shema be read?”</tei:note>
+        <tei:note type="instruction" xml:lang="en">In reading Shema, bear in mind that you are performing a Scriptural commandment. All three paragraphs should be read with <tei:hi rend="italic"> kavanah,</tei:hi> concentrated intention, on what you are saying. The entire Shema should be recited in awe and reverence as it proclaims the existence and unity of God; the Jews' complete dedication to God and His commandments; the belief in Divine justice; the remembrance of the Exodus and the selection of the Jews as God's Chosen People. These concepts are the pillars of the Jewish faith. Whenever this sign (°) appears (e.g. בְּכָלּ־לְּבָבְ֒ךָ), it indicates that you should be careful to pronounce each word distinctly. In many instances, the last letter of the first word and first letter of the second word are the same, the words might be read as one, which is not the proper way to fulfill the mitzvah of Kerias Shema.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The following three words should be said when praying without aminyan:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/emet"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/al_harishonim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/ezrat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/mosheh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/mi_khamokhah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/shirah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/adonai_yimlokh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/tzur_yisrael"/>
+        <tei:note type="instruction" xml:lang="en">On Yom Tov turn to page 000, for Shemoneh Esrei</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

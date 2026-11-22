@@ -1,0 +1,40 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Kiddush Levanah</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/birkat_halevanah">
+        <tei:head xml:lang="en">Kiddush Levanah</tei:head>
+        <tei:note type="instruction" xml:lang="en">This prayer is customarily recited in the open air, in clear sight of the moon, seven days after the birth of the new moon.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/148/1-6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_bemaamaro_bara"/>
+        <tei:note type="instruction" xml:lang="en">Recite three times:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_yotzerekh_barukh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/121"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/150"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tana_devei_rabbi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
+        <tei:note type="instruction" xml:lang="en">עלינו is said, see p. 000.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

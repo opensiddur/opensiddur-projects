@@ -1,0 +1,35 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Eiruvei Techumin</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_shabbat-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/eruv_techumin">
+        <tei:head xml:lang="en">Eiruvei Techumin</tei:head>
+        <tei:note type="instruction" xml:lang="en">On Shabbos and Yom Tov, you are forbidden to go more than 2,000 <tei:hi rend="italic">amos</tei:hi> from the place you were at the onset of Shabbos. If you need to walk farther than the Shabbos <tei:hi rend="italic">techum</tei:hi> or boundary, you must place an <tei:hi rend="italic">eiruvei techumin</tei:hi> (a boundary <tei:hi rend="italic">eiruv</tei:hi>) before Shabbos or Yom Tov.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The procedure is as follows. You should take enough bread for two meals and go to the place where the <tei:hi rend="italic">eiruv</tei:hi> is to be placed (within the 2,000 <tei:hi rend="italic">amos</tei:hi>) and recite the following berachah:</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eruv/blessing"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eruv_techumin/declaration"/>
+        <tei:note type="instruction" xml:lang="en">You may place one <tei:hi rend="italic">eiruv</tei:hi> for many Shabbosos, but you should put it in a safe place, so that it will not be lost or spoiled.</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
