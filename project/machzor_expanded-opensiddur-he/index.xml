@@ -37,7 +37,7 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding" xml:lang="en">Digitization continues through HaMelekh HaQadosh, printed p.116 (PDF253). Attah Vechartanu and the remainder of Musaf are not yet included.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Digitization includes the conclusion of Malkhuyot through Areshet Sefatenu, printed p.127 (PDF274–275). Zikhronot and the subsequent service material have not yet been included.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
@@ -926,7 +926,18 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_attah_hashem"/>
                 <j:endDeclare target="#canonical_caller_wording_2"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qadosh_attah_venora"/>
+                <j:declare xml:id="rh_qedushat_hayom_printed_wording_11">
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/attah_vechartanu_mikol/he/prior_printing">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/attah_vechartanu_mikol/he/repetition_printing">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qedushat_hayom"/>
+                <j:endDeclare target="#rh_qedushat_hayom_printed_wording_11"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/hodaah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/shalom"/>
@@ -1457,7 +1468,24 @@
                         </tei:f>
                       </tei:fs>
                     </j:declare>
+                    <j:declare xml:id="qorbanot_musaf_shabbat_printed_wording_20">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/prior_printing">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/repetition_printing">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/prior_printing">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/repetition_printing">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat"/>
+                    <j:endDeclare target="#qorbanot_musaf_shabbat_printed_wording_20"/>
                     <j:endDeclare target="#section_morning_qorbanot_shabbat_settings"/>
                   </tei:div>
                   <j:endConditional target="#section_morning_qorbanot_shabbat_condition"/>
@@ -1860,7 +1888,7 @@
                 <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din"/>
                 <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
-                <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_25">
+                <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_27">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise">
                       <tei:binary value="true"/>
@@ -1871,7 +1899,7 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah"/>
-                <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_25"/>
+                <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_27"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushat_hashem"/>
@@ -2491,7 +2519,30 @@
                     </tei:div>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
                     <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
+                    <j:declare xml:id="canonical_caller_wording_3">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/prior_printing">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/repetition_printing">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/prior_printing">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/repetition_printing">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/prior_printing">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/repetition_printing">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1" targetEnd="urn:x-opensiddur:text:bible:numbers/29/6"/>
+                    <j:endDeclare target="#canonical_caller_wording_3"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
                   </tei:div>
                 </tei:div>
@@ -3303,6 +3354,452 @@
                       <tei:div>
                         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qadosh_attah_venora/qadosh_attah" targetEnd="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem/hamelekh_haqadosh"/>
                       </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_repetition_attah_vechartanu_canonical">
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/attah_vechartanu"/>
+                      </tei:div>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vattitten_lanu_hashem"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/umippenei"/>
+                    <tei:div xml:id="section_musaf_repetition_sabbath_offerings_canonical">
+                      <tei:div>
+                        <j:declare xml:id="section_musaf_repetition_sabbath_offerings_canonical_settings">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/prior_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/prior_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/sabbath_offerings"/>
+                        <j:endDeclare target="#section_musaf_repetition_sabbath_offerings_canonical_settings"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_repetition_festival_offering_canonical">
+                      <tei:div>
+                        <j:declare xml:id="section_musaf_repetition_festival_offering_canonical_settings">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/prior_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/prior_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/prior_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/festival_offering"/>
+                        <j:endDeclare target="#section_musaf_repetition_festival_offering_canonical_settings"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_repetition_offering_formula_canonical">
+                      <tei:div>
+                        <j:declare xml:id="section_musaf_repetition_offering_formula_canonical_settings">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/offering_formula/text/he/quiet_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/offering_formula/text/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/offering_formula"/>
+                        <j:endDeclare target="#section_musaf_repetition_offering_formula_canonical_settings"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_repetition_useir_lekhapper_canonical">
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/useir_lekhapper"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_repetition_yismechu_canonical">
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/yismechu"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">בעלינו פותחים הארון, בשלא שם חלקנו סוגרים הארון, בואנחנו כורעים פותחים הארון.</tei:foreign> <tei:foreign xml:lang="en">The Holy Ark is opened.</tei:foreign> </tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/aleinu/text/opening"/>
+                    <tei:div xml:id="section_musaf_congregation_hu_complete">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/aleinu/text/hu_eloheinu"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/aleinu/text/kakkatuv_betorato"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/aleinu/quotes/deuteronomy_4_39/deuteronomy_4/39"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:note type="instruction"><tei:foreign xml:lang="de-Hebr">וואֶהרענד ד״א געמיינדע <tei:foreign xml:lang="he">הוּא אֳלֹהֵֽינוּ</tei:foreign> א״ז״וו זאַגט, ספריכֿט דער חזן פֿאַלגענדע: לייזע:</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">While the congregation says “He is our God”, the cantor says the following verses quietly.</tei:foreign> </tei:note>
+                    <tei:div xml:id="section_musaf_cantor_quiet_verses">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/attah_horeta_quiet"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">סוגרים הארון.</tei:foreign> <tei:foreign xml:lang="en">The Holy Ark is closed.</tei:foreign> </tei:note>
+                    <tei:div xml:id="section_musaf_cantor_hu_aloud">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <tei:note type="description" xml:lang="he">הש״ץ חוזר בקול רם הוא אלהינו וכו׳.</tei:note>
+                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The cantor repeats the following aloud.</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/aleinu/text/hu_eloheinu"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/aleinu/text/kakkatuv_betorato"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/aleinu/quotes/deuteronomy_4_39/deuteronomy_4/39"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:note type="instruction" xml:lang="he">הש״ץ אומר בנגון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:heyeh_im_pifiyot/1" targetEnd="urn:x-opensiddur:text:prayer:heyeh_im_pifiyot/11"/>
+                    <tei:div xml:id="section_musaf_al_yevoshu_custom">
+                      <j:conditional xml:id="section_musaf_al_yevoshu_custom_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">בפפד״מ, מעץ ורוב קהלות אין אומרים.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Omitted in Frankfurt, Metz and most communities; retained where this custom is followed.</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:rite">
+                            <tei:f name="frankfurt_am_main">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="metz">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:heyeh_im_pifiyot/12/veneemar">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:heyeh_im_pifiyot/12"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_al_yevoshu_custom_condition"/>
+                    </tei:div>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">פותחים הארון.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The Ark is opened.</tei:foreign> </tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:heyeh_im_pifiyot/13" targetEnd="urn:x-opensiddur:text:prayer:heyeh_im_pifiyot/16"/>
+                    <tei:note type="instruction"><tei:foreign xml:lang="he">סוגרים הארון.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The Ark is closed.</tei:foreign> </tei:note>
+                    <tei:div xml:id="section_musaf_repetition_al_ken_canonical">
+                      <tei:div>
+                        <j:declare xml:id="section_musaf_repetition_al_ken_canonical_settings">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/al_ken/text/he/quiet_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/al_ken/text/he/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/al_ken/text/en/quiet_printing">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/al_ken/text/en/repetition_printing">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/al_ken"/>
+                        <j:endDeclare target="#section_musaf_repetition_al_ken_canonical_settings"/>
+                      </tei:div>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_weekday_malkhuyot_piyyut">
+                      <j:conditional xml:id="section_musaf_weekday_malkhuyot_piyyut_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">בחול.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On a weekday.</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="shabbat">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ansikhah_malki"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/malkhuyot_verses"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_weekday_malkhuyot_piyyut_condition"/>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_shabbat_malkhuyot_piyyut">
+                      <j:conditional xml:id="section_musaf_shabbat_malkhuyot_piyyut_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">אַם שַׁבָּת.</tei:foreign> <tei:foreign xml:lang="en">On the Sabbath.</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="shabbat">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ahallelah_elohai"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_shabbat_malkhuyot_piyyut_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/melokh_al_kol_haolam/opening"/>
+                    <tei:div xml:id="section_musaf_melokh_retzeh">
+                      <j:conditional xml:id="section_musaf_melokh_retzeh_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">אַם שַׁבָּת.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On the Sabbath.</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="shabbat">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/melokh_al_kol_haolam/retzeh_vimnuchatenu"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_melokh_retzeh_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/melokh_al_kol_haolam/qaddeshenu"/>
+                    <tei:div xml:id="section_musaf_melokh_vehanchilenu">
+                      <j:conditional xml:id="section_musaf_melokh_vehanchilenu_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he">אַם שַׁבָּת.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On the Sabbath.</tei:foreign> </tei:note>
+                        <j:all>
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="shabbat">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/melokh_al_kol_haolam/vehanchilenu"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_melokh_vehanchilenu_condition"/>
+                    </tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/melokh_al_kol_haolam/conclusion"/>
+                    <tei:div xml:id="section_musaf_malkhuyot_shofar_calls">
+                      <j:conditional xml:id="section_musaf_malkhuyot_shofar_calls_condition">
+                        <j:all>
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="shabbat">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/blower" xml:lang="he">תוקע</tei:note>
+                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Tekiah, Shevarim, Teruah, Tekiah.</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shofar_calls"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_malkhuyot_shofar_calls_condition"/>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_hayom_inclusion">
+                      <j:conditional xml:id="section_musaf_hayom_inclusion_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">בשבת לפי מנהג הקהל.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On the Sabbath, according to the community’s custom.</tei:foreign> </tei:note>
+                        <j:all>
+                          <j:any>
+                            <tei:fs type="opensiddur:holiday-aggregate">
+                              <tei:f name="shabbat">
+                                <tei:binary value="false"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:rite">
+                              <tei:f name="frankfurt_am_main">
+                                <tei:binary value="true"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="hayom_only"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_no_cantor_repeat"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_cantor_hayom"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_cantor_repeat"/>
+                              </tei:f>
+                            </tei:fs>
+                          </j:any>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:div xml:id="section_musaf_hayom_first">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_harat_olam"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_hayom_cantor_repeat">
+                          <j:conditional xml:id="section_musaf_hayom_cantor_repeat_condition">
+                            <tei:note type="instruction"><tei:foreign xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">חזרת הש״ץ לפי מנהג הקהל; למנהג שאומר היום בלבד בשבת, הספר אינו מפרש אם הש״ץ חוזר.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The cantor’s repetition follows the community’s custom. For the Sabbath custom that says Hayom alone, the book does not specify whether the cantor repeats.</tei:foreign> </tei:note>
+                            <j:all>
+                              <j:any>
+                                <tei:fs type="opensiddur:holiday-aggregate">
+                                  <tei:f name="shabbat">
+                                    <tei:binary value="false"/>
+                                  </tei:f>
+                                </tei:fs>
+                                <tei:fs type="opensiddur:rite">
+                                  <tei:f name="frankfurt_am_main">
+                                    <tei:binary value="true"/>
+                                  </tei:f>
+                                </tei:fs>
+                                <j:all>
+                                  <tei:fs type="opensiddur:holiday-aggregate">
+                                    <tei:f name="shabbat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-shabbat-responses">
+                                      <tei:symbol value="both_cantor_hayom"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                </j:all>
+                                <j:all>
+                                  <tei:fs type="opensiddur:holiday-aggregate">
+                                    <tei:f name="shabbat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-shabbat-responses">
+                                      <tei:symbol value="both_cantor_repeat"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                </j:all>
+                                <j:all>
+                                  <tei:fs type="opensiddur:holiday-aggregate">
+                                    <tei:f name="shabbat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-shabbat-responses">
+                                      <tei:symbol value="hayom_only"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-hayom-only-cantor-repeat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                </j:all>
+                              </j:any>
+                            </j:all>
+                          </j:conditional>
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_harat_olam"/>
+                          </tei:div>
+                          <j:endConditional target="#section_musaf_hayom_cantor_repeat_condition"/>
+                        </tei:div>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_hayom_inclusion_condition"/>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_areshet_inclusion">
+                      <j:conditional xml:id="section_musaf_areshet_inclusion_condition">
+                        <tei:note type="instruction"><tei:foreign xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">בשבת לפי מנהג הקהל.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On the Sabbath, according to the community’s custom.</tei:foreign> </tei:note>
+                        <j:all>
+                          <j:any>
+                            <tei:fs type="opensiddur:holiday-aggregate">
+                              <tei:f name="shabbat">
+                                <tei:binary value="false"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:rite">
+                              <tei:f name="frankfurt_am_main">
+                                <tei:binary value="true"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_no_cantor_repeat"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_cantor_hayom"/>
+                              </tei:f>
+                            </tei:fs>
+                            <tei:fs type="opensiddur:practice">
+                              <tei:f name="musaf-shabbat-responses">
+                                <tei:symbol value="both_cantor_repeat"/>
+                              </tei:f>
+                            </tei:fs>
+                          </j:any>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:div xml:id="section_musaf_areshet_first">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:areshet_sefatenu"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_areshet_cantor_repeat">
+                          <j:conditional xml:id="section_musaf_areshet_cantor_repeat_condition">
+                            <tei:note type="instruction"><tei:foreign xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">בחול הש״ץ חוזר לפי מנהג הקהל; ויש שאין הש״ץ חוזר.</tei:foreign> <tei:foreign xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On weekdays the cantor repeats according to the community’s custom; some do not repeat.</tei:foreign> </tei:note>
+                            <j:all>
+                              <j:any>
+                                <tei:fs type="opensiddur:rite">
+                                  <tei:f name="frankfurt_am_main">
+                                    <tei:binary value="true"/>
+                                  </tei:f>
+                                </tei:fs>
+                                <j:all>
+                                  <tei:fs type="opensiddur:holiday-aggregate">
+                                    <tei:f name="shabbat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-shabbat-responses">
+                                      <tei:symbol value="both_cantor_repeat"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                </j:all>
+                                <j:all>
+                                  <tei:fs type="opensiddur:holiday-aggregate">
+                                    <tei:f name="shabbat">
+                                      <tei:binary value="false"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                  <tei:fs type="opensiddur:practice">
+                                    <tei:f name="musaf-areshet-cantor-repeat">
+                                      <tei:binary value="true"/>
+                                    </tei:f>
+                                  </tei:fs>
+                                </j:all>
+                              </j:any>
+                            </j:all>
+                          </j:conditional>
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:areshet_sefatenu"/>
+                          </tei:div>
+                          <j:endConditional target="#section_musaf_areshet_cantor_repeat_condition"/>
+                        </tei:div>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_areshet_inclusion_condition"/>
                     </tei:div>
                     <j:endDeclare target="#section_musaf_repetition_s220_settings"/>
                   </tei:div>

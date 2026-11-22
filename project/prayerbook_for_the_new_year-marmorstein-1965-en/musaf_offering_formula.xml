@@ -35,7 +35,18 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/offering_formula" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n206.jpg">
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/offering_formula/text"/>Their meal-offering and their drink offering shall be as has been said, three tenths for the bullock, two tenths for the ram and one tenth for each lamb, wine according to its drink-offering  <tei:milestone unit="prayer-part"/><j:conditional xml:id="musaf_offering_formula_segment_1"><j:all><tei:fs type="opensiddur:rite"><tei:f name="frankfurt_am_main"><tei:binary value="false"/></tei:f></tei:fs></j:all></j:conditional><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/offering_formula/ushenei_seirim"/>and two he-goats in order to atone and the two regular offerings according to their rule. Besides the whole-offering of the new moon and its meal-offering and the regular whole-offering and its meal-offering and the drink offerings according to their rule for a sweet savour, a fire offering to the Lord. <tei:milestone unit="prayer-part"/><j:endConditional target="#musaf_offering_formula_segment_1"/></tei:p>
+        <j:declare xml:id="musaf_offering_formula_wording">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/offering_formula/text/he/quiet_printing">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/offering_formula/text/he/repetition_printing">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/offering_formula/text@prayerbook_for_the_new_year-marmorstein-1965-en"/> <j:conditional xml:id="musaf_offering_formula_segment_1"><j:all><tei:fs type="opensiddur:rite"><tei:f name="frankfurt_am_main"><tei:binary value="false"/></tei:f></tei:fs></j:all></j:conditional><j:transclude type="inline" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/offering_formula/ushenei_seirim@prayerbook_for_the_new_year-marmorstein-1965-en"/> <j:endConditional target="#musaf_offering_formula_segment_1"/></tei:p>
+        <j:endDeclare target="#musaf_offering_formula_wording"/>
       </tei:div>
     </tei:body>
   </tei:text>

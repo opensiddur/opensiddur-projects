@@ -60,7 +60,24 @@
               </tei:fs>
             </j:all>
           </j:conditional>
+          <j:declare xml:id="qorbanot_musaf_shabbat_printed_wording_0">
+            <tei:fs type="opensiddur:variant">
+              <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/prior_printing">
+                <tei:binary value="true"/>
+              </tei:f>
+              <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/repetition_printing">
+                <tei:binary value="false"/>
+              </tei:f>
+              <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/prior_printing">
+                <tei:binary value="true"/>
+              </tei:f>
+              <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/10/he/repetition_printing">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+          <j:endDeclare target="#qorbanot_musaf_shabbat_printed_wording_0"/>
           <j:endConditional target="#documentary_morning_qorbanot_shabbat_he"/>
         </tei:div>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:eizehu_meqoman/1-/8@prayerbook_for_the_new_year-heidenheim-1965-he"/>

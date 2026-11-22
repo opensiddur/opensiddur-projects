@@ -233,7 +233,18 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/uvekhen_tzaddiqim@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/vetimlokh@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qadosh_attah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:declare xml:id="rh_qedushat_hayom_printed_wording_0">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:prayer:amidah/attah_vechartanu_mikol/he/prior_printing">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:prayer:amidah/attah_vechartanu_mikol/he/repetition_printing">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qedushat_hayom@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:endDeclare target="#rh_qedushat_hayom_printed_wording_0"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/hodaah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/shalom@prayerbook_for_the_new_year-heidenheim-1965-he"/>
@@ -458,7 +469,7 @@
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n143.jpg" xml:lang="he">פותחים הארון.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n145.jpg" xml:lang="he">סוגרים הארון.</tei:note>
-        <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_0">
+        <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise">
               <tei:binary value="true"/>
@@ -469,7 +480,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
-        <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_0"/>
+        <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushat_hashem@prayerbook_for_the_new_year-heidenheim-1965-he"/>
@@ -557,7 +568,30 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         </tei:div>
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n171.jpg" xml:lang="he">מניחים ס״ת שני אצל הראשון ואומרים חצי קדיש על שניהם, ומגביהים וגוללים ס״ת שקראו בו, ופותחים ס״ת ב׳ וקוראים בו למפטיר בפ׳ פינחס.</tei:note>
+        <j:declare xml:id="torah_maftir_numbers_29_printed_wording_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/prior_printing">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/repetition_printing">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/prior_printing">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/2/he/repetition_printing">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/prior_printing">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/en/repetition_printing">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1-/29/6@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+        <j:endDeclare target="#torah_maftir_numbers_29_printed_wording_2"/>
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n173.jpg" xml:lang="he">מי שברך. ומגביהין וגוללין. כשמגביהין הס״ת מביטין נגד הכתב של ס״ת ואומרין:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
         <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n173.jpg" xml:lang="he">קודם קריאת ההפטרה ואחר שנגמר הגולל, יברך המפטיר ברכה זו:</tei:note>
@@ -829,6 +863,174 @@
             </tei:div>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/vetimlokh@prayerbook_for_the_new_year-heidenheim-1965-he"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/qadosh_attah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/attah_vechartanu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vattitten_lanu_hashem@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/umippenei@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/sabbath_offerings@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/festival_offering@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/offering_formula@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/useir_lekhapper@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/yismechu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:pb ed="1965" n="118" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg" xml:lang="he">בעלינו פותחים הארון, בשלא שם חלקנו סוגרים הארון, בואנחנו כורעים פותחים הארון.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/aleinu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg" xml:lang="de-Hebr">וואֶהרענד ד״א געמיינדע <tei:foreign xml:lang="he">הוּא אֳלֹהֵֽינוּ</tei:foreign> א״ז״וו זאַגט, ספריכֿט דער חזן פֿאַלגענדע: לייזע:</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/attah_horeta_quiet@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg" xml:lang="he">סוגרים הארון.</tei:note>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg" xml:lang="he">הש״ץ חוזר בקול רם הוא אלהינו וכו׳.</tei:note>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n255.jpg" xml:lang="he">הש״ץ אומר בנגון.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/heyeh_im_pifiyot@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_al_yevoshu_custom_he">
+                <tei:note type="instruction" xml:lang="he">בפפד״מ, מעץ ורוב קהלות אין אומרים.</tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:rite">
+                    <tei:f name="frankfurt_am_main">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                    <tei:f name="metz">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:heyeh_im_pifiyot/12/veneemar">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/al_yevoshu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_al_yevoshu_custom_he"/>
+            </tei:div>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n257.jpg" xml:lang="he">פותחים הארון.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/ochilah@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n257.jpg" xml:lang="he">סוגרים הארון.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/al_ken@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:div>
+              <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n259.jpg" n="120"/>
+              <j:conditional xml:id="documentary_musaf_weekday_malkhuyot_piyyut_he">
+                <tei:note type="instruction" xml:lang="de-Hebr">אַם שַׁבָּת ווירד דאַ: אונטענסטעהענטע אַהַלֲלָה געבעטעט.</tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:poem:ansikhah_malki@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/malkhuyot_verses@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_weekday_malkhuyot_piyyut_he"/>
+            </tei:div>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_shabbat_malkhuyot_piyyut_he">
+                <tei:note type="instruction" xml:lang="de-Hebr">אַם שַׁבָּת.</tei:note>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:poem:ahallelah_elohai@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_shabbat_malkhuyot_piyyut_he"/>
+            </tei:div>
+            <tei:anchor xml:id="musaf_running_shabbat_labels_he"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/malkhuyot_close@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg" xml:lang="he">ותוקעין — ובשבת אין תוקעין.</tei:note>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_malkhuyot_shofar_calls_he">
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shofar_calls@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_malkhuyot_shofar_calls_he"/>
+            </tei:div>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg" xml:lang="he">יש קהלות שאין אומרים בשבת לא היום ולא ארשת, ויש שאומרים היום אבל לא ארשת. ויש שאומרים שניהם אבל אין הש״ץ חוזר, ויש שהש״ץ חוזר היום ואינו חוזר ארשת, ויש שהש״ץ חוזר שניהם וכן נוהג ק״ק פפד״מ.</tei:note>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_hayom_inclusion_he">
+                <j:all>
+                  <j:any>
+                    <tei:fs type="opensiddur:holiday-aggregate">
+                      <tei:f name="shabbat">
+                        <tei:binary value="false"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:rite">
+                      <tei:f name="frankfurt_am_main">
+                        <tei:binary value="true"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="hayom_only"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_no_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_hayom"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                  </j:any>
+                </j:all>
+              </j:conditional>
+              <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg" xml:lang="he"><tei:choice><tei:abbr>קו״ח</tei:abbr><tei:expan>קהל וחזן</tei:expan></tei:choice></tei:note>
+              <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_harat_olam@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_hayom_inclusion_he"/>
+            </tei:div>
+            <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg" xml:lang="he">ואומרים ארשת והש״ץ חוזר, ויש קהלות שא״א בשבת, ויש שאין הש״ץ חוזר.</tei:note>
+            <tei:div>
+              <j:conditional xml:id="documentary_musaf_areshet_inclusion_he">
+                <j:all>
+                  <j:any>
+                    <tei:fs type="opensiddur:holiday-aggregate">
+                      <tei:f name="shabbat">
+                        <tei:binary value="false"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:rite">
+                      <tei:f name="frankfurt_am_main">
+                        <tei:binary value="true"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_no_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_hayom"/>
+                      </tei:f>
+                    </tei:fs>
+                    <tei:fs type="opensiddur:practice">
+                      <tei:f name="musaf-shabbat-responses">
+                        <tei:symbol value="both_cantor_repeat"/>
+                      </tei:f>
+                    </tei:fs>
+                  </j:any>
+                </j:all>
+              </j:conditional>
+              <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n273.jpg" xml:lang="he"><tei:choice><tei:abbr>קו״ח</tei:abbr><tei:expan>קהל וחזן</tei:expan></tei:choice></tei:note>
+              <j:transclude type="external" target="urn:x-opensiddur:text:prayer:areshet_sefatenu@prayerbook_for_the_new_year-heidenheim-1965-he"/>
+              <j:endConditional target="#documentary_musaf_areshet_inclusion_he"/>
+            </tei:div>
           </tei:div>
         </tei:div>
         <tei:anchor xml:id="documentary_s199_draft_gap_he"/>
@@ -842,8 +1044,13 @@
     </tei:body>
   </tei:text>
   <tei:standOff type="notes">
+    <tei:note type="commentary" target="#musaf_running_shabbat_labels_he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" xml:lang="he">
+      <tei:p>כותרות המשך בדפוס, שאינן מילות הפיוט: עמוד 262 בסריקה (עמוד 121 בדפוס): אַם שַׁבָּת.; עמוד 264 בסריקה (עמוד 122 בדפוס): אַם שַׁבָּת.; עמוד 266 בסריקה (עמוד 123 בדפוס): אַם שַׁבָּת.; עמוד 268 בסריקה (עמוד 124 בדפוס): אַם שַׁבָּת.; עמוד 270 בסריקה (עמוד 125 בדפוס): אַם שַׁבָּת.; עמוד 272 בסריקה (עמוד 126 בדפוס): אַם שַׁבָּת.</tei:p>
+    </tei:note>
+  </tei:standOff>
+  <tei:standOff type="notes">
     <tei:note type="commentary" target="#documentary_s199_draft_gap_he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" xml:lang="he">
-      <tei:p>התמלול הגיע לסוף ברכת המלך הקדוש (עמ׳ 116); אתה בחרתנו והמשך מוסף טרם נכללו.</tei:p>
+      <tei:p>התמלול כולל את סיום מלכויות עד ארשת שפתינו (עמ׳ 127; PDF274–275). זכרונות והמשך התפילה טרם נכללו.</tei:p>
     </tei:note>
   </tei:standOff>
 </tei:TEI>
