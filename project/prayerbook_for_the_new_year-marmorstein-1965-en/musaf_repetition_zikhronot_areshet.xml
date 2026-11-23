@@ -49,9 +49,12 @@
             <tei:f name="urn:x-opensiddur:condition:prayer:areshet_sefatenu/conclusion/en/zikhronot_printing">
               <tei:binary value="true"/>
             </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:areshet_sefatenu/conclusion/teqiot_veseder_shofarot">
+              <tei:binary value="false"/>
+            </tei:f>
           </tei:fs>
         </j:declare>
-        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:areshet_sefatenu/opening@prayerbook_for_the_new_year-marmorstein-1965-en"/> <j:conditional type="marked" xml:id="musaf_repetition_zikhronot_areshet_segment_1"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:areshet_sefatenu/zikhron"/>the memory of <tei:milestone unit="prayer-part"/><j:endConditional target="#musaf_repetition_zikhronot_areshet_segment_1"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:areshet_sefatenu/conclusion@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:areshet_sefatenu/opening@prayerbook_for_the_new_year-marmorstein-1965-en"/> <j:conditional type="marked" xml:id="musaf_repetition_zikhronot_areshet_segment_1"><j:all><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:areshet_sefatenu/zikhron@prayerbook_for_the_new_year-marmorstein-1965-en"/> <j:endConditional target="#musaf_repetition_zikhronot_areshet_segment_1"/><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:areshet_sefatenu/conclusion@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
         <j:endDeclare target="#musaf_repetition_zikhronot_areshet_wording"/>
       </tei:div>
     </tei:body>

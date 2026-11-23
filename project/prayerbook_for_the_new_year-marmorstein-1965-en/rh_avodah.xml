@@ -34,9 +34,11 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n30.jpg">
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>Take delight, O Lord our God, in Thy people Israel and in their prayer and restore the service to the sanctuary of Thy House and accept with love and favour the fire offerings of Israel and their prayer, and may the service of Thy people Israel be a perpetual delight. </tei:p>
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>And may our eyes behold when Thou returnest to Zion in compassion. Blessed art Thou, O Lord, who restores His majesty to Zion. <tei:milestone unit="prayer-part"/></tei:p>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah">
+        <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n30.jpg">
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>

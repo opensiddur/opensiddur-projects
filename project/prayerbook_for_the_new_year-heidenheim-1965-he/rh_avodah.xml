@@ -34,9 +34,11 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n29.jpg">
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>רְצֵה <j:divineName>יְיָ</j:divineName> אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם. וְהָשֵׁב אֶת־הָעֲבוֹדָה לִדְבִיר בֵּיתֶךָ וְאִשֵּׁי יִשְׂרָאֵל וּתְפִלָּתָם בְּאַהֲבָה תְקַבֵּל בְּרָצוֹן וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ: </tei:p>
-        <tei:p><tei:milestone unit="prayer-part" corresp="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים. בָּרוּךְ אַתָּה <j:divineName>יְיָ</j:divineName> הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן: <tei:milestone unit="prayer-part"/></tei:p>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah">
+        <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n29.jpg">
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
+          <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah@prayerbook_for_the_new_year-heidenheim-1965-he"/> </tei:p>
+        </tei:div>
       </tei:div>
     </tei:body>
   </tei:text>
