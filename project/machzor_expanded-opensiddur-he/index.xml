@@ -37,11 +37,15 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding" xml:lang="en">Digitization in progress. This installment reaches the priestly-blessing introduction in the Musaf repetition, PDF311. Source, encoding, alignment and recitation order are independently reviewed. Actual priestly verses and the later service remain outside this installment. First-day volume only; unrelated Psalm24 appendix remains documentary only.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Digitization in progress. Independently reviewed source and service order through PDF scan326, including the Musaf conclusion, Minchah and Tashlikh. Shir ha-Yihud and the remaining appendix printings beginning on scan327 are not yet supplied. First-day volume only; unrelated Psalm24 appendix remains documentary only.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
           <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback. The newly printed maḥzor Half Kaddish is a fixed Ten Days witness. Preparatory Elul29 Kaddish remains bound to compatible Birnbaum Hebrew, without importing its absent English; self-bind Birnbaum Kaddish components to preserve that choice. This installment additionally prints a direction for Hamotzi without its words; compatible Birnbaum Hebrew supplies that named dependency. No English fallback is added. The newly transcribed maḥzor Yigdal now supplies that canonical poem, including its printed English translation, in both morning and evening occurrences.</tei:note>
+        </tei:bibl>
+        <tei:bibl>
+          <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
+          <tei:note>Source directs Mourner Kaddish without printing it here; compatible Hebrew witness, no substitute English translation.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -4582,15 +4586,422 @@
                         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/birkat_kohanim/birkat_kohanim"/>
                       </tei:div>
                     </tei:div>
-                    <tei:div xml:id="section_musaf_digitization_boundary">
+                    <tei:div xml:id="section_musaf_priestly_blessing">
+                      <j:conditional xml:id="section_musaf_priestly_blessing_condition">
+                        <j:all>
+                          <tei:fs type="opensiddur:practice">
+                            <tei:f name="birkat-kohanim">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
                       <tei:div>
-                        <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">התמלול מגיע עד הקדמת ברכת כהנים בחזרת מוסף; פסוקי הברכה והמשך התפילה טרם נכללו.</tei:note>
-                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Digitization reaches the priestly-blessing introduction in the Musaf repetition (scan311). The priestly verses and following service, beginning on scan312, remain unencoded.</tei:note>
+                        <tei:note type="instruction" xml:lang="he">והכהנים מברכין.</tei:note>
+                        <tei:note type="instruction" xml:lang="en">The Priests:</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_berakhah"/>
+                        <tei:div xml:id="section_musaf_cantor_prompt_1_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_1_1">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_1_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_1/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_1_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_1_2">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_1_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_2/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_1_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_1_3">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_1_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_dream_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <tei:note type="instruction" xml:lang="he">כשהכהנים מנגנים וישמרך אומרים זה.</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/dream"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_2_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_2_1">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_2_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_1/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_2_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_2_2">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_2_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_2/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_2_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_2_3">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_2_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_3/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_2_4">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_4/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_2_4">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_4/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_2_4">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_4/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_2_5">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_5/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_2_5">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_5/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_2_5">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_5/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_dream_7">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">כשהכהנים מנגנים ויחנך אומרים שוב רבונו של עולם.</tei:note>
+                            <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">While the priests chant Vichuneka, repeat the prayer for dreams.</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/dream"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_1">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_1/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_1">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_1/verse"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_2">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_2/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_2">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_2/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_3">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_3/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_3">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_3/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_4">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_4/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_4">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_4/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_4">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_4/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_5">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_5/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_5">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_5/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_5">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_5/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_6">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_6/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_6">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_6/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_6">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_6/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_cantor_prompt_3_7">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_priest_repeat_3_7">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7/priest"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_congregation_reply_3_7">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7/response"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_shem22_at_shalom">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <tei:note type="instruction" xml:lang="he">בשערי ציון כתוב שלא יאמר אצל שלום הרבון רק יאמר זה:</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_after_priestly_blessing_congregation">
+                          <tei:div>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <tei:note type="instruction" xml:lang="he">נאכֿדעם דיא כֹּהֲנִים דען זעגען בעענדיגט, ספריכֿט דיא געמיינדע:</tei:note>
+                            <tei:note type="instruction" xml:lang="en">After the priests have finished the benediction the congregation says:</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/addir_bamarom"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:div xml:id="section_musaf_after_priestly_blessing_priests">
+                          <tei:div>
+                            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <tei:note type="instruction" xml:lang="he">והכהנים מחזירים פניהם כלפי ההיכל ואומרים:</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_ribbon"/>
+                          </tei:div>
+                        </tei:div>
+                        <tei:note type="instruction" xml:lang="he">הכהנים יזהרו בנעילת מנעליהם שלא יגעו בם בידים ואם נגעו יחזרו ליטול ידיהם.</tei:note>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_priestly_blessing_condition"/>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_without_priests">
+                      <j:conditional xml:id="section_musaf_without_priests_condition">
+                        <j:all>
+                          <tei:fs type="opensiddur:practice">
+                            <tei:f name="birkat-kohanim">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/24" targetEnd="urn:x-opensiddur:text:bible:numbers/6/26"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_without_priests_condition"/>
+                    </tei:div>
+                    <tei:div xml:id="section_musaf_sim_shalom_words">
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/sim_shalom"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/besefer"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/proofs"/>
                       </tei:div>
                     </tei:div>
+                    <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/hayom_teamtseinu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/hayom_titmekhenu"/>
+                    <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kehayom_hazeh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/chatimah"/>
                     <j:endDeclare target="#section_musaf_repetition_s220_settings"/>
                   </tei:div>
                   <j:endConditional target="#section_musaf_repetition_s220_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_full_kaddish_conclusion">
+                  <j:conditional xml:id="section_musaf_full_kaddish_conclusion_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:quorum">
+                        <tei:f name="minyan">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/kaddish_preface"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/full_kaddish"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_full_kaddish_conclusion_condition"/>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:poem:ein_keloheinu"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/pittum_haqetoret"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/shir_shel_yom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/amar_rabbi_elazar"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/aleinu"/>
+                <tei:div xml:id="section_musaf_mourner_kaddish">
+                  <j:conditional xml:id="section_musaf_mourner_kaddish_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:quorum">
+                        <tei:f name="minyan">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_mourner_kaddish_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_coverage_boundary">
+                  <tei:div>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The source directs Shir ha-Yihud and the daily psalm here. Their appendix printings beginning on scan327 are the next digitization batch; this partial expanded edition does not yet provide them.</tei:note>
+                  </tei:div>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/psalm_81"/>
+                <tei:div xml:id="section_musaf_last_thirty_blasts">
+                  <j:conditional xml:id="section_musaf_last_thirty_blasts_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="shabbat">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Thirty further shofar blasts are sounded to confound the Accuser. Omitting these additional blasts does not affect the obligation already fulfilled. Afterwards the congregation departs in peace.</tei:note>
+                    <tei:note type="instruction" xml:lang="he">ותוקעים שלשים קולות כדי לערבב את השטן ומיהו אין מעכבות שאם לא יעשו כן אין עכוב בדבר שהרי כבר יצאו ידי חובתם. ואח״כ נפטרים לבתיהם לשלום.</tei:note>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_last_thirty_blasts_condition"/>
                 </tei:div>
                 <j:endDeclare target="#section_musaf_draft_s200_settings"/>
               </tei:div>
@@ -4598,6 +5009,332 @@
             <j:endDeclare target="#section_morning_settings"/>
           </tei:div>
           <j:endConditional target="#section_morning_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_rh_minchah">
+          <j:conditional xml:id="section_rh_minchah_condition">
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:numeric value="1"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">תפלת מנחה ליום ראשון של ראש השנה</tei:head>
+            <tei:head xml:lang="en">Minchah for the first day of Rosh ha-Shanah</tei:head>
+            <j:declare xml:id="section_rh_minchah_settings">
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="shaharit">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="maariv">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="musaf">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="neila">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="slihot">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/ashrei"/>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/uva_letziyyon"/>
+            <tei:div xml:id="section_rh_minchah_initial_kaddish">
+              <j:conditional xml:id="section_rh_minchah_initial_kaddish_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/kaddish_preface"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/half_kaddish"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_initial_kaddish_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_shabbat_vaani">
+              <j:conditional xml:id="section_rh_minchah_shabbat_vaani_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/vaani_tefillati"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_shabbat_vaani_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_shabbat_torah">
+              <j:conditional xml:id="section_rh_minchah_shabbat_torah_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:div xml:id="section_rh_minchah_takeout_action">
+                  <tei:div>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">A Torah scroll is taken from the ark.</tei:note>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_rh_minchah_aliyah_kohen">
+                  <tei:div>
+                    <tei:head xml:lang="he">כהן</tei:head>
+                    <tei:head xml:lang="en">Kohen</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/torah/haazinu/aliyah/1"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_rh_minchah_aliyah_levi">
+                  <tei:div>
+                    <tei:head xml:lang="he">לוי</tei:head>
+                    <tei:head xml:lang="en">Levi</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/torah/haazinu/aliyah/2"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_rh_minchah_aliyah_yisrael">
+                  <tei:div>
+                    <tei:head xml:lang="he">ישראל</tei:head>
+                    <tei:head xml:lang="en">Yisrael</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/barekhu"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/torah/haazinu/aliyah/3"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
+                  </tei:div>
+                </tei:div>
+                <tei:div xml:id="section_rh_minchah_return_action">
+                  <tei:div>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The Torah scroll is returned to the ark.</tei:note>
+                  </tei:div>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah/half_kaddish"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_shabbat_torah_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_silent_amidah">
+              <tei:div>
+                <j:declare xml:id="section_rh_minchah_silent_amidah_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/adonai_sefatai"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/gevurot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hashem"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple"/>
+                <j:endDeclare target="#section_rh_minchah_silent_amidah_settings"/>
+              </tei:div>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_repeated_amidah">
+              <j:conditional xml:id="section_rh_minchah_repeated_amidah_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                <j:declare xml:id="section_rh_minchah_repeated_amidah_settings">
+                  <tei:fs type="opensiddur:recitation">
+                    <tei:f name="silent">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                    <tei:f name="repetition">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avot"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/gevurot"/>
+                <tei:div xml:id="section_rh_minchah_qedushah">
+                  <tei:div>
+                    <j:declare xml:id="section_rh_minchah_qedushah_settings">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/qadosh/haaretz_without_meteg">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/qadosh/haaretz_with_meteg">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/barukh_kevod/kevod_name_with_maqaf">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/barukh_kevod/kevod_name_without_maqaf">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/ledor_vador/dor_plene">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/ledor_vador/dor_defective">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqaddesh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/leummatam"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvedivrei"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
+                    <j:endDeclare target="#section_rh_minchah_qedushah_settings"/>
+                  </tei:div>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hashem/uvekhen_ten_pachdekha" targetEnd="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hashem/qadosh_attah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah/modim"/>
+                <tei:div xml:id="section_rh_minchah_modim_congregation">
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+                  </tei:div>
+                </tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah/veal_kullam" targetEnd="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah/vekhol_hachayyim"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:endDeclare target="#section_rh_minchah_repeated_amidah_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_repeated_amidah_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_avinu_malkenu">
+              <j:conditional xml:id="section_rh_minchah_avinu_malkenu_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_avinu_malkenu_condition"/>
+            </tei:div>
+            <tei:div xml:id="section_rh_minchah_full_kaddish">
+              <j:conditional xml:id="section_rh_minchah_full_kaddish_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/full_kaddish"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_full_kaddish_condition"/>
+            </tei:div>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/aleinu"/>
+            <tei:div xml:id="section_rh_minchah_mourner_kaddish">
+              <j:conditional xml:id="section_rh_minchah_mourner_kaddish_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+              </tei:div>
+              <j:endConditional target="#section_rh_minchah_mourner_kaddish_condition"/>
+            </tei:div>
+            <j:endDeclare target="#section_rh_minchah_settings"/>
+          </tei:div>
+          <j:endConditional target="#section_rh_minchah_condition"/>
+        </tei:div>
+        <tei:div xml:id="section_rh_tashlikh">
+          <j:conditional xml:id="section_rh_tashlikh_condition">
+            <j:all>
+              <tei:fs type="opensiddur:service-time">
+                <tei:f name="minha">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <j:any>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="rosh-hashana">
+                      <tei:numeric value="1"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="shabbat">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+                <j:all>
+                  <tei:fs type="opensiddur:holiday">
+                    <tei:f name="rosh-hashana">
+                      <tei:numeric value="2"/>
+                    </tei:f>
+                  </tei:fs>
+                  <tei:fs type="opensiddur:day-of-week">
+                    <tei:f name="hebrew-day">
+                      <tei:numeric value="1"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:any>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">סדר תשליך</tei:head>
+            <tei:head xml:lang="en">Tashlikh</tei:head>
+            <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">After Minchah, go to a brook, stream or pond containing fish.</tei:note>
+            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/tashlikh"/>
+          </tei:div>
+          <j:endConditional target="#section_rh_tashlikh_condition"/>
         </tei:div>
       </tei:div>
     </tei:body>
