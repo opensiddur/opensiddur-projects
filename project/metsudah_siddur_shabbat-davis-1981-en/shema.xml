@@ -23,36 +23,34 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:shema">
-        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:shema/torah_procession/text"/><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/224"/>“Hear Israel, Adonoy is our God,
+        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/224"/>“Hear Israel, Adonoy is our God,
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/225"/>Adonoy is One.”
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="prayer"/>
 <j:endConditional target="#variant_1"/>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/226"/>Hear, Israel:
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/227"/>Adonoy is our God,
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/228"/>Adonoy is One.<tei:anchor xml:id="note_1"/>
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:note type="instruction" xml:lang="en">If one has prayed Ma'ariv <tei:hi rend="italic">and with it recited Shema earlier than the ideal time for the evening Shema, he should repeat all of it here. Some people have the custom of reciting all three paragraphs here every night.</tei:hi></tei:note>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/228"/>Almighty, faithful King
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_2"/>
-<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<tei:note type="instruction" xml:lang="en">If one has prayed Ma'ariv <tei:hi rend="italic">and with it recited Shema earlier than the ideal time for the evening Shema, he should repeat all of it here. Some people have the custom of reciting all three paragraphs here every night.</tei:hi></tei:note>
-<tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:torah_tzivvah/el_melekh_neeman"/>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/229"/>Almighty, faithful King
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/230"/>Hear, Israel
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/231"/>Adonoy is our God
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/232"/>Adonoy is One
-<tei:milestone unit="phrase"/>
-<tei:milestone unit="prayer"/>
-<j:endConditional target="#variant_3"/>
 <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/4"/>
-<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/182"/>Hear, Israel:
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_3"/>
+<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/226"/>Adonoy is our God,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/227"/>Adonoy is One.<tei:anchor xml:id="note_1"/>
+<tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_4"/>
-<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/183"/>Adonoy is our God, Adonoy is One.
+<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/229"/>Adonoy is our God
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/230"/>Adonoy is One
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_5"/>
+<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/183"/>Adonoy is our God, Adonoy is One.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_6"/>
 <tei:milestone unit="verse"/>
 <tei:note type="instruction" xml:lang="en">The following three lines are to be said silently:</tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/3"/>Blessed [is His] Name,
@@ -86,483 +84,483 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/25"/>and upon your gateways.
 <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/13"/>
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/29"/>And it will be—
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_6"/>
 <j:conditional xml:id="variant_7"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/30"/>if you vigilantly obey My commandments
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/29"/>And it will be—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_7"/>
 <j:conditional xml:id="variant_8"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/31"/>which I command you this day,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/30"/>if you vigilantly obey My commandments
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_8"/>
 <j:conditional xml:id="variant_9"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/32"/>to love Adonoy your God,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/31"/>which I command you this day,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_9"/>
 <j:conditional xml:id="variant_10"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/33"/>and serve Him
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/32"/>to love Adonoy your God,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_10"/>
 <j:conditional xml:id="variant_11"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/34"/>with your entire hearts
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/33"/>and serve Him
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_11"/>
 <j:conditional xml:id="variant_12"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/35"/>and with your entire souls—
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/34"/>with your entire hearts
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_12"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/14"/>
 <j:conditional xml:id="variant_13"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/36"/>that I will give rain for your land
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/35"/>and with your entire souls—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_13"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/14"/>
 <j:conditional xml:id="variant_14"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/37"/>in its proper time,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/36"/>that I will give rain for your land
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_14"/>
 <j:conditional xml:id="variant_15"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/38"/>the early (autumn) rain
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/37"/>in its proper time,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_15"/>
 <j:conditional xml:id="variant_16"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/39"/>and the late (spring) rain;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/38"/>the early (autumn) rain
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_16"/>
 <j:conditional xml:id="variant_17"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/40"/>and you will harvest your grain
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/39"/>and the late (spring) rain;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_17"/>
 <j:conditional xml:id="variant_18"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/41"/>and your wine and your oil.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/40"/>and you will harvest your grain
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_18"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/15"/>
 <j:conditional xml:id="variant_19"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/42"/>And I will put grass
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/41"/>and your wine and your oil.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_19"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/15"/>
 <j:conditional xml:id="variant_20"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/43"/>in your fields for your cattle,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/42"/>And I will put grass
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_20"/>
 <j:conditional xml:id="variant_21"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/44"/>and you will eat and be satisfied.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/43"/>in your fields for your cattle,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_21"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/16"/>
 <j:conditional xml:id="variant_22"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/45"/>Beware lest your hearts be swayed
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/44"/>and you will eat and be satisfied.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_22"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/16"/>
 <j:conditional xml:id="variant_23"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/46"/>and you turn astray,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/45"/>Beware lest your hearts be swayed
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_23"/>
 <j:conditional xml:id="variant_24"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/47"/>and you worship alien gods
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/46"/>and you turn astray,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_24"/>
 <j:conditional xml:id="variant_25"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/48"/>and bow to them.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/47"/>and you worship alien gods
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_25"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/17"/>
 <j:conditional xml:id="variant_26"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/49"/>And Adonoy's fury will blaze among you,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/48"/>and bow to them.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_26"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/17"/>
 <j:conditional xml:id="variant_27"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/50"/>and He will close off the heavens
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/49"/>And Adonoy's fury will blaze among you,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_27"/>
 <j:conditional xml:id="variant_28"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/51"/>and there will be no rain
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/50"/>and He will close off the heavens
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_28"/>
 <j:conditional xml:id="variant_29"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/52"/>and the earth will not yield its produce;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/51"/>and there will be no rain
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_29"/>
 <j:conditional xml:id="variant_30"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/53"/>and you will perish swiftly
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/52"/>and the earth will not yield its produce;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_30"/>
 <j:conditional xml:id="variant_31"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/54"/>from the good land
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/53"/>and you will perish swiftly
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_31"/>
 <j:conditional xml:id="variant_32"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/55"/>which Adonoy gives you.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/54"/>from the good land
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_32"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/18"/>
 <j:conditional xml:id="variant_33"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/56"/>Place these words of Mine
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/55"/>which Adonoy gives you.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_33"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/18"/>
 <j:conditional xml:id="variant_34"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/57"/>upon your hearts and upon your souls,—
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/56"/>Place these words of Mine
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_34"/>
 <j:conditional xml:id="variant_35"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/58"/>and bind them for a sign
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/57"/>upon your hearts and upon your souls,—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_35"/>
 <j:conditional xml:id="variant_36"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/59"/>upon your hands,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/58"/>and bind them for a sign
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_36"/>
 <j:conditional xml:id="variant_37"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/60"/>and they shall be for <tei:hi rend="italic">totafos</tei:hi>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/59"/>upon your hands,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_37"/>
 <j:conditional xml:id="variant_38"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/61"/>between your eyes.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/60"/>and they shall be for <tei:hi rend="italic">totafos</tei:hi>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_38"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/19"/>
 <j:conditional xml:id="variant_39"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/62"/>And you shall teach them to your sons,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/61"/>between your eyes.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_39"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/19"/>
 <j:conditional xml:id="variant_40"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/63"/>to speak them
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/62"/>And you shall teach them to your sons,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_40"/>
 <j:conditional xml:id="variant_41"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/64"/>when you sit in your house,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/63"/>to speak them
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_41"/>
 <j:conditional xml:id="variant_42"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/65"/>and when you travel on the road,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/64"/>when you sit in your house,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_42"/>
 <j:conditional xml:id="variant_43"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/66"/>and when you lie down and when you rise.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/65"/>and when you travel on the road,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_43"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/20"/>
 <j:conditional xml:id="variant_44"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/67"/>And you shall write them
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/66"/>and when you lie down and when you rise.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_44"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/20"/>
 <j:conditional xml:id="variant_45"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/68"/>upon the doorposts of your house
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/67"/>And you shall write them
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_45"/>
 <j:conditional xml:id="variant_46"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/69"/>and upon your gateways.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/68"/>upon the doorposts of your house
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_46"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/21"/>
 <j:conditional xml:id="variant_47"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/70"/>In order that your days be prolonged,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/69"/>and upon your gateways.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_47"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/21"/>
 <j:conditional xml:id="variant_48"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/71"/>and the days of your children,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/70"/>In order that your days be prolonged,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_48"/>
 <j:conditional xml:id="variant_49"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/72"/>upon the land
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/71"/>and the days of your children,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_49"/>
 <j:conditional xml:id="variant_50"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/73"/>which Adonoy swore to your fathers
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/72"/>upon the land
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_50"/>
 <j:conditional xml:id="variant_51"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/74"/>to give them [for as long]
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/73"/>which Adonoy swore to your fathers
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_51"/>
 <j:conditional xml:id="variant_52"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/75"/>as the heavens are above the earth.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/74"/>to give them [for as long]
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_52"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/37"/>
 <j:conditional xml:id="variant_53"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/76"/>And Adonoy spoke to Moses saying:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/75"/>as the heavens are above the earth.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_53"/>
-<tei:milestone unit="verse"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/37"/>
 <j:conditional xml:id="variant_54"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/77"/>Speak to the children of Israel,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/76"/>And Adonoy spoke to Moses saying:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_54"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_55"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/78"/>and tell them
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/77"/>Speak to the children of Israel,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_55"/>
 <j:conditional xml:id="variant_56"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/79"/>to make for themselves fringes
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/78"/>and tell them
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_56"/>
 <j:conditional xml:id="variant_57"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/80"/>on the corners of their garments
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/79"/>to make for themselves fringes
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_57"/>
 <j:conditional xml:id="variant_58"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/81"/>throughout their generations;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/80"/>on the corners of their garments
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_58"/>
 <j:conditional xml:id="variant_59"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/82"/>and they will place with the fringes
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/81"/>throughout their generations;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_59"/>
 <j:conditional xml:id="variant_60"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/83"/>of each corner
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/82"/>and they will place with the fringes
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_60"/>
 <j:conditional xml:id="variant_61"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/84"/>a thread of blue.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/83"/>of each corner
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_61"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/39"/>
 <j:conditional xml:id="variant_62"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/85"/>And it will be to you for fringes,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/84"/>a thread of blue.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_62"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/39"/>
 <j:conditional xml:id="variant_63"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/86"/>and you will look upon it
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/85"/>And it will be to you for fringes,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_63"/>
 <j:conditional xml:id="variant_64"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/87"/>and you will remember
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/86"/>and you will look upon it
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_64"/>
 <j:conditional xml:id="variant_65"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/88"/>all the commandments of Adonoy,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/87"/>and you will remember
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_65"/>
 <j:conditional xml:id="variant_66"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/89"/>and you will perform them;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/88"/>all the commandments of Adonoy,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_66"/>
 <j:conditional xml:id="variant_67"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/90"/>and you will not turn aside after your hearts
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/89"/>and you will perform them;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_67"/>
 <j:conditional xml:id="variant_68"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/91"/>and after your eyes
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/90"/>and you will not turn aside after your hearts
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_68"/>
 <j:conditional xml:id="variant_69"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/92"/>which cause you to go astray.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/91"/>and after your eyes
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_69"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/40"/>
 <j:conditional xml:id="variant_70"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/93"/>In order that you will remember
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/92"/>which cause you to go astray.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_70"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/40"/>
 <j:conditional xml:id="variant_71"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/94"/>and perform all My commandments;
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/93"/>In order that you will remember
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_71"/>
 <j:conditional xml:id="variant_72"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/95"/>and you will be holy unto your God.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/94"/>and perform all My commandments;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_72"/>
-<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_73"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/96"/>I am Adonoy, your God,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/95"/>and you will be holy unto your God.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_73"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_74"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/97"/>Who brought you out
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/96"/>I am Adonoy, your God,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_74"/>
 <j:conditional xml:id="variant_75"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/98"/>of the land of Egypt
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/97"/>Who brought you out
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_75"/>
 <j:conditional xml:id="variant_76"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/99"/>to be your God:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/98"/>of the land of Egypt
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_76"/>
 <j:conditional xml:id="variant_77"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/100"/>I am Adonoy, your God—
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/99"/>to be your God:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_77"/>
-<tei:note type="instruction" xml:lang="en">You must be careful to connect the last words of Shema, ה' אֱלֹקֵיכֶם (Adonoy, your God), with the word אֶמֶת (is true) without pause or interruption so that these three words form one sentence, meaning “Adonoy your God is true” (Maseches Berachos 13a).</tei:note>
 <j:conditional xml:id="variant_78"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/101"/>—is true—
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/100"/>I am Adonoy, your God—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_78"/>
-<tei:note type="instruction" xml:lang="en">The chazan repeats:</tei:note>
+<tei:note type="instruction" xml:lang="en">You must be careful to connect the last words of Shema, ה' אֱלֹקֵיכֶם (Adonoy, your God), with the word אֶמֶת (is true) without pause or interruption so that these three words form one sentence, meaning “Adonoy your God is true” (Maseches Berachos 13a).</tei:note>
 <j:conditional xml:id="variant_79"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/102"/>Adonoy, your God, is true.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/101"/>—is true—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_79"/>
-<j:conditional xml:id="variant_80"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/184"/>—and faithful is all this,<tei:anchor xml:id="note_2"/>
+<tei:note type="instruction" xml:lang="en">The chazan repeats:</tei:note>
+<j:conditional xml:id="variant_80"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/102"/>Adonoy, your God, is true.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_80"/>
 <j:conditional xml:id="variant_81"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/185"/>and it is permanently established with us
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/184"/>—and faithful is all this,<tei:anchor xml:id="note_2"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_81"/>
 <j:conditional xml:id="variant_82"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/181"/>that he is Adonoy, our God,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/185"/>and it is permanently established with us
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_82"/>
 <j:conditional xml:id="variant_83"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/186"/>and there is nothing besides Him,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/181"/>that he is Adonoy, our God,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_83"/>
 <j:conditional xml:id="variant_84"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/187"/>and that we, Israel, are His people.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/186"/>and there is nothing besides Him,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_84"/>
 <j:conditional xml:id="variant_85"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/188"/>[He] Who liberated us
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/187"/>and that we, Israel, are His people.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_85"/>
 <j:conditional xml:id="variant_86"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/189"/>from the hand of kings,<tei:anchor xml:id="note_3"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/188"/>[He] Who liberated us
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_86"/>
 <j:conditional xml:id="variant_87"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/190"/>[is] our King, Who redeemed us
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/189"/>from the hand of kings,<tei:anchor xml:id="note_3"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_87"/>
 <j:conditional xml:id="variant_88"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/191"/>from the grasp of all the tyrants.<tei:anchor xml:id="note_4"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/190"/>[is] our King, Who redeemed us
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_88"/>
 <j:conditional xml:id="variant_89"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/192"/>[He is] the Almighty
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/191"/>from the grasp of all the tyrants.<tei:anchor xml:id="note_4"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_89"/>
 <j:conditional xml:id="variant_90"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/193"/>Who exacts payment [punishment]
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/192"/>[He is] the Almighty
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_90"/>
 <j:conditional xml:id="variant_91"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/194"/>from our oppressors,<tei:anchor xml:id="note_5"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/193"/>Who exacts payment [punishment]
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_91"/>
 <j:conditional xml:id="variant_92"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/195"/>and brings retribution
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/194"/>from our oppressors,<tei:anchor xml:id="note_5"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_92"/>
 <j:conditional xml:id="variant_93"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/196"/>on all those who are enemies of our soul.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/195"/>and brings retribution
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_93"/>
 <j:conditional xml:id="variant_94"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/197"/>He does great things<tei:anchor xml:id="note_6"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/196"/>on all those who are enemies of our soul.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_94"/>
 <j:conditional xml:id="variant_95"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/198"/>beyond comprehension,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/197"/>He does great things<tei:anchor xml:id="note_6"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_95"/>
 <j:conditional xml:id="variant_96"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/199"/>miracles and wonders without number.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/198"/>beyond comprehension,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_96"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/66/9"/>
 <j:conditional xml:id="variant_97"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/200"/>He sustains our soul in life<tei:anchor xml:id="note_7"/>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/199"/>miracles and wonders without number.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_97"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/66/9"/>
 <j:conditional xml:id="variant_98"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/201"/>and does not allow our feet to slip.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/200"/>He sustains our soul in life<tei:anchor xml:id="note_7"/>
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_98"/>
-<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_99"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/202"/>He makes us tread
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/201"/>and does not allow our feet to slip.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_99"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_100"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/203"/>upon the high places of our enemies,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/202"/>He makes us tread
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_100"/>
 <j:conditional xml:id="variant_101"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/204"/>and exalts our strength
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/203"/>upon the high places of our enemies,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_101"/>
 <j:conditional xml:id="variant_102"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/205"/>over all who hate us.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/204"/>and exalts our strength
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_102"/>
 <j:conditional xml:id="variant_103"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/206"/>He performed miracles for us
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/205"/>over all who hate us.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_103"/>
 <j:conditional xml:id="variant_104"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/207"/>and vengeance upon Pharaoh,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/206"/>He performed miracles for us
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_104"/>
 <j:conditional xml:id="variant_105"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/208"/>signs and wonders
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/207"/>and vengeance upon Pharaoh,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_105"/>
 <j:conditional xml:id="variant_106"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/209"/>in the land of the Hamites.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/208"/>signs and wonders
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_106"/>
 <j:conditional xml:id="variant_107"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/210"/>He slew in His wrath,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/209"/>in the land of the Hamites.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_107"/>
 <j:conditional xml:id="variant_108"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/211"/>all the firstborn of Egypt,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/210"/>He slew in His wrath,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_108"/>
 <j:conditional xml:id="variant_109"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/212"/>and brought out His people, Israel,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/211"/>all the firstborn of Egypt,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_109"/>
 <j:conditional xml:id="variant_110"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/213"/>from their midst
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/212"/>and brought out His people, Israel,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_110"/>
 <j:conditional xml:id="variant_111"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/214"/>to everlasting<tei:anchor xml:id="note_8"/> freedom.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/213"/>from their midst
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_111"/>
 <j:conditional xml:id="variant_112"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/215"/>He led His children
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/214"/>to everlasting<tei:anchor xml:id="note_8"/> freedom.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_112"/>
 <j:conditional xml:id="variant_113"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/216"/>through the divided parts of
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/215"/>He led His children
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_113"/>
 <j:conditional xml:id="variant_114"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/217"/>the Sea of Reeds,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/216"/>through the divided parts of
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_114"/>
 <j:conditional xml:id="variant_115"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/218"/>their pursuers and their enemies
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/217"/>the Sea of Reeds,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_115"/>
 <j:conditional xml:id="variant_116"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/219"/>He drowned in its depths.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/218"/>their pursuers and their enemies
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_116"/>
 <j:conditional xml:id="variant_117"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/220"/>And His children saw His mighty power—
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/219"/>He drowned in its depths.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_117"/>
 <j:conditional xml:id="variant_118"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/221"/>they praised and gave thanks to His Name,
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/220"/>And His children saw His mighty power—
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_118"/>
 <j:conditional xml:id="variant_119"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/222"/>His sovereignty
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/221"/>they praised and gave thanks to His Name,
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_119"/>
 <j:conditional xml:id="variant_120"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/222"/>His sovereignty
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_120"/>
+<j:conditional xml:id="variant_121"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/223"/>they willingly accepted;
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_120"/></tei:p>
+<j:endConditional target="#variant_121"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

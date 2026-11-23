@@ -26,31 +26,9 @@
         <tei:head xml:lang="he">ברכת הבנים</tei:head>
         <tei:note type="instruction" xml:lang="he">לבן</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_horim/sons"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_musaf_qedushat_hayom">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_horim/daughters"/>
-        <j:declare xml:id="variants_2">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_musaf_qedushat_hayom">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
-        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

@@ -1,0 +1,145 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Fourth Day</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_selichot-davis-1986-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/fourth_day">
+        <tei:head xml:lang="en">Fourth Day</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
+        <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">The</tei:hi> Chazzan <tei:hi rend="italic">recites the</tei:hi> Half-Kaddish:</tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_tzom_gedaliah">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_second_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_third_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_fourth_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_fifth_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_erev_yom_kippur">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lekha_adonai_hatzedaqah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shomea_tefillah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:selach_lanu_avinu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim_attah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tov_adonai_leqovav"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The Chazzan repeats after the congregation:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:selach_na/selichot_erev_rosh_hashanah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:selach_na"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ani_qeratikha_ki"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:habbet_mishamayim_ureeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:adonai_boqer_tishma_qoli/repeat"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:selach_na/selichot_erev_rosh_hashanah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:selach_na"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hatteh_elohai_oznekha"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">This prayer was composed by Rabbi Gershom ben Yehudah (the Light of the Exile).</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:ayyeh_kol_nifleotekha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:choqer_hakol_vesoqer"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_melekh_yoshev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayaavor"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:al_tizkar_lanu/selichot_tzom_gedaliah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_tizkar_lanu"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zekhor_rachamekha"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_na_tashet"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_avot"/>
+        <j:declare xml:id="variants_5">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:zekhor_lanu_berit_rishonim/selichot_erev_rosh_hashanah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zekhor_lanu_berit_rishonim"/>
+        <j:endDeclare target="#variants_5"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The following verses until “When our strength fails, do not forsake us” are chanted by the Chazzan and repeated by the Congregation.</tei:hi>
+        </tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The Ark is opened:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema_qolenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amareinu_haazinah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:viduy/introduction"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_rachum_shimkha/extended"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:anenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mi_sheanah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vayomer_david"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:machei_umassei"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:makhnisei_rachamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maran_divishmaya/captive"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:maran_divishmaya/slave"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/shomer_yisrael/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_echad/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/shomer_goy_qadosh/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mitratzeh_berachamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonnenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

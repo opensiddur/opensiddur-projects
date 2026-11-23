@@ -50,7 +50,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vihi_noam"/>
         <j:endDeclare target="#variants_2"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/3/2-9"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:adonai_mah_rabbu"/>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:hashkivenu/shabbat_conclusion_barekhu">
@@ -63,6 +63,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
         <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hinneh_lo_yanum"/>
         <j:declare xml:id="variants_4">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:bible:psalms/128/chol_keriat_shema_al_hamittah">

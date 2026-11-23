@@ -40,16 +40,17 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
         <j:endDeclare target="#variants_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_adonai_leolam"/>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_khevod/chol_arvit_blessings_after_shema">
+              <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_khevod"/>
         <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
       </tei:div>
     </tei:body>
   </tei:text>
