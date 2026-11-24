@@ -258,7 +258,30 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mitratzeh_berachamim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonnenu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
+        <j:declare xml:id="variants_11">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_tzom_gedaliah">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_second_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_third_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_fourth_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_penitential_fifth_day">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/chatzi/selichot_erev_yom_kippur">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/shalem"/>
+        <j:endDeclare target="#variants_11"/>
       </tei:div>
     </tei:body>
   </tei:text>
