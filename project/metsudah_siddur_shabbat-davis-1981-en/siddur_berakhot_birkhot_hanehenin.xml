@@ -26,9 +26,13 @@
         <tei:head xml:lang="en">Berachos Said Before Eating or Drinking</tei:head>
         <tei:note type="instruction" xml:lang="en">Before eating anything made of wheat, barley, rye, oats, spelt or rice, say:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_minei_mezonot"/>
+        <tei:note type="instruction" xml:lang="en">Before drinking wine or grape juice say:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <tei:note type="instruction" xml:lang="en">Before eating tree-grown fruits say:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_haetz"/>
+        <tei:note type="instruction" xml:lang="en">Before eating earth-grown produce (vegetables) say:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_haadamah"/>
+        <tei:note type="instruction" xml:lang="en">Before eating meat, fish, milk, eggs, cheese, mushrooms, and before drinking all liquids except wine and grape juice, say:</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:shehakol_nihyeh_bidvaro/shabbat_day_meal_kiddush">
@@ -38,6 +42,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehakol_nihyeh_bidvaro"/>
         <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">Before tasting any fruit or vegetable for the first time in the season, say:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
         <tei:note type="instruction" xml:lang="en">[This blessing is also said when purchasing a new suit or dress.]</tei:note>
       </tei:div>

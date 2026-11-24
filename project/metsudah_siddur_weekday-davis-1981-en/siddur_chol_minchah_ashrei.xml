@@ -33,17 +33,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
         <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following half-Kaddish</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
-        <j:declare xml:id="variants_2">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
-        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

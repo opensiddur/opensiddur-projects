@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/yehi_khevod">
         <tei:head xml:lang="he">יהי כבוד</tei:head>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_khevod/chol_arvit_blessings_after_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_khevod"/>
+        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

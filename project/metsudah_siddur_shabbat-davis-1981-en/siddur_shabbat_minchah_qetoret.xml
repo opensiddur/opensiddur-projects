@@ -25,7 +25,9 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah/qetoret">
         <tei:head xml:lang="en">Ketores (Incense Offering)</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
+        <tei:note type="instruction" xml:lang="en">Exodus 30:34-36</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/qetoret"/>
+        <tei:note type="instruction" xml:lang="en">Maseches Kreisos 6a; <tei:hi rend="italic">Jerusalem Talmud, Maseches Yoma</tei:hi> 4:5</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
@@ -46,6 +48,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/bar_kappara"/>
         <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">The following is the prayer of Rabbi Nechunya ben Hakanah:</tei:note>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:sefirat_haomer/anna_bekhoach/sefirat_haomer">

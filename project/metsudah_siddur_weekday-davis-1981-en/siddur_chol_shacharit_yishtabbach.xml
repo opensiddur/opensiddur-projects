@@ -43,16 +43,6 @@
         <tei:note type="instruction" xml:lang="en">Here, as elsewhere in the Liturgy, the Half-Kaddish marks the end of a distinct section of the prayers, in this case, the <tei:hi rend="italic">Pesukei Dezimrah.</tei:hi></tei:note>
         <tei:note type="instruction" xml:lang="en">It is called the Half-Kaddish, the final three verses of the complete Kaddish having been omitted.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
-        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

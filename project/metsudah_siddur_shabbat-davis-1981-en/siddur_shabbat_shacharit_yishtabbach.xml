@@ -36,26 +36,22 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/130"/>
         <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">The Half-Kaddish is recited by the Chazzan</tei:note>
+        <tei:note type="instruction" xml:lang="en">Here, as elsewhere in the Liturgy, the Half-Kaddish marks the end of a distinct section of the prayers, in this case, the <tei:hi rend="italic">Pesukei Dezimrah.</tei:hi></tei:note>
+        <tei:note type="instruction" xml:lang="en">It is called the Half-Kaddish, the final three verses of the complete Kaddish having been omitted.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/shabbat_musaf_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
-        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">It has become a universally-accepted custom to recite Barechu before proceeding to the blessings of Shema. Barechu, like Kaddish and Kedusha, cannot be recited unless a quorum—a <tei:hi rend="italic">minyan</tei:hi> of ten adult males—is present. Barechu is also said by one who is called upon to read from the Torah.</tei:note>
         <tei:note type="instruction" xml:lang="en">The practice of saying Barechu is mentioned numerous times in the Talmud. It is even cited in the Mishna (<tei:hi rend="italic">Maseches Berachos</tei:hi> 49b) in the names of Rabbi Akiva and Rabbi Yishmael.</tei:note>
         <tei:note type="instruction" xml:lang="en">The Chazzan<tei:hi rend="italic"> says:</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
         <tei:note type="instruction" xml:lang="en">The Congregation responds and the Chazzan<tei:hi rend="italic"> repeats:</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
+        <tei:note type="instruction" xml:lang="en">The two blessings יוֹצֵר אוֹר “He Who forms light” and אַהֲבָה רַבָּה “Great love,” are referred to as the blessings preceding Shema (<tei:hi rend="italic"> Maseches Berachos</tei:hi> 11a). According to Rambam they were formulated by Ezra and his Court (<tei:hi rend="italic"> Laws of Shema</tei:hi> 1:7).</tei:note>
+        <tei:note type="instruction" xml:lang="en">You may not interrupt your prayers from this point on until after the <tei:hi rend="italic"> Shemoneh Esrei</tei:hi> . But you may answer “Amein” to the blessings of הָאֵל הַקָּדוֹשׁ “The Holy Powerful One” and שׁוֹמֵעַ תְּפִילָה “He Who heeds prayer;” say the thrice-repeated קָדוֹשׁ “Holy . . .” and בָּרוּךְ כְּבוֹד “Blessed is the glory . . .” of Kedusha; and answer Barechu. You may also answer אָמֵן יְהֵא שְׁמֵהּ רַבָּא “Amein, May His great Name,” when you hear Kaddish.” You may also answer Amein after the blessings of יוֹצֵר הַמְּאוֹרוֹת , “Who forms the luminaries,” and הָבּוֹחֵר בְּעַמוֹ יִשׂרָאֵל בְּאַהֲבָה , “Who chooses His people Israel with love.”</tei:note>
+        <tei:note type="instruction" xml:lang="en">For a more detailed exposition of these laws, see <tei:hi rend="italic">Metsudah Kitzur Shulchan Aruch,</tei:hi> Vol. I, pp. 172-176.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/opening"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha"/>
-        <j:declare xml:id="variants_2">
+        <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:yotzer_or/hameir/shabbat_shacharit_el_adon">
               <tei:binary value="false"/>
@@ -63,7 +59,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hameir"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

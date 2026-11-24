@@ -207,24 +207,15 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:besimchah_uvesason_moadei"/>
         <j:declare xml:id="variants_10">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/shabbat_shacharit_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/shabbat_musaf_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/shabbat_minchah_amidah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/regalim_amidah">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/regalim_amidah">
               <tei:binary value="true"/>
             </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/regalim_musaf_qedushat_hayom">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/regalim_musaf_qedushat_hayom">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
         <j:endDeclare target="#variants_10"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <j:declare xml:id="variants_11">
@@ -249,29 +240,10 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:endDeclare target="#variants_11"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
-        <j:declare xml:id="variants_12">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/veal_kullam/regalim_musaf_qedushat_hayom">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
-        <j:endDeclare target="#variants_12"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
-        <j:declare xml:id="variants_13">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_amidah">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_kohanim/regalim_musaf_qedushat_hayom">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
-        <j:endDeclare target="#variants_13"/>
-        <j:declare xml:id="variants_14">
+        <j:declare xml:id="variants_12">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/shabbat_arvit_amidah">
               <tei:binary value="false"/>
@@ -288,7 +260,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
-        <j:endDeclare target="#variants_14"/>
+        <j:endDeclare target="#variants_12"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>
         <j:conditional xml:id="when_3">
           <tei:fs type="opensiddur:service-time">
@@ -297,7 +269,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-        <j:declare xml:id="variants_15">
+        <j:declare xml:id="variants_13">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom_rav_al/regalim_amidah">
               <tei:binary value="true"/>
@@ -305,9 +277,9 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
-        <j:endDeclare target="#variants_15"/>
+        <j:endDeclare target="#variants_13"/>
         <j:endConditional target="#when_3"/>
-        <j:declare xml:id="variants_16">
+        <j:declare xml:id="variants_14">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/elohai_netzor/shabbat_shacharit_amidah">
               <tei:binary value="false"/>
@@ -318,8 +290,8 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor"/>
-        <j:endDeclare target="#variants_16"/>
-        <j:declare xml:id="variants_17">
+        <j:endDeclare target="#variants_14"/>
+        <j:declare xml:id="variants_15">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/shabbat_shacharit_qorban_tamid">
               <tei:binary value="false"/>
@@ -327,7 +299,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
-        <j:endDeclare target="#variants_17"/>
+        <j:endDeclare target="#variants_15"/>
       </tei:div>
     </tei:body>
   </tei:text>

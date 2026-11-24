@@ -26,17 +26,7 @@
         <tei:head xml:lang="en">Motzei Shabbos Prayers</tei:head>
         <tei:note type="instruction" xml:lang="en">At the conclusion of the Festivals, and on a Saturday night before a Festival, say עָלֵינוּ.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
         <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
-        <j:endDeclare target="#variants_1"/>
-        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_keriat_shema_al_hamittah">
               <tei:binary value="false"/>
@@ -44,8 +34,8 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vihi_noam"/>
-        <j:endDeclare target="#variants_2"/>
-        <j:declare xml:id="variants_3">
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:qorbanot/pesuqim/chol_shacharit_ashrei_uva_letziyyon">
               <tei:binary value="false"/>
@@ -56,7 +46,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
-        <j:endDeclare target="#variants_3"/>
+        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>
