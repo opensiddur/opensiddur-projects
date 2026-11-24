@@ -107,6 +107,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvedivrei"/>
         <tei:note type="instruction" xml:lang="en">Congregation and Chazzan:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan concludes:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/hael_haqadosh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/hamelekh_haqadosh"/>
@@ -141,6 +142,8 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
         <j:endDeclare target="#variants_5"/>
         <j:endConditional target="#when_2"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this, see page 000 for instructions.</tei:note>
+        <tei:note type="instruction" xml:lang="en">On Shabbos-Rosh Chodesh continue “You formed” on page 000:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tiqqanta_shabbat"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat"/>
         <j:declare xml:id="variants_6">
@@ -161,6 +164,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yismechu_vemalkhutekha"/>
         <j:endDeclare target="#variants_6"/>
+        <tei:note type="instruction" xml:lang="en">On a regular Shabbos continue “Be pleased,” on page 000.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/attah_yatzarta"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:zeh_qarvan_shabbat"/>

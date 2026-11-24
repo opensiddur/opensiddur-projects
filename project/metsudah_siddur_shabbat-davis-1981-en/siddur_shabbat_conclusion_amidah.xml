@@ -158,6 +158,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_7"/>
         <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this, see page 000.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <tei:note type="instruction" xml:lang="en">At the words, We are thankful, <tei:hi rend="italic">bend forward; at </tei:hi>Adonoy <tei:hi rend="italic">return to an upright position.</tei:hi></tei:note>
         <j:declare xml:id="variants_8">
@@ -236,6 +237,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
         <j:endDeclare target="#variants_10"/>
+        <tei:note type="instruction" xml:lang="en">The following is said by some in place of שים שלום on the previous page.</tei:note>
         <j:declare xml:id="variants_11">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom_rav_al/regalim_amidah">
@@ -267,6 +269,8 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
         <j:endDeclare target="#variants_13"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/vearvah"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the half Kaddish, and the congregation then says, “May the pleasantness” and “and You Holy One,” found on p. 000.</tei:note>
+        <tei:note type="instruction" xml:lang="en">At the conclusion of the Festivals, and on a Saturday night before a Festival, say עָלֵינוּ , page 000.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <j:declare xml:id="variants_14">
           <tei:fs type="opensiddur:variant">
@@ -304,6 +308,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
         <j:endDeclare target="#variants_16"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following Kaddish:</tei:note>
         <j:declare xml:id="variants_17">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/shalem/shabbat_arvit_magen_avot">

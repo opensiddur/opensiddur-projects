@@ -132,6 +132,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushat_hashem"/>
         <j:endDeclare target="#variants_5"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this, see page 00 for instructions.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yismach_mosheh_bemattenat"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/velo_netatto_hashem"/>
         <j:declare xml:id="variants_6">
@@ -202,6 +203,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_8"/>
         <j:endConditional target="#when_2"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this, see page 000.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <j:declare xml:id="variants_9">
           <tei:fs type="opensiddur:variant">
@@ -349,6 +351,7 @@
         <j:endDeclare target="#variants_14"/>
         <j:endConditional target="#when_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hu_yaaseh_shalom"/>
+        <tei:note type="instruction" xml:lang="en">When Yom Tov occurs on weekdays see pages 000-000 for appropriate Psalm.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hayom_shabbat_qodesh"/>
         <j:declare xml:id="variants_15">
           <tei:fs type="opensiddur:variant">
@@ -359,6 +362,9 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
         <j:endDeclare target="#variants_15"/>
+        <tei:note type="instruction" xml:lang="en">The Mourner's Kaddish (p. 000) is recited here.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The following Psalm (27) is recited at the conclusion of services, morning and evenings, from the first day of Elul, through Shemini Atzeres.</tei:note>
+        <tei:note type="instruction" xml:lang="en">The Psalm voices our prayer that God will be our light on Rosh Hashana enabling us to repel the darkness of sin through true repentance, and that He will be our salvation on Yom Kippur, through His compassionate atonement of our sins.</tei:note>
         <j:declare xml:id="variants_16">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:bible:psalms/27/shabbat_shacharit_amidah">

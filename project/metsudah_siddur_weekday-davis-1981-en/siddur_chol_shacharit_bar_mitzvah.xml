@@ -37,6 +37,9 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shepetrani/text"/>
         <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">When the reading of the Torah is concluded, the Half Kaddish is recited by the Reader. The Torah is then raised so that the congregation can see the script, and the congregation exclaims:</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vezot_hatorah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_milifnei_avinu"/>
       </tei:div>

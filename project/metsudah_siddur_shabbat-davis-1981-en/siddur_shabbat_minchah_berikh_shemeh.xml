@@ -25,11 +25,17 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/minchah/berikh_shemeh">
         <tei:head xml:lang="en">Berich Shemei</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:berikh_shemeh/berikh"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:gaddelu_ladonai_itti"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:av_harachamim/hu_yerachem/text"/>
+        <tei:note type="instruction" xml:lang="en">Mincha Torah readings start on page 000.</tei:note>
+        <tei:note type="instruction" xml:lang="en">When the Torah is unrolled, the Reader says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vetiggaleh_veteraeh_malkhuto"/>
+        <tei:note type="instruction" xml:lang="en">The Kohein walks up to the Torah and says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
+        <tei:note type="instruction" xml:lang="en">The Congregation responds and the Kohein repeats:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
+        <tei:note type="instruction" xml:lang="en">The Kohein says:</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:birkhot_hatorah/asher_bachar/regalim_kiddush">
@@ -39,7 +45,10 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
         <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">After the Torah is read, the Kohein says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_natan"/>
+        <tei:note type="instruction" xml:lang="en">*(The above blessings are recited by every person called to the Torah.)</tei:note>
+        <tei:note type="instruction" xml:lang="en">When the reading of the Torah is concluded, the Half Kaddish is recited by the Reader. The Torah is then raised so that the congregation can see the script, and the congregation exclaims:</tei:note>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:vezot_hatorah/shabbat_minchah_berikh_shemeh">
@@ -52,6 +61,7 @@
         <tei:note type="instruction" xml:lang="en">Some recite the following two Psalms:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/111"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/112"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan takes the Torah and says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehalelu_et_shem"/>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
@@ -62,6 +72,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
         <j:endDeclare target="#variants_3"/>
+        <tei:note type="instruction" xml:lang="en">As the Torah is returned to the Ark the following is said:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvenuchoh_yomar_shuvah"/>
         <tei:note type="instruction" xml:lang="en">When Yom Tov occurs on Shabbos, turn to page 000 for the Shemoneh Esrei.</tei:note>
       </tei:div>

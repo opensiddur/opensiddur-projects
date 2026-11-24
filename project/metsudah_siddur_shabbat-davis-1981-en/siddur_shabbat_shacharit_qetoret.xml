@@ -25,7 +25,9 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/shacharit/qetoret">
         <tei:head xml:lang="en">Ketores (Incense Offering)</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/attah_hu"/>
+        <tei:note type="instruction" xml:lang="en">Exodus 30:34-36</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/qetoret"/>
+        <tei:note type="instruction" xml:lang="en">Maseches Kreisos 6a; <tei:hi rend="italic">Jerusalem Talmud, Maseches Yoma</tei:hi> 4:5</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
@@ -46,6 +48,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pittum_haqetoret/bar_kappara"/>
         <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">The following is the prayer of Rabbi Nechunya ben Hakanah:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:anna_bekhoach"/>
         <tei:note type="instruction" xml:lang="en">The following sequence of Mishnayos and the selection from <tei:hi rend="italic">Sifra</tei:hi> “Rabbi Yishmael Says,” were inserted after the Scriptural selections dealing with daily- offerings in order to give every Jew the opportunity to study/recite daily, the minimum of selections from Scripture, Mishnah, and Talmud. Even though <tei:hi rend="italic">Sifra</tei:hi> is not actually a Talmudic tractate, it is a Tanaitic expansion of Mishnah. (See <tei:hi rend="italic">Shulchan Aruch, OrachChaim</tei:hi> 50:1).</tei:note>
         <tei:note type="instruction" xml:lang="en">The following are <tei:hi rend="italic">Mishnayos</tei:hi> found in the fifth chapter of <tei:hi rend="italic">Maseches Zevachim.</tei:hi></tei:note>

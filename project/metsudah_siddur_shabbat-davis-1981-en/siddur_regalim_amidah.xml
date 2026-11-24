@@ -26,6 +26,7 @@
         <tei:head xml:lang="en">Amidah for Yom Tov Maariv, Shacharis and Minchah</tei:head>
         <tei:note type="instruction" xml:lang="en">At Minchah begin here:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:deuteronomy/32/3"/>
+        <tei:note type="instruction" xml:lang="en">At Maariv and Shacharis, begin here:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/adonai_sefatai"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
@@ -116,6 +117,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqaddesh"/>
         <tei:note type="instruction" xml:lang="en">Congregation says and Chazzan repeats:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan says:</tei:note>
         <j:declare xml:id="variants_5">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/leummatam/shabbat_shacharit_amidah">
@@ -147,6 +149,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
         <j:endDeclare target="#variants_6"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvedivrei"/>
         <tei:note type="instruction" xml:lang="en">Congregation says and Chazzan repeats:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>

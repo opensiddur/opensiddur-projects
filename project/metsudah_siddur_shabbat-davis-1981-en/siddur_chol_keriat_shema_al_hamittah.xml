@@ -27,6 +27,7 @@
         <tei:note type="instruction" xml:lang="en">The following is Omitted on the Shabbos and Festivals.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_hareini"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamappil"/>
+        <tei:note type="instruction" xml:lang="en">If one has prayed Ma'ariv <tei:hi rend="italic">and with it recited Shema earlier than the ideal time for the evening Shema, he should repeat all of it here. Some people have the custom of reciting all three paragraphs here every night.</tei:hi></tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot">
@@ -64,6 +65,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
         <j:endDeclare target="#variants_3"/>
+        <tei:note type="instruction" xml:lang="en">Each unit until “A song of ascents,” is said three times:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hinneh_lo_yanum"/>
         <j:declare xml:id="variants_4">
@@ -75,6 +77,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/128"/>
         <j:endDeclare target="#variants_4"/>
+        <tei:note type="instruction" xml:lang="en">To be said three times:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/4/5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam"/>
       </tei:div>

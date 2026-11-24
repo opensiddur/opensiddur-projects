@@ -35,7 +35,9 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_cake"/>
         <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">(Continue: "for the produce," on next page)</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_wine"/>
+        <tei:note type="instruction" xml:lang="en">(Continue: "for the produce," on next page)</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/begin_fruit"/>
         <tei:note type="instruction" xml:lang="en">(Continue: "for the produce," below)</tei:note>
         <j:conditional xml:id="when_2">
@@ -73,6 +75,9 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:meein_shalosh/end_wine"/>
         <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">After partaking of all other foods and drinks say:</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_nefashot"/>
       </tei:div>
     </tei:body>

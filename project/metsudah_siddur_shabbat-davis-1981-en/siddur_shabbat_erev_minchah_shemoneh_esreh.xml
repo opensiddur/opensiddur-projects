@@ -75,7 +75,9 @@
           </j:all>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/neqaddesh"/>
+        <tei:note type="instruction" xml:lang="en">Congregation says and Chazzan repeats:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan says:</tei:note>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/leummatam/shabbat_shacharit_amidah">
@@ -195,6 +197,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_8"/>
         <j:endConditional target="#when_2"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this, see page 000.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">At the words, </tei:hi>We are thankful, <tei:hi rend="italic">bend forward; at </tei:hi>Adonoy <tei:hi rend="italic">return to an upright position.</tei:hi></tei:note>
         <j:declare xml:id="variants_9">
@@ -313,6 +316,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
         <j:endDeclare target="#variants_13"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/vearvah"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following Kaddish</tei:note>
         <j:declare xml:id="variants_14">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/shalem/shabbat_arvit_magen_avot">

@@ -25,6 +25,7 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/magen_avot">
         <tei:head xml:lang="en">Magein Avos</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/magen_avot"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following Kaddish:</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/shalem/shabbat_arvit_magen_avot">
@@ -58,6 +59,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/23"/>
         <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following half-Kaddish</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <tei:note type="instruction" xml:lang="en">The Chazzan<tei:hi rend="italic"> says:</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>

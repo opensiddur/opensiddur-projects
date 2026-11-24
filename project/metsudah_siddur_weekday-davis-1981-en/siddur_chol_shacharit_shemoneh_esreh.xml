@@ -69,11 +69,17 @@
           <tei:hi rend="italic">Congregation says and Chazzan repeats:</tei:hi>
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The Chazzan says:</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/leummatam"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">Congregation says and Chazzan repeats:</tei:hi>
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The Chazzan says:</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/uvedivrei"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">Congregation says and Chazzan repeats:</tei:hi>
@@ -205,6 +211,10 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_11"/>
         <j:endConditional target="#when_2"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say this at Shacharis, (the Morning Service) or at Mincha (the Afternoon Service), but realized your omission before saying מוֹדִים, "We are thankful," you should say it at that time and continue with מוֹדִים.</tei:note>
+        <tei:note type="instruction" xml:lang="en">If you became aware of your omission after saying "מוֹדִים" "We are thankful," but before concluding the Shemoneh Esrei [and taking three steps backwards], start again from רְצֵה, "Be pleased." If you had completed the Shemoneh Esrei and then remembered, you must repeat the entire Shemoneh Esrei from the beginning.</tei:note>
+        <tei:note type="instruction" xml:lang="en">If you are in doubt, follow the same procedure as above.</tei:note>
+        <tei:note type="instruction" xml:lang="en">If you had already said the Musaf prayer and recalled your omission, it is the opinion of some authorities, that the <tei:hi rend="italic"> Shemoneh Esrei</tei:hi> of <tei:hi rend="italic">Shacharis</tei:hi> be repeated as a נְדָבָה, a free-will-offering of prayer, rather than an obligatory prayer.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
         <tei:note type="instruction" xml:lang="en">At the words, <tei:hi rend="italic">We are thankful,</tei:hi> bend forward; at <tei:hi rend="italic">Adonoy</tei:hi> return to an upright position.</tei:note>
         <j:declare xml:id="variants_12">

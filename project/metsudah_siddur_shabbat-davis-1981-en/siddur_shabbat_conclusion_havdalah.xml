@@ -42,8 +42,12 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/pesuqim"/>
         <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">Over the wine:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_peri_hagafen/text"/>
+        <tei:note type="instruction" xml:lang="en">Over the spices:</tei:note>
+        <tei:anchor xml:id="note_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_minei_vesamim"/>
+        <tei:note type="instruction" xml:lang="en">Over the fire:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:borei_meorei_haesh"/>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
@@ -57,4 +61,9 @@
       </tei:div>
     </tei:body>
   </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p>According to the commentators, the use of fragrant spices during the Havdalah service, is to cheer the soul which is saddened at the departure of Shabbos, and the departure of the Neshamah Yesairoh, the special soul that each Jew receives in honor of Shabbos.</tei:p>
+    </tei:note>
+  </tei:standOff>
 </tei:TEI>
