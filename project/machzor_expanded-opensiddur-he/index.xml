@@ -13,7 +13,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>JLPTEI digitization. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -37,15 +37,11 @@
           <tei:date type="accessed" when="2026-11-08">2026-11-08</tei:date>
           <tei:ref target="https://opensiddur.org/?p=69112">Open Siddur source record</tei:ref>
           <tei:note>Digital imaging and document preparation: Aharon N. Varady; copy held by the HUC-JIR Klau Library, Cincinnati. The scan is the source. Independent reader: Claude Opus 5.5; CLI configured for medium reasoning. No translations have been supplied for passages absent from the English edition.</tei:note>
-          <tei:note type="encoding" xml:lang="en">Digitization in progress. This preview includes the seven daily Hymns of Divine Unity and the Hymn of Glory. The closing appendices remain incomplete. First-day volume only.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Expanded recitation sequence and named appendices for the 1965 first-day volume, including the closing priestly blessing, daily psalm and Kaddish after study supplements. Absent English translations remain unfilled; this does not claim coverage of other volumes.</tei:note>
         </tei:bibl>
         <tei:bibl>
           <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
-          <tei:note>The scan prints directions without Kaddish words: reuse compatible Birnbaum Hebrew Half, Whole and Mourner’s Kaddish. The combined Shabbat/festival light blessing is also absent from this volume; its already printed Birnbaum option supplies that calendar variant. Retain credits/licence and provide no English fallback. The newly printed maḥzor Half Kaddish is a fixed Ten Days witness. Preparatory Elul29 Kaddish remains bound to compatible Birnbaum Hebrew, without importing its absent English; self-bind Birnbaum Kaddish components to preserve that choice. This installment additionally prints a direction for Hamotzi without its words; compatible Birnbaum Hebrew supplies that named dependency. No English fallback is added. The newly transcribed maḥzor Yigdal now supplies that canonical poem, including its printed English translation, in both morning and evening occurrences.</tei:note>
-        </tei:bibl>
-        <tei:bibl>
-          <tei:ptr target="/hasiddur_hashalem-birnbaum-1949-he/index#project_source_bibl"/>
-          <tei:note>Source directs Mourner Kaddish without printing it here; compatible Hebrew witness, no substitute English translation.</tei:note>
+          <tei:note>The preparatory Elul29 Half/WholeKaddish cues need compatible non-TenDays Birnbaum Hebrew with their components self-bound. The combined Shabbat/festival candle blessing and Hamotzi directions also borrow their Hebrew words. Generic QabbalatShabbat outside the TenDays retains Birnbaum MournerKaddish; RoshHashanah now uses this volume’s printed parts. No substitute English translation is introduced.</tei:note>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
@@ -297,7 +293,24 @@
                     <tei:div xml:id="section_modim_congregation">
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                        <j:declare xml:id="canonical_caller_wording_0">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+                        <j:endDeclare target="#canonical_caller_wording_0"/>
                       </tei:div>
                     </tei:div>
                   </tei:div>
@@ -685,8 +698,138 @@
                 </tei:div>
               </tei:div>
             </tei:div>
+            <j:declare xml:id="canonical_caller_wording_1">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
+            <j:endDeclare target="#canonical_caller_wording_1"/>
+            <j:declare xml:id="canonical_caller_wording_2">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+            <j:endDeclare target="#canonical_caller_wording_2"/>
             <tei:div xml:id="section_qabbalat_mourner_kaddish">
               <j:conditional xml:id="section_qabbalat_mourner_kaddish_condition">
                 <tei:note type="instruction"><tei:foreign xml:lang="he">בנוכחות מניין ואבלים:</tei:foreign> <tei:foreign xml:lang="en">With a minyan and mourners present:</tei:foreign> </tei:note>
@@ -718,7 +861,59 @@
                     </tei:f>
                   </tei:fs>
                 </j:declare>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom"/>
+                <tei:div xml:id="section_closing_yatom_occurrence_1">
+                  <j:conditional xml:id="section_closing_yatom_occurrence_1_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:quorum">
+                        <tei:f name="minyan">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="aseret-ymei-tshuva">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                    <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">קדיש יתום בעשרת ימי תשובה.</tei:note>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Mourner’s Kaddish during the Ten Days of Repentance.</tei:note>
+                    <j:declare xml:id="section_closing_yatom_occurrence_1_settings">
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="aseret-ymei-tshuva">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/hosafot/kaddish/preface"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgaddal"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shelama"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+                    <j:endDeclare target="#section_closing_yatom_occurrence_1_settings"/>
+                  </tei:div>
+                  <j:endConditional target="#section_closing_yatom_occurrence_1_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_qabbalat_mourner_kaddish_outside_ten_days">
+                  <j:conditional xml:id="section_qabbalat_mourner_kaddish_outside_ten_days_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="aseret-ymei-tshuva">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">קדיש יתום שלא בעשרת ימי תשובה.</tei:note>
+                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Mourner’s Kaddish outside the Ten Days of Repentance.</tei:note>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+                  </tei:div>
+                  <j:endConditional target="#section_qabbalat_mourner_kaddish_outside_ten_days_condition"/>
+                </tei:div>
                 <j:endDeclare target="#section_qabbalat_mourner_kaddish_settings"/>
               </tei:div>
               <j:endConditional target="#section_qabbalat_mourner_kaddish_condition"/>
@@ -837,7 +1032,24 @@
               </tei:div>
               <j:endConditional target="#section_maariv_veshamru_condition"/>
             </tei:div>
+            <j:declare xml:id="psalm_81_4_to_5_printed_wording_10">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/4/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/4/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/5/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/5/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/81/4" targetEnd="urn:x-opensiddur:text:bible:psalms/81/5"/>
+            <j:endDeclare target="#psalm_81_4_to_5_printed_wording_10"/>
             <tei:div xml:id="section_maariv_kaddish">
               <j:conditional xml:id="section_maariv_kaddish_condition">
                 <j:all>
@@ -858,7 +1070,24 @@
                 </j:declare>
                 <tei:note type="description" xml:lang="en">The Reader says half Kaddish.</tei:note>
                 <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/14/17"/>
+                <j:declare xml:id="psalm_25_6_printed_wording_12">
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:bible:psalms/25/6/heidenheim_1965_printing/earlier">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:bible:psalms/25/6/heidenheim_1965_printing/closing_appendix">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:bible:psalms/25/6/marmorstein_translation/preface">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:bible:psalms/25/6/marmorstein_translation/morning_psalms">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/25/6"/>
+                <j:endDeclare target="#psalm_25_6_printed_wording_12"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
                 <j:endDeclare target="#section_maariv_kaddish_settings"/>
               </tei:div>
@@ -880,7 +1109,7 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avot"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/gevurot"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/attah_qadosh"/>
-                <j:declare xml:id="canonical_caller_wording_0">
+                <j:declare xml:id="canonical_caller_wording_3">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:prayer:amidah/uvekhen_ten_pachdekha/kol_without_maqaf_shaltan">
                       <tei:binary value="true"/>
@@ -891,8 +1120,8 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_pachdekha"/>
-                <j:endDeclare target="#canonical_caller_wording_0"/>
-                <j:declare xml:id="canonical_caller_wording_1">
+                <j:endDeclare target="#canonical_caller_wording_3"/>
+                <j:declare xml:id="canonical_caller_wording_4">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:prayer:amidah/uvekhen_ten_kavod/land_with_comma">
                       <tei:binary value="true"/>
@@ -903,9 +1132,9 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_ten_kavod"/>
-                <j:endDeclare target="#canonical_caller_wording_1"/>
+                <j:endDeclare target="#canonical_caller_wording_4"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/uvekhen_tzaddiqim"/>
-                <j:declare xml:id="canonical_caller_wording_2">
+                <j:declare xml:id="canonical_caller_wording_5">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:bible:psalms/146/10/name_plene_hallaluyah_chataf">
                       <tei:binary value="true"/>
@@ -928,9 +1157,9 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vetimlokh_attah_hashem"/>
-                <j:endDeclare target="#canonical_caller_wording_2"/>
+                <j:endDeclare target="#canonical_caller_wording_5"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qadosh_attah_venora"/>
-                <j:declare xml:id="rh_qedushat_hayom_printed_wording_11">
+                <j:declare xml:id="rh_qedushat_hayom_printed_wording_14">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:prayer:amidah/attah_vechartanu_mikol/he/prior_printing">
                       <tei:binary value="true"/>
@@ -941,7 +1170,7 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/qedushat_hayom"/>
-                <j:endDeclare target="#rh_qedushat_hayom_printed_wording_11"/>
+                <j:endDeclare target="#rh_qedushat_hayom_printed_wording_14"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/hodaah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/shalom"/>
@@ -1097,7 +1326,35 @@
                     </tei:f>
                   </tei:fs>
                 </j:declare>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+                <tei:div xml:id="section_closing_yatom_occurrence_2">
+                  <j:conditional xml:id="section_closing_yatom_occurrence_2_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:quorum">
+                        <tei:f name="minyan">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                    <j:declare xml:id="section_closing_yatom_occurrence_2_settings">
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="aseret-ymei-tshuva">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/hosafot/kaddish/preface"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgaddal"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shelama"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+                    <j:endDeclare target="#section_closing_yatom_occurrence_2_settings"/>
+                  </tei:div>
+                  <j:endConditional target="#section_closing_yatom_occurrence_2_condition"/>
+                </tei:div>
                 <j:endDeclare target="#section_maariv_mourner_kaddish_settings"/>
               </tei:div>
               <j:endConditional target="#section_maariv_mourner_kaddish_condition"/>
@@ -1472,7 +1729,7 @@
                         </tei:f>
                       </tei:fs>
                     </j:declare>
-                    <j:declare xml:id="qorbanot_musaf_shabbat_printed_wording_20">
+                    <j:declare xml:id="qorbanot_musaf_shabbat_printed_wording_24">
                       <tei:fs type="opensiddur:variant">
                         <tei:f name="urn:x-opensiddur:condition:bible:numbers/28/9/he/prior_printing">
                           <tei:binary value="true"/>
@@ -1489,7 +1746,7 @@
                       </tei:fs>
                     </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:qorbanot/musaf/shabbat"/>
-                    <j:endDeclare target="#qorbanot_musaf_shabbat_printed_wording_20"/>
+                    <j:endDeclare target="#qorbanot_musaf_shabbat_printed_wording_24"/>
                     <j:endDeclare target="#section_morning_qorbanot_shabbat_settings"/>
                   </tei:div>
                   <j:endConditional target="#section_morning_qorbanot_shabbat_condition"/>
@@ -1502,8 +1759,36 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8" targetEnd="urn:x-opensiddur:text:bible:chronicles_1/16/36"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu"/>
+            <j:declare xml:id="vehu_rachum_printed_wording_25">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/1/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/1/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/2/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/2/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum"/>
+            <j:endDeclare target="#vehu_rachum_printed_wording_25"/>
+            <j:declare xml:id="hoshiah_et_ammekha_printed_wording_26">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/11/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/11/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha"/>
+            <j:endDeclare target="#hoshiah_et_ammekha_printed_wording_26"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/34"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/90"/>
@@ -1514,9 +1799,150 @@
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/25"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/26"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/33"/>
+            <j:declare xml:id="psalm_92_printed_wording_27">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
+            <j:endDeclare target="#psalm_92_printed_wording_27"/>
+            <j:declare xml:id="psalm_93_printed_wording_28">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_opening">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+            <j:endDeclare target="#psalm_93_printed_wording_28"/>
+            <j:declare xml:id="yehi_khevod_printed_wording_29">
+              <tei:fs type="opensiddur:variant">
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/14/heidenheim_1965_earlier">
+                  <tei:binary value="true"/>
+                </tei:f>
+                <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/14/heidenheim_1965_daily_appendix">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+            </j:declare>
             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/yehi_khevod"/>
+            <j:endDeclare target="#yehi_khevod_printed_wording_29"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ashrei"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/146"/>
             <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/147"/>
@@ -1670,7 +2096,18 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah"/>
+                <j:declare xml:id="shacharit_amidah_sim_shalom_printed_wording_33">
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/earlier">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/kohanim_appendix">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:endDeclare target="#shacharit_amidah_sim_shalom_printed_wording_33"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple"/>
                 <j:endDeclare target="#section_morning_silent_amidah_settings"/>
@@ -1892,7 +2329,7 @@
                 <tei:note type="instruction" xml:lang="he">פותחים הארון.</tei:note>
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din"/>
                 <tei:note type="instruction" xml:lang="he">סוגרים הארון.</tei:note>
-                <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_27">
+                <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_37">
                   <tei:fs type="opensiddur:variant">
                     <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise">
                       <tei:binary value="true"/>
@@ -1903,7 +2340,7 @@
                   </tei:fs>
                 </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah"/>
-                <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_27"/>
+                <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_37"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/qedushat_hashem"/>
@@ -2523,7 +2960,7 @@
                     </tei:div>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/before_blessing"/>
                     <tei:note type="instruction" xml:lang="en">Then the reading of the Torah begins until the end of the portion when the individual who had been called upon, says:</tei:note>
-                    <j:declare xml:id="canonical_caller_wording_3">
+                    <j:declare xml:id="canonical_caller_wording_6">
                       <tei:fs type="opensiddur:variant">
                         <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/prior_printing">
                           <tei:binary value="true"/>
@@ -2546,7 +2983,7 @@
                       </tei:fs>
                     </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1" targetEnd="urn:x-opensiddur:text:bible:numbers/29/6"/>
-                    <j:endDeclare target="#canonical_caller_wording_3"/>
+                    <j:endDeclare target="#canonical_caller_wording_6"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/torah/after_blessing"/>
                   </tei:div>
                 </tei:div>
@@ -3366,6 +3803,13 @@
                     </tei:div>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/vattitten_lanu_hashem"/>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/umippenei"/>
+                    <tei:div xml:id="section_musaf_tikkun_at_umippenei">
+                      <tei:div>
+                        <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">כשהחזן אומר ומפני חטאינו אומרים תפלה זו.</tei:note>
+                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Say this supplication while the cantor recites Umippenei chataenu.</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_shekol_tippah"/>
+                      </tei:div>
+                    </tei:div>
                     <tei:div xml:id="section_musaf_repetition_sabbath_offerings_canonical">
                       <tei:div>
                         <j:declare xml:id="section_musaf_repetition_sabbath_offerings_canonical_settings">
@@ -4499,10 +4943,38 @@
                       </tei:div>
                       <j:endConditional target="#section_shofarot_musaf_areshet_inclusion_condition"/>
                     </tei:div>
+                    <tei:div xml:id="section_musaf_kohanim_preparation">
+                      <j:conditional xml:id="section_musaf_kohanim_preparation_condition">
+                        <j:all>
+                          <tei:fs type="opensiddur:practice">
+                            <tei:f name="birkat-kohanim">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">בעת עליית הכהנים לדוכן, בזמן רצה, אומרים תפלה זו לפי מקומם של הכהנים והקהל.</tei:note>
+                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">As the priests ascend during Retzeh, say the preparation with the appropriate priest or congregation wording.</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon_shel_haqahal"/>
+                      </tei:div>
+                      <j:endConditional target="#section_musaf_kohanim_preparation_condition"/>
+                    </tei:div>
                     <tei:div xml:id="section_musaf_repetition_retzeh">
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:declare xml:id="canonical_caller_wording_7">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
+                        <j:endDeclare target="#canonical_caller_wording_7"/>
                       </tei:div>
                     </tei:div>
                     <tei:div xml:id="section_musaf_priests_avodah">
@@ -4516,18 +4988,18 @@
                         </j:all>
                       </j:conditional>
                       <tei:div>
-                        <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">כשהכהנים עולים לדוכן, הקהל אומר ותערב והש״ץ מסיים.</tei:note>
-                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">As the priests go to the dukhan, the congregation says Veteerav and the cantor concludes.</tei:note>
+                        <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">כשהכהנים עולים לדוכן, הקהל והש״ץ אומרים ותערב והש״ץ מסיים.</tei:note>
+                        <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">As the priests ascend, the congregation and cantor say Veteerav; the cantor concludes.</tei:note>
                         <tei:div xml:id="section_musaf_veteerav_congregation">
                           <tei:div>
-                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/veteerav"/>
+                            <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader_and_congregation" xml:lang="he">קהל וחזן</tei:note>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vetearev_lefanekha_atiratenu"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_veteerav_cantor_conclusion">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/sheotekha"/>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/sheotekha_levadekha"/>
                           </tei:div>
                         </tei:div>
                       </tei:div>
@@ -4552,21 +5024,89 @@
                     <tei:div xml:id="section_musaf_repetition_modim">
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:declare xml:id="canonical_caller_wording_8">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/heidenheim_1965_printing_2/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim/heidenheim_1965_printing_2/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
+                        <j:endDeclare target="#canonical_caller_wording_8"/>
                       </tei:div>
                     </tei:div>
                     <tei:div xml:id="section_musaf_repetition_modim_derabbanan">
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                        <j:declare xml:id="canonical_caller_wording_9">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+                        <j:endDeclare target="#canonical_caller_wording_9"/>
                       </tei:div>
                     </tei:div>
+                    <j:declare xml:id="canonical_caller_wording_10">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/veal_kullam/heidenheim_1965_printing_1/earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/veal_kullam/heidenheim_1965_printing_1/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
+                    <j:endDeclare target="#canonical_caller_wording_10"/>
+                    <j:declare xml:id="canonical_caller_wording_11">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/ukhetov/heidenheim_1965_printing_1/earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/ukhetov/heidenheim_1965_printing_1/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
+                    <j:endDeclare target="#canonical_caller_wording_11"/>
+                    <j:declare xml:id="canonical_caller_wording_12">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/text/vekhol_hachayyim/heidenheim_1965_printing_1/earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/text/vekhol_hachayyim/heidenheim_1965_printing_1/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/text/vekhol_hachayyim"/>
+                    <j:endDeclare target="#canonical_caller_wording_12"/>
                     <tei:div xml:id="section_musaf_repetition_kohanim_intro">
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/amirah_leshatz_lifnay_birkat_kohanim/before_call"/>
                         <tei:div xml:id="section_musaf_kohanim_aloud">
                           <j:conditional xml:id="section_musaf_kohanim_aloud_condition">
                             <j:all>
@@ -4583,7 +5123,8 @@
                           </tei:div>
                           <j:endConditional target="#section_musaf_kohanim_aloud_condition"/>
                         </tei:div>
-                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/birkat_kohanim/birkat_kohanim"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/kohanim"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/amirah_leshatz_lifnay_birkat_kohanim/after_call"/>
                       </tei:div>
                     </tei:div>
                     <tei:div xml:id="section_musaf_priestly_blessing">
@@ -4599,7 +5140,18 @@
                       <tei:div>
                         <tei:note type="instruction" xml:lang="he">והכהנים מברכין.</tei:note>
                         <tei:note type="instruction" xml:lang="en">The Priests:</tei:note>
-                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_berakhah"/>
+                        <j:declare xml:id="canonical_caller_wording_13">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:prayer:asher_qiddeshanu_biqdushato/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:prayer:asher_qiddeshanu_biqdushato/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_qiddeshanu_biqdushato"/>
+                        <j:endDeclare target="#canonical_caller_wording_13"/>
                         <tei:div xml:id="section_musaf_cantor_prompt_1_1">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
@@ -4633,19 +5185,52 @@
                         <tei:div xml:id="section_musaf_congregation_reply_1_2">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_14">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_2/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_2/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_2/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_14"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_1_3">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_15">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_3/priest/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_3/priest/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3/priest"/>
+                            <j:endDeclare target="#canonical_caller_wording_15"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_priest_repeat_1_3">
                           <tei:div>
                             <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_16">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_3/priest/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_3/priest/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3/priest"/>
+                            <j:endDeclare target="#canonical_caller_wording_16"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_congregation_reply_1_3">
@@ -4658,7 +5243,7 @@
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
                             <tei:note type="instruction" xml:lang="he">כשהכהנים מנגנים וישמרך אומרים זה.</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/dream"/>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_ani"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_2_1">
@@ -4694,7 +5279,18 @@
                         <tei:div xml:id="section_musaf_congregation_reply_2_2">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_17">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_2/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_2/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_2/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_17"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_2_3">
@@ -4712,7 +5308,18 @@
                         <tei:div xml:id="section_musaf_congregation_reply_2_3">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_18">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_3/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_3/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_3/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_18"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_2_4">
@@ -4756,7 +5363,7 @@
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
                             <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">כשהכהנים מנגנים ויחנך אומרים שוב רבונו של עולם.</tei:note>
                             <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">While the priests chant Vichuneka, repeat the prayer for dreams.</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/dream"/>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_ani"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_3_1">
@@ -4792,7 +5399,18 @@
                         <tei:div xml:id="section_musaf_congregation_reply_3_2">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_19">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_2/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_2/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_2/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_19"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_3_3">
@@ -4810,7 +5428,18 @@
                         <tei:div xml:id="section_musaf_congregation_reply_3_3">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_20">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_3/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_3/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_3/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_20"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_3_4">
@@ -4828,7 +5457,18 @@
                         <tei:div xml:id="section_musaf_congregation_reply_3_4">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_21">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_4/response/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_4/response/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_4/response"/>
+                            <j:endDeclare target="#canonical_caller_wording_21"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_cantor_prompt_3_5">
@@ -4870,13 +5510,35 @@
                         <tei:div xml:id="section_musaf_cantor_prompt_3_7">
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_22">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_7/priest/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_7/priest/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7/priest"/>
+                            <j:endDeclare target="#canonical_caller_wording_22"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_priest_repeat_3_7">
                           <tei:div>
                             <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
+                            <j:declare xml:id="canonical_caller_wording_23">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_7/priest/heidenheim_1965_printing/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_7/priest/heidenheim_1965_printing/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
                             <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7/priest"/>
+                            <j:endDeclare target="#canonical_caller_wording_23"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_congregation_reply_3_7">
@@ -4889,7 +5551,25 @@
                           <tei:div>
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
                             <tei:note type="instruction" xml:lang="he">בשערי ציון כתוב שלא יאמר אצל שלום הרבון רק יאמר זה:</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon"/>
+                            <j:declare xml:id="canonical_caller_wording_24">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon/printing/main">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon/printing/appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon/prayer"/>
+                            <j:endDeclare target="#canonical_caller_wording_24"/>
+                            <tei:div xml:id="section_musaf_parnassah_finish_together">
+                              <tei:div>
+                                <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">ויכוין לסיים עם הכהנים כדי שיענו הקהל</tei:note>
+                                <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Conclude with the priests so that the congregation answers Amen.</tei:note>
+                              </tei:div>
+                            </tei:div>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kohanim/yehi_ratzon/amen"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_after_priestly_blessing_congregation">
@@ -4897,14 +5577,25 @@
                             <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
                             <tei:note type="instruction" xml:lang="he">נאכֿדעם דיא כֹּהֲנִים דען זעגען בעענדיגט, ספריכֿט דיא געמיינדע:</tei:note>
                             <tei:note type="instruction" xml:lang="en">After the priests have finished the benediction the congregation says:</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/addir_bamarom"/>
+                            <j:declare xml:id="canonical_caller_wording_25">
+                              <tei:fs type="opensiddur:variant">
+                                <tei:f name="urn:x-opensiddur:condition:prayer:addir_bamarom_shokhen/heidenheim_1965_printing_1/earlier">
+                                  <tei:binary value="true"/>
+                                </tei:f>
+                                <tei:f name="urn:x-opensiddur:condition:prayer:addir_bamarom_shokhen/heidenheim_1965_printing_1/kohanim_appendix">
+                                  <tei:binary value="false"/>
+                                </tei:f>
+                              </tei:fs>
+                            </j:declare>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:addir_bamarom_shokhen"/>
+                            <j:endDeclare target="#canonical_caller_wording_25"/>
                           </tei:div>
                         </tei:div>
                         <tei:div xml:id="section_musaf_after_priestly_blessing_priests">
                           <tei:div>
                             <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex" corresp="urn:x-opensiddur:instruction:role/kohanim">כהנים</tei:note>
                             <tei:note type="instruction" xml:lang="he">והכהנים מחזירים פניהם כלפי ההיכל ואומרים:</tei:note>
-                            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_ribbon"/>
+                            <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_asinu"/>
                           </tei:div>
                         </tei:div>
                         <tei:note type="instruction" xml:lang="he">הכהנים יזהרו בנעילת מנעליהם שלא יגעו בם בידים ואם נגעו יחזרו ליטול ידיהם.</tei:note>
@@ -4931,7 +5622,18 @@
                       <tei:div>
                         <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
                         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/sim_shalom"/>
+                        <j:declare xml:id="canonical_caller_wording_26">
+                          <tei:fs type="opensiddur:variant">
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/repetition/shalom/besefer/heidenheim_1965_printing_1/earlier">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                            <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/repetition/shalom/besefer/heidenheim_1965_printing_1/kohanim_appendix">
+                              <tei:binary value="false"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
                         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/besefer"/>
+                        <j:endDeclare target="#canonical_caller_wording_26"/>
                         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/proofs"/>
                       </tei:div>
                     </tei:div>
@@ -4977,14 +5679,434 @@
                     </j:all>
                   </j:conditional>
                   <tei:div>
-                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+                    <tei:div xml:id="section_closing_yatom_occurrence_3">
+                      <j:conditional xml:id="section_closing_yatom_occurrence_3_condition">
+                        <j:all>
+                          <tei:fs type="opensiddur:quorum">
+                            <tei:f name="minyan">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:all>
+                      </j:conditional>
+                      <tei:div>
+                        <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                        <j:declare xml:id="section_closing_yatom_occurrence_3_settings">
+                          <tei:fs type="opensiddur:holiday-aggregate">
+                            <tei:f name="aseret-ymei-tshuva">
+                              <tei:binary value="true"/>
+                            </tei:f>
+                          </tei:fs>
+                        </j:declare>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/hosafot/kaddish/preface"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgaddal"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shelama"/>
+                        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+                        <j:endDeclare target="#section_closing_yatom_occurrence_3_settings"/>
+                      </tei:div>
+                      <j:endConditional target="#section_closing_yatom_occurrence_3_condition"/>
+                    </tei:div>
                   </tei:div>
                   <j:endConditional target="#section_musaf_mourner_kaddish_condition"/>
                 </tei:div>
-                <tei:div xml:id="section_musaf_appendix_coverage_boundary">
+                <tei:div xml:id="section_musaf_appendix_unity_sunday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_sunday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="1"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
                   <tei:div>
-                    <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">The source directs Shir ha-Yihud and the daily psalm here. Their appendix printings beginning on scan327 are the next digitization batch; this partial expanded edition does not yet provide them.</tei:note>
+                    <tei:head xml:lang="he">שיר היחוד ליום ראשון</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Sunday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_first_day_paytan"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fifth_day_paytan/6/barukh_attah_yachid_umeyuchad"/>
                   </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_sunday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_monday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_monday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="2"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום שני</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Monday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_second_day_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_monday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_tuesday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_tuesday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="3"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום שלישי</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Tuesday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_third_day_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_tuesday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_wednesday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_wednesday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="4"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום רביעי</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Wednesday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fourth_day_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_wednesday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_thursday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_thursday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="5"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום חמישי</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Thursday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fifth_day_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_thursday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_friday">
+                  <j:conditional xml:id="section_musaf_appendix_unity_friday_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="6"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום ששי</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Friday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_friday_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_appendix_unity_shabbat">
+                  <j:conditional xml:id="section_musaf_appendix_unity_shabbat_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="7"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר היחוד ליום השבת</tei:head>
+                    <tei:head xml:lang="en">Hymn of Divine Unity — Shabbat</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_day_of_shabbat_paytan"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_appendix_unity_shabbat_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_1">
+                  <j:conditional xml:id="section_musaf_daily_psalm_1_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="1"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — ראשון</tei:head>
+                    <tei:head xml:lang="en">Psalm for Sunday</tei:head>
+                    <j:declare xml:id="canonical_caller_wording_27">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/24/5/heidenheim_1965_printing/daily_appendix">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/24/5/heidenheim_1965_printing/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/24"/>
+                    <j:endDeclare target="#canonical_caller_wording_27"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_1_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_2">
+                  <j:conditional xml:id="section_musaf_daily_psalm_2_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="2"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — שני</tei:head>
+                    <tei:head xml:lang="en">Psalm for Monday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/48"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_2_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_3">
+                  <j:conditional xml:id="section_musaf_daily_psalm_3_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="3"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — שלישי</tei:head>
+                    <tei:head xml:lang="en">Psalm for Tuesday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/82"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_3_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_4">
+                  <j:conditional xml:id="section_musaf_daily_psalm_4_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="4"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — רביעי</tei:head>
+                    <tei:head xml:lang="en">Psalm for Wednesday</tei:head>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/94"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_4_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_5">
+                  <j:conditional xml:id="section_musaf_daily_psalm_5_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="5"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — חמישי</tei:head>
+                    <tei:head xml:lang="en">Psalm for Thursday</tei:head>
+                    <j:declare xml:id="canonical_caller_wording_28">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/4/heidenheim_1965_earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/4/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/5/heidenheim_1965_earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/5/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/81"/>
+                    <j:endDeclare target="#canonical_caller_wording_28"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_5_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_6">
+                  <j:conditional xml:id="section_musaf_daily_psalm_6_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="6"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — ששי</tei:head>
+                    <tei:head xml:lang="en">Psalm for Friday</tei:head>
+                    <j:declare xml:id="canonical_caller_wording_29">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/1/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/2/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/3/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/4/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/93/5/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93"/>
+                    <j:endDeclare target="#canonical_caller_wording_29"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_6_condition"/>
+                </tei:div>
+                <tei:div xml:id="section_musaf_daily_psalm_7">
+                  <j:conditional xml:id="section_musaf_daily_psalm_7_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:day-of-week">
+                        <tei:f name="hebrew-day">
+                          <tei:numeric value="7"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:head xml:lang="he">שיר של יום — שבת</tei:head>
+                    <tei:head xml:lang="en">Psalm for Shabbat</tei:head>
+                    <j:declare xml:id="canonical_caller_wording_30">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/2/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/3/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/4/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/5/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/6/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/7/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/8/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/9/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/10/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/11/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/12/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/13/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/14/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/15/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_opening">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:bible:psalms/92/16/heidenheim_1965_daily_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92"/>
+                    <j:endDeclare target="#canonical_caller_wording_30"/>
+                  </tei:div>
+                  <j:endConditional target="#section_musaf_daily_psalm_7_condition"/>
                 </tei:div>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/conclusion/psalm_81"/>
                 <tei:div xml:id="section_musaf_last_thirty_blasts">
@@ -5162,7 +6284,18 @@
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah"/>
+                <j:declare xml:id="shacharit_amidah_sim_shalom_printed_wording_69">
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/earlier">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/kohanim_appendix">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:endDeclare target="#shacharit_amidah_sim_shalom_printed_wording_69"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor"/>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple"/>
                 <j:endDeclare target="#section_rh_minchah_silent_amidah_settings"/>
@@ -5233,11 +6366,39 @@
                 <tei:div xml:id="section_rh_minchah_modim_congregation">
                   <tei:div>
                     <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/congregation" xml:lang="he">קהל</tei:note>
+                    <j:declare xml:id="canonical_caller_wording_31">
+                      <tei:fs type="opensiddur:variant">
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/earlier">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                        <tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/kohanim_appendix">
+                          <tei:binary value="false"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
                     <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+                    <j:endDeclare target="#canonical_caller_wording_31"/>
                   </tei:div>
                 </tei:div>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah/veal_kullam" targetEnd="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah/vekhol_hachayyim"/>
+                <j:declare xml:id="shacharit_amidah_sim_shalom_printed_wording_72">
+                  <tei:fs type="opensiddur:variant">
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/earlier">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                    <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/kohanim_appendix">
+                      <tei:binary value="false"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
                 <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom"/>
+                <j:endDeclare target="#shacharit_amidah_sim_shalom_printed_wording_72"/>
                 <j:endDeclare target="#section_rh_minchah_repeated_amidah_settings"/>
               </tei:div>
               <j:endConditional target="#section_rh_minchah_repeated_amidah_condition"/>
@@ -5284,7 +6445,35 @@
                 </j:all>
               </j:conditional>
               <tei:div>
-                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom@hasiddur_hashalem-birnbaum-1949-he"/>
+                <tei:div xml:id="section_closing_yatom_occurrence_4">
+                  <j:conditional xml:id="section_closing_yatom_occurrence_4_condition">
+                    <j:all>
+                      <tei:fs type="opensiddur:quorum">
+                        <tei:f name="minyan">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:all>
+                  </j:conditional>
+                  <tei:div>
+                    <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                    <j:declare xml:id="section_closing_yatom_occurrence_4_settings">
+                      <tei:fs type="opensiddur:holiday-aggregate">
+                        <tei:f name="aseret-ymei-tshuva">
+                          <tei:binary value="true"/>
+                        </tei:f>
+                      </tei:fs>
+                    </j:declare>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/hosafot/kaddish/preface"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgaddal"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shelama"/>
+                    <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+                    <j:endDeclare target="#section_closing_yatom_occurrence_4_settings"/>
+                  </tei:div>
+                  <j:endConditional target="#section_closing_yatom_occurrence_4_condition"/>
+                </tei:div>
               </tei:div>
               <j:endConditional target="#section_rh_minchah_mourner_kaddish_condition"/>
             </tei:div>
@@ -5338,128 +6527,8 @@
         </tei:div>
         <tei:div xml:id="section_hymns_appendix">
           <tei:div>
-            <tei:head xml:lang="he">נספח: שיר היחוד ושיר הכבוד</tei:head>
-            <tei:head xml:lang="en">Supplementary hymns</tei:head>
-            <tei:div xml:id="section_appendix_unity_sunday">
-              <j:conditional xml:id="section_appendix_unity_sunday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="1"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום ראשון</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Sunday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_first_day_paytan"/>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fifth_day_paytan/6/barukh_attah_yachid_umeyuchad"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_sunday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_monday">
-              <j:conditional xml:id="section_appendix_unity_monday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="2"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום שני</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Monday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_second_day_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_monday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_tuesday">
-              <j:conditional xml:id="section_appendix_unity_tuesday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="3"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום שלישי</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Tuesday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_third_day_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_tuesday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_wednesday">
-              <j:conditional xml:id="section_appendix_unity_wednesday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="4"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום רביעי</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Wednesday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fourth_day_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_wednesday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_thursday">
-              <j:conditional xml:id="section_appendix_unity_thursday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="5"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום חמישי</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Thursday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_fifth_day_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_thursday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_friday">
-              <j:conditional xml:id="section_appendix_unity_friday_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="6"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום ששי</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Friday</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_friday_condition"/>
-            </tei:div>
-            <tei:div xml:id="section_appendix_unity_shabbat">
-              <j:conditional xml:id="section_appendix_unity_shabbat_condition">
-                <j:all>
-                  <tei:fs type="opensiddur:day-of-week">
-                    <tei:f name="hebrew-day">
-                      <tei:numeric value="7"/>
-                    </tei:f>
-                  </tei:fs>
-                </j:all>
-              </j:conditional>
-              <tei:div>
-                <tei:head xml:lang="he">שיר היחוד ליום השבת</tei:head>
-                <tei:head xml:lang="en">Hymn of Divine Unity — Shabbat</tei:head>
-                <j:transclude type="external" target="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_day_of_shabbat_paytan"/>
-              </tei:div>
-              <j:endConditional target="#section_appendix_unity_shabbat_condition"/>
-            </tei:div>
+            <tei:head xml:lang="he">נספח: שיר הכבוד</tei:head>
+            <tei:head xml:lang="en">Supplement: Hymn of Glory</tei:head>
             <tei:div xml:id="section_appendix_shir_hakavod">
               <tei:div>
                 <tei:head xml:lang="he">שיר הכבוד.</tei:head>
@@ -5470,6 +6539,54 @@
               </tei:div>
             </tei:div>
           </tei:div>
+        </tei:div>
+        <tei:div xml:id="section_kaddish_after_study_appendix">
+          <j:conditional xml:id="section_kaddish_after_study_appendix_condition">
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:conditional>
+          <tei:div>
+            <tei:head xml:lang="he">נספח: קדיש דרבנן לעשרת ימי תשובה</tei:head>
+            <tei:head xml:lang="en">Supplement: Kaddish after study — Ten Days of Repentance</tei:head>
+            <tei:note type="description" xml:lang="he" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">קדיש לאחר לימוד תורה.</tei:note>
+            <tei:note type="description" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">Kaddish after Torah study.</tei:note>
+            <tei:div xml:id="section_expanded_kaddish_derabbanan">
+              <j:conditional xml:id="section_expanded_kaddish_derabbanan_condition">
+                <j:all>
+                  <tei:fs type="opensiddur:quorum">
+                    <tei:f name="minyan">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:all>
+              </j:conditional>
+              <tei:div>
+                <tei:note type="description" corresp="urn:x-opensiddur:instruction:role/reader" xml:lang="he">חזן</tei:note>
+                <j:declare xml:id="section_expanded_kaddish_derabbanan_settings">
+                  <tei:fs type="opensiddur:holiday-aggregate">
+                    <tei:f name="aseret-ymei-tshuva">
+                      <tei:binary value="true"/>
+                    </tei:f>
+                  </tei:fs>
+                </j:declare>
+                <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/hosafot/kaddish/preface"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitgaddal"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/al_yisrael"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/yehe_shelama"/>
+                <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+                <j:endDeclare target="#section_expanded_kaddish_derabbanan_settings"/>
+              </tei:div>
+              <j:endConditional target="#section_expanded_kaddish_derabbanan_condition"/>
+            </tei:div>
+          </tei:div>
+          <j:endConditional target="#section_kaddish_after_study_appendix_condition"/>
         </tei:div>
       </tei:div>
     </tei:body>

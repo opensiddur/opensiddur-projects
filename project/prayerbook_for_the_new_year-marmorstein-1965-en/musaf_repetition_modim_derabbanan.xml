@@ -13,7 +13,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>JLPTEI digitization. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -36,7 +36,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/modim_derabbanan" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n310.jpg">
         <tei:note type="description" xml:lang="en">Congregation:</tei:note>
-        <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+        <tei:p><j:declare xml:id="canonical_caller_wording_0"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/earlier"><tei:binary value="true"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_1/kohanim_appendix"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/earlier"><tei:binary value="true"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:amidah/hodaah/modim_derabbanan/heidenheim_1965_printing_2/kohanim_appendix"><tei:binary value="false"/></tei:f></tei:fs></j:declare><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan@prayerbook_for_the_new_year-marmorstein-1965-en"/><j:endDeclare target="#canonical_caller_wording_0"/> </tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

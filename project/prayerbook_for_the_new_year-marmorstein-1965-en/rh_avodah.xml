@@ -13,7 +13,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>Digitization in progress. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+        <tei:edition>JLPTEI digitization. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -36,8 +36,19 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/minchah_maariv/amidah/avodah">
         <tei:div facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n30.jpg">
+          <j:declare xml:id="rh_avodah_wording">
+            <tei:fs type="opensiddur:variant">
+              <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/heidenheim_1965_printing_1/earlier">
+                <tei:binary value="true"/>
+              </tei:f>
+              <tei:f name="urn:x-opensiddur:condition:prayer:amidah/avodah/retzeh/heidenheim_1965_printing_1/kohanim_appendix">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:declare>
           <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
           <tei:p><j:transclude type="inline" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah@prayerbook_for_the_new_year-marmorstein-1965-en"/> </tei:p>
+          <j:endDeclare target="#rh_avodah_wording"/>
         </tei:div>
       </tei:div>
     </tei:body>
