@@ -112,7 +112,6 @@
         </j:conditional>
         <tei:note type="instruction" xml:lang="he">המזמן אומר:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
-        <j:endConditional target="#when_3"/>
         <tei:note type="instruction" xml:lang="he">המסובים עונים:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/113/2"/>
         <tei:note type="instruction" xml:lang="he">וחוזר המזמן:</tei:note>
@@ -127,11 +126,27 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_sheakhalnu"/>
         <tei:note type="instruction" xml:lang="he">ויש המוסיפים:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_hu"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
-        <tei:note type="instruction" xml:lang="he">בחנוכה ופורים אומרים כאן על הניסים. ואם לא אמרו אין מחזירין אותו. ומכל מקום יוכל לאמרו בתוך שאר הרחמן. ויאמר הָרַחֲמָן הוּא יַעֲשֶׂה־לָּנוּ נִסִים וְנִפְלָאוֹת כְּמוֹ שֶׁעָשָׂה לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה וכו' בִּימֵי מַתִּתְיָהוּ וכו' או בִּימֵי מָרְדְּכַי וכו'.</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
         <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="he">בחנוכה ופורים אומרים כאן על הניסים. ואם לא אמרו אין מחזירין אותו. ומכל מקום יוכל לאמרו בתוך שאר הרחמן. ויאמר הָרַחֲמָן הוּא יַעֲשֶׂה־לָּנוּ נִסִים וְנִפְלָאוֹת כְּמוֹ שֶׁעָשָׂה לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה וכו' בִּימֵי מַתִּתְיָהוּ וכו' או בִּימֵי מָרְדְּכַי וכו'.</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="hanukkah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="purim-observed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
           <tei:note type="instruction" xml:lang="he">בחנוכה אומרים:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="hanukkah">
@@ -148,8 +163,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
         <j:endDeclare target="#variants_1"/>
-        <j:endConditional target="#when_4"/>
-        <j:conditional xml:id="when_5">
+        <j:endConditional target="#when_5"/>
+        <j:conditional xml:id="when_6">
           <tei:note type="instruction" xml:lang="he">בפורים אומרים:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="purim-observed">
@@ -166,12 +181,20 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
         <j:endDeclare target="#variants_2"/>
-        <j:endConditional target="#when_5"/>
+        <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
-        <tei:note type="instruction" xml:lang="he">בשבת מוסיפים:</tei:note>
+        <j:conditional xml:id="when_7">
+          <tei:note type="instruction" xml:lang="he">בשבת מוסיפים:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="shabbat">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
-        <j:conditional xml:id="when_6">
+        <j:endConditional target="#when_7"/>
+        <j:conditional xml:id="when_8">
           <tei:note type="instruction" xml:lang="he">בראש חודש ובחול המועד אומרים כאן "יעלה ויבא":</tei:note>
           <j:any>
             <tei:fs type="opensiddur:holiday">
@@ -200,11 +223,11 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_3"/>
-        <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/shemini_atzeret"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/rosh_hashanah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/yom_kippur"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/zokhrenu"/>
+        <j:endConditional target="#when_8"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yimlokh"/>
@@ -234,7 +257,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yevarekh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/self"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/all"/>
-        <j:conditional xml:id="when_7">
+        <j:conditional xml:id="when_9">
           <tei:note type="instruction" xml:lang="he">אם אוכל על שלחן אחרים יברך לבעה"ב. ואפילו בנים הסמוכים על שלחן אביהם, וגם האב הנסמך על שלחן בניו וגם אשתו תאמר כן:</tei:note>
           <j:all>
             <tei:fs type="opensiddur:meal-context">
@@ -259,9 +282,9 @@
           </j:all>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_shelo"/>
-        <j:endConditional target="#when_7"/>
+        <j:endConditional target="#when_9"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/bamarom"/>
-        <j:conditional xml:id="when_8">
+        <j:conditional xml:id="when_10">
           <tei:note type="instruction" xml:lang="he">בשבת אומר:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="shabbat">
@@ -270,8 +293,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_shabbat"/>
-        <j:endConditional target="#when_8"/>
-        <j:conditional xml:id="when_9">
+        <j:endConditional target="#when_10"/>
+        <j:conditional xml:id="when_11">
           <tei:note type="instruction" xml:lang="he">בראש חודש:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hodesh">
@@ -288,8 +311,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
         <j:endDeclare target="#variants_6"/>
-        <j:endConditional target="#when_9"/>
-        <j:conditional xml:id="when_10">
+        <j:endConditional target="#when_11"/>
+        <j:conditional xml:id="when_12">
           <tei:note type="instruction" xml:lang="he">ביו"ט אומר:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="yom-tov">
@@ -298,8 +321,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_tov"/>
-        <j:endConditional target="#when_10"/>
-        <j:conditional xml:id="when_11">
+        <j:endConditional target="#when_12"/>
+        <j:conditional xml:id="when_13">
           <tei:note type="instruction" xml:lang="he">בראש השנה:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="rosh-hashana">
@@ -316,8 +339,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
         <j:endDeclare target="#variants_7"/>
-        <j:endConditional target="#when_11"/>
-        <j:conditional xml:id="when_12">
+        <j:endConditional target="#when_13"/>
+        <j:conditional xml:id="when_14">
           <tei:note type="instruction" xml:lang="he">בסוכות:</tei:note>
           <tei:fs type="opensiddur:holiday">
             <tei:f name="sukkot">
@@ -326,7 +349,7 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/sukkot"/>
-        <j:endConditional target="#when_12"/>
+        <j:endConditional target="#when_14"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yezakkenu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
         <tei:note type="instruction" xml:lang="he">דיני שכחה:</tei:note>

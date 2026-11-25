@@ -24,8 +24,25 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/shemoneh_esreh/shalom">
         <tei:head xml:lang="en">Peace</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
         <j:conditional xml:id="when_1">
+          <j:none>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
           <j:any>
             <tei:fs type="opensiddur:holiday-aggregate">
               <tei:f name="minor-fast">
@@ -39,8 +56,35 @@
             </tei:fs>
           </j:any>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom"/>
-        <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/sim_shalom"/>
+        <j:endConditional target="#when_2"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">During the Ten Days of Penitence continue here:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/chol_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/shabbat_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_3"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If you forget to say this you need not go back and repeat it.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>
       </tei:div>
     </tei:body>
   </tei:text>

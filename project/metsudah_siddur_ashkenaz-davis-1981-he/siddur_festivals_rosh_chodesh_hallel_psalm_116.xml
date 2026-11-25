@@ -26,25 +26,11 @@
         <tei:head xml:lang="he">תהילים קטז</tei:head>
         <j:conditional xml:id="when_1">
           <tei:note type="instruction" xml:lang="he">בראש חודש ובחוה"מ פסח מדלגין:</tei:note>
-          <j:none>
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="rosh-hodesh">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-            <j:all>
-              <tei:fs type="opensiddur:holiday-aggregate">
-                <tei:f name="chol-hamoed">
-                  <tei:binary value="true"/>
-                </tei:f>
-              </tei:fs>
-              <tei:fs type="opensiddur:holiday">
-                <tei:f name="pesah">
-                  <tei:binary value="true"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:none>
+          <tei:fs type="opensiddur:hallel">
+            <tei:f name="full">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hallel/psalm_116"/>
         <j:endConditional target="#when_1"/>

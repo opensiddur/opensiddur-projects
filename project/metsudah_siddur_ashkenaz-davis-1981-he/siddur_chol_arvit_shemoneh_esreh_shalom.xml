@@ -33,7 +33,18 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/chol_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/shabbat_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim"/>
+        <j:endDeclare target="#variants_1"/>
         <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="he">ואם לא אמר בְּסֵֽפֶר חַיִּים כיון שסיים הברכה או רק בא"י אינו חוזר. ונ"ל דבזה ראוי לומר בספר תיכף כשסיים המברך את עמו ישראל בשלום קודם יהיו לרצון כיון שכבר גמר התפלה. (דהא לר"ת לעולם אומרים בסוף ברכה אפילו בדבר שאין מחזירין אלא דהחולקים סוברים כיון דא"צ לחזור א"כ הוי הפסק באמצע תפלה מה שאין כן כאן.) (חיי אדם כלל כ"ד סעי' כ"ה)</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>
