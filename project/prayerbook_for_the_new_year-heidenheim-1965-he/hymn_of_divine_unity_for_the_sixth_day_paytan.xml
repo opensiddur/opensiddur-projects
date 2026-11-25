@@ -1,0 +1,102 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">שיר היחוד ליום ששי</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted scan transcription</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="mrk">JLPTEI markup</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>JLPTEI digitization. Independent image readings and adjudications are recorded in sources/marmorstein_rosh_hashanah_1/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan@prayerbook_for_the_new_year-heidenheim-1965-he</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0">Creative Commons Zero (Public Domain Dedication)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year-heidenheim-1965-he/index#project_source_bibl"/>
+          <tei:biblScope unit="pages" from="15" to="16"/>
+          <tei:note type="encoding" xml:lang="en">Source variant appendix_s341_line_3: אָז (נ״א אַף); preserve (נ״א אַף) once in an apparatus note targeted to the choice.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Independent optional addition appendix_s341_line_4 selected by urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/4/optional; preserve its printed position.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Source variant appendix_s341_line_12: כֹל (נ״א כלי); preserve (נ״א כלי) once in an apparatus note targeted to the choice.</tei:note>
+          <tei:note type="encoding" xml:lang="en">Independent optional addition appendix_s342_line_13 selected by urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/35/optional; preserve its printed position.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#appendix_s341_line_3" xml:lang="he">
+      <tei:p>(נ״א אַף)</tei:p>
+    </tei:note>
+    <tei:note type="commentary" target="#appendix_s341_line_12" xml:lang="he">
+      <tei:p>(נ״א כלי)</tei:p>
+    </tei:note>
+  </tei:standOff>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n340.jpg">
+        <tei:lg>
+          <tei:l><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n340.jpg" n="15"/><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/1"/>אַתָּה לְבַדְּךָ יוֹצֵר כֹּל הוּא. וְלֹא יִדְמֶה מַעֲשֶׂה לְעוֹשֵׂהוּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/2"/>כָּל הָאֲרָצוֹת לֹא יְכִילוּךָ. וְאַף שָׁמַֽיִם לֹא יְכַלְכְּלוּךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/3"/><tei:choice xml:id="appendix_s341_line_3"><j:option corresp="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/3/az">אָז</j:option><j:option corresp="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/3/af">אַף</j:option></tei:choice> יָחִילוּ מַֽיִם חַיִּים. מִפָּנֶֽיךָ אֱלֹהִים חַיִּים: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/4"/>רָעֲשָׁה אֶֽרֶץ וְנָסוּ מָֽיִם. וְנָטְפוּ <j:conditional type="marked" xml:id="hymn_of_divine_unity_for_the_sixth_day_paytan_optional_3_0_0"><j:all><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/4/optional"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional>מַֽיִם<j:endConditional target="#hymn_of_divine_unity_for_the_sixth_day_paytan_optional_3_0_0"/> מִן הַשָּׁמָֽיִם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/5"/>נוֹטֶה לְבַדְּךָ הַשָּׁמָֽיִם. רוֹקַע הָאָֽרֶץ עַל הַמָּֽיִם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/6"/>עָשִֽׂיתָ כָּל חֶפְצְךָ לְבַדֶּֽךָ. וְלֹא נִצְרַֽכְתָּ עֵֽזֶר כְּנֶגְדֶּֽךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/7"/>סוֹעֵד אֵין מִי יִסְעָדֶֽךָ. הַכֹּל מִמְּךָ וּמִיָּדֶֽךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/8"/>כְּכֹחֲךָ אָז כֵּן עַתָּה וְדַעְתָּךְ. וּלְעוֹלָם כָּל כְּבוֹדְךָ אִתָּךְ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/9"/>וְלֹא יָעַֽפְתָּ וְלֹא יָגַֽעְתָּ. כִּי בִמְלַאכְתְּךָ לֹא עָמַֽלְתָּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/10"/>כִּי בִדְבָרְךָ כָּל יְצוּרֶֽיךָ. וּמַעֲשֵׂה חֶפְצְךָ בְּמַאֲמָרֶֽיךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/11"/>וְלֹא אִחַרְתּוֹ וְלֹא מִהַרְתּוֹ. הַכֹּל עֲשִׂיתוֹ יָפֶה בְּעִתּוֹ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/12"/>מִבְּלִי מְאוּמָה כֹּל חִדַּֽשְׁתָּ. וְאֶת הַכֹּל בְּלִי <tei:choice xml:id="appendix_s341_line_12"><j:option corresp="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/12/khol">כֹל</j:option><j:option corresp="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/12/kheli">כלי</j:option></tei:choice> פָּעָלְתָּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/13"/>וְעַל לֹא יְסוֹד הַכֹּל יָסַֽדְתָּ. בִּרְצוֹן רוּחֲךָ כֹּל תָּלִֽיתָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/14"/>זְרוֹעוֹת עוֹלָם אֶת כֹּל נוֹשְׂאוֹת. מֵרֹאשׁ וְעַד סוֹף וְאֵינָם נִלְאוֹת: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/15"/>בְּעֵינֶֽיךָ לֹא דָבָר הוּקְשָׁה. רְצוֹנְךָ כָּל דְּבַר רוּחֲךָ עוֹשָׂה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/16"/>לִפְעֻלָּתְךָ לֹא דָמִֽיתָ. אֶל כָּל תּוֹאַר לֹא שָׁוִֽיתָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/17"/>וְלֹא קָדְמָה לִמְלַאכְתְּךָ מְלָאכָה. חָכְמָתְךָ הִיא הַכֹּל עָרְכָה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/18"/>לִרְצוֹנְךָ לֹא קִדְּמוּ וְאִחֲרוּ. וְעַל חֶפְצְךָ לֹא נוֹסְפוּ וְחָסְרוּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/19"/>מִכָּל חֶפְצְךָ לֹא שָׁכַֽחְתָּ. וְדָבָר אֶחָד לֹא חָסַֽרְתָּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/20"/>לֹא הֶחֱסַֽרְתָּ וְלֹא הֶעֱדַֽפְתָּ. וְדָבָר רֵק בָּם לֹא פָעָלְתָּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/21"/>אַתָּה תְּשַׁבְּחֵם וּמִי הִתְעִיבָם. וְשֶֽׁמֶץ דָּבָר לֹא נִמְצָא בָם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/22"/>הַחִלּוֹתָ בְּחָכְמָה עֲשִֽׂיתָם. בִּתְבוּנָה וּבְדַֽעַת כִּלִּיתָם: </tei:l>
+          <tei:l><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n341.jpg" n="16"/><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/23"/>מֵרֵאשִׁית וְעַד אַחֲרִית עֲשׂוּיִם. בֶּאֱמֶת וּבְיֽוֹשֶׁר וְטוֹב רְאוּיִם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/24"/>הִקְדַּֽמְתָּ בְּמַעֲשֵׂי יָדֶֽיךָ. רוֹב רַחֲמֶֽיךָ וַחֲסָדֶֽיךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/25"/>כִּי רַחֲמֶֽיךָ וַחֲסָדֶֽיךָ. הֲלֹא מֵעוֹלָם עַל עֲבָדֶֽיךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/26"/>וְעַד לֹא כָּל חַי הוּכַן לְכַלְכֵּל. לִפְנֵי אוֹכֵל תִּתֵּן אֹכֶל: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/27"/>וּמָזוֹן וּמָכוֹן תַּעֲשֶׂה בְּפִי כֹל. צָרְכֵי הַכֹּל כַּאֲשֶׁר לַכֹּל: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/28"/>שְׁלֹשֶׁת יָמִים הָרִאשׁוֹנִים. אָז הֱכִינוֹתָם לָאַחֲרוֹנִים: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/29"/>אָז עָטִֽיתָ אוֹר כַּשַּׂלְמָה. אֶֽדֶר מְאוֹרוֹת מִטּוּל שַׂלְמָה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/30"/>בְּטֶֽרֶם כָּל יְצוּר מְאוֹד גָּדַֽלְתָּ. וְאַחַר כֹּל מְאוֹד נִתְגַּדַּֽלְתָּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/31"/>אָז בְּאֵין לְבוּשׁ הוֹד וְהָדָר לוּבֵשׁ. עַד לֹא אוֹרַג גֵּאוּת לָבֵשׁ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/32"/>אוֹר כַּשַּׂלְמָה וְכִמְעִיל עוֹטֶה. שָׁמַֽיִם כַּיְרִיעָה נוֹטֶה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/33"/>עָשִֽׂיתָ בָּם לְאוֹרִים דְּרָכִים. וְרָצוֹא וָשׁוֹב בְּנַחַת מְהַלְּכִים: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/34"/>הִבְדַּֽלְתָּ בֵּין מַֽיִם לָמָֽיִם. בִּמְתִיחַת רְקִיעַ הַשָּׁמָֽיִם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/35"/>מְזוֹנוֹת מְעוֹנוֹת לְשֶֽׁרֶץ מָֽיִם. וְעוֹף יְעוֹפֵף עַל <j:conditional type="marked" xml:id="hymn_of_divine_unity_for_the_sixth_day_paytan_optional_34_0_0"><j:all><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/35/optional"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional>פְּנֵי רְקִיעַ<j:endConditional target="#hymn_of_divine_unity_for_the_sixth_day_paytan_optional_34_0_0"/> הַשָּׁמָֽיִם: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/36"/>עֵֽשֶׂב וְחָצִיר לָבְשָׁה אֲדָמָה. מַאֲכָל לְחַיָּה וּלְכָל בְּהֵמָה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/37"/>בְּקֶֽרֶן שֶׁמֶן גַּן נָטַֽעְתָּ. אֶל הָאָדָם אֲשֶׁר עָשִֽׂיתָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/38"/>עֵֽזֶר כְּנֶגְדּוֹ עָשִֽׂיתָ לּוֹ. דֵּי מַחְסוֹרוֹ אֲשֶׁר יֶחְסַר לוֹ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/39"/>כָּל מַעֲשֶֽׂיךָ בְּיָדוֹ תַּתָּה. וְתַֽחַת רַגְלָיו הַכֹּל שַֽׁתָּה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/40"/>לְהַעֲלוֹת מֵהֶם בָּקָר וָצֹאן. עַל מִזְבַּחֲךָ יַעֲלוּ לְרָצוֹן: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/41"/>עָשִֽׂיתָ לוֹ כְּתוֹנֶת לְשָׁרֵת. לְהַדְרַת קוֹדֶשׁ וּלְתִפְאָֽרֶת: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/42"/>שַֽׂמְתָּ בְּקִרְבּוֹ חָכְמַת אֱלֹהִים. כִּי יְצַרְתּוֹ לְךָ בְּצֶֽלֶם אֱלֹהִים: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/43"/>לֹא מָנַֽעְתָּ עַל פְּנֵי אֲדָמָה. צָרְכֵי אָדָם וְכֻלָּם בְּחָכְמָה: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/44"/>מַעֲשֶֽׂיךָ מְאֹד רַבּוּ וְגָדְלוּ. וְשִׁמְךָ <j:divineName>יְיָ</j:divineName> כֻּלָּם יְהַלֲלוּ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/45"/>רַבּוּ וְגָדְלוּ מְאֹד מַעֲשֶֽׂיךָ. יוֹדֽוּךָ <j:divineName>יְיָ</j:divineName> כָּל מַעֲשֶֽׂיךָ: </tei:l>
+          <tei:l><tei:milestone unit="stanza" corresp="urn:x-opensiddur:text:poem:hymn_of_divine_unity_for_the_sixth_day_paytan/46"/>כֹּל פָּעַֽלְתָּ לְמַעֲנֶֽךָ. וְלִכְבוֹדְךָ כָּל קִנְיָנֶֽךָ: </tei:l>
+          <tei:milestone unit="stanza"/>
+        </tei:lg>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
