@@ -236,258 +236,7 @@
           </tei:div>
           <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/kiddush@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         </tei:div>
-        <tei:div>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_preliminaries@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        </tei:div>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_blessings@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8-/16/36@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:declare xml:id="vehu_rachum_printed_wording_3">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/1/heidenheim_1965_earlier">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/1/heidenheim_1965_daily_appendix">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/2/heidenheim_1965_earlier">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/2/heidenheim_1965_daily_appendix">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#vehu_rachum_printed_wording_3"/>
-        <j:declare xml:id="hoshiah_et_ammekha_printed_wording_4">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/11/heidenheim_1965_earlier">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/81/11/heidenheim_1965_daily_appendix">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#hoshiah_et_ammekha_printed_wording_4"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/34@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/90@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/91@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/135@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/1@prayerbook_for_the_new_year-marmorstein-1965-en" targetEnd="urn:x-opensiddur:text:bible:psalms/136/24"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/26@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/33@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_psalm_92@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_psalm_93@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:declare xml:id="yehi_khevod_printed_wording_5">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/14/heidenheim_1965_earlier">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:bible:psalms/94/14/heidenheim_1965_daily_appendix">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/yehi_khevod@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#yehi_khevod_printed_wording_5"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_ashrei@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/146@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/147@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/148@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/149@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/150@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/barukh_adonai@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vayevarekh_david@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/attah_hu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vayyosha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/az_yashir@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/ki_ladonai@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_song_shema@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:nishmat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hael_betaatzumot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shokhen_ad@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:befi_yesharim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvemaqhalot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yishtabbach@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_numbers_14_17@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_psalm_25_6@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_kaddish@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/morning_barekhu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/opening@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:or_olam_beotzar_chayyim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_azur_gevurah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n102.jpg" n="37"/>
-        <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n102.jpg" xml:lang="en">On the Sabbath <tei:foreign xml:lang="he">הכל יודוך</tei:foreign> which is printed below, is said here.</tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hameir@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/el_barukh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/hakol_yodukha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:el_adon@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_asher_shavat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/titbarakh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/et_shem@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/qadosh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:khevodo_ihel@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/vehaofannim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/barukh_kevod@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/lael_barukh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yotzer_or/or_chadash@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavah_rabbah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema_yisrael@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/barukh_shem@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/deuteronomy_6@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/deuteronomy_11@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/shema/numbers_15@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/adonai_sefatai@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/gevurot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hashem@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/qedushat_hayom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/avodah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/hodaah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:declare xml:id="shacharit_amidah_sim_shalom_printed_wording_6">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/earlier">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/sim_shalom/heidenheim_1965_printing_1/kohanim_appendix">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/shalom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#shacharit_amidah_sim_shalom_printed_wording_6"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/elohai_netzor@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/silent_amidah/yehi_ratzon_temple@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/open@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:misod_chakhamim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:at_chil_yom_pequddah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:naalah_vedin@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/avot/ending@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/open@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/mekhalkel@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:taalat_zu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bedin@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/gevurot/ending@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:even_chug@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/yimlokh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/veattah_qadosh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <tei:div>
-          <j:conditional xml:id="documentary_repetition_attah_hu_frankfurt_source_en">
-            <j:all>
-              <tei:fs type="opensiddur:rite">
-                <tei:f name="frankfurt_am_main">
-                  <tei:binary value="false"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:attah_hu_eloheinu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:endConditional target="#documentary_repetition_attah_hu_frankfurt_source_en"/>
-        </tei:div>
-        <tei:div>
-          <j:conditional xml:id="documentary_complete_weekday_piyyutim_en">
-            <tei:note type="instruction" xml:lang="en" resp="urn:x-opensiddur:contributor:opensiddur.org/codex">On a weekday</tei:note>
-            <j:all>
-              <tei:fs type="opensiddur:holiday-aggregate">
-                <tei:f name="shabbat">
-                  <tei:binary value="false"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <tei:div>
-            <j:conditional xml:id="documentary_complete_metz_tair_vetaria_en">
-              <j:all>
-                <tei:fs type="opensiddur:rite">
-                  <tei:f name="metz">
-                    <tei:binary value="false"/>
-                  </tei:f>
-                </tei:fs>
-              </j:all>
-            </j:conditional>
-            <j:transclude type="external" target="urn:x-opensiddur:text:poem:tair_vetaria@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-            <j:endConditional target="#documentary_complete_metz_tair_vetaria_en"/>
-          </tei:div>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:adderet_mamlakhah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <tei:div>
-            <j:conditional xml:id="documentary_complete_metz_repetition_tair_repeat_en">
-              <j:all>
-                <tei:fs type="opensiddur:rite">
-                  <tei:f name="metz">
-                    <tei:binary value="false"/>
-                  </tei:f>
-                </tei:fs>
-              </j:all>
-            </j:conditional>
-            <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/repetition_tair_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-            <j:endConditional target="#documentary_complete_metz_repetition_tair_repeat_en"/>
-          </tei:div>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_memallet@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_zokher_achuz_qeren@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:aafir_nezer@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:teshalesh_shofarot@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/repetition_melekh_zokher_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:endConditional target="#documentary_complete_weekday_piyyutim_en"/>
-        </tei:div>
-        <tei:div>
-          <j:conditional xml:id="documentary_complete_shabbat_piyyutim_en">
-            <tei:note type="instruction" xml:lang="en">On Sabbath we say <tei:foreign xml:lang="he">שמו מפארים</tei:foreign> etc., as below.</tei:note>
-            <j:all>
-              <tei:fs type="opensiddur:holiday-aggregate">
-                <tei:f name="shabbat">
-                  <tei:binary value="true"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shemo_mefoarim@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:eten_lefoali_tsedeq_shimon@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/repetition/yishpot_repeat@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <j:endConditional target="#documentary_complete_shabbat_piyyutim_en"/>
-        </tei:div>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_namlikhekha@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashem_melekh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:adirei_ayummah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_dayyan_emet_attah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:lael_orekh_din@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:declare xml:id="uvekhen_lekha_taaleh_qedushah_printed_wording_7">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_sanctification_arise">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:uvekhen_lekha_taaleh_qedushah/text/let_holiness_ascend">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:uvekhen_lekha_taaleh_qedushah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#uvekhen_lekha_taaleh_qedushah_printed_wording_7"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:poem:melekh_bemishpat_yaamid_aretz@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <tei:div>
-          <j:conditional xml:id="documentary_morning_avinu_malkenu_en">
-            <tei:note type="instruction" xml:lang="en">On Sabbath <tei:foreign xml:lang="he">אבינו מלכנו</tei:foreign> is not recited.</tei:note>
-            <j:all>
-              <tei:fs type="opensiddur:holiday-aggregate">
-                <tei:f name="shabbat">
-                  <tei:binary value="false"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n156.jpg" xml:lang="en">The Holy Ark is opened.</tei:note>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-          <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n158.jpg" xml:lang="en">The Holy Ark is closed.</tei:note>
-          <j:endConditional target="#documentary_morning_avinu_malkenu_en"/>
-        </tei:div>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/full_kaddish_preface@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit/full_kaddish@prayerbook_for_the_new_year-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/shacharit@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <tei:div>
           <j:conditional xml:id="documentary_morning_torah_prelude_documentary_en">
             <tei:note type="instruction" xml:lang="en">Before the scroll of the Torah is taken out of the Ark, some congregations say the following:</tei:note>
@@ -545,7 +294,7 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:bible:genesis/21@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         </tei:div>
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n172.jpg" xml:lang="en">The second scroll of the Torah is then placed next to the first on the reading desk and the Reader says half-kaddish. The first scroll is then raised and rolled together. After that, the second scroll is unrolled and someone is called to the reading for Maphtir which is taken from Pinhas.</tei:note>
-        <j:declare xml:id="torah_maftir_numbers_29_printed_wording_8">
+        <j:declare xml:id="torah_maftir_numbers_29_printed_wording_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:bible:numbers/29/1/he/prior_printing">
               <tei:binary value="true"/>
@@ -568,7 +317,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/1-/29/6@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-        <j:endDeclare target="#torah_maftir_numbers_29_printed_wording_8"/>
+        <j:endDeclare target="#torah_maftir_numbers_29_printed_wording_3"/>
         <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n174.jpg" xml:lang="en">After the reading, the Torah scroll is lifted up and rolled together again. When the Torah scroll is being lifted up, one says:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/torah/vezot_hatorah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
         <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n174.jpg" xml:lang="en">Blessing before the Haphtorah:</tei:note>
@@ -1190,7 +939,7 @@
               <tei:pb ed="1965" n="146" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n312.jpg"/>
               <tei:head xml:lang="en">Priestly Blessing</tei:head>
               <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n312.jpg" xml:lang="en">The Priests:</tei:note>
-              <j:declare xml:id="musaf_kohanim_berakhah_printed_wording_9">
+              <j:declare xml:id="musaf_kohanim_berakhah_printed_wording_4">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:prayer:asher_qiddeshanu_biqdushato/heidenheim_1965_printing_1/earlier">
                     <tei:binary value="true"/>
@@ -1201,11 +950,11 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_berakhah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_berakhah_printed_wording_9"/>
+              <j:endDeclare target="#musaf_kohanim_berakhah_printed_wording_4"/>
               <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n312.jpg" xml:lang="en">Priests:</tei:note>
               <tei:note type="description" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n312.jpg" xml:lang="en">Congregation:</tei:note>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_1@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:declare xml:id="musaf_kohanim_response_1_2_printed_wording_10">
+              <j:declare xml:id="musaf_kohanim_response_1_2_printed_wording_5">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_2/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1216,8 +965,8 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_2@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_1_2_printed_wording_10"/>
-              <j:declare xml:id="musaf_kohanim_response_1_3_printed_wording_11">
+              <j:endDeclare target="#musaf_kohanim_response_1_2_printed_wording_5"/>
+              <j:declare xml:id="musaf_kohanim_response_1_3_printed_wording_6">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_1_3/priest/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1228,9 +977,9 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_1_3@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_1_3_printed_wording_11"/>
+              <j:endDeclare target="#musaf_kohanim_response_1_3_printed_wording_6"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_1@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:declare xml:id="musaf_kohanim_response_2_2_printed_wording_12">
+              <j:declare xml:id="musaf_kohanim_response_2_2_printed_wording_7">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_2/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1241,8 +990,8 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_2@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_2_2_printed_wording_12"/>
-              <j:declare xml:id="musaf_kohanim_response_2_3_printed_wording_13">
+              <j:endDeclare target="#musaf_kohanim_response_2_2_printed_wording_7"/>
+              <j:declare xml:id="musaf_kohanim_response_2_3_printed_wording_8">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_2_3/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1253,11 +1002,11 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_3@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_2_3_printed_wording_13"/>
+              <j:endDeclare target="#musaf_kohanim_response_2_3_printed_wording_8"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_4@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_2_5@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_1@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:declare xml:id="musaf_kohanim_response_3_2_printed_wording_14">
+              <j:declare xml:id="musaf_kohanim_response_3_2_printed_wording_9">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_2/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1268,8 +1017,8 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_2@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_3_2_printed_wording_14"/>
-              <j:declare xml:id="musaf_kohanim_response_3_3_printed_wording_15">
+              <j:endDeclare target="#musaf_kohanim_response_3_2_printed_wording_9"/>
+              <j:declare xml:id="musaf_kohanim_response_3_3_printed_wording_10">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_3/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1280,8 +1029,8 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_3@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_3_3_printed_wording_15"/>
-              <j:declare xml:id="musaf_kohanim_response_3_4_printed_wording_16">
+              <j:endDeclare target="#musaf_kohanim_response_3_3_printed_wording_10"/>
+              <j:declare xml:id="musaf_kohanim_response_3_4_printed_wording_11">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_4/response/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1292,10 +1041,10 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_4@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_3_4_printed_wording_16"/>
+              <j:endDeclare target="#musaf_kohanim_response_3_4_printed_wording_11"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_5@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_6@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:declare xml:id="musaf_kohanim_response_3_7_printed_wording_17">
+              <j:declare xml:id="musaf_kohanim_response_3_7_printed_wording_12">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:regalim/musaf/text/kohanim_response_3_7/priest/heidenheim_1965_printing/earlier">
                     <tei:binary value="true"/>
@@ -1306,9 +1055,9 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/kohanim_response_3_7@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_response_3_7_printed_wording_17"/>
+              <j:endDeclare target="#musaf_kohanim_response_3_7_printed_wording_12"/>
               <tei:note type="instruction" facs="https://archive.org/download/mahzor-lyom-rishon-shel-rosh-hashanah-day-one-jenny-marmorstein-1965/page/n314.jpg" xml:lang="en">After the priests have finished the benediction the congregation says:</tei:note>
-              <j:declare xml:id="musaf_kohanim_addir_bamarom_printed_wording_18">
+              <j:declare xml:id="musaf_kohanim_addir_bamarom_printed_wording_13">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:prayer:addir_bamarom_shokhen/heidenheim_1965_printing_1/earlier">
                     <tei:binary value="true"/>
@@ -1319,8 +1068,8 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:regalim/musaf/text/addir_bamarom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_kohanim_addir_bamarom_printed_wording_18"/>
-              <j:declare xml:id="musaf_repetition_sim_shalom_printed_wording_19">
+              <j:endDeclare target="#musaf_kohanim_addir_bamarom_printed_wording_13"/>
+              <j:declare xml:id="musaf_repetition_sim_shalom_printed_wording_14">
                 <tei:fs type="opensiddur:variant">
                   <tei:f name="urn:x-opensiddur:condition:siddur:rosh_hashanah/musaf/repetition/shalom/besefer/heidenheim_1965_printing_1/earlier">
                     <tei:binary value="true"/>
@@ -1331,7 +1080,7 @@
                 </tei:fs>
               </j:declare>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom@prayerbook_for_the_new_year-marmorstein-1965-en"/>
-              <j:endDeclare target="#musaf_repetition_sim_shalom_printed_wording_19"/>
+              <j:endDeclare target="#musaf_repetition_sim_shalom_printed_wording_14"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/hayom_teamtseinu@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/kehayom_hazeh@prayerbook_for_the_new_year-marmorstein-1965-en"/>
               <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/musaf/repetition/shalom/chatimah@prayerbook_for_the_new_year-marmorstein-1965-en"/>
