@@ -1,0 +1,51 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">The Metsudah Siddur (Ashkenaz)</tei:title>
+        <tei:title type="sub" xml:lang="en">English translation</tei:title>
+        <tei:title type="alt" xml:lang="he">סידור אשכנז</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl xml:id="project_source_bibl">
+          <tei:title xml:lang="en">The Metsudah Siddur (Ashkenaz)</tei:title>
+          <tei:title xml:lang="he">סידור אשכנז</tei:title>
+          <tei:author>Avrohom Davis</tei:author>
+          <tei:publisher>Metsudah Publications</tei:publisher>
+          <tei:pubPlace>New York</tei:pubPlace>
+          <tei:date when="1981">1981</tei:date>
+          <tei:distributor>
+            <tei:ref target="https://www.sefaria.org">Sefaria</tei:ref>
+          </tei:distributor>
+          <tei:date type="accessed" when="2026-11-01">2026-11-01</tei:date>
+          <tei:idno type="url">https://www.sefaria.org/Siddur_Ashkenaz</tei:idno>
+          <tei:idno type="sefaria">Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981</tei:idno>
+          <tei:note>Rite: Nusach Ashkenaz, the Ashkenazi rite.</tei:note>
+          <tei:note xml:lang="en">The English is based on Avrohom Davis’s translation in the Metsudah linear siddur, as Sefaria describes its version, and is set out a paragraph at a time.</tei:note>
+          <tei:note>Digitized by Sefaria as the English version “Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981” of Siddur Ashkenaz; its Hebrew text is the project metsudah_siddur_ashkenaz-davis-1981-he.</tei:note>
+          <tei:note type="encoding">Converted from the Sefaria export of 2026-11-01T00:39:57.367435 (md5 ynN9dbkPBz1YO6Mr25ftNA==), one paragraph to a phrase milestone. See specs/SEFARIA_IMPORT.md in opensiddur-processor.</tei:note>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:siddur">
+        <tei:head xml:lang="en">The Metsudah Siddur (Ashkenaz)</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:shabbat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:festivals"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:berakhot"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

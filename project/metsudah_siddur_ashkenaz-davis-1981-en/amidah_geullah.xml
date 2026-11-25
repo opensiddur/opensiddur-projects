@@ -1,0 +1,40 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Redemption: Look upon our affliction, and defend our cause: and redeem u</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/geullah">
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/geullah/9"/>Look upon our affliction, and defend our cause: and redeem us speedily<tei:anchor xml:id="note_1"/> for the sake of Your Name; because You are a Mighty Redeemer. Blessed are You, Adonoy, Redeemer of Israel.
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/geullah/chol_arvit_shemoneh_esreh_geullah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/geullah/10"/><tei:hi rend="italic">(On Fast Days, the Chazzan says “Answer us” and concludes, “Blessed are ... Who responds at times of trouble.”)</tei:hi>
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_1"/></tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p>As an outgrowth of our penitence and our forgiveness we pray that we may be deemed worthy of Divine redemption.—<tei:hi rend="italic">Kuzari</tei:hi></tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

@@ -1,0 +1,274 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Birkat HaMazon</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:berakhot/birkat_hamazon">
+        <tei:head xml:lang="en">Birkat HaMazon</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/137"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Psalm 126 is recited on Shabbos, Yom Tov and other festive occasions such as weddings, circumcisions or redemption of the first born.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/shir_hamaalot"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">When three or more males, aged 13 or older eat together one of them leads the group in reciting the Birkas Hamazon.</tei:hi>
+        </tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader begins by saying:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The others respond:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/113/2"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader repeats:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/113/2"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader continues: (the words “our God” are substituted for “Him” and “He” if ten males are in the group):</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/nevarekh"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The others respond accordingly:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_sheakhalnu"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">One who did not eat, responds:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_umevorakh"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The leader repeats:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_sheakhalnu"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">Some add:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_hu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On regular weekdays, continue, “For everything”. On Chanukah and Purim add עַל הַנִּסִּים. If you forgot to say עַל הַנִּסִּים, you may include it when you reach הָרַחֲמָן by saying: הָרַחֲמָן הוּא יַעֲשֶׂה־לָּנוּ נִסִים וְנִפְלָאוֹת כְּמוֹ שֶׁעָשָׂה לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה. and then continue on Chanukah with: בִּימֵי מַתִּתְיָהוּ, and on Purim with: בִּימֵי מָרְדְּכַי וְאֶסְתֵּר. If you reminded yourself before concluding the second blessing עַל הָאָרֶץ וְעַל הַמָּזוֹן, you may repeat it at that time and continue with the Birkas Hamazon.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Chanukah:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/chanukah/bimei/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Purim:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/purim/bimei/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On regular weekdays, continue, “Rebuild”. On Shabbos add:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Rosh Chodesh and Yom Tov add:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/shavuot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/sukkot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/shemini_atzeret"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/rosh_hashanah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/yom_kippur"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/zokhrenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yimlokh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yishtabbach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yefarnesenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yishbor_ullenu"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/harachaman/yishlach_lanu/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yishlach_lanu"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:declare xml:id="variants_5">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/harachaman/yishlach_lanu/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yishlach_lanu"/>
+        <j:endDeclare target="#variants_5"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">When eating at your parents’ table, say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yevarekh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/self"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/all"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">A guest says:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_shelo_yevosh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/bamarom"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Shabbos say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_shabbat"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Rosh Chodesh say:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_6">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/harachaman/rc/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
+        <j:endDeclare target="#variants_6"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Yom Tov say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_tov"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Rosh Hashono say:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_7">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:birkat_hamazon/harachaman/rc/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
+        <j:endDeclare target="#variants_7"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">On Sukkos say:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/sukkot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yezakkenu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The following blessings are said in the event you forgot to say רְצֵה or יַעֲלֶה וְיָבֹא and reminded yourself before starting the fourth blessing, הַטּוֹב וְהַמֵּטִיב.</tei:hi>
+        </tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If you forgot to say רְצֵה on Shabbos:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_8">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_89">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
+        <j:endDeclare target="#variants_8"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Chodesh:</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_rashei"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Yom Tov:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_9">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
+        <j:endDeclare target="#variants_9"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If a Yom Tov occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_10">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_89">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
+        <j:endDeclare target="#variants_10"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Hashanah:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_11">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
+        <j:endDeclare target="#variants_11"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">If Rosh Hashanah occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_12">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon_89">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
+        <j:endDeclare target="#variants_12"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
