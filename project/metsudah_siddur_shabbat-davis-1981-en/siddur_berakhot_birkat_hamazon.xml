@@ -116,6 +116,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/eloheinu_avinu"/>
+        <tei:note type="instruction" xml:lang="en">On regular weekdays, continue, “Rebuild” on page 000</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/retzeh_vehachalitzenu"/>
         <j:conditional xml:id="when_4">
           <tei:note type="instruction" xml:lang="en">On Rosh Chodesh and Yom Tov, add:</tei:note>
@@ -154,6 +155,8 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
+        <tei:note type="instruction" xml:lang="en">The following blessings are said in the event you forgot to say רְצֵה or יַעֲלֶה וְיָבֹא and reminded yourself before starting the fourth blesing, הַטוֹב וְהַמֵּטִיב .</tei:note>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say רְצֵה on Shabbos:</tei:note>
         <j:declare xml:id="variants_4">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -169,7 +172,9 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_4"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Chodesh:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_rashei"/>
+        <tei:note type="instruction" xml:lang="en">If Rosh Chodesh occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא :</tei:note>
         <j:declare xml:id="variants_5">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -185,6 +190,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_5"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say יַעֲלֶה וְיָבֹא on Yom Tov:</tei:note>
         <j:declare xml:id="variants_6">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
@@ -194,6 +200,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
         <j:endDeclare target="#variants_6"/>
+        <tei:note type="instruction" xml:lang="en">If Yom Tov occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא :</tei:note>
         <j:declare xml:id="variants_7">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -210,6 +217,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_7"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veyamim_tovim_lesason"/>
+        <tei:note type="instruction" xml:lang="en">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Hashanah:</tei:note>
         <j:declare xml:id="variants_8">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
@@ -219,6 +227,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
         <j:endDeclare target="#variants_8"/>
+        <tei:note type="instruction" xml:lang="en">If Rosh Hashanah occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא :</tei:note>
         <j:declare xml:id="variants_9">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">

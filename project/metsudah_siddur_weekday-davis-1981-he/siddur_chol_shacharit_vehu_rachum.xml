@@ -267,16 +267,6 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tachanun/anna_melekh/text"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vaanachnu_lo_neda"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
-        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

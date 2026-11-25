@@ -75,6 +75,7 @@
           </j:all>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/naaritz"/>
+        <tei:note type="instruction" xml:lang="en">Congregation and Chazzan:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/qadosh"/>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
@@ -85,6 +86,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/kevodo"/>
         <j:endDeclare target="#variants_3"/>
+        <tei:note type="instruction" xml:lang="en">Congregation and Chazzan:</tei:note>
         <j:declare xml:id="variants_4">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/barukh_kevod/shabbat_minchah_amidah">
@@ -98,7 +100,9 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
         <j:endDeclare target="#variants_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:mimeqomo_hu_yifen"/>
+        <tei:note type="instruction" xml:lang="en">Congregation and Chazzan:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/yimlokh"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan concludes:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/hael_haqadosh"/>
         <j:endConditional target="#when_1"/>

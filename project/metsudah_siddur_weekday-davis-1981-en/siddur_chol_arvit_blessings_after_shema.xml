@@ -31,6 +31,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/malkhutekha"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/yimlokh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/seal"/>
+        <tei:note type="instruction" xml:lang="en">This is the second of the benedictions that follow the Sh'ma.</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:hashkivenu/chol_keriat_shema_al_hamittah">
@@ -40,16 +41,19 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
         <j:endDeclare target="#variants_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
+        <tei:note type="instruction" xml:lang="en">The following prayer was originally a compilation of eighteen verses instituted during the Gaonic era as a substitute for the <tei:hi rend="italic">Shemoneh Esrei.</tei:hi> According to Avudraham, the <tei:hi rend="italic">Shemoneh Esrei</tei:hi> was omitted because of decrees issued against the Jews that banned them from participating in the Evening Service. These eighteen verses, adopted in place of the <tei:hi rend="italic">Shemoneh Esrei,</tei:hi> have remained a part of the <tei:hi rend="italic">Maariv</tei:hi> service. Some Halachic commentaries maintain that these verses should not be included in <tei:hi rend="italic">Maariv,</tei:hi> because they constitute an interruption between the final blessing after Shema and the <tei:hi rend="italic">Shemoneh Esrei.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_adonai_leolam"/>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:kaddish/yitbarakh/hallel">
-              <tei:binary value="false"/>
+            <tei:f name="urn:x-opensiddur:condition:prayer:yehi_khevod/chol_arvit_blessings_after_shema">
+              <tei:binary value="true"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yitbarakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_khevod"/>
         <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following half-Kaddish</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
       </tei:div>
     </tei:body>
   </tei:text>

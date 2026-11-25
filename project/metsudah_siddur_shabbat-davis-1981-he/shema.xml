@@ -23,35 +23,33 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:shema">
-        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:shema/torah_procession/text"/><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/224"/>שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵֽינוּ
+        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/224"/>שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵֽינוּ
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/225"/>יְהֹוָה אֶחָד:
 <tei:milestone unit="phrase"/>
-<tei:milestone unit="prayer"/>
 <j:endConditional target="#variant_1"/>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/226"/>שְׁמַע יִשְׂרָאֵל
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/227"/>יְהֹוָה אֱלֹהֵֽינוּ
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/228"/>יְהֹוָה אֶחָד:
+<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/228"/>אֵל מֶֽלֶךְ נֶאֱמָן:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_2"/>
-<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="prayer" corresp="urn:x-opensiddur:text:prayer:torah_tzivvah/el_melekh_neeman"/>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/229"/>אֵל מֶֽלֶךְ נֶאֱמָן:
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/230"/>שְׁמַע יִשְׂרָאֵל
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/231"/>יְהֹוָה אֱלֹהֵֽינוּ
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/232"/>יְהֹוָה אֶחָד:
-<tei:milestone unit="phrase"/>
-<tei:milestone unit="prayer"/>
-<j:endConditional target="#variant_3"/>
 <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/6/4"/>
-<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/182"/>שְׁמַע יִשְׂרָאֵל
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_3"/>
+<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/226"/>יְהֹוָה אֱלֹהֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/227"/>יְהֹוָה אֶחָד:
+<tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_4"/>
-<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/183"/>יְהֹוָה אֱלֹהֵֽינוּ יְהֹוָה אֶחָד :
+<j:conditional xml:id="variant_5"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/229"/>יְהֹוָה אֱלֹהֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/230"/>יְהֹוָה אֶחָד:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_5"/>
+<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/183"/>יְהֹוָה אֱלֹהֵֽינוּ יְהֹוָה אֶחָד :
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_6"/>
 <tei:milestone unit="verse"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/3"/><tei:hi rend="small">בָּרוּךְ שֵׁם</tei:hi>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/4"/><tei:hi rend="small">כְּבוֹד מַלְ֒כוּתוֹ</tei:hi>
@@ -84,481 +82,481 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/25"/>וּבִשְׁ֒עָרֶֽיךָ:
 <tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/13"/>
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/29"/>וְהָיָה
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_6"/>
 <j:conditional xml:id="variant_7"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/30"/>אִם־שָׁמֹֽעַ תִּשְׁמְעוּ אֶל־מִצְוֹתַי
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/29"/>וְהָיָה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_7"/>
 <j:conditional xml:id="variant_8"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/31"/>אֲשֶׁר֯ אָ֯נֹכִי מְצַוֶּה אֶתְ֒כֶם הַיּוֹם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/30"/>אִם־שָׁמֹֽעַ תִּשְׁמְעוּ אֶל־מִצְוֹתַי
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_8"/>
 <j:conditional xml:id="variant_9"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/32"/>לְאַהֲבָה אֶת־יְהֹוָה אֱלֹהֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/31"/>אֲשֶׁר֯ אָ֯נֹכִי מְצַוֶּה אֶתְ֒כֶם הַיּוֹם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_9"/>
 <j:conditional xml:id="variant_10"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/33"/>וּלְ֒עָבְ֒דוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/32"/>לְאַהֲבָה אֶת־יְהֹוָה אֱלֹהֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_10"/>
 <j:conditional xml:id="variant_11"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/34"/>בְּכָלּ־לְּבַבְ֒כֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/33"/>וּלְ֒עָבְ֒דוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_11"/>
 <j:conditional xml:id="variant_12"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/35"/>וּבְ֒כָל־נַפְשְׁכֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/34"/>בְּכָלּ־לְּבַבְ֒כֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_12"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/14"/>
 <j:conditional xml:id="variant_13"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/36"/>וְנָתַתִּי מְטַר֯־אַ֯רְצְכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/35"/>וּבְ֒כָל־נַפְשְׁכֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_13"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/14"/>
 <j:conditional xml:id="variant_14"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/37"/>בְּעִתּוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/36"/>וְנָתַתִּי מְטַר֯־אַ֯רְצְכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_14"/>
 <j:conditional xml:id="variant_15"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/38"/>יּוֹרֶה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/37"/>בְּעִתּוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_15"/>
 <j:conditional xml:id="variant_16"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/39"/>וּמַלְקוֹשׁ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/38"/>יּוֹרֶה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_16"/>
 <j:conditional xml:id="variant_17"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/40"/>וְאָסַפְתָּ דְגָנֶֽךָ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/39"/>וּמַלְקוֹשׁ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_17"/>
 <j:conditional xml:id="variant_18"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/41"/>וְתִירשְׁךָ וְיִצְהָרֶֽךָ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/40"/>וְאָסַפְתָּ דְגָנֶֽךָ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_18"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/15"/>
 <j:conditional xml:id="variant_19"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/42"/>וְנָתַתִּי עֵֽשֶׂב֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/41"/>וְתִירשְׁךָ וְיִצְהָרֶֽךָ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_19"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/15"/>
 <j:conditional xml:id="variant_20"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/43"/>בְּ֯שָׂדְ֒ךָ לִבְ֒הֶמְתֶּֽךָ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/42"/>וְנָתַתִּי עֵֽשֶׂב֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_20"/>
 <j:conditional xml:id="variant_21"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/44"/>וְאָכַלְתָּ וְשָׂבָֽעְתָּ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/43"/>בְּ֯שָׂדְ֒ךָ לִבְ֒הֶמְתֶּֽךָ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_21"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/16"/>
 <j:conditional xml:id="variant_22"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/45"/>הִשָּׁמְ֒רוּ לָכֶם פֶּן֯־יִ֯פְתֶּה לְבַבְ֒כֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/44"/>וְאָכַלְתָּ וְשָׂבָֽעְתָּ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_22"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/16"/>
 <j:conditional xml:id="variant_23"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/46"/>וְסַרְתֶּם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/45"/>הִשָּׁמְ֒רוּ לָכֶם פֶּן֯־יִ֯פְתֶּה לְבַבְ֒כֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_23"/>
 <j:conditional xml:id="variant_24"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/47"/>וַעֲבַדְתֶּם אֱלֹהִים֯ אֲ֯חֵרִים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/46"/>וְסַרְתֶּם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_24"/>
 <j:conditional xml:id="variant_25"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/48"/>וְהִשְׁתַּחֲוִיתֶם לָהֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/47"/>וַעֲבַדְתֶּם אֱלֹהִים֯ אֲ֯חֵרִים
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_25"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/17"/>
 <j:conditional xml:id="variant_26"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/49"/>וְחָרָה אַף־יְהֹוָה בָּכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/48"/>וְהִשְׁתַּחֲוִיתֶם לָהֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_26"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/17"/>
 <j:conditional xml:id="variant_27"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/50"/>וְעָצַר֯ אֶ֯ת־הַשָּׁמַֽיִם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/49"/>וְחָרָה אַף־יְהֹוָה בָּכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_27"/>
 <j:conditional xml:id="variant_28"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/51"/>וְלֹּא֯־יִ֯הְיֶה מָטָר
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/50"/>וְעָצַר֯ אֶ֯ת־הַשָּׁמַֽיִם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_28"/>
 <j:conditional xml:id="variant_29"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/52"/>וְהָאֲדָמָה לֹא תִתֵּן אֶת֯־יְ֯בוּלָהּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/51"/>וְלֹּא֯־יִ֯הְיֶה מָטָר
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_29"/>
 <j:conditional xml:id="variant_30"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/53"/>וַאֲבַדְתֶּם֯ מְ֯הֵרָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/52"/>וְהָאֲדָמָה לֹא תִתֵּן אֶת֯־יְ֯בוּלָהּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_30"/>
 <j:conditional xml:id="variant_31"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/54"/>מֵעַל הָאָֽרֶץ הַטֹּבָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/53"/>וַאֲבַדְתֶּם֯ מְ֯הֵרָה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_31"/>
 <j:conditional xml:id="variant_32"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/55"/>אֲשֶׁר֯ יְ֯הֹוָה נֹתֵן לָכֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/54"/>מֵעַל הָאָֽרֶץ הַטֹּבָה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_32"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/18"/>
 <j:conditional xml:id="variant_33"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/56"/>וְשַׂמְתֶּם֯ אֶ֯ת־דְּבָרַי֯ אֵֽ֯לֶּה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/55"/>אֲשֶׁר֯ יְ֯הֹוָה נֹתֵן לָכֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_33"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/18"/>
 <j:conditional xml:id="variant_34"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/57"/>עַל֯־לְ֯בַבְ֒כֶם וְעַל־נַפְשְׁ֒כֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/56"/>וְשַׂמְתֶּם֯ אֶ֯ת־דְּבָרַי֯ אֵֽ֯לֶּה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_34"/>
 <j:conditional xml:id="variant_35"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/58"/>וּקְ֒שַׁרְתֶּם֯ אֹ֯תָם לְאוֹת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/57"/>עַל֯־לְ֯בַבְ֒כֶם וְעַל־נַפְשְׁ֒כֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_35"/>
 <j:conditional xml:id="variant_36"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/59"/>עַלּ־יֶּדְ֒כֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/58"/>וּקְ֒שַׁרְתֶּם֯ אֹ֯תָם לְאוֹת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_36"/>
 <j:conditional xml:id="variant_37"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/60"/>וְהָיוּ לְטוֹטָפֹת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/59"/>עַלּ־יֶּדְ֒כֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_37"/>
 <j:conditional xml:id="variant_38"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/61"/>בֵּין עֵינֵיכֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/60"/>וְהָיוּ לְטוֹטָפֹת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_38"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/19"/>
 <j:conditional xml:id="variant_39"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/62"/>וְלִמַּדְתֶּם֯ אֹ֯תָם אֶת־בְּנֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/61"/>בֵּין עֵינֵיכֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_39"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/19"/>
 <j:conditional xml:id="variant_40"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/63"/>לְדַבֵּר בָּם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/62"/>וְלִמַּדְתֶּם֯ אֹ֯תָם אֶת־בְּנֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_40"/>
 <j:conditional xml:id="variant_41"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/64"/>בְּשִׁבְתְּךָ בְּבֵיתֶֽךָ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/63"/>לְדַבֵּר בָּם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_41"/>
 <j:conditional xml:id="variant_42"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/65"/>וּבְ֒לֶכְתְּ֒ךָ בַדֶּֽרֶךְ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/64"/>בְּשִׁבְתְּךָ בְּבֵיתֶֽךָ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_42"/>
 <j:conditional xml:id="variant_43"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/66"/>וּבְ֒שָׁכְבְּ֒ךָ וּבְ֒קוּמֶֽךָ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/65"/>וּבְ֒לֶכְתְּ֒ךָ בַדֶּֽרֶךְ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_43"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/20"/>
 <j:conditional xml:id="variant_44"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/67"/>וּכְ֒תַבְתָּם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/66"/>וּבְ֒שָׁכְבְּ֒ךָ וּבְ֒קוּמֶֽךָ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_44"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/20"/>
 <j:conditional xml:id="variant_45"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/68"/>עַל־מְזוּזוֹת בֵּיתֶֽךָ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/67"/>וּכְ֒תַבְתָּם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_45"/>
 <j:conditional xml:id="variant_46"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/69"/>וּבִשְׁ֒עָרֶֽיךָ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/68"/>עַל־מְזוּזוֹת בֵּיתֶֽךָ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_46"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/21"/>
 <j:conditional xml:id="variant_47"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/70"/>לְמַֽעַן֯ יִ֯רְבּוּ יְמֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/69"/>וּבִשְׁ֒עָרֶֽיךָ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_47"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:deuteronomy/11/21"/>
 <j:conditional xml:id="variant_48"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/71"/>וִימֵי בְנֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/70"/>לְמַֽעַן֯ יִ֯רְבּוּ יְמֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_48"/>
 <j:conditional xml:id="variant_49"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/72"/>עַל הָאֲדָמָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/71"/>וִימֵי בְנֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_49"/>
 <j:conditional xml:id="variant_50"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/73"/>אֲשֶׁר נִשְׁבַּע יְהֹוָה לַאֲבֹתֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/72"/>עַל הָאֲדָמָה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_50"/>
 <j:conditional xml:id="variant_51"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/74"/>לָתֵת לָהֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/73"/>אֲשֶׁר נִשְׁבַּע יְהֹוָה לַאֲבֹתֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_51"/>
 <j:conditional xml:id="variant_52"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/75"/>כִּימֵי הַשָּׁמַֽיִם עַל־הָאָֽרֶץ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/74"/>לָתֵת לָהֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_52"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/37"/>
 <j:conditional xml:id="variant_53"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/76"/>וַֽיֹּאמֶר֯ יְהֹוָה אֶ֯ל־משֶׁה לֵּאמֹר:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/75"/>כִּימֵי הַשָּׁמַֽיִם עַל־הָאָֽרֶץ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_53"/>
-<tei:milestone unit="verse"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/37"/>
 <j:conditional xml:id="variant_54"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/77"/>דַּבֵּר֯ אֶ֯ל־בְּנֵי יִשְׂרָאֵל
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/76"/>וַֽיֹּאמֶר֯ יְהֹוָה אֶ֯ל־משֶׁה לֵּאמֹר:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_54"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_55"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/78"/>וְאָמַרְתָּ אֲלֵהֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/77"/>דַּבֵּר֯ אֶ֯ל־בְּנֵי יִשְׂרָאֵל
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_55"/>
 <j:conditional xml:id="variant_56"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/79"/>וְעָשׂוּ לָהֶם צִיצִת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/78"/>וְאָמַרְתָּ אֲלֵהֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_56"/>
 <j:conditional xml:id="variant_57"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/80"/>עַל־כַּנְ֒פֵי בִגְ֒דֵיהֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/79"/>וְעָשׂוּ לָהֶם צִיצִת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_57"/>
 <j:conditional xml:id="variant_58"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/81"/>לְדֹרֹתָם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/80"/>עַל־כַּנְ֒פֵי בִגְ֒דֵיהֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_58"/>
 <j:conditional xml:id="variant_59"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/82"/>וְנָתְ֒נוּ עַל־צִיצִת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/81"/>לְדֹרֹתָם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_59"/>
 <j:conditional xml:id="variant_60"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/83"/>הַכָּנָף֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/82"/>וְנָתְ֒נוּ עַל־צִיצִת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_60"/>
 <j:conditional xml:id="variant_61"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/84"/>פְּ֯תִיל תְּכֵֽלֶת:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/83"/>הַכָּנָף֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_61"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/39"/>
 <j:conditional xml:id="variant_62"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/85"/>וְהָיָה לָכֶם לְצִיצִת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/84"/>פְּ֯תִיל תְּכֵֽלֶת:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_62"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/39"/>
 <j:conditional xml:id="variant_63"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/86"/>וּרְ֒אִיתֶם֯ אֹ֯תוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/85"/>וְהָיָה לָכֶם לְצִיצִת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_63"/>
 <j:conditional xml:id="variant_64"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/87"/>וּזְ֒כַרְתֶּם֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/86"/>וּרְ֒אִיתֶם֯ אֹ֯תוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_64"/>
 <j:conditional xml:id="variant_65"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/88"/>אֶ֯ת־כָּל־מִצְוֹת֯ יְ֯הֹוָה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/87"/>וּזְ֒כַרְתֶּם֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_65"/>
 <j:conditional xml:id="variant_66"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/89"/>וַעֲשִׂיתֶם֯ אֹ֯תָם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/88"/>אֶ֯ת־כָּל־מִצְוֹת֯ יְ֯הֹוָה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_66"/>
 <j:conditional xml:id="variant_67"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/90"/>וְלֹא תָתֽוּרוּ אַחֲרֵי לְבַבְ֒כֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/89"/>וַעֲשִׂיתֶם֯ אֹ֯תָם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_67"/>
 <j:conditional xml:id="variant_68"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/91"/>וְאַחֲרֵי עֵינֵיכֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/90"/>וְלֹא תָתֽוּרוּ אַחֲרֵי לְבַבְ֒כֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_68"/>
 <j:conditional xml:id="variant_69"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/92"/>אֲשֶׁר֯־אַ֯תֶּם זֹנִים֯ אַ֯חֲרֵיהֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/91"/>וְאַחֲרֵי עֵינֵיכֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_69"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/40"/>
 <j:conditional xml:id="variant_70"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/93"/>לְמַֽעַן תִּזְכְּרוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/92"/>אֲשֶׁר֯־אַ֯תֶּם זֹנִים֯ אַ֯חֲרֵיהֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_70"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:numbers/15/40"/>
 <j:conditional xml:id="variant_71"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/94"/>וַעֲשִׂיתֶם֯ אֶ֯ת־כָּל־מִצְוֹתָי
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/93"/>לְמַֽעַן תִּזְכְּרוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_71"/>
 <j:conditional xml:id="variant_72"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/95"/>וִהְיִיתֶם קְדשִׁים לֵאלֹהֵיכֶם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/94"/>וַעֲשִׂיתֶם֯ אֶ֯ת־כָּל־מִצְוֹתָי
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_72"/>
-<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_73"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/96"/>אֲנִי יְהֹוָה אֱלֹהֵיכֶם֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/95"/>וִהְיִיתֶם קְדשִׁים לֵאלֹהֵיכֶם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_73"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_74"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/97"/>אֲ֯שֶׁר הוֹצֵֽאתִי אֶתְ֒כֶם֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/96"/>אֲנִי יְהֹוָה אֱלֹהֵיכֶם֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_74"/>
 <j:conditional xml:id="variant_75"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/98"/>מֵּאֶֽרֶץ מִצְרַֽיִם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/97"/>אֲ֯שֶׁר הוֹצֵֽאתִי אֶתְ֒כֶם֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_75"/>
 <j:conditional xml:id="variant_76"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/99"/>לִהְיוֹת לָכֶם לֵאלֹהִים֯
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/98"/>מֵּאֶֽרֶץ מִצְרַֽיִם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_76"/>
 <j:conditional xml:id="variant_77"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/100"/>אֲ֯נִי יְהֹוָה אֱלֹהֵיכֶם֯:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/99"/>לִהְיוֹת לָכֶם לֵאלֹהִים֯
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_77"/>
 <j:conditional xml:id="variant_78"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/101"/>אֱ֯מֶת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/100"/>אֲ֯נִי יְהֹוָה אֱלֹהֵיכֶם֯:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_78"/>
 <j:conditional xml:id="variant_79"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/102"/>יְהֹוָה אֱלֹהֵיכֶם֯ אֱ֯מֶת:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/101"/>אֱ֯מֶת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_79"/>
-<j:conditional xml:id="variant_80"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/184"/>וֶאֱמוּנָה כָּל זֹאת
+<j:conditional xml:id="variant_80"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/102"/>יְהֹוָה אֱלֹהֵיכֶם֯ אֱ֯מֶת:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_80"/>
 <j:conditional xml:id="variant_81"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/185"/>וְקַיָּם עָלֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/184"/>וֶאֱמוּנָה כָּל זֹאת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_81"/>
 <j:conditional xml:id="variant_82"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/181"/>כִּי הוּא יְהֹוָה אֱלֹהֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/185"/>וְקַיָּם עָלֵֽינוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_82"/>
 <j:conditional xml:id="variant_83"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/186"/>וְאֵין זוּלָתוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/181"/>כִּי הוּא יְהֹוָה אֱלֹהֵֽינוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_83"/>
 <j:conditional xml:id="variant_84"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/187"/>וַאֲנַֽחְנוּ יִשְׂרָאֵל עַמּוֹ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/186"/>וְאֵין זוּלָתוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_84"/>
 <j:conditional xml:id="variant_85"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/188"/>הַפּוֹדֵֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/187"/>וַאֲנַֽחְנוּ יִשְׂרָאֵל עַמּוֹ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_85"/>
 <j:conditional xml:id="variant_86"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/189"/>מִיַּד מְלָכִים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/188"/>הַפּוֹדֵֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_86"/>
 <j:conditional xml:id="variant_87"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/190"/>מַלְכֵּֽנוּ הַגּוֹאֲלֵֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/189"/>מִיַּד מְלָכִים
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_87"/>
 <j:conditional xml:id="variant_88"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/191"/>מִכַּף כָּל הֶעָרִיצִים:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/190"/>מַלְכֵּֽנוּ הַגּוֹאֲלֵֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_88"/>
 <j:conditional xml:id="variant_89"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/192"/>הָאֵל
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/191"/>מִכַּף כָּל הֶעָרִיצִים:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_89"/>
 <j:conditional xml:id="variant_90"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/193"/>הַנִּפְרָע לָֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/192"/>הָאֵל
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_90"/>
 <j:conditional xml:id="variant_91"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/194"/>מִצָּרֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/193"/>הַנִּפְרָע לָֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_91"/>
 <j:conditional xml:id="variant_92"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/195"/>וְהַמְ֒שַׁלֵּם גְּמוּל
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/194"/>מִצָּרֵֽינוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_92"/>
 <j:conditional xml:id="variant_93"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/196"/>לְכָל אֹיְ֒בֵי נַפְשֵֽׁנוּ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/195"/>וְהַמְ֒שַׁלֵּם גְּמוּל
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_93"/>
 <j:conditional xml:id="variant_94"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/197"/>הָעֹשֶׂה גְדוֹלוֹת
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/196"/>לְכָל אֹיְ֒בֵי נַפְשֵֽׁנוּ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_94"/>
 <j:conditional xml:id="variant_95"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/198"/>עַד אֵין חֵֽקֶר
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/197"/>הָעֹשֶׂה גְדוֹלוֹת
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_95"/>
 <j:conditional xml:id="variant_96"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/199"/>נִסִּים וְנִפְלָאוֹת עַד אֵין מִסְפָּר:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/198"/>עַד אֵין חֵֽקֶר
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_96"/>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/66/9"/>
 <j:conditional xml:id="variant_97"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/200"/>הַשָּׂם נַפְשֵֽׁנוּ בַּחַיִּים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/199"/>נִסִּים וְנִפְלָאוֹת עַד אֵין מִסְפָּר:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_97"/>
+<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/66/9"/>
 <j:conditional xml:id="variant_98"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/201"/>וְלֹא נָתַן לַמּוֹט רַגְלֵֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/200"/>הַשָּׂם נַפְשֵֽׁנוּ בַּחַיִּים
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_98"/>
-<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_99"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/202"/>הַמַּדְרִיכֵֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/201"/>וְלֹא נָתַן לַמּוֹט רַגְלֵֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_99"/>
+<tei:milestone unit="verse"/>
 <j:conditional xml:id="variant_100"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/203"/>עַל בָּמוֹת אֹיְ֒בֵֽינוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/202"/>הַמַּדְרִיכֵֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_100"/>
 <j:conditional xml:id="variant_101"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/204"/>וַיָּֽרֶם קַרְנֵֽנוּ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/203"/>עַל בָּמוֹת אֹיְ֒בֵֽינוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_101"/>
 <j:conditional xml:id="variant_102"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/205"/>עַל כָּל שׂוֹנְ֒אֵֽינוּ:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/204"/>וַיָּֽרֶם קַרְנֵֽנוּ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_102"/>
 <j:conditional xml:id="variant_103"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/206"/>הָעֹֽשֶׂה לָּֽנוּ נִסִּים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/205"/>עַל כָּל שׂוֹנְ֒אֵֽינוּ:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_103"/>
 <j:conditional xml:id="variant_104"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/207"/>וּנְקָמָה בְּפַרְעֹה
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/206"/>הָעֹֽשֶׂה לָּֽנוּ נִסִּים
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_104"/>
 <j:conditional xml:id="variant_105"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/208"/>אוֹתוֹת וּמוֹפְ֒תִים
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/207"/>וּנְקָמָה בְּפַרְעֹה
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_105"/>
 <j:conditional xml:id="variant_106"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/209"/>בְּאַדְמַת בְּנֵי חָם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/208"/>אוֹתוֹת וּמוֹפְ֒תִים
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_106"/>
 <j:conditional xml:id="variant_107"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/210"/>הַמַּכֶּה בְעֶבְרָתוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/209"/>בְּאַדְמַת בְּנֵי חָם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_107"/>
 <j:conditional xml:id="variant_108"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/211"/>כָּל בְּכוֹרֵי מִצְרָֽיִם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/210"/>הַמַּכֶּה בְעֶבְרָתוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_108"/>
 <j:conditional xml:id="variant_109"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/212"/>וַיּוֹצֵא אֶת עַמּוֹ יִשְׂרָאֵל
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/211"/>כָּל בְּכוֹרֵי מִצְרָֽיִם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_109"/>
 <j:conditional xml:id="variant_110"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/213"/>מִתּוֹכָם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/212"/>וַיּוֹצֵא אֶת עַמּוֹ יִשְׂרָאֵל
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_110"/>
 <j:conditional xml:id="variant_111"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/214"/>לְחֵרוּת עוֹלָם:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/213"/>מִתּוֹכָם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_111"/>
 <j:conditional xml:id="variant_112"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/215"/>הַמַּעֲבִיר בָּנָיו
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/214"/>לְחֵרוּת עוֹלָם:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_112"/>
 <j:conditional xml:id="variant_113"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/216"/>בֵּין גִּזְרֵי
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/215"/>הַמַּעֲבִיר בָּנָיו
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_113"/>
 <j:conditional xml:id="variant_114"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/217"/>יַם סוּף
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/216"/>בֵּין גִּזְרֵי
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_114"/>
 <j:conditional xml:id="variant_115"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/218"/>אֶת רוֹדְ֒פֵיהֶם וְאֶת שׂוֹנְ֒אֵיהֶם
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/217"/>יַם סוּף
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_115"/>
 <j:conditional xml:id="variant_116"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/219"/>בִּתְהוֹמוֹת טִבַּע:
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/218"/>אֶת רוֹדְ֒פֵיהֶם וְאֶת שׂוֹנְ֒אֵיהֶם
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_116"/>
 <j:conditional xml:id="variant_117"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/220"/>וְרָאוּ בָנָיו גְּבוּרָתוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/219"/>בִּתְהוֹמוֹת טִבַּע:
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_117"/>
 <j:conditional xml:id="variant_118"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/221"/>שִׁבְּ֒חוּ וְהוֹדוּ לִשְׁמוֹ.
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/220"/>וְרָאוּ בָנָיו גְּבוּרָתוֹ
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_118"/>
 <j:conditional xml:id="variant_119"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/222"/>❖וּמַלְכוּתוֹ
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/221"/>שִׁבְּ֒חוּ וְהוֹדוּ לִשְׁמוֹ.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#variant_119"/>
 <j:conditional xml:id="variant_120"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/222"/>❖וּמַלְכוּתוֹ
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#variant_120"/>
+<j:conditional xml:id="variant_121"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_shema"><tei:binary value="false"/></tei:f><tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_keriat_shema_al_hamittah"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:shema/223"/>בְרָצוֹן קִבְּ֒לוּ עֲלֵיהֶם
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_120"/></tei:p>
+<j:endConditional target="#variant_121"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

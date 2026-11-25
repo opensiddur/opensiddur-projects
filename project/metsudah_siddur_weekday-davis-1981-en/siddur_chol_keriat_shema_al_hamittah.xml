@@ -27,6 +27,7 @@
         <tei:note type="instruction" xml:lang="en">The following is Omitted on the Shabbat and Festivals.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbono_shel_olam_hareini"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hamappil"/>
+        <tei:note type="instruction" xml:lang="en">If one has prayed Ma'ariv and with it recited Sh'ma earlier than the ideal time for the evening Sh'ma, he should repeat all of it here. Some people have the custom of reciting all three paragraphs here every night.</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_shacharit_keriat_shema">
@@ -42,6 +43,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <j:endDeclare target="#variants_1"/>
+        <tei:note type="instruction" xml:lang="en">If one has prayed <tei:hi rend="italic">Maariv</tei:hi> and with it recited Shema earlier than the ideal time for the evening Shema, he should repeat all of it here. Some people have the custom of reciting all three paragraphs here every night.</tei:note>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_keriat_shema_al_hamittah">

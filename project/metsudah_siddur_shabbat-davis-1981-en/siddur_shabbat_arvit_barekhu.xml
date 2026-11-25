@@ -32,17 +32,9 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/call"/>
         <tei:note type="instruction" xml:lang="en">The congregation responds and the Chazzan repeats:</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barekhu/response"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:maariv_aravim/shabbat_conclusion_barekhu">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:maariv_aravim"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ahavat_olam_arvit"/>
-        <j:declare xml:id="variants_2">
+        <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_shacharit_baqqashot">
               <tei:binary value="false"/>
@@ -56,13 +48,14 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
-        <j:endDeclare target="#variants_2"/>
+        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/mosheh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/mi_khamokhah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/malkhutekha"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/yimlokh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veemunah/seal"/>
-        <j:declare xml:id="variants_3">
+        <tei:note type="instruction" xml:lang="en">This is the second of the benedictions that follow the Sh'ma.</tei:note>
+        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:hashkivenu/shabbat_conclusion_barekhu">
               <tei:binary value="false"/>
@@ -73,9 +66,9 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hashkivenu"/>
-        <j:endDeclare target="#variants_3"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yehe_shemeh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/derabbanan/yitbarakh"/>
+        <j:endDeclare target="#variants_2"/>
+        <tei:note type="instruction" xml:lang="en">The Chazzan recites the following half-Kaddish</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/chatzi"/>
         <tei:note type="instruction" xml:lang="en">On Yom Tov turn to page 000, for Shemoneh Esrei</tei:note>
       </tei:div>
     </tei:body>

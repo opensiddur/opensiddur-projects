@@ -91,7 +91,15 @@
           <tei:pb n="154" ed="1912" facs="https://archive.org/download/selichothdavidasher1912/page/n310_medium.jpg"/>
           <tei:p>O my God! incline thine ear and hear, open thy eyes and behold our desolations, and the city which is called by thy name; for we do not presume to present our supplications before thee on account of our righteousness, but in reliance on thy abundant mercy. O Lord! hear: O Lord! pardon: O Lord! be graciously attentive and grant our request: delay not for thine own sake, O my God! for thy city and thy people are called by thy name. </tei:p>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:adon_befaqdekha_enosh_labeqarim"/>
+        <j:declare xml:id="adon_befaqdekha_enosh_livqarim_selichot_erev_yom_kippur">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:poem:adon_befaqdekha_enosh_livqarim/selichot_erev_yom_kippur">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_befaqdekha_enosh_livqarim"/>
+        <j:endDeclare target="#adon_befaqdekha_enosh_livqarim_selichot_erev_yom_kippur"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur/pair_after_adon_befaqdekha">
           <j:conditional xml:id="penitential_erev-yom-kippur_day_pair_after_adon_befaqdekha_printed">
             <tei:fs type="asher:expansions">
@@ -147,7 +155,15 @@
           </tei:div>
           <j:endConditional target="#penitential_erev-yom-kippur_day_verses_after_mah_enosh_expanded"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:adon_din_im_tedaqdeq"/>
+        <j:declare xml:id="adon_din_im_yiddeqen_selichot_erev_yom_kippur">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:poem:adon_din_im_yiddeqen/selichot_erev_yom_kippur">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:poem:adon_din_im_yiddeqen"/>
+        <j:endDeclare target="#adon_din_im_yiddeqen_selichot_erev_yom_kippur"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/erev_yom_kippur/pair_after_adon_din">
           <j:conditional xml:id="penitential_erev-yom-kippur_day_pair_after_adon_din_printed">
             <tei:fs type="asher:expansions">

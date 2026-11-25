@@ -42,6 +42,9 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shehecheyanu"/>
         <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">After kindling the lights, the following is said: </tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hanerot_halalu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:poem:maoz_tzur/2"/>

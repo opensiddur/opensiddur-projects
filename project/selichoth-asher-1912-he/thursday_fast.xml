@@ -169,7 +169,15 @@
           </tei:div>
           <j:endConditional target="#penitential_thursday-fast_day_refrain_instruction_printed"/>
         </tei:div>
-        <j:transclude target="urn:x-opensiddur:text:poem:yisrael_nosha/fast_day_recension"/>
+        <j:declare xml:id="yisrael_nosha_fast_day_recension">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:poem:yisrael_nosha/fast_day_recension">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude target="urn:x-opensiddur:text:poem:yisrael_nosha"/>
+        <j:endDeclare target="#yisrael_nosha_fast_day_recension"/>
         <tei:div corresp="urn:x-opensiddur:text:siddur:selichot/thursday_fast/pair_after_yisrael">
           <j:conditional xml:id="penitential_thursday-fast_day_pair_after_yisrael_printed">
             <tei:fs type="asher:expansions">
