@@ -1,8 +1,8 @@
-<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="he">חַג הַשָּׁבֻעוֹת</tei:title>
+        <tei:title type="main" xml:lang="en">Veshamru: And Moses recounted the appointed seasons of Adonoy to the C</tei:title>
       </tei:titleStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -15,18 +15,21 @@
       </tei:publicationStmt>
       <tei:sourceDesc>
         <tei:bibl>
-          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
         </tei:bibl>
       </tei:sourceDesc>
     </tei:fileDesc>
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/shavuot">
-        <tei:p><j:conditional xml:id="when_1"><tei:fs type="opensiddur:holiday"><tei:f name="shavuot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/shavuot/1"/>חַג הַשָּׁבֻעוֹת
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#when_1"/></tei:p>
+      <tei:div corresp="urn:x-opensiddur:text:bible:leviticus/23/44">
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:leviticus/23/44/1"/>And Moses recounted the appointed seasons of Adonoy to the Children of Israel.<tei:anchor xml:id="note_1"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p>Leviticus 23:44.</tei:p>
+    </tei:note>
+  </tei:standOff>
 </tei:TEI>

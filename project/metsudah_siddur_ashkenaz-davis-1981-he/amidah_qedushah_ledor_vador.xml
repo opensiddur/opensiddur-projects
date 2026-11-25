@@ -23,7 +23,16 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/qedushah/ledor_vador">
-        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/qedushah/ledor_vador/10"/>לְדוֹר וָדוֹר נַגִּיד גָּדְלֶֽךָ וּלְנֵֽצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ וְשִׁבְחֲךָ אֱלֹהֵֽינוּ מִפִּֽינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד כִּי אֵל מֶֽלֶךְ גָּדוֹל וְקָדוֹשׁ אָֽתָּה: בָּרוּךְ אַתָּה יְהֹוָה הָאֵל הַקָּדוֹשׁ: <tei:hi rend="small">בעשי"ת מסיים: בָּרוּךְ אַתָּה יְהֹוָה הַמֶּֽלֶךְ הַקָּדוֹשׁ:</tei:hi></tei:p>
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/qedushah/ledor_vador/10"/>לְדוֹר וָדוֹר נַגִּיד גָּדְלֶֽךָ וּלְנֵֽצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ וְשִׁבְחֲךָ אֱלֹהֵֽינוּ מִפִּֽינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד כִּי אֵל מֶֽלֶךְ גָּדוֹל וְקָדוֹשׁ אָֽתָּה:
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="when_1"><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/qedushah/ledor_vador/11"/>בָּרוּךְ אַתָּה יְהֹוָה הָאֵל הַקָּדוֹשׁ:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_1"/>
+<j:conditional xml:id="when_2"><tei:note type="instruction" xml:lang="he">בעשי"ת מסיים:</tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/qedushah/ledor_vador/12"/><tei:hi rend="small"> בָּרוּךְ אַתָּה יְהֹוָה הַמֶּֽלֶךְ הַקָּדוֹשׁ:</tei:hi>
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_2"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

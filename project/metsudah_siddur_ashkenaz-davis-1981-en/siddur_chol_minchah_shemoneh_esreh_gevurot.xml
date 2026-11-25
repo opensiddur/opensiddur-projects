@@ -35,17 +35,40 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mashiv_haruach"/>
         <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">(During the Ten Days of Penitence add:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">(During the Ten Days of Penitence add:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mi_khamokha"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">If you forgot to say this, the same law applies as above concerning “Remember us for life.”</tei:hi>
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayyeh_hametim"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">(When the Chazzan repeats the Shemoneh Esrei, the Kedushah is said here)</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">(When the Chazzan repeats the Shemoneh Esrei, the Kedushah is said here)</tei:hi>
+          </tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:endConditional target="#when_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

@@ -24,7 +24,21 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/shemoneh_esreh/birkat_kohanim">
         <tei:head xml:lang="he">ברכת כוהנים</tei:head>
-        <tei:note type="instruction" xml:lang="he">בתענית ציבור אומר כאן הש"ץ ברכת כהנים:</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">בתענית ציבור אומר כאן הש"ץ ברכת כהנים:</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="minor-fast">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="tisha-bav">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <tei:note type="instruction" xml:lang="he">שליח ציבור:</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
@@ -35,6 +49,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
         <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

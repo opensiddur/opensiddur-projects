@@ -24,10 +24,18 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/birkhot_keriat_shema/keriat_shema">
         <tei:head xml:lang="en">Shema</tei:head>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The following three words should be said when praying without a minyan:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following three words should be said when praying without a minyan:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">The following three lines are to be said silently:</tei:hi>

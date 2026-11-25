@@ -24,8 +24,16 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/barekhi_nafshi">
         <tei:head xml:lang="he">ברכי נפשי</tei:head>
-        <tei:note type="instruction" xml:lang="he">נוהגין בספרד לומר מזמור ברכי נפשי בראש חדש לפי שיש בו עשה ירח למועדים (טור אורח חיים תכג)</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">נוהגין בספרד לומר מזמור ברכי נפשי בראש חדש לפי שיש בו עשה ירח למועדים (טור אורח חיים תכג)</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/104"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

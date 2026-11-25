@@ -33,8 +33,30 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
         <j:endDeclare target="#variants_1"/>
-        <tei:note type="instruction" xml:lang="he">בתענית ציבור אומרים כאן עננו בתפילת הלחש:</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">בתענית ציבור אומרים כאן עננו בתפילת הלחש:</tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <tei:fs type="opensiddur:service-time">
+              <tei:f name="minha">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

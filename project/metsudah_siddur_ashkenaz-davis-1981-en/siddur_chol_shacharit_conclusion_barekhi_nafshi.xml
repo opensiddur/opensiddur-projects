@@ -24,10 +24,18 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/conclusion/barekhi_nafshi">
         <tei:head xml:lang="en">Barchi Nafshi</tei:head>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The following psalm (104) is recited in many synagogues on Rosh Chodesh days, following the daily psalm.</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following psalm (104) is recited in many synagogues on Rosh Chodesh days, following the daily psalm.</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="rosh-hodesh">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/104"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

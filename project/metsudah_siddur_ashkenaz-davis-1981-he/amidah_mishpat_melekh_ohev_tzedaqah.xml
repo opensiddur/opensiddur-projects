@@ -23,14 +23,26 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:amidah/mishpat/melekh_ohev_tzedaqah">
-        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/1"/>בָּרוּךְ אַתָּה יְהֹוָה מֶֽלֶךְ אֹהֵב צְדָקָה וּמִשְׁפָּט:
+        <tei:p><j:conditional xml:id="variant_1"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/mishpat/melekh_ohev_tzedaqah/chol_arvit_shemoneh_esreh_mishpat"><tei:binary value="true"/></tei:f></tei:fs></j:conditional><j:conditional xml:id="when_2"><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:conditional><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/4"/>בָּרוּךְ אַתָּה יְהֹוָה מֶֽלֶךְ אֹהֵב צְדָקָה וּמִשְׁפָּט:
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="when_1"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
-<j:conditional xml:id="variant_2"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/mishpat/melekh_ohev_tzedaqah/chol_arvit_shemoneh_esreh_mishpat"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/2"/>הַמֶּֽלֶךְ הַמִּשְׁפָּט:
+<j:endConditional target="#when_2"/>
+<j:endConditional target="#variant_1"/>
+<j:conditional xml:id="variant_3"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/mishpat/melekh_ohev_tzedaqah/chol_arvit_shemoneh_esreh_mishpat"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/1"/>בָּרוּךְ אַתָּה יְהֹוָה
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#variant_2"/>
-<j:endConditional target="#when_1"/></tei:p>
+<j:endConditional target="#variant_3"/>
+<j:conditional xml:id="variant_4"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/mishpat/melekh_ohev_tzedaqah/chol_arvit_shemoneh_esreh_mishpat"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="when_5"><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/2"/>מֶֽלֶךְ אֹהֵב צְדָקָה וּמִשְׁפָּט:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_5"/>
+<j:endConditional target="#variant_4"/>
+<j:conditional xml:id="variant_6"><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:amidah/mishpat/melekh_ohev_tzedaqah/chol_arvit_shemoneh_esreh_mishpat"><tei:binary value="false"/></tei:f></tei:fs></j:conditional>
+<j:conditional xml:id="when_7"><tei:note type="instruction" xml:lang="he">בעשי"ת יסיים:</tei:note><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/mishpat/melekh_ohev_tzedaqah/3"/>הַמֶּֽלֶךְ הַמִּשְׁפָּט:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_7"/>
+<j:endConditional target="#variant_6"/></tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

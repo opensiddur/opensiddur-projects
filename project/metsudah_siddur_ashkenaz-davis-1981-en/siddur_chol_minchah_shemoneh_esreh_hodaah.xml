@@ -26,13 +26,35 @@
         <tei:head xml:lang="en">Thanksgiving</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “וְעַל כֻּלָּם, and for all the foregoing.”)</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “וְעַל כֻּלָּם, and for all the foregoing.”)</tei:hi>
+          </tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="hanukkah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="purim-observed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/al_hanissim"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On Chanukah:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Chanukah:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/chanukah/bimei/berakhot_birkat_hamazon">
@@ -42,9 +64,17 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
         <j:endDeclare target="#variants_1"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On Purim:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_2"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On Purim:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim-observed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/purim/bimei/berakhot_birkat_hamazon">
@@ -54,11 +84,20 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
         <j:endDeclare target="#variants_2"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">During the Ten Days of Penitence, add:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">During the Ten Days of Penitence, add:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
+        <j:endConditional target="#when_4"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">If you forget to say this, you need not go back and repeat it. If you became aware of the omission before concluding the blessing, you can say it at that time.</tei:hi>
         </tei:note>

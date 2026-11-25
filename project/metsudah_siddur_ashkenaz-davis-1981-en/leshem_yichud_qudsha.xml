@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="en">Birkat HaMazon</tei:title>
+        <tei:title type="main" xml:lang="en">Tefillin</tei:title>
       </tei:titleStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -22,18 +22,9 @@
   </tei:teiHeader>
   <tei:text>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:prayer:yaaleh_veyavo/shavuot">
+      <tei:div corresp="urn:x-opensiddur:text:prayer:leshem_yichud_qudsha">
         <tei:p>
-          <j:conditional xml:id="when_1">
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="shavuot">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-          </j:conditional>
-          <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:yaaleh_veyavo/shavuot/1"/>
-          <tei:milestone unit="phrase"/>
-          <j:endConditional target="#when_1"/>
+          <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:leshem_yichud_qudsha/1"/>
         </tei:p>
       </tei:div>
     </tei:body>

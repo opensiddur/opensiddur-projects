@@ -24,8 +24,16 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/birkhot_keriat_shema/keriat_shema">
         <tei:head xml:lang="he">שמע</tei:head>
-        <tei:note type="instruction" xml:lang="he">יחיד אומר</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">יחיד אומר</tei:note>
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <tei:note type="instruction" xml:lang="he">יש להפסיק מעט בין אחד לברוך כי עיקר קבול עול מלכות שמים היא פסוק ראשון. ויאמר בלחש:</tei:note>
         <j:declare xml:id="variants_1">

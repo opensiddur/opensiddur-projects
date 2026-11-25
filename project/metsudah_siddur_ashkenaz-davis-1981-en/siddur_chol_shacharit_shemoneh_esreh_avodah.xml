@@ -25,9 +25,23 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/avodah">
         <tei:head xml:lang="en">Temple Service</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On regular weekdays continue, “And may our eyes”. On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On regular weekdays continue, “And may our eyes”. On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:hi>
+          </tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
@@ -37,6 +51,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
         <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
       </tei:div>
     </tei:body>

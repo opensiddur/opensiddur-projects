@@ -27,14 +27,30 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chatanu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/ein_lanu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_immanu"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">During the Ten Days of Penitence, say:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">During the Ten Days of Penitence, say:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chaddesh"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">On public fast-days, say:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On public fast-days, say:</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/barekh"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_gezerot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_machshevot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hafer"/>
@@ -49,18 +65,34 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/shelach"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/qera"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The following five prayers are said during the Ten Days of Penitence.</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following five prayers are said during the Ten Days of Penitence.</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/inscriptions"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_geullah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_parnasah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_zekhuyyot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_selichah"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">The following five prayers are said on public fast-days.</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">The following five prayers are said on public fast-days.</tei:hi>
+          </tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="minor-fast">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_chayyim"/>
+        <j:endConditional target="#when_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_geullah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_parnasah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_zekhuyyot"/>

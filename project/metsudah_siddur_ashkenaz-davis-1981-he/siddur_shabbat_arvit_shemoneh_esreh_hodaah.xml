@@ -25,9 +25,31 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/shemoneh_esreh/hodaah">
         <tei:head xml:lang="he">מודים</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
-        <tei:note type="instruction" xml:lang="he">בחנוכה ופורים אומרים כאן ועל הנסים</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">בחנוכה ופורים אומרים כאן ועל הנסים</tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="hanukkah">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="purim-observed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/al_hanissim"/>
-        <tei:note type="instruction" xml:lang="he">בחנוכה:</tei:note>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="he">בחנוכה:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="hanukkah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/chanukah/bimei/berakhot_birkat_hamazon">
@@ -37,7 +59,15 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
         <j:endDeclare target="#variants_1"/>
-        <tei:note type="instruction" xml:lang="he">בפורים:</tei:note>
+        <j:endConditional target="#when_2"/>
+        <j:conditional xml:id="when_3">
+          <tei:note type="instruction" xml:lang="he">בפורים:</tei:note>
+          <tei:fs type="opensiddur:holiday">
+            <tei:f name="purim-observed">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:al_hanissim/purim/bimei/berakhot_birkat_hamazon">
@@ -47,9 +77,18 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
         <j:endDeclare target="#variants_2"/>
+        <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
-        <tei:note type="instruction" xml:lang="he">בעשי"ת:</tei:note>
+        <j:conditional xml:id="when_4">
+          <tei:note type="instruction" xml:lang="he">בעשי"ת:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
+        <j:endConditional target="#when_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/hatov_shimkha"/>
       </tei:div>
     </tei:body>
