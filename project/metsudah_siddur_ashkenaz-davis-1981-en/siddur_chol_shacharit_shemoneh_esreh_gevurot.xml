@@ -24,34 +24,16 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/gevurot">
         <tei:head xml:lang="en">Divine Might</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/attah_gibbor"/>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/mashiv_haruach/shabbat_arvit_shemoneh_esreh_gevurot">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/gevurot/shabbat_arvit_shemoneh_esreh_gevurot">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mashiv_haruach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot"/>
         <j:endDeclare target="#variants_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mekhalkel_chayyim"/>
         <j:conditional xml:id="when_1">
-          <tei:note type="instruction" xml:lang="en">
-            <tei:hi rend="italic">(During the Ten Days of Penitence add:</tei:hi>
-          </tei:note>
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mi_khamokha"/>
-        <j:endConditional target="#when_1"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If you forgot to say this, the same law applies as above concerning “Remember us for life.”</tei:hi>
-        </tei:note>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/gevurot/mechayyeh_hametim"/>
-        <j:conditional xml:id="when_2">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">(When the Chazzan repeats the Shemoneh Esrei, the Kedushah is said here)</tei:hi>
           </tei:note>
@@ -68,7 +50,7 @@
             </tei:fs>
           </j:all>
         </j:conditional>
-        <j:endConditional target="#when_2"/>
+        <j:endConditional target="#when_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

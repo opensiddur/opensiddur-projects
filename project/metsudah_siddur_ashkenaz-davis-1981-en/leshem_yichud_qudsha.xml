@@ -24,7 +24,26 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:leshem_yichud_qudsha">
         <tei:p>
+          <j:conditional xml:id="variant_1">
+            <tei:fs type="opensiddur:variant">
+              <tei:f name="urn:x-opensiddur:condition:prayer:leshem_yichud_qudsha/chol_arvit_sefirat_haomer">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
+          <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:leshem_yichud_qudsha/2"/>
+          <tei:milestone unit="phrase"/>
+          <j:endConditional target="#variant_1"/>
+          <j:conditional xml:id="variant_2">
+            <tei:fs type="opensiddur:variant">
+              <tei:f name="urn:x-opensiddur:condition:prayer:leshem_yichud_qudsha/chol_arvit_sefirat_haomer">
+                <tei:binary value="false"/>
+              </tei:f>
+            </tei:fs>
+          </j:conditional>
           <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:leshem_yichud_qudsha/1"/>
+          <tei:milestone unit="phrase"/>
+          <j:endConditional target="#variant_2"/>
         </tei:p>
       </tei:div>
     </tei:body>

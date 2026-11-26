@@ -24,15 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/shemoneh_esreh/geullah">
         <tei:head xml:lang="he">גאולה</tei:head>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/geullah/chol_arvit_shemoneh_esreh_geullah">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/geullah"/>
-        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

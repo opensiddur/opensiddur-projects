@@ -24,8 +24,17 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/birkhot_keriat_shema/third_blessing_after_shema">
         <tei:head xml:lang="he">ברוך ה׳ לעולם (outside of Israel)</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_adonai_leolam"/>
+        <tei:note type="description" xml:lang="he">מה שנוהגין להפסיק בפסוקים ויראו עינינו וקדיש לפי שבימים ראשונים היו בתי כנסיות שלהם בשדות והיו יראים להתאחר שם עד זמן תפלת ערבית ותיקנו לומר פסוקים אלו שיש בהם י"ח אזכרות כנגד י"ח ברכות שיש בתפלת ערבית ונפטרין בקדיש ועתה שחזרו להתפלל ערבית בבתי כנסיות לא נתבטל מנהג הראשון ומ"מ אין להפסיק בדברים אחרים ויש מן הגדולים שנהגו שלא לאמרם (טור או"ח רלו)</tei:note>
         <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_adonai_leolam/chol_arvit_birkhot_keriat_shema_third_blessing_after_shema">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_adonai_leolam"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:yiru_eineinu_veyismach/chol_arvit_keriat_shema_al_hamittah">
               <tei:binary value="false"/>
@@ -33,7 +42,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yiru_eineinu_veyismach"/>
-        <j:endDeclare target="#variants_1"/>
+        <j:endDeclare target="#variants_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

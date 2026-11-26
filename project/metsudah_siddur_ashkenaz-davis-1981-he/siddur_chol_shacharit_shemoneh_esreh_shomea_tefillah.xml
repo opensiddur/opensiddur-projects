@@ -24,15 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/shomea_tefillah">
         <tei:head xml:lang="he">שומע תפילה</tei:head>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tefillah/chol_minchah_shemoneh_esreh_shomea_tefillah">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
-        <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
   </tei:text>

@@ -24,9 +24,42 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/shemoneh_esreh/hodaah">
         <tei:head xml:lang="en">Thanksgiving</tei:head>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">At the words, </tei:hi>We are thankful,<tei:hi rend="italic"> bend forward; at </tei:hi>Adonoy<tei:hi rend="italic"> return to an upright position.</tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
         <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">(When the Chazzan repeats the </tei:hi>Shemoneh Esrei<tei:hi rend="italic"> and says, “Who returns His Divine Presence to Zion”, the congregation responds by saying “Amein” and then the following prayer.Modim D’Rabanan.<tei:hi rend="italic"/>)</tei:hi></tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <tei:anchor xml:id="note_1"/>
+        <j:conditional xml:id="when_2">
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/modim_derabbanan"/>
+        <j:endConditional target="#when_2"/>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_3">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">(On Chanukah and Purim the following prayer is added. If you omitted it, you need not repeat the Shemoneh Esrei. If, however, you became aware of your omission before concluding the blessing, you should say it at that time, and conclude by saying, “וְעַל כֻּלָּם, and for all the foregoing.”)</tei:hi>
           </tei:note>
@@ -44,8 +77,8 @@
           </j:any>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/al_hanissim"/>
-        <j:endConditional target="#when_1"/>
-        <j:conditional xml:id="when_2">
+        <j:endConditional target="#when_3"/>
+        <j:conditional xml:id="when_4">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Chanukah:</tei:hi>
           </tei:note>
@@ -64,8 +97,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/chanukah/bimei"/>
         <j:endDeclare target="#variants_1"/>
-        <j:endConditional target="#when_2"/>
-        <j:conditional xml:id="when_3">
+        <j:endConditional target="#when_4"/>
+        <j:conditional xml:id="when_5">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Purim:</tei:hi>
           </tei:note>
@@ -84,9 +117,9 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_hanissim/purim/bimei"/>
         <j:endDeclare target="#variants_2"/>
-        <j:endConditional target="#when_3"/>
+        <j:endConditional target="#when_5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/veal_kullam"/>
-        <j:conditional xml:id="when_4">
+        <j:conditional xml:id="when_6">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">During the Ten Days of Penitence, add:</tei:hi>
           </tei:note>
@@ -97,7 +130,7 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/hodaah/ukhetov"/>
-        <j:endConditional target="#when_4"/>
+        <j:endConditional target="#when_6"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">If you forget to say this, you need not go back and repeat it. If you became aware of the omission before concluding the blessing, you can say it at that time.</tei:hi>
         </tei:note>
@@ -105,4 +138,9 @@
       </tei:div>
     </tei:body>
   </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p>This prayer was ordained by Rav and his colleagues. It is an abstract of several prayers recited by various Rabbis [<tei:hi rend="italic">=Rabanan</tei:hi>], and for this reason it is called</tei:p>
+    </tei:note>
+  </tei:standOff>
 </tei:TEI>

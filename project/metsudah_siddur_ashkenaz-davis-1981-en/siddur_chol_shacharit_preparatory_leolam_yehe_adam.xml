@@ -1,0 +1,61 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Sovereignty of Heaven</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/preparatory/leolam_yehe_adam">
+        <tei:head xml:lang="en">Sovereignty of Heaven</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leolam_yehe_adam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The following line is to be said silently</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_preparatory_leolam_yehe_adam">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_keriat_shema_al_hamittah">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/shabbat_arvit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/ad_shelo"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/bashamayim"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

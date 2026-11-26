@@ -24,7 +24,22 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/after_amidah">
         <tei:head xml:lang="en">Post Amidah</tei:head>
+        <j:conditional xml:id="leaf_1">
+          <j:any>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="aseret-ymei-tshuva">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="minor-fast">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah/after_amidah/avinu_malkenu"/>
+        <j:endConditional target="#leaf_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah/after_amidah/tachanun"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/minchah/after_amidah/kaddish_shalem"/>
       </tei:div>

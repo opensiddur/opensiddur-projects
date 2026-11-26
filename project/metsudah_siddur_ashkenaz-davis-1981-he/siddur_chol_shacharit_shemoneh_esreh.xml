@@ -26,7 +26,40 @@
         <tei:head xml:lang="he">עמידה</tei:head>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/avot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/gevurot"/>
+        <j:conditional xml:id="leaf_3">
+          <j:none>
+            <j:all>
+              <tei:fs type="opensiddur:recitation">
+                <tei:f name="repetition">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:quorum">
+                <tei:f name="minyan">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/qedushat_hashem"/>
+        <j:endConditional target="#leaf_3"/>
+        <j:conditional xml:id="leaf_4">
+          <j:all>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/qedushah"/>
+        <j:endConditional target="#leaf_4"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/binah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/teshuvah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/selichah"/>
@@ -42,7 +75,29 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/shomea_tefillah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/avodah"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/hodaah"/>
+        <j:conditional xml:id="leaf_20">
+          <j:all>
+            <tei:fs type="opensiddur:quorum">
+              <tei:f name="minyan">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:recitation">
+              <tei:f name="repetition">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:practice">
+                <tei:f name="birkat-kohanim">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/birkat_kohanim"/>
+        <j:endConditional target="#leaf_20"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/shalom"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/elohai_netzor"/>
       </tei:div>

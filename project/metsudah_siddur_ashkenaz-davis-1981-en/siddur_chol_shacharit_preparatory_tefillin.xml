@@ -24,7 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/preparatory/tefillin">
         <tei:head xml:lang="en">Tefillin</tei:head>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:leshem_yichud_qudsha/chol_arvit_sefirat_haomer">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshem_yichud_qudsha"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">Place the “tefillin of the arm” on the muscle of your left arm, and before tightening it, say:</tei:hi>
         </tei:note>
@@ -36,8 +44,11 @@
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">With the “tefillin of the head” in place, say:</tei:hi>
         </tei:note>
-        <j:declare xml:id="variants_1">
+        <j:declare xml:id="variants_2">
           <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_preparatory_leolam_yehe_adam">
+              <tei:binary value="false"/>
+            </tei:f>
             <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_birkhot_keriat_shema_keriat_shema">
               <tei:binary value="false"/>
             </tei:f>
@@ -53,7 +64,7 @@
           </tei:fs>
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
-        <j:endDeclare target="#variants_1"/>
+        <j:endDeclare target="#variants_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tefillin/umechokhmatekha"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">When wrapping the strap around the middle finger of your left hand, say:</tei:hi>

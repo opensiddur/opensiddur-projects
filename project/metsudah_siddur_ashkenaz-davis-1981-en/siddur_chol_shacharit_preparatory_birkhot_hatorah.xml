@@ -2,7 +2,7 @@
   <tei:teiHeader>
     <tei:fileDesc>
       <tei:titleStmt>
-        <tei:title type="main" xml:lang="en">Torah Study</tei:title>
+        <tei:title type="main" xml:lang="en">Torah Blessings</tei:title>
       </tei:titleStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -23,9 +23,10 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/preparatory/birkhot_hatorah">
-        <tei:head xml:lang="en">Torah Study</tei:head>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim"/>
+        <tei:head xml:lang="en">Torah Blessings</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar"/>
       </tei:div>
     </tei:body>
   </tei:text>

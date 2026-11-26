@@ -1,0 +1,35 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">מִי שֶׁגְּ֒מָלְ֒ךָ טוֹב הוּא יִגְמָלְ֒ךָ כָּל־טוֹב</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:prayer:birkat_hagomel/response">
+        <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hagomel/response/4"/>מִי שֶׁגְּ֒מָלְ֒ךָ טוֹב הוּא יִגְמָלְ֒ךָ כָּל־טוֹב סֶֽלָה:
+<tei:milestone unit="phrase"/>
+<j:conditional xml:id="when_1"><tei:note type="instruction" xml:lang="he">מי שהגיע בנו לבן י"ג שנה ויום אחד יברך האב בשעה שבנו עולה לתורה פעם ראשונה ברכה זו בלא שם ומלכות:</tei:note><tei:fs type="opensiddur:person"><tei:f name="bar-mitzvah-father"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hagomel/response/5"/>בָּרוּךְ שֶׁפְּ֒טָרַֽנִי מֵעָנְשׁוֹ שֶׁל זֶה:
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_1"/></tei:p>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

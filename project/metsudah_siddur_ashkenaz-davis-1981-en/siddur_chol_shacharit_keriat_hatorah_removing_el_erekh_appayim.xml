@@ -1,0 +1,103 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">El Erech Appayim</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/keriat_hatorah/removing/el_erekh_appayim">
+        <tei:head xml:lang="en">El Erech Appayim</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en"><tei:hi rend="italic">The following paragraph is said on Mondays and Thursdays except on Rosh Chodesh, the eve of Pesach, Tishah b’Av, Chanukah, the 14th and 15th Adar and Adar Sheni (Purim and Purim Katan), the eve of Yom Kippur, and it is also omitted in the house of a mourner. This prayer is recited while standing, as it includes a form of viduy (</tei:hi>confession<tei:hi rend="italic">) which must be said while standing. On Mondays and Thursdays, as we are about to open the Ark to take out the Seifer Torah for public reading, we realize that we have transgressed much that is written in the Torah and are unworthy even to take it into our hands. Aware of our inadequacy and unworthiness, we utter the words, “Almighty who is slow to anger etc....”, appealing to Him for forgiveness.</tei:hi></tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hodesh">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="1"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="hanukkah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="12"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="13"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="7"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="9"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="house-of-mourning">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim/text"/>
+        <j:endConditional target="#when_1"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

@@ -1,0 +1,32 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Mizmor Letoda</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/mizmor_letodah">
+        <tei:head xml:lang="en">Mizmor Letoda</tei:head>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">Psalm 100 was recited in the Temple only on those days when thank-offerings were offered on the Altar. It is therefore omitted on Shabbos, on Yom Tov, on the day before Yom Kippur, on the day before Pesach, and also on the intermediate days of Pesach, when only obligatory-offerings were offered. Our Sages declare (</tei:hi>Midrash Rabbah Tzav,<tei:hi rend="italic"> 9) “In the future, even though all things on earth will be in such an ideal state that there will be no more cause for prayers and offerings, prayers of gratitude, and offerings of thanksgiving will nevertheless not cease.” Ordinarily, when a person is saved from a fatal illness, is released from captivity, or returns from a risky journey, he pronounces the special blessing </tei:hi>Hagomeil<tei:hi rend="italic">. Our Sages, instituted psalm 100 in our daily prayers as an expression of thanks for the many unrecognized miracles God performs in our behalf every day.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/100"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

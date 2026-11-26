@@ -1,0 +1,39 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Me'ein Sheva</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/meein_sheva">
+        <tei:head xml:lang="en">Me'ein Sheva</tei:head>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The following prayer, בְּרָכָה מֵעֵין שֶׁבַע the abridged form of the seven blessings of the Maariv Shemoneh Esrei, is said only by the Chazzan. This prayer is not said if the first night of Passover occurs on Friday night. It is also not recited when prayers are held in the house of a bridegroom or in the house of a mourner. It is to be said only in a place that has been designated as a permanent place of prayer.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemeein_sheva"/>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The congregation may recite the following paragraph, which should then be repeated aloud and in its entirety by the Chazzan.</tei:hi>
+        </tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/magen_avot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/retzeh_vimnuchatenu/text"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

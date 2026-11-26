@@ -24,14 +24,18 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/birkat_kohanim">
         <tei:head xml:lang="en">Birkat Kohanim</tei:head>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">In Leviticus 9:22, we find that after he completed the Divine offering, Aaron lifted up his hands and blessed the people. In a like manner, his descendants, the </tei:hi>Kohanim,<tei:hi rend="italic"> uttered the priestly blessing after performing the Temple Service. In our days, on the occasions when the </tei:hi>kohanim<tei:hi rend="italic"> recite the priestly blessings, they do so immediately after the “We are thankful” prayer which terminates the </tei:hi>Avodah<tei:hi rend="italic"> (Service) section of the </tei:hi>Shemoneh Esrei.<tei:hi rend="italic"> When </tei:hi>Kohanim<tei:hi rend="italic"> do not recite the blessings, the blessings are mentioned by the </tei:hi>Chazzan<tei:hi rend="italic"> in his repetition of the </tei:hi>Shemoneh Esrei<tei:hi rend="italic">.—<tei:hi rend="italic">Avudraham</tei:hi></tei:hi></tei:note>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">To be said by the Chazzan</tei:hi>
+        </tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/birkat_kohanim/chol_minchah_shemoneh_esreh_birkat_kohanim">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/amirah_leshatz_lifnay_birkat_kohanim/before_call/chol_minchah_shemoneh_esreh_birkat_kohanim">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_kohanim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/amirah_leshatz_lifnay_birkat_kohanim/before_call"/>
         <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_kohanim"/>
       </tei:div>

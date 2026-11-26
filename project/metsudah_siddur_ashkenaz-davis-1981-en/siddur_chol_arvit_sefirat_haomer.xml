@@ -1,0 +1,89 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Sefirat HaOmer</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/sefirat_haomer">
+        <tei:head xml:lang="en">Sefirat HaOmer</tei:head>
+        <tei:note type="instruction" xml:lang="en">
+          <tei:hi rend="italic">The Omer is counted from the second night of Pesach until the night before Shavuos. The counting of forty-nine days (seven weeks) between the Festival of Pesach and Shavuos (the Feast of Weeks), connects the exodus from Egypt with the festival of the giving of the Torah. Just as one who awaits a most intimate friend on a certain day counts the days in eager anticipation of his arrival, so do we count the days from our liberation till the day we receive the Torah, which is the culmination and fulfillment of our freedom. It is proper to count the Omer at the beginning of the night, usually after the Maariv Service, and the Omer should be counted while standing.</tei:hi>
+        </tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:leshem_yichud_qudsha/chol_arvit_sefirat_haomer">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:leshem_yichud_qudsha"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/preparation"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_arvit_sefirat_haomer">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_arvit_keriat_shema_al_hamittah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vihi_noam"/>
+        <j:endDeclare target="#variants_2"/>
+        <j:declare xml:id="variants_3">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:sefirat_haomer/shabbat_arvit_sefirat_haomer">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer"/>
+        <j:endDeclare target="#variants_3"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/harachaman"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/anna_bekhoach"/>
+        <j:declare xml:id="variants_4">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_preparatory_leolam_yehe_adam">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_keriat_shema_al_hamittah">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/shabbat_arvit_birkhot_keriat_shema_keriat_shema">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:endDeclare target="#variants_4"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/ribbono"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

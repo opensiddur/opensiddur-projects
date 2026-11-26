@@ -24,15 +24,7 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/minchah/shemoneh_esreh/shomea_tefillah">
         <tei:head xml:lang="en">Response to Prayer</tei:head>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/tefillah/chol_minchah_shemoneh_esreh_shomea_tefillah">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah"/>
-        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah/opening"/>
         <j:conditional xml:id="when_1">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Fast days during Mincha, the following petition is added here:</tei:hi>
@@ -57,8 +49,9 @@
             </tei:fs>
           </j:all>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/aneinu/opening"/>
         <j:endConditional target="#when_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/tefillah/seal"/>
       </tei:div>
     </tei:body>
   </tei:text>

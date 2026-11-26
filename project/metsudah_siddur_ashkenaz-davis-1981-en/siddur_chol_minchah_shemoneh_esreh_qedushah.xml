@@ -39,7 +39,15 @@
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">Congregation says and Chazzan repeats:</tei:hi>
         </tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/qedushah/barukh_kevod/chol_minchah_shemoneh_esreh_qedushah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/qedushah/barukh_kevod"/>
+        <j:endDeclare target="#variants_1"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">The Chazzan says:</tei:hi>
         </tei:note>

@@ -147,7 +147,13 @@
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/zimmun/barukh_hu"/>
         <j:endConditional target="#when_3"/>
+        <tei:note type="description" xml:lang="en">
+          <tei:hi rend="italic">FIRST BERACHA</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hazan"/>
+        <tei:note type="description" xml:lang="en">
+          <tei:hi rend="italic">SECOND BERACHA</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/nodeh"/>
         <j:conditional xml:id="when_4">
           <tei:note type="instruction" xml:lang="en">
@@ -209,6 +215,9 @@
         <j:endDeclare target="#variants_2"/>
         <j:endConditional target="#when_6"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/veal_hakol"/>
+        <tei:note type="description" xml:lang="en">
+          <tei:hi rend="italic">THIRD BERACHA</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/rachem"/>
         <j:conditional xml:id="when_7">
           <tei:note type="instruction" xml:lang="en">
@@ -258,7 +267,11 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/yom_kippur"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo/zokhrenu"/>
         <j:endConditional target="#when_8"/>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">If you forgot to say רְצֵה or יַעֲלֶה וְיָבֹא and became aware of it </tei:hi>before<tei:hi rend="italic"> starting the fourth blessing (הַטּוֹב וְהַמֵּטִיב), or even if you are in doubt, see below for the appropriate blessing. If you reminded yourself <tei:hi rend="italic">after<tei:hi rend="italic"> you had already begun the fourth blessing and have said: בָּרוּךְ אַתָּה ה', then you must repeat the entire Birkas Hamazon. These laws apply only to Shabbos, and the Festival days of Pesach, Shavuos and Sukkos. On Chol Ha-Moed or on Rosh Chodesh days that do not fall on Shabbos, you need not repeat the Birkas Hamazon even though you began the blessing of הַטּוֹב וְהַמֵּטִיב.</tei:hi></tei:hi></tei:hi></tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
+        <tei:note type="description" xml:lang="en">
+          <tei:hi rend="italic">FOURTH BERACHA</tei:hi>
+        </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yimlokh"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yitbarakh"/>
@@ -287,9 +300,22 @@
           <tei:hi rend="italic">When eating at your parents’ table, say:</tei:hi>
         </tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yevarekh"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/self"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/all"/>
         <j:conditional xml:id="when_9">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">When eating at your own table, say:</tei:hi>
+          </tei:note>
+          <j:none>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="guest">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/self"/>
+        <j:endConditional target="#when_9"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/all"/>
+        <j:conditional xml:id="when_10">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">A guest says:</tei:hi>
           </tei:note>
@@ -316,9 +342,9 @@
           </j:all>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yehi_ratzon_shelo"/>
-        <j:endConditional target="#when_9"/>
+        <j:endConditional target="#when_10"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/bamarom"/>
-        <j:conditional xml:id="when_10">
+        <j:conditional xml:id="when_11">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Shabbos say:</tei:hi>
           </tei:note>
@@ -329,8 +355,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_shabbat"/>
-        <j:endConditional target="#when_10"/>
-        <j:conditional xml:id="when_11">
+        <j:endConditional target="#when_11"/>
+        <j:conditional xml:id="when_12">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Rosh Chodesh say:</tei:hi>
           </tei:note>
@@ -349,8 +375,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
         <j:endDeclare target="#variants_6"/>
-        <j:endConditional target="#when_11"/>
-        <j:conditional xml:id="when_12">
+        <j:endConditional target="#when_12"/>
+        <j:conditional xml:id="when_13">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Yom Tov say:</tei:hi>
           </tei:note>
@@ -361,8 +387,8 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yanchilenu_tov"/>
-        <j:endConditional target="#when_12"/>
-        <j:conditional xml:id="when_13">
+        <j:endConditional target="#when_13"/>
+        <j:conditional xml:id="when_14">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Rosh Hashono say:</tei:hi>
           </tei:note>
@@ -381,8 +407,8 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/rc"/>
         <j:endDeclare target="#variants_7"/>
-        <j:endConditional target="#when_13"/>
-        <j:conditional xml:id="when_14">
+        <j:endConditional target="#when_14"/>
+        <j:conditional xml:id="when_15">
           <tei:note type="instruction" xml:lang="en">
             <tei:hi rend="italic">On Sukkos say:</tei:hi>
           </tei:note>
@@ -393,7 +419,7 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/sukkot"/>
-        <j:endConditional target="#when_14"/>
+        <j:endConditional target="#when_15"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/harachaman/yezakkenu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
         <tei:note type="instruction" xml:lang="en">
