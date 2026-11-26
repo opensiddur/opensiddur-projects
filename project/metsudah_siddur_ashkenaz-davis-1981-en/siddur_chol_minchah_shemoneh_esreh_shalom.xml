@@ -70,15 +70,15 @@
         </j:conditional>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/chol_arvit_shemoneh_esreh_shalom">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim_hamevarekh/chol_arvit_shemoneh_esreh_shalom">
               <tei:binary value="false"/>
             </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim/shabbat_arvit_shemoneh_esreh_shalom">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim_hamevarekh/shabbat_arvit_shemoneh_esreh_shalom">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim_hamevarekh"/>
         <j:endDeclare target="#variants_1"/>
         <j:endConditional target="#when_3"/>
         <tei:note type="instruction" xml:lang="en">

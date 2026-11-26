@@ -27,7 +27,27 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/lasekhvi"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved"/>
+        <j:conditional xml:id="when_1">
+          <j:none>
+            <tei:fs type="opensiddur:person">
+              <tei:f name="gender">
+                <tei:symbol value="female"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah"/>
+        <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="he">נשים אומרות:</tei:note>
+          <tei:fs type="opensiddur:person">
+            <tei:f name="gender">
+              <tei:symbol value="female"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasani_kirtzono"/>
+        <j:endConditional target="#when_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/poqeach_ivrim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/malbish_arummim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/mattir_asurim"/>
