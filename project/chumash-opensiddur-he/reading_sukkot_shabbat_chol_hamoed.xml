@@ -41,21 +41,166 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/34/11-34/17"/>
         <tei:milestone unit="aliyah.annual" n="שְׁבִיעִי" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/aliyah_annual/7"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:exodus/34/18-34/26"/>
-        <tei:milestone unit="citation" n="במדבר 29:17–29:34"/>
+        <j:conditional xml:id="maftir_day_1081">
+          <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="3"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="במדבר 29:17–29:22"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר לְיוֹם א׳" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/maftir_annual/maftir_day1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/17-29/22"/>
+        <j:endConditional target="#maftir_day_1081"/>
+        <j:conditional xml:id="maftir_day_1082">
+          <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="4"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="3"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="במדבר 29:20–29:25"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר לְיוֹם ב׳" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/maftir_annual/maftir_day2"/>
-        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/20-29/25"/>
+        <j:endConditional target="#maftir_day_1082"/>
+        <j:conditional xml:id="maftir_day_1083">
+          <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="4"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="במדבר 29:23–29:28"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר לְיוֹם ג׳" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/maftir_annual/maftir_day3"/>
-        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/23-29/28"/>
+        <j:endConditional target="#maftir_day_1083"/>
+        <j:conditional xml:id="maftir_day_1084">
+          <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="6"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="במדבר 29:26–29:31"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר לְיוֹם ד׳" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/maftir_annual/maftir_day4"/>
-        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/26-29/31"/>
+        <j:endConditional target="#maftir_day_1084"/>
+        <j:conditional xml:id="maftir_day_1085">
+          <j:any>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="false"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="7"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <j:all>
+              <tei:fs type="opensiddur:israel">
+                <tei:f name="is-israel">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="sukkot">
+                  <tei:numeric value="6"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:any>
+        </j:conditional>
+        <tei:milestone unit="citation" n="במדבר 29:29–29:34"/>
         <tei:milestone unit="maftir.annual" n="מַפְטִיר לְיוֹם ה׳" corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/maftir_annual/maftir_day5"/>
-        <tei:note type="instruction" xml:lang="he">חוזרים על הפסוק</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/29/29-29/34"/>
+        <j:endConditional target="#maftir_day_1085"/>
         <tei:div corresp="urn:x-opensiddur:text:bible:reading/sukkot_shabbat_chol_hamoed/haftarah" n="haftarah">
           <tei:head>הַפְטָרָה</tei:head>
           <tei:milestone unit="citation" n="יחזקאל 38:18–39:16"/>
