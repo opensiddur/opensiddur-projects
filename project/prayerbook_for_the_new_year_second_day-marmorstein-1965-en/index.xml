@@ -13,7 +13,7 @@
         </tei:respStmt>
       </tei:titleStmt>
       <tei:editionStmt>
-        <tei:edition>DRAFT volume: opening front matter only. Per-scan acceptance and review evidence are recorded in sources/marmorstein_rosh_hashanah_2/batches/.</tei:edition>
+        <tei:edition>Volume in progress: front matter and second-night evening service. Per-scan acceptance and review evidence are recorded in sources/marmorstein_rosh_hashanah_2/batches/.</tei:edition>
       </tei:editionStmt>
       <tei:publicationStmt>
         <tei:distributor>
@@ -110,7 +110,9 @@
       <j:endConditional target="#day_two_front_s4"/>
     </tei:front>
     <tei:body>
-      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two"/>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two">
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/maariv@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+      </tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
