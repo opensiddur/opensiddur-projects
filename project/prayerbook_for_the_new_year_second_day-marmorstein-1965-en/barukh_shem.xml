@@ -35,9 +35,10 @@
   <tei:text>
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:prayer:shema/barukh_shem">
-        <tei:pb ed="1965" n="2" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n6_medium.jpg"/>
-        <tei:p>Blessed be His glorious royal Name for ever and ever.</tei:p>
-      </tei:div>
+        
+        <j:conditional xml:id="printed_translation"><j:all><tei:fs type="opensiddur:variant"><tei:f name="urn:x-opensiddur:condition:prayer:shema/barukh_shem/second_day_printed_translation"><tei:binary value="true"/></tei:f></tei:fs></j:all></j:conditional><tei:p><tei:choice><j:option corresp="urn:x-opensiddur:condition:prayer:shema/barukh_shem/second_day_night_printing"><tei:pb ed="1965" n="2" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n6_medium.jpg"/>
+        Blessed be His glorious royal Name for ever and ever.</j:option><j:option corresp="urn:x-opensiddur:condition:prayer:shema/barukh_shem/second_day_morning_printing"><tei:pb ed="1965" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n38.jpg" n="8"/>Blessed be His glorious royal Name for ever and ever.</j:option></tei:choice></tei:p>
+      <j:endConditional target="#printed_translation"/></tei:div>
     </tei:body>
   </tei:text>
 </tei:TEI>
