@@ -180,77 +180,7 @@
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/lehitattef@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
           <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tallith/mah_yaqar@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
         </tei:div>
-        <tei:div xml:id="morning_preliminaries">
-          <tei:head xml:lang="en">Prayers</tei:head>
-          <tei:note type="description" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n26.jpg">On entering the Synagogue:</tei:note>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/morning_entrance_verses@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/morning_mah_tovu@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:shachar_avaqeshkha_gabirol@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <tei:note type="description" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n26.jpg">Before the morning prayer:</tei:note>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/morning_before_prayer@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/yigdal@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-        </tei:div>
-        <tei:div xml:id="morning_blessings">
-          <tei:head xml:lang="en">Morning Prayer</tei:head>
-          <j:transclude type="external" target="urn:x-opensiddur:text:poem:adon_olam@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:al_netilat_yadayim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_yatzar@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <tei:note type="instruction" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n30.jpg">In most communities of the German rite <tei:foreign xml:lang="he">אלהי נשמה</tei:foreign> <tei:seg type="optional-page-reference">(P. <tei:ref type="page" target="urn:x-opensiddur:text:prayer:elohai_neshamah@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>.)</tei:seg> follows here.</tei:note>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/vehaarev@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/asher_bachar@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:bible:numbers/6/24-/6/26@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ellu_devarim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:elohai_neshamah@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/lasekhvi@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_goy@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_aved@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:conditional xml:id="morning_birkhot_hashachar_shelo_asani_ishah_condition">
-            <j:all>
-              <tei:fs type="opensiddur:person">
-                <tei:f name="gender">
-                  <tei:symbol value="male"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:endConditional target="#morning_birkhot_hashachar_shelo_asani_ishah_condition"/>
-          <j:conditional xml:id="morning_birkhot_hashachar_sheasani_kirtzono_condition">
-            <tei:note type="instruction" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n34.jpg">In place of the preceding benediction women say:</tei:note>
-            <j:all>
-              <tei:fs type="opensiddur:person">
-                <tei:f name="gender">
-                  <tei:symbol value="female"/>
-                </tei:f>
-              </tei:fs>
-            </j:all>
-          </j:conditional>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_blessings/womens_blessing@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:endConditional target="#morning_birkhot_hashachar_sheasani_kirtzono_condition"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/poqeach_ivrim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/malbish_arummim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/mattir_asurim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/zoqef_kefufim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/roqa_haaretz@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/sheasah_li@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamekhin@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/ozer_yisrael@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/oter_yisrael@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hanoten_layaef@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/hamaavir_shenah@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetargilenu-/gomel_chasadim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shetatzileni@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <tei:note type="instruction" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n36.jpg">Let man always fear God in private, acknowledge the truth, speak truth in his heart and rise early in the morning and say:</tei:note>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:ribbon_kol_haolamim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:aval_anachnu@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:lefikhakh@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/morning_shema_yisrael@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/morning_occurrences/morning_barukh_shem@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/ad_shelo-/uvishuatekha@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <j:transclude type="external" target="urn:x-opensiddur:text:prayer:attah_hu/bashamayim@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
-          <tei:note type="instruction" xml:lang="en" facs="https://archive.org/download/mahzor-lyom-sheni-shel-rosh-hashanah-day-two-jenny-marmorstein-1965/page/n38.jpg">In most communities of the German rite the benedictions of the Torah <tei:seg type="optional-page-reference">(page <tei:ref type="page" target="urn:x-opensiddur:text:prayer:birkhot_hatorah/laasoq@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>)</tei:seg> are inserted here.</tei:note>
-        </tei:div>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/shacharit/prayers@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
         <j:endDeclare target="#morning_printings"/>
       </tei:div>
     </tei:body>
