@@ -25,7 +25,15 @@
       <tei:div corresp="urn:x-opensiddur:text:siddur:shabbat/arvit/meein_sheva">
         <tei:head xml:lang="he">ברכה אחת מעין שבע</tei:head>
         <tei:note type="instruction" xml:lang="he">אין החזן מחזיר התפלה עצמה אבל חוזר מעין שבע משום י"ט שחל בשבת שא"א בו ויכולו. גם להוציא שאינו בקי. וצריך לאומרו בעמידה כעדות.</tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemeein_sheva"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="he">מעין ז' יאמרו הקהל בלי פתיחה וחתימה. וכן היחיד אומרו.</tei:note>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/magen_avot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/retzeh_vimnuchatenu/text"/>

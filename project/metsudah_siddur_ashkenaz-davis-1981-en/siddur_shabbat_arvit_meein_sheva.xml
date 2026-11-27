@@ -27,7 +27,15 @@
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">The following prayer, בְּרָכָה מֵעֵין שֶׁבַע the abridged form of the seven blessings of the Maariv Shemoneh Esrei, is said only by the Chazzan. This prayer is not said if the first night of Passover occurs on Friday night. It is also not recited when prayers are held in the house of a bridegroom or in the house of a mourner. It is to be said only in a place that has been designated as a permanent place of prayer.</tei:hi>
         </tei:note>
+        <j:conditional xml:id="when_1">
+          <tei:fs type="opensiddur:quorum">
+            <tei:f name="minyan">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/birkat_petichah_lemeein_sheva"/>
+        <j:endConditional target="#when_1"/>
         <tei:note type="instruction" xml:lang="en">
           <tei:hi rend="italic">The congregation may recite the following paragraph, which should then be repeated aloud and in its entirety by the Chazzan.</tei:hi>
         </tei:note>

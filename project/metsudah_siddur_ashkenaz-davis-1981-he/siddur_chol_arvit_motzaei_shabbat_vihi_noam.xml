@@ -24,6 +24,15 @@
     <tei:body>
       <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/motzaei_shabbat/vihi_noam">
         <tei:head xml:lang="he">ויהי נעם</tei:head>
+        <j:conditional xml:id="when_1">
+          <j:none>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="tisha-bav">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:vihi_noam/chol_arvit_sefirat_haomer">
@@ -36,6 +45,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vihi_noam"/>
         <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veattah_qadosh"/>
       </tei:div>
     </tei:body>
