@@ -306,15 +306,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/al_teshivenu"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/tehe"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chamol"/>
-        <j:declare xml:id="variants_1">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:avinu_malkenu/aseh_harugim/chol_shacharit_after_amidah_avinu_malkenu">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_harugim"/>
-        <j:endDeclare target="#variants_1"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_tevuchim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_baei"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/neqom"/>
