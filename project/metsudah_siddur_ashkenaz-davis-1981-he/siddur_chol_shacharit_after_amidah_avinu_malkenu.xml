@@ -66,7 +66,31 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
+        <j:conditional xml:id="when_4">
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tzom-tammuz">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/barekh"/>
+        <j:endConditional target="#when_4"/>
         <j:endConditional target="#when_3"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_gezerot"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/batel_machshevot"/>
@@ -82,7 +106,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/shelach"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/qera"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu"/>
-        <j:conditional xml:id="when_4">
+        <j:conditional xml:id="when_5">
           <tei:note type="instruction" xml:lang="he">בעשרת ימי תשובה:</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="aseret-ymei-tshuva">
@@ -91,15 +115,6 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/inscriptions"/>
-        <j:endConditional target="#when_4"/>
-        <j:conditional xml:id="when_5">
-          <tei:fs type="opensiddur:holiday-aggregate">
-            <tei:f name="aseret-ymei-tshuva">
-              <tei:binary value="true"/>
-            </tei:f>
-          </tei:fs>
-        </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_geullah"/>
         <j:endConditional target="#when_5"/>
         <j:conditional xml:id="when_6">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -108,7 +123,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_parnasah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_geullah"/>
         <j:endConditional target="#when_6"/>
         <j:conditional xml:id="when_7">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -117,7 +132,7 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_zekhuyyot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_parnasah"/>
         <j:endConditional target="#when_7"/>
         <j:conditional xml:id="when_8">
           <tei:fs type="opensiddur:holiday-aggregate">
@@ -126,9 +141,18 @@
             </tei:f>
           </tei:fs>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_selichah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_zekhuyyot"/>
         <j:endConditional target="#when_8"/>
         <j:conditional xml:id="when_9">
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/kotvenu_selichah"/>
+        <j:endConditional target="#when_9"/>
+        <j:conditional xml:id="when_10">
           <tei:note type="instruction" xml:lang="he">בתענית ציבור</tei:note>
           <tei:fs type="opensiddur:holiday-aggregate">
             <tei:f name="minor-fast">
@@ -137,71 +161,107 @@
           </tei:fs>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_chayyim"/>
-        <j:endConditional target="#when_9"/>
-        <j:conditional xml:id="when_10">
-          <j:any>
-            <tei:fs type="opensiddur:holiday-aggregate">
-              <tei:f name="minor-fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="tzom-tammuz">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-          </j:any>
-        </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_geullah"/>
         <j:endConditional target="#when_10"/>
         <j:conditional xml:id="when_11">
-          <j:any>
-            <tei:fs type="opensiddur:holiday-aggregate">
-              <tei:f name="minor-fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="tzom-tammuz">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-          </j:any>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tzom-tammuz">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_parnasah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_geullah"/>
         <j:endConditional target="#when_11"/>
         <j:conditional xml:id="when_12">
-          <j:any>
-            <tei:fs type="opensiddur:holiday-aggregate">
-              <tei:f name="minor-fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="tzom-tammuz">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-          </j:any>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tzom-tammuz">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
         </j:conditional>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_zekhuyyot"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_parnasah"/>
         <j:endConditional target="#when_12"/>
         <j:conditional xml:id="when_13">
-          <j:any>
-            <tei:fs type="opensiddur:holiday-aggregate">
-              <tei:f name="minor-fast">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-            <tei:fs type="opensiddur:holiday">
-              <tei:f name="tzom-tammuz">
-                <tei:binary value="true"/>
-              </tei:f>
-            </tei:fs>
-          </j:any>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tzom-tammuz">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_zekhuyyot"/>
+        <j:endConditional target="#when_13"/>
+        <j:conditional xml:id="when_14">
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="minor-fast">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tzom-tammuz">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/zokhrenu_selichah"/>
-        <j:endConditional target="#when_13"/>
+        <j:endConditional target="#when_14"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/hatzmach"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/harem_yisrael"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/harem_meshichekha"/>
@@ -239,7 +299,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_rachamekha"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/aseh_shimkha"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:avinu_malkenu/chonnenu"/>
-        <j:conditional xml:id="when_14">
+        <j:conditional xml:id="when_15">
           <tei:note type="instruction" xml:lang="he">בשני וחמישי יאמר והוא רחום. בשאר ימים שאומרים בהם תחנון יאמר שומר ישראל.</tei:note>
           <j:all>
             <j:any>
@@ -476,7 +536,7 @@
             </j:none>
           </j:all>
         </j:conditional>
-        <j:endConditional target="#when_14"/>
+        <j:endConditional target="#when_15"/>
       </tei:div>
     </tei:body>
   </tei:text>

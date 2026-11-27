@@ -52,6 +52,17 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/nachem_hashem_eloheinu"/>
         <j:endConditional target="#when_1"/>
+        <j:conditional xml:id="when_2">
+          <j:none>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="tisha-bav">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yerushalayim/seal"/>
+        <j:endConditional target="#when_2"/>
       </tei:div>
     </tei:body>
   </tei:text>

@@ -113,10 +113,30 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/uveneh_yerushalayim"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/hatov_vehametiv"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkat_hamazon/yiru_et_adonai"/>
-        <tei:note type="instruction" xml:lang="en">The following blessings are said in the event you forgot to say רְצֵה or יַעֲלֶה וְיָבֹא and reminded yourself before starting the fourth blessing, הַטּוֹב וְהַמֵּטִיב.</tei:note>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If you forgot to say רְצֵה on Shabbos:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_5">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">If you forgot to say רְצֵה on Shabbos:</tei:hi>
+          </tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="forgot-insertion">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="yom-tov">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_3">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -129,11 +149,35 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_3"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Chodesh:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_5"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_rashei"/>
-        <tei:note type="instruction" xml:lang="en">If you forgot to say יַעֲלֶה וְיָבֹא on Yom Tov:</tei:note>
+        <j:conditional xml:id="when_6">
+          <tei:note type="instruction" xml:lang="en">If you forgot to say יַעֲלֶה וְיָבֹא on Yom Tov:</tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="forgot-insertion">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="yom-tov">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_4">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
@@ -143,9 +187,36 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
         <j:endDeclare target="#variants_4"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If a Yom Tov occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_6"/>
+        <j:conditional xml:id="when_7">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">If a Yom Tov occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
+          </tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="forgot-insertion">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="yom-tov">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hashana">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_5">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -158,10 +229,32 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_5"/>
+        <j:endConditional target="#when_7"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:vehazzemannim"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Hashanah:</tei:hi>
-        </tei:note>
+        <j:conditional xml:id="when_8">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">If you forgot to say יַעֲלֶה וְיָבֹא on Rosh Hashanah:</tei:hi>
+          </tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="forgot-insertion">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hashana">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <j:none>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="shabbat">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_6">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_yamim/berakhot_birkat_hamazon">
@@ -171,9 +264,29 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_yamim"/>
         <j:endDeclare target="#variants_6"/>
-        <tei:note type="instruction" xml:lang="en">
-          <tei:hi rend="italic">If Rosh Hashanah occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
-        </tei:note>
+        <j:endConditional target="#when_8"/>
+        <j:conditional xml:id="when_9">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">If Rosh Hashanah occurs on Shabbos and you forgot to say רְצֵה and יַעֲלֶה וְיָבֹא:</tei:hi>
+          </tei:note>
+          <j:all>
+            <tei:fs type="opensiddur:meal-context">
+              <tei:f name="forgot-insertion">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hashana">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="shabbat">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:all>
+        </j:conditional>
         <j:declare xml:id="variants_7">
           <tei:fs type="opensiddur:variant">
             <tei:f name="urn:x-opensiddur:condition:prayer:asher_natan_shabbatot/berakhot_birkat_hamazon">
@@ -186,6 +299,7 @@
         </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_natan_shabbatot"/>
         <j:endDeclare target="#variants_7"/>
+        <j:endConditional target="#when_9"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:veyom_hazikkaron"/>
       </tei:div>
     </tei:body>

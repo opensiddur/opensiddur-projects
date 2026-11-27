@@ -39,27 +39,7 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/harachaman"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/anna_bekhoach"/>
-        <j:declare xml:id="variants_2">
-          <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_preparatory_leolam_yehe_adam">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_birkhot_keriat_shema_keriat_shema">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_birkhot_keriat_shema_keriat_shema">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_keriat_shema_al_hamittah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/shabbat_arvit_birkhot_keriat_shema_keriat_shema">
-              <tei:binary value="false"/>
-            </tei:f>
-          </tei:fs>
-        </j:declare>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
-        <j:endDeclare target="#variants_2"/>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/ribbono"/>
       </tei:div>
     </tei:body>

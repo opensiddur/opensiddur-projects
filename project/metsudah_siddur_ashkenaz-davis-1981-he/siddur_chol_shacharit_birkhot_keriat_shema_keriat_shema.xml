@@ -34,28 +34,17 @@
         </j:conditional>
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema/el_melekh_neeman"/>
         <j:endConditional target="#when_1"/>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
-        <tei:note type="instruction" xml:lang="he">יש להפסיק מעט בין אחד לברוך כי עיקר קבול עול מלכות שמים היא פסוק ראשון. ויאמר בלחש:</tei:note>
         <j:declare xml:id="variants_1">
           <tei:fs type="opensiddur:variant">
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_preparatory_leolam_yehe_adam">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/chol_arvit_keriat_shema_al_hamittah">
               <tei:binary value="false"/>
             </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_shacharit_birkhot_keriat_shema_keriat_shema">
-              <tei:binary value="true"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_birkhot_keriat_shema_keriat_shema">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/chol_arvit_keriat_shema_al_hamittah">
-              <tei:binary value="false"/>
-            </tei:f>
-            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_shem_kevod/shabbat_arvit_birkhot_keriat_shema_keriat_shema">
+            <tei:f name="urn:x-opensiddur:condition:prayer:shema/shabbat_arvit_birkhot_keriat_shema_keriat_shema">
               <tei:binary value="false"/>
             </tei:f>
           </tei:fs>
         </j:declare>
-        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_shem_kevod"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shema"/>
         <j:endDeclare target="#variants_1"/>
       </tei:div>
     </tei:body>
