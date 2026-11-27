@@ -39,6 +39,9 @@
         <j:transclude type="external" target="urn:x-opensiddur:text:prayer:birkhot_hashachar/shelo_asani_ishah"/>
         <j:endConditional target="#when_1"/>
         <j:conditional xml:id="when_2">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">A woman says:</tei:hi>
+          </tei:note>
           <tei:fs type="opensiddur:person">
             <tei:f name="gender">
               <tei:symbol value="female"/>
