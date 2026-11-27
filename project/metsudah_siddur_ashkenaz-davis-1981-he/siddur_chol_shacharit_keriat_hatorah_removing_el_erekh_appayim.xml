@@ -1,0 +1,103 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">אל ארך אפים</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/keriat_hatorah/removing/el_erekh_appayim">
+        <tei:head xml:lang="he">אל ארך אפים</tei:head>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">אין אומרים אא"א לא בר"ח ולא בע"פ ולא בערב יו"כ ולא בחנוכה ולא בשני ימים של פורים קטן וגדול. ויש נוהגים שאין אומרים אותו בכל יום שאין אומרים בו תחנון. אין אומרים אא"א בבית האבל. וצריך לאומרו מעומד.</tei:note>
+          <j:all>
+            <j:any>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="2"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:day-of-week">
+                <tei:f name="hebrew-day">
+                  <tei:numeric value="5"/>
+                </tei:f>
+              </tei:fs>
+            </j:any>
+            <j:none>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="rosh-hodesh">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="1"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="tisha-bav">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="hanukkah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="12"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="13"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="14" max="15"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:hebrew-date">
+                <tei:f name="month">
+                  <tei:numeric value="7"/>
+                </tei:f>
+                <tei:f name="day">
+                  <tei:numeric value="9"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:override">
+                <tei:f name="house-of-mourning">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:none>
+          </j:all>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:el_erekh_appayim/text"/>
+        <j:endConditional target="#when_1"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

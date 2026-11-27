@@ -1,0 +1,49 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Third Blessing after Shema</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/birkhot_keriat_shema/third_blessing_after_shema">
+        <tei:head xml:lang="en">Third Blessing after Shema</tei:head>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">The following prayer was originally a compilation of eighteen verses instituted during the Gaonic era as a substitute for the </tei:hi>Shemoneh Esrei.<tei:hi rend="italic"> According to Avudraham, the </tei:hi>Shemoneh Esrei<tei:hi rend="italic"> was omitted because of decrees issued against the Jews that banned them from participating in the Evening Service. These eighteen verses, adopted in place of the </tei:hi>Shemoneh Esrei,<tei:hi rend="italic"> have remained a part of the </tei:hi>Maariv<tei:hi rend="italic"> service. Some Halachic commentaries maintain that these verses should not be included in </tei:hi>Maariv,<tei:hi rend="italic"> because they constitute an interruption between the final blessing after Shema and the </tei:hi>Shemoneh Esrei.<tei:hi rend="italic"/></tei:note>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:barukh_adonai_leolam/chol_arvit_birkhot_keriat_shema_third_blessing_after_shema">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_adonai_leolam"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:declare xml:id="variants_2">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yiru_eineinu_veyismach/chol_arvit_keriat_shema_al_hamittah">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yiru_eineinu_veyismach"/>
+        <j:endDeclare target="#variants_2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

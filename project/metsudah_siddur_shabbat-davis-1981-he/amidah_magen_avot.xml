@@ -26,8 +26,10 @@
         <tei:p><tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/magen_avot/1"/>מָגֵן אָבוֹת בִּדְבָרוֹ.
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/magen_avot/2"/>מְחַיֵּה מֵתִים
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/magen_avot/3"/>בְּמַאֲמָרוֹ.
+<j:conditional xml:id="when_2"><j:none><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:none></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/magen_avot/4"/>הָאֵל הַקָּדוֹשׁ
 <tei:milestone unit="phrase"/>
+<j:endConditional target="#when_2"/>
 <j:conditional xml:id="when_1"><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="aseret-ymei-tshuva"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:amidah/magen_avot/5"/><tei:hi rend="small">(הַמֶּלֶךְ הַקָּדוֹשׁ)</tei:hi>
 <tei:milestone unit="phrase"/>

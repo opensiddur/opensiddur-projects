@@ -1,0 +1,42 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Az Yashir</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/az_yashir">
+        <tei:head xml:lang="en">Az Yashir</tei:head>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">In Temple times Shiras Hayam, the Song of the Sea, was sung by the Levites when the daily afternoon sacrifice was offered.Minchah<tei:hi rend="italic"> on Shabbos.</tei:hi> After the destruction, the Jews of the Holy Land continued the tradition, reciting the Shira at the end of the </tei:hi>Pesukei Dezimrah.<tei:hi rend="italic"> The custom spread to Italy and from there to other Jewish communities. This daily recital is mentioned by Rav Saadya Gaon but not as an obligatory part of the service. Rambam calls it a “custom.” Subsequently adopted by all communities, reciting the Shira became an integral part of our daily prayers. Some hold that the Shira should be chanted aloud while standing. It should be sung with joy as at the time of the Exodus. </tei:hi>“Sheloh”<tei:hi rend="italic"> writes that reciting the Shira atones for sin, so that if one wishes to repent a serious sin, he should recite the Shira every day with great fervor. The </tei:hi>Zohar<tei:hi rend="italic"> says, “If one recites this song with elation and joy, he will be worthy to sing it in the next world. He will also be worthy to sing it when he greets the Messiah.”</tei:hi></tei:note>
+        <tei:anchor xml:id="note_1"/>
+        <tei:anchor xml:id="note_2"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:shirat_hayam"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+  <tei:standOff type="notes">
+    <tei:note type="commentary" target="#note_1" xml:lang="en">
+      <tei:p><tei:hi rend="italic">Maseches Rosh Hashanah</tei:hi> 31a, mentions that the Ode was sung at</tei:p>
+    </tei:note>
+    <tei:note type="commentary" target="#note_2" xml:lang="en">
+      <tei:p><tei:hi rend="italic">Hilchos Tefillah</tei:hi> 7:13.</tei:p>
+    </tei:note>
+  </tei:standOff>
+</tei:TEI>

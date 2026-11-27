@@ -1,0 +1,52 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Concluding Passage</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/elohai_netzor">
+        <tei:head xml:lang="en">Concluding Passage</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19/15"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/elohai_netzor/text"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:kaddish/yatom/oseh_shalom"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/chol_shacharit_shemoneh_esreh_elohai_netzor">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/chol_minchah_shemoneh_esreh_elohai_netzor">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/chol_arvit_shemoneh_esreh_elohai_netzor">
+              <tei:binary value="false"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/yehi_ratzon/shabbat_arvit_shemoneh_esreh_elohai_netzor">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/yehi_ratzon"/>
+        <j:endDeclare target="#variants_1"/>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">On Rosh Chodesh, Chol HaMoed, and Chanukah, Hallel is recited. On Fast Days (Monday—Thursday—Monday, Tenth of Teves, Fast of Esther, Seventeenth of Tamuz) </tei:hi>Selichos<tei:hi rend="italic"> are recited. On days when </tei:hi>Tachanun<tei:hi rend="italic"> is omitted (see below) the chazzan continues with Half Kaddish. (14 and 15 Adar Rishon in a leap year); the entire month of Nissan; Pesach Sheini (14 Iyar); Lag BaOmer; 1-8 Sivan; 9 and 15 Av; and 29 Elul. When </tei:hi>Tachanun<tei:hi rend="italic"> is omitted on these days, it is also omitted at the preceding Mincha (afternoon service). </tei:hi>Tachanun<tei:hi rend="italic"> is also omitted in the presence of a bridegroom, in the house of a mourner during the week of mourning, and on the occasion of a circumcision if the father, the </tei:hi>sandak<tei:hi rend="italic"> or the </tei:hi>mohel<tei:hi rend="italic"> is present.</tei:hi></tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

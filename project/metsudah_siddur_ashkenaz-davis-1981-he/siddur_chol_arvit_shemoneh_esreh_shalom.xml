@@ -1,0 +1,71 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">שים שלום</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/shemoneh_esreh/shalom">
+        <tei:head xml:lang="he">שים שלום</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom_rav_al"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="he">בעשי"ת:</tei:note>
+          <tei:fs type="opensiddur:holiday-aggregate">
+            <tei:f name="aseret-ymei-tshuva">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:conditional>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim_hamevarekh/chol_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="true"/>
+            </tei:f>
+            <tei:f name="urn:x-opensiddur:condition:prayer:amidah/shalom/besefer_chayyim_hamevarekh/shabbat_arvit_shemoneh_esreh_shalom">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/besefer_chayyim_hamevarekh"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_1"/>
+        <tei:note type="instruction" xml:lang="he">ואם לא אמר בְּסֵֽפֶר חַיִּים כיון שסיים הברכה או רק בא"י אינו חוזר. ונ"ל דבזה ראוי לומר בספר תיכף כשסיים המברך את עמו ישראל בשלום קודם יהיו לרצון כיון שכבר גמר התפלה. (דהא לר"ת לעולם אומרים בסוף ברכה אפילו בדבר שאין מחזירין אלא דהחולקים סוברים כיון דא"צ לחזור א"כ הוי הפסק באמצע תפלה מה שאין כן כאן.) (חיי אדם כלל כ"ד סעי' כ"ה)</tei:note>
+        <j:conditional xml:id="when_2">
+          <j:none>
+            <j:all>
+              <tei:fs type="opensiddur:practice">
+                <tei:f name="oseh-hashalom-aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="aseret-ymei-tshuva">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/shalom/hamevarekh"/>
+        <j:endConditional target="#when_2"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

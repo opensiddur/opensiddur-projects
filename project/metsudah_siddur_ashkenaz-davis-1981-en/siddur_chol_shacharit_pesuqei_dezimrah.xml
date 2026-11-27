@@ -1,0 +1,82 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Pesukei Dezimra</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah">
+        <tei:head xml:lang="en">Pesukei Dezimra</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/mizmor_shir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/kaddish_yatom"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/barukh_sheamar"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hodu"/>
+        <j:conditional xml:id="leaf_5">
+          <j:none>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="1"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="14"/>
+              </tei:f>
+            </tei:fs>
+            <j:all>
+              <tei:fs type="opensiddur:holiday-aggregate">
+                <tei:f name="chol-hamoed">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+              <tei:fs type="opensiddur:holiday">
+                <tei:f name="pesah">
+                  <tei:binary value="true"/>
+                </tei:f>
+              </tei:fs>
+            </j:all>
+            <tei:fs type="opensiddur:hebrew-date">
+              <tei:f name="month">
+                <tei:numeric value="7"/>
+              </tei:f>
+              <tei:f name="day">
+                <tei:numeric value="9"/>
+              </tei:f>
+            </tei:fs>
+          </j:none>
+        </j:conditional>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/mizmor_letodah"/>
+        <j:endConditional target="#leaf_5"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/yehi_khevod"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/ashrei"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_146"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_147"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_148"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_149"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_150"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/barukh_adonai_leolam"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vayevarekh_david"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/attah_hu"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/az_yashir"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/yishtabbach"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/psalm_130"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/chatzi_kaddish"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

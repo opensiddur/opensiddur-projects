@@ -1,0 +1,38 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">גאל ישראל</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/birkhot_keriat_shema/blessing_after_shema">
+        <tei:head xml:lang="he">גאל ישראל</tei:head>
+        <tei:note type="description" xml:lang="he">כל שלא אמר אמת ויציב שחרית ואמת ואמונה ערבית לא יצא ידי חובתו שנאמר (תהלים צב ג) להגיד בבקר חסדך ואמונתך בלילות (ברכות יא:) ופירש"י שברכת אמת ויציב כלה על חסד שעשה עם אבותינו שהוציאם ממצרים ובקע להם הים והעבירם.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/emet"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/al_harishonim"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/ezrat"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/mi_khamokhah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/shirah"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/adonai_yimlokh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:emet_veyatziv/tzur_yisrael"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

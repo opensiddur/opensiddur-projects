@@ -1,0 +1,50 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="he">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="he">ברכת הלבנה</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-he/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/arvit/birkat_halevanah">
+        <tei:head xml:lang="he">ברכת הלבנה</tei:head>
+        <tei:note type="instruction" xml:lang="he">אין לקדש החדש אלא בלילה בעת שהלבנה זורחת ונהנין מאורה (אגור). צריך שלא יהיה מסך מבדיל בינו לבין הלבנה. והוא הדין אם נתכסה בעבים. אבל אם נתכסה בעב דק וקלוש מברך. ואם התחיל לברך ונתכסה גומר הברכה.</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/148/1-6"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:hinni_mukhan_umezuman"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:asher_bemaamaro_bara"/>
+        <tei:note type="instruction" xml:lang="he">ג"פ</tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:barukh_yotzerekh_barukh"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:song_of_songs/2/8-9"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/121"/>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:poem:anusah_leezrah/psalm_150/quotes/psalms_150/chol_arvit_birkat_halevanah">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:poem:anusah_leezrah/psalm_150/quotes/psalms_150"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:tana_devei_rabbi"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:sefirat_haomer/psalm_67"/>
+        <tei:note type="instruction" xml:lang="he">אומרים עלינו לשבח וקדיש יתום</tei:note>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

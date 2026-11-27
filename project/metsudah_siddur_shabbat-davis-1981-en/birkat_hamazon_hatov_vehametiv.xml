@@ -85,7 +85,7 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/55"/>and all that is mine;
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#when_2"/>
-<j:conditional xml:id="when_3"><tei:note type="instruction" xml:lang="en">A guest says:</tei:note><j:all><tei:fs type="opensiddur:meal-context"><tei:f name="guest"><tei:binary value="true"/></tei:f></tei:fs><j:none><j:any><tei:fs type="opensiddur:meal-context"><tei:f name="father-is-host"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:meal-context"><tei:f name="mother-is-host"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:none></j:all></j:conditional>
+<j:conditional xml:id="when_3"><tei:note type="instruction" xml:lang="en">A guest says:</tei:note><tei:fs type="opensiddur:meal-context"><tei:f name="guest"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/56"/>May the Merciful One bless
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/57"/>the host
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/58"/>and the hostess,
@@ -145,36 +145,37 @@
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/102"/>that day which is completely good.
 <tei:milestone unit="phrase"/>
 <j:endConditional target="#when_6"/>
-<tei:note type="instruction" xml:lang="en">On Rosh Hashonoh say:</tei:note>
+<j:conditional xml:id="when_7"><tei:note type="instruction" xml:lang="en">On Rosh Hashonoh say:</tei:note><tei:fs type="opensiddur:holiday"><tei:f name="rosh-hashana"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/103"/>May the Merciful One renew for us
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/104"/>this year
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/105"/>for good and for blessing.
 <tei:milestone unit="phrase"/>
-<j:conditional xml:id="when_7"><tei:note type="instruction" xml:lang="en">On Sukkos say:</tei:note><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
+<j:endConditional target="#when_7"/>
+<j:conditional xml:id="when_8"><tei:note type="instruction" xml:lang="en">On Sukkos say:</tei:note><tei:fs type="opensiddur:holiday"><tei:f name="sukkot"><tei:binary value="true"/></tei:f></tei:fs></j:conditional>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/106"/>May the Merciful One raise up for us
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/107"/>the fallen Tabernacle of David.
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_8"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/108"/>May the Merciful One make us worthy
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/109"/>of the days of the Messiah
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/110"/>and life of the World to Come.
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_7"/>
-<j:conditional xml:id="when_8"><tei:note type="instruction" xml:lang="en">On Shabbos and Yom Tov say:</tei:note><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
+<j:conditional xml:id="when_9"><tei:note type="instruction" xml:lang="en">On Shabbos and Yom Tov say:</tei:note><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:conditional>
+<tei:note type="editorial" xml:lang="en">II Samuel 22:51.</tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/112"/>He who is a tower of deliverance
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/113"/>to His king,<tei:anchor xml:id="note_5"/>
 <tei:milestone unit="phrase"/>
-<j:endConditional target="#when_8"/>
-<j:conditional xml:id="when_9"><tei:note type="instruction" xml:lang="en">On weekdays say:</tei:note><j:none><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:none></j:conditional>
-<tei:milestone unit="verse" corresp="urn:x-opensiddur:text:bible:psalms/18/51"/>
+<j:endConditional target="#when_9"/>
+<j:conditional xml:id="when_10"><tei:note type="instruction" xml:lang="en">On weekdays say:</tei:note><j:none><j:any><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="shabbat"><tei:binary value="true"/></tei:f></tei:fs><tei:fs type="opensiddur:holiday-aggregate"><tei:f name="yom-tov"><tei:binary value="true"/></tei:f></tei:fs></j:any></j:none></j:conditional>
+<tei:note type="editorial" xml:lang="en">Psalm 18:51.</tei:note>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/122"/>He who gives great deliverance to His king,
+<tei:milestone unit="phrase"/>
+<j:endConditional target="#when_10"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/114"/>and shows kindness to His anointed—
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/115"/>to David and his descendants forever.<tei:anchor xml:id="note_6"/>
-<tei:milestone unit="phrase"/>
-<tei:milestone unit="verse"/>
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/116"/>He Who makes peace in His high heavens
 <tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/117"/>may He make peace for us
-<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/123"/>and for all Israel, and say, Amein.
-<tei:milestone unit="phrase"/>
-<j:endConditional target="#when_9"/></tei:p>
+<tei:milestone unit="phrase" corresp="urn:x-opensiddur:text:metsudah:birkat_hamazon/hatov_vehametiv/123"/>and for all Israel, and say, Amein.</tei:p>
       </tei:div>
     </tei:body>
   </tei:text>

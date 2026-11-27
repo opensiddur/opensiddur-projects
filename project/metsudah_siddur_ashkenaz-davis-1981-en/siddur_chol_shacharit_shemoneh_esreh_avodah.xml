@@ -1,0 +1,60 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main" xml:lang="en">Temple Service</tei:title>
+      </tei:titleStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:availability status="free">
+          <tei:licence target="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</tei:licence>
+          <tei:p>Published by Sefaria under CC-BY, which Sefaria defines as Creative Commons Attribution 3.0.</tei:p>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/metsudah_siddur_ashkenaz-davis-1981-en/index#project_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:chol/shacharit/shemoneh_esreh/avodah">
+        <tei:head xml:lang="en">Temple Service</tei:head>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/retzeh"/>
+        <j:conditional xml:id="when_1">
+          <tei:note type="instruction" xml:lang="en">
+            <tei:hi rend="italic">On regular weekdays continue, “And may our eyes”. On Rosh Chodesh and on Chol HaMoed, the following prayer is added:</tei:hi>
+          </tei:note>
+          <j:any>
+            <tei:fs type="opensiddur:holiday">
+              <tei:f name="rosh-hodesh">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+            <tei:fs type="opensiddur:holiday-aggregate">
+              <tei:f name="chol-hamoed">
+                <tei:binary value="true"/>
+              </tei:f>
+            </tei:fs>
+          </j:any>
+        </j:conditional>
+        <j:declare xml:id="variants_1">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:prayer:yaaleh_veyavo/berakhot_birkat_hamazon">
+              <tei:binary value="false"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:yaaleh_veyavo"/>
+        <j:endDeclare target="#variants_1"/>
+        <j:endConditional target="#when_1"/>
+        <tei:note type="description" xml:lang="en"><tei:hi rend="italic">If you forgot to say this at Shacharis, (the Morning Service) or at Mincha (the Afternoon Service), but realized your omission before saying מוֹדִים, “We are thankful,” you should say it at that time and continue with מוֹדִים. If you became aware of your omission after saying “מוֹדִים” “We are thankful,” but before concluding the Shemoneh Esrei [and taking three steps backwards], start again from רְצֵה, “Be pleased.” If you had completed the Shemoneh Esrei and then remembered, you must repeat the entire Shemoneh Esrei from the beginning. If you are in doubt, follow the same procedure as above. If you had already said the Musaf prayer and recalled your omission, it is the opinion of some authorities, that the<tei:hi rend="italic"> Shemoneh Esrei</tei:hi> of </tei:hi>Shacharis<tei:hi rend="italic"> be repeated as a נְדָבָה, a free-will-offering of prayer, rather than an obligatory prayer.</tei:hi></tei:note>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:amidah/avodah/vetechezeinah"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>
