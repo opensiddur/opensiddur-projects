@@ -1,0 +1,63 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:j="http://jewishliturgy.org/ns/jlptei/2" xml:lang="en">
+  <tei:teiHeader>
+    <tei:fileDesc>
+      <tei:titleStmt>
+        <tei:title type="main">Verses of song</tei:title>
+        <tei:respStmt>
+          <tei:resp key="trc">AI-assisted image transcription</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+        <tei:respStmt>
+          <tei:resp key="mrk">JLPTEI markup</tei:resp>
+          <tei:name ref="urn:x-opensiddur:contributor:opensiddur.org/codex">Codex</tei:name>
+        </tei:respStmt>
+      </tei:titleStmt>
+      <tei:editionStmt>
+        <tei:edition>Draft source witness. Exact review scope and complete-scan acceptance are recorded in sources/marmorstein_rosh_hashanah_2/batches/.</tei:edition>
+      </tei:editionStmt>
+      <tei:publicationStmt>
+        <tei:distributor>
+          <tei:ref target="https://opensiddur.org">Open Siddur Project</tei:ref>
+        </tei:distributor>
+        <tei:idno type="urn">urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/shacharit/pesuqei_dezimrah@prayerbook_for_the_new_year_second_day-marmorstein-1965-en</tei:idno>
+        <tei:availability status="free">
+          <tei:licence target="http://www.creativecommons.org/publicdomain/zero/1.0">Creative Commons Zero (Public Domain Dedication)</tei:licence>
+        </tei:availability>
+      </tei:publicationStmt>
+      <tei:sourceDesc>
+        <tei:bibl>
+          <tei:ptr target="/prayerbook_for_the_new_year_second_day-marmorstein-1965-en/index#day_two_source_bibl"/>
+        </tei:bibl>
+      </tei:sourceDesc>
+    </tei:fileDesc>
+  </tei:teiHeader>
+  <tei:text>
+    <tei:body>
+      <tei:div corresp="urn:x-opensiddur:text:siddur:rosh_hashanah/day_two/shacharit/pesuqei_dezimrah">
+        <j:declare xml:id="pesuqei_printed_translations">
+          <tei:fs type="opensiddur:variant">
+            <tei:f name="urn:x-opensiddur:condition:bible:psalms/91/16/second_day_repetition_translation">
+              <tei:binary value="true"/>
+            </tei:f>
+          </tei:fs>
+        </j:declare>
+        <j:transclude type="external" target="urn:x-opensiddur:text:prayer:pesuqei_dezimrah/barukh_sheamar@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:chronicles_1/16/8-/16/36@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/romemu@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/vehu_rachum@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:siddur:chol/shacharit/pesuqei_dezimrah/hoshiah_et_ammekha@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/19@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/34@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/90@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/91@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/135@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/1-/136/24@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/136/26@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/33@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/92@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:transclude type="external" target="urn:x-opensiddur:text:bible:psalms/93@prayerbook_for_the_new_year_second_day-marmorstein-1965-en"/>
+        <j:endDeclare target="#pesuqei_printed_translations"/>
+      </tei:div>
+    </tei:body>
+  </tei:text>
+</tei:TEI>

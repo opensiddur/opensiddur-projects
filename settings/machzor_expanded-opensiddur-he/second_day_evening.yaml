@@ -1,0 +1,47 @@
+requires_processor: '>=0.9.0.dev0'
+annotations:
+- prayerbook_for_the_new_year_second_day-heidenheim-1965-he
+- prayerbook_for_the_new_year_second_day-marmorstein-1965-en
+book:
+  project: machzor_expanded-opensiddur-he
+  file_name: second_night.xml
+  title: Prayerbook for the New Year — second-night evening service
+declarations:
+  opensiddur:holiday:
+    rosh-hashana: 2
+  opensiddur:service-time:
+    shaharit: false
+    minha: false
+    maariv: true
+    musaf: false
+    neila: false
+    slihot: false
+  opensiddur:holiday-aggregate:
+    aseret-ymei-tshuva: true
+description: Second-day evening service, scans1–24. Acceptance is recorded in the
+  source batch ledger.
+electronic:
+  day: none
+parallel:
+  projects:
+  - prayerbook_for_the_new_year_second_day-marmorstein-1965-en
+priority:
+  transclusion:
+  - prayerbook_for_the_new_year_second_day-heidenheim-1965-he
+  - prayerbook_for_the_new_year-heidenheim-1965-he
+  - machzor_expanded-opensiddur-he
+  instructions:
+  - machzor_expanded-opensiddur-he
+  - prayerbook_for_the_new_year_second_day-heidenheim-1965-he
+typography:
+  line_numbers:
+    enabled: false
+  markers:
+    scan_links:
+      placement: margin
+  notes:
+    anchor: superscript
+  paragraphs:
+    line_spacing: 1.15
+  instructions:
+    from: both
